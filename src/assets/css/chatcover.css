@@ -1,0 +1,62 @@
+
+.chat-cover-top {
+    padding-top: 20px;
+
+    /* If REP is pre-made by Juji, it should be the background color */
+    /*background-color: #8BDFCD;*/
+
+    background-color: #FADB92;
+
+    /* Default background*/
+    /*background-color: #F2F2F2;*/
+}
+
+.chat-cover-top .title-area {
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+.chat-cover-top .title-area h2 {
+    font-size: 1.5em;
+}
+
+.chat-cover-top .title-area h4 {
+    font-size: 1em;
+}
+
+.chat-cover-top .rep-area {
+    max-width: 350px;
+    max-height: 350px;
+
+}
+
+.chat-cover-top .rep-area img {
+    max-width: 90%;
+    max-height: 90%;
+
+}
+
+.chat-cover-bottom {
+    margin-top: 50px;
+}
+
+.chat-cover-bottom .user-form {
+    margin: auto;
+    width: 75%;
+}
+
+.chat-cover-bottom input[type=submit] {
+    width: 100%;
+    background-color: #28BD8B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: GothamRounded-Bold;
+}
+
+    

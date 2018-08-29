@@ -1,0 +1,1177 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+/* Modified to adapt to Juji content */
+
+@font-face {
+    font-family:GothamRounded-Light;
+    src:url(../fonts/GothamRounded-Light/GothamRounded-Light.eot) format('embedded-opentype');
+    font-weight:400;
+    font-style:normal
+}
+
+@font-face {
+	font-family: GothamRounded-LightItalic;
+	src: url(../fonts/GothamRounded-Light/GothamRounded-LightItalic.woff) format('woff');
+}
+
+@font-face {
+    font-family:GothamRounded-Light;
+    src:url(../fonts/GothamRounded-Light/GothamRounded-Light.otf) format('opentype'),url(../fonts/GothamRounded-Light/GothamRounded-Light.woff) format('woff'),url(../fonts/GothamRounded-Light/GothamRounded-Light.ttf) format('truetype'),url(../fonts/GothamRounded-Light/GothamRounded-Light.svg#GothamRounded-Light) format('svg');
+    font-weight:400;
+    font-style:normal
+}
+
+@font-face {
+    font-family:GothamRounded-Bold;
+    src: url(../fonts/GothamRounded-Light/GothamRounded-Light.otf) format('opentype'), url(../fonts/GothamRounded-Bold/GothamRounded-Bold.woff) format('woff'), url(../fonts/GothamRounded-Light/GothamRounded-Light.ttf) format('truetype');
+    font-weight:400;
+    font-style:normal
+}
+
+@font-face {
+    font-family:GothamRounded-Book;
+    src:url(../fonts/GothamRounded-Book/GothamRounded-Book.otf) format('opentype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(../fonts/GothamRounded-Book/GothamRounded-Book.ttf) format('truetype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.svg#GothamRounded-Book) format('svg');
+    font-weight:400;
+    font-style:normal
+}
+
+@font-face{
+    font-family:GothamRounded-Medium;
+    src:url(../fonts/GothamRounded-Medium/GothamRounded-Medium.eot) format('embedded-opentype');
+    font-weight:400;
+    font-style:normal
+}
+
+@font-face {
+    font-family:GothamRounded-Medium;
+    src:url(../fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('opentype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(../fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('truetype'),url(../fonts/GothamRounded-Medium/GothamRounded-Medium.svg#GothamRounded-Medium) format('svg');
+    font-weight:400;
+    font-style:normal
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+    /*overflow: hidden;*/
+    padding-top: 54px;
+    /*background-color: #fcfcfc;*/
+    font-color: black; 
+    font-size: 14px;
+    font-family:  "GothamRounded-Light";
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+h1 {
+   font-family:  "GothamRounded-Medium"; 
+    
+}
+
+h2 {
+    font-family:  "GothamRounded-Medium"; 
+    font-size: 24px;
+}
+
+h3 {
+    font-family:  "GothamRounded-Medium"; 
+    font-size: 18px;
+}
+
+h4 {
+    font-family: "GothamRounded-Book";
+    font-size: 16px;
+}
+
+a {
+
+    text-decoration: none;
+    color:#28BD8B;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.progress-bar {
+
+    background: #28BD8B;
+
+}
+
+.form-label-icon {
+
+    width: 24px;
+    height: 24px;
+}
+
+/* Focus */
+[contenteditable]:focus {
+    color: red;
+    outline: 0px solid transparent;
+}
+
+input:focus {
+    outline: 0px solid transparent;
+}
+
+textarea:focus {
+    
+    outline: 0px solid transparent;
+}
+
+/* Juji input radio and checkbox buttons */
+
+input[type='radio']::before {
+  content:'';
+  display:block;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+}
+
+input[type='radio']:checked::before {
+    background:  white;
+    border: 4px solid  #28BD8B;
+}
+
+
+/* Create a toggle switch object */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    margin: 0;
+}
+
+*.switch input {display:none;}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E5545B;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+/* Rounded sliders */
+.slider.round {
+    /* This should be coordinated with the slider size*/
+      border-radius: 15px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* This is to render the circle toggle */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #EFEBEA;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #28BD8B;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2DB787;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+}
+
+
+/*******************************************
+ * A set of standard GUIs by Juji styling
+ *******************************************/
+
+.juji-gui-form {
+
+    font-size: 14px;
+    font-family: GothamRounded-Light;
+}
+
+.juji-gui-form label {
+    display: inline-block;
+    font-size: 14px;
+    font-family: GothamRounded-Book;
+    color: #000000;
+    margin-right: 0.5em;
+}
+
+.juji-text-input {
+
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #A8A8A8;
+    width: 100%;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+
+.juji-text-input-box {
+
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #FFFFFF;
+    height: 35px;
+    border: none;
+}
+
+.juji-date-input {
+    border: none;
+    border-bottom: 1px solid #A8A8A8;
+}
+
+.juji-text-area {
+
+    width: 100%;
+    min-height: 200px;
+    
+}
+
+
+.juji-canned-form {
+    padding: 5px 10px;
+}
+
+.juji-gui-template, .juji-gui-template label {
+
+    font-family: GothamRounded-Light;
+    cursor: text;
+    color: #A8A8A8;
+}
+
+
+.juji-disabled-form label {
+
+    color: #A8A8A8;
+}
+
+.juji-disabled-form input {
+    background: #D8D8D8;
+}
+
+.juji-dropdown {
+    border: none;
+    min-width: 100px;
+    border-radius: 0px 0px 0px 0px;
+    height: 35px;
+    background: #FFFFFF;
+}
+
+.juji-gui-input-warning {
+	position: relative;
+	font-size: 10px;
+	color: red;
+}
+
+.juji-name-form .salutation {
+    margin-bottom: 10px;
+}    
+
+
+.juji-name-form input {
+    width: 100%;
+}
+
+.juji-dob-form label::before {
+   
+    content: "Date of birth";
+}
+
+.juji-phone-form label::before {
+    content: "Phone";
+}		 
+
+.juji-email-input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #A8A8A8;
+}
+
+.juji-email-form label::before {
+    content: "Email";
+}
+
+.juji-gender-form label::before {
+    content: "Gender";
+}
+
+.juji-gender-form input {
+    margin-left: 10px;
+}
+
+.juji-age-group-form label::before {
+    content: "Age Group";
+}
+
+.juji-education-form label::before {
+    content: "Education";
+}
+
+.juji-race-form label::before {
+    content: "Race";
+}
+
+.juji-address-form label::before {
+    content: "Address";
+}
+
+.juji-address-form .second-row {
+
+    margin-top: 10px;
+}
+
+.juji-address-form input {
+    width: 100%;
+}
+
+.juji-fileupload-form label {
+    cursor: pointer;
+}
+
+.juji-fileupload-form img {
+    
+    width: 30px;
+    height: 30px;
+
+    vertical-align: middle;
+        
+
+}
+
+.juji-fileupload-form input {
+    opacity: 0;
+}
+
+/*******************************************
+* common properties
+********************************************/
+.disabled-body {
+    
+    background: #888888;
+}
+    
+.disabled-area
+{
+    pointer-events: none;
+    background: #888888;
+    opacity: 0;
+}
+
+/* a standard check list with check marks*/
+.checklist {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    text-align: left;
+    font-family: GothamRounded-Medium;
+    font-size: 16px;
+}
+
+.checklist li {
+
+    position: relative;
+    margin-bottom: 30px;
+}    
+
+.checklist li::before {
+    content: "";
+    display:inline-block;
+    
+    position: absolute;
+    width: 25px;
+    height: 25px;
+
+     /* Location of the image */
+    background-image: url("../img/ui/done.png");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+
+    top: 0px;
+    right: calc(100% + 10px);
+}
+
+/********************************************
+* a set of buttons that take text label
+*********************************************/
+
+/* Generic button */
+
+button {
+    
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0px solid transparent;
+}
+
+button:select {
+    outline: 0px solid transparent;
+}
+
+.big-action-btn {
+
+    font-size: 16px;
+    font-family: GothamRounded-Medium;
+}
+
+.medium-action-btn {
+
+    font-size: 14px;
+    font-family: GothamRounded-Book;
+}
+
+
+.selected-btn {
+    cursor: pointer;
+    color: white !important;
+    background-color: #28BD8B !important;
+    border-style: none !important;
+
+    /*color: black;
+    background-color: #FFFFFF !important;*/
+}
+
+.selected-btn a {
+    pointer-events: none;
+    color: white;
+    /*background-color: #28BD8B;*/
+
+}
+
+.active-btn {
+    /*background-color: white;*/
+    cursor: pointer;
+}
+
+.active-btn:hover {
+    
+    background: #F2F2F2;
+}
+
+.attention-required-btn {
+
+    position: relative;
+}
+
+.attention-required-btn label::after {
+
+    content: "";
+
+    /* This size is set by the relevant font size */
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /*background-color: #FF555B;*/
+    background-color: #DC3C46;
+    
+    position: absolute;
+    top: calc(50% - 7.5px);
+    left: 75%;
+
+}
+
+.disabled-btn {
+
+    border: none;
+    font-family: "GothamRounded-Light";
+    color: #AFAFAF;
+}
+
+.disabled-btn:hover {
+    cursor: not-allowed;
+}
+
+.text-action-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-action-btn:hover {
+    cursor: pointer;
+    color: #28BD8B;
+}
+
+/********************************************
+* a set of buttons that take an icon image
+*********************************************/
+
+.xl-icon-btn {
+    
+    width: 150px;
+    height: 150px;
+}
+
+/* 48x48 */
+.big-icon-btn {
+    width: 50px;
+    height: 50px;
+}
+
+/* medium icon button takes an icon image at 32x32 */
+.medium-icon-btn {
+    width: 44px;
+    height: 44px;
+}
+
+/* Small icon button takes an icon image at 24x24 */
+.small-icon-btn {
+    width:36px;
+    height:36px;
+}
+
+/* Button button containing text */
+.big-btn {
+
+    width:200px;
+    height:40px;
+
+    font-size:16px;
+
+    color: black;
+    background-color: white;
+
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0;
+   
+}
+
+.big-btn:hover{
+  background-color: #28BD8B;
+  color: white;
+  border: none;
+}
+
+.btn-primary {
+
+    color: black;
+    font-size: 14px;
+    font-family: GothamRounded-Book;
+    border: none !important;
+    
+    background: #D2D2D2 !important;
+    min-width: 120px;
+}
+
+.btn-primary:hover {
+    
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #28BD8B !important;
+}
+
+
+/****************************
+ * Basics of a pop-up window
+ *************************/
+
+.popup-window {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    width: 70%;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 0px 26px #B3B2C0;
+
+   
+}
+
+.popup-window-w-background {
+
+    background-size: cover;
+    background-image: url(../img/ui/grey-bg.png);
+    background-repeat: no-repeat;
+}
+
+.popup-window .title-area {
+
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.popup-window .title-area p {
+
+    font-family: GothamRounded-Book;
+    font-size: 16px;
+}
+
+.popup-window .x-area {
+
+    width: 95%;
+    text-align: right;
+}
+
+.popup-window .main-display {
+
+    width: 90%;
+    
+    margin-left:auto;
+    margin-right:auto;
+
+    margin-top: 60px;
+    margin-bottom: 30px;
+}    
+
+.popup-window .feedback-area {
+
+    width: 80% !important;
+}
+
+/* Defines a popup menu container - can be anything */
+
+.popup-container {
+    
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.popup-container .popup-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.popup-container .popup-menu li {
+    border-bottom :1px solid #eee;
+    line-height: 2.5em !important;
+}
+
+.popup-container .popup-menu li:last-child {
+    border-bottom: none;
+}
+
+.popup-container .popup-menu li:hover {
+
+    color: #28BD8B;
+    background: #D2D2D2;
+}
+
+.popup-container .popup-menu li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.popup-container .popup-menu li a:hover {
+
+    color: #28BD8B;
+    text-decoration: none;
+}
+	      
+
+
+/* The actual popup-container */
+.popup-container .popup-content {
+    
+    /*visibility: hidden;*/
+    opacity: 0;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 2000;
+
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    
+    /* The following should be auto calc instead of hard coded*/
+    width: 140px;
+    margin-left: -70px;
+}
+
+/* Popup down arrow */
+.popup-container .popup-content::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+/* Toggle this class - hide and show the popup */
+.popup-container .show {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+
+/*********************************
+ * Header menu bar properties
+ ********************************/
+
+
+header .nav-item {
+    padding-left: 40px;
+}
+
+header .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+header .navbar .logo {
+
+    width: 50px;
+    height: 49px;
+    
+}
+
+header .nav-link {
+    color: black !important;
+    font-family: GothamRounded-Book;
+    font-size: 14px;
+}
+
+header .recommended-link {
+    padding: 8px 20px 8px 20px !important;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #28BD8B;
+    border-radius: 5px 5px 5px 5px;
+}
+
+header .recommended-link:hover {
+    background: #28BD8B;
+    color: white;
+}
+
+header .active-link {
+    padding: 8px 20px 8px 20px !important;
+    color: white !important;
+    background: #444444;
+    border-radius: 5px 5px 5px 5px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #BBBBBB;
+    background: black;
+}
+
+footer .navigation {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+/*********
+** Index page
+***/
+
+.main-section {
+
+    margin-top: 20px;
+}
+
+.main-section h4 {
+    font-size: 18px;
+    line-height:1.25em;
+}
+
+.main-section .second-action{
+
+    background-image: url("../img/ui/bg-ling.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.banner-section {
+    margin-top: 40px;
+    text-align:center;
+}
+
+.action-area {
+
+    padding-top: 10px;
+
+}
+
+.col-element {
+
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.action-btn {
+   
+    font-family: GothamRounded-Book;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #444444;
+    border-radius: 5px 5px 5px 5px;
+    min-width: 165px;
+}
+
+.action-btn:hover {
+
+    text-decoration: none;
+    background: #28BD8B;
+    color: white;
+    border-style: none;
+}
+
+.text-link{
+    
+    font-family: GothamRounded-Medium;
+    font-size: 18px;
+    color:#28BD8B !important;
+    cursor: pointer;
+    text-align: right;
+}
+
+.second-action {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+/***************
+* Product Page
+*
+****************/
+
+.intro-section .jumbotron {
+    height: 250px;
+    margin-bottom:0px;
+    margin-top: 30px;
+    background: transparent;
+}
+
+@media (min-width: 1024px){
+
+    .intro-section .jumbotron {
+    background-image:url("../img/ui/product-banner-side.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    }
+}
+
+.intro-section .jumbotron ul {
+
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    font-family: GothamRounded-Medium;
+    font-size: 20px;
+
+}
+
+.usecase-section-top {
+    
+    margin-top: 30px;
+    padding-top: 20px;
+
+}
+
+#juji {
+
+     /* If REP is pre-made by Juji, it should be the background color */
+    background-color: #8BDFCD;
+    margin-top: 0px;
+}    
+
+#ava {
+    
+    background-color: #59B988;
+}
+
+#kaya {
+    
+    background-color: #FADB92;
+}
+
+@media (min-width: 450px) {
+
+.usecase-section-top {
+    background-image: url("../img/ui/bubles.png");
+    background-position:center bottom;
+    background-repeat:no-repeat;
+}
+
+}
+
+@media (min-width: 992px) {
+
+.usecase-section-top {
+    background-image: url("../img/ui/bubles.png");
+    background-position:left bottom;
+    background-repeat:no-repeat;
+}
+
+}
+
+
+.usecase-section-top .title-area {
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    text-align:center;
+}
+
+.usecase-section-top .title-area h2 {
+    font-size: 1.5em;
+}
+
+.usecase-section-top .title-area h4 {
+    font-size: 1em;
+}
+
+.usecase-section-top .rep-area {
+    margin: auto;
+    text-align: center;
+    max-width: 250px;
+}
+
+.usecase-section-top .rep-area img {
+    max-width: 90%;
+    max-height: 90%;
+
+}
+
+.usecase-section-bottom {
+    margin-top: 30px;
+
+}
+
+.usecase-section-bottom .text-area {
+    margin:auto;
+    max-width: 600px;
+}
+
+.usecase-section-bottom .text-area h4 {
+    font-size: 16px;
+    line-height: 1.25em;
+}
+
+.usecase-section-bottom .customer-comments {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 75%;
+    font-size: 14px;
+    font-family: GothamRounded-Light;
+    line-height: 1.25em;
+}
+
+.usecase-section-bottom .customer-comments .signature {
+
+    text-align: right;
+}
+
+.usecase-section-bottom .img-area .img-holder {
+    
+    width:375px;
+    margin:auto;
+    text-align:center;
+}
+
+/*********
+*iPhone
+****/
+
+
+.iphone {
+  box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0,0,0,0.7);
+  border: 5px solid #d9dbdc;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 50px;
+  height: 600px;
+  width: 375px;
+  position: relative;
+  margin: 30px auto;  
+  // Scale so that the iPhone fits in view
+  transform: scale(.8);
+}
+
+.iphone-top {
+  padding: 5px 110px 40px;
+  position: relative; 
+  .speaker {
+    display: block;
+    width: 70px;
+    height: 6px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background: #292728;
+  }
+  
+  .camera {
+    display: block;
+    margin: 0 auto;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    background: #333;
+  }
+  
+  .sensor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+    background: #333;
+    margin-top: -5px;
+    border-radius: 50%;
+  }
+}
+
+.top-bar, .bottom-bar {
+  display: block;
+  width: 375px;
+  height: 15px;
+  border: {
+    left: 5px solid #BBB;
+    right: 5px solid #BBB;
+  }
+  position: absolute;
+  left: -5px;
+}
+.top-bar {
+  top: 65px;
+}
+
+.bottom-bar {
+  bottom: 65px;
+}
+
+.iphone-screen {
+  background: #eee;
+  border: 1px solid #fff;
+  /*height: 677px;*/
+  height: 500px;
+  width: 325px;
+  margin: 0 auto;
+  border: 2px solid rgba(0,0,0,0.9);
+  border-radius: 3px;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+.buttons {
+  .on-off, .up, .down, .sleep {
+    display: block;
+    background: #CCC;
+    position: absolute;
+    border-radius: 2px 0px 0px 2px;
+  }
+  .on-off {
+    height: 40px;
+    width: 3px;
+    top: 100px;
+    left: -8px;
+  }
+  
+  .up, .down, .sleep {
+    height: 60px;
+    width: 5px;
+    left: -10px;
+  }
+  
+  .up {
+    top: 170px;
+  }
+  
+  .down {
+    top: 250px;
+  }
+  
+  .sleep {
+    left: auto;
+    right: -10px;
+    top: 170px;    
+    border-radius: 0px 2px 2px 0px;
+  }
+}
+
+.iphone-bottom {
+  padding: 10px 0 0;
+  span {
+    display: block;
+    margin: 0 auto;
+    width: 68px;
+    height: 68px;
+    background: #ccc;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%);
+    position: relative;
+    &:after {
+      content: ""; 
+      display: block;
+      width: 60px;
+      height: 60px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: 4px;
+      top: 4px;
+    }
+  }
+}
