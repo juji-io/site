@@ -61,7 +61,7 @@ body {
     /*overflow: hidden;*/
     padding-top: 54px;
     /*background-color: #fcfcfc;*/
-    font-color: black; 
+    font-color: black;
     font-size: 14px;
     font-family:  "GothamRounded-Light";
 }
@@ -73,17 +73,17 @@ body {
 }
 
 h1 {
-   font-family:  "GothamRounded-Medium"; 
-    
+   font-family:  "GothamRounded-Medium";
+
 }
 
 h2 {
-    font-family:  "GothamRounded-Medium"; 
+    font-family:  "GothamRounded-Medium";
     font-size: 24px;
 }
 
 h3 {
-    font-family:  "GothamRounded-Medium"; 
+    font-family:  "GothamRounded-Medium";
     font-size: 18px;
 }
 
@@ -126,7 +126,7 @@ input:focus {
 }
 
 textarea:focus {
-    
+
     outline: 0px solid transparent;
 }
 
@@ -235,7 +235,7 @@ input:checked + .slider:before {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-    
+
 
 .juji-text-input-box {
 
@@ -255,7 +255,7 @@ input:checked + .slider:before {
 
     width: 100%;
     min-height: 200px;
-    
+
 }
 
 
@@ -296,7 +296,7 @@ input:checked + .slider:before {
 
 .juji-name-form .salutation {
     margin-bottom: 10px;
-}    
+}
 
 
 .juji-name-form input {
@@ -304,13 +304,13 @@ input:checked + .slider:before {
 }
 
 .juji-dob-form label::before {
-   
+
     content: "Date of birth";
 }
 
 .juji-phone-form label::before {
     content: "Phone";
-}		 
+}
 
 .juji-email-input {
     border: none;
@@ -360,12 +360,12 @@ input:checked + .slider:before {
 }
 
 .juji-fileupload-form img {
-    
+
     width: 30px;
     height: 30px;
 
     vertical-align: middle;
-        
+
 
 }
 
@@ -377,10 +377,10 @@ input:checked + .slider:before {
 * common properties
 ********************************************/
 .disabled-body {
-    
+
     background: #888888;
 }
-    
+
 .disabled-area
 {
     pointer-events: none;
@@ -404,12 +404,12 @@ input:checked + .slider:before {
 
     position: relative;
     margin-bottom: 30px;
-}    
+}
 
 .checklist li::before {
     content: "";
     display:inline-block;
-    
+
     position: absolute;
     width: 25px;
     height: 25px;
@@ -430,7 +430,7 @@ input:checked + .slider:before {
 /* Generic button */
 
 button {
-    
+
     border: none;
     background: transparent;
     text-align: center;
@@ -484,7 +484,7 @@ button:select {
 }
 
 .active-btn:hover {
-    
+
     background: #F2F2F2;
 }
 
@@ -503,7 +503,7 @@ button:select {
     border-radius: 50%;
     /*background-color: #FF555B;*/
     background-color: #DC3C46;
-    
+
     position: absolute;
     top: calc(50% - 7.5px);
     left: 75%;
@@ -536,7 +536,7 @@ button:select {
 *********************************************/
 
 .xl-icon-btn {
-    
+
     width: 150px;
     height: 150px;
 }
@@ -574,7 +574,7 @@ button:select {
     border-style: solid;
     border-width: 1px;
     border-radius: 0;
-   
+
 }
 
 .big-btn:hover{
@@ -589,13 +589,13 @@ button:select {
     font-size: 14px;
     font-family: GothamRounded-Book;
     border: none !important;
-    
+
     background: #D2D2D2 !important;
     min-width: 120px;
 }
 
 .btn-primary:hover {
-    
+
     cursor: pointer;
     color: #FFFFFF;
     background: #28BD8B !important;
@@ -610,13 +610,13 @@ button:select {
 
     padding-top: 40px;
     padding-bottom: 40px;
-    
+
     width: 70%;
     text-align: center;
     background: white;
     box-shadow: 0px 0px 26px #B3B2C0;
 
-   
+
 }
 
 .popup-window-w-background {
@@ -651,13 +651,13 @@ button:select {
 .popup-window .main-display {
 
     width: 90%;
-    
+
     margin-left:auto;
     margin-right:auto;
 
     margin-top: 60px;
     margin-bottom: 30px;
-}    
+}
 
 .popup-window .feedback-area {
 
@@ -667,7 +667,7 @@ button:select {
 /* Defines a popup menu container - can be anything */
 
 .popup-container {
-    
+
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -710,12 +710,12 @@ button:select {
     color: #28BD8B;
     text-decoration: none;
 }
-	      
+
 
 
 /* The actual popup-container */
 .popup-container .popup-content {
-    
+
     /*visibility: hidden;*/
     opacity: 0;
     background-color: #555;
@@ -727,7 +727,7 @@ button:select {
     position: absolute;
     bottom: 125%;
     left: 50%;
-    
+
     /* The following should be auto calc instead of hard coded*/
     width: 140px;
     margin-left: -70px;
@@ -771,7 +771,7 @@ header .navbar .logo {
 
     width: 50px;
     height: 49px;
-    
+
 }
 
 header .nav-link {
@@ -870,7 +870,6 @@ footer .navigation {
 }
 
 .action-btn {
-   
     font-family: GothamRounded-Book;
     color: black;
     font-size: 16px;
@@ -881,6 +880,7 @@ footer .navigation {
     border-color: #444444;
     border-radius: 5px 5px 5px 5px;
     min-width: 165px;
+    white-space: nowrap;
 }
 
 .action-btn:hover {
@@ -892,7 +892,7 @@ footer .navigation {
 }
 
 .text-link{
-    
+
     font-family: GothamRounded-Medium;
     font-size: 18px;
     color:#28BD8B !important;
@@ -939,7 +939,7 @@ footer .navigation {
 }
 
 .usecase-section-top {
-    
+
     margin-top: 30px;
     padding-top: 20px;
 
@@ -950,15 +950,15 @@ footer .navigation {
      /* If REP is pre-made by Juji, it should be the background color */
     background-color: #8BDFCD;
     margin-top: 0px;
-}    
+}
 
 #ava {
-    
+
     background-color: #59B988;
 }
 
 #kaya {
-    
+
     background-color: #FADB92;
 }
 
@@ -1042,7 +1042,7 @@ footer .navigation {
 }
 
 .usecase-section-bottom .img-area .img-holder {
-    
+
     width:375px;
     margin:auto;
     text-align:center;
@@ -1050,7 +1050,7 @@ footer .navigation {
 
 
 /*************
-* Careers 
+* Careers
 *
 ***********/
 
@@ -1070,10 +1070,10 @@ footer .navigation {
 }
 
 .listing-banner h2 {
-    
+
     text-align: center;
     margin:0;
-    
+
 }
 
 .listing-content-holder {
@@ -1110,14 +1110,14 @@ footer .navigation {
   height: 600px;
   width: 375px;
   position: relative;
-  margin: 30px auto;  
+  margin: 30px auto;
   // Scale so that the iPhone fits in view
   transform: scale(.8);
 }
 
 .iphone-top {
   padding: 5px 110px 40px;
-  position: relative; 
+  position: relative;
   .speaker {
     display: block;
     width: 70px;
@@ -1126,7 +1126,7 @@ footer .navigation {
     border-radius: 6px;
     background: #292728;
   }
-  
+
   .camera {
     display: block;
     margin: 0 auto;
@@ -1136,7 +1136,7 @@ footer .navigation {
     margin-bottom: 13px;
     background: #333;
   }
-  
+
   .sensor {
     display: block;
     width: 15px;
@@ -1195,25 +1195,25 @@ footer .navigation {
     top: 100px;
     left: -8px;
   }
-  
+
   .up, .down, .sleep {
     height: 60px;
     width: 5px;
     left: -10px;
   }
-  
+
   .up {
     top: 170px;
   }
-  
+
   .down {
     top: 250px;
   }
-  
+
   .sleep {
     left: auto;
     right: -10px;
-    top: 170px;    
+    top: 170px;
     border-radius: 0px 2px 2px 0px;
   }
 }
@@ -1230,7 +1230,7 @@ footer .navigation {
     background: linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%);
     position: relative;
     &:after {
-      content: ""; 
+      content: "";
       display: block;
       width: 60px;
       height: 60px;
