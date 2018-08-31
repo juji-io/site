@@ -808,6 +808,7 @@ footer {
 }
 
 footer .navigation {
+    padding-left: 0px;
     list-style-type: none;
     font-size: 14px;
 }
@@ -826,22 +827,40 @@ footer .navigation {
     line-height:1.25em;
 }
 
-.main-section .second-action{
+
+.main-section .text-area {
+    margin: auto;
+    width: 90%;
+}
+
+.main-section .demo-area {
+    margin: auto;
+    text-align: center;
+}
+
+.main-section iframe {
+    text-align:center;
+    min-width: 375px;
+    height:495px;
+}
+
+.main-section .background-area{
 
     background-image: url("../img/ui/bg-ling.png");
     background-repeat: no-repeat;
     background-position: left bottom;
 }
 
-.banner-section {
-    margin-top: 40px;
-    text-align:center;
-}
 
 .action-area {
 
-    padding-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 20px;
 
+}
+
+.right-action-area {
+    text-align: right !important;
 }
 
 .col-element {
@@ -878,7 +897,7 @@ footer .navigation {
     font-size: 18px;
     color:#28BD8B !important;
     cursor: pointer;
-    text-align: right;
+
 }
 
 .second-action {
@@ -1027,6 +1046,54 @@ footer .navigation {
     width:375px;
     margin:auto;
     text-align:center;
+}
+
+
+/*************
+* Careers 
+*
+***********/
+
+.listing-section {
+
+    margin-top: 30px;
+}
+
+
+.listing-banner {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #EEEEEE;
+    margin: auto;
+    width: 75%;
+}
+
+.listing-banner h2 {
+    
+    text-align: center;
+    margin:0;
+    
+}
+
+.listing-content-holder {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    max-width: 800px;
+}
+
+.disclaimer-container {
+    padding-bottom: 30px;
+}
+
+
+.disclaimer-container p {
+    margin: auto;
+    text-align: center;
+    max-width: 75%;
+    font-size: 12px;
 }
 
 /*********
