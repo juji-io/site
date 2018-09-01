@@ -58,17 +58,18 @@
 }
 
 body {
-    /*overflow: hidden;*/
-    padding-top: 54px;
-    /*background-color: #fcfcfc;*/
+    /*padding-top: 54px;*/
     font-color: black;
     font-size: 14px;
     font-family:  "GothamRounded-Light";
+    /*margin: 0;
+    padding: 0;
+    width: 100%;*/
 }
 
 @media (min-width: 992px) {
     body {
-        padding-top: 56px;
+        /*padding-top: 56px;*/
     }
 }
 
@@ -805,6 +806,7 @@ footer {
     padding-bottom: 5px;
     color: #BBBBBB;
     background: black;
+    min-width: 376px;
 }
 
 footer .navigation {
@@ -818,15 +820,18 @@ footer .navigation {
 ***/
 
 .main-section {
-
     margin-top: 20px;
+}
+
+.main-section .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .main-section h4 {
     font-size: 18px;
     line-height:1.25em;
 }
-
 
 .main-section .text-area {
     margin: auto;
@@ -838,9 +843,15 @@ footer .navigation {
     text-align: center;
 }
 
-.main-section iframe {
+.main-section .iframe-container {
+    
+    margin: auto;
     text-align:center;
-    min-width: 375px;
+
+}
+
+.main-section iframe {
+    width: 375px;
     height:495px;
 }
 
@@ -911,18 +922,26 @@ footer .navigation {
 *
 ****************/
 
+.product-section {
+    min-width: 376px;
+}
+
+.intro-section {
+    margin-top: 65px;
+    padding-top: 30px;
+    /*height: 250px;*/
+}
+    
 .intro-section .jumbotron {
-    height: 250px;
-    margin-bottom:0px;
-    margin-top: 30px;
+    margin-bottom: 0;
     background: transparent;
 }
 
 @media (min-width: 1024px){
 
-    .intro-section .jumbotron {
+    .intro-section  {
     background-image:url("../img/ui/product-banner-side.png");
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     }
 }
@@ -938,7 +957,7 @@ footer .navigation {
 
 }
 
-.usecase-section-top {
+.role-section-top {
 
     margin-top: 30px;
     padding-top: 20px;
@@ -964,7 +983,7 @@ footer .navigation {
 
 @media (min-width: 450px) {
 
-.usecase-section-top {
+.role-section-top {
     background-image: url("../img/ui/bubles.png");
     background-position:center bottom;
     background-repeat:no-repeat;
@@ -974,7 +993,7 @@ footer .navigation {
 
 @media (min-width: 992px) {
 
-.usecase-section-top {
+.role-section-top {
     background-image: url("../img/ui/bubles.png");
     background-position:left bottom;
     background-repeat:no-repeat;
@@ -983,49 +1002,48 @@ footer .navigation {
 }
 
 
-.usecase-section-top .title-area {
+.role-section .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.role-section-top .title-area {
     margin: auto;
-    width: 90%;
     max-width: 500px;
-    text-align:center;
 }
 
-.usecase-section-top .title-area h2 {
-    font-size: 1.5em;
+.role-section-top .title-area h1 {
+    text-align: center;
 }
 
-.usecase-section-top .title-area h4 {
-    font-size: 1em;
-}
-
-.usecase-section-top .rep-area {
+.role-section-top .rep-area {
     margin: auto;
     text-align: center;
     max-width: 250px;
 }
 
-.usecase-section-top .rep-area img {
+.role-section-top .rep-area img {
     max-width: 90%;
     max-height: 90%;
 
 }
 
-.usecase-section-bottom {
+.role-section-bottom {
     margin-top: 30px;
 
 }
 
-.usecase-section-bottom .text-area {
+.role-section-bottom .text-area {
     margin:auto;
-    max-width: 600px;
+    width: 90%;
 }
 
-.usecase-section-bottom .text-area h4 {
+.role-section-bottom .text-area h4 {
     font-size: 16px;
     line-height: 1.25em;
 }
 
-.usecase-section-bottom .customer-comments {
+.role-section-bottom .customer-comments {
 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1036,12 +1054,12 @@ footer .navigation {
     line-height: 1.25em;
 }
 
-.usecase-section-bottom .customer-comments .signature {
+.role-section-bottom .customer-comments .signature {
 
     text-align: right;
 }
 
-.usecase-section-bottom .img-area .img-holder {
+.role-section-bottom .img-area .img-holder {
 
     width:375px;
     margin:auto;
