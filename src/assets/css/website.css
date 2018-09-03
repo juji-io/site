@@ -1114,6 +1114,45 @@ footer .navigation {
     font-size: 12px;
 }
 
+/***
+* Error
+*/
+.error-section {
+
+    margin-top: 100px;
+    margin-bottom: 30px;
+    min-width: 376px;
+
+}
+
+.error-section h1 {
+    text-align:center;
+
+}
+
+.error-section h4 {
+
+    line-height: 1.25em;
+}
+
+.error-section .title-area {
+
+    margin: auto;
+    width: 95%;
+}
+
+.error-section .rep-area {
+    margin: auto;
+    text-align: center;
+    max-width: 250px;
+}
+
+.error-section .rep-area img {
+    max-width: 90%;
+    max-height: 90%;
+
+}
+
 /*********
 *iPhone
 ****/
