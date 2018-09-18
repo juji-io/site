@@ -62,9 +62,16 @@ body {
     font-color: black;
     font-size: 14px;
     font-family:  "GothamRounded-Light";
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
     /*margin: 0;
     padding: 0;
     width: 100%;*/
+}
+
+main {
+  flex: 1;
 }
 
 @media (min-width: 992px) {
@@ -844,7 +851,7 @@ footer .navigation {
 }
 
 .main-section .iframe-container {
-    
+
     margin: auto;
     text-align:center;
 
@@ -931,7 +938,7 @@ footer .navigation {
     padding-top: 30px;
     /*height: 250px;*/
 }
-    
+
 .intro-section .jumbotron {
     margin-bottom: 0;
     background: transparent;
@@ -1298,4 +1305,43 @@ footer .navigation {
       top: 4px;
     }
   }
+}
+
+/*
+About Page
+ */
+
+.sub-masthead {
+  position: relative;
+  z-index: 500;
+  background: #f5f5f5 url(/site/assets/img/ui/bubles.png) center center no-repeat;
+  margin-top: 20px;
+}
+
+.sub-masthead h2 {
+  padding: 100px 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+@media (min-width: 900px)  {
+  .team {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.bio {
+  padding: 2em;
+}
+
+.bio__image {
+  height: 227px;
+  width: 197px;
+}
+
+
+.bio h4 {
+  margin-top: 0.7em;
 }
