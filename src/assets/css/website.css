@@ -827,39 +827,61 @@ footer .navigation {
 ***/
 
 .main-section {
-    margin-top: 20px;
+    margin-top: 65px;
+    padding-bottom: 30px;
+    background:#c2c2c2;
 }
 
 .main-section .container-fluid {
     padding-left: 0;
     padding-right: 0;
+    background-image: url("../img/ui/bubles.png");
+    background-position:center bottom;
+    background-repeat:no-repeat;
 }
 
 .main-section h4 {
-    font-size: 18px;
-    line-height:1.25em;
+    font-size: 20px;
+    line-height:1.35em;
 }
 
 .main-section .text-area {
     margin: auto;
-    width: 90%;
+    width: 65%;
+    text-align: center;
+    padding-top: 60px;
 }
 
-.main-section .demo-area {
+.main-section .action-area {
+    margin: auto;
+    width: 65%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.main-section .rep-area img {
+    max-width: 60%;
+    max-height: 60%;
+
+}
+
+.demo-section {
+    background:#c2c2c2;
+}
+
+.demo-section .demo-area {
     margin: auto;
     text-align: center;
 }
 
-.main-section .iframe-container {
-
+.iframe-container {
     margin: auto;
     text-align:center;
-
 }
 
-.main-section iframe {
-    width: 375px;
-    height:495px;
+iframe {
+    width: 100%;
+    min-height: 700px;
 }
 
 .main-section .background-area{
@@ -896,9 +918,9 @@ footer .navigation {
     border-style: solid;
     border-width: 1px;
     border-color: #444444;
-    border-radius: 5px 5px 5px 5px;
-    min-width: 165px;
+    border-radius: 5px 5px 5px 5px;    
     white-space: nowrap;
+    width: 165px;
 }
 
 .action-btn:hover {
@@ -907,6 +929,23 @@ footer .navigation {
     background: #28BD8B;
     color: white;
     border-color: #28BD8B;
+   
+}
+
+.main-section .demo-btn {
+    
+    background:#28BD8B !important;
+    border: none;
+}
+
+.main-section .demo-btn a {
+    color: white !important;
+}
+
+.main-section .learn-btn a {
+
+    color: black;
+    /* border: none;*/
 }
 
 .text-link{
