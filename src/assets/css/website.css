@@ -822,16 +822,6 @@ footer .navigation {
     font-size: 14px;
 }
 
-#footer-copyright {
-    color: #999999;
-    font-size: 10px;
-    font-weight: 400;
-    letter-spacing: 0;
-    padding-top: 35px;
-    text-align: center;
-    text-transform: none;
-}
-
 /*********
 ** Index page
 ***/
@@ -928,9 +918,9 @@ iframe {
     border-style: solid;
     border-width: 1px;
     border-color: #444444;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;    
     white-space: nowrap;
-    /* width: 165px; */
+    width: 165px;
 }
 
 .action-btn:hover {
@@ -939,36 +929,20 @@ iframe {
     background: #28BD8B;
     color: white;
     border-color: #28BD8B;
-
+   
 }
 
-.main-section .learn-btn {
-
+.main-section .demo-btn {
+    
     background:#28BD8B !important;
     border: none;
-}
-
-.demo-section .learn-btn {
-
-    background:#28BD8B !important;
-    border: none;
-}
-
-.main-section .learn-btn a {
-    color: white !important;
-}
-
-.demo-section .learn-btn a {
-    color: white !important;
 }
 
 .main-section .demo-btn a {
-
-    color: black;
-    /* border: none;*/
+    color: white !important;
 }
 
-.demo-section .demo-btn a {
+.main-section .learn-btn a {
 
     color: black;
     /* border: none;*/
@@ -1010,7 +984,7 @@ iframe {
 }
 
 .intro-section .AI-List {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 @media (min-width: 1024px){
@@ -1413,25 +1387,4 @@ About Page
 
 .bio h4 {
   margin-top: 0.7em;
-}
-
-
-.subscribe-newsletter__heading {
-  font-size: 18px;
-  font-weight: 500;
-  font-family: GothamRounded-Medium;
-}
-
-.subscribe-newsletter__button {
-  margin-left: 0.2em;
-  padding: 0.2em 0.5em;
-  font-size: 14px;
-  font-family: GothamRounded-Book;
-  color: white;
-  border: 1px solid white;
-}
-
-.subscribe-newsletter__button:hover {
-  color: black;
-  background: white;
 }
