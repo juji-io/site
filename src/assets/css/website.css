@@ -836,13 +836,30 @@ footer .navigation {
 ** Index page
 ***/
 
-.main-section {
+.index .main-section {
     margin-top: 65px;
     padding-bottom: 30px;
     background:#c2c2c2;
 }
 
-.main-section .container-fluid {
+.career .main-section {
+    margin-top: 65px;
+}
+
+.job-link-area {
+    padding-top: 50px;
+}
+
+.job-link-area ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    font-family: GothamRounded-Book;
+    font-size: 16px;
+}
+    
+.index .main-section .container-fluid {
     padding-left: 0;
     padding-right: 0;
     background-image: url("../img/ui/bubles.png");
@@ -850,36 +867,48 @@ footer .navigation {
     background-repeat:no-repeat;
 }
 
+.career .main-section p {
+    font-size: 16px;
+    line-height: 1.25em;
+}
+
 .main-section h4 {
     font-size: 20px;
     line-height:1.35em;
 }
 
-.main-section .text-area {
+.index .main-section .text-area {
     margin: auto;
     width: 65%;
     text-align: center;
     padding-top: 60px;
 }
 
-.main-section .action-area {
+.career .main-section .text-area {
+    margin: auto;
+    width: 65%;
+    text-align: left;
+    padding-top: 60px;
+}
+
+.index .main-section .action-area {
     margin: auto;
     width: 65%;
     text-align: center;
     padding-top: 60px;
 }
 
-.main-section .rep-area img {
+.index .main-section .rep-area img {
     max-width: 60%;
     max-height: 60%;
 
 }
 
-.demo-section {
+.index .demo-section {
     background:#c2c2c2;
 }
 
-.demo-section .demo-area {
+.index .demo-section .demo-area {
     margin: auto;
     text-align: center;
 }
@@ -889,18 +918,22 @@ footer .navigation {
     text-align:center;
 }
 
-iframe {
+.index iframe {
     width: 100%;
     min-height: 700px;
 }
 
-.main-section .background-area{
+.career iframe {
+    width: 65%;
+    min-height: 550px;
+}
+
+.index .main-section .background-area{
 
     background-image: url("../img/ui/bg-ling.png");
     background-repeat: no-repeat;
     background-position: left bottom;
 }
-
 
 .action-area {
 
@@ -931,6 +964,13 @@ iframe {
     border-radius: 5px 5px 5px 5px;    
     white-space: nowrap;
     width: 165px;
+}
+ 
+.career .action-area li {
+    font-family: GothamRounded-Book;
+    font-size: 16px;
+    padding: 10px 25px 10px 25px;
+    white-space: nowrap;
 }
 
 .action-btn:hover {
