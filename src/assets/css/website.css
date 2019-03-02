@@ -836,10 +836,19 @@ footer .navigation {
 ** Index page
 ***/
 
+#submit-btn {
+    border: none;
+    color: black;
+    background:  #28BD8B;
+    margin-left: -5px;
+    border-radius: 0px 15px 15px 0px;
+    height: 30px;
+}
+
 .index .main-section {
     margin-top: 65px;
     padding-bottom: 30px;
-    background:#c2c2c2;
+    /*background:#c2c2c2;*/
 }
 
 .career .main-section {
@@ -862,9 +871,31 @@ footer .navigation {
 .index .main-section .container-fluid {
     padding-left: 0;
     padding-right: 0;
-    background-image: url("../img/ui/bubles.png");
-    background-position:center bottom;
+    background-image: url("../img/ui/bg2.jpg");
+    background-position:center center;
     background-repeat:no-repeat;
+}
+
+.index .use-case-block {
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.index .odd-block {
+    background:#E0E0E0;
+}
+
+.index .use-case-block h2 {
+    font-size: 1.8em;
+}
+
+.index .use-case-block h4 {
+    font-size: 1.25em;
+    line-height: 1.4em;
+}
+
+.index .use-case-block .text-action {
+    margin-top:50px;
 }
 
 .career .main-section p {
@@ -895,7 +926,7 @@ footer .navigation {
     margin: auto;
     width: 65%;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .index .main-section .rep-area img {
@@ -905,7 +936,7 @@ footer .navigation {
 }
 
 .index .demo-section {
-    background:#c2c2c2;
+    /*background:#c2c2c2;*/
 }
 
 .index .demo-section .demo-area {
@@ -965,7 +996,43 @@ footer .navigation {
     white-space: nowrap;
     width: 165px;
 }
- 
+
+.index .bottom-action-area {
+
+    /* background image */
+    background-color: #c2c2c2;
+    min-height: 200px;
+}
+
+.index .bottom-action-area .bottom-action-content {
+    margin:auto;
+    padding-top: 30px;
+    text-align:center;
+}
+
+.index .bottom-action-btn-holder {
+    padding-top: 20px;
+}
+
+.index .bottom-action-btn {
+
+    font-family: GothamRounded-Book;
+    font-size: 16px;
+    padding: 15px 50px 15px 50px;
+    white-space: nowrap;
+    color: black;
+    background:  #28BD8B;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.index .bottom-action-btn:hover {
+
+    color: white;
+    cursor: pointer;
+
+}
+
+
 .career .action-area li {
     font-family: GothamRounded-Book;
     font-size: 16px;
@@ -983,19 +1050,35 @@ footer .navigation {
 }
 
 .main-section .demo-btn {
-    
+
+    margin: auto;
+    width: 100%;
     background:#28BD8B !important;
     border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 .main-section .demo-btn a {
     color: white !important;
+}
+
+.main-section .learn-btn {
+     margin: auto;
+     width: 100%;
+     margin-bottom: 10px;
+     margin-top: 10px;
 }
 
 .main-section .learn-btn a {
 
     color: black;
     /* border: none;*/
+}
+
+.main-section .learn-btn a:hover {
+    color: white;
 }
 
 .text-link{
@@ -1439,6 +1522,11 @@ About Page
   margin-top: 0.7em;
 }
 
+
+#subscribe-newsletter__email {
+    
+    height: 30px;
+}
 
 .subscribe-newsletter__heading {
   font-size: 18px;
