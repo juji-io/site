@@ -1029,7 +1029,7 @@ footer .navigation {
 
     color: white;
     cursor: pointer;
-
+    text-decoration: none;
 }
 
 
@@ -1059,6 +1059,9 @@ footer .navigation {
     margin-bottom: 10px;
 }
 
+.main-section .demo-btn:hover {
+    color: white !important;
+}
 
 .main-section .demo-btn a {
     color: white !important;
@@ -1079,6 +1082,14 @@ footer .navigation {
 
 .main-section .learn-btn a:hover {
     color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-section .demo-btn a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .text-link{
