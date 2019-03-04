@@ -937,11 +937,12 @@ footer .navigation {
 
 .index .demo-section {
     /*background:#c2c2c2;*/
+    margin-top: 20px;
 }
 
-.index .demo-section .demo-area {
+.demo-area {
     margin: auto;
-    text-align: center;
+    text-align:center;
 }
 
 .iframe-container {
@@ -1534,9 +1535,13 @@ About Page
 }
 
 
+#subscribe-newsletter-block {
+    margin-bottom: 20px;
+}
+
 #subscribe-newsletter__email {
-    
     height: 30px;
+    width: 150px;
 }
 
 .subscribe-newsletter__heading {
@@ -1546,12 +1551,12 @@ About Page
 }
 
 .subscribe-newsletter__button {
-  margin-left: 0.2em;
-  padding: 0.2em 0.5em;
-  font-size: 14px;
-  font-family: GothamRounded-Book;
-  color: white;
-  border: 1px solid white;
+    margin-left: 0.2em;
+    padding: 0.2em 0.5em;
+    font-size: 14px;
+    font-family: GothamRounded-Book;
+    color: white;
+    /*border: 1px solid white;*/
 }
 
 .subscribe-newsletter__button:hover {
