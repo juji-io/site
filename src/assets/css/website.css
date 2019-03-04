@@ -845,12 +845,21 @@ footer .navigation {
     height: 30px;
 }
 
+/* Use the min width to make sure all content is center aligned in smallest mobile case*/
+.index .content-section {
+    min-width: 376px;
+}
+
 .index .main-section {
     margin-top: 65px;
     padding-bottom: 30px;
     /*background:#c2c2c2;*/
 }
 
+/* Use the min width to make sure all content is center aligned in smallest mobile case*/
+.career .content-section {
+    min-width: 376px;
+}
 .career .main-section {
     margin-top: 65px;
 }
@@ -958,6 +967,7 @@ footer .navigation {
 .career iframe {
     width: 65%;
     min-height: 550px;
+    min-width: 376px;
 }
 
 .index .main-section .background-area{
@@ -1114,6 +1124,7 @@ footer .navigation {
 ****************/
 
 .product-section {
+    /* This is needed to make sure the smallest mobile screen is still centered*/
     min-width: 376px;
 }
 
