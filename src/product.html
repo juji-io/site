@@ -311,51 +311,73 @@
        
     </section>
 
-    
-     <footer>
-
-      <div class="container">
-
-        <div class="row align-items-center justify-content-around">
-
-	        <div class="col-3">
-	          <div id="footer-copyright">©2018 Juji Inc.</div>
-	        </div>
-
-	        <!--contact info-->
-	        <div id="contact-block" class="col-4">
-	          <h3>Contact</h3>
-	          <p>3165 Olin Ave.<br>
-	            San Jose, CA 95117 <br>
-	            hello@juji.io</p>
-
-	          <h4>Support</h4>
-	          <p>support@juji.io</p>
-	        </div>
-
-	        <div class="col-4">
-
-	          <ul class="navigation">
-	            <li class="main-navigation__link"><a href="#">Terms of Use</a></li>
-	            <li class="main-navigation__link"><a href="#">Privacy Policy</a></li>
-	            <li class="main-navigation__link"><a href="juji.ai/signup">Sign on</a></li>
-	          </ul>
-
-
-	        </div>
-
-        </div>
-
-      </div>
-
-     </footer>
-     
-   
-   <!-- Bootstrap core JavaScript -->
-    <script src="assets/js/jquery/jquery.min.js"></script>
-    <script src="assets/js/popper/popper.min.js"></script>
-    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-    
+    	<!---------------Footer---------------------->
+   <footer>
+     <div class="container">
+       <div class="row align-items-top justify-content-around">
+         <div class="col-md-6 col-lg-4">
+           <div>
+             <div class="subscribe-newsletter__heading">Stay Connected</div>
+             <div id="subscribe-newsletter-block">
+               <p>Get the latest news from Juji</p>
+               <input id="subscribe-newsletter__email" name="email" placeholder="Your e-mail" type="email">
+               <button id="submit-btn" class="subscribe-newsletter__button" onclick="subscribeToNewsletter()">Submit</button>
+               <div id="subscribe-newsletter__msg"></div>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-6 col-lg-3">
+           <h3>Support</h3>
+           <p>
+             <a href="https://forum.juji.io" target="_blank">Juji Forum</a>
+           </p>
+           <p>support@juji.io</p>
+         </div>
+         <div class="col-md-6 col-lg-3" id="contact-block">
+           <h3>Contact</h3>
+           <p>
+             3165 Olin Ave.<br>
+             San Jose, CA 95117 <br>hello@juji.io
+           </p>
+         </div>
+         <div class="col-md-6 col-lg-2">
+           
+           <ul class="navigation">
+             <li class="main-navigation__link">
+               <a href="/util/juji-terms-of-service.pdf" target="_blank">Terms of Use</a>
+             </li>
+             <li class="main-navigation__link">
+               <a href="/util/juji-privacy-policy.pdf" target="_blank">Privacy Policy</a>
+             </li>
+           </ul>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-md-12" id="footer-copyright">© 2014-2019 Juji, Inc. All Rights Reserved.</div>
+       </div>
+     </div>
+   </footer>
+   <input id="__anti-forgery-token" name="__anti-forgery-token" type="hidden" value="4114EWN2mWKh0nwuMbsaOOXdzA4pjI+qUKPpjg99oS4XSMF4hZjb8l81WbRQ4DAgCf5a4kcZJv/oZU9u">
+   <script src="/site/assets/js/jquery/jquery.min.js"></script>
+   <script src="/site/assets/js/popper/popper.min.js"></script>
+   <script src="/site/assets/js/bootstrap/bootstrap.min.js"></script>
+   <script src="/site/assets/js/site.js"></script>
+   <script>
+     $(function() {
+     $('a[href*="#"]:not([href="#"])').click(function() {
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+     var target = $(this.hash);
+     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+     if (target.length) {
+     $('html, body').animate({
+     scrollTop: target.offset().top
+     }, 1000);
+     return false;
+     }
+     }
+     });
+     });
+   </script>
   </body>
-
 </html>
+
