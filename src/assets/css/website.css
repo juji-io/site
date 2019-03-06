@@ -1025,6 +1025,11 @@ footer .navigation {
     line-height: 1.4em;
 }
 
+.use-case-section p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
 .use-case-section .text-action {
     margin-top:50px;
 }
@@ -1051,6 +1056,23 @@ footer .navigation {
     background-repeat: no-repeat;
     background-position: left bottom;
 }*/
+
+.how-to-title-sec {
+    padding-top:50px;
+    padding-bottom: 30px;
+    background: #E2E2E2;
+}
+
+.how-to-title-sec .title-area {
+    margin:auto;
+    text-align:center;
+    width:80%;
+}
+
+.how-to-title-sec .title-area h4 {
+    line-height: 1.4em;
+}
+
 
 /**************************************
 ** Career page
