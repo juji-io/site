@@ -111,6 +111,10 @@ img {
     max-height: 100%
 }
 
+.usecase-FB-img {
+    width: 60%;
+}
+
 .progress-bar {
 
     background: #28BD8B;
@@ -1005,15 +1009,20 @@ footer .navigation {
 .use-case-section {
     padding-top:50px;
     padding-bottom: 50px;
+    background: #E8E8E8;
 }
 
 .use-case-section.odd-section {
-    background:#E0E0E0;
+    background:#F4F4F4;
 }
 
 .use-case-section .text-block {
     margin: auto;
     width: 92%;
+}
+
+.use-case-section .img-element {
+    text-align: center;
 }
 
 .use-case-section h2 {
