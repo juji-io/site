@@ -961,18 +961,22 @@ footer .navigation {
 
 .home-banner {
     background-image: url("../img/ui/newyear-banner.png");
-    background-position:center;
+    background-position:bottom;
     background-repeat:no-repeat;
-    background-size: cover;
-    height: 400px;
+    background-size: contain;
+    background-color: #F8F8F8;
+    border-bottom: 2px solid #F8F8F8;
 }
 
 .home-banner .action-area {
     margin: auto;
     width: 65%;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    /*padding-top: 50px;*/
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /*padding-bottom: 50px;*/
+   
 }
 
 .home-banner .demo-btn {
@@ -1038,6 +1042,13 @@ footer .navigation {
     
 }
 
+.canned-demo-section .text-block
+{
+    margin:auto;
+    width: 80%;
+    margin-top: 20px;
+}
+    
 .canned-demo-section .img-element {
     text-align: center;
     
