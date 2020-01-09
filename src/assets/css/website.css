@@ -81,6 +81,7 @@ main {
 }
 
 h1 {
+    font-size: 2.0rem; 
    font-family:  "GothamRounded-Medium";
 
 }
@@ -109,6 +110,10 @@ a {
 img {
     max-width: 100%;
     max-height: 100%
+}
+
+.canned-demo-img {
+    width: 100%;
 }
 
 .usecase-FB-img {
@@ -891,9 +896,11 @@ footer .navigation {
 
 .main-section .text-area {
     margin: auto;
-    width: 70%;
+    width: 85%;
     text-align: center;
+    font-size: 40px;
     padding-top: 60px;
+    
 }
 
 .main-section p {
@@ -904,6 +911,9 @@ footer .navigation {
 .main-section h4 {
     font-size: 20px;
     line-height:1.35em;
+    margin: auto;
+    text-align: center;
+    max-width: 650px;
 }
 
 .iframe-container {
@@ -950,9 +960,11 @@ footer .navigation {
 ******************************************/
 
 .home-banner {
-    background-image: url("../img/ui/bg2.jpg");
-    background-position:center center;
+    background-image: url("../img/ui/newyear-banner.png");
+    background-position:center;
     background-repeat:no-repeat;
+    background-size: cover;
+    height: 400px;
 }
 
 .home-banner .action-area {
@@ -960,7 +972,7 @@ footer .navigation {
     width: 65%;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 .home-banner .demo-btn {
@@ -1009,7 +1021,7 @@ footer .navigation {
 .use-case-section {
     padding-top:50px;
     padding-bottom: 50px;
-    background: #E8E8E8;
+    /*background: #E8E8E8;*/
 }
 
 .use-case-section.odd-section {
@@ -1023,6 +1035,12 @@ footer .navigation {
 
 .use-case-section .img-element {
     text-align: center;
+    
+}
+
+.canned-demo-section .img-element {
+    text-align: center;
+    
 }
 
 .use-case-section h2 {
@@ -1039,7 +1057,7 @@ footer .navigation {
     line-height: 1.3em;
 }
 
-.use-case-section .text-action {
+.canned-demo-section .text-action {
     margin-top:50px;
 }
 
@@ -1066,19 +1084,19 @@ footer .navigation {
     background-position: left bottom;
 }*/
 
-.how-to-title-sec {
+.title-sec {
     padding-top:50px;
     padding-bottom: 30px;
     background: #E2E2E2;
 }
 
-.how-to-title-sec .title-area {
+.title-sec .title-area {
     margin:auto;
     text-align:center;
     width:80%;
 }
 
-.how-to-title-sec .title-area h4 {
+.title-sec .title-area h4 {
     line-height: 1.4em;
 }
 
@@ -1601,3 +1619,156 @@ About Page
   color: black;
   background: white;
 }
+
+
+
+/* Styling for gallery */
+
+
+/* Styling for rep card */
+
+/* Customized Juji card based on Bootstrap cards */
+
+.juji-card {
+    margin: auto;
+    width: 85%;
+}
+
+.juji-card .card-header {
+    background-color: #F2F2F2;
+    /*background-color: #FFFFFF;*/
+    line-height: 2.65em; 
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+}
+
+.juji-card .card-header .header-menu {
+    float:right;
+}
+
+.juji-card .image-block {
+
+    text-align: center;
+    height: 150px;
+}
+
+.juji-card .card-block {
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    /* Fix the text block height to 
+     *make sure equal heights across cards */
+
+    /*height: 100px;*/
+}
+
+.juji-card .card-block h3 {
+
+    text-align: center;
+}
+
+.juji-card .card-block p {
+    margin: auto;
+    width: 85%;
+    margin-bottom: 0;
+}
+
+.juji-card .card-block .author-text {
+    text-align: right;
+}
+
+.juji-card .primary-action-area {
+
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.juji-card .btn-primary {
+
+    position: relative;
+    width: 100%;
+    color: black;
+    background: #F2F2F2;
+    border: none;
+    
+    font-size: 14px;
+    font-family: GothamRounded-Book;
+   
+}
+
+
+
+.juji-card .btn-primary label {
+    margin: 0;
+    padding: 0;
+}
+
+.juji-card .card-footer {
+
+    border: none;
+    /*background-color: #F2F2F2;*/
+    background: #FFFFFF; 
+
+}
+
+.gallery-section .rep-col {
+    
+    /* To make sure all columns are the same */
+    /*margin-bottom: -99999px;
+    padding-bottom: 99999px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gallery-section .juji-card {
+    border: none;
+    background: #FFFFFF;
+    /*background: transparent;
+    border-width: 3px;
+    border-color: #FFFFFF; 
+    border-style: solid;*/
+}
+
+.gallery-section .juji-card .image-block {
+    padding-top: 5px;
+}
+
+.gallery-section .juji-card .rep-profile-img {
+    max-width: 95%;
+}
+
+#juji-demo {
+    background:#8BDFCD;
+}
+
+#alex-demo {
+    background: rgb(14,36,32,1);
+}
+
+#decida-demo {
+    background: rgb(136,162,179,1);
+}
+
+#mike-demo {
+    background: #F2F2F2;
+}
+
+#jackson-demo {
+    background: #F2F2F2;
+}
+
+#bn-demo {
+    background: yellow;
+}
+
+#static-demo {
+
+    text-align: center;
+    width: 375px;
+}
+    
