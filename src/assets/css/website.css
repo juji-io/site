@@ -874,10 +874,11 @@ footer .navigation {
 
     text-decoration: none;
     background: #28BD8B;
-    color: white;
+    color: white!important;
     border-color: #28BD8B;
-   
+    cursor: pointer!important;
 }
+
 
 /* Use the min width to make sure all content is center aligned in smallest mobile case*/
 .content-section {
@@ -960,12 +961,12 @@ footer .navigation {
 ******************************************/
 
 .home-banner {
-    background-image: url("../img/ui/newyear-banner.png");
+    background-image: url("../img/ui/chinese-newyear-banner.gif");
     background-position:bottom;
     background-repeat:no-repeat;
     background-size: contain;
     background-color: #F8F8F8;
-    border-bottom: 2px solid #F8F8F8;
+    border-bottom: 4px solid #F8F8F8;
 }
 
 .home-banner .action-area {
@@ -1011,7 +1012,7 @@ footer .navigation {
 }
 
 .home-banner .learn-btn a:hover {
-    color: white;
+    color: white!important;
     text-decoration: none;
     cursor: pointer;
 }
@@ -1221,14 +1222,49 @@ footer .navigation {
     font-size: 12px;
 }
 
+
+.dropdown-menu {
+
+    font-size: 14px;
+    font-family: GothamRounded-Book;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+
+    border: none;
+    box-shadow: 5px 10px #A2A2A2;
+}
+
+
+.dropdown-menu a {
+
+    color: black;
+}
+
+.dropdown-menu a:hover {
+
+    color:#28BD8B;
+    text-decoration: none;
+}
+
+
+
 /***************
-* Product Page
+* Why Juji Page
 *
 ****************/
 
-.product-section {
+.why-section {
     /* This is needed to make sure the smallest mobile screen is still centered*/
     min-width: 376px;
+}
+
+.A-List {
+    margin-top: 1rem;
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    font-family: GothamRounded-Medium;
+    font-size: 20px;
 }
 
 .intro-section {
@@ -1250,27 +1286,159 @@ footer .navigation {
 
     .intro-section  {
     background-image:url("../img/ui/product-banner-side.png");
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
+    background-size: contain;
     }
 }
 
-.intro-section .jumbotron ul {
+
+/*intro-section .jumbotron ul {
 
     list-style-type: none;
     margin-left: 0;
     margin-right: 0;
     text-align: left;
     font-family: GothamRounded-Medium;
-    font-size: 20px;
+    font-size: 18px;
 
+}*/
+
+.why-section.content-section
+{
+    padding-top:50px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.why-section.content-section .title-area {
+    margin:auto;
+    text-align:center;
+    width:80%;
+    margin-bottom: 50px;
+}
+
+.why-section.content-section .title-area h4 {
+    line-height: 1.4em;
+}
+
+.role-section .text-block {
+
+    color: #444444;
+}
+
+.role-section .text-block h2 {
+
+    font-size: 20px;
+}
+
+.role-section .juji-block {
+    color: black;
+    font-size: 22px;
 }
 
 .role-section-top {
-
     margin-top: 30px;
     padding-top: 20px;
 
+}
+
+.warm-block-1 {
+    background-size: 90% 60%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-image: url("../img/ui/warm-block-1.png")
+}
+
+
+.warm-block-2 {
+    background-size: 90% 60%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-image: url("../img/ui/warm-block-2.png")
+}
+
+
+.cool-block-1 {
+    background-size: 90% 60%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-image: url("../img/ui/cool-block-1.png")
+}
+
+.cool-block-2 {
+
+  background-size: 90% 60%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-image: url("../img/ui/cool-block-2.png")
+}
+
+.platform-section {
+    
+    
+
+}
+
+.platform-section .title-holder{
+
+    background: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url("../img/ui/platform-bg.png")
+ 
+}
+
+.platform-section .juji-tool {
+
+    margin-top: 50px;
+}
+
+.platform-section .juji-desc {
+
+    margin: auto;
+    width: 95%;
+    padding-top: 20px;
+}
+
+.platform-section .img-holder {
+
+    width:375px;
+    margin:auto;
+    text-align:center;
+}
+
+.platform-section .text-link {
+
+    text-align: right;
+}
+
+#warm-evidence-1 {
+
+     text-align:right;
+
+     color:rgb(249, 181, 40);
+}
+
+#warm-evidence-2 {
+
+    text-align:right;
+    color:rgb(164, 116, 176);
+}
+
+#cool-evidence-1 {
+
+    text-align:right;
+    color:rgb(41, 173, 192);
+}
+
+#cool-evidence-2 {
+    text-align:right;
+    color: rgb(20,197,144);
 }
 
 #juji {
@@ -1288,6 +1456,18 @@ footer .navigation {
 #kaya {
 
     background-color: #FADB92;
+}
+
+#alicia {
+    background-color: rgb(255,224,0);
+}
+
+#albert {
+    background-color:rgb(100,60,64);
+}
+
+#albert h1{
+    color: white;
 }
 
 @media (min-width: 450px) {
@@ -1782,4 +1962,25 @@ About Page
     text-align: center;
     width: 375px;
 }
-    
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+.jumbotron .dropdown {
+    margin-top: 50px;
+}
+
+#audienceDropdown {
+    background:#28BD8B;
+    padding: 20px;
+    font-family: GothamRounded-Medium;
+    font-size:16px;
+    color:white;
+    border-radius: 5px;
+}
+
+#audienceDropdown:hover {
+    text-decoration: none;
+}
+
