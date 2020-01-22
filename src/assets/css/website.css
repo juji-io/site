@@ -879,7 +879,6 @@ footer .navigation {
     cursor: pointer!important;
 }
 
-
 /* Use the min width to make sure all content is center aligned in smallest mobile case*/
 .content-section {
     min-width: 376px;
@@ -1245,10 +1244,8 @@ footer .navigation {
     text-decoration: none;
 }
 
-
-
 /***************
-* Why Juji Page
+* Why Page
 *
 ****************/
 
@@ -1291,7 +1288,6 @@ footer .navigation {
     background-size: contain;
     }
 }
-
 
 /*intro-section .jumbotron ul {
 
@@ -1555,6 +1551,203 @@ footer .navigation {
     text-align:center;
 }
 
+/******************************************
+ ** Pricing page
+ ******************************************/
+
+.pricing-banner {
+}
+
+
+.pricing-table {
+  text-align: center;
+  margin: 20px 0 30px;
+}
+
+/* Each pricing-item*/
+.pricing-item {
+  border-radius: 3px;
+  display: inline-block;
+  width: 260px;
+  height: auto;
+  background: #fff;
+  margin: 20px;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  transition: all 0.2s cubic-bezier(0.3, 0.6, 0.2, 1.8);
+}
+.pricing-item:hover {
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
+}
+.pricing-item .pricing-title {
+  width: 100%;
+  color: white;
+  display: block;
+  position: relative;
+  background: #0074D9;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.pricing-item.pricing-featured .pricing-title {
+  background: #FF4136;
+}
+
+/* pricing-value */
+.pricing-value {
+  width: 180px;
+  height: 180px;
+  padding-top: 46px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 46px;
+  font-weight: 300;
+  margin: 10px auto;
+}
+
+.pricing-value.pro {
+    padding-top: 27px;
+}
+
+.pricing-value.custom {
+    font-size: 44px;
+}
+
+.pricing-value .smallText {
+  font-size: 16px;
+}
+
+.pricing-value .abovetext {
+    display: block;
+    font-size: 12px;
+}
+
+
+.pricing-value .undertext {
+  display: block;
+  font-size: 14px;
+}
+
+.pricing-value .bottomtext {
+    display: block;
+    font-size: 12px;
+}
+
+.pricing-item .pricing-value {
+  background: #0074D9;
+  border: 2px solid #0074D9;
+}
+
+.pricing-item.pricing-featured .pricing-value {
+  background: #FF4136;
+  border: 2px solid #FF4136;
+}
+
+/* List */
+.pricing-item .pricing-features {
+  margin: 10px 0;
+  padding: 0;
+  list-style: none;
+}
+.pricing-item .pricing-features li {
+  display: block;
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+.pricing-item .pricing-features li .keywords {
+  font-weight: bold;
+}
+
+.pricing-cta {
+    height: 100%;
+    margin: 26px;
+}
+
+.button {
+  width: 140px;
+  height: 38px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  text-decoration: none;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #fff;
+  color: #0074D9;
+  border: 2px solid #0074D9;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: .2s ease-out;
+  /*-webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.05);*/
+}
+.button:hover {
+  background: #0074D9;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.pricing-item.pricing-featured .button {
+  color: #FF4136;
+  border: 2px solid #FF4136;
+}
+.pricing-item.pricing-featured .button:hover {
+  background: #FF4136;
+  color: #fff;
+}
+
+.selected {
+  z-index: 10;
+  width: 180px;
+  height: 32px;
+  padding: 0 20px;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px #888888;
+  background: gold;
+  border-top: 5px solid gold;
+  border-bottom: 5px solid gold;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  position: absolute;
+  right: -47px;
+  top: 17px;
+}
+
+.partner-logos {
+    margin: 20px 0 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.logos {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faqs {
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
 
 /***
 * Error
@@ -1983,4 +2176,3 @@ About Page
 #audienceDropdown:hover {
     text-decoration: none;
 }
-
