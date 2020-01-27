@@ -32,51 +32,62 @@
     <script src="site/assets/js/modernizr.js"></script>
   </head>
   <body>
-    
     <header>
       <nav class=
       "navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container">
-	  <a class="navbar-brand" href="/">
-	    <img alt="Juji Logo" class="logo"
-		 src="site/assets/img/ui/ui--logo.png">
-	  </a>
-
-	  <a class="nav-link" href="/why">
-	    Why Juji
-	  </a>
-	  
+        <div class="container"><a class="navbar-brand" href="/"><img alt=
+        "Juji Logo" class="logo" src="site/assets/img/ui/ui--logo.png"></a>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="/why">Why
+                  Juji</a></li>
+              <li class="nav-item"><a class="nav-link active-link" href=
+              "/pricing">Pricing</a></li>
               <li class="nav-item">
                 <div class="dropdown"><a aria-expanded="false" aria-haspopup="true"
                                                                class="nav-link" data-toggle="dropdown" href="#" id=
                                                                "resourcesDropdown" role="button">Resources</a>
                   <ul aria-labelledby="resourcesDropdown" class="dropdown-menu" role=
                   "menu">
-                    <li><a href="https://docs.juji.io/why-ai-chatbots/" tabindex="-1"
-                                                                        target="_blank">Beginners' Guide to AI Chatbots</a></li>
+                    <li>
+		      <a href="https://docs.juji.io/why-ai-chatbots/"
+			 tabindex="-1"
+                         target="_blank">
+			Beginners' Guide to AI Chatbots
+		      </a>
+		    </li>
                     <div class="dropdown-divider"></div>
-                    <li><a href="https://docs.juji.io/tutorial/#" tabindex="-1" target=
-                    "_blank">Video Tutorials</a></li>
+                    <li>
+		      <a href="https://docs.juji.io/tutorial/#"
+			 tabindex="-1" target="_blank">
+			Video Tutorials
+		      </a>
+		    </li>
                     <div class="dropdown-divider"></div>
-                    <li><a href="https://docs.juji.io/" tabindex="-1" target=
-                    "_blank">Documentation</a></li>
+                    <li>
+		      <a href="https://docs.juji.io/" tabindex="-1"
+			   target="_blank">
+			Documentation
+		      </a>
+		    </li>
                   </ul>
                 </div>
               </li>
-              <li class="nav-item"><a class="nav-link" href=
-				      "/careers">Careers</a></li>
-	       <li class="nav-item"><a class="nav-link active-link" href=
-              "/pricing">Pricing</a></li>
-              <li class="nav-item"><a class="nav-link" href="/login">Sign
-                  On</a></li>
+              <li class="nav-item">
+		<a class="nav-link" href="/careers">
+		  Careers
+		</a>
+	      </li>
+              <li class="nav-item">
+		<a class="nav-link" href="/login">
+		  Sign On
+		</a>
+	      </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
     
     <!--- - - - - Titles- - - - - - - - - - - - - - - - - -->
     <section class="content-section main-section pricing-banner">
@@ -102,179 +113,151 @@
     <!--- - - --Pricing Table- - - - - - - - - - - - - - - - - - - -->
     <section class="content-section">
       <div class="container">
-        <div class="row justify-content-around">
-	  
-	  <!--free plan-->
-          <div class="col-5 pricing-col" id="free">
-	    <div class="pricing-item">
-              <h1>Free $0</h1>
-	      <h4>as long as you want</h4>
-	      <br>
-	      <hr>
-	      <br>
-	      <h3>Free plan includes</h3> 
+        <div class="row align-items-center justify-content-center">
+          <div class="pricing-table">
+            <div class="pricing-item">
+              <div class="pricing-title">Free</div>
+              <div class="pricing-value">$0<span class=
+              "undertext">Forever</span></div>
               <ul class="pricing-features">
-
-		<li>Up to 100 chat experiences (basic features) per month</li>
-		<li>No-coding, GUI-based AI chatbot builder (<a href="https://docs.juji.io/juji-studio/"
-		       target="_blank">Juji Studio</a>) 
-		  </li>
-		<li>Advanced AI chatbot scripting (<a href="https://docs.juji.io/juji-ide/" target=
-                     "_blank">Juji IDE</a>)</li>
-		<li>Third-party integration (<a href="https://docs.juji.io/api/" target="_blank">Juji API</a>)</li>
-		<li><a href="https://forum.juji.io" target="_blank">Juji Forum</a> support</li>
+                <li><span class="keywords">Basic</span> <a href=
+                "https://docs.juji.io/juji-studio/" target="_blank">Studio</a> for
+              easy authoring</li>
+                <li><a href="https://docs.juji.io/juji-ide/" target=
+                "_blank">IDE</a> for deep customization</li>
+                <li><a href="https://docs.juji.io/api/" target="_blank">API</a> for
+                  flexible integration</li>
+                <li>Up to 100 chats per month</li>
+                <li>Free <a href="https://forum.juji.io" target="_blank">forum
+                    support</a></li>
               </ul>
+              <div class="pricing-cta"><a class="button" href="/signup">Sign
+                  Up</a></div>
             </div>
-	  </div> <!--first item-->
-
-	  <div class="col-5 pricing-col" id="premium">
-	    <div class="pricing-item">
-              <h1>Premium $20</h1>
-	      <h4>per month, billed yearly</h4>
-	      <br>
-	      <hr>
-	      <br>
-	      <h3>Everything in free plan plus</h3> 
+	    
+            <div class="pricing-item pricing-featured">
+              <div class="selected">Recommended</div>
+              <div class="pricing-title">Pro</div>
+              <div class="pricing-value pro"><span class="abovetext">Starts
+                  at</span>$16.<span class="smallText">67</span><span class=
+                  "undertext">per month</span><span class="bottomtext">billed
+                  yearly</span></div>
               <ul class="pricing-features">
-		<li>Up to 100 chat experiences (premium features) per month</li>
-		<li>Unlimited power tools for growth</li>
-		<li>Chat results clean up and data export (<a href="https://docs.juji.io/reports/#export-audience-data" target="_blank">CSV download</a>)
-		</li>
-		<li>
-		  <span class="keywords"></span>
-		  <a href="https://docs.juji.io/juji-studio/"
-		     target="_blank">Audience analytics</a>
-		</li>
-		<li>
-		  <a href="mailto:support@juji.io">
-		    Email</a> support within 24 hours
-		</li>
+                <li>Everything in Free plan</li>
+                <li>Plus <span class="keywords">full featured</span> <a href=
+                "https://docs.juji.io/juji-studio/" target="_blank">Studio</a></li>
+                <li>Free 100 chats per month</li>
+                <li>Then $0.1 per chat</li>
+                <li>Free <a href="mailto:support@juji.io">email support</a></li>
               </ul>
+              <div class="pricing-cta"><a class="button" href=
+              "/checkout/site-pro">Get Pro</a></div>
             </div>
-	  </div> <!--end of second item-->
-
-	  <div class="col-8">
-	    <div class="inside-title">
-	    <h3>Please <a href="mailto:support@juji.io">email us</a> for enterprise applications of Juji AI chatbots.</h3>
-	    </div>
-	  </div>
-	  
-	</div> <!--end of row-->
-      </div> <!-container-->
-    </section>
-
-    <section class="content-section plan-section" id="free-section">
-      <div class="container">
-
-	<div class="text-area">
-          <h1>Get Started Free. Experience Everything.</h1>
-          <h4>Create and preview AI chatbots with all features. Upgrade to premium plan only when ready to deploy with premium features.</h4>
+            <div class="pricing-item">
+              <div class="pricing-title">Premium</div>
+              <div class="pricing-value custom">Custom<span class=
+              "undertext">Price</span></div>
+              <ul class="pricing-features">
+                <li>Everything in Pro plan</li>
+                <li>Personal on-boarding</li>
+                <li>Chatbot configuration</li>
+                <li>Custom integration</li>
+                <li>Dedicated account manager</li>
+              </ul>
+              <div class="pricing-cta"><a class="button" href=
+              "mailto:hello@juji.io?bcc=admin@juji-inc.com&amp;subject=Juji%20Premium%20Inquiry">
+                  Contact Us</a></div>
+            </div>
+          </div>
         </div>
-
-	<div class="row justify-content-center">
-	  <div class="col-4 action-btn-holder">
-	    <div class="action-btn">
-	      <a href="/signup">GET STARTED FREE</a>
-	    </div>
-	  </div>
-	</div>
       </div>
-      
-    </section>
-
-    
-    <section class="content-section plan-section" id="premium-section">
-      <div class="container">
-
-	<div class="text-area">
-          <h1>Automate Superior Brand Experiences</h1>
-          <h4>Up to 100 experiences per month for $20. Then $0.1 per experience. Each experience includes at least one conversational turn. </h4>
-        </div>
-
-	<div class="row justify-content-center">
-	  <div class="col-4 action-btn-holder">
-	    <div class="action-btn">
-	      <a href="/signup">GET STARTED FREE</a>
-	    </div>
-	  </div>
-	</div>
-	
-      </div>
-      
     </section>
     
+    <!--- - --Partner Logos- - - - - - - - - - - - -  - - - - -->
+    <!--section class="content-section title-sec" id="partner-logos">
+      <div class="container">
+        <div class="title-area">
+          <h2>Trusted by forward-thinking organizations to engage their
+            users</h2>
+        </div>
+      </div>
+    </section-->
+    
+    <!--section class="content-section">
+      <div class="partner-logos"><img class="logos" src=
+      "site/assets/img/content/partner-logos.jpg"></div>
+    </section-->
+
     <!--- - - - - - - - - - - -FAQs- - - - - - - - - - - - - -->
     <section class="content-section title-sec" id="howto">
       <div class="container">
         <div class="title-area">
-          <h1>Frequently Asked Questions</h1>
+          <h2>Frequently Asked Questions</h2>
         </div>
       </div>
     </section>
     <section class="content-section">
       <div class="faqs">
         <div class="cell faq">
-          <div class="row justify-content-around">
-            <div class="col-5">
+          <div class="row">
+            <div class="col-6">
               <div class="qa">
-                <h3>Do I have to enter a credit card for the free plan?</h3>
+                <h3>Do I have to enter a credit card for the Free plan?</h3>
                 <p>No, you only need a working email address to sign up for the
-                  free plan.</p>
+                  Free plan.</p>
               </div>
               <div class="qa">
                 <h3>Is there a limit on the number of chatbots that can be
                   created?</h3>
-                <p>No, you can create as many chatbots as you want. The
-                  limit is only on the number of meaningful conversations your chatbots conduct.</p>
+                <p>No, there is no limit on the number of chatbots you create. The
+                  limit is only on the number of chats your chatbots conduct.</p>
               </div>
               <div class="qa">
                 <h3>What happens if my chatbots conduct more than 100 chats per
                   month?</h3>
-                <p>If you are on the free plan, the number of chats
-                  will be capped at 100. If you are on the premium
-                  plan, there is no limit on the number of
-                  conversations that can be conducted, and you will be
-                  billed monthly for the additional chats conducted.</p>
+                <p>Your chatbots will not start more than 100 chats per month if
+                  you are on the Free plan. There is no limit on the number of chats
+                  for paying customers, and they are billed monthly.</p>
               </div>
               <div class="qa">
-                <h3>What are the differences between the basic and premium features?</h3>
-                <p>Basic features, such as reusing <a href="https://docs.juji.io/design#built-in-dialog" target="_blank">Juji built-in dialogs</a>, allow you to create AI chatbots to automate simple tasks. Premium features, such as customizing an AI chatbot for deeper conversations and viewing audience analytics, enable you to create AI chatbots that can deliver superior conversational experiences and automate complex tasks. <p>
-		<p>You can use both basic and premium features to build and preview an AI chatbot so you can experience a full-featured AI chatbot. You must upgrade to the premium plan if you decide to deploy an AI chatbot made with premium features. </p>
+                <h3>What is the difference between the basic Studio and full
+                  featured Studio?</h3>
+                <p>Basic Studio can test and preview all the features, but only
+                  full featured Studio can deploy all the features to production. The
+                  Pro plan Studio have features such as uploading FAQs, customizing
+                  topics in the UI, downloading text analytics results, and many
+                  other advanced features.</p>
               </div>
             </div>
-            <div class="col-5">
+            <div class="col-6">
               <div class="qa">
-                <h3>Can I upgrade to the premium plan after signing up free?</h3>
-                <p>Certainly. You can upgrade any time using your
-                account setting page in the Juji Studio.</p>
+                <h3>Can I upgrade to Pro plan after signing up for the Free
+                  plan?</h3>
+                <p>Sure. You can upgrade any time from within Juji Studio.</p>
               </div>
               <div class="qa">
-                <h3>Are there long term contracts for the premium plan?</h3>
-                <p>No, we don't force anyone into a long-term contract
-                  for the premium plan. Our best deal is an annual
-                  subscription, while monthly subscription is also
-                  available.</p>
+                <h3>Are there long term contracts for the Pro plan?</h3>
+                <p>No, we don't force you into long-term contracts for the Pro
+                  plan. Our best price is available as an annual subscription, but we
+                  offer monthly subscriptions as well.</p>
               </div>
               <div class="qa">
                 <h3>How do I cancel my paid plan?</h3>
-                <p>Your annual or monthly plan will be automatically
-                  renewed until you cancel them. Before each renewal,
-                  you will receive an invoice by email. You can cancel
-                  anytime using your account setting page in the Juji
-                  Studio.  Bear in mind that this will take effect
-                  immediately, and you will lose access to paid
-                  features and/or the data associated with the
-                  account.</p>
+                <p>Your annual and monthly plans will automatically renew until you
+                  cancel them. You will be emailed an invoice before each renewal.
+                  You can cancel at any time in the Account page of the application.
+                  Bear in mind that this will immediately take effect, and you will
+                  lose access to paid features.</p>
               </div>
               <div class="qa">
                 <h3>What is your refund policy?</h3>
-                <p>We try to keep this process as simple as
-                  possible for you. If you sign up for the annual plan and then
-                  change your mind, let us know within 30 days and
-                  we'll be happy to refund you. If you sign up for the
-                  monthly plan please let us know within 48
-                  hours. Email support@juji.io if you encounter issues,
-                  and we will work with you to resolve the issues.</p>
+                <p>We try to keep refunds simple for users. If you signed up for
+                  the annual plan and changed your mind, let us know within 30 days
+                  and we'll be happy to refund you. If you signed up for the
+                  month-to-month plan please let us know within 72 hours. Email
+                  support@juji.io if you are unhappy with Juji, give us a detailed
+                  account of what happened, and we will work with you to make sure
+                  you have the best experience possible.</p>
               </div>
             </div>
           </div>
@@ -296,9 +279,7 @@
         </div>
       </div>
     </section>
-
-
-     <footer>
+    <footer>
       <div class="container">
         <div class="row align-items-top justify-content-around">
           <div class="col-md-6 col-lg-4">
@@ -318,9 +299,6 @@
             <h3>Support</h3>
             <p><a href="https://forum.juji.io" target="_blank">Juji
                 Forum</a></p>
-	    <p><a href="https://docs.juji.io/faq/" target="_blank">Juji
-                FAQs</a></p>
-            <br>
             <p>support@juji.io</p>
           </div>
           <div class="col-md-6 col-lg-3" id="contact-block">
@@ -346,8 +324,6 @@
         </div>
       </div>
     </footer>
-    
-
     <input id="__anti-forgery-token" name="__anti-forgery-token" type=
     "hidden" value=
     "p8HRMQyuSS+25BEbcMKrHrtxvcOTG/2g1bK4UVyva/vX8pyHoRUvIf+oXlK/abXow1+azF8iQ3VP/rf9">

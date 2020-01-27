@@ -32,17 +32,23 @@
     <script src="site/assets/js/modernizr.js"></script>
   </head>
   <body>
+
+
     <header>
       <nav class=
       "navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container"><a class="navbar-brand" href="/"><img alt=
-        "Juji Logo" class="logo" src="site/assets/img/ui/ui--logo.png"></a>
+        <div class="container">
+	  <a class="navbar-brand" href="/">
+	    <img alt="Juji Logo" class="logo"
+		 src="site/assets/img/ui/ui--logo.png">
+	  </a>
+
+	  <a class="nav-link" href="/why">
+	    Why Juji
+	  </a>
+	  
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link" href="/why">Why
-                  Juji</a></li>
-              <li class="nav-item"><a class="nav-link" href=
-              "/pricing">Pricing</a></li>
               <li class="nav-item">
                 <div class="dropdown"><a aria-expanded="false" aria-haspopup="true"
                                                                class="nav-link" data-toggle="dropdown" href="#" id=
@@ -61,7 +67,9 @@
                 </div>
               </li>
               <li class="nav-item"><a class="nav-link" href=
-              "/careers">Careers</a></li>
+				      "/careers">Careers</a></li>
+	       <li class="nav-item"><a class="nav-link" href=
+              "/pricing">Pricing</a></li>
               <li class="nav-item"><a class="nav-link" href="/login">Sign
                   On</a></li>
             </ul>
@@ -69,6 +77,7 @@
         </div>
       </nav>
     </header>
+    
     <main>
       <section class="error-section">
         <div class="container-fluid">
@@ -89,6 +98,8 @@
         </div>
       </section>
     </main>
+    
+   
     <footer>
       <div class="container">
         <div class="row align-items-top justify-content-around">
@@ -109,6 +120,9 @@
             <h3>Support</h3>
             <p><a href="https://forum.juji.io" target="_blank">Juji
                 Forum</a></p>
+	    <p><a href="https://docs.juji.io/faq/" target="_blank">Juji
+                FAQs</a></p>
+            <br>
             <p>support@juji.io</p>
           </div>
           <div class="col-md-6 col-lg-3" id="contact-block">
@@ -129,11 +143,12 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12" id="footer-copyright">© 2014-2020 Juji, Inc.
+          <div class="col-md-12" id="footer-copyright">© 2020 Juji, Inc.
             All Rights Reserved.</div>
         </div>
       </div>
     </footer>
+   
     <input id="__anti-forgery-token" name="__anti-forgery-token" type=
     "hidden" value=
     "Unbound: #'ring.middleware.anti-forgery/*anti-forgery-token*">
