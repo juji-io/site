@@ -1598,6 +1598,8 @@ footer .navigation {
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: GothamRounded-Medium;
+    font-size: 18px;
+    text-align: center;
 }
 
 .pricing-banner .action-btn a {
@@ -1609,6 +1611,8 @@ footer .navigation {
 }
 
 .pricing-col {
+    margin: auto;
+    width: 90%;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 50px;
@@ -1638,7 +1642,36 @@ footer .navigation {
     max-width: 550px;
     margin: auto;
     width: 70%;
-    
+    font-size: 16px;
+}
+
+
+.pricing-col .action-btn-holder {
+
+
+}
+
+
+.pricing-col .action-btn {
+
+    margin: auto;
+    /*background:#28BD8B !important;*/
+    background: black;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: GothamRounded-Medium;
+    width: 100%;
+}
+
+.pricing-col .action-btn a {
+    color: white;
+}
+
+.pricing-col .action-btn a:hover {
+    text-decoration: none;
 }
 
 .plan-section .action-btn-holder {
@@ -1649,7 +1682,7 @@ footer .navigation {
 .plan-section .action-btn {
 
     margin: auto;
-    width: 60%;
+    width: 70%;
     background:#28BD8B !important;
     border: none;
     margin-top: 10px;
@@ -1657,6 +1690,7 @@ footer .navigation {
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: GothamRounded-Medium;
+    font-size: 18px;
 }
 
 .plan-section .action-btn a {
@@ -1689,6 +1723,11 @@ footer .navigation {
 
 #premium {
     background: rgb(204,254,230);
+}
+
+#faq-title-sec {
+    background: white;
+    margin-top: 50px;
 }
 
 .pricing-table {
@@ -1927,7 +1966,9 @@ footer .navigation {
     margin: auto;
     padding-top: 40px;
     padding-bottom: 30px;
+    border-top: 3px solid #F2F2F2;
 }
+
 
 /***
 * Error
@@ -2356,3 +2397,49 @@ About Page
 #audienceDropdown:hover {
     text-decoration: none;
 }
+
+/*
+ * Publications
+ */
+
+.pub-banner-sec
+{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 250px;
+    background-image: url("../img/ui/pub-banner.jpeg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.pub-title-sec
+{
+    background:white;
+    border-bottom: 2px solid #F2F2F2;
+    margin: auto;
+    width: 60%;
+    
+}
+
+.pub-content-sec
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.pub-content-sec ol
+{
+    margin: 0;
+    text-align: left;
+}
+
+.pub-content-sec li
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+

@@ -12,7 +12,7 @@
       gtag('js', new Date());
       gtag('config', 'UA-113933244-1');
     </script>
-    <title>Juji</title>
+    <title>Juji Home</title>
     <meta content=
     "width=device-width, initial-scale=1, shrink-to-fit=no" name=
     "viewport">
@@ -32,9 +32,8 @@
     <script src="site/assets/js/modernizr.js"></script>
   </head>
   <body>
-
-
-       <header>
+    
+    <header>
       <nav class=
       "navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
@@ -92,29 +91,50 @@
         </div>
       </nav>
     </header>
-   
-    <main>
-      <section class="error-section">
-        <div class="container-fluid">
-          <div class=
-          "row no-gutters align-items-center justify-content-center">
-            <div class="col-md-4">
-              <div class="rep-area"><img src=
-              "site/assets/img/ui/juji-profile.png"></div>
+
+    
+    <section class="content-section main-section home-banner">
+      <div class="container-fluid">
+        <div class=
+        "row no-gutters align-items-center justify-content-center">
+          <div class="col-xl-9">
+            <div class="text-area">
+              <h1>Rethink chatbots | Reimagine growth</h1>
+              <h4>Automate superior brand experience with AI chatbots. Grow your business @ scale.</h4>
             </div>
-            <div class="col-md-5 col-element">
-              <div class="title-area">
-                <h1>Oops, I am lost...</h1>
-                <h4>I don't know where you want to go. For technical difficulties,
-                  please email support@juji.io</h4>
+            <div class="action-area">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-8 col-md-4">
+                  <div class="action-btn learn-btn"><a href="/why">WHY JUJI</a></div>
+                </div>
+                <div class="col-8 col-md-4">
+                  <div class="action-btn demo-btn"><a href="#gallery">LIVE
+                      DEMOS</a></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+
     
    
+
+    <section class="content-section bottom-action-area">
+      <div class=
+      "row no-gutters align-items-center justify-content-center">
+        <div class="col-md-6">
+          <div class="bottom-action-content">
+            <h2>Unleash Your AI Chatbot Today</h2>
+            <div class="bottom-action-btn-holder">
+	      <a class="bottom-action-btn"
+                 href="/signup">GET STARTED FREE</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <footer>
       <div class="container">
         <div class="row align-items-top justify-content-around">
@@ -163,10 +183,9 @@
         </div>
       </div>
     </footer>
-   
     <input id="__anti-forgery-token" name="__anti-forgery-token" type=
     "hidden" value=
-    "Unbound: #'ring.middleware.anti-forgery/*anti-forgery-token*">
+    "p8HRMQyuSS+25BEbcMKrHrtxvcOTG/2g1bK4UVyva/vX8pyHoRUvIf+oXlK/abXow1+azF8iQ3VP/rf9">
     <script src="site/assets/js/jquery/jquery.min.js"></script>
     <script src="site/assets/js/popper/popper.min.js"></script>
     <script src="site/assets/js/bootstrap/bootstrap.min.js"></script>
