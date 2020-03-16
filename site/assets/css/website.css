@@ -960,11 +960,11 @@ footer .navigation {
 ******************************************/
 
 .home-banner {
-    background-image: url("../img/ui/chinese-newyear-banner.gif");
+    background-image: url("../img/ui/spring2020-banner.gif");
     background-position:bottom;
     background-repeat:no-repeat;
     background-size: contain;
-    background-color: #F8F8F8;
+    /*background-color: #F8F8F8;*/
     border-bottom: 4px solid #F8F8F8;
 }
 
