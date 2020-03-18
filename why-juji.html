@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <script async src='/assets/js/autotrack.js'></script>
+    <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-113933244-1', 'auto', {allowLinker: true});
+      ga('require', 'linkid');
+      ga('require', 'cleanUrlTracker');
+      ga('require', 'eventTracker');
+      ga('require', 'impressionTracker');
+      ga('require', 'maxScrollTracker');
+      ga('require', 'outboundFormTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'pageVisibilityTracker');
+      ga('require', 'urlChangeTracker');
+      ga('require', 'linker');
+      ga('linker:autoLink', ['juji.ai', 'forum.juji.io', 'docs.juji.io', 'juji.io'], 
+        false, false);
+      ga('send', 'pageview');
+    </script>
     <meta name="generator" content=
     "HTML Tidy for HTML5 for Apple macOS version 5.6.0">
     <meta charset="utf-8">
-    <script async src=
-    "https://www.googletagmanager.com/gtag/js?id=UA-113933244-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-113933244-1');
-    </script>
     <title>Why Juji</title>
     <meta content=
     "width=device-width, initial-scale=1, shrink-to-fit=no" name=
@@ -24,10 +34,10 @@
     <link href=
     "https://fonts.googleapis.com/css?family=Nunito:400,300,700" rel=
     "stylesheet">
-    <link href="site/assets/css/bootstrap/bootstrap.min.css" rel=
+    <link href="/assets/css/bootstrap/bootstrap.min.css" rel=
     "stylesheet">
-    <link href="site/assets/css/website.css" rel="stylesheet">
-    <script src="site/assets/js/modernizr.js"></script>
+    <link href="/assets/css/website.css" rel="stylesheet">
+    <script src="/assets/js/modernizr.js"></script>
   </head>
   <body>
 
@@ -38,10 +48,12 @@
         <div class="container">
 	  <a class="navbar-brand" href="/">
 	    <img alt="Juji Logo" class="logo"
-		 src="site/assets/img/ui/ui--logo.png">
+		 src="/assets/img/ui/ui--logo.png">
 	  </a>
 
-	  <a class="nav-link" href="/why">
+	  <a class={% if page.url == "/why-juji/" %} "nav-link active-link" {% else %} "nav-link" {% endif %}
+    "nav-link" 
+      href="/why-juji">
 	    Why Juji
 	  </a>
 	  
@@ -80,10 +92,10 @@
                 </div>
               </li>
               <li class="nav-item"><a class="nav-link" href=
-				      "/careers">Careers</a></li>
+				      "/career">Careers</a></li>
 	       <li class="nav-item"><a class="nav-link" href=
               "/pricing">Pricing</a></li>
-              <li class="nav-item"><a class="nav-link" href="/login">Sign
+              <li class="nav-item"><a class="nav-link" href="https://juji.ai/login">Sign
                   On</a></li>
             </ul>
           </div>
@@ -170,7 +182,7 @@
               </a></div>
               <div class="row align-items-center">
                 <div class="col-10"><img src=
-                "site/assets/img/ui/smb-benefits.png"></div>
+                "/assets/img/ui/smb-benefits.png"></div>
               </div>
           </div>
           <div class="col-8 col-md-4 col-element">
@@ -246,7 +258,7 @@
               </a></div>
               <div class="row align-items-center justify-content-center">
                 <div class="col-10"><img src=
-                "site/assets/img/ui/agency-benefits.png"></div>
+                "/assets/img/ui/agency-benefits.png"></div>
               </div>
           </div>
         </div>
@@ -274,7 +286,7 @@
               </a></div>
               <div class="row align-items-center">
                 <div class="col-10"><img src=
-                "site/assets/img/ui/marketing-benefits.png"></div>
+                "/assets/img/ui/marketing-benefits.png"></div>
               </div>
           </div>
           <div class="col-8 col-md-4 col-element">
@@ -352,7 +364,7 @@
               </a></div>
               <div class="row align-items-center justify-content-center">
                 <div class="col-10"><img src=
-                "site/assets/img/ui/research-benefits.png"></div>
+                "/assets/img/ui/research-benefits.png"></div>
               </div>
           </div>
         </div>
@@ -371,7 +383,7 @@
             </div>
             <div class="col-md-4">
               <div class="rep-area"><img src=
-              "site/assets/img/ui/alicia-profile.png"></div>
+              "/assets/img/ui/alicia-profile.png"></div>
             </div>
           </div>
         </div>
@@ -403,7 +415,7 @@
                 <div class="action-area">
                   <div class="row align-items-center justify-content-between">
                     <div class="col-sm-6 col-element"><a class=
-                    "action-btn selected-btn" href="/signup">CREATE MY OWN</a></div>
+                    "action-btn selected-btn" href="https://juji.ai/signup">CREATE MY OWN</a></div>
                   </div>
                 </div>
                 <p>If you wish to outsource it to an agency, email
@@ -412,7 +424,7 @@
             </div>
             <div class="col-md-6 col-element img-area">
               <div class="img-holder"><img src=
-              "site/assets/img/content/aliciachat.png"></div>
+              "/assets/img/content/aliciachat.png"></div>
             </div>
           </div>
         </div>
@@ -425,7 +437,7 @@
           "row no-gutters align-items-center justify-content-center">
             <div class="col-md-4">
               <div class="rep-area"><img src=
-              "site/assets/img/ui/juji-profile.png"></div>
+              "/assets/img/ui/juji-profile.png"></div>
             </div>
             <div class="col-md-5">
               <div class="title-area">
@@ -441,7 +453,7 @@
           "row no-gutters align-items-center justify-content-center">
             <div class="col-md-6 col-element img-area">
               <div class="img-holder"><img src=
-              "site/assets/img/content/jujichat-phone.png"></div>
+              "/assets/img/content/jujichat-phone.png"></div>
             </div>
             <div class="col-md-5 col-element">
               <div class="text-area">
@@ -467,7 +479,7 @@
                 <div class="action-area">
                   <div class="row align-items-center justify-content-between">
                     <div class="col-sm-6 col-element"><a class=
-                    "action-btn selected-btn" href="/signup">CREATE MY OWN</a></div>
+                    "action-btn selected-btn" href="https://juji.ai/signup">CREATE MY OWN</a></div>
                   </div>
                 </div>
                 <p>If you wish to outsource it to an agency, email
@@ -490,7 +502,7 @@
             </div>
             <div class="col-md-4">
               <div class="rep-area"><img src=
-              "site/assets/img/ui/albert-profile.png"></div>
+              "/assets/img/ui/albert-profile.png"></div>
             </div>
           </div>
         </div>
@@ -525,7 +537,7 @@
                 <div class="action-area">
                   <div class="row align-items-center justify-content-between">
                     <div class="col-sm-6 col-element"><a class=
-                    "action-btn selected-btn" href="/signup">CREATE MY OWN</a></div>
+                    "action-btn selected-btn" href="https://juji.ai/signup">CREATE MY OWN</a></div>
                   </div>
                 </div>
                 <p>If you wish to outsource it to an agency, email
@@ -534,7 +546,7 @@
             </div>
             <div class="col-md-6 col-element img-area">
               <div class="img-holder"><img src=
-              "site/assets/img/content/albertchat-phone.png"></div>
+              "/assets/img/content/albertchat-phone.png"></div>
             </div>
           </div>
         </div>
@@ -547,7 +559,7 @@
           "row no-gutters align-items-center justify-content-center">
             <div class="col-md-4">
               <div class="rep-area"><img src=
-              "site/assets/img/ui/kaya-profile.png"></div>
+              "/assets/img/ui/kaya-profile.png"></div>
             </div>
             <div class="col-md-6">
               <div class="title-area">
@@ -563,7 +575,7 @@
           "row no-gutters align-items-center justify-content-center">
             <div class="col-md-6 col-element img-area">
               <div class="img-holder"><img src=
-              "site/assets/img/content/kayachat.png"></div>
+              "/assets/img/content/kayachat.png"></div>
             </div>
             <div class="col-md-5 col-element">
               <div class="text-area">
@@ -590,7 +602,7 @@
                 <div class="action-area">
                   <div class="row align-items-center justify-content-between">
                     <div class="col-sm-6 col-element"><a class=
-                    "action-btn selected-btn" href="/signup">CREATE MY OWN</a></div>
+                    "action-btn selected-btn" href="https://juji.ai/signup">CREATE MY OWN</a></div>
                   </div>
                 </div>
                 <p>If you wish to outsource it to an agency, email
@@ -613,7 +625,7 @@
             </div>
             <div class="col-md-4">
               <div class="rep-area"><img src=
-              "site/assets/img/ui/ava-profile.png"></div>
+              "/assets/img/ui/ava-profile.png"></div>
             </div>
           </div>
         </div>
@@ -649,7 +661,7 @@
                 <div class="action-area">
                   <div class="row align-items-center justify-content-between">
                     <div class="col-sm-6 col-element"><a class=
-                    "action-btn selected-btn" href="/signup">CREATE MY OWN</a></div>
+                    "action-btn selected-btn" href="https://juji.ai/signup">CREATE MY OWN</a></div>
                   </div>
                 </div>
                 <p>If you wish to outsource it to an agency, email
@@ -658,7 +670,7 @@
             </div>
             <div class="col-md-6 col-element img-area">
               <div class="img-holder"><img src=
-              "site/assets/img/content/avachat.png"></div>
+              "/assets/img/content/avachat.png"></div>
             </div>
           </div>
         </div>
@@ -692,14 +704,14 @@
           </div>
           <div class="col-md-6">
             <div class="img-holder"><img src=
-            "site/assets/img/content/juji-studio.png"></div>
+            "/assets/img/content/juji-studio.png"></div>
           </div>
         </div>
         <div class=
         "row align-items-center justify-content-around juji-tool">
           <div class="col-md-6">
             <div class="img-holder"><img src=
-            "site/assets/img/content/juji-ide.png"></div>
+            "/assets/img/content/juji-ide.png"></div>
           </div>
           <div class="col-md-4 juji-desc"><a href=
           "https://docs.juji.io/juji-ide/" target="_blank"></a>
@@ -734,7 +746,7 @@
           </div>
           <div class="col-md-6">
             <div class="img-holder"><img src=
-            "site/assets/img/content/juji-api.png"></div>
+            "/assets/img/content/juji-api.png"></div>
           </div>
         </div>
       </div>
@@ -747,7 +759,7 @@
             <h2>Unleash Your AI Chatbot Today</h2>
             <div class="bottom-action-btn-holder">
 	      <a class="bottom-action-btn"
-                 href="/signup">GET STARTED FREE</a></div>
+                 href="https://juji.ai/signup">GET STARTED FREE</a></div>
           </div>
         </div>
       </div>
@@ -761,11 +773,17 @@
               <div class="subscribe-newsletter__heading">Stay Connected</div>
               <div id="subscribe-newsletter-block">
                 <p>Get the latest news from Juji</p>
-                <input id="subscribe-newsletter__email" name="email" placeholder=
-                "Your e-mail" type="email"><button class=
-                "subscribe-newsletter__button" id="submit-btn" onclick=
-                "subscribeToNewsletter()">Submit</button>
-                <div id="subscribe-newsletter__msg"></div>
+                <form action="https://sendy.juji-inc.com/subscribe" method="POST" accept-charset="utf-8">
+                  <div style="display:none;">
+                    <label for="hp">HP</label><br/>
+                    <input type="text" name="hp" id="hp"/>
+                  </div>
+                  <input id="subscribe-newsletter__email" name="email" placeholder=
+                  "Your e-mail" type="email">
+                  <input type="submit" class="subscribe-newsletter__button" id="submit-btn"/>
+                  <input type="hidden" name="list" value="2GH6PnD3ltltrKvFNO7x0A"/>
+                  <input type="hidden" name="subform" value="yes"/>
+                </form>
               </div>
             </div>
           </div>
@@ -802,13 +820,9 @@
       </div>
     </footer>
     
-    <input id="__anti-forgery-token" name="__anti-forgery-token" type=
-    "hidden" value=
-    "p8HRMQyuSS+25BEbcMKrHrtxvcOTG/2g1bK4UVyva/vX8pyHoRUvIf+oXlK/abXow1+azF8iQ3VP/rf9">
-    <script src="site/assets/js/jquery/jquery.min.js"></script>
-    <script src="site/assets/js/popper/popper.min.js"></script>
-    <script src="site/assets/js/bootstrap/bootstrap.min.js"></script>
-    <script src="site/assets/js/site.js"></script>
+    <script src="/assets/js/jquery/jquery.min.js"></script>
+    <script src="/assets/js/popper/popper.min.js"></script>
+    <script src="/assets/js/bootstrap/bootstrap.min.js"></script>
     <script>
 
       $(function() {

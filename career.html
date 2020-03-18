@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <script async src='/assets/js/autotrack.js'></script>
+    <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-113933244-1', 'auto', {allowLinker: true});
+      ga('require', 'linkid');
+      ga('require', 'cleanUrlTracker');
+      ga('require', 'eventTracker');
+      ga('require', 'impressionTracker');
+      ga('require', 'maxScrollTracker');
+      ga('require', 'outboundFormTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'pageVisibilityTracker');
+      ga('require', 'urlChangeTracker');
+      ga('require', 'linker');
+      ga('linker:autoLink', ['juji.ai', 'forum.juji.io', 'docs.juji.io', 'juji.io'], 
+        false, false);
+      ga('send', 'pageview');
+    </script>
     <meta name="generator" content=
     "HTML Tidy for HTML5 for Apple macOS version 5.6.0">
     <meta charset="utf-8">
-    <script async src=
-    "https://www.googletagmanager.com/gtag/js?id=UA-113933244-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-113933244-1');
     </script>
-    <title>Juji</title>
+    <title>Juji Career</title>
     <meta content=
     "width=device-width, initial-scale=1, shrink-to-fit=no" name=
     "viewport">
@@ -26,26 +37,26 @@
     <link href=
     "https://fonts.googleapis.com/css?family=Nunito:400,300,700" rel=
     "stylesheet">
-    <link href="site/assets/css/bootstrap/bootstrap.min.css" rel=
+    <link href="/assets/css/bootstrap/bootstrap.min.css" rel=
     "stylesheet">
-    <link href="site/assets/css/website.css" rel="stylesheet">
-    <script src="site/assets/js/modernizr.js"></script>
+    <link href="/assets/css/website.css" rel="stylesheet">
+    <script src="/assets/js/modernizr.js"></script>
   </head>
   <body>
 
-      <header>
+    <header>
       <nav class=
       "navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
-	  <a class="navbar-brand" href="/">
-	    <img alt="Juji Logo" class="logo"
-		 src="site/assets/img/ui/ui--logo.png">
-	  </a>
+          <a class="navbar-brand" href="/">
+            <img alt="Juji Logo" class="logo"
+                                 src="/assets/img/ui/ui--logo.png">
+          </a>
 
-	  <a class="nav-link" href="/why">
-	    Why Juji
-	  </a>
-	  
+          <a class="nav-link" href="/why-juji">
+            Why Juji
+          </a>
+
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
@@ -53,45 +64,50 @@
                                                                class="nav-link" data-toggle="dropdown" href="#" id=
                                                                "resourcesDropdown" role="button">Resources</a>
                   <ul aria-labelledby="resourcesDropdown" class="dropdown-menu" role=
-                      "menu">
+                  "menu">
 
-		    
-		    
-                    <li><a href="https://docs.juji.io/why-ai-chatbots/" tabindex="-1"
-                                                                        target="_blank">Beginners' Guide to AI Chatbots</a></li>
+
+
+                    <li>
+                      <a href="https://docs.juji.io/why-ai-chatbots/" 
+                        tabindex="-1" target="_blank">
+                        Beginners' Guide to AI Chatbots
+                      </a>
+                    </li>
                     <div class="dropdown-divider"></div>
                     <li><a href="https://docs.juji.io/tutorial/#" tabindex="-1" target=
                     "_blank">Video Tutorials</a></li>
                     <div class="dropdown-divider"></div>
 
                     <li><a href="https://docs.juji.io/" tabindex="-1" target=
-			   "_blank">Documentation</a></li>
+                        "_blank">Documentation</a></li>
 
-		    <div class="dropdown-divider"></div>
-		    <li>
-		      <a href="https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots" tabindex="-1"
-                         target="_blank">Blogs</a>
-		    </li>
-		    <div class="dropdown-divider"></div>
-		    <li>
-		      <a href="/publications" tabindex="-1"
-                         target="_blank">Publications & Talks</a>
-		    </li>
+                    <div class="dropdown-divider"></div>
+                    <li>
+                      <a href="https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots" tabindex="-1"
+                        target="_blank">Blogs</a>
+                    </li>
+                    <div class="dropdown-divider"></div>
+                    <li>
+                      <a href="/publications" tabindex="-1"
+                        target="_blank">Publications & Talks</a>
+                    </li>
                   </ul>
                 </div>
               </li>
+              <li class="nav-item">
+                <a class={% if page.url == "/career/" %} "nav-link active-link" {% else %} "nav-link" {% endif %}
+                   href="/career">Careers</a></li>
               <li class="nav-item"><a class="nav-link" href=
-				      "/careers">Careers</a></li>
-	       <li class="nav-item"><a class="nav-link" href=
               "/pricing">Pricing</a></li>
-              <li class="nav-item"><a class="nav-link" href="/login">Sign
+              <li class="nav-item"><a class="nav-link" href="https://juji.ai/login">Sign
                   On</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    
+
     <section class="content-section main-section career-main">
       <div class="container-fluid">
         <div class=
@@ -127,7 +143,7 @@
           <!--- - - - - - - - - - - -Agent Area- - - - - - - - - - - - - - - - - - - - - - - - -->
           <div class="col-lg-6 demo-area" id="apply-by-chat">
             <div class="iframe-container"><iframe frameborder="0" src=
-            "https://juji.io/pre-chat/hello-9c8c51a/11"></iframe></div>
+            "https://juji.ai/pre-chat/hello-9c8c51a/11"></iframe></div>
           </div>
         </div>
       </div>
@@ -348,9 +364,9 @@
           veteran status.</p>
       </div>
     </section>
-    
 
-     <footer>
+
+    <footer>
       <div class="container">
         <div class="row align-items-top justify-content-around">
           <div class="col-md-6 col-lg-4">
@@ -358,11 +374,17 @@
               <div class="subscribe-newsletter__heading">Stay Connected</div>
               <div id="subscribe-newsletter-block">
                 <p>Get the latest news from Juji</p>
-                <input id="subscribe-newsletter__email" name="email" placeholder=
-                "Your e-mail" type="email"><button class=
-                "subscribe-newsletter__button" id="submit-btn" onclick=
-                "subscribeToNewsletter()">Submit</button>
-                <div id="subscribe-newsletter__msg"></div>
+                <form action="https://sendy.juji-inc.com/subscribe" method="POST" accept-charset="utf-8">
+                  <div style="display:none;">
+                    <label for="hp">HP</label><br/>
+                    <input type="text" name="hp" id="hp"/>
+                  </div>
+                  <input id="subscribe-newsletter__email" name="email" placeholder=
+                  "Your e-mail" type="email">
+                  <input type="submit" class="subscribe-newsletter__button" id="submit-btn"/>
+                  <input type="hidden" name="list" value="2GH6PnD3ltltrKvFNO7x0A"/>
+                  <input type="hidden" name="subform" value="yes"/>
+                </form>
               </div>
             </div>
           </div>
@@ -370,7 +392,7 @@
             <h3>Support</h3>
             <p><a href="https://forum.juji.io" target="_blank">Juji
                 Forum</a></p>
-	    <p><a href="https://docs.juji.io/faq/" target="_blank">Juji
+            <p><a href="https://docs.juji.io/faq/" target="_blank">Juji
                 FAQs</a></p>
             <br>
             <p>support@juji.io</p>
@@ -400,16 +422,11 @@
     </footer>
 
 
-    
-    <input id="__anti-forgery-token" name="__anti-forgery-token" type=
-    "hidden" value=
-    "p8HRMQyuSS+25BEbcMKrHrtxvcOTG/2g1bK4UVyva/vX8pyHoRUvIf+oXlK/abXow1+azF8iQ3VP/rf9">
-    <script src="site/assets/js/jquery/jquery.min.js"></script>
-    <script src="site/assets/js/popper/popper.min.js"></script>
-    <script src="site/assets/js/bootstrap/bootstrap.min.js"></script>
-    <script src="site/assets/js/site.js"></script>
-    <script>
 
+    <script src="/assets/js/jquery/jquery.min.js"></script>
+    <script src="/assets/js/popper/popper.min.js"></script>
+    <script src="/assets/js/bootstrap/bootstrap.min.js"></script>
+    <script>
       $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

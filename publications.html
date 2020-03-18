@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <script async src='/assets/js/autotrack.js'></script>
+    <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-113933244-1', 'auto', {allowLinker: true});
+      ga('require', 'linkid');
+      ga('require', 'cleanUrlTracker');
+      ga('require', 'eventTracker');
+      ga('require', 'impressionTracker');
+      ga('require', 'maxScrollTracker');
+      ga('require', 'outboundFormTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'pageVisibilityTracker');
+      ga('require', 'urlChangeTracker');
+      ga('require', 'linker');
+      ga('linker:autoLink', ['juji.ai', 'forum.juji.io', 'docs.juji.io', 'juji.io'], 
+        false, false);
+      ga('send', 'pageview');
+    </script>
     <meta name="generator" content=
     "HTML Tidy for HTML5 for Apple macOS version 5.6.0">
     <meta charset="utf-8">
-    <script async src=
-    "https://www.googletagmanager.com/gtag/js?id=UA-113933244-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-113933244-1');
-    </script>
     <title>Juji Publications</title>
     <meta content=
     "width=device-width, initial-scale=1, shrink-to-fit=no" name=
@@ -26,10 +36,10 @@
     <link href=
     "https://fonts.googleapis.com/css?family=Nunito:400,300,700" rel=
     "stylesheet">
-    <link href="site/assets/css/bootstrap/bootstrap.min.css" rel=
+    <link href="/assets/css/bootstrap/bootstrap.min.css" rel=
     "stylesheet">
-    <link href="site/assets/css/website.css" rel="stylesheet">
-    <script src="site/assets/js/modernizr.js"></script>
+    <link href="/assets/css/website.css" rel="stylesheet">
+    <script src="/assets/js/modernizr.js"></script>
   </head>
   <body>
     
@@ -39,10 +49,10 @@
         <div class="container">
 	  <a class="navbar-brand" href="/">
 	    <img alt="Juji Logo" class="logo"
-		 src="site/assets/img/ui/ui--logo.png">
+		 src="/assets/img/ui/ui--logo.png">
 	  </a>
 
-	  <a class="nav-link" href="/why">
+	  <a class="nav-link" href="/why-juji">
 	    Why Juji
 	  </a>
 	  
@@ -81,10 +91,10 @@
                 </div>
               </li>
               <li class="nav-item"><a class="nav-link" href=
-				      "/careers">Careers</a></li>
+				      "/career">Careers</a></li>
 	       <li class="nav-item"><a class="nav-link" href=
               "/pricing">Pricing</a></li>
-              <li class="nav-item"><a class="nav-link" href="/login">Sign
+              <li class="nav-item"><a class="nav-link" href="https://juji.ai/login">Sign
                   On</a></li>
             </ul>
           </div>
@@ -182,11 +192,14 @@
 		 <a href="https://icmi.acm.org/2019/index.php?id=tutorial">Getting Virtually Personal: Power Conversational AI to Fulfill Tasks and Personalize Chitchat for Real-World Applications.</a>. ACM ICMI' 2019 Tutorial.
 	       </li>
 
+         <li>Huahai Yang. (2018)
+		 <a href="https://www.youtube.com/watch?v=phA4bMjKvCY&amp;t=5s">A Clojure Fusion of Symbolic and Data Driven AI</a>. Clojure Conj' 2018. <a href="https://www.slideshare.net/HuahaiYang1/a-clojure-fusion-of-symbolic-and-data-driven-ai">[slides]</a></li>
+
 	     </ol>
 	     
 	   </div> <!--end of col-->
 	 </div> <!--end of row-->
-       </div> <!-container-->
+       </div> <!--container-->
      </section>
 
      <section class="content-section title-sec pub-title-sec">
@@ -220,7 +233,8 @@ Intelligence.</a> ACM CHI' 2019: 209.
 	     </ol>
 	     
 	 </div> <!--end of row-->
-       </div> <!-container-->
+       </div> 
+       </div>
      </section>
      
     <section class="content-section bottom-action-area">
@@ -245,11 +259,17 @@ Intelligence.</a> ACM CHI' 2019: 209.
               <div class="subscribe-newsletter__heading">Stay Connected</div>
               <div id="subscribe-newsletter-block">
                 <p>Get the latest news from Juji</p>
-                <input id="subscribe-newsletter__email" name="email" placeholder=
-                "Your e-mail" type="email"><button class=
-                "subscribe-newsletter__button" id="submit-btn" onclick=
-                "subscribeToNewsletter()">Submit</button>
-                <div id="subscribe-newsletter__msg"></div>
+                <form action="https://sendy.juji-inc.com/subscribe" method="POST" accept-charset="utf-8">
+                  <div style="display:none;">
+                    <label for="hp">HP</label><br/>
+                    <input type="text" name="hp" id="hp"/>
+                  </div>
+                  <input id="subscribe-newsletter__email" name="email" placeholder=
+                  "Your e-mail" type="email">
+                  <input type="submit" class="subscribe-newsletter__button" id="submit-btn"/>
+                  <input type="hidden" name="list" value="2GH6PnD3ltltrKvFNO7x0A"/>
+                  <input type="hidden" name="subform" value="yes"/>
+                </form>
               </div>
             </div>
           </div>
@@ -285,13 +305,9 @@ Intelligence.</a> ACM CHI' 2019: 209.
         </div>
       </div>
     </footer>
-    <input id="__anti-forgery-token" name="__anti-forgery-token" type=
-    "hidden" value=
-    "p8HRMQyuSS+25BEbcMKrHrtxvcOTG/2g1bK4UVyva/vX8pyHoRUvIf+oXlK/abXow1+azF8iQ3VP/rf9">
-    <script src="site/assets/js/jquery/jquery.min.js"></script>
-    <script src="site/assets/js/popper/popper.min.js"></script>
-    <script src="site/assets/js/bootstrap/bootstrap.min.js"></script>
-    <script src="site/assets/js/site.js"></script>
+    <script src="/assets/js/jquery/jquery.min.js"></script>
+    <script src="/assets/js/popper/popper.min.js"></script>
+    <script src="/assets/js/bootstrap/bootstrap.min.js"></script>
     <script>
 
       $(function() {
