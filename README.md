@@ -16,3 +16,12 @@ npx @11ty/eleventy --serve
 ```
 
 Browse to http://localhost:8080/ 
+
+## Build the Site Only
+
+Necessary on production sever after pulled the latest
+
+```
+npx @11ty/eleventy 
+```
+
