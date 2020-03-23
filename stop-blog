@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd -- "$(dirname "$0")"
+
+kill -9 `cat server.pid`
+kill -9 `cat proxy.pid`
+

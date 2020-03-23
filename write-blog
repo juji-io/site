@@ -1,0 +1,20 @@
+#!/bin/bash
+
+cd -- "$(dirname "$0")"
+
+set -m 
+
+git pull 
+
+npx netlify-cms-proxy-server &
+echo $! > proxy.pid
+
+npx @11ty/eleventy --serve &
+echo $! > server.pid
+
+sleep 10 
+
+open "http://localhost:8080"
+open "http://localhost:8080/admin"
+
+fg

@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+
+local_backend: true
+    
+media_folder: "_site/uploads" # Folder where user uploaded files should go
+public_folder: "/uploads"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
+    identifier_field: "title"
+    label: "Article" # Used in the UI, ie.: "New Post"
+    folder: "blog" # The path to the folder where the documents are stored
+    extension: md
+    format: frontmatter
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Category", name: "category", widget: "select", default: "Guides", options: ["Guides", "News", "Views", "Engineering"], hint: "Select category"}
+      - {label: "Tags", name: "tags", widget: "list", hint: "Enter comma-separated values"}
+      - {label: "Status", name: "status", widget: "select", default: "draft", options: ["draft", "published"], hint: "Draft does not show on site"}
+      - {label: "Body", name: "body", widget: "markdown"}
