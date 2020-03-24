@@ -1,5 +1,7 @@
 # juji.io site
 
+A static site generator [Eleventy](https://11ty.dev) is in use to build this Web site.
+
 ## Local Setup
 
 Install node.js
@@ -15,7 +17,7 @@ npm install
 npx @11ty/eleventy --serve
 ```
 
-Browse to http://localhost:8080/ 
+Browse to http://localhost:8080/ to view live update of the site.
 
 ## Build the Site Only
 
