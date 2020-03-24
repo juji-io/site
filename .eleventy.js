@@ -1,7 +1,9 @@
 module.exports = function(eleventyConfig) {
+
   eleventyConfig.setTemplateFormats([
     "html",
-    "md"
+    "md",
+    "njk"
   ]);
   
   eleventyConfig.addPassthroughCopy("assets");
@@ -9,5 +11,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("favicon.ico");
 
+  return {
+    dir: {
+      includes: "includes"
+    }
+  };
 
 };

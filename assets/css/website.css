@@ -774,6 +774,17 @@ button:select {
  * Header menu bar properties
  ********************************/
 
+.btn-group-sm>.btn, .btn-sm {
+    float: none;
+}
+.navbar-toggle {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
 
 header .nav-item {
     padding-left: 40px;
@@ -829,6 +840,10 @@ footer .navigation {
     padding-left: 0px;
     list-style-type: none;
     font-size: 14px;
+}
+
+footer .footer-vertical {
+    padding-bottom: 20px;
 }
 
 #footer-copyright {
@@ -925,6 +940,7 @@ footer .navigation {
 
     background-color: #c2c2c2;
     min-height: 150px;
+    padding-bottom: 30px;
 }
 
 .bottom-action-area .bottom-action-content {
