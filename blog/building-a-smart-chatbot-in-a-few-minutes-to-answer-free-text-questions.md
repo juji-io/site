@@ -1,4 +1,5 @@
 ---
+layout: "blog/article.njk"
 title: Building a smart chatbot in a few minutes to answer free-text questions
 date: 2020-02-20T04:44:00.000Z
 author: Wenxi Chen
