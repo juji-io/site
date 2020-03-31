@@ -1,0 +1,16 @@
+{% extends "base.njk" %}
+
+{% block head %}
+  {{ super() }}
+  {% include "blog/partials/css.njk" %}
+{% endblock %}
+
+{% block nav %}
+  {{ super() }}
+  {% include "blog/partials/nav.njk" %}
+{% endblock %}
+
+{% block endjs %}
+  {% include "blog/partials/endjs.njk" %} 
+  {{ super() }}
+{% endblock %}

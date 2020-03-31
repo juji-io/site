@@ -13,6 +13,13 @@
   "author": "Juji, Inc.",
   "license": "SEE LICENSE IN LICENSE.txt",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "moment": "^2.24.0"
+  },
+  "dependencies": {
+    "eleventy-plugin-blog-tools": "^0.3.0",
+    "lodash.chunk": "^4.2.0"
   }
 }

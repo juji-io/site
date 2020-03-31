@@ -1,0 +1,37 @@
+
+{% if pagination.pages.length > 1 %}
+        <div class="row text-center pt-5 border-top">
+          <div class="col-md-12">
+            <div class="custom-pagination"> 
+              {% if page.url != pagination.href.first %}
+                <a href="{{ pagination.href.first }}">&lt;&lt;</a>
+              {% else %}
+              <span>&lt;&lt;</span>
+              {% endif %}
+              {% if pagination.href.previous %}
+                <a href="{{ pagination.href.previous }}">&lt;</a>
+              {% else %} 
+                <span>&lt;</span> 
+              {% endif %} 
+              {%- for pageEntry in pagination.pages %} 
+                {% if page.url == pagination.hrefs[ loop.index0 ] %} 
+                <span>{{ loop.index }}</span>
+                {% else %}
+                <a href="{{ pagination.hrefs[ loop.index0 ] }}">
+                  {{ loop.index }}</a>
+                {% endif %}
+              {%- endfor %} 
+              {% if pagination.href.next %}
+                <a href="{{ pagination.href.next }}">&gt;</a>
+              {% else %}
+              <span>&gt;</span>
+              {% endif %} 
+              {% if page.url != pagination.href.last %}
+                <a href="{{ pagination.href.last }}">&gt;&gt;</a>
+              {% else %}
+              <span>&gt;&gt;</span>
+              {% endif %}
+            </div>
+          </div>
+      </div>
+{% endif %}

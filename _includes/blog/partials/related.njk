@@ -1,0 +1,21 @@
+
+<ul>
+  {% set numRelated = 0 %}
+  {% for post in collections.articles | related("tags", tags, 1) %}
+    {% if numRelated < 3 and page.url != post.url %}
+      {% set numRelated = numRelated + 1 %}
+      <li>
+        <a href="{{ post.url }}">
+          <img src="{{ post.data.image }}" 
+          alt="{{ post.data.title }}" class="mr-4">
+          <div class="text">
+            <h4>{{ post.data.title }}</h4>
+            <div class="post-meta">
+              <span class="mr-2">{{ post.data.date | dateReadable }}</span>
+            </div>
+          </div>
+        </a>
+      </li> 
+      {% endif %}
+  {% endfor %}
+</ul>

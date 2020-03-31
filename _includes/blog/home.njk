@@ -1,0 +1,9 @@
+{% extends "blog/base.njk" %}
+
+{% block content %}
+  {% if page.url == "/blog/" %}
+    {% include "blog/partials/featured.njk" %}
+  {% endif %}
+  {% include "blog/partials/postlist.njk" %}
+  <!--{% include "blog/partials/category-latest.njk" %}-->
+{% endblock %}

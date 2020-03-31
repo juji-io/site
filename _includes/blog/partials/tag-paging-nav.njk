@@ -1,0 +1,20 @@
+
+        <div class="row text-center pt-5 border-top">
+          <div class="col-md-12">
+            <div class="custom-pagination"> 
+              {% set myIndex = 0 %}
+              {%- for pageEntry in pagination.pages %} 
+                {% if pageEntry.tagName == tag.tagName %}
+                  {% set myIndex = myIndex + 1 %}
+                  {% if page.url == pagination.hrefs[ loop.index0 ] %} 
+                    <span>{{ myIndex }}</span>
+                  {% else %}
+                    <a href="{{ pagination.hrefs[ loop.index0 ] }}">
+                    {{ myIndex }}
+                    </a>
+                  {% endif %}
+                {% endif %}
+              {%- endfor %} 
+            </div>
+          </div>
+      </div>

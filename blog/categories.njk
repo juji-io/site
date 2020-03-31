@@ -1,0 +1,10 @@
+---
+pagination:
+  data: collections.catPagination
+  size: 1
+  alias: tag
+layout: blog/tag.njk
+renderData:
+  title: Juji {{ tag.tagName }}
+permalink: /blog/{{ tag.tagName |  slug }}/{% if tag.pageNumber %}{{ tag.pageNumber + 1 }}/{% endif %}
+---

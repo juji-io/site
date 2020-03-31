@@ -57,7 +57,7 @@
            src="https://www.facebook.com/tr?id=529136731353700&ev=PageView&noscript=1" />
     </noscript>
     <!-- End Facebook Pixel Code -->
-    <title>{{ title }}</title>
+    <title>{{ renderData.title or title }}</title>
     {% endblock %}
   </head>
   <body>
@@ -93,7 +93,7 @@
               </li>
               <li class="nav-item">
                 <a class=
-                   {% if page.url == "/blog/" %} 
+                   {% if "/blog/" in page.url %} 
                    "nav-link active-link" 
                    {% else %} 
                    "nav-link" 
@@ -285,22 +285,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script>
-      $(function() {
-        $('a[href*="#"]:not([href="#"])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html, body').animate({
-                scrollTop: target.offset().top
-              }, 1000);
-              return false;
-            }
-          }
-        });
-      });
-    </script>
 
     {% endblock %}
 

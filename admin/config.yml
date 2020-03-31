@@ -3,8 +3,8 @@ backend:
 
 local_backend: true
     
-media_folder: "_site/uploads" # Folder where user uploaded files should go
-public_folder: "/uploads"
+media_folder: "assets/uploads" # Folder where user uploaded files should go
+public_folder: "/assets/uploads"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -16,10 +16,13 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., title.md
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog/article.njk"}
+      - {label: "Status", name: "status", widget: "select", default: "draft", options: ["draft", "published"], hint: "Draft does not show on site"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false, hint: "Featured article appears among the top 5 on the blog homepage"}
+      - {label: "Title", name: "title", widget: "string", hint: "Good title uses number, 'how to', adjectives, famous thing, scarcity, promises, etc., and appeal to emotions."}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Category", name: "category", widget: "select", default: "Guides", options: ["Guides", "News", "Views", "Engineering"], hint: "Select category"}
-      - {label: "Tags", name: "tags", widget: "list", hint: "Enter comma-separated values"}
-      - {label: "Status", name: "status", widget: "select", default: "draft", options: ["draft", "published"], hint: "Draft does not show on site"}
+      - {label: "Category", name: "category", widget: "select", default: "Guides", options: ["Guides", "News", "Viewpoints", "Engineering"], hint: "Select a category"}
+      - {label: "Tags", name: "tags", widget: "list", hint: "Enter comma-separated values, please reuse existing tags as much as possible"}
+      - {label: "Featured Image", name: "image", widget: "image", hint: "Featured image shows as the article cover"}
       - {label: "Body", name: "body", widget: "markdown"}
