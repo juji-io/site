@@ -9,7 +9,7 @@ git pull
 npx netlify-cms-proxy-server &
 echo $! > proxy.pid
 
-npx @11ty/eleventy --serve &
+set DEBUG=Eleventy* & npx @11ty/eleventy --serve &
 echo $! > server.pid
 
 sleep 10 

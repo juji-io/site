@@ -1,0 +1,14 @@
+{
+  "Michelle Zhou": {
+    "bio": "Combine human wisdom and machine power to create AI helpers that can truly help humans.",
+    "pic": "/assets/img/content/michelle.jpeg"
+  },
+  "Huahai Yang": {
+    "bio": "Craft the simplest software to solve the most challenging problems.",
+    "pic": "/assets/img/content/huahai.jpeg"
+  }, 
+  "Wenxi Chen": {
+    "bio": "Make machine learning usable and explainable.",
+    "pic": "/assets/img/content/wenxi.jpeg"
+  }
+}

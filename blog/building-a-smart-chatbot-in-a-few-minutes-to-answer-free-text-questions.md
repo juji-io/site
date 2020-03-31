@@ -1,13 +1,15 @@
 ---
-layout: "blog/article.njk"
-title: Building a smart chatbot in a few minutes to answer free-text questions
+layout: blog/article.njk
+status: draft
+featured: true
+title: How to build a Smart Chatbot in a Few Minutes to Answer Free-text Questions
 date: 2020-02-20T04:44:00.000Z
 author: Wenxi Chen
 category: Guides
 tags:
-  - Question Answering
+  - Q&A
   - Juji Studio
-status: draft
+image: /assets/uploads/alex-knight-2ejcsulrwc8-unsplash.jpg
 ---
 ![Chatbot answers user free-text questions in the middle of another topic](/uploads/free1.png "Chatbot answers user free-text questions in the middle of another topic")
 

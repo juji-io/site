@@ -57,6 +57,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     /*padding-top: 54px;*/
     font-color: black;
@@ -939,7 +943,7 @@ footer .footer-vertical {
 .bottom-action-area {
 
     background-color: #c2c2c2;
-    min-height: 150px;
+    /*min-height: 150px;*/
     padding-bottom: 30px;
 }
 

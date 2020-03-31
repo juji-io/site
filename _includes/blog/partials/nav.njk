@@ -1,0 +1,44 @@
+
+<div>
+
+  <div class="site-navbar" role="banner">
+    <div class="container-fluid">
+      <div class="row align-items-left">
+        <div class="col-8 text-left">
+          <nav class="site-navigation" role="navigation">
+            <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block mb-0">
+              <li{% if "/blog/" == page.url %} class="active"{% endif %}>
+                <a href="/blog/">Home</a>
+              </li>
+              <li{% if "/blog/news/" in page.url %} class="active"{% endif %}>
+                <a href="/blog/news/">News</a>
+              </li>
+              <li{% if "/blog/guides/" in page.url %} class="active"{% endif %}>
+                <a href="/blog/guides/">Guides</a>
+              </li>
+              <li{% if "/blog/viewpoints/" in page.url %} class="active"{% endif %}>
+                <a href="/blog/viewpoints/">Viewpoints</a>
+              </li>
+              <li{% if "/blog/engineering/" in page.url %} class="active"{% endif %}>
+                <a href="/blog/engineering/">Engineering</a>
+              </li>
+              <!--<li class="d-none d-lg-inline-block">-->
+                <!--<a href="#" class="js-search-toggle">-->
+                  <!--<span class="icon-search"></span></a>-->
+              <!--</li>-->
+            </ul>
+          </nav>
+        </div>
+
+        <div class="col-12 search-form-wrap js-search-form">
+          <form method="get" action="#">
+            <input type="text" id="s" class="form-control" placeholder="Search...">
+            <button class="search-btn" type="submit"><span class="icon-search"></span></button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

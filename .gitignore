@@ -5,3 +5,4 @@ _site/
 package-lock.json
 node-supporters/
 .env
+*.pid
