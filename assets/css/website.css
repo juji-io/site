@@ -1,3 +1,11 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+/* Modified to adapt to Juji content */
+
 @font-face {
     font-family:GothamRounded-Light;
     src:url(../fonts/GothamRounded-Light/GothamRounded-Light.eot) format('embedded-opentype');
@@ -789,15 +797,15 @@ header .navbar-brand {
 
 header .navbar .logo {
 
-    width: 40px;
-    height: 39px;
+    width: 50px;
+    height: 49px;
 
 }
 
 header .nav-link {
     color: black !important;
-    font-family: GothamRounded-Medium;
-    font-size: 16px;
+    font-family: GothamRounded-Book;
+    font-size: 14px;
 }
 
 header .recommended-link {
@@ -826,17 +834,6 @@ footer {
     color: #BBBBBB;
     background: black;
     min-width: 376px;
-}
-
-footer a {
-    text-decoration: none;
-    color:#28BD8B;
-}
-
-.footer__heading {
-  font-size: 18px;
-  font-weight: 500;
-  font-family: GothamRounded-Medium;
 }
 
 footer .navigation {
@@ -2224,6 +2221,12 @@ About Page
     width: 150px;
 }
 
+.subscribe-newsletter__heading {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: GothamRounded-Medium;
+}
+
 .subscribe-newsletter__button {
     margin-left: 0.2em;
     padding: 0.2em 0.5em;
@@ -2360,6 +2363,11 @@ About Page
     max-width: 95%;
 }
 
+#jennifer-demo {
+    background: rgb(190,95,0,1);
+
+}
+
 #juji-demo {
     background:#8BDFCD;
 }
@@ -2472,4 +2480,10 @@ About Page
 {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.donation-text
+{
+    text-align:center;
+    margin-top:5px;
 }
