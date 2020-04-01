@@ -3,7 +3,9 @@
         <div class="row align-items-stretch retro-layout-2">
           <div class="col-md-4">
             {% set fp = collections.featuredArticles[1] %}
-            <a href="{{ fp.url }}" class="h-entry mb-30 v-height gradient" style="background-image: url('{{ fp.data.image }}');">
+            <a href="{{ fp.url }}" 
+               class="h-entry mb-30 v-height gradient" 
+               style="background-image: url('{{ fp.data.image }}');">
               
               <div class="text">
                 <h2>{{ fp.data.title}}</h2>
@@ -27,9 +29,10 @@
                style="background-image: url('{{ fp.data.image }}');">
               <div class="text">
                 <div class="post-categories mb-3">
-                  <span class="post-category bg-primary">
+                <span class="{{ 'post-category text-white ' 
+                + categories[ fp.data.category ].bgclass }}">
                     {{ fp.data.category }}
-                  </span>
+                </span>
                 </div>
                 <h2>{{ fp.data.title }}</h2>
                 <span class="date">{{ fp.date | dateReadable }}</span>

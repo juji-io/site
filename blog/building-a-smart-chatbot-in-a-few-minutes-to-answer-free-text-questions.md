@@ -1,6 +1,6 @@
 ---
 layout: blog/article.njk
-status: draft
+status: published
 featured: true
 title: How to build a Smart Chatbot in a Few Minutes to Answer Free-text Questions
 date: 2020-02-20T04:44:00.000Z

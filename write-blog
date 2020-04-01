@@ -6,6 +6,8 @@ set -m
 
 git pull 
 
+npm install 
+
 npx netlify-cms-proxy-server &
 echo $! > proxy.pid
 

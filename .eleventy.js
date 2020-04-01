@@ -54,13 +54,13 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("articles", function(collection) {
     return collection.getAllSorted().reverse().filter(function(item) {
-      return "category" in item.data;
+      return item.data.status == "published";
     });
   });
 
   eleventyConfig.addCollection('featuredArticles', function(collection) {
     return collection.getAllSorted().reverse().filter(function(item) {
-      return item.data.featured == true;
+      return item.data.featured == true && item.data.status == "published";
     });
   });
 
