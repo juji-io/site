@@ -89,11 +89,11 @@
                   Why Juji
                 </a>
               </li>
-	      <li class="nav-item dropdown">
+              <li class="nav-item dropdown">
                 <a aria-expanded="false" aria-haspopup="true"
-                   class="nav-link dropdown-toggle"
-                   data-toggle="dropdown" href="#"
-                   id= "resourcesDropdown" role="button">
+                                         class="nav-link dropdown-toggle"
+                                         data-toggle="dropdown" href="#"
+                                                                id= "resourcesDropdown" role="button">
                   Support
                 </a>
                 <div class="dropdown-menu"
@@ -109,20 +109,20 @@
                      target="_blank">
                     Juji FAQ
                   </a>
-		  <div class="dropdown-divider"></div>
-                  <a href="https://docs.juji.io/faq/"
-                     class="dropdown-item"
-                     target="_blank">
-                    Chatbot Troubleshooting
-                  </a>
+                  <!--<div class="dropdown-divider"></div>-->
+                  <!--<a href="https://docs.juji.io/faq/"-->
+                  <!--class="dropdown-item"-->
+                  <!--target="_blank">-->
+                  <!--Chatbot Troubleshooting-->
+                  <!--</a>-->
                 </div>
               </li>
-	      
+
               <li class="nav-item dropdown">
                 <a aria-expanded="false" aria-haspopup="true"
-                   class="nav-link dropdown-toggle"
-                   data-toggle="dropdown" href="#"
-                   id= "resourcesDropdown" role="button">
+                                         class="nav-link dropdown-toggle"
+                                         data-toggle="dropdown" href="#"
+                                                                id= "resourcesDropdown" role="button">
                   Resources
                 </a>
                 <div class="dropdown-menu"
@@ -146,8 +146,8 @@
                   </a>
                   <div class="dropdown-divider"></div>
                   <a href="https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots" tabindex="-1"
-                     class="dropdown-item"
-                     target="_blank">
+                                                                                              class="dropdown-item"
+                                                                                              target="_blank">
                     Blogs
                   </a>
                   <div class="dropdown-divider"></div>
@@ -158,7 +158,7 @@
                   </a>
                 </div>
               </li>
-                            
+
               <li class="nav-item">
                 <a class= 
                    {% if page.url == "/career/" %} 
@@ -170,7 +170,7 @@
                   Careers
                 </a>
               </li>
-	      <li class="nav-item">
+              <li class="nav-item">
                 <a class=
                    {% if page.url == "/pricing/" %} 
                    "nav-link active-link" 
@@ -185,54 +185,114 @@
                 </a>
               </li>
             </ul>
-          </div>
-</nav>
-</header>
-
-        <!-- Load Facebook SDK for JavaScript -->
-        <div id="fb-root"></div>
-        <script>
-         window.fbAsyncInit = function() {
-             FB.init({
-                 xfbml            : true,
-                 version          : 'v6.0'
-             });
-         };
-
-         (function(d, s, id) {
-             var js, fjs = d.getElementsByTagName(s)[0];
-             if (d.getElementById(id)) return;
-             js = d.createElement(s); js.id = id;
-             js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-             fjs.parentNode.insertBefore(js, fjs);
-         }(document, 'script', 'facebook-jssdk'));</script>
-
-        <!-- Your customer chat code -->
-        <div class="fb-customerchat"
-             attribution=setup_tool
-             page_id="802085396544971"
-             theme_color="#28BD8B"
-             logged_in_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!"
-             logged_out_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!">
+          </div> 
         </div>
+        {% endblock %}
+      </div>
+    </header>
 
-        {{ content | safe }}
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v6.0'
+        });
+      };
 
-        <section class="content-section bottom-action-area">
-            <div class=
-                       "row no-gutters align-items-center justify-content-center">
-                <div class="col-md-6">
-                    <div class="bottom-action-content">
-                        <h2>Unleash Your AI Chatbot Today</h2>
-                        <div class="bottom-action-btn-holder">
-                            <a class="bottom-action-btn"
-                               href="https://juji.ai/signup">GET STARTED FREE</a></div>
-                    </div>
-                </div>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+         attribution=setup_tool
+         page_id="802085396544971"
+         theme_color="#28BD8B"
+         logged_in_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!"
+         logged_out_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!">
+    </div>
+
+    {% block content %} 
+    {% endblock %}
+
+    <section class="content-section bottom-action-area">
+      <div class=
+      "row no-gutters align-items-center justify-content-center">
+        <div class="col-md-6">
+          <div class="bottom-action-content">
+            <h2>Unleash Your AI Chatbot Today</h2>
+            <div class="bottom-action-btn-holder">
+              <a class="bottom-action-btn"
+                 href="https://juji.ai/signup">GET STARTED FREE</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row align-items-top justify-content-around">
+          <div class="col-md-6 col-lg-4">
+            <div class="footer-vertical">
+              <div class="subscribe-newsletter__heading">Stay Connected</div>
+              <div id="subscribe-newsletter-block">
+                <p>Get the latest news from Juji</p>
+                <form action="https://sendy.juji-inc.com/subscribe" method="POST" accept-charset="utf-8">
+                  <div style="display:none;">
+                    <label for="hp">HP</label><br/>
+                    <input type="text" name="hp" id="hp"/>
+                  </div>
+                  <input id="subscribe-newsletter__email" name="email" placeholder=
+                  "Your e-mail" type="email">
+                  <input type="submit" Value="Subscribe" class="subscribe-newsletter__button" id="submit-btn"/>
+                  <input type="hidden" name="list" value="2GH6PnD3ltltrKvFNO7x0A"/>
+                  <input type="hidden" name="subform" value="yes"/>
+                </form>
+              </div>
+
+              <div>
+                <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fjuji.io&width=450&layout=standard&action=like&size=small&share=true&height=35&appId=535043073305325" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                <a href="https://twitter.com/juji_io?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @juji_io</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
             </div>
-<<<<<<< HEAD:includes/base.njk
-        </section>
-=======
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div  class="footer-vertical">
+              <h3>Support</h3>
+              <p><a href="https://forum.juji.io" target="_blank">Juji
+                  Forum</a></p>
+              <p><a href="https://docs.juji.io/faq/" target="_blank">Juji
+                  FAQ</a></p>
+              <br>
+              <p>support@juji.io</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" id="contact-block">
+            <div  class="footer-vertical">
+              <h3>Contact</h3>
+              <p>3165 Olin Ave.<br>
+                San Jose, CA 95117
+              </p>
+              <p>hello@juji.io</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div  class="footer-vertical">
+              <ul class="navigation">
+                <li class="main-navigation__link"><a href=
+                "/util/juji-terms-of-service.pdf" target="_blank">Terms of
+                Use</a></li>
+                <li class="main-navigation__link"><a href=
+                "/util/juji-privacy-policy.pdf" target="_blank">Privacy
+                Policy</a></li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -243,104 +303,14 @@
     </footer>
 
     {% block endjs %}
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
->>>>>>> cfbafc6a012a8e4092d654727772b8e60e10e612:_includes/base.njk
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
 
-        <footer>
-            <div class="container">
-                <div class="row align-items-top justify-content-around">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="footer-vertical">
-                            <div class="subscribe-newsletter__heading">Stay Connected</div>
-                            <div id="subscribe-newsletter-block">
-                                <p>Get the latest news from Juji</p>
-                                <form action="https://sendy.juji-inc.com/subscribe" method="POST" accept-charset="utf-8">
-                                    <div style="display:none;">
-                                        <label for="hp">HP</label><br/>
-                                        <input type="text" name="hp" id="hp"/>
-                                    </div>
-                                    <input id="subscribe-newsletter__email" name="email" placeholder=
-                                               "Your e-mail" type="email">
-                                    <input type="submit" Value="Subscribe" class="subscribe-newsletter__button" id="submit-btn"/>
-                                    <input type="hidden" name="list" value="2GH6PnD3ltltrKvFNO7x0A"/>
-                                    <input type="hidden" name="subform" value="yes"/>
-                                </form>
-                            </div>
-
-                            <div>
-                                <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fjuji.io&width=450&layout=standard&action=like&size=small&share=true&height=35&appId=535043073305325" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                                <a href="https://twitter.com/juji_io?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @juji_io</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div  class="footer-vertical">
-                        <h3>Support</h3>
-                        <p><a href="https://forum.juji.io" target="_blank">Juji
-                            Forum</a></p>
-                        <p><a href="https://docs.juji.io/faq/" target="_blank">Juji
-                            FAQ</a></p>
-                        <br>
-                        <p>support@juji.io</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3" id="contact-block">
-                        <div  class="footer-vertical">
-                        <h3>Contact</h3>
-                        <p>3165 Olin Ave.<br>
-                            San Jose, CA 95117
-                        </p>
-                        <p>hello@juji.io</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-2">
-                        <div  class="footer-vertical">
-                        <ul class="navigation">
-                            <li class="main-navigation__link"><a href=
-                                                                      "/util/juji-terms-of-service.pdf" target="_blank">Terms of
-                                Use</a></li>
-                            <li class="main-navigation__link"><a href=
-                                                                      "/util/juji-privacy-policy.pdf" target="_blank">Privacy
-                                Policy</a></li>
-                        </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12" id="footer-copyright">© 2020 Juji, Inc.
-                        All Rights Reserved.</div>
-                </div>
-            </div>
-        </footer>
-	
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-	
-        <script>
-         $(function() {
-             $('a[href*="#"]:not([href="#"])').click(function() {
-                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                     var target = $(this.hash);
-                     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                     if (target.length) {
-                         $('html, body').animate({
-                             scrollTop: target.offset().top
-                         }, 2000);
-                         return false;
-                     }
-                 }
-             });
-         });
-        </script>
-	
-    </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    {% endblock %}
+  </body>
 </html>
