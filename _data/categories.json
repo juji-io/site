@@ -1,18 +1,18 @@
 {
   "News": {
-    "description": "Get all the scoop about about Juji",
+    "description": "Get all the exciting scoops about Juji",
     "bgclass": "bg-danger"
   },
   "Guides": {
-    "description": "Become an awesome chatbot creator",
+    "description": "Become a leader of the business",
     "bgclass": "bg-success"
   }, 
   "Viewpoints": {
-    "description": "Look on top of the mountain",
+    "description": "Stand on top of the mountain and look over the field",
     "bgclass": "bg-warning"
   }, 
   "Engineering": {
-    "description": "Get inside the sausage factory",
+    "description": "See how advanced technology is made simple",
     "bgclass": "bg-info"
   }
 }
