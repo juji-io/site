@@ -1,3 +1,4 @@
+const pluginSEO = require("eleventy-plugin-seo");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const blogTools = require("eleventy-plugin-blog-tools");
@@ -20,6 +21,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("robots.txt");
 
+  eleventyConfig.addPlugin(pluginSEO, require("./_data/seo.json"));
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(blogTools);
@@ -51,6 +53,10 @@ module.exports = function(eleventyConfig) {
   };
 
   eleventyConfig.addCollection("tagList", getTags);
+
+  eleventyConfig.addCollection("pages", function(collection) {
+    return collection.getFilteredByGlob("*.html").reverse();
+  });
 
   eleventyConfig.addCollection("articles", function(collection) {
     return collection.getAllSorted().reverse().filter(function(item) {

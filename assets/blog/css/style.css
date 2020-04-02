@@ -1,5 +1,4 @@
-/* Base */
-html,body,footer {
+html,footer {
   padding-top:60px;
 }
 
@@ -106,7 +105,7 @@ h1, h2, h3, h4, h5,
     padding: 4em 0; }
 
 .home-first-section {
-  /*padding-top: 186px;*/
+  padding-top: 7em;
 }
 
 .section-heading h2 {
@@ -1265,5 +1264,13 @@ a.tag {
     border: none; }
 
 .tag-page-head { 
-  padding-top:50px;
+  padding-top:110px;
   padding-bottom:50px;}
+
+.shariff {
+  padding-top: 10px;
+}
+
+.shariff .info {
+  display: none;
+}

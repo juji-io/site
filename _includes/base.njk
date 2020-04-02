@@ -23,20 +23,14 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
           name= "viewport">
-    <meta content="Juji provides the easiest way to DIY AI chatbots - simpler than making PowerPoint and 20X faster than any other ways. In the fight against the COVID-19 pandemic, Juji donates its AI chatbot services to any healthcare organizations."
-          name="description">
-    <meta content="AI chatbot, Facebook Messenger bot, bot
+    <meta content="AI chatbot, DIY chatbot, Facebook Messenger bot, bot
     builder, chatbot platform, chatbot developer, marketing agency,
-    small business, customer service, conversational AI, chatfuel,
-    manychat, e-commerce, travel, personalization, personalized recommendation"
+    small business, customer service, conversational AI, e-commerce, personalization"
           name="keywords">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,300,700"
-          rel="stylesheet">
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="/assets/css/website.css" rel="stylesheet">
-    <script src="/assets/js/modernizr.js"></script>
     <!-- Facebook Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
@@ -51,14 +45,16 @@
       fbq('track', 'PageView');
     </script>
     <noscript>
-      <img height="1" 
-           width="1" 
-           style="display:none" 
+      <img height="1"
+           width="1"
+           style="display:none"
            src="https://www.facebook.com/tr?id=529136731353700&ev=PageView&noscript=1" />
     </noscript>
     <!-- End Facebook Pixel Code -->
-    <title>{{ renderData.title or title }}</title>
     {% endblock %}
+
+    {% seo "" %}
+
   </head>
   <body>
     <header>
@@ -80,42 +76,14 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a class=
-                   {% if page.url == "/why-juji/" %} 
-                   "nav-link active-link" 
-                   {% else %} 
-                   "nav-link" 
+                   {% if page.url == "/why-juji/" %}
+                   "nav-link active-link"
+                   {% else %}
+                   "nav-link"
                    {% endif %}
                    href="/why-juji">
                   Why Juji
                 </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a aria-expanded="false" aria-haspopup="true"
-                                         class="nav-link dropdown-toggle"
-                                         data-toggle="dropdown" href="#"
-                                                                id= "resourcesDropdown" role="button">
-                  Support
-                </a>
-                <div class="dropdown-menu"
-                     aria-labelledby="resourcesDropdown">
-                  <a href="https://forum.juji.io/"
-                     class="dropdown-item"
-                     target="_blank">
-                    Juji Forum
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a href="https://docs.juji.io/faq/"
-                     class="dropdown-item"
-                     target="_blank">
-                    Juji FAQ
-                  </a>
-                  <!--<div class="dropdown-divider"></div>-->
-                  <!--<a href="https://docs.juji.io/faq/"-->
-                  <!--class="dropdown-item"-->
-                  <!--target="_blank">-->
-                  <!--Chatbot Troubleshooting-->
-                  <!--</a>-->
-                </div>
               </li>
 
               <li class="nav-item dropdown">
@@ -159,23 +127,56 @@
                 </div>
               </li>
 
+              <li class="nav-item dropdown">
+                <a aria-expanded="false"
+                   aria-haspopup="true"
+                   class="nav-link dropdown-toggle"
+                   data-toggle="dropdown"
+                   href="#"
+                   id= "resourcesDropdown"
+                   role="button">
+                  Support
+                </a>
+                <div class="dropdown-menu"
+                     aria-labelledby="resourcesDropdown">
+                  <a href="https://forum.juji.io/"
+                     class="dropdown-item"
+                     target="_blank">
+                    Juji Forum
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a href="https://docs.juji.io/faq/"
+                     class="dropdown-item"
+                     target="_blank">
+                    Juji FAQ
+                  </a>
+                  <!--<div class="dropdown-divider"></div>-->
+                  <!--<a href="https://docs.juji.io/faq/"-->
+                  <!--class="dropdown-item"-->
+                  <!--target="_blank">-->
+                  <!--Chatbot Troubleshooting-->
+                  <!--</a>-->
+                </div>
+              </li>
+
               <li class="nav-item">
-                <a class= 
-                   {% if page.url == "/career/" %} 
-                   "nav-link active-link" 
-                   {% else %} 
-                   "nav-link" 
+                <a class=
+                   {% if page.url == "/career/" %}
+                   "nav-link active-link"
+                   {% else %}
+                   "nav-link"
                    {% endif %}
                    href="/career">
                   Careers
                 </a>
               </li>
+
               <li class="nav-item">
                 <a class=
-                   {% if page.url == "/pricing/" %} 
-                   "nav-link active-link" 
-                   {% else %} 
-                   "nav-link" 
+                   {% if page.url == "/pricing/" %}
+                   "nav-link active-link"
+                   {% else %}
+                   "nav-link"
                    {% endif %}
                    href= "/pricing">Pricing</a>
               </li>
@@ -185,7 +186,7 @@
                 </a>
               </li>
             </ul>
-          </div> 
+          </div>
         </div>
         {% endblock %}
       </div>
@@ -218,7 +219,7 @@
          logged_out_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!">
     </div>
 
-    {% block content %} 
+    {% block content %}
     {% endblock %}
 
     <section class="content-section bottom-action-area">
@@ -240,7 +241,7 @@
         <div class="row align-items-top justify-content-around">
           <div class="col-md-6 col-lg-4">
             <div class="footer-vertical">
-              <div class="subscribe-newsletter__heading">Stay Connected</div>
+              <div class="footer-vertical-heading">Stay Connected</div>
               <div id="subscribe-newsletter-block">
                 <p>Get the latest news from Juji</p>
                 <form action="https://sendy.juji-inc.com/subscribe" method="POST" accept-charset="utf-8">
@@ -257,14 +258,15 @@
               </div>
 
               <div>
-                <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fjuji.io&width=450&layout=standard&action=like&size=small&share=true&height=35&appId=535043073305325" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                <a href="https://twitter.com/juji_io?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @juji_io</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://twitter.com/juji_io?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fjuji.io&width=450&layout=standard&action=like&size=small&share=false&height=35&appId=535043073305325" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                <a href="/feed.xml"><img src="/assets/img/ui/feed.png" width="20" height="20"/></a>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div  class="footer-vertical">
-              <h3>Support</h3>
+              <div class="footer-vertical-heading">Support</div>
               <p><a href="https://forum.juji.io" target="_blank">Juji
                   Forum</a></p>
               <p><a href="https://docs.juji.io/faq/" target="_blank">Juji
@@ -275,7 +277,7 @@
           </div>
           <div class="col-md-6 col-lg-3" id="contact-block">
             <div  class="footer-vertical">
-              <h3>Contact</h3>
+              <div class="footer-vertical-heading">Contact</div>
               <p>3165 Olin Ave.<br>
                 San Jose, CA 95117
               </p>

@@ -1,0 +1,11 @@
+{
+  "title": "Juji AI chatbot", 
+  "description": "Juji provides the easiest way to build DIY AI chatbot - simpler than making PowerPoint and 20X faster than anything else",
+  "url": "https://juji.io",
+  "author": "Michelle Zhou",
+  "twitter": "juji.io",
+  "image": "https://juji.io/assets/img/ui/ui--logo.png",
+  "options": {
+    "titleDivider": "|"
+  }
+}

@@ -801,15 +801,15 @@ header .navbar-brand {
 
 header .navbar .logo {
 
-    width: 50px;
-    height: 49px;
+    width: 40px;
+    height: 39px;
 
 }
 
 header .nav-link {
     color: black !important;
-    font-family: GothamRounded-Book;
-    font-size: 14px;
+    font-family: GothamRounded-Medium;
+    font-size: 16px;
 }
 
 header .recommended-link {
@@ -839,6 +839,14 @@ footer {
     background: black;
     min-width: 376px;
 }
+
+footer a {
+    text-decoration: none;
+    color:#28BD8B;
+}
+
+
+
 
 footer .navigation {
     padding-left: 0px;
@@ -1269,7 +1277,7 @@ footer .footer-vertical {
     padding: 1.5rem;
 
     border: none;
-    box-shadow: 5px 10px #A2A2A2;
+    box-shadow: 5px 7px 4px 1px rgba(0,0,0,0.2);
 
 }
 
@@ -2215,6 +2223,12 @@ About Page
   margin-top: 0.7em;
 }
 
+.footer-vertical-heading {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: GothamRounded-Medium;
+}
+
 
 #subscribe-newsletter-block {
     margin-bottom: 20px;
@@ -2223,12 +2237,6 @@ About Page
 #subscribe-newsletter__email {
     height: 30px;
     width: 150px;
-}
-
-.subscribe-newsletter__heading {
-  font-size: 18px;
-  font-weight: 500;
-  font-family: GothamRounded-Medium;
 }
 
 .subscribe-newsletter__button {
@@ -2486,8 +2494,13 @@ About Page
     padding-bottom: 10px;
 }
 
-.donation-text
+.announcement-text
 {
-    text-align:center;
-    margin-top:5px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.announcement-text a {
+    color: black;
+    font-family:GothamRounded-Medium;
 }
