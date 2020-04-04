@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  name: git-gateway 
+  identity_url: "https://juji.io/.netlify/identity" 
+  gateway_url:  "https://juji.io/.netlify/git" 
 
 #local_backend: true
     
