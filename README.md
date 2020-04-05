@@ -23,24 +23,6 @@ Browse to http://localhost:8080/ to view live update of the site.
 
 Login to https://juji.io/admin using your Juji SSO credential and start writing.
 
-## Writing Blog Locally
-
-```
-./write-blog
-```
-The browser will automatically open http://localhost:8080/admin for you to write. 
-
-When you are done,
-```
-./stop-blog
-```
-Then commit your changes with git.
-```
-git add blog
-git commit -am "commit message"
-git put
-```
-
 ## Build the Site Only
 
 Necessary on production sever after pulled the latest
