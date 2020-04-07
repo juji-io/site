@@ -2,6 +2,7 @@ const pluginSEO = require("eleventy-plugin-seo");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const blogTools = require("eleventy-plugin-blog-tools");
+const readingTime = require('eleventy-plugin-reading-time');
 const lodashChunk = require('lodash.chunk');
 
 const moment = require('moment');
@@ -24,7 +25,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginSEO, require("./_data/seo.json"));
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(blogTools);
+  eleventyConfig.addPlugin(blogTools); 
+  eleventyConfig.addPlugin(readingTime);
 
   eleventyConfig.addFilter('dateReadable', date => {
     return moment(date).format('LL'); // E.g. May 31, 2019

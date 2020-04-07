@@ -7,7 +7,8 @@ date: 2020-02-20T04:44:00.000Z
 author: Wenxi Chen
 category: Guides
 tags:
-  - Q&A
+  - Juji Studio
+  - Free-text Q&A
 image: /assets/uploads/alex-knight-2ejcsulrwc8-unsplash.jpg
 ---
 ![Chatbot answers user free-text questions in the middle of another topic](/assets/uploads/qa1.png "Chatbot answers user free-text questions in the middle of another topic")

@@ -866,7 +866,17 @@ a.tag {
   background-color: #eee; }
 
 .post-content-body {
-  font-family: GothamRounded-Book; }
+  font-family: GothamRounded-Book; 
+  color: rgba(0, 0, 0, 0.84);
+}
+
+.post-content-body p {
+  margin-top: 2em;
+}
+
+.post-content-body p {
+  font-size: 18px;
+}
 
 .tags {
   padding: 0;
