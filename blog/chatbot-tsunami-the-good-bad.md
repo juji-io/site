@@ -3,7 +3,7 @@ layout: blog/article.njk
 status: published
 featured: true
 title: 'Chatbot Tsunami: The Good & Bad'
-date: 2020-03-29T20:58:43.949Z
+date: 2020-01-28T21:58:43.949Z
 author: Michelle Zhou
 category: Viewpoints
 tags:
