@@ -8,7 +8,6 @@ author: Wenxi Chen
 category: Guides
 tags:
   - Q&A
-  - ''
 image: /assets/uploads/alex-knight-2ejcsulrwc8-unsplash.jpg
 ---
 ![Chatbot answers user free-text questions in the middle of another topic](/assets/uploads/qa1.png "Chatbot answers user free-text questions in the middle of another topic")
@@ -19,7 +18,7 @@ Chatbots come to the rescue. Here I want to show you how to build a smart chatbo
 
 ![Chatbot recognizes questions in different wording as specified; it also suggests related questions if it is unsure](/assets/uploads/qa2.png "Chatbot recognizes questions in different wording as specified; it also suggests related questions if it is unsure")
 
-Let’s use the[Juji](http://juji.io/)platform (https://juji.io) for this task. Once you log in, click on “+ AI Helper” to create a chatbot. For this exercise, let’s use a blank template as shown below.
+Let’s use the[ Juji](http://juji.io/) platform (https://juji.io) for this task. Once you log in, click on “+ AI Helper” to create a chatbot. For this exercise, let’s use a blank template as shown below.
 
 ![Create a new AI Helper and choose the blank template to start with](/assets/uploads/qa3.png "Create a new AI Helper and choose the blank template to start with")
 
@@ -27,11 +26,11 @@ Then, click on “Customize Chatbot” and then go to the **Q&A BOARD** directly
 
 ![Edit Questions and Answers on Q&A BOARD](/assets/uploads/qa4.png "Edit Questions and Answers on Q&A BOARD")
 
-First, click on the “Download” button to download the CSV template. All you need to do is to fill in your Questions and Answers as following:j
+First, click on the “Download” button to download the CSV template. All you need to do is to fill in your Questions and Answers as following:
 
 ![Sample Q&A csv content](/assets/uploads/qa5.png "Sample Q&A csv content")
 
-The ID column is useful for you to group the alternative expressions of a question so they can share the same answer(s), although the chatbot can also automatically detect many matched question expressions. A comment is optional. You can learn more about the[format here](https://docs.juji.io/design/#customize-qa-and-fallback).
+The ID column is useful for you to group the alternative expressions of a question so they can share the same answer(s), although the chatbot can also automatically detect many matched question expressions. A comment is optional. You can learn more about the [format here](https://docs.juji.io/design/#customize-qa-and-fallback).
 
 Once you are done, save it into a csv file (simply choose to “Save As…” a .csv in Excel) and then upload it.
 
