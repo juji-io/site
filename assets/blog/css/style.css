@@ -1108,7 +1108,8 @@ a.tag {
     .post-entry-sidebar ul li a {
       display: table; }
       .post-entry-sidebar ul li a img {
-        width: 90px; }
+        width: 90px; 
+        max-width: inherit;}
       .post-entry-sidebar ul li a img, .post-entry-sidebar ul li a .text {
         display: table-cell;
         vertical-align: middle; }

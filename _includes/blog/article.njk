@@ -39,7 +39,7 @@
             <div class="pt-5">
               <p> 
                 {% for tag in tags %}
-                <a href="/blog/tags/{{ tag }}/" class="tag">{{ tag }}</a>
+                <a href="/blog/tags/{{ tag | slug }}/" class="tag">{{ tag }}</a>
                 {% endfor %}
               </p>
             </div>
@@ -85,7 +85,7 @@
               <h3 class="heading">Tags</h3>
               <ul class="tags">
                 {% for tag in collections.tagList %} 
-                {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %} 
+                {% set tagUrl %}/blog/tags/{{ tag | slug }}/{% endset %} 
                 <li> 
                   <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
                 </li> 
