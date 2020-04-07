@@ -1,10 +1,25 @@
 backend:
   name: git-gateway 
-  identity_url: "https://juji.io/.netlify/identity" 
-  gateway_url:  "https://juji.io/.netlify/git" 
+  identity_url: https://juji.io/.netlify/identity 
+  gateway_url:  https://juji.io/.netlify/git 
+
+publish_mode: editorial_workflow
+
+site_url: https://juji.io
+logo_url: https://juji.io/assets/img/ui/ui--logo.png
     
+media_library:
+  name: uploadcare
+  config:
+    publicKey: f1633d22bf0d766b5935
+  settings:
+    autoFilename: true
+    defaultOperations: "/resize/800x600/"
+
 media_folder: "assets/uploads" # Folder where user uploaded files should go
 public_folder: "/assets/uploads"
+
+show_preview_links: true
 
 collections: # A list of collections the CMS should be able to edit
   - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
