@@ -3,12 +3,12 @@ layout: blog/article.njk
 status: published
 featured: true
 title: 'Chatbot Tsunami: The Good & Bad'
-date: 2020-03-29T20:58:43.949Z
+date: 2020-01-28T21:58:43.949Z
 author: Michelle Zhou
 category: Viewpoints
 tags:
+  - Industry Trends
   - Use Cases
-  - Juji Studio
 image: /assets/uploads/jasper-wilde-uzadris6wpy-unsplash.jpg
 ---
 The widespread use of cell phones and social media has made text-based communication, also known as texting, a mainstream communication method. For example, a [Gallup poll](https://news.gallup.com/poll/179288/new-era-communication-americans.aspx)s hows that texting is the dominant communication method for Americans under 50. Popular text messaging platforms, such as Facebook Messenger and WeChat, all boasted over 1 billion active users monthly.
@@ -23,4 +23,4 @@ Although it may take 10 to 500 years to achieve the ultimate [human-machine symb
 
 *What can we do today to take full advantage of the good characteristics of chatbots and avoid their bad ones?*
 
-My next post,*AI Chatbots: Their Good Uses*, will attempt to answer the question.
+My next post, *AI Chatbots: Their Good Uses*, will attempt to answer the question.
