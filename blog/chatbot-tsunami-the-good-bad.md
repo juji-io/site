@@ -23,4 +23,4 @@ Although it may take 10 to 500 years to achieve the ultimate [human-machine symb
 
 *What can we do today to take full advantage of the good characteristics of chatbots and avoid their bad ones?*
 
-My next post,*AI Chatbots: Their Good Uses*, will attempt to answer the question.
+My next post, *AI Chatbots: Their Good Uses*, will attempt to answer the question.
