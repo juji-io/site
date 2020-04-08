@@ -29,7 +29,14 @@ pipeline {
   post {
     success {
       slackSend (color: '#00FF00', message: "SUCCESSFUL: Job ${env.BUILD_INFO}")
-      sh 'echo "post success"'
+      script { 
+        if (env.BRANCH_NAME.startsWith("PR-")) {
+          curl "https://api.github.com/repos/juji-io/site/statuses/${env.GIT_COMMIT}" \
+            -H "Content-Type: application/json" \ 
+            -X POST \ 
+            -d "{\"state\": \"success\", \"context\": \"continuous-integration/jenkins/preview-deploy\", \"description\": \"Site preview deployment\", \"target_url\": \"https://${env.BRANCH_NAME}.juji-inc.com/\"}"
+        }
+      }
     }
     aborted {
       slackSend (color: '#FF00FF', message: "ABORTED: Job ${env.BUILD_INFO}")
