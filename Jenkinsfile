@@ -2,25 +2,28 @@
 
 pipeline {
   agent { label 'web' }
+  environment {
+    GITHUB_ACCESS_TOKEN = credentials('GITHUB_ACCESS_TOKEN')
+  }
   stages {
     stage('Build') {
       steps {
         sh "env"
-        script { 
+        script {
           if (env.BRANCH_NAME.startsWith("PR-")) {
             env.BUILD_INFO = "<${env.RUN_DISPLAY_URL}|${env.JOB_NAME} [${env.BUILD_NUMBER}]> submitted by ${env.CHANGE_AUTHOR} with PR <https://github.com/juji-io/site/pull/${CHANGE_ID}|#${env.CHANGE_ID}>: ${env.CHANGE_TITLE}"
           } else {
             env.GIT_COMMIT_MSG = sh (
               script: "git log --format=%B -n 1 ${env.GIT_COMMIT} | head -n 1",
-              returnStdout: true).trim() 
-            env.GIT_AUTHOR_NAME = sh ( 
+              returnStdout: true).trim()
+            env.GIT_AUTHOR_NAME = sh (
               script: "git show -s --pretty=%an ${env.GIT_COMMIT}",
-              returnStdout: true).trim() 
+              returnStdout: true).trim()
             env.BUILD_INFO = "<${env.RUN_DISPLAY_URL}|${env.JOB_NAME} [${env.BUILD_NUMBER}]> submitted by ${env.GIT_AUTHOR_NAME} with commit <https://github.com/juji-io/site/commit/${env.GIT_COMMIT}|${env.GIT_COMMIT.take(7)}>: ${env.GIT_COMMIT_MSG}"
           }
         }
         sh '''
-          npm install 
+          npm install
           npx @11ty/eleventy
         '''
       }
@@ -28,13 +31,13 @@ pipeline {
   }
   post {
     success {
-      script { 
+      script {
         if (env.BRANCH_NAME.startsWith("PR-")) {
           sh '''
               GIT_PR_COMMIT=$(git show-ref -s "refs/remotes/origin/${BRANCH_NAME}")
-              curl "https://api.github.com/repos/juji-io/site/statuses/${GIT_PR_COMMIT}" \
-              -H "Content-Type: application/json" -X POST \
-              -d "{\"state\": \"success\", \"context\": \"continuous-integration/jenkins/preview-deploy\", \"description\": \"site preview is successfully deployed\", \"target_url\": \"https://${BRANCH_NAME}.juji-inc.com/\"}" 
+              curl -H "Content-Type:application/json" -X POST \
+              -d '{"state": "success", "context": "netlify-cms/preview/deploy", "description": "Deploy preview ready", "target_url": "https://'"${BRANCH_NAME}"'.juji-inc.com/"}' \
+              "https://api.github.com/repos/juji-io/site/statuses/${GIT_PR_COMMIT}?access_token=${GITHUB_ACCESS_TOKEN}"
           '''
           }
       }
@@ -51,4 +54,3 @@ pipeline {
     }
   }
 }
-
