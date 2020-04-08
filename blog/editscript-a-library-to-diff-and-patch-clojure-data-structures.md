@@ -9,5 +9,6 @@ category: Engineering
 tags:
   - Clojure
   - Juji Studio
+image: /assets/uploads/markus-spiske-skf7hxarcoc-unsplash.jpg
 ---
-At Juji, we need to take snapshots of our AI agents' states and later restore them. Such a use case requires a good diffing library for nested Clojure data structures to avoid overwhelming our storage systems. I have not found such a library in Clojure ecosystem, so I implemented my own. Hopefully this little library could be of some use to further enhance the Clojure's unique strength of[Data-Oriented Programming](https://livebook.manning.com/#!/book/the-joy-of-clojure-second-edition/chapter-14/1).
+At Juji, we need to take snapshots of our AI agents' states and later restore them. Such a use case requires a good diffing library for nested Clojure data structures to avoid overwhelming our storage systems. I have not found such a library in Clojure ecosystem, so I implemented my own. Hopefully this little library could be of some use to further enhance the Clojure's unique strength of [Data-Oriented Programming](https://livebook.manning.com/#!/book/the-joy-of-clojure-second-edition/chapter-14/1).
