@@ -6,8 +6,8 @@ date: 2020-03-29T20:32:52.072Z
 author: Huahai Yang
 category: News
 tags:
-  - Customer Success
-  - Juji Studio
-status: published
+  - Use Cases
+  - AI Chatbot
+  - Healthcare
 ---
 These FAQs are then curated by top medical experts on daily basis with updated information to existing questions and added FAQs learned by Jennifer from user interactions.

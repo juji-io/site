@@ -1,6 +1,5 @@
 ---
 layout: blog/article.njk
-status: published
 featured: true
 title: Juji Offers Free Chatbot Services to Healthcare Institutions
 date: "2020-04-07T20:42:31.139Z"

@@ -1,15 +1,13 @@
 ---
 layout: blog/article.njk
 title: Technology Assessment on Major Chatbot Offerings
-featured: false
+featured: true
 date: 2019-02-01T21:26:00.000Z
 author: Huahai Yang
 category: Views
 tags:
-  - Competitive Landscape
-  - AI 
-  - Juji Studio
-status: published
+  - Industry Trends
+  - AI Chatbot
 ---
 I spent some time today studying documentations of chatbot offerings of a few major technology vendors: Amazon Lex, Facebook Messenger, Google DialogFlow, IBM Waston, and BotKit recently acquired by Microsoft. My ranking of the above platforms in term of technical capability is the following:
 

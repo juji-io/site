@@ -1,6 +1,5 @@
 ---
 layout: blog/article.njk
-status: published
 featured: true
 title: 'Chatbot Tsunami: The Good & Bad'
 date: 2020-01-28T21:58:43.949Z
@@ -8,6 +7,7 @@ author: Michelle Zhou
 category: Viewpoints
 tags:
   - Industry Trends
+  - AI Chatbot
   - Use Cases
 image: /assets/uploads/jasper-wilde-uzadris6wpy-unsplash.jpg
 ---

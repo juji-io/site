@@ -1,6 +1,5 @@
 ---
 layout: blog/article.njk
-status: published
 featured: true
 title: How to build a Smart Chatbot in a Few Minutes to Answer Free-text Questions
 date: 2020-02-20T04:44:00.000Z
@@ -8,6 +7,7 @@ author: Wenxi Chen
 category: Guides
 tags:
   - Juji Studio
+  - AI Chatbot
   - Free-text Q&A
 image: /assets/uploads/alex-knight-2ejcsulrwc8-unsplash.jpg
 ---
