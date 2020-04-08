@@ -29,6 +29,7 @@ pipeline {
   post {
     success {
       slackSend (color: '#00FF00', message: "SUCCESSFUL: Job ${env.BUILD_INFO}")
+      sh 'echo "post success"'
     }
     aborted {
       slackSend (color: '#FF00FF', message: "ABORTED: Job ${env.BUILD_INFO}")
