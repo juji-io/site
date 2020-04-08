@@ -35,9 +35,10 @@ pipeline {
         if (env.BRANCH_NAME.startsWith("PR-")) {
           sh '''
               GIT_PR_COMMIT=$(git show-ref -s "refs/remotes/origin/${BRANCH_NAME}")
-              curl -H "Content-Type:application/json" -X POST \
+              curl -X POST -H "Content-Type:application/json" \
+              -H "Authorization: token ${GITHUB_ACCESS_TOKEN}" \
               -d '{"state": "success", "context": "netlify-cms/preview/deploy", "description": "Deploy preview ready", "target_url": "https://'"${BRANCH_NAME}"'.juji-inc.com/"}' \
-              "https://api.github.com/repos/juji-io/site/statuses/${GIT_PR_COMMIT}?access_token=${GITHUB_ACCESS_TOKEN}"
+              "https://api.github.com/repos/juji-io/site/statuses/${GIT_PR_COMMIT}"
           '''
           }
       }
