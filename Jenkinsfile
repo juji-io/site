@@ -31,7 +31,7 @@ pipeline {
       script { 
         if (env.BRANCH_NAME.startsWith("PR-")) {
           sh '''
-            curl "https://api.github.com/repos/juji-io/site/statuses/${GIT_COMMIT}" -H "Content-Type: application/json" -X POST -d "{\"state\": \"success\", \"context\": \"continuous-integration/jenkins/preview-deploy\", \"description\": \"Site preview deployment\", \"target_url\": \"https://${BRANCH_NAME}.juji-inc.com/\"}" 
+            curl "https://api.github.com/repos/juji-io/site/statuses/${GIT_COMMIT}" -H "Content-Type: application/json" -X POST -d "{\"state\": \"success\", \"context\": \"continuous-integration/jenkins/preview-deploy\", \"description\": \"site preview is successfully deployed\", \"target_url\": \"https://${BRANCH_NAME}.juji-inc.com/\"}" 
           '''
           }
       }
