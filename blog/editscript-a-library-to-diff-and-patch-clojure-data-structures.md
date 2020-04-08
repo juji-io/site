@@ -2,7 +2,7 @@
 layout: blog/article.njk
 status: published
 featured: true
-title: 'EditScript: a Library to Diff and Patch Clojure Data Structures'
+title: How to Simplify Client Server Communication with Data Diffing
 date: 2019-09-29T20:37:00.000Z
 author: Huahai Yang
 category: Engineering
