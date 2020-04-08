@@ -12,7 +12,7 @@ tags:
   - Healthcare
 image: /assets/uploads/zach-vessels-wxrd7byfxs4-unsplash.jpg
 ---
-During this difficult time of COVID-19 pandemic, healthcare organizations and medical institutions are inundated with requests and demands from the general public. As an AI chatbot company based in Silicon Valley,[ Juji](https://juji.io) would like to help. We are currently offering our chatbot services free-of-charge to these institutions.
+During this difficult time of COVID-19 pandemic, healthcare organizations and medical institutions are inundated with requests and demands from the general public. As an AI chatbot company based in Silicon Valley,[ Juji](https://juji.io) would like to lend a helping hand. We are currently offering our chatbot services free-of-charge to these institutions.
 
 Juji's platform automatically answers user questions in Facebook Messenger or on a website based on a curated list of questions and answers. For example,[ a group of volunteers from the New Voices Program](https://www.newvoicesnasem.org/post/using-artificial-intelligence-to-combat-misinformation-about-covid-19) of the National Academies of Sciences, Engineering, and Medicine have used Juji to create an AI chatbot,[ Jennifer](https://www.newvoicesnasem.org/jennifer-ai-chatbot), to clarify misinformation and answer public's questions about COVID-19.
 
