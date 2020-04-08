@@ -9,6 +9,9 @@ pipeline {
         script { 
           if (env.BRANCH_NAME.startsWith("PR-")) {
             env.BUILD_INFO = "<${env.RUN_DISPLAY_URL}|${env.JOB_NAME} [${env.BUILD_NUMBER}]> submitted by ${env.CHANGE_AUTHOR} with PR <https://github.com/juji-io/site/pull/${CHANGE_ID}|#${env.CHANGE_ID}>: ${env.CHANGE_TITLE}"
+            sh '''
+              GIT_PR_COMMIT=$(git show-ref -s "refs/remotes/origin/${BRANCH_NAME}")
+            '''
           } else {
             env.GIT_COMMIT_MSG = sh (
               script: "git log --format=%B -n 1 ${env.GIT_COMMIT} | head -n 1",
@@ -31,7 +34,9 @@ pipeline {
       script { 
         if (env.BRANCH_NAME.startsWith("PR-")) {
           sh '''
-            curl "https://api.github.com/repos/juji-io/site/statuses/${GIT_COMMIT}" -H "Content-Type: application/json" -X POST -d "{\"state\": \"success\", \"context\": \"continuous-integration/jenkins/preview-deploy\", \"description\": \"site preview is successfully deployed\", \"target_url\": \"https://${BRANCH_NAME}.juji-inc.com/\"}" 
+            curl "https://api.github.com/repos/juji-io/site/statuses/${GIT_PR_COMMIT}" \
+            -H "Content-Type: application/json" -X POST \
+            -d "{\"state\": \"success\", \"context\": \"continuous-integration/jenkins/preview-deploy\", \"description\": \"site preview is successfully deployed\", \"target_url\": \"https://${BRANCH_NAME}.juji-inc.com/\"}" 
           '''
           }
       }
