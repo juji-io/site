@@ -3,11 +3,12 @@ layout: blog/article.njk
 status: published
 featured: true
 title: Juji Offers Free Chatbot Services to Healthcare Institutions
-date: 2020-04-07T20:42:31.139Z
+date: "2020-04-07T20:42:31.139Z"
 author: Huahai Yang
 category: News
 tags:
   - Juji Offers
+  - AI Chatbot
   - Use Cases
   - Healthcare
 image: /assets/uploads/zach-vessels-wxrd7byfxs4-unsplash.jpg
