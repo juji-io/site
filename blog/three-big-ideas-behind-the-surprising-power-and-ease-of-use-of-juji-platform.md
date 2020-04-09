@@ -10,7 +10,9 @@ tags:
   - Industry Trends
 image: /assets/uploads/shane-rounce-phkgqsgzwpw-unsplash.jpg
 ---
-When people first use Juji, they are often amazed by how easy it is to create an intelligent chatbot with the platform. This reaction of pleasant surprise is particularly pronounced for people in the know, i.e. technical people who have actually done relevant work before. I am talking about the CTOs, the NLP researchers, and the employees of big technology firms. A fun anecdote: our first Facebook ads a couple weeks ago was rejected due to "Unacceptable Business Practices", even though the ads was just a screencast of a user using Juji to create a chatbot. Obviously they reverted the decision after I complained, but it did indicate that what Juji offers is often considered too good to be true. 
+When people first use Juji, they are often amazed by how easy it is to create an intelligent chatbot with the platform. This reaction of pleasant surprise is particularly pronounced for people in the know, i.e. technical people who have actually done relevant work before. I am talking about the CTOs, the NLP researchers, and the employees of big technology firms. 
+
+A fun anecdote: our first Facebook ads a couple weeks ago was rejected due to "Unacceptable Business Practices", even though the ads was just a screencast of a user using Juji to create a chatbot. Obviously they reverted the decision after I complained, but it did indicate that what Juji offers is often considered too good to be true. 
 
 I give full credit to our wonderful engineers and designers, whose ingenuity and heroic effort makes Juji possible, and to my partner Michelle, whose relentless advocacy for users drove us here. On the other hand, there might also be a few things that I did not screw up completely as the architect. In retrospect, here are three high level ideas that might have helped, or in marketing speak, "three big ideas that make Juji stand out".
 
