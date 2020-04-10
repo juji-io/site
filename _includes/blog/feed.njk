@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Juji Articles by {{ author.name }}</title>
+  <subtitle>{{ author.bio }}</subtitle>
+  <link href="https://juji.io/blog/{{ author.name | slug }}.feed.xml" rel="self'/>
+  <link href="https://juji.io/blog/authors/{{ author.name | slug }}"/>
+  <updated>
+    {{ collections.articles | authorFilter(author.name) | rssLastUpdatedDate }}
+  </updated>
+  <id>https://juji.io/blog/authors/{{ author.name | slug }}</id>
+  <author>
+    <name>{{ author.name }}</name>
+    <email>{{ author.email }}</email>
+  </author>
+  {%- for article in collections.articles | authorFilter(author.name) %}
+    {% set absolutePostUrl %}{{ article.url | url | absoluteUrl("https://juji.io/") }}{% endset %}
+    <entry>
+      <title>{{ article.data.title }}</title>
+      <link href="{{ absolutePostUrl }}"/>
+      <updated>{{ article.date | rssDate }}</updated>
+      <id>{{ absolutePostUrl }}</id>
+      <content type="html">{{ article.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    </entry>
+  {%- endfor %}
+</feed>

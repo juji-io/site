@@ -1,0 +1,12 @@
+---
+pagination:
+  data: authors
+  size: 1
+  resolve: values
+  alias: author
+layout: blog/feed.njk
+permalink: /blog/{{ author.name | slug }}.feed.xml
+eleventyExcludeFromCollections: true
+---
+
+

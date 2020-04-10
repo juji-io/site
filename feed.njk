@@ -1,12 +1,12 @@
 ---json
 {
-  "permalink": "feed.xml",
+  "permalink": "all.feed.xml",
   "eleventyExcludeFromCollections": true,
   "metadata": {
-    "title": "Juji - the easist DIY AI chatbot",
+    "title": "Juji - the easist DIY AI chatbot platform",
     "subtitle": "News, guides, and insights from Juji, the easist DIY AI chatbot platform",
     "url": "https://juji.io/",
-    "feedUrl": "https://juji.io/feed.xml",
+    "feedUrl": "https://juji.io/all.feed.xml",
     "author": {
       "name": "Juji Team",
       "email": "hello@juji.io"
@@ -20,7 +20,7 @@
   <subtitle>{{ metadata.subtitle }}</subtitle>
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.articles | rssLastUpdatedDate }}</updated>
+  <updated>{{ collections.articles | reverse | rssLastUpdatedDate }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.author.name }}</name>

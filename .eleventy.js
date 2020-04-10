@@ -1,10 +1,10 @@
+const fs = require('fs');
 const pluginSEO = require("eleventy-plugin-seo");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const blogTools = require("eleventy-plugin-blog-tools");
 const readingTime = require('eleventy-plugin-reading-time');
 const lodashChunk = require('lodash.chunk');
-
 const moment = require('moment');
 moment.locale('en');
 
@@ -39,6 +39,12 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.addFilter('authorFilter', function(collection, author) {
+    if (!author) return collection;
+    return collection.filter(function(item) {
+      return item.data.author == author;
+    });
+  });
 
   const getTags = function(collection) {
     // Get unique list of tags
@@ -70,7 +76,7 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  // flatten two level pagination (tags -> pages of thes same tag) into one
+  // flatten two level pagination (tags -> pages of the same tag) into one
   eleventyConfig.addCollection("tagPagination", function(collection) {
     // Get each item that matches the tag
     let paginationSize = 9;
@@ -92,8 +98,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("catPagination", function(collection) {
     let paginationSize = 9;
     let catMap = [];
-    // TODO load from the data file 
-    let catArray = ["News", "Guides", "Viewpoints", "Engineering"];
+    let catArray = Object.keys(JSON.parse(fs.readFileSync("_data/categories.json")));
     for( let cat of catArray) {
       let catItems = collection.getAllSorted().filter(item => item.data.category == cat);
       let pagedItems = lodashChunk(catItems, paginationSize);
@@ -106,6 +111,24 @@ module.exports = function(eleventyConfig) {
       }
     }
     return catMap;
+  });
+
+  eleventyConfig.addCollection("authPagination", function(collection) {
+    let paginationSize = 9;
+    let authMap = [];
+    let authArray = Object.keys(JSON.parse(fs.readFileSync("_data/authors.json")));
+    for( let auth of authArray) {
+      let authItems = collection.getAllSorted().filter(item => item.data.author == auth);
+      let pagedItems = lodashChunk(authItems, paginationSize);
+      for( let pageNumber = 0, max = pagedItems.length; pageNumber < max; pageNumber++) {
+        authMap.push({
+          tagName: auth,
+          pageNumber: pageNumber,
+          pageData: pagedItems[pageNumber]
+        });
+      }
+    }
+    return authMap;
   });
 
 };
