@@ -7,7 +7,7 @@ author: Michelle Zhou
 category: Viewpoints
 tags:
   - Industry Trends
-  - AI Chatbot
+  - DIY AI Chatbot
   - Use Cases
 image: /assets/uploads/jasper-wilde-uzadris6wpy-unsplash.jpg
 credit: Photo by jasper wilde on Unsplash

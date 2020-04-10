@@ -7,7 +7,7 @@ author: Wenxi Chen
 category: Guides
 tags:
   - Juji Studio
-  - AI Chatbot
+  - DIY AI Chatbot
   - Free-text Q&A
 image: /assets/uploads/alex-knight-2ejcsulrwc8-unsplash.jpg
 credit: Photo by Alex Knight on Unsplash

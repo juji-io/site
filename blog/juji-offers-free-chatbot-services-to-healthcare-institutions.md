@@ -2,12 +2,12 @@
 layout: blog/article.njk
 featured: true
 title: Juji Offers Free Chatbot Services to Healthcare Institutions
-date: 2020-04-07T20:42:31.139Z
+date: 2020-04-09T20:42:31.139Z
 author: Michelle Zhou
 category: News
 tags:
   - Juji Offers
-  - AI Chatbot
+  - DIY AI Chatbot
   - Use Cases
   - Healthcare
 image: /assets/uploads/zach-vessels-wxrd7byfxs4-unsplash.jpg
@@ -21,4 +21,4 @@ We are offering the same free service to all health organizations or medical ins
 
 Setting up a chatbot using the Juji platform is fast and easy, requires minimal technical expertise from the users. For instance, the [National Alliance on Mental Illness](https://www.namilongbeach.org/)[\- Long Beach Area](https://www.namilongbeach.org/) has added a Juji powered AI chatbot, Julie, on their homepage to help answer questions. The work was completed in a single day under Juji's guidance, and was done without involving other IT personnels. 
 
-Please forward this information to any relevant institutions, so that this new and free automated information channel becomes accessible to more people. The adoption of an AI chatbot will help alleviate any manpower shortages while reserving precious human resources for more urgent matters, e.g., coordinating logistics and caring for patients. The time to act is now.
+If you are reading this, please forward this information to any relevant institutions, so that this new and free automated information channel becomes accessible to more people. The adoption of an AI chatbot will help alleviate any manpower shortages while reserving precious human resources for more urgent matters, e.g., coordinating logistics and caring for patients. The time to act is now.

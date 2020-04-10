@@ -6,7 +6,7 @@ date: 2020-04-07T01:10:00.000Z
 author: Huahai Yang
 category: Viewpoints
 tags:
-  - AI Chatbot
+  - DIY AI Chatbot
   - Industry Trends
 image: /assets/uploads/shane-rounce-phkgqsgzwpw-unsplash.jpg
 credit: Photo by Shane Rounce on Unsplash
