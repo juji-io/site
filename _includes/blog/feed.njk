@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Juji Articles by {{ author.name }}</title>
   <subtitle>{{ author.bio }}</subtitle>
-  <link href="https://juji.io/blog/{{ author.name | slug }}.feed.xml" rel="self'/>
+  <link href="https://juji.io/blog/{{ author.name | slug }}.feed.xml" rel="self"/>
   <link href="https://juji.io/blog/authors/{{ author.name | slug }}"/>
   <updated>
     {{ collections.articles | authorFilter(author.name) | rssLastUpdatedDate }}
