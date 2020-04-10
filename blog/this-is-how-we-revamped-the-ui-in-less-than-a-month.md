@@ -13,4 +13,4 @@ tags:
 image: /assets/uploads/michal-parzuchowski-gennfqfvw48-unsplash.jpg
 credit: Photo by Michał Parzuchowski on Unsplash
 ---
-Remember our old UI, the one
+We all know that user interface (UI) development is an iterative process. It is important that we can iterate quickly based on user feedbacks. At Juji, we have been constantly searching for software architectures that enable faster iterations for our Juji Studio product.
