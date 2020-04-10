@@ -7,7 +7,7 @@ author: Michelle Zhou
 category: News
 tags:
   - Juji Offers
-  - AI Chatbot
+  - DIY AI Chatbot
   - Use Cases
   - Healthcare
 image: /assets/uploads/zach-vessels-wxrd7byfxs4-unsplash.jpg
