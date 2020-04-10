@@ -2,11 +2,11 @@
 layout: blog/article.njk
 featured: true
 title: Three Big Ideas Behind the Surprising Power and Ease of Use of Juji Platform
-date: "2020-04-07T01:10:00.000Z"
+date: 2020-04-07T01:10:00.000Z
 author: Huahai Yang
 category: Viewpoints
 tags:
-  - AI Chatbot
+  - DIY AI Chatbot
   - Industry Trends
 image: /assets/uploads/shane-rounce-phkgqsgzwpw-unsplash.jpg
 ---
