@@ -1285,3 +1285,9 @@ a.tag {
 .shariff .info {
   display: none;
 }
+
+.image-credit {
+  text-align: center;
+  font-size: 10px;
+  color: grey;
+} 

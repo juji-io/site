@@ -32,4 +32,5 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Category", name: "category", widget: "select", default: "Guides", options: ["Guides", "News", "Viewpoints", "Engineering"], hint: "Select a category"}
       - {label: "Tags", name: "tags", widget: "list", hint: "Enter comma-separated values, please reuse existing tags as much as possible"}
       - {label: "Featured Image", name: "image", widget: "image", hint: "Featured image shows as the article cover"}
+      - {label: "Image Credit", name: "credit", widget: "string", required: false, hint: "Give credit to the photographer"}
       - {label: "Body", name: "body", widget: "markdown"}

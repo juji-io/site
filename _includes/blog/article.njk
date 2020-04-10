@@ -3,6 +3,7 @@
 
 {% block content %}
     
+  <div>
     <div class="site-cover site-cover-sm same-height overlay single-page" 
          style="background-image: url('{{ image }}');">
       <div class="container">
@@ -28,6 +29,10 @@
         </div>
       </div>
     </div>
+    <div class="image-credit">
+      <span class="image-credit">{{ credit }}</span>
+    </div>
+  </div>
     
     <section class="site-section py-lg"  id="article-start">
       <div class="container">

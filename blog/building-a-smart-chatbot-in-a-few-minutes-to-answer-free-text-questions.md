@@ -10,6 +10,7 @@ tags:
   - AI Chatbot
   - Free-text Q&A
 image: /assets/uploads/alex-knight-2ejcsulrwc8-unsplash.jpg
+credit: Photo by Alex Knight on Unsplash
 ---
 ![Chatbot answers user free-text questions in the middle of another topic](/assets/uploads/qa1.png "Chatbot answers user free-text questions in the middle of another topic")
 

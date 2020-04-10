@@ -2,13 +2,14 @@
 layout: blog/article.njk
 featured: true
 title: Three Big Ideas Behind the Surprising Power and Ease of Use of Juji Platform
-date: "2020-04-07T01:10:00.000Z"
+date: 2020-04-07T01:10:00.000Z
 author: Huahai Yang
 category: Viewpoints
 tags:
   - AI Chatbot
   - Industry Trends
 image: /assets/uploads/shane-rounce-phkgqsgzwpw-unsplash.jpg
+credit: Photo by Shane Rounce on Unsplash
 ---
 When people first use Juji, they are often amazed by how easy it is to create an intelligent chatbot with the platform. This reaction of pleasant surprise is particularly pronounced for people in the know, i.e. technical people who have actually done relevant work before. I am talking about the CTOs, the NLP researchers, and the employees of big technology firms. 
 

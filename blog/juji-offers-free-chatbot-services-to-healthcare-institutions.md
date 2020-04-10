@@ -2,7 +2,7 @@
 layout: blog/article.njk
 featured: true
 title: Juji Offers Free Chatbot Services to Healthcare Institutions
-date: "2020-04-07T20:42:31.139Z"
+date: 2020-04-07T20:42:31.139Z
 author: Michelle Zhou
 category: News
 tags:
@@ -11,6 +11,7 @@ tags:
   - Use Cases
   - Healthcare
 image: /assets/uploads/zach-vessels-wxrd7byfxs4-unsplash.jpg
+credit: Photo by Zach Vessels on Unsplash
 ---
 During this difficult time of COVID-19 pandemic, healthcare organizations and medical institutions are inundated with requests and demands from the general public. As an AI chatbot company based in Silicon Valley,[ Juji](https://juji.io) would like to lend them a helping hand. We are currently offering our chatbot services free-of-charge to these institutions.
 
