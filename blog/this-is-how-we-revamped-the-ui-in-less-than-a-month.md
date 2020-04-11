@@ -6,10 +6,9 @@ date: 2020-04-08T06:33:36.210Z
 author: Huahai Yang
 category: Engineering
 tags:
-  - Software Architecture
   - Single Page Application
-  - Juji Studio
   - Data Diff Oriented Architecture
+  - Juji Studio
 image: /assets/uploads/michal-parzuchowski-gennfqfvw48-unsplash.jpg
 credit: Photo by Michał Parzuchowski on Unsplash
 ---
