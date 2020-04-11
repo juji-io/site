@@ -145,18 +145,24 @@
                     Documentation
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a href="https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots" tabindex="-1"
-                                                                                              class="dropdown-item"
-                                                                                              target="_blank">
-                    Blogs
-                  </a>
-                  <div class="dropdown-divider"></div>
                   <a href="/publications"
                      class="dropdown-item"
                      target="_blank">
                     Publications & Talks
                   </a>
                 </div>
+              </li>
+
+              <li class="nav-item">
+                <a class=
+                   {% if page.url == "/blog/" %}
+                   "nav-link active-link"
+                   {% else %}
+                   "nav-link"
+                   {% endif %}
+                   href="/blog">
+                  Blog
+                </a>
               </li>
 
               <li class="nav-item">
