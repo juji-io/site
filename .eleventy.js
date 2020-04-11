@@ -18,7 +18,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("util");
-  eleventyConfig.addPassthroughCopy("admin");
+  eleventyConfig.addPassthroughCopy("admin/github-markdown.css");
+  eleventyConfig.addPassthroughCopy("admin/index.html");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("robots.txt");
 
@@ -47,7 +48,6 @@ module.exports = function(eleventyConfig) {
   });
 
   const getTags = function(collection) {
-    // Get unique list of tags
     let tagSet = new Set();
     collection.getAllSorted().map(function(item) {
       if( "tags" in item.data ) {
@@ -60,7 +60,19 @@ module.exports = function(eleventyConfig) {
     return [...tagSet];
   };
 
+  const getCategories = function() {
+    return Object.keys(JSON.parse(fs.readFileSync("_data/categories.json")));
+  };
+
+  const getAuthors = function() {
+    return Object.keys(JSON.parse(fs.readFileSync("_data/authors.json")));
+  };
+
   eleventyConfig.addCollection("tagList", getTags);
+
+  eleventyConfig.addCollection("categoryList", getCategories);
+
+  eleventyConfig.addCollection("authorList", getAuthors);
 
   eleventyConfig.addCollection("pages", function(collection) {
     return collection.getFilteredByGlob("*.html").reverse();
@@ -98,7 +110,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("catPagination", function(collection) {
     let paginationSize = 9;
     let catMap = [];
-    let catArray = Object.keys(JSON.parse(fs.readFileSync("_data/categories.json")));
+    let catArray = getCategories();
     for( let cat of catArray) {
       let catItems = collection.getAllSorted().filter(item => item.data.category == cat);
       let pagedItems = lodashChunk(catItems, paginationSize);

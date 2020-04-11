@@ -1,3 +1,7 @@
+---
+permalink: /admin/config.yml
+eleventyExcludeFromCollections: true
+---
 backend:
   name: git-gateway 
   identity_url: https://juji.io/.netlify/identity 
@@ -16,9 +20,9 @@ public_folder: "/assets/uploads"
 collections: # A list of collections the CMS should be able to edit
   - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
     identifier_field: "title"
-    label: "Article" # Used in the UI, ie.: "New Post"
+    label: "Article" # Used in the UI, ie.: "New Article"
     folder: "blog" # The path to the folder where the documents are stored
-    slug: "{{slug}}" # Filename template, e.g., title.md
+    slug: {% raw %}"{{slug}}"{% endraw %} # Filename template, e.g., title.md
     preview_path: blog/{{slug}}
     extension: md
     format: frontmatter
@@ -28,8 +32,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Featured", name: "featured", widget: "boolean", default: false, hint: "Featured article appears among the top 5 on the blog homepage"}
       - {label: "Title", name: "title", widget: "string", hint: "Good title uses number, 'how to', adjectives, famous thing, scarcity, promises, etc., and appeal to emotions."}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Category", name: "category", widget: "select", default: "Guides", options: ["Guides", "News", "Viewpoints", "Engineering"], hint: "Select a category"}
+      - {label: "Author", name: "author", widget: "select", options: [{% set comma = joiner() %}{% for a in collections.authorList -%}{{ comma() }} "{{ a }}"{%- endfor %}]}
+      - {label: "Category", name: "category", widget: "select", default: "Guides", options: [{% set comma = joiner() %}{% for c in collections.categoryList -%}{{ comma() }} "{{ c }}"{%- endfor %}], hint: "Select a category"}
       - {label: "Tags", name: "tags", widget: "list", hint: "Enter comma-separated values, please reuse existing tags as much as possible"}
       - {label: "Featured Image", name: "image", widget: "image", hint: "Featured image shows as the article cover"}
       - {label: "Image Credit", name: "credit", widget: "string", required: false, hint: "Give credit to the photographer"}
