@@ -9,8 +9,7 @@ tags:
   - Software Architecture
   - Single Page Application
   - Juji Studio
-  - Clojure
-  - EditScript
+  - Data Diff Oriented Architecture
 image: /assets/uploads/michal-parzuchowski-gennfqfvw48-unsplash.jpg
 credit: Photo by Michał Parzuchowski on Unsplash
 ---
