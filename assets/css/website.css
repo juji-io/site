@@ -1,4 +1,4 @@
-/*!
+/*
  * Start Bootstrap - Shop Homepage (http://startbootstrap.com/template-overviews/shop-homepage)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
@@ -62,26 +62,12 @@ html {
 }
 
 body {
-    /*padding-top: 54px;*/
     font-color: black;
     font-size: 14px;
     font-family:  "GothamRounded-Light";
     display: flex;
     flex-flow: column;
     min-height: 100vh;
-    /*margin: 0;
-    padding: 0;
-    width: 100%;*/
-}
-
-main {
-  flex: 1;
-}
-
-@media (min-width: 992px) {
-    body {
-        /*padding-top: 56px;*/
-    }
 }
 
 h1 {
@@ -116,333 +102,6 @@ img {
     max-height: 100%
 }
 
-.canned-demo-img {
-    width: 100%;
-}
-
-.usecase-FB-img {
-    width: 60%;
-}
-
-.progress-bar {
-
-    background: #28BD8B;
-
-}
-
-.form-label-icon {
-
-    width: 24px;
-    height: 24px;
-}
-
-/* Focus */
-[contenteditable]:focus {
-    color: red;
-    outline: 0px solid transparent;
-}
-
-input:focus {
-    outline: 0px solid transparent;
-}
-
-textarea:focus {
-
-    outline: 0px solid transparent;
-}
-
-/* Juji input radio and checkbox buttons */
-
-input[type='radio']::before {
-  content:'';
-  display:block;
-  width:100%;
-  height:100%;
-  border-radius:50%;
-}
-
-input[type='radio']:checked::before {
-    background:  white;
-    border: 4px solid  #28BD8B;
-}
-
-
-/* Create a toggle switch object */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 30px;
-    height: 15px;
-    margin: 0;
-}
-
-*.switch input {display:none;}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #E5545B;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-/* Rounded sliders */
-.slider.round {
-    /* This should be coordinated with the slider size*/
-      border-radius: 15px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
-
-/* This is to render the circle toggle */
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 15px;
-    width: 15px;
-    left: 0px;
-    bottom: 0px;
-    background-color: #EFEBEA;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-input:checked + .slider {
-    background-color: #28BD8B;
-}
-
-input:focus + .slider {
-    box-shadow: 0 0 1px #2DB787;
-}
-
-input:checked + .slider:before {
-    -webkit-transform: translateX(15px);
-    -ms-transform: translateX(15px);
-    transform: translateX(15px);
-}
-
-
-/*******************************************
- * A set of standard GUIs by Juji styling
- *******************************************/
-
-.juji-gui-form {
-
-    font-size: 14px;
-    font-family: GothamRounded-Light;
-}
-
-.juji-gui-form label {
-    display: inline-block;
-    font-size: 14px;
-    font-family: GothamRounded-Book;
-    color: #000000;
-    margin-right: 0.5em;
-}
-
-.juji-text-input {
-
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #A8A8A8;
-    width: 100%;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-
-.juji-text-input-box {
-
-    padding-left: 5px;
-    padding-right: 5px;
-    background: #FFFFFF;
-    height: 35px;
-    border: none;
-}
-
-.juji-date-input {
-    border: none;
-    border-bottom: 1px solid #A8A8A8;
-}
-
-.juji-text-area {
-
-    width: 100%;
-    min-height: 200px;
-
-}
-
-
-.juji-canned-form {
-    padding: 5px 10px;
-}
-
-.juji-gui-template, .juji-gui-template label {
-
-    font-family: GothamRounded-Light;
-    cursor: text;
-    color: #A8A8A8;
-}
-
-
-.juji-disabled-form label {
-
-    color: #A8A8A8;
-}
-
-.juji-disabled-form input {
-    background: #D8D8D8;
-}
-
-.juji-dropdown {
-    border: none;
-    min-width: 100px;
-    border-radius: 0px 0px 0px 0px;
-    height: 35px;
-    background: #FFFFFF;
-}
-
-.juji-gui-input-warning {
-	position: relative;
-	font-size: 10px;
-	color: red;
-}
-
-.juji-name-form .salutation {
-    margin-bottom: 10px;
-}
-
-
-.juji-name-form input {
-    width: 100%;
-}
-
-.juji-dob-form label::before {
-
-    content: "Date of birth";
-}
-
-.juji-phone-form label::before {
-    content: "Phone";
-}
-
-.juji-email-input {
-    border: none;
-    background: transparent;
-    border-bottom: 1px solid #A8A8A8;
-}
-
-.juji-email-form label::before {
-    content: "Email";
-}
-
-.juji-gender-form label::before {
-    content: "Gender";
-}
-
-.juji-gender-form input {
-    margin-left: 10px;
-}
-
-.juji-age-group-form label::before {
-    content: "Age Group";
-}
-
-.juji-education-form label::before {
-    content: "Education";
-}
-
-.juji-race-form label::before {
-    content: "Race";
-}
-
-.juji-address-form label::before {
-    content: "Address";
-}
-
-.juji-address-form .second-row {
-
-    margin-top: 10px;
-}
-
-.juji-address-form input {
-    width: 100%;
-}
-
-.juji-fileupload-form label {
-    cursor: pointer;
-}
-
-.juji-fileupload-form img {
-
-    width: 30px;
-    height: 30px;
-
-    vertical-align: middle;
-
-
-}
-
-.juji-fileupload-form input {
-    opacity: 0;
-}
-
-/*******************************************
-* common properties
-********************************************/
-.disabled-body {
-
-    background: #888888;
-}
-
-.disabled-area
-{
-    pointer-events: none;
-    background: #888888;
-    opacity: 0;
-}
-
-/* a standard check list with check marks*/
-.checklist {
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-    text-align: left;
-    font-family: GothamRounded-Medium;
-    font-size: 16px;
-}
-
-.checklist li {
-
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.checklist li::before {
-    content: "";
-    display:inline-block;
-
-    position: absolute;
-    width: 25px;
-    height: 25px;
-
-     /* Location of the image */
-    background-image: url("../img/ui/done.png");
-    background-repeat: no-repeat;
-    background-size: 25px 25px;
-
-    top: 0px;
-    right: calc(100% + 10px);
-}
 
 /********************************************
 * a set of buttons that take text label
@@ -461,149 +120,6 @@ button:hover {
     cursor: pointer;
 }
 
-button:focus {
-    outline: 0px solid transparent;
-}
-
-button:select {
-    outline: 0px solid transparent;
-}
-
-.big-action-btn {
-
-    font-size: 16px;
-    font-family: GothamRounded-Medium;
-}
-
-.medium-action-btn {
-
-    font-size: 14px;
-    font-family: GothamRounded-Book;
-}
-
-
-.selected-btn {
-    cursor: pointer;
-    color: white !important;
-    background-color: #28BD8B !important;
-    border-style: none !important;
-
-    /*color: black;
-    background-color: #FFFFFF !important;*/
-}
-
-.selected-btn a {
-    pointer-events: none;
-    color: white;
-    /*background-color: #28BD8B;*/
-
-}
-
-.active-btn {
-    /*background-color: white;*/
-    cursor: pointer;
-}
-
-.active-btn:hover {
-
-    background: #F2F2F2;
-}
-
-.attention-required-btn {
-
-    position: relative;
-}
-
-.attention-required-btn label::after {
-
-    content: "";
-
-    /* This size is set by the relevant font size */
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    /*background-color: #FF555B;*/
-    background-color: #DC3C46;
-
-    position: absolute;
-    top: calc(50% - 7.5px);
-    left: 75%;
-
-}
-
-.disabled-btn {
-
-    border: none;
-    font-family: "GothamRounded-Light";
-    color: #AFAFAF;
-}
-
-.disabled-btn:hover {
-    cursor: not-allowed;
-}
-
-.text-action-btn {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.text-action-btn:hover {
-    cursor: pointer;
-    color: #28BD8B;
-}
-
-/********************************************
-* a set of buttons that take an icon image
-*********************************************/
-
-.xl-icon-btn {
-
-    width: 150px;
-    height: 150px;
-}
-
-/* 48x48 */
-.big-icon-btn {
-    width: 50px;
-    height: 50px;
-}
-
-/* medium icon button takes an icon image at 32x32 */
-.medium-icon-btn {
-    width: 44px;
-    height: 44px;
-}
-
-/* Small icon button takes an icon image at 24x24 */
-.small-icon-btn {
-    width:36px;
-    height:36px;
-}
-
-/* Button button containing text */
-.big-btn {
-
-    width:200px;
-    height:40px;
-
-    font-size:16px;
-
-    color: black;
-    background-color: white;
-
-    border-color: grey;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 0;
-
-}
-
-.big-btn:hover{
-  background-color: #28BD8B;
-  color: white;
-  border: none;
-}
-
 .btn-primary {
 
     color: black;
@@ -620,174 +136,6 @@ button:select {
     cursor: pointer;
     color: #FFFFFF;
     background: #28BD8B !important;
-}
-
-
-/****************************
- * Basics of a pop-up window
- *************************/
-
-.popup-window {
-
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-    width: 70%;
-    text-align: center;
-    background: white;
-    box-shadow: 0px 0px 26px #B3B2C0;
-
-
-}
-
-.popup-window-w-background {
-
-    background-size: cover;
-    background-image: url(../img/ui/grey-bg.png);
-    background-repeat: no-repeat;
-}
-
-.popup-window .title-area {
-
-    margin: auto;
-    max-width: 600px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-
-.popup-window .title-area p {
-
-    font-family: GothamRounded-Book;
-    font-size: 16px;
-}
-
-.popup-window .x-area {
-
-    width: 95%;
-    text-align: right;
-}
-
-.popup-window .main-display {
-
-    width: 90%;
-
-    margin-left:auto;
-    margin-right:auto;
-
-    margin-top: 60px;
-    margin-bottom: 30px;
-}
-
-.popup-window .feedback-area {
-
-    width: 80% !important;
-}
-
-/* Defines a popup menu container - can be anything */
-
-.popup-container {
-
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.popup-container .popup-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.popup-container .popup-menu li {
-    border-bottom :1px solid #eee;
-    line-height: 2.5em !important;
-}
-
-.popup-container .popup-menu li:last-child {
-    border-bottom: none;
-}
-
-.popup-container .popup-menu li:hover {
-
-    color: #28BD8B;
-    background: #D2D2D2;
-}
-
-.popup-container .popup-menu li a {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding: 0px 5px;
-}
-
-.popup-container .popup-menu li a:hover {
-
-    color: #28BD8B;
-    text-decoration: none;
-}
-
-
-
-/* The actual popup-container */
-.popup-container .popup-content {
-
-    /*visibility: hidden;*/
-    opacity: 0;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    z-index: 2000;
-
-    position: absolute;
-    bottom: 125%;
-    left: 50%;
-
-    /* The following should be auto calc instead of hard coded*/
-    width: 140px;
-    margin-left: -70px;
-}
-
-/* Popup down arrow */
-.popup-container .popup-content::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-
-/* Toggle this class - hide and show the popup */
-.popup-container .show {
-    opacity: 1;
-    transition: opacity 2s;
-}
-
-
-/*********************************
- * Header menu bar properties
- ********************************/
-
-.btn-group-sm>.btn, .btn-sm {
-    float: none;
-}
-.navbar-toggle {
-    display: inline-block;
-    float: none;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: black;
 }
 
 header .nav-item {
@@ -810,19 +158,6 @@ header .nav-link {
     color: black !important;
     font-family: GothamRounded-Book;
     font-size: 14px;
-}
-
-header .recommended-link {
-    padding: 8px 20px 8px 20px !important;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #28BD8B;
-    border-radius: 5px 5px 5px 5px;
-}
-
-header .recommended-link:hover {
-    background: #28BD8B;
-    color: white;
 }
 
 header .active-link {
@@ -951,7 +286,6 @@ footer .footer-vertical {
 .bottom-action-area {
 
     background-color: #c2c2c2;
-    /*min-height: 150px;*/
     padding-bottom: 30px;
 }
 
@@ -987,12 +321,22 @@ footer .footer-vertical {
 ** Index page
 ******************************************/
 
+.announcement-text
+{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.announcement-text a {
+    color: black;
+    font-family:GothamRounded-Medium;
+}
+
 .home-banner {
     background-image: url("../img/ui/spring2020-banner.gif");
     background-position:bottom;
     background-repeat:no-repeat;
     background-size: contain;
-    /*background-color: #F8F8F8;*/
     border-bottom: 4px solid #F8F8F8;
 }
 
@@ -1000,10 +344,8 @@ footer .footer-vertical {
     margin: auto;
     width: 65%;
     text-align: center;
-    /*padding-top: 50px;*/
     margin-top: 60px;
     margin-bottom: 60px;
-    /*padding-bottom: 50px;*/
 
 }
 
@@ -1035,7 +377,6 @@ footer .footer-vertical {
 .home-banner .learn-btn a {
 
     color: black;
-    /* border: none;*/
 }
 
 .home-banner .learn-btn a:hover {
@@ -1053,7 +394,6 @@ footer .footer-vertical {
 .use-case-section {
     padding-top:50px;
     padding-bottom: 50px;
-    /*background: #E8E8E8;*/
 }
 
 .use-case-section.odd-section {
@@ -1115,14 +455,6 @@ footer .footer-vertical {
     width: 90%;
 }
 
-/*
-.background-area{
-
-    background-image: url("../img/ui/bg-ling.png");
-    background-repeat: no-repeat;
-    background-position: left bottom;
-}*/
-
 .title-sec {
     padding-top:50px;
     padding-bottom: 30px;
@@ -1150,7 +482,6 @@ footer .footer-vertical {
     padding-bottom: 20px;
     width: 50%;
     border-top: 2px solid #F2F2F2;
-    /*border-bottom: 2px solid #F2F2F2;*/
 }
 
 #collaborator {
@@ -1213,13 +544,6 @@ footer .footer-vertical {
     font-size: 16px;
 }
 
-
-/*.career .action-area li {
-    font-family: GothamRounded-Book;
-    font-size: 16px;
-    padding: 10px 25px 10px 25px;
-    white-space: nowrap;
-}*/
 
 .second-action {
     margin-top: 20px;
@@ -1316,7 +640,6 @@ footer .footer-vertical {
 .intro-section {
     margin-top: 65px;
     padding-top: 30px;
-    /*height: 250px;*/
 }
 
 .intro-section .jumbotron {
@@ -1337,17 +660,6 @@ footer .footer-vertical {
     background-size: contain;
     }
 }
-
-/*intro-section .jumbotron ul {
-
-    list-style-type: none;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: left;
-    font-family: GothamRounded-Medium;
-    font-size: 18px;
-
-}*/
 
 .why-section.content-section
 {
@@ -1683,7 +995,6 @@ footer .footer-vertical {
 .pricing-col .action-btn {
 
     margin: auto;
-    /*background:#28BD8B !important;*/
     background: black;
     border: none;
     margin-top: 10px;
@@ -1763,42 +1074,6 @@ footer .footer-vertical {
   margin: 20px 0 30px;
 }
 
-/* Each pricing-item*/
-
-/*.pricing-item {
-  border-radius: 3px;
-  display: inline-block;
-  width: 260px;
-  height: auto;
-  background: #fff;
-  margin: 20px;
-  vertical-align: top;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
-  transition: all 0.2s cubic-bezier(0.3, 0.6, 0.2, 1.8);
-}
-
-.pricing-item:hover {
-  -webkit-transform: scale(1.04);
-  transform: scale(1.04);
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
-}
-
-.pricing-item .pricing-title {
-  width: 100%;
-  color: white;
-  display: block;
-  position: relative;
-  background: #0074D9;
-  padding: 7px;
-  font-weight: bold;
-  font-size: 20px;
-}
-.pricing-item.pricing-featured .pricing-title {
-  background: #FF4136;
-}
-*/
 
 /* pricing-value */
 .pricing-value {
@@ -1812,53 +1087,10 @@ footer .footer-vertical {
   margin: 10px auto;
 }
 
-/*
-.pricing-value.pro {
-    padding-top: 27px;
-}
-
-.pricing-value.custom {
-    font-size: 44px;
-}
-
-.pricing-value .smallText {
-  font-size: 16px;
-}
-
-.pricing-value .abovetext {
-    display: block;
-    font-size: 12px;
-}
-
-
-.pricing-value .undertext {
-  display: block;
-  font-size: 14px;
-}
-
-.pricing-value .bottomtext {
-    display: block;
-    font-size: 12px;
-}
-
-.pricing-item .pricing-value {
-  background: #0074D9;
-  border: 2px solid #0074D9;
-}
-
-.pricing-item.pricing-featured .pricing-value {
-  background: #FF4136;
-  border: 2px solid #FF4136;
-}
-*/
-
-
 /* List */
 .pricing-item .pricing-features {
-    /*margin: 10px 0;*/
     margin: 0;
     padding: 0;
-    /*list-style: none;*/
     list-style: square;
     padding-top:10px;
     padding-bottom: 30px;
@@ -1866,16 +1098,6 @@ footer .footer-vertical {
 }
 
 .pricing-item .pricing-features li {
-
-  /*
-  display: block;
-  width: 90%;
-  height: 40px;
-  line-height: 40px;
-  font-size: 15px;
-  font-weight: 400;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin: 0 auto;*/
 
     margin-left: 0;
     font-size: 16px;
@@ -1935,8 +1157,6 @@ footer .footer-vertical {
   cursor: pointer;
   margin-bottom: 10px;
   transition: .2s ease-out;
-  /*-webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.05);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.05);*/
 }
 .button:hover {
   background: #0074D9;
@@ -2111,7 +1331,6 @@ footer .footer-vertical {
 .iphone-screen {
   background: #eee;
   border: 1px solid #fff;
-  /*height: 677px;*/
   height: 500px;
   width: 325px;
   margin: 0 auto;
@@ -2245,7 +1464,6 @@ About Page
     font-size: 14px;
     font-family: GothamRounded-Book;
     color: white;
-    /*border: 1px solid white;*/
 }
 
 .subscribe-newsletter__button:hover {
@@ -2269,7 +1487,6 @@ About Page
 
 .juji-card .card-header {
     background-color: #F2F2F2;
-    /*background-color: #FFFFFF;*/
     line-height: 2.65em;
     padding-top: 0;
     padding-bottom: 0;
@@ -2294,10 +1511,6 @@ About Page
     margin-top: 20px;
     margin-bottom: 0px;
 
-    /* Fix the text block height to
-     *make sure equal heights across cards */
-
-    /*height: 100px;*/
 }
 
 .juji-card .card-block h3 {
@@ -2344,7 +1557,6 @@ About Page
 .juji-card .card-footer {
 
     border: none;
-    /*background-color: #F2F2F2;*/
     background: #FFFFFF;
 
 }
@@ -2352,8 +1564,6 @@ About Page
 .gallery-section .rep-col {
 
     /* To make sure all columns are the same */
-    /*margin-bottom: -99999px;
-    padding-bottom: 99999px;*/
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -2361,10 +1571,6 @@ About Page
 .gallery-section .juji-card {
     border: none;
     background: #FFFFFF;
-    /*background: transparent;
-    border-width: 3px;
-    border-color: #FFFFFF;
-    border-style: solid;*/
 }
 
 .gallery-section .juji-card .image-block {
@@ -2494,13 +1700,3 @@ About Page
     padding-bottom: 10px;
 }
 
-.announcement-text
-{
-    text-align: center;
-    margin-top: 5px;
-}
-
-.announcement-text a {
-    color: black;
-    font-family:GothamRounded-Medium;
-}
