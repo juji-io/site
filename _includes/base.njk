@@ -4,6 +4,7 @@
     {% block head %}
     <script async src='https://www.google-analytics.com/analytics.js'></script>
     <script async src='/assets/js/autotrack.js'></script>
+    <script async src="lazysizes.min.js"></script>
     <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-113933244-1', 'auto', {allowLinker: true});
       ga('require', 'linkid');
@@ -266,7 +267,7 @@
               <div>
                 <a href="https://twitter.com/juji_io?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fjuji.io&width=450&layout=standard&action=like&size=small&share=false&height=35&appId=535043073305325" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                <a href="/feed.xml"><img src="/assets/img/ui/feed.png" width="20" height="20"/></a>
+                <a href="/feed.xml"><img class="lazyload" src="/assets/img/ui/feed.png" width="20" height="20"/></a>
               </div>
             </div>
           </div>
