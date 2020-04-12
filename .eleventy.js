@@ -1,5 +1,5 @@
 const fs = require('fs');
-const pluginSEO = require("eleventy-plugin-seo");
+const pluginSEO = require("eleventy-plugin-seo-tag");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const blogTools = require("eleventy-plugin-blog-tools");
