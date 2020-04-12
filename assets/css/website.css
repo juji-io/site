@@ -493,7 +493,6 @@ footer .footer-vertical {
 
 #collaborator {
     height: 150px;
-    background-image: url("../img/content/collaborators.jpg");
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
