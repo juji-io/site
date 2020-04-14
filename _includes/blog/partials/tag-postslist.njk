@@ -7,10 +7,11 @@
           {% set author = post.data.author %}
           <div class="col-lg-4 mb-4">
             <div class="entry2">
-              <a href="{{ post.url }}">
-                <img src="{{ post.data.image }}" 
-                     alt="{{ post.data.title }}" 
-                     class="img-fluid rounded"></a>
+              <a href="{{ post.url }}"
+                 class="postlist-entry-pic"
+                 style="background-image: url({{ post.data.image }}); 
+                 background-position: 50% 50% !important;">
+              </a>
               <div class="excerpt">
                 <span class="{{ 'post-category text-white mb-3 ' 
                 + categories[category].bgclass }}">
