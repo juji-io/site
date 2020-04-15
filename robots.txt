@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
 
 Sitemap: https://juji.io/sitemap.xml
 
