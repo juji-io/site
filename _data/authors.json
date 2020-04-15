@@ -16,5 +16,11 @@
     "bio": "I am passionate about machine learning and its potential. What's more interesting than the technology itself is the possibility of building useful tools based on the technology. I believe building a useful tool or a successful product requires deep understanding of our society and humanity.",
     "pic": "/assets/img/content/wenxi.jpeg",
     "email": "wchen@juji-inc.com"
-  }
+  }, 
+  "Terri Lee": {
+    "name": "Terri Lee",
+    "bio": "A technologically-curious college student, who loves to learn more about upcoming innovations.",
+    "pic": "/assets/img/content/tlee.jpg",
+    "email": "tlee@juji-inc.com"
+  }, 
 }
