@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: /admin/
+Disallow: /
+
+Sitemap: https://juji.io/sitemap.xml
+
