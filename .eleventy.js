@@ -42,9 +42,14 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('authorFilter', function(collection, author) {
     if (!author) return collection;
-    return collection.filter(function(item) {
+    const filtered = collection.filter(function(item) {
       return item.data.author == author;
     });
+    if (filtered.length == 0) {
+      return collection;
+    } else {
+      return filtered;
+    }
   });
 
   const getTags = function(collection) {
