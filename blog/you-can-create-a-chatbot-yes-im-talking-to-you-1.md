@@ -43,7 +43,7 @@ First, fill in an ID for the question. The ID can be a short and helpful descrip
 
 A really cool part of this csv template are the IDs. If you notice in the csv image above, you can have multiple questions connected to one answer because there's one ID! Pretty cool right?
 
-With these two features, you can create a chatbot quickly and effectively to reach your audience in time.
+With the built-in messages and Q&A Board you can quickly create a robust chatbot to effectively to reach your audience in time.
 
 To get an idea of how you can do this on Juji and to get started on building your own bot, we invite you to view our "DIY Your First Chatbot" tutorial video: https://www.youtube.com/watch?v=XkI9c4iBwl8
 
