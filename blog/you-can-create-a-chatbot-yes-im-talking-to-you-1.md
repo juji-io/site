@@ -43,21 +43,20 @@ Let me show you how quickly you can DIY your first AI chatbot on Juji to support
 
 The CSV template contains four columns:  
 
-*ID  
-*Question
-*Answer
-*Comment
+*ID*  | *Question* | *Answer* | *Comment*
 
-First, fill in an ID for the question. The ID can be a short and helpful descriptor for the question just for you to remember the topic of the inquiry. Next, you add the questions and the question variations in subsequent lines. Finally, you add the answer. 
-
-A really cool part of this csv template are the IDs. If you notice in the csv image above, you can have multiple questions connected to one answer because there's one ID! Pretty cool right?
+You can give a meaningful ID to index your Q&A pair and also use it to group alternative question expressions or answer expressions.  Every chatbot template  automatically comes with a default Q&A list, which you can customize. Pay attention to the answers in the CSV ended with "#", indicating a default system answer to be customized. Here is [more information](https://docs.juji.io/design/#customize-qa-and-fallback) on customizing Q&As. 
 
 ![Take a closer look at the formatting of the csv files.](/assets/uploads/jujicsv.png "Example of a CSV Template Downloaded From Q&A Board")
 
-1.
+Once you are done with your Q&A list, save and upload the CSV file on the Q&A dashboard. Now you can preview your chatbot and test out the Q&As you just put in. 
 
-With these two features, you can create a chatbot quickly and effectively to reach your audience in time.
+Since Juji uses machine learning behind the scene to match a user inquiry with the questions you entered by their semantics,  you will notice the following chatbot behavior. First, even if your questions may not exactly match the ones you entered in the CSV, your chatbot can still answer the questions correctly.  Second, if your chatbot is unsure about a match, it will also recommend possible questions, giving your users a chance to select the matched question as shown below.  
 
-To get an idea of how you can do this on Juji and to get started on building your own bot, we invite you to view our "DIY Your First Chatbot" tutorial video: https://www.youtube.com/watch?v=XkI9c4iBwl8
+**<Terri: could you add a screenshot showing question recommendation>**
 
-If you are curious about AI chatbots and how to build one, please join this sub-reddit: <https://www.reddit.com/r/DIY_AI_Chatbot/>
+If you are satisfied with your chatbot, you can then [deploy it ](https://docs.juji.io/release/)to meet with your audience, either on your Facebook page or on your website.  
+
+This [Youtube video](https://www.youtube.com/watch?v=XkI9c4iBwl8) recaps what I described above. As you can see, creating an AI chatbot is rather easy and fast, perhaps easier than making PowerPoint slides. 
+
+ If you wish to learn more about AI chatbots and how to build one, please meet us on this [sub-reddit](<https://www.reddit.com/r/DIY_AI_Chatbot/>).
