@@ -6,9 +6,9 @@ date: 2020-04-15T23:18:27.464Z
 author: Terri Lee
 category: Guides
 tags:
-  - DIYaichatbot
-  - chatbot
-  - aichatbot
+  - DIY AI Chatbot
+  - Free-text Q&A
+  - Chatbot
 image: /assets/uploads/eugen-str-crhsiry3jwy-unsplash.jpg
 credit: Photo by Eugen Str on Unsplash
 ---
