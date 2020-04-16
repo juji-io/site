@@ -14,11 +14,11 @@ credit: Image by OpenClipart-Vectors from Pixabay
 ---
 
 
-Gartner predicts that 80% of business applications will have a chatbot by 2021. 
+**Gartner** predicts that 80% of business applications will have a chatbot by 2021. 
 
 "*Building a chatbot seems complicated, I don't really have the time to learn and build one*."
 
-"*I want a chatbot for my business but, I don't have the technical skills to build one*." 
+"*I want a chatbot for my business but I don't have the technical skills to build one*." 
 
 "*I can't code so I probably won't be able to build a chatbot."*
 
