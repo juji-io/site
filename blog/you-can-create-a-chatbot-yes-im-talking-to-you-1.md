@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: false
-title: You Can Create a Chatbot. Yes, I'm Talking to You!
+title: You Can Build a Chatbot. Yes, I'm Talking to You!
 date: 2020-04-15T23:18:27.464Z
 author: Terri Lee
 category: Guides
@@ -9,9 +9,9 @@ tags:
   - DIYaichatbot
   - chatbot
   - aichatbot
-image: /assets/uploads/screen-shot-2020-03-24-at-10.27.45-pm.png
+image: /assets/uploads/eugen-str-crhsiry3jwy-unsplash.jpg
 ---
-Have you ever thought, "Creating a chatbot seems too technical and beyond my capabilities," or "I don't have the coding abilities necessary to create a chatbot?" What if I told you there's a platform called Juji, where you don't need to code? 
+Have you ever thought, "Building a chatbot seems too technical and beyond my capabilities," or "I don't have the coding abilities necessary to create a chatbot?" Starting something new What if I told you there's a platform called Juji, where you don't need to code? 
 
 Yes, no coding necessary. Period.
 
