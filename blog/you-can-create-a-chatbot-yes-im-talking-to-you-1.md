@@ -10,10 +10,7 @@ tags:
   - chatbot
   - aichatbot
 image: /assets/uploads/alphabet-word-images-1292931_1280.png
-credit: Image by <a
-  href="https://pixabay.com/users/OpenClipart-Vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1292931">OpenClipart-Vectors</a>
-  from <a
-  href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1292931">Pixabay</a>
+credit: Image by OpenClipart-Vectors from Pixabay
 ---
 Gartner predicts that 80% of business applications will have a chatbot by 2021. 
 
