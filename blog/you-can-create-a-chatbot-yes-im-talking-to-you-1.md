@@ -29,13 +29,11 @@ The built-in messages vary based on the "AI Helper" template you choose once you
 
 ![Many other messages can easily be edited in the same way!](/assets/uploads/welcomegreeting.png "Editor Interface: Welcome Greeting")
 
-On the other hand, the Q&A Board is slightly different. This feature requires csv files (which is shown one of the images below) and it's very powerful because it allows your chatbot to answer questions, even if they're worded differently. The formatting of the csv file is key. First, you should download the csv template generated for you and put in those pressing questions your users might have. In the csv file, there are three parts you fill out:
+On the other hand, the Q&A Board is slightly different. This feature requires csv files (which is shown in the image below) and it's very powerful because it allows your chatbot to answer questions, even if they're worded differently. The formatting of the csv file is key. First, you should download the csv template generated for you and put in those pressing questions your users might have. In the csv file, there are three parts you fill out:
 
 1. The ID
 2. The Question
 3. The Answer
-
-![On the Q&A Board, you can download the csv file and upload it back up. Then, your chatbot is ready to answer questions!](/assets/uploads/q-aboard.png "Q&A Board")
 
 ![Take a closer look at the formatting of the csv files.](/assets/uploads/jujicsv.png "Example of a CSV Template Downloaded From Q&A Board")
 
