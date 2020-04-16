@@ -10,6 +10,7 @@ tags:
   - chatbot
   - aichatbot
 image: /assets/uploads/eugen-str-crhsiry3jwy-unsplash.jpg
+credit: Photo by Eugen Str on Unsplash
 ---
 Have you ever thought, "Building a chatbot seems too technical and beyond my capabilities," or "I don't have the coding abilities necessary to create a chatbot?" Starting something new can be intimidating, but you don't need to be afraid, especially with a user-friendly chatbot builder like, Juji, that doesn't require coding.
 
