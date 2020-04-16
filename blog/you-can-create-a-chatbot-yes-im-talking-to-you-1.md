@@ -1,48 +1,63 @@
 ---
 layout: blog/article.njk
 featured: false
-title: You Can Build a Chatbot. Yes, I'm Talking to You!
+title: If You Can Use PowerPoint, You Can Build a Chatbot - a Darn Smart One
 date: 2020-04-15T23:18:27.464Z
 author: Terri Lee
 category: Guides
 tags:
-  - DIY AI Chatbot
-  - Free-text Q&A
-  - Chatbot
+  - DIYaichatbot
+  - chatbot
+  - aichatbot
 image: /assets/uploads/eugen-str-crhsiry3jwy-unsplash.jpg
-credit: Photo by Eugen Str on Unsplash
 ---
-Have you ever thought, "Building a chatbot seems too technical and beyond my capabilities," or "I don't have the coding abilities necessary to create a chatbot?" Starting something new can be intimidating, but you don't need to be afraid, especially with a user-friendly chatbot builder like, Juji, that doesn't require coding.
+Gartner predicts that 80% of business applications will have a chatbot by 2021. 
 
-On Juji, some really helpful and neat features to get you started are:
+"*Building a chatbot seems quite complicated, I don't really have the time to learn and build one*."
 
-1. The built-in messages, such as the welcome and wrap-up greetings.
+"*I want a chatbot for my business but I don't have the technical skills to build one*." 
 
-   ![](/assets/uploads/sayhelloworldstarting.png)
-2. The frequently asked questions (FAQs) feature, under the Q&A Board tab.
+"*I cannot code so I probably won't be able to build a chatbot*". 
 
-   ![](/assets/uploads/q-aboard.png)
+Learning something new can be intimidating. If you have the above thoughts, this blog may completely change your thinking and leave you with a pleasant surprise.  
 
-The built-in messages vary based on the "AI Helper" template you choose once you add a bot to your dashboard, but the welcome and wrap-up greetings are the same and can be edited by clicking on the dialogue box and making adjustments to the way you would like a conversation to flow between the bot and your audience. The editing is easy and it's just like writing in a comments section online. 
+This is 2020, thanks to great advances in technologies, you can now use a user-friendly chatbot builder to DIY capable AI chatbots, ***without coding and within minutes.***   
 
-![](/assets/uploads/helpertemplates.png "AI Helper Templates")
+Let me show you how quickly you can DIY your first AI chatbot on Juji to support free-text question and answering (Q&A). 
+
+**Template Selection**. Juji provides a set of chatbot templates. For our purpose, let's choose the blank template that we can easily customize. 
+
+![Template Selection Screenshot](/assets/uploads/helpertemplates.png "AI Helper Templates")
+
+**Customize Chatbot Welcome and Wrap-up Messages**. The blank template comes with two conversation topics, one is a "***Welcome***" topic that greets a user at the beginning of a chat, while the "***Wrap-up***" topic wraps up a chat. As shown in the screenshots below, you can easily customize both the welcome and wrap-up messages to suit your audience. If you wish, you can also further [customize the ending options](https://docs.juji.io/design/), e.g., looping back to the beginning of the chat. 
+
+**<Terri: we need two screenshots below, one showing the edits of "Welcome" message and the other showing the edits of "Wrap-up" message">**
+
+![You can see the Welcome and Wrap-up greetings on the left side.](/assets/uploads/sayhelloworldstarting.png "Say Hello World Starting Page")
 
 ![Many other messages can easily be edited in the same way!](/assets/uploads/welcomegreeting.png "Editor Interface: Welcome Greeting")
 
-On the other hand, the Q&A Board is slightly different. This feature requires csv files (which is shown in the image below) and it's very powerful because it allows your chatbot to answer questions, even if they're worded differently. The formatting of the csv file is key. First, you should download the csv template generated for you and put in those pressing questions your users might have. In the csv file, there are three parts you fill out:
+**Support Free-Text Q&A**. One of the key functions of an AI chatbot is its abilities to address user natural language inquiries during a chat.  To do so, Juji enables you to provide a list of Q&A in a CSV file. First, you can download the CSV file template from the Q&A dashboard as shown below.
 
-1. The ID
-2. The Question
-3. The Answer
+![On the Q&A Board, you can download the csv file and upload it back up. Then, your chatbot is ready to answer questions!](/assets/uploads/q-aboard.png "Q&A Board")
 
-![Take a closer look at the formatting of the csv files.](/assets/uploads/jujicsv.png "Example of a CSV Template Downloaded From Q&A Board")
+The CSV template contains four columns:  
 
-First, fill in an ID for the question. The ID can be a short and helpful descriptor just for you to remember the topic of the question. Next, add the questions and their variations in subsequent lines. Finally, add the answer. 
+*ID  
+*Question
+*Answer
+*Comment
+
+First, fill in an ID for the question. The ID can be a short and helpful descriptor for the question just for you to remember the topic of the inquiry. Next, you add the questions and the question variations in subsequent lines. Finally, you add the answer. 
 
 A really cool part of this csv template are the IDs. If you notice in the csv image above, you can have multiple questions connected to one answer because there's one ID! Pretty cool right?
 
-With the built-in messages and Q&A Board you can quickly create a robust chatbot to effectively to reach your audience in time.
+![Take a closer look at the formatting of the csv files.](/assets/uploads/jujicsv.png "Example of a CSV Template Downloaded From Q&A Board")
 
-To get an idea of how you can start building your bot on Juji, we invite you to view our "DIY Your First Chatbot" tutorial video: https://www.youtube.com/watch?v=XkI9c4iBwl8
+1.
+
+With these two features, you can create a chatbot quickly and effectively to reach your audience in time.
+
+To get an idea of how you can do this on Juji and to get started on building your own bot, we invite you to view our "DIY Your First Chatbot" tutorial video: https://www.youtube.com/watch?v=XkI9c4iBwl8
 
 If you are curious about AI chatbots and how to build one, please join this sub-reddit: <https://www.reddit.com/r/DIY_AI_Chatbot/>
