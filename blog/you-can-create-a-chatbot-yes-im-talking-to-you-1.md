@@ -4,7 +4,7 @@ featured: false
 title: You Can Create a Chatbot. Yes, I'm Talking to You!
 date: 2020-04-15T23:18:27.464Z
 author: Terri Lee
-category: Viewpoints
+category: Guides
 tags:
   - DIYaichatbot
   - chatbot
