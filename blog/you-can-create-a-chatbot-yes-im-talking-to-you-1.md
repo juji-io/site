@@ -16,17 +16,19 @@ Have you ever thought, "Building a chatbot seems too technical and beyond my cap
 On Juji, some really helpful and neat features to get you started are:
 
 1. The built-in messages, such as the welcome and wrap-up greetings.
+
+   ![](/assets/uploads/sayhelloworldstarting.png)
 2. The frequently asked questions (FAQs) feature, under the Q&A Board tab.
+
+   ![](/assets/uploads/q-aboard.png)
 
 The built-in messages vary based on the "AI Helper" template you choose once you add a bot to your dashboard, but the welcome and wrap-up greetings are the same and can be edited by clicking on the dialogue box and making adjustments to the way you would like a conversation to flow between the bot and your audience. The editing is easy and it's just like writing in a comments section online. 
 
 ![](/assets/uploads/helpertemplates.png "AI Helper Templates")
 
-![You can see the Welcome and Wrap-up greetings on the left side.](/assets/uploads/sayhelloworldstarting.png "Say Hello World Starting Page")
-
 ![Many other messages can easily be edited in the same way!](/assets/uploads/welcomegreeting.png "Editor Interface: Welcome Greeting")
 
-On the other hand, the Q&A Board is slightly different. This feature requires csv files (which is shown in the image below), but it's very powerful because it allows your chatbot to answer questions, even if they're worded differently. The formatting of the csv file is the key. First, you should download the csv template generated for you and put in those pressing questions your users might have. In the csv file, there are three parts you fill out:
+On the other hand, the Q&A Board is slightly different. This feature requires csv files (which is shown one of the images below) and it's very powerful because it allows your chatbot to answer questions, even if they're worded differently. The formatting of the csv file is key. First, you should download the csv template generated for you and put in those pressing questions your users might have. In the csv file, there are three parts you fill out:
 
 1. The ID
 2. The Question
