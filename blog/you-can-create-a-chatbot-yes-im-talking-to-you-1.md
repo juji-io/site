@@ -38,7 +38,7 @@ On the other hand, the Q&A Board is slightly different. This feature requires cs
 
 ![Take a closer look at the formatting of the csv files.](/assets/uploads/jujicsv.png "Example of a CSV Template Downloaded From Q&A Board")
 
-First, fill in an ID for the question. The ID can be a short and helpful descriptor for the question just for you to remember the topic of the inquiry. Next, you add the questions and the question variations in subsequent lines. Finally, you add the answer. 
+First, fill in an ID for the question. The ID can be a short and helpful descriptor just for you to remember the topic of the question. Next, add the questions and their variations in subsequent lines. Finally, add the answer. 
 
 A really cool part of this csv template are the IDs. If you notice in the csv image above, you can have multiple questions connected to one answer because there's one ID! Pretty cool right?
 
