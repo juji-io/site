@@ -1,4 +1,5 @@
 const fs = require('fs');
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 const pluginSEO = require("eleventy-plugin-seo-tag");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -28,6 +29,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(blogTools); 
   eleventyConfig.addPlugin(readingTime);
+  eleventyConfig.addPlugin(embedYouTube);
+
 
   eleventyConfig.addFilter('dateReadable', date => {
     return moment(date).format('LL'); // E.g. May 31, 2019
