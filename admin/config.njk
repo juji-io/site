@@ -23,7 +23,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Article" # Used in the UI, ie.: "New Article"
     folder: "blog" # The path to the folder where the documents are stored
     slug: {% raw %}"{{slug}}"{% endraw %} # Filename template, e.g., title.md
-    preview_path: blog/{{slug}}
+    preview_path: {% raw %}"blog/{{slug}}"{% endraw %}
     extension: md
     format: frontmatter
     create: true # Allow users to create new documents in this collection
