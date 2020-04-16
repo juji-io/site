@@ -11,6 +11,8 @@ tags:
   - aichatbot
 image: /assets/uploads/eugen-str-crhsiry3jwy-unsplash.jpg
 ---
+**<Terri: The first image of the tools don't really match with the theme better pick a  robot or chatbot image, like this one --**  https://media1.giphy.com/media/xT0GqKQJVxWzTSrLIQ/giphy.webp?cid=ecf05e471cfe440d8de20be19e2dea2c43d98956bf2de9fa&rid=giphy.webp**\>**
+
 Gartner predicts that 80% of business applications will have a chatbot by 2021. 
 
 "*Building a chatbot seems quite complicated, I don't really have the time to learn and build one*."
