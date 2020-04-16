@@ -45,6 +45,6 @@ A really cool part of this csv template are the IDs. If you notice in the csv im
 
 With the built-in messages and Q&A Board you can quickly create a robust chatbot to effectively to reach your audience in time.
 
-To get an idea of how you can do this on Juji and to get started on building your own bot, we invite you to view our "DIY Your First Chatbot" tutorial video: https://www.youtube.com/watch?v=XkI9c4iBwl8
+To get an idea of how you can start building your bot on Juji, we invite you to view our "DIY Your First Chatbot" tutorial video: https://www.youtube.com/watch?v=XkI9c4iBwl8
 
 If you are curious about AI chatbots and how to build one, please join this sub-reddit: <https://www.reddit.com/r/DIY_AI_Chatbot/>
