@@ -20,9 +20,9 @@ credit: Image by OpenClipart-Vectors from Pixabay
 
 "*I want a chatbot for my business but I don't have the technical skills to build one*." 
 
-"*I can't code so I probably won't be able to build a chatbot."*
+"*I can't code so I probably won't be able to build a chatbot on my own."*
 
-Learning something new can be intimidating. If you have some of the thoughts mentioned above, then this blog post may completely change your thinking and leave you with a new perspective on how easy creating a chatbot can be.
+Learning something new can be intimidating. If you have some of the thoughts mentioned above, this blog post may completely change your thinking and leave you with a new perspective on how easy creating a chatbot can be.
 
 This is 2020, thanks to great advances in technologies, now you can use a user-friendly chatbot builder to make your own capable AI chatbots **\*without coding and within minutes**.*
 
