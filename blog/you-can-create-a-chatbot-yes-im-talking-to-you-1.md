@@ -12,6 +12,8 @@ tags:
 image: /assets/uploads/alphabet-word-images-1292931_1280.png
 credit: Image by OpenClipart-Vectors from Pixabay
 ---
+
+
 Gartner predicts that 80% of business applications will have a chatbot by 2021. 
 
 "*Building a chatbot seems complicated, I don't really have the time to learn and build one*."
@@ -22,7 +24,7 @@ Gartner predicts that 80% of business applications will have a chatbot by 2021.
 
 Learning something new can be intimidating. If you have some of the thoughts mentioned above, then this blog post may completely change your thinking and leave you with a new perspective on how easy creating a chatbot can be.
 
-This is 2020, thanks to great advances in technologies, now you can use a user-friendly chatbot builder to make your own capable AI chatbots ***without coding and within minutes**.*
+This is 2020, thanks to great advances in technologies, now you can use a user-friendly chatbot builder to make your own capable AI chatbots **\*without coding and within minutes**.*
 
 Let me show you how you can quickly do-it-yourself (DIY) on Juji to customize messages and support free-text question and answering (Q&A) in your first AI chatbot. 
 
