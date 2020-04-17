@@ -34,9 +34,9 @@ Let me show you how you can quickly DIY your first AI chatbot on Juji to send cu
 
 ![Welcome and Wrap-up messages shown on the starting page.](/assets/uploads/startingscreen.png "Blank Template Starting Page")
 
-![Image of the Welcome message editor.](/assets/uploads/welcomegreeting.png "Welcome Message")
+![Image of the Welcome message editor.](/assets/uploads/welcomegreeting.png "Welcome Message Editor")
 
-![Image of the Wrap-Up message editor.](/assets/uploads/wrapupgreeting.png "Wrap-Up Message")
+![Image of the Wrap-Up message editor.](/assets/uploads/wrapupgreeting.png "Wrap-Up Message Editor")
 
 **Support Free-Text Q&A.** One of the key functions of an AI chatbot is its abilities to address user's natural language inquiries during a chat. To do so, you can teach your chatbot with a list of Q&As in a CSV file. First, you can download the CSV file template from the Q&A dashboard as shown below.
 
