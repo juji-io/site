@@ -12,8 +12,6 @@ tags:
 image: /assets/uploads/alphabet-word-images-1292931_1280.png
 credit: Image by OpenClipart-Vectors from Pixabay
 ---
-
-
 **Gartner** predicts that 80% of business applications will have a chatbot by 2021. 
 
 "*Building a chatbot seems complicated, I don't really have the time to learn and build one*."
@@ -24,7 +22,7 @@ credit: Image by OpenClipart-Vectors from Pixabay
 
 Learning something new can be intimidating. If you have some of the thoughts mentioned above, this blog post may completely change your thinking and leave you with a new perspective on chatbot making. 
 
-Thanks to great advances in technologies, now you can use a user-friendly but also super powerful Do-It-Yourself (DIY) chatbot builder to make custom, capable AI chatbots ***without coding and within minutes***.
+Thanks to great advances in technologies, now you can use a user-friendly, but also super powerful Do-It-Yourself (DIY) chatbot builder to make custom, capable AI chatbots ***without coding and within minutes***.
 
 Let me show you how you can quickly DIY your first AI chatbot on Juji to send custom messages and support free-text question and answering (Q&A). 
 
@@ -39,8 +37,6 @@ Let me show you how you can quickly DIY your first AI chatbot on Juji to send cu
 ![](/assets/uploads/welcomegreeting.png "Welcome Message")
 
 ![](/assets/uploads/wrapupmessage.png "Wrap-Up Message")
-
-
 
 **Support Free-Text Q&A.** One of the key functions of an AI chatbot is its abilities to address user's natural language inquiries during a chat. To do so, Juji enables you to provide a list of Q&As in a CSV file. First, you can download the CSV file template from the Q&A dashboard as shown below.
 
@@ -57,8 +53,6 @@ You can give a meaningful ID to index your Q&A pair and also use it to group alt
 Once you are done with your Q&A list, save and upload the CSV file on the Q&A dashboard. Now you can preview your chatbot and test out the Q&As you just put in. 
 
 Juji uses machine learning to match a user-inquiry with the questions you entered by their semantics. In other words, Juji can recognize what a user is trying to convey. As a result, you will notice the following chatbot behavior. First, even if your questions don't exactly match the ones you entered in the CSV, your chatbot can still answer the questions correctly. Second, if your chatbot is unsure about a match, it will then recommend possible questions, giving users a chance to select the correctly matched question as shown below.  
-
-**<Terri: the image below is incorrect. We need an image to show a chat where a user enters a question but the chatbot recommends a set of questions.>**
 
 ![](/assets/uploads/questionrecommendation.png "Question Recommendation")
 
