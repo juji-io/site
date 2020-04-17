@@ -48,7 +48,7 @@ As shown below, the CSV template contains four columns:
 
 You can give a meaningful ID to index your Q&A pair and also use it to group alternative question or answer expressions. With the same ID, you can have multiple question variations and one answer for all those questions. Every chatbot template automatically comes with a default Q&A list, which you can customize. Pay attention to the answers in the CSV ended with "#", indicating a default system reply to be modified. Here is [more information](https://docs.juji.io/design/#customize-qa-and-fallback) on customizing Q&As. 
 
-![A closer look at the formatting of the CSV file.](/assets/uploads/jujicsv.png "Example of a CSV Template Downloaded From Q&A Board")
+![A closer look at the formatting of the CSV file.](/assets/uploads/jujicsv.png "Example of a CSV Template Downloaded from the Q&A Board")
 
 Once you are done with your Q&A list, save and upload the CSV file on the Q&A dashboard. Now you can preview your chatbot and test out the Q&As you just put in. 
 
