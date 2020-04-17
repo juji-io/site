@@ -32,11 +32,11 @@ Let me show you how you can quickly DIY your first AI chatbot on Juji to send cu
 
 **Customize Chatbot Welcome and Wrap-up Messages.** The blank template comes with two conversation topics, one is a "***Welcome***" topic that greets users at the beginning of a chat, while the "***Wrap-up***" topic lets users know if the chatbot will hang around or greet a user goodbye. As shown in the screenshots below, you can easily customize both the welcome and wrap-up messages to suit your audience. If you prefer, you can also [customize the ending options](https://docs.juji.io/design/), such as looping back to the beginning of the chat. 
 
-![You can see the Welcome and Wrap-up messages on the left side.](/assets/uploads/startingscreen.png "Blank Template Starting Page")
+![Welcome and Wrap-up messages shown on the starting page.](/assets/uploads/startingscreen.png "Blank Template Starting Page")
 
-![](/assets/uploads/welcomegreeting.png "Welcome Message")
+![Image of the Welcome message editor.](/assets/uploads/welcomegreeting.png "Welcome Message")
 
-![](/assets/uploads/wrapupgreeting.png "Wrap-Up Message")
+![Image of the Wrap-Up message editor.](/assets/uploads/wrapupgreeting.png "Wrap-Up Message")
 
 **Support Free-Text Q&A.** One of the key functions of an AI chatbot is its abilities to address user's natural language inquiries during a chat. To do so, you can teach your chatbot with a list of Q&As in a CSV file. First, you can download the CSV file template from the Q&A dashboard as shown below.
 
@@ -48,7 +48,7 @@ As shown below, the CSV template contains four columns:
 
 You can give a meaningful ID to index your Q&A pair and also use it to group alternative question or answer expressions. With the same ID, you can have multiple question variations and one answer for all those questions. Every chatbot template automatically comes with a default Q&A list, which you can customize. Pay attention to the answers in the CSV ended with "#", indicating a default system reply to be modified. Here is [more information](https://docs.juji.io/design/#customize-qa-and-fallback) on customizing Q&As. 
 
-![Take a closer look at the formatting of the csv files.](/assets/uploads/jujicsv.png "Example of a CSV Template Downloaded From Q&A Board")
+![A closer look at the formatting of the CSV file.](/assets/uploads/jujicsv.png "Example of a CSV Template Downloaded From Q&A Board")
 
 Once you are done with your Q&A list, save and upload the CSV file on the Q&A dashboard. Now you can preview your chatbot and test out the Q&As you just put in. 
 
