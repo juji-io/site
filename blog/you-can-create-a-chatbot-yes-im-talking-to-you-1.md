@@ -1,6 +1,6 @@
 ---
 layout: blog/article.njk
-featured: false
+featured: true
 title: If You Can Use PowerPoint, You Can Build a Chatbot - a Really Smart One
 date: 2020-04-15T23:18:27.464Z
 author: Terri Lee
@@ -30,7 +30,7 @@ Let me show you how you can quickly DIY your first AI chatbot on Juji to send cu
 
 ![Template Selection Screenshot](/assets/uploads/blanktemplate.png "AI Helper Templates")
 
-**Customize Chatbot Welcome and Wrap-up Messages.** The blank template comes with two conversation topics, one is a "***Welcome***" topic that greets users at the beginning of a chat, while the "***Wrap-up***" topic lets users know if the chatbot will hang around or greet a user goodbye. As shown in the screenshots below, you can easily customize both the welcome and wrap-up messages to suit your audience. If you prefer, you can also [customize the ending options](https://docs.juji.io/design/) like, looping back to the beginning of the chat. 
+**Customize Chatbot Welcome and Wrap-up Messages.** The blank template comes with two conversation topics, one is a "***Welcome***" topic that greets users at the beginning of a chat, while the "***Wrap-up***" topic lets users know if the chatbot will hang around or greet a user goodbye. As shown in the screenshots below, you can easily customize both the welcome and wrap-up messages to suit your audience. If you prefer, you can also [customize the ending options](https://docs.juji.io/design/), such as looping back to the beginning of the chat. 
 
 ![You can see the Welcome and Wrap-up messages on the left side.](/assets/uploads/startingscreen.png "Blank Template Starting Page")
 
@@ -38,9 +38,9 @@ Let me show you how you can quickly DIY your first AI chatbot on Juji to send cu
 
 ![](/assets/uploads/wrapupgreeting.png "Wrap-Up Message")
 
-**Support Free-Text Q&A.** One of the key functions of an AI chatbot is its abilities to address user's natural language inquiries during a chat. To do so, Juji enables you to provide a list of Q&As in a CSV file. First, you can download the CSV file template from the Q&A dashboard as shown below.
+**Support Free-Text Q&A.** One of the key functions of an AI chatbot is its abilities to address user's natural language inquiries during a chat. To do so, you can teach your chatbot with a list of Q&As in a CSV file. First, you can download the CSV file template from the Q&A dashboard as shown below.
 
-![On the Q&A Board, you can download the csv file and upload it back up. Then, your chatbot is ready to answer questions!](/assets/uploads/q-aboard.png "Q&A Board")
+![On the Q&A Board, you can use the CSV download and upload buttons to download and upload CSV file. You can also directly add or edit Q&As in the displayed table. ](/assets/uploads/q-aboard.png "Q&A Board")
 
 As shown below, the CSV template contains four columns:  
 
