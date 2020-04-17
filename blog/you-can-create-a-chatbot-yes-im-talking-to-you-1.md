@@ -42,7 +42,7 @@ Let me show you how you can quickly DIY your first AI chatbot on Juji to send cu
 
 
 
-**Support Free-Text Q&A.** One of the key functions of an AI chatbot is its abilities to address user's natural language inquiries during a chat. To do so, Juji enables you to provide a list of Q&A in a CSV file. First, you can download the CSV file template from the Q&A dashboard as shown below.
+**Support Free-Text Q&A.** One of the key functions of an AI chatbot is its abilities to address user's natural language inquiries during a chat. To do so, Juji enables you to provide a list of Q&As in a CSV file. First, you can download the CSV file template from the Q&A dashboard as shown below.
 
 ![On the Q&A Board, you can download the csv file and upload it back up. Then, your chatbot is ready to answer questions!](/assets/uploads/q-aboard.png "Q&A Board")
 
