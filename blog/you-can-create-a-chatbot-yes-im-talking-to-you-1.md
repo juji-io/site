@@ -54,7 +54,7 @@ Once you are done with your Q&A list, save and upload the CSV file on the Q&A da
 
 Juji uses machine learning to match a user-inquiry with the questions you entered by their semantics. In other words, Juji can recognize what a user is trying to convey. As a result, you will notice the following chatbot behavior. First, even if your questions don't exactly match the ones you entered in the CSV, your chatbot can still answer the questions correctly. Second, if your chatbot is unsure about a match, it will then recommend possible questions, giving users a chance to select the correctly matched question as shown below.  
 
-![Chatbot recommends a list of questions based on a user's question for the user to choose from.](/assets/uploads/questionrecommendation3.png "Question Recommendation")
+![Chatbot recommends a list of questions based on a user's question for the user to choose from.](/assets/uploads/questionrecommendation2.png "Question Recommendation")
 
 Once you are satisfied with your chatbot, you can then [deploy it ](https://docs.juji.io/release/)to meet your audience, either on your Facebook page or your website.  
 
