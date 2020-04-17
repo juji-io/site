@@ -46,7 +46,7 @@ Let me show you how you can quickly DIY your first AI chatbot on Juji to send cu
 
 ![On the Q&A Board, you can download the csv file and upload it back up. Then, your chatbot is ready to answer questions!](/assets/uploads/q-aboard.png "Q&A Board")
 
-The CSV template contains four columns:  
+As shown below, the CSV template contains four columns:  
 
 *ID*  | *Question* | *Answer* | *Comment*
 
