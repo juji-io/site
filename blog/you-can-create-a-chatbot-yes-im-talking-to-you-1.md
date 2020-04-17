@@ -12,6 +12,10 @@ tags:
 image: /assets/uploads/alphabet-word-images-1292931_1280.png
 credit: Image by OpenClipart-Vectors from Pixabay
 ---
+```
+
+```
+
 **Gartner** predicts that 80% of business applications will have a chatbot by 2021. 
 
 "*Building a chatbot seems complicated, I don't really have the time to learn and build one*."
