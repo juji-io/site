@@ -12,8 +12,6 @@ tags:
 image: /assets/uploads/alphabet-word-images-1292931_1280.png
 credit: Image by OpenClipart-Vectors from Pixabay
 ---
-
-
 **Gartner** predicts that 80% of business applications will have a chatbot by 2021. 
 
 "*Building a chatbot seems complicated, I don't really have the time to learn and build one*."
@@ -34,13 +32,11 @@ Let me show you how you can quickly DIY your first AI chatbot on Juji to send cu
 
 **Customize Chatbot Welcome and Wrap-up Messages.** The blank template comes with two conversation topics, one is a "***Welcome***" topic that greets users at the beginning of a chat, while the "***Wrap-up***" topic lets users know if the chatbot will hang around or greet a user goodbye. As shown in the screenshots below, you can easily customize both the welcome and wrap-up messages to suit your audience. If you prefer, you can also [customize the ending options](https://docs.juji.io/design/) like, looping back to the beginning of the chat. 
 
-![You can see the Welcome and Wrap-up messages on the left side.]( "Say Hello World Starting Page")
-
-**<Terri, if you use an empty template why there are topics besides the Welcome and Wrap-up, they are inconsistent with the text. Please upload new images that just contains the Welcome and Wrap-up topics>**
+![You can see the Welcome and Wrap-up messages on the left side.](/assets/uploads/startingscreen.png "Blank Template Starting Page")
 
 ![](/assets/uploads/welcomegreeting.png "Welcome Message")
 
-![](/assets/uploads/wrapupmessage.png "Wrap-Up Message")
+![](/assets/uploads/wrapupgreeting.png "Wrap-Up Message")
 
 **Support Free-Text Q&A.** One of the key functions of an AI chatbot is its abilities to address user's natural language inquiries during a chat. To do so, Juji enables you to provide a list of Q&As in a CSV file. First, you can download the CSV file template from the Q&A dashboard as shown below.
 
