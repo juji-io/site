@@ -22,11 +22,11 @@ credit: Image by OpenClipart-Vectors from Pixabay
 
 "*I can't code so I probably won't be able to build a chatbot on my own."*
 
-Learning something new can be intimidating. If you have some of the thoughts mentioned above, this blog post may completely change your thinking and leave you with a new perspective on how easy creating a chatbot can be.
+Learning something new can be intimidating. If you have some of the thoughts mentioned above, this blog post may completely change your thinking and leave you with a new perspective on chatbot making. 
 
-This is 2020, thanks to great advances in technologies, now you can use a user-friendly chatbot builder to make your own capable AI chatbots **\*without coding and within minutes**.*
+Thanks to great advances in technologies, now you can use a user-friendly but also super powerful Do-It-Yourself (DIY) chatbot builder to make custom, capable AI chatbots ***without coding and within minutes***.
 
-Let me show you how you can quickly do-it-yourself (DIY) on Juji to customize messages and support free-text question and answering (Q&A) in your first AI chatbot. 
+Let me show you how you can quickly DIY your first AI chatbot on Juji to send custom messages and support free-text question and answering (Q&A). 
 
 **Template Selection.** Juji provides a set of chatbot templates. For our purposes, let's choose the blank template that we can easily customize. 
 
