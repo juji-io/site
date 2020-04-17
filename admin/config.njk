@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "select", options: [{% set comma = joiner() %}{% for a in collections.authorList -%}{{ comma() }} "{{ a }}"{%- endfor %}]}
       - {label: "Category", name: "category", widget: "select", default: "Guides", options: [{% set comma = joiner() %}{% for c in collections.categoryList -%}{{ comma() }} "{{ c }}"{%- endfor %}], hint: "Select a category"}
-      - {label: "Tags", name: "tags", widget: "list", hint: "Enter comma-separated values, please reuse existing tags as much as possible"}
+      - {label: "Tags", name: "tags", widget: "list", hint: "Enter comma-separated phrases, please reuse existing tags as much as possible"}
       - {label: "Featured Image", name: "image", widget: "image", hint: "Featured image shows as the article cover"}
       - {label: "Image Credit", name: "credit", widget: "string", required: false, hint: "Give credit to the photographer"}
       - {label: "Body", name: "body", widget: "markdown"}
