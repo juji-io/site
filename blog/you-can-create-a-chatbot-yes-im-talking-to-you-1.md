@@ -1,7 +1,8 @@
 ---
 layout: blog/article.njk
 featured: true
-title: If You Can Use PowerPoint, You Can Build a Chatbot - a Really Smart One
+title: "DIY Your First AI Chatbot: If You Can Use PowerPoint, You Can Build an
+  AI Chatbot"
 date: 2020-04-15T23:18:27.464Z
 author: Terri Lee
 category: Guides
