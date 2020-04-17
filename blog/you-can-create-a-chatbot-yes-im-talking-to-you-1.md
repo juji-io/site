@@ -58,10 +58,12 @@ Once you are done with your Q&A list, save and upload the CSV file on the Q&A da
 
 Juji uses machine learning to match a user-inquiry with the questions you entered by their semantics. In other words, Juji can recognize what a user is trying to convey. As a result, you will notice the following chatbot behavior. First, even if your questions don't exactly match the ones you entered in the CSV, your chatbot can still answer the questions correctly. Second, if your chatbot is unsure about a match, it will then recommend possible questions, giving users a chance to select the correctly matched question as shown below.  
 
+**<Terri: the image below is incorrect. We need an image to show a chat where a user enters a question but the chatbot recommends a set of questions.>**
+
 ![](/assets/uploads/questionrecommendation.png "Question Recommendation")
 
-Once you are satisfied with your chatbot, then you can [deploy it ](https://docs.juji.io/release/)to meet your audience, either on your Facebook page or your website.  
+Once you are satisfied with your chatbot, you can then [deploy it ](https://docs.juji.io/release/)to meet your audience, either on your Facebook page or your website.  
 
-This [Youtube video](https://www.youtube.com/watch?v=XkI9c4iBwl8) recaps what we covered in the blog post. As you can see, creating an AI chatbot is actually easy and fast, perhaps easier than making PowerPoint slides. 
+This [Youtube video](https://www.youtube.com/watch?v=XkI9c4iBwl8) recaps what we covered in the blog post. As you can see, creating an AI chatbot is easy and fast, perhaps easier than making PowerPoint slides. 
 
- If you wish to learn more about AI chatbots and how to build one, please meet us on this [sub-reddit](https://www.reddit.com/r/DIY_AI_Chatbot/).
+ If you wish to learn more about AI chatbots and how to build one, please meet us on this [sub-reddit](https://www.reddit.com/r/DIY_AI_Chatbot/) or follow us on [Juji Linkedin page](https://www.linkedin.com/company/juji).
