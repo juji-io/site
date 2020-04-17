@@ -56,7 +56,7 @@ You can give a meaningful ID to index your Q&A pair and also use it to group alt
 
 Once you are done with your Q&A list, save and upload the CSV file on the Q&A dashboard. Now you can preview your chatbot and test out the Q&As you just put in. 
 
-Juji uses machine learning to match a user-inquiry with the questions you entered by their semantics. In other words, Juji can recognize what a user is trying to convey. As a result, you will notice the following chatbot behavior. First, even if your questions don't exactly match the ones you entered in the CSV, your chatbot can still answer the questions correctly. Second, if your chatbot is unsure about a match, it will then recommend possible questions, giving your team a chance to select the correct matched question as shown below.  
+Juji uses machine learning to match a user-inquiry with the questions you entered by their semantics. In other words, Juji can recognize what a user is trying to convey. As a result, you will notice the following chatbot behavior. First, even if your questions don't exactly match the ones you entered in the CSV, your chatbot can still answer the questions correctly. Second, if your chatbot is unsure about a match, it will then recommend possible questions, giving users a chance to select the correctly matched question as shown below.  
 
 ![](/assets/uploads/questionrecommendation.png "Question Recommendation")
 
