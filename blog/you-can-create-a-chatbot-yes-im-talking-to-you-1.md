@@ -28,11 +28,15 @@ Thanks to great advances in technologies, now you can use a user-friendly, but a
 
 Let me show you how you can quickly DIY your first AI chatbot on Juji to send custom messages and support free-text question and answering (Q&A). 
 
+## **......**
+
 ## **Template Selection**
 
 Juji provides a set of chatbot templates. For our purposes, let's choose the blank template that we can easily customize. 
 
 ![Template Selection Screenshot](/assets/uploads/blanktemplate.png "AI Helper Templates")
+
+## **......**
 
 ## **Customize Chatbot Welcome and Wrap-up Messages**
 
@@ -43,6 +47,8 @@ The blank template comes with two conversation topics, one is a "***Welcome***" 
 ![Image of the Welcome message editor.](/assets/uploads/welcomegreeting.png "Welcome Message Editor")
 
 ![Image of the Wrap-Up message editor.](/assets/uploads/wrapupgreeting.png "Wrap-Up Message Editor")
+
+## **......**
 
 ## **Support Free-Text Q&A**
 
