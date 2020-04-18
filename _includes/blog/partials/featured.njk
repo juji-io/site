@@ -9,7 +9,11 @@
               
               <div class="text">
                 <h2>{{ fp.data.title}}</h2>
-                <span class="date">{{ fp.date | dateReadable }}</span>
+                <span class="date">
+                  {{ fp.date | dateReadable }}
+                  &nbsp;-&nbsp;
+                  {{ fp.templateContent | readingTime }} read
+                </span>
               </div>
             </a>
 
@@ -18,7 +22,11 @@
               
               <div class="text">
                 <h2>{{ fp.data.title}}</h2>
-                <span class="date">{{ fp.date | dateReadable }}</span>
+                <span class="date">
+                  {{ fp.date | dateReadable }}
+                  &nbsp;-&nbsp;
+                  {{ fp.templateContent | readingTime }} read
+                </span>
               </div>
             </a>
           </div>
@@ -35,7 +43,11 @@
                 </span>
                 </div>
                 <h2>{{ fp.data.title }}</h2>
-                <span class="date">{{ fp.date | dateReadable }}</span>
+                <span class="date">
+                  {{ fp.date | dateReadable }}
+                  &nbsp;-&nbsp;
+                  {{ fp.templateContent | readingTime }} read
+                </span>
               </div>
             </a>
           </div>
@@ -45,7 +57,11 @@
               
               <div class="text">
                 <h2>{{ fp.data.title}}</h2>
-                <span class="date">{{ fp.date | dateReadable }}</span>
+                <span class="date">
+                  {{ fp.date | dateReadable }}
+                  &nbsp;-&nbsp;
+                  {{ fp.templateContent | readingTime }} read
+                </span>
               </div>
             </a>
             {% set fp = collections.featuredArticles[4] %}
@@ -53,7 +69,11 @@
               
               <div class="text">
                 <h2>{{ fp.data.title}}</h2>
-                <span class="date">{{ fp.date | dateReadable }}</span>
+                <span class="date">
+                  {{ fp.date | dateReadable }}
+                  &nbsp;-&nbsp;
+                  {{ fp.templateContent | readingTime }} read
+                </span>
               </div>
             </a>
           </div>

@@ -27,7 +27,9 @@
                 <span class="d-inline-block mt-1">
                   {{ author }}
                 </span>
-                <span>&nbsp;-&nbsp; {{ post.data.date | dateReadable }}</span>
+                <span>
+                  &nbsp;-&nbsp; {{ post.templateContent | readingTime }} read
+                </span>
               </div>
                 {% excerpt post %}
                 <p><a href="{{ post.url }}">Read More</a></p>
