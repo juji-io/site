@@ -45,7 +45,7 @@ Juji’s abstraction is called a *topic*, which may have zero, one or multiple t
 
 The topic abstraction also enables easy representation of complex conversational logics and contexts as plain data structures. This data centric view leads to pervasive code generation throughout our system. Some data in, other data out. Everything flows as data and can be generated on the fly. Such maximum flexibility makes it easy to create an easy to use chatbot creation user interface, without forcing users to learn strange NLP jargons, such as intents, entities, slots, and so on. 
 
-## 3. Hybrid NLP
+## 3. Symbolics as the bones and ML as the flesh
 
 With the popularity of deep learning (DL) and machine learning (ML) technology, it is not surprising that most of the systems listed above have natural language processing (NLP) capabilities based on them.  These capabilities are the must haves in an AI chatbot platform if the tasks require understanding free-text utterances. Although most button bot platforms on the market today do not offer any NLP capabilities, I expect some of them will integrate them eventually. However, in my opinion, pursuing competitive advantage in raw NLP model performance alone is rather a futile exercise, because these technology are rapidly commoditized and the differences among vendors are minimum. 
 
