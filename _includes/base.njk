@@ -45,10 +45,12 @@
       fbq('track', 'PageView');
     </script>
     <noscript>
-      <img height="1"
-           width="1"
-           style="display:none"
-           src="https://www.facebook.com/tr?id=529136731353700&ev=PageView&noscript=1" />
+      <img
+	alt="Facebook"
+	height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=529136731353700&ev=PageView&noscript=1" />
     </noscript>
     <!-- End Facebook Pixel Code -->
     {% endblock %}
@@ -260,7 +262,10 @@
               <div>
                 <a href="https://twitter.com/juji_io?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fjuji.io&width=450&layout=standard&action=like&size=small&share=false&height=35&appId=535043073305325" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                <a href="/feed.xml"><img src="/assets/img/ui/feed.png" width="20" height="20"/></a>
+                <a href="/feed.xml">
+		  <img alt="Feed"
+		       src="/assets/img/ui/feed.png" width="20" height="20"/>
+		</a>
               </div>
             </div>
           </div>
