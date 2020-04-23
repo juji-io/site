@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="image-credit">
-      <span class="image-credit">{{ credit }}</span>
+      <span class="image-credit">{{ credit | safe }}</span>
     </div>
   </div>
     
@@ -65,7 +65,7 @@
                 <img src="{{ authors[ author ].pic }}" 
                      alt="{{ author }}" class="img-fluid mb-5">
                 <div class="bio-body">
-                  <h2>{{ author }}</h2>
+                  <h3><a href="/blog/authors/{{ author | slug }}">{{ author }}</a></h3>
                   <p class="mb-4">{{ authors[ author ].bio }}</p>
                   <!--<p><a href="#" class="btn btn-primary btn-sm rounded px-4 py-2">Read my bio</a></p>-->
                   <!--<p class="social">-->

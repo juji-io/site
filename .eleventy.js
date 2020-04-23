@@ -1,10 +1,11 @@
-const pluginSEO = require("eleventy-plugin-seo");
+const fs = require('fs');
+const embedYouTube = require("eleventy-plugin-youtube-embed");
+const pluginSEO = require("eleventy-plugin-seo-tag");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const blogTools = require("eleventy-plugin-blog-tools");
 const readingTime = require('eleventy-plugin-reading-time');
 const lodashChunk = require('lodash.chunk');
-
 const moment = require('moment');
 moment.locale('en');
 
@@ -18,7 +19,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("util");
-  eleventyConfig.addPassthroughCopy("admin");
+  eleventyConfig.addPassthroughCopy("admin/github-markdown.css");
+  eleventyConfig.addPassthroughCopy("admin/index.html");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("robots.txt");
 
@@ -27,6 +29,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(blogTools); 
   eleventyConfig.addPlugin(readingTime);
+  eleventyConfig.addPlugin(embedYouTube);
+
 
   eleventyConfig.addFilter('dateReadable', date => {
     return moment(date).format('LL'); // E.g. May 31, 2019
@@ -39,9 +43,19 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.addFilter('authorFilter', function(collection, author) {
+    if (!author) return collection;
+    const filtered = collection.filter(function(item) {
+      return item.data.author == author;
+    });
+    if (filtered.length == 0) {
+      return collection;
+    } else {
+      return filtered;
+    }
+  });
 
   const getTags = function(collection) {
-    // Get unique list of tags
     let tagSet = new Set();
     collection.getAllSorted().map(function(item) {
       if( "tags" in item.data ) {
@@ -54,7 +68,19 @@ module.exports = function(eleventyConfig) {
     return [...tagSet];
   };
 
+  const getCategories = function() {
+    return Object.keys(JSON.parse(fs.readFileSync("_data/categories.json")));
+  };
+
+  const getAuthors = function() {
+    return Object.keys(JSON.parse(fs.readFileSync("_data/authors.json")));
+  };
+
   eleventyConfig.addCollection("tagList", getTags);
+
+  eleventyConfig.addCollection("categoryList", getCategories);
+
+  eleventyConfig.addCollection("authorList", getAuthors);
 
   eleventyConfig.addCollection("pages", function(collection) {
     return collection.getFilteredByGlob("*.html").reverse();
@@ -70,7 +96,7 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  // flatten two level pagination (tags -> pages of thes same tag) into one
+  // flatten two level pagination (tags -> pages of the same tag) into one
   eleventyConfig.addCollection("tagPagination", function(collection) {
     // Get each item that matches the tag
     let paginationSize = 9;
@@ -92,8 +118,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("catPagination", function(collection) {
     let paginationSize = 9;
     let catMap = [];
-    // TODO load from the data file 
-    let catArray = ["News", "Guides", "Viewpoints", "Engineering"];
+    let catArray = getCategories();
     for( let cat of catArray) {
       let catItems = collection.getAllSorted().filter(item => item.data.category == cat);
       let pagedItems = lodashChunk(catItems, paginationSize);
@@ -106,6 +131,24 @@ module.exports = function(eleventyConfig) {
       }
     }
     return catMap;
+  });
+
+  eleventyConfig.addCollection("authPagination", function(collection) {
+    let paginationSize = 9;
+    let authMap = [];
+    let authArray = Object.keys(JSON.parse(fs.readFileSync("_data/authors.json")));
+    for( let auth of authArray) {
+      let authItems = collection.getAllSorted().filter(item => item.data.author == auth);
+      let pagedItems = lodashChunk(authItems, paginationSize);
+      for( let pageNumber = 0, max = pagedItems.length; pageNumber < max; pageNumber++) {
+        authMap.push({
+          tagName: auth,
+          pageNumber: pageNumber,
+          pageData: pagedItems[pageNumber]
+        });
+      }
+    }
+    return authMap;
   });
 
 };

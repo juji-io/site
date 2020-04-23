@@ -1,4 +1,4 @@
-/*!
+/*
  * Start Bootstrap - Shop Homepage (http://startbootstrap.com/template-overviews/shop-homepage)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
@@ -8,49 +8,56 @@
 
 @font-face {
     font-family:GothamRounded-Light;
-    src:url(../fonts/GothamRounded-Light/GothamRounded-Light.eot) format('embedded-opentype');
+    src:url(/assets/fonts/GothamRounded-Light/GothamRounded-Light.eot) format('embedded-opentype');
     font-weight:400;
-    font-style:normal
+    font-style:normal; 
+    font-display: swap;
 }
 
 @font-face {
-	font-family: GothamRounded-LightItalic;
-	src: url(../fonts/GothamRounded-Light/GothamRounded-LightItalic.woff) format('woff');
+	  font-family: GothamRounded-LightItalic;
+	  src: url(/assets/fonts/GothamRounded-Light/GothamRounded-LightItalic.woff) format('woff');
+    font-display: swap;
 }
 
 @font-face {
     font-family:GothamRounded-Light;
-    src:url(../fonts/GothamRounded-Light/GothamRounded-Light.otf) format('opentype'),url(../fonts/GothamRounded-Light/GothamRounded-Light.woff) format('woff'),url(../fonts/GothamRounded-Light/GothamRounded-Light.ttf) format('truetype'),url(../fonts/GothamRounded-Light/GothamRounded-Light.svg#GothamRounded-Light) format('svg');
+    src:url(/assets/fonts/GothamRounded-Light/GothamRounded-Light.otf) format('opentype'),url(../fonts/GothamRounded-Light/GothamRounded-Light.woff) format('woff'),url(../fonts/GothamRounded-Light/GothamRounded-Light.ttf) format('truetype'),url(../fonts/GothamRounded-Light/GothamRounded-Light.svg#GothamRounded-Light) format('svg');
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family:GothamRounded-Bold;
-    src: url(../fonts/GothamRounded-Light/GothamRounded-Light.otf) format('opentype'), url(../fonts/GothamRounded-Bold/GothamRounded-Bold.woff) format('woff'), url(../fonts/GothamRounded-Light/GothamRounded-Light.ttf) format('truetype');
+    src: url(/assets/fonts/GothamRounded-Light/GothamRounded-Light.otf) format('opentype'), url(../fonts/GothamRounded-Bold/GothamRounded-Bold.woff) format('woff'), url(../fonts/GothamRounded-Light/GothamRounded-Light.ttf) format('truetype');
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family:GothamRounded-Book;
-    src:url(../fonts/GothamRounded-Book/GothamRounded-Book.otf) format('opentype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(../fonts/GothamRounded-Book/GothamRounded-Book.ttf) format('truetype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.svg#GothamRounded-Book) format('svg');
+    src:url(/assets/fonts/GothamRounded-Book/GothamRounded-Book.otf) format('opentype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(../fonts/GothamRounded-Book/GothamRounded-Book.ttf) format('truetype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.svg#GothamRounded-Book) format('svg');
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 
 @font-face{
     font-family:GothamRounded-Medium;
-    src:url(../fonts/GothamRounded-Medium/GothamRounded-Medium.eot) format('embedded-opentype');
+    src:url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.eot) format('embedded-opentype');
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family:GothamRounded-Medium;
-    src:url(../fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('opentype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(../fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('truetype'),url(../fonts/GothamRounded-Medium/GothamRounded-Medium.svg#GothamRounded-Medium) format('svg');
+    src:url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('opentype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(../fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('truetype'),url(../fonts/GothamRounded-Medium/GothamRounded-Medium.svg#GothamRounded-Medium) format('svg');
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 
 *, *:after, *:before {
@@ -62,26 +69,12 @@ html {
 }
 
 body {
-    /*padding-top: 54px;*/
     font-color: black;
     font-size: 14px;
     font-family:  "GothamRounded-Light";
     display: flex;
     flex-flow: column;
     min-height: 100vh;
-    /*margin: 0;
-    padding: 0;
-    width: 100%;*/
-}
-
-main {
-  flex: 1;
-}
-
-@media (min-width: 992px) {
-    body {
-        /*padding-top: 56px;*/
-    }
 }
 
 h1 {
@@ -117,333 +110,6 @@ img {
     max-height: 100%
 }
 
-.canned-demo-img {
-    width: 100%;
-}
-
-.usecase-FB-img {
-    width: 60%;
-}
-
-.progress-bar {
-
-    background: #28BD8B;
-
-}
-
-.form-label-icon {
-
-    width: 24px;
-    height: 24px;
-}
-
-/* Focus */
-[contenteditable]:focus {
-    color: red;
-    outline: 0px solid transparent;
-}
-
-input:focus {
-    outline: 0px solid transparent;
-}
-
-textarea:focus {
-
-    outline: 0px solid transparent;
-}
-
-/* Juji input radio and checkbox buttons */
-
-input[type='radio']::before {
-  content:'';
-  display:block;
-  width:100%;
-  height:100%;
-  border-radius:50%;
-}
-
-input[type='radio']:checked::before {
-    background:  white;
-    border: 4px solid  #28BD8B;
-}
-
-
-/* Create a toggle switch object */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 30px;
-    height: 15px;
-    margin: 0;
-}
-
-*.switch input {display:none;}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #E5545B;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-/* Rounded sliders */
-.slider.round {
-    /* This should be coordinated with the slider size*/
-      border-radius: 15px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
-
-/* This is to render the circle toggle */
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 15px;
-    width: 15px;
-    left: 0px;
-    bottom: 0px;
-    background-color: #EFEBEA;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-input:checked + .slider {
-    background-color: #28BD8B;
-}
-
-input:focus + .slider {
-    box-shadow: 0 0 1px #2DB787;
-}
-
-input:checked + .slider:before {
-    -webkit-transform: translateX(15px);
-    -ms-transform: translateX(15px);
-    transform: translateX(15px);
-}
-
-
-/*******************************************
- * A set of standard GUIs by Juji styling
- *******************************************/
-
-.juji-gui-form {
-
-    font-size: 14px;
-    font-family: GothamRounded-Light;
-}
-
-.juji-gui-form label {
-    display: inline-block;
-    font-size: 14px;
-    font-family: GothamRounded-Book;
-    color: #000000;
-    margin-right: 0.5em;
-}
-
-.juji-text-input {
-
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #A8A8A8;
-    width: 100%;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-
-.juji-text-input-box {
-
-    padding-left: 5px;
-    padding-right: 5px;
-    background: #FFFFFF;
-    height: 35px;
-    border: none;
-}
-
-.juji-date-input {
-    border: none;
-    border-bottom: 1px solid #A8A8A8;
-}
-
-.juji-text-area {
-
-    width: 100%;
-    min-height: 200px;
-
-}
-
-
-.juji-canned-form {
-    padding: 5px 10px;
-}
-
-.juji-gui-template, .juji-gui-template label {
-
-    font-family: GothamRounded-Light;
-    cursor: text;
-    color: #A8A8A8;
-}
-
-
-.juji-disabled-form label {
-
-    color: #A8A8A8;
-}
-
-.juji-disabled-form input {
-    background: #D8D8D8;
-}
-
-.juji-dropdown {
-    border: none;
-    min-width: 100px;
-    border-radius: 0px 0px 0px 0px;
-    height: 35px;
-    background: #FFFFFF;
-}
-
-.juji-gui-input-warning {
-	position: relative;
-	font-size: 10px;
-	color: red;
-}
-
-.juji-name-form .salutation {
-    margin-bottom: 10px;
-}
-
-
-.juji-name-form input {
-    width: 100%;
-}
-
-.juji-dob-form label::before {
-
-    content: "Date of birth";
-}
-
-.juji-phone-form label::before {
-    content: "Phone";
-}
-
-.juji-email-input {
-    border: none;
-    background: transparent;
-    border-bottom: 1px solid #A8A8A8;
-}
-
-.juji-email-form label::before {
-    content: "Email";
-}
-
-.juji-gender-form label::before {
-    content: "Gender";
-}
-
-.juji-gender-form input {
-    margin-left: 10px;
-}
-
-.juji-age-group-form label::before {
-    content: "Age Group";
-}
-
-.juji-education-form label::before {
-    content: "Education";
-}
-
-.juji-race-form label::before {
-    content: "Race";
-}
-
-.juji-address-form label::before {
-    content: "Address";
-}
-
-.juji-address-form .second-row {
-
-    margin-top: 10px;
-}
-
-.juji-address-form input {
-    width: 100%;
-}
-
-.juji-fileupload-form label {
-    cursor: pointer;
-}
-
-.juji-fileupload-form img {
-
-    width: 30px;
-    height: 30px;
-
-    vertical-align: middle;
-
-
-}
-
-.juji-fileupload-form input {
-    opacity: 0;
-}
-
-/*******************************************
-* common properties
-********************************************/
-.disabled-body {
-
-    background: #888888;
-}
-
-.disabled-area
-{
-    pointer-events: none;
-    background: #888888;
-    opacity: 0;
-}
-
-/* a standard check list with check marks*/
-.checklist {
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-    text-align: left;
-    font-family: GothamRounded-Medium;
-    font-size: 16px;
-}
-
-.checklist li {
-
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.checklist li::before {
-    content: "";
-    display:inline-block;
-
-    position: absolute;
-    width: 25px;
-    height: 25px;
-
-     /* Location of the image */
-    background-image: url("../img/ui/done.png");
-    background-repeat: no-repeat;
-    background-size: 25px 25px;
-
-    top: 0px;
-    right: calc(100% + 10px);
-}
 
 /********************************************
 * a set of buttons that take text label
@@ -608,6 +274,7 @@ button:select {
   border: none;
 }
 
+
 .btn-primary {
 
     color: black;
@@ -625,7 +292,6 @@ button:select {
     color: #000000;
     background: #357918 !important;
 }
-
 
 /****************************
  * Basics of a pop-up window
@@ -794,6 +460,7 @@ button:select {
     background-color: black;
 }
 
+
 header .nav-item {
     padding-left: 40px;
 }
@@ -815,6 +482,7 @@ header .nav-link {
     font-family: GothamRounded-Book;
     font-size: 14px;
 }
+
 
 header .recommended-link {
     padding: 8px 20px 8px 20px !important;
@@ -959,7 +627,6 @@ footer .footer-vertical {
 .bottom-action-area {
 
     background-color: #c2c2c2;
-    /*min-height: 150px;*/
     padding-bottom: 30px;
 }
 
@@ -995,12 +662,22 @@ footer .footer-vertical {
 ** Index page
 ******************************************/
 
+.announcement-text
+{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.announcement-text a {
+    color: black;
+    font-family:GothamRounded-Medium;
+}
+
 .home-banner {
     background-image: url("../img/ui/spring2020-banner.gif");
     background-position:bottom;
     background-repeat:no-repeat;
     background-size: contain;
-    /*background-color: #F8F8F8;*/
     border-bottom: 4px solid #F8F8F8;
 }
 
@@ -1008,10 +685,8 @@ footer .footer-vertical {
     margin: auto;
     width: 65%;
     text-align: center;
-    /*padding-top: 50px;*/
     margin-top: 60px;
     margin-bottom: 60px;
-    /*padding-bottom: 50px;*/
 
 }
 
@@ -1044,7 +719,6 @@ footer .footer-vertical {
 .home-banner .learn-btn a {
 
     color: black;
-    /* border: none;*/
 }
 
 .home-banner .learn-btn a:hover {
@@ -1062,7 +736,6 @@ footer .footer-vertical {
 .use-case-section {
     padding-top:50px;
     padding-bottom: 50px;
-    /*background: #E8E8E8;*/
 }
 
 .use-case-section.odd-section {
@@ -1124,14 +797,6 @@ footer .footer-vertical {
     width: 90%;
 }
 
-/*
-.background-area{
-
-    background-image: url("../img/ui/bg-ling.png");
-    background-repeat: no-repeat;
-    background-position: left bottom;
-}*/
-
 .title-sec {
     padding-top:50px;
     padding-bottom: 30px;
@@ -1159,12 +824,10 @@ footer .footer-vertical {
     padding-bottom: 20px;
     width: 50%;
     border-top: 2px solid #F2F2F2;
-    /*border-bottom: 2px solid #F2F2F2;*/
 }
 
 #collaborator {
     height: 150px;
-    background-image: url("../img/content/collaborators.png");
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -1223,13 +886,6 @@ footer .footer-vertical {
     font-size: 16px;
 }
 
-
-/*.career .action-area li {
-    font-family: GothamRounded-Book;
-    font-size: 16px;
-    padding: 10px 25px 10px 25px;
-    white-space: nowrap;
-}*/
 
 .second-action {
     margin-top: 20px;
@@ -1327,7 +983,6 @@ footer .footer-vertical {
 .intro-section {
     margin-top: 65px;
     padding-top: 30px;
-    /*height: 250px;*/
 }
 
 .intro-section .jumbotron {
@@ -1348,17 +1003,6 @@ footer .footer-vertical {
     background-size: contain;
     }
 }
-
-/*intro-section .jumbotron ul {
-
-    list-style-type: none;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: left;
-    font-family: GothamRounded-Medium;
-    font-size: 18px;
-
-}*/
 
 .why-section.content-section
 {
@@ -1695,7 +1339,6 @@ footer .footer-vertical {
 .pricing-col .action-btn {
 
     margin: auto;
-    /*background:#28BD8B !important;*/
     background: black;
     border: none;
     margin-top: 10px;
@@ -1776,42 +1419,6 @@ footer .footer-vertical {
   margin: 20px 0 30px;
 }
 
-/* Each pricing-item*/
-
-/*.pricing-item {
-  border-radius: 3px;
-  display: inline-block;
-  width: 260px;
-  height: auto;
-  background: #fff;
-  margin: 20px;
-  vertical-align: top;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
-  transition: all 0.2s cubic-bezier(0.3, 0.6, 0.2, 1.8);
-}
-
-.pricing-item:hover {
-  -webkit-transform: scale(1.04);
-  transform: scale(1.04);
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
-}
-
-.pricing-item .pricing-title {
-  width: 100%;
-  color: white;
-  display: block;
-  position: relative;
-  background: #0074D9;
-  padding: 7px;
-  font-weight: bold;
-  font-size: 20px;
-}
-.pricing-item.pricing-featured .pricing-title {
-  background: #FF4136;
-}
-*/
 
 /* pricing-value */
 .pricing-value {
@@ -1825,53 +1432,10 @@ footer .footer-vertical {
   margin: 10px auto;
 }
 
-/*
-.pricing-value.pro {
-    padding-top: 27px;
-}
-
-.pricing-value.custom {
-    font-size: 44px;
-}
-
-.pricing-value .smallText {
-  font-size: 16px;
-}
-
-.pricing-value .abovetext {
-    display: block;
-    font-size: 12px;
-}
-
-
-.pricing-value .undertext {
-  display: block;
-  font-size: 14px;
-}
-
-.pricing-value .bottomtext {
-    display: block;
-    font-size: 12px;
-}
-
-.pricing-item .pricing-value {
-  background: #0074D9;
-  border: 2px solid #0074D9;
-}
-
-.pricing-item.pricing-featured .pricing-value {
-  background: #FF4136;
-  border: 2px solid #FF4136;
-}
-*/
-
-
 /* List */
 .pricing-item .pricing-features {
-    /*margin: 10px 0;*/
     margin: 0;
     padding: 0;
-    /*list-style: none;*/
     list-style: square;
     padding-top:10px;
     padding-bottom: 30px;
@@ -1879,16 +1443,6 @@ footer .footer-vertical {
 }
 
 .pricing-item .pricing-features li {
-
-  /*
-  display: block;
-  width: 90%;
-  height: 40px;
-  line-height: 40px;
-  font-size: 15px;
-  font-weight: 400;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin: 0 auto;*/
 
     margin-left: 0;
     font-size: 16px;
@@ -1948,8 +1502,6 @@ footer .footer-vertical {
   cursor: pointer;
   margin-bottom: 10px;
   transition: .2s ease-out;
-  /*-webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.05);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.05);*/
 }
 .button:hover {
   background: #0074D9;
@@ -2124,7 +1676,6 @@ footer .footer-vertical {
 .iphone-screen {
   background: #eee;
   border: 1px solid #fff;
-  /*height: 677px;*/
   height: 500px;
   width: 325px;
   margin: 0 auto;
@@ -2258,7 +1809,6 @@ About Page
     font-size: 14px;
     font-family: GothamRounded-Book;
     color: white;
-    /*border: 1px solid white;*/
 }
 
 .subscribe-newsletter__button:hover {
@@ -2282,7 +1832,6 @@ About Page
 
 .juji-card .card-header {
     background-color: #F2F2F2;
-    /*background-color: #FFFFFF;*/
     line-height: 2.65em;
     padding-top: 0;
     padding-bottom: 0;
@@ -2307,10 +1856,6 @@ About Page
     margin-top: 20px;
     margin-bottom: 0px;
 
-    /* Fix the text block height to
-     *make sure equal heights across cards */
-
-    /*height: 100px;*/
 }
 
 .juji-card .card-block h3 {
@@ -2357,7 +1902,6 @@ About Page
 .juji-card .card-footer {
 
     border: none;
-    /*background-color: #F2F2F2;*/
     background: #FFFFFF;
 
 }
@@ -2365,8 +1909,6 @@ About Page
 .gallery-section .rep-col {
 
     /* To make sure all columns are the same */
-    /*margin-bottom: -99999px;
-    padding-bottom: 99999px;*/
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -2374,10 +1916,6 @@ About Page
 .gallery-section .juji-card {
     border: none;
     background: #FFFFFF;
-    /*background: transparent;
-    border-width: 3px;
-    border-color: #FFFFFF;
-    border-style: solid;*/
 }
 
 .gallery-section .juji-card .image-block {
@@ -2508,13 +2046,3 @@ About Page
     padding-bottom: 10px;
 }
 
-.announcement-text
-{
-    text-align: center;
-    margin-top: 5px;
-}
-
-.announcement-text a {
-    color: black;
-    font-family:GothamRounded-Medium;
-}

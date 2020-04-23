@@ -3,9 +3,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <!--<span>Category</span>-->
             <h3>{{ tag.tagName }}</h3>
-            <p>{{ categories[ tag.tagName ].description }}</p>
+            <p>{{ categories[ tag.tagName ].description or authors[ tag.tagName ].bio}}</p>
           </div>
         </div>
       </div>

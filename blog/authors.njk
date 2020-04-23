@@ -1,0 +1,13 @@
+---
+pagination:
+  data: collections.authPagination
+  size: 1
+  alias: tag
+  addAllPagesToCollections: true
+layout: blog/tag.njk
+renderData:
+  title: Juji Articles by "{{ tag.tagName }}"
+permalink: /blog/authors/{{ tag.tagName | slug }}/{% if tag.pageNumber %}{{ tag.pageNumber + 1 }}/{% endif %}
+---
+
+

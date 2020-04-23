@@ -3,40 +3,7 @@
       <div class="container">
         <div class="row">
           {% for post in tag.pageData | reverse %}
-          {% set category = post.data.category %}
-          {% set author = post.data.author %}
-          <div class="col-lg-4 mb-4">
-            <div class="entry2">
-              <a href="{{ post.url }}">
-                <img src="{{ post.data.image }}" 
-                     alt="{{ post.data.title }}" 
-                     class="img-fluid rounded"></a>
-              <div class="excerpt">
-                <span class="{{ 'post-category text-white mb-3 ' 
-                + categories[category].bgclass }}">
-                  {{ category }}
-                </span>
-
-                <h2>
-                  <a href="{{ post.url }}">
-                    {{ post.data.title }}
-                  </a>
-                </h2>
-              <div class="post-meta align-items-center text-left clearfix">
-                <figure class="author-figure mb-0 mr-3 float-left">
-                  <img src="{{ authors[author].pic }}" 
-                       alt="{{ author }}" class="img-fluid">
-                </figure>
-                <span class="d-inline-block mt-1">
-                  {{ author }}
-                </span>
-                <span>&nbsp;-&nbsp; {{ post.data.date | dateReadable }}</span>
-              </div>
-                {% excerpt post %}
-                <p><a href="{{ post.url }}">Read More</a></p>
-              </div>
-            </div>
-          </div>
+            {% include "blog/partials/postlist-entry.njk" %}
           {% endfor %}
           </div> 
           {% include "blog/partials/tag-paging-nav.njk" %}

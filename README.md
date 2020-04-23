@@ -23,4 +23,10 @@ Browse to http://localhost:8080/ to view live update of the site.
 
 Login to https://juji.io/admin using your Juji SSO credential and start writing.
 
+## Add Author to Blog
 
+Edit `_data/authors.json`
+
+## Add Category to Blog
+
+Edit `_data/categories.json`

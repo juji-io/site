@@ -1,14 +1,26 @@
 {
   "Michelle Zhou": {
-    "bio": "Combine human wisdom and machine power to create AI helpers that can truly help humans.",
-    "pic": "/assets/img/content/michelle.jpeg"
+    "name": "Michelle Zhou",
+    "bio": "Computer scientist, co-founder and CEO of Juji. Combining human wisdom and machine power to create AI helpers that can truly help humans.",
+    "pic": "/assets/img/content/michelle.jpeg",
+    "email": "mzhou@juji-inc.com"
   },
   "Huahai Yang": {
-    "bio": "Craft the simplest software to solve the most challenging problems.",
-    "pic": "/assets/img/content/huahai.jpeg"
+    "name": "Huahai Yang",
+    "bio": "Scientist, hacker, co-founder and CTO of Juji. Crafting the simplest software to solve the most challenging problems.",
+    "pic": "/assets/img/content/huahai.jpeg",
+    "email": "hyang@juji-inc.com"
   }, 
   "Wenxi Chen": {
+    "name": "Wenxi Chen",
     "bio": "I am passionate about machine learning and its potential. What's more interesting than the technology itself is the possibility of building useful tools based on the technology. I believe building a useful tool or a successful product requires deep understanding of our society and humanity.",
-    "pic": "/assets/img/content/wenxi.jpeg"
-  }
+    "pic": "/assets/img/content/wenxi.jpeg",
+    "email": "wchen@juji-inc.com"
+  }, 
+  "Terri Lee": {
+    "name": "Terri Lee",
+    "bio": "A technologically-curious college student, who loves to learn more about upcoming innovations.",
+    "pic": "/assets/img/content/tlee.jpg",
+    "email": "tlee@juji-inc.com"
+  } 
 }
