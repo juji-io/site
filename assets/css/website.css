@@ -108,7 +108,8 @@ h4 {
 a {
 
     text-decoration: none;
-    color:#28BD8B;
+    /*color:#28BD8B;*/
+    color: #357918
 }
 
 img {
@@ -485,7 +486,8 @@ button:select {
 .selected-btn {
     cursor: pointer;
     color: white !important;
-    background-color: #28BD8B !important;
+    /*background-color: #28BD8B !important;*/
+    background-color: #357918 !important;
     border-style: none !important;
 
     /*color: black;
@@ -549,7 +551,8 @@ button:select {
 
 .text-action-btn:hover {
     cursor: pointer;
-    color: #28BD8B;
+    /*color: #28BD8B;*/
+    color: #357918;
 }
 
 /********************************************
@@ -599,7 +602,8 @@ button:select {
 }
 
 .big-btn:hover{
-  background-color: #28BD8B;
+    /*background-color: #28BD8B;*/
+    background-color: #357918;
   color: white;
   border: none;
 }
@@ -618,8 +622,8 @@ button:select {
 .btn-primary:hover {
 
     cursor: pointer;
-    color: #FFFFFF;
-    background: #28BD8B !important;
+    color: #000000;
+    background: #357918 !important;
 }
 
 
@@ -716,7 +720,7 @@ button:select {
 .popup-container .popup-menu li:hover {
 
     color: #28BD8B;
-    background: #D2D2D2;
+    background: #000000;
 }
 
 .popup-container .popup-menu li a {
@@ -816,12 +820,14 @@ header .recommended-link {
     padding: 8px 20px 8px 20px !important;
     border-style: solid;
     border-width: 2px;
-    border-color: #28BD8B;
+    /*border-color: #28BD8B;*/
+    border-color: #357918;
     border-radius: 5px 5px 5px 5px;
 }
 
 header .recommended-link:hover {
-    background: #28BD8B;
+    /*background: #28BD8B;*/
+    background: #357918;
     color: white;
 }
 
@@ -835,7 +841,7 @@ header .active-link {
 footer {
     padding-top: 20px;
     padding-bottom: 5px;
-    color: #BBBBBB;
+    color: #CCCCCC;
     background: black;
     min-width: 376px;
 }
@@ -900,7 +906,9 @@ footer .footer-vertical {
 .action-btn:hover {
 
     text-decoration: none;
-    background: #28BD8B;
+    /*background: #28BD8B;*/
+    background: 
+
     color: white!important;
     border-color: #28BD8B;
     cursor: pointer!important;
@@ -1011,7 +1019,8 @@ footer .footer-vertical {
 
     margin: auto;
     width: 100%;
-    background:#28BD8B !important;
+    /*background:#28BD8B !important;*/
+    background: #357918 !important;
     border: none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1195,7 +1204,8 @@ footer .footer-vertical {
 
     font-family: GothamRounded-Medium;
     font-size: 18px;
-    color:#28BD8B !important;
+    /*color:#28BD8B !important;*/
+    color: #357918 !important;
     cursor: pointer;
 
 }
@@ -1289,7 +1299,8 @@ footer .footer-vertical {
 
 .dropdown-menu a:hover {
 
-    color:#28BD8B;
+    /*color:#28BD8B;*/
+    color: #357918;
     text-decoration: none;
 }
 
@@ -1619,7 +1630,8 @@ footer .footer-vertical {
 
     margin: auto;
     width: 60%;
-    background:#28BD8B !important;
+    /*background:#28BD8B !important;*/
+    background: #357918 !important;
     border: none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1711,7 +1723,8 @@ footer .footer-vertical {
 
     margin: auto;
     width: 70%;
-    background:#28BD8B !important;
+    /*background:#28BD8B !important;*/
+    background: #357918 !important;
     border: none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -2419,7 +2432,8 @@ About Page
 }
 
 #audienceDropdown {
-    background:#28BD8B;
+    /*background:#28BD8B;*/
+    background #357918;
     padding: 20px;
     font-family: GothamRounded-Medium;
     font-size:16px;
