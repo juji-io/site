@@ -691,8 +691,8 @@ footer .logo {
 
     margin: auto;
     width: 100%;
-    /*background:#28BD8B !important;*/
     background: #222222;
+    white-space: normal;
     border: none;
     margin-top: 10px;
     margin-bottom: 10px;
