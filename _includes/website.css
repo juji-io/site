@@ -303,7 +303,7 @@ button:select {
 .popup-window-w-background {
 
     background-size: cover;
-    background-image: url(../img/ui/grey-bg.png);
+    background-image: url(/assets/img/ui/grey-bg.png);
     background-repeat: no-repeat;
 }
 
@@ -1015,7 +1015,7 @@ footer .logo {
 @media (min-width: 1024px){
 
     .intro-section  {
-    background-image:url("../img/ui/product-banner-side.png");
+    background-image:url("/assets/img/ui/product-banner-side.png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1065,7 +1065,7 @@ footer .logo {
     background-size: 90% 60%;
     background-position: top left;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/warm-block-1.png")
+    background-image: url("/assets/img/ui/warm-block-1.png")
 }
 
 
@@ -1073,7 +1073,7 @@ footer .logo {
     background-size: 90% 60%;
     background-position: top left;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/warm-block-2.png")
+    background-image: url("/assets/img/ui/warm-block-2.png")
 }
 
 
@@ -1081,7 +1081,7 @@ footer .logo {
     background-size: 90% 60%;
     background-position: top right;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/cool-block-1.png")
+    background-image: url("/assets/img/ui/cool-block-1.png")
 }
 
 .cool-block-2 {
@@ -1089,7 +1089,7 @@ footer .logo {
   background-size: 90% 60%;
     background-position: top right;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/cool-block-2.png")
+    background-image: url("/assets/img/ui/cool-block-2.png")
 }
 
 .platform-section {
@@ -1107,7 +1107,7 @@ footer .logo {
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/platform-bg.png")
+    background-image: url("/assets/img/ui/platform-bg.png")
 
 }
 
@@ -1191,7 +1191,7 @@ footer .logo {
 @media (min-width: 450px) {
 
 .role-section-top {
-    background-image: url("../img/ui/bubles.png");
+    background-image: url("/assets/img/ui/bubles.png");
     background-position:center bottom;
     background-repeat:no-repeat;
 }
@@ -1201,7 +1201,7 @@ footer .logo {
 @media (min-width: 992px) {
 
 .role-section-top {
-    background-image: url("../img/ui/bubles.png");
+    background-image: url("/assets/img/ui/bubles.png");
     background-position:left bottom;
     background-repeat:no-repeat;
 }
@@ -1409,14 +1409,14 @@ footer .logo {
     background-size: 90% 60%;
     background-position: top left;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/warm-block-1.png")
+    background-image: url("/assets/img/ui/warm-block-1.png")
 }
 
 #premium-section {
     background-size: 90% 60%;
     background-position: top right;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/cool-block-2.png")
+    background-image: url("/assets/img/ui/cool-block-2.png")
 }
 
 
@@ -2032,7 +2032,7 @@ About Page
     padding-top: 50px;
     padding-bottom: 50px;
     height: 250px;
-    background-image: url("../img/ui/pub-banner.jpeg");
+    background-image: url("/assets/img/ui/pub-banner.jpeg");
     background-position:center;
     background-repeat:no-repeat;
     background-size: cover;
