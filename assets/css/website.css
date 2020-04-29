@@ -102,7 +102,18 @@ a {
 
     text-decoration: none;
     /*color:#28BD8B;*/
-    color: #357918
+    color: #357918;
+    
+}
+
+.pub-content-sec a {
+    font-family: GothamRounded-Book;
+}
+
+.bold-link
+
+{
+    font-family: GothamRounded-Medium;
 }
 
 img {
@@ -398,7 +409,7 @@ button:select {
 
 .popup-container .popup-menu li a:hover {
 
-    color: #28BD8B;
+    /*color: #28BD8B;*/
     text-decoration: none;
 }
 
@@ -507,16 +518,18 @@ header .active-link {
 }
 
 footer {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 5px;
-    color: #CCCCCC;
+    color: #DDDDDD;
     background: black;
+    /*background: white;*/
     min-width: 376px;
 }
 
 footer a {
     text-decoration: none;
-    color:#28BD8B;
+    color: #28BD8B;
+    font-family: GothamRounded-Medium;
 }
 
 
@@ -532,9 +545,13 @@ footer .footer-vertical {
     padding-bottom: 20px;
 }
 
+footer .logo {
+    max-width: 40px;
+}
+
 #footer-copyright {
-    color: #999999;
-    font-size: 10px;
+    color: #DDDDDD;
+    font-size: 11px;
     font-weight: 400;
     letter-spacing: 0;
     padding-top: 35px;
@@ -574,11 +591,9 @@ footer .footer-vertical {
 .action-btn:hover {
 
     text-decoration: none;
-    /*background: #28BD8B;*/
-    background: 
-
-    color: white!important;
+    background: #28BD8B;
     border-color: #28BD8B;
+    /*color: white!important;*/
     cursor: pointer!important;
 }
 
@@ -626,13 +641,19 @@ footer .footer-vertical {
 
 .bottom-action-area {
 
-    background-color: #c2c2c2;
+    /*background-color: #c2c2c2;*/
+    background-color: black;
     padding-bottom: 30px;
 }
 
+.bottom-action-area .jumbotron {
+    background-color: black;
+    color: white;
+}
+
 .bottom-action-area .bottom-action-content {
-    margin:auto;
-    text-align:center;
+    /*margin:auto;
+    text-align:center;*/
     padding-top: 30px;
 }
 
@@ -642,12 +663,14 @@ footer .footer-vertical {
 
 .bottom-action-btn {
 
-    font-family: GothamRounded-Book;
+    font-family: GothamRounded-Medium;
     font-size: 16px;
     padding: 15px 50px 15px 50px;
     white-space: nowrap;
-    color: black;
-    background:  #28BD8B;
+    /*color: black;
+    background:  #28BD8B;*/
+    color: white;
+    background: green;
     border-radius: 5px 5px 5px 5px;
 }
 
@@ -668,11 +691,6 @@ footer .footer-vertical {
     margin-top: 5px;
 }
 
-.announcement-text a {
-    color: black;
-    font-family:GothamRounded-Medium;
-}
-
 .home-banner {
     background-image: url("../img/ui/spring2020-banner.gif");
     background-position:bottom;
@@ -685,53 +703,61 @@ footer .footer-vertical {
     margin: auto;
     width: 65%;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 60px;
 
 }
 
-.home-banner .demo-btn {
+.home-banner .signup-btn {
 
     margin: auto;
     width: 100%;
     /*background:#28BD8B !important;*/
-    background: #357918 !important;
+    background: #222222;
     border: none;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: GothamRounded-Medium;
 }
 
-.home-banner .demo-btn:hover {
+.home-banner .signup-btn a{
     color: white !important;
+   
 }
 
-.home-banner .demo-btn a {
-    color: white !important;
-}
-
-.home-banner .learn-btn {
+.home-banner .demo-btn {
      margin: auto;
      width: 100%;
      margin-bottom: 10px;
      margin-top: 10px;
+     padding-top: 15px;
+     padding-bottom: 15px;
 }
 
-.home-banner .learn-btn a {
+.home-banner .demo-btn a {
+    color: black;
+}
+
+.home-banner .signup-btn a {
 
     color: black;
 }
 
-.home-banner .learn-btn a:hover {
-    color: white!important;
-    text-decoration: none;
-    cursor: pointer;
+.home-banner .demo-btn:hover {
+    font-family: GothamRounded-Medium;
 }
 
 .home-banner .demo-btn a:hover {
-    color: white;
     text-decoration: none;
-    cursor: pointer;
+    
 }
+
+.home-banner .signup-btn a:hover {
+    text-decoration: none;
+}
+
 
 .use-case-section {
     padding-top:50px;
@@ -750,6 +776,15 @@ footer .footer-vertical {
 .use-case-section .img-element {
     text-align: center;
 
+}
+
+.canned-demo-section {
+
+    padding-top: 50px;
+    background-size: cover;
+    background-image: url(../img/ui/power-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .canned-demo-section .text-block
@@ -827,10 +862,14 @@ footer .footer-vertical {
 }
 
 #collaborator {
-    height: 150px;
-    background-size: contain;
+    text-align: center;
+    background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+}
+
+#collaborator img {
+    width: 70%;
 }
 
 /**************************************
@@ -1261,13 +1300,14 @@ footer .footer-vertical {
 
 .pricing-banner {
 
-   padding-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
 .pricing-banner .action-btn-holder {
     padding-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .pricing-banner .action-btn {
@@ -1971,7 +2011,8 @@ About Page
 
 #audienceDropdown {
     /*background:#28BD8B;*/
-    background #357918;
+    /*background #357918;*/
+    background: #333333;
     padding: 20px;
     font-family: GothamRounded-Medium;
     font-size:16px;
@@ -1988,20 +2029,20 @@ About Page
 }
 
 #usecaseDropdown {
-    background:black;
+    background:white;
     padding: 20px;
-    font-family: GothamRounded-Medium;
+    font-family: GothamRounded-Book;
     font-size:16px;
-    color:white;
+    color:black;
     border-radius: 5px;
+    border: 1px solid #333333;
 }
 
 #usecaseDropdown:hover {
     text-decoration: none;
+    background: #DEDEDE;
 }
-
-
-
+    
 /*
  * Publications
  */
@@ -2045,4 +2086,93 @@ About Page
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.double-line-text {
+
+    line-height:  2.0rem;
+}
+
+.one-half-line-text {
+    line-height: 1.5rem;
+}
+
+.right-align-text
+{
+    text-align:right;
+}
+
+.green-text
+
+{
+    color: green;
+
+}
+
+#footer-row {
+    padding-left: 2rem;
+}
+
+
+footer .side-nav {
+    position:relative;
+    z-index:800
+}
+
+
+footer .side-nav {
+    position: fixed;
+    left: 2%;
+    bottom: 0%;
+}
+
+
+footer .side-nav .side-nav-list {
+    text-align:center;
+    margin:0;
+    padding:0;
+    padding:35px 0;
+    background:#282c37;
+}
+
+
+footer .side-nav .side-nav-list{
+    margin-top:0;
+    background: transparent;
+    padding: 0;
+}
+
+/*.side-nav .side-nav-list .tooltip-inner{background:#282c37}
+.side-nav .side-nav-list .tooltip-arrow{border-top-color:#282c37}
+.side-nav .side-nav-list li {
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;margin:0 25px
+}*/
+
+
+footer  .side-nav .side-nav-list li{
+    display:block;
+    margin:0;
+    padding:0;
+    margin-bottom:15px
+}
+
+
+footer .side-nav .side-nav-list li .side-nav-item{
+    display:block;
+    padding: 0.3rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    /*box-shadow: 1px 3px 5px 0 rgba(0,0,0,.5);*/
+
+    /*background-color:#fb3039;*/
+    background-color: #666666;
+}
+
+footer .side-nav .side-nav-list li .side-nav-item:hover{
+
+    /*border: 2px solid white;*/
+}
+
 
