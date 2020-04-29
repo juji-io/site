@@ -2,15 +2,6 @@
 <html lang="en">
   <head>
     {% block head %}
-    {% set css %} 
-      {% include "bootstrap.min.css" %} 
-    {% endset %}
-    <style>
-      {{ css | cssmin | safe }}
-    </style>
-    <!--<link rel="stylesheet"-->
-          <!--href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"-->
-          <!--integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
     <link rel="preload" href="/assets/fonts/GothamRounded-Light/GothamRounded-Light.otf" as="font" type="font/otf" crossorigin>
     <link rel="preload" href="/assets/fonts/GothamRounded-Book/GothamRounded-Book.otf" as="font" type="font/otf" crossorigin>
     <link rel="preload" href="/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.otf" as="font" type="font/otf" crossorigin>
@@ -21,6 +12,19 @@
     builder, chatbot platform, chatbot developer, marketing agency,
     small business, customer service, conversational AI, e-commerce, personalization, recommender, mobile app"
           name="keywords">
+
+    {% set bootstrapcss %} 
+      {% include "bootstrap.min.css" %} 
+    {% endset %}
+    <style>
+      {{ bootstrapcss | safe }}
+    </style>
+    {% set jujicss %} 
+      {% include "website.css" %} 
+    {% endset %}
+    <style>
+      {{ jujicss | cssmin | safe }}
+    </style>
 
     <script async="" src="/assets/js/lazysizes.min.js"></script>
 
