@@ -782,7 +782,7 @@ footer .logo {
 
     padding-top: 50px;
     background-size: cover;
-    background-image: url(../img/ui/power-bg.png);
+    /*background-image: url(../img/ui/power-bg.png);*/
     background-repeat: no-repeat;
     background-position: center center;
 }
