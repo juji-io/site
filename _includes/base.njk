@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     {% block head %}
-    <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preload" href="/assets/fonts/GothamRounded-Light/GothamRounded-Light.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="/assets/fonts/GothamRounded-Book/GothamRounded-Book.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.otf" as="font" type="font/otf" crossorigin>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
           name= "viewport">
@@ -13,7 +13,20 @@
     small business, customer service, conversational AI, e-commerce, personalization, recommender, mobile app"
           name="keywords">
 
-    <script async src="/assets/js/lazysizes.min.js"></script>
+    {% set bootstrapcss %} 
+      {% include "bootstrap.min.css" %} 
+    {% endset %}
+    <style>
+      {{ bootstrapcss | safe }}
+    </style>
+    {% set jujicss %} 
+      {% include "website.css" %} 
+    {% endset %}
+    <style>
+      {{ jujicss | cssmin | safe }}
+    </style>
+
+    <script async="" src="/assets/js/lazysizes.min.js"></script>
 
     {% endblock %}
 
@@ -317,9 +330,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
-    <link href="/assets/css/website.css" rel="stylesheet">
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <script async src='/assets/js/autotrack.js'></script>
+    <script async="" src='https://www.google-analytics.com/analytics.js'></script>
+    <script async-"" src='/assets/js/autotrack.js'></script>
     <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-113933244-1', 'auto', {allowLinker: true});
       ga('require', 'linkid');

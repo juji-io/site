@@ -6,47 +6,26 @@
 
 /* Modified to adapt to Juji content */
 
-@font-face {
-    font-family:GothamRounded-Light;
-    src:url(/assets/fonts/GothamRounded-Light/GothamRounded-Light.eot) format('embedded-opentype');
-    font-weight:400;
-    font-style:normal; 
-    font-display: swap;
-}
-
-@font-face {
-	  font-family: GothamRounded-LightItalic;
-	  src: url(/assets/fonts/GothamRounded-Light/GothamRounded-LightItalic.woff) format('woff');
-    font-display: swap;
-}
 
 @font-face {
     font-family:GothamRounded-Light;
-    src:url(/assets/fonts/GothamRounded-Light/GothamRounded-Light.otf) format('opentype'),url(../fonts/GothamRounded-Light/GothamRounded-Light.woff) format('woff'),url(../fonts/GothamRounded-Light/GothamRounded-Light.ttf) format('truetype'),url(../fonts/GothamRounded-Light/GothamRounded-Light.svg#GothamRounded-Light) format('svg');
+    src:url(/assets/fonts/GothamRounded-Light/GothamRounded-Light.otf) format('opentype'),url(/assets/fonts/GothamRounded-Light/GothamRounded-Light.woff) format('woff'),url(/assets/fonts/GothamRounded-Light/GothamRounded-Light.ttf) format('truetype'),url(/assets/fonts/GothamRounded-Light/GothamRounded-Light.svg#GothamRounded-Light) format('svg');
     font-weight:400;
     font-style:normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family:GothamRounded-Bold;
-    src: url(/assets/fonts/GothamRounded-Light/GothamRounded-Light.otf) format('opentype'), url(../fonts/GothamRounded-Bold/GothamRounded-Bold.woff) format('woff'), url(../fonts/GothamRounded-Light/GothamRounded-Light.ttf) format('truetype');
-    font-weight:400;
-    font-style:normal;
-    font-display: swap;
-}
+/*@font-face {*/
+    /*font-family:GothamRounded-Bold;*/
+    /*src: url(/assets/fonts/GothamRounded-Bold/GothamRounded-Bold.otf) format('opentype'), url(/assets/fonts/GothamRounded-Bold/GothamRounded-Bold.woff) format('woff'), url(/assets/fonts/GothamRounded-Bold/GothamRounded-Bold.ttf) format('truetype');*/
+    /*font-weight:400;*/
+    /*font-style:normal;*/
+    /*font-display: swap;*/
+/*}*/
 
 @font-face {
     font-family:GothamRounded-Book;
-    src:url(/assets/fonts/GothamRounded-Book/GothamRounded-Book.otf) format('opentype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(../fonts/GothamRounded-Book/GothamRounded-Book.ttf) format('truetype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.svg#GothamRounded-Book) format('svg');
-    font-weight:400;
-    font-style:normal;
-    font-display: swap;
-}
-
-@font-face{
-    font-family:GothamRounded-Medium;
-    src:url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.eot) format('embedded-opentype');
+    src:url(/assets/fonts/GothamRounded-Book/GothamRounded-Book.otf) format('opentype'),url(/assets/fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(/assets/fonts/GothamRounded-Book/GothamRounded-Book.ttf) format('truetype'),url(/assets/fonts/GothamRounded-Book/GothamRounded-Book.svg#GothamRounded-Book) format('svg');
     font-weight:400;
     font-style:normal;
     font-display: swap;
@@ -54,7 +33,7 @@
 
 @font-face {
     font-family:GothamRounded-Medium;
-    src:url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('opentype'),url(../fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(../fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('truetype'),url(../fonts/GothamRounded-Medium/GothamRounded-Medium.svg#GothamRounded-Medium) format('svg');
+    src:url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('opentype'),url(/assets/fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('truetype'),url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.svg#GothamRounded-Medium) format('svg');
     font-weight:400;
     font-style:normal;
     font-display: swap;
@@ -324,7 +303,7 @@ button:select {
 .popup-window-w-background {
 
     background-size: cover;
-    background-image: url(../img/ui/grey-bg.png);
+    background-image: url(/assets/img/ui/grey-bg.png);
     background-repeat: no-repeat;
 }
 
@@ -692,7 +671,7 @@ footer .logo {
 }
 
 .home-banner {
-    background-image: url("../img/ui/spring2020-banner.gif");
+  background-image: url("/assets/img/ui/spring2020-banner.gif");
     background-position:bottom;
     background-repeat:no-repeat;
     background-size: contain;
@@ -712,8 +691,8 @@ footer .logo {
 
     margin: auto;
     width: 100%;
-    /*background:#28BD8B !important;*/
     background: #222222;
+    white-space: normal;
     border: none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -781,8 +760,8 @@ footer .logo {
 .canned-demo-section {
 
     padding-top: 50px;
+    background-image: url("/assets/img/ui/power-bg.jpg");
     background-size: cover;
-    background-image: url(../img/ui/power-bg.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -1036,7 +1015,7 @@ footer .logo {
 @media (min-width: 1024px){
 
     .intro-section  {
-    background-image:url("../img/ui/product-banner-side.png");
+    background-image:url("/assets/img/ui/product-banner-side.png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1086,7 +1065,7 @@ footer .logo {
     background-size: 90% 60%;
     background-position: top left;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/warm-block-1.png")
+    background-image: url("/assets/img/ui/warm-block-1.png")
 }
 
 
@@ -1094,7 +1073,7 @@ footer .logo {
     background-size: 90% 60%;
     background-position: top left;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/warm-block-2.png")
+    background-image: url("/assets/img/ui/warm-block-2.png")
 }
 
 
@@ -1102,7 +1081,7 @@ footer .logo {
     background-size: 90% 60%;
     background-position: top right;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/cool-block-1.png")
+    background-image: url("/assets/img/ui/cool-block-1.png")
 }
 
 .cool-block-2 {
@@ -1110,7 +1089,7 @@ footer .logo {
   background-size: 90% 60%;
     background-position: top right;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/cool-block-2.png")
+    background-image: url("/assets/img/ui/cool-block-2.png")
 }
 
 .platform-section {
@@ -1128,7 +1107,7 @@ footer .logo {
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/platform-bg.png")
+    background-image: url("/assets/img/ui/platform-bg.png")
 
 }
 
@@ -1212,7 +1191,7 @@ footer .logo {
 @media (min-width: 450px) {
 
 .role-section-top {
-    background-image: url("../img/ui/bubles.png");
+    background-image: url("/assets/img/ui/bubles.png");
     background-position:center bottom;
     background-repeat:no-repeat;
 }
@@ -1222,7 +1201,7 @@ footer .logo {
 @media (min-width: 992px) {
 
 .role-section-top {
-    background-image: url("../img/ui/bubles.png");
+    background-image: url("/assets/img/ui/bubles.png");
     background-position:left bottom;
     background-repeat:no-repeat;
 }
@@ -1430,14 +1409,14 @@ footer .logo {
     background-size: 90% 60%;
     background-position: top left;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/warm-block-1.png")
+    background-image: url("/assets/img/ui/warm-block-1.png")
 }
 
 #premium-section {
     background-size: 90% 60%;
     background-position: top right;
     background-repeat: no-repeat;
-    background-image: url("../img/ui/cool-block-2.png")
+    background-image: url("/assets/img/ui/cool-block-2.png")
 }
 
 
@@ -2053,7 +2032,7 @@ About Page
     padding-top: 50px;
     padding-bottom: 50px;
     height: 250px;
-    background-image: url("../img/ui/pub-banner.jpeg");
+    background-image: url("/assets/img/ui/pub-banner.jpeg");
     background-position:center;
     background-repeat:no-repeat;
     background-size: cover;

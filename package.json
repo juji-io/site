@@ -19,6 +19,7 @@
     "moment": "^2.24.0"
   },
   "dependencies": {
+    "clean-css": "^4.2.3",
     "eleventy-plugin-blog-tools": "^0.3.0",
     "eleventy-plugin-reading-time": "0.0.1",
     "eleventy-plugin-seo-tag": "^0.5.3",
