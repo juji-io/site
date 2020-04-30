@@ -758,6 +758,24 @@ footer .logo {
     text-decoration: none;
 }
 
+.canned-demo-section {
+    padding-top: 50px;
+    background-image:url("../img/ui/power-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.canned-demo-section .text-block
+{
+    margin:auto;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.canned-demo-section .img-element {
+    text-align: center;
+
+}
 
 .use-case-section {
     padding-top:50px;
@@ -774,27 +792,6 @@ footer .logo {
 }
 
 .use-case-section .img-element {
-    text-align: center;
-
-}
-
-.canned-demo-section {
-
-    padding-top: 50px;
-    background-size: cover;
-    background-image: url(../img/ui/power-bg.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.canned-demo-section .text-block
-{
-    margin:auto;
-    width: 80%;
-    margin-top: 20px;
-}
-
-.canned-demo-section .img-element {
     text-align: center;
 
 }
