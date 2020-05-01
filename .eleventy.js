@@ -25,6 +25,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin/index.html");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("robots.txt");
+  eleventyConfig.addPassthroughCopy("google87579b2b505115de.html");
 
   eleventyConfig.addPlugin(pluginSEO, require("./_data/seo.json"));
   eleventyConfig.addPlugin(syntaxHighlight);
