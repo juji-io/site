@@ -1174,7 +1174,7 @@ footer .logo {
     background-color: #FADB92;
 }
 
-#alicia {
+.role-section-top[name="alicia"] {
     background-color: rgb(255,224,0);
 }
 
