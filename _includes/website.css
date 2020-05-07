@@ -1060,34 +1060,47 @@ footer .logo {
 }
 
 .warm-block-1 {
-    background-size: 90% 60%;
-    background-position: top left;
+    /*background-size: 90% 60%;*/
+    /*background-position: top left;*/
+    /*background-size: 15% 30%;*/
+    background-position: 2% 0%;
     background-repeat: no-repeat;
-    background-image: url("/assets/img/ui/warm-block-1.png")
+    /*background-image: url("/assets/img/ui/warm-block-1.png");*/
+    background-image: url("/assets/img/ui/block-1.png")
 }
 
 
 .warm-block-2 {
-    background-size: 90% 60%;
-    background-position: top left;
+    /*background-size: 90% 60%;
+    background-position: top left;*/
+    /*background-size: 20% 40%;*/
+    background-position: 2% 50%;
     background-repeat: no-repeat;
-    background-image: url("/assets/img/ui/warm-block-2.png")
+    /*background-image: url("/assets/img/ui/warm-block-2.png")*/
+    background-image: url("/assets/img/ui/block-3.png")
 }
 
 
 .cool-block-1 {
-    background-size: 90% 60%;
-    background-position: top right;
+    /*background-size: 90% 60%;*/
+    /*background-position: top right;*/
+    background-position: 98% 50%;
     background-repeat: no-repeat;
-    background-image: url("/assets/img/ui/cool-block-1.png")
+    /*background-image: url("/assets/img/ui/cool-block-1.png")*/
+     background-image: url("/assets/img/ui/block-2.png")
+    
 }
 
 .cool-block-2 {
 
-  background-size: 90% 60%;
-    background-position: top right;
+    /*background-size: 90% 60%;
+    background-position: top right;*/
+    background-position: 98% 100%;
+    /*background-size: 15% 30%;*/
     background-repeat: no-repeat;
-    background-image: url("/assets/img/ui/cool-block-2.png")
+    /*background-image: url("/assets/img/ui/cool-block-2.png")*/
+    background-image: url("/assets/img/ui/block-4.png")
+			 
 }
 
 .platform-section {
