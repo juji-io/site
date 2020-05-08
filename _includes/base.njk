@@ -63,19 +63,31 @@
                 </a>
               </li>
 
+	      <li class="nav-item">
+                <a class=
+                   {% if page.url == "/juji-platform/" %}
+                   "nav-link active-link"
+                   {% else %}
+                   "nav-link"
+                   {% endif %}
+                   href="/juji-platform">
+                  Product
+                </a>
+              </li>
+
 	      <li class="nav-item dropdown">
                 <a aria-expanded="false"
                    aria-haspopup="true"
                    class="nav-link dropdown-toggle"
                    data-toggle="dropdown"
                    href="#"
-                   id= "resourcesDropdown"
+                   id= "solutionsDropdown"
                    role="button">
-                  Support
+                  Solutions
                 </a>
 		 
                 <div class="dropdown-menu"
-                     aria-labelledby="resourcesDropdown">
+                     aria-labelledby="solutionsDropdown">
                   <a href="https://forum.juji.io/"
                      class="dropdown-item"
                      target="_blank">
@@ -90,41 +102,6 @@
                 </div>
 	      </li>
 		 
-              <li class="nav-item dropdown">
-                <a aria-expanded="false" aria-haspopup="true"
-                                         class="nav-link dropdown-toggle"
-                                         data-toggle="dropdown" href="#"
-                                                                id= "resourcesDropdown" role="button">
-                  Resources
-                </a>
-                <div class="dropdown-menu"
-                     aria-labelledby="resourcesDropdown">
-                  <a href="https://docs.juji.io/why-ai-chatbots/"
-                     class="dropdown-item"
-                     target="_blank">
-                    Beginners' Guide to AI Chatbots
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a href="https://docs.juji.io/tutorial/#"
-                     class="dropdown-item"
-                     target="_blank">
-                    Video Tutorials
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a href="https://docs.juji.io/"
-                     class="dropdown-item"
-                     target="_blank">
-                    Documentation
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a href="/publications"
-                     class="dropdown-item"
-                     target="_blank">
-                    Publications & Talks
-                  </a>
-                </div>
-              </li>
-
               <li class="nav-item">
                 <a class=
                    {% if "/blog/" in page.url %}
@@ -133,7 +110,7 @@
                    "nav-link"
                    {% endif %}
                    href="/blog">
-                  Blog
+                  News & Blog
                 </a>
               </li>
 
@@ -242,8 +219,11 @@
 				
 	</div>
 
-	<div class="row align-items-top justify-content-around" id="footer-row">
-          <div class="col-md-6 col-lg-4">
+	<div class="row align-items-top justify-content-between"
+	     id="footer-row">
+	  
+	  <!--left panel for email subscription-->
+          <div class="col-md-6 col-lg-3">
             <div class="footer-vertical">
               <div class="footer-vertical-heading">Stay Connected</div>
               <div id="subscribe-newsletter-block">
@@ -262,57 +242,105 @@
                   <input type="hidden" name="subform" value="yes"/>
                 </form>
               </div>
-
-              <!--div>
-                <a href="https://twitter.com/juji_io?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fjuji.io&width=450&layout=standard&action=like&size=small&share=false&height=35&appId=535043073305325" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                <a href="/feed.xml"><img class="lazyload" data-src="/assets/img/ui/feed.png" width="20" height="20"/></a>
-
-              </div-->
+              
             </div> <!--end of footer vertical-->
           </div> <!--end of 1st col-->
-	  
-          <div class="col-md-6 col-lg-3">
-            <div  class="footer-vertical">
-              <div class="footer-vertical-heading">Support</div>
-	      <ul class="navigation">
-		<li class="main-navigation__link">
-		 <a href="https://forum.juji.io" target="_blank">Juji
-                  Forum</a>
-		</li>
-		<li class="main-navigation__link">
-		  <a href="https://docs.juji.io/faq/" target="_blank">Juji
-                    FAQ</a>
-		</li>
-	      </ul>
 
-              <p>support at(@) juji.io</p>
-            </div>
-          </div>
-	  
-          <div class="col-md-6 col-lg-3" id="contact-block">
-            <div  class="footer-vertical">
-              <div class="footer-vertical-heading">Contact</div>
-              <p>3165 Olin Ave.<br>
-                San Jose, CA 95117
-              </p>
-              <p>hello at(@) juji.io</p>
-            </div>
-          </div>
-	  
-          <div class="col-md-6 col-lg-2">
-            <div  class="footer-vertical">
-              <ul class="navigation">
-                <li class="main-navigation__link"><a href=
-                "/util/juji-terms-of-service.pdf" target="_blank">Terms of
-                Use</a></li>
-                <li class="main-navigation__link"><a href=
-                "/util/juji-privacy-policy.pdf" target="_blank">Privacy
-                Policy</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+	  <!--the right panel for the rest-->
+	  <div class="col-md-6 col-lg-8">
+	    <!-- first row-->
+	    <div class="row align-items-top justify-content-center">
+	      <!--Support-->
+              <div class="col-md-4">
+		<div  class="footer-vertical">
+		  <div class="footer-vertical-heading">Support</div>
+		  <ul class="navigation">
+		    <li class="main-navigation__link">
+		      <a href="https://forum.juji.io" target="_blank">Juji
+			Forum</a>
+		    </li>
+		    <li class="main-navigation__link">
+		      <a href="https://docs.juji.io/faq/" target="_blank">Juji
+			FAQ</a>
+		    </li>
+		  </ul>
+		  <p>support at(@) juji.io</p>
+		</div>
+              </div>
+	 
+	    <!--Resources-->
+	      <div class="col-md-4" id="resources-block">
+		<div  class="footer-vertical">
+		  <div class="footer-vertical-heading">Resources</div>
+		  <ul class="navigation">
+		    <li class="main-navigation__link">
+                      <a href="https://docs.juji.io/why-ai-chatbots/"
+			 target="_blank">
+			Beginners' Guide to AI Chatbots
+                      </a>
+		    </li>
+		    
+                    <li class="main-navigation__link">
+                      <a href="https://docs.juji.io/tutorial/#"
+			 target="_blank">
+			Video Tutorials
+                      </a>
+		    </li>
+		
+                    <li class="main-navigation__link">
+                      <a href="https://docs.juji.io/"
+			 target="_blank">
+			Documentation
+                      </a>
+		    </li>
+
+		    <li class="main-navigation__link">
+                      <a href="/publications"
+			 target="_blank">
+			Publications & Talks
+                      </a>
+		    </li>
+
+		  </ul>
+		</div> <!--footer vertical-->
+	      </div> <!--col-->
+
+	    </div> <!--end of first row-->
+
+
+	    <div class="row align-items-top justify-content-center">
+	      <!--contact block-->
+              <div class="col-md-4" id="contact-block">
+		<div  class="footer-vertical">
+		  <div class="footer-vertical-heading">Contact</div>
+		  <p>3165 Olin Ave.<br>
+                    San Jose, CA 95117
+		  </p>
+		  <p>hello at(@) juji.io</p>
+		</div>
+              </div>
+
+	      <!--Terms and Policies-->
+              <div class="col-md-4">
+		<div  class="footer-vertical">
+		  <ul class="navigation">
+                    <li class="main-navigation__link">
+		      <a href=
+			 "/util/juji-terms-of-service.pdf" target="_blank">Terms of
+			Use</a></li>
+                    <li class="main-navigation__link"><a href=
+							 "/util/juji-privacy-policy.pdf" target="_blank">Privacy
+			Policy</a></li>
+		  </ul>
+		</div>
+              </div>
+	      
+            </div> <!--end of 2nd row for the right panel-->
+	    
+	  </div> <!--end of right panel-->
+	</div> <!--row-->
+
+	<!--copyright-->
         <div class="row justify-content-center">
 	  
           <div class="col-md-12 one-half-line-text" id="footer-copyright">

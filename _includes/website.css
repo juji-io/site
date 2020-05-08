@@ -687,11 +687,11 @@ footer .logo {
 
 }
 
-.home-banner .signup-btn {
+.home-banner .primary-btn {
 
     margin: auto;
     width: 100%;
-    background: #222222;
+    background: #28BD8B;
     white-space: normal;
     border: none;
     margin-top: 10px;
@@ -701,34 +701,30 @@ footer .logo {
     font-family: GothamRounded-Medium;
 }
 
-.home-banner .signup-btn a{
-    color: white !important;
+.home-banner .primary-btn a{
+    color: black;
    
 }
 
-.home-banner .demo-btn {
+.home-banner .secondary-btn {
      margin: auto;
      width: 100%;
+     white-space: normal;
      margin-bottom: 10px;
      margin-top: 10px;
      padding-top: 15px;
      padding-bottom: 15px;
 }
 
-.home-banner .demo-btn a {
+.home-banner .secondary-btn a {
     color: black;
 }
 
-.home-banner .signup-btn a {
-
-    color: black;
-}
-
-.home-banner .demo-btn:hover {
+.home-banner .secondary-btn:hover {
     font-family: GothamRounded-Medium;
 }
 
-.home-banner .demo-btn a:hover {
+.home-banner .secondary-btn a:hover {
     text-decoration: none;
     
 }
