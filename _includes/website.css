@@ -542,9 +542,11 @@ footer .logo {
     border: none;
     color: black;
     background:  #28BD8B;
-    margin-left: -5px;
-    border-radius: 0px 15px 15px 0px;
+    /*margin-left: -5px;*/
     height: 30px;
+    width: 100%;
+    font-family: GothamRounded-Medium;
+    
 }
 
 .col-element {
@@ -1009,7 +1011,8 @@ footer .logo {
 @media (min-width: 1024px){
 
     .intro-section  {
-    background-image:url("/assets/img/ui/product-banner-side.png");
+    /*background-image:url("/assets/img/ui/product-banner-side.png");*/
+	background-image:url("/assets/img/ui/out-of-box-ai-1.gif");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1193,6 +1196,10 @@ footer .logo {
 
 #albert h1{
     color: white;
+}
+
+#kai {
+    background-color:rgb(180,202,203);
 }
 
 @media (min-width: 450px) {
@@ -1824,22 +1831,13 @@ About Page
     margin-bottom: 20px;
 }
 
-#subscribe-newsletter__email {
+.subscribe-newsletter__field {
     height: 30px;
-    width: 150px;
-}
-
-.subscribe-newsletter__button {
-    margin-left: 0.2em;
-    padding: 0.2em 0.5em;
-    font-size: 14px;
-    font-family: GothamRounded-Book;
-    color: white;
-}
-
-.subscribe-newsletter__button:hover {
-  color: black;
-  background: white;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 20px;
 }
 
 
@@ -2162,3 +2160,72 @@ footer .side-nav .side-nav-list li .side-nav-item:hover{
 }
 
 
+#step1 {
+
+    background-position: center right;
+    /*background-size: contain;*/
+    background-image: url(/assets/img/ui/step1-bg.png);
+    background-repeat: no-repeat;
+}
+
+#step2 {
+
+    background-image: url(/assets/img/ui/step2-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+#step3 {
+
+    background-size: contain;
+    background-image: url(/assets/img/ui/step3-bg.png);
+    background-repeat: no-repeat;
+}
+
+.solution-section {
+    /* This is needed to make sure the smallest mobile screen is still centered*/
+    margin-top: 50px;
+    min-width: 376px;
+ 
+}
+
+.solution-section .jumbotron {
+    background: transparent;
+}
+
+#customer-support {
+    
+    background-size: contain;
+    background-position: center right;
+    background-image: url(/assets/img/ui/solution-1-bg.jpg);
+    background-repeat: no-repeat;
+ 
+}
+
+
+#office-admin {
+    
+    background-size: contain;
+    background-position: center left;
+    background-image: url(/assets/img/ui/solution-2-bg.jpg);
+    background-repeat: no-repeat;
+ 
+}
+
+#interviewer {
+    
+    background-size: contain;
+    background-position: center right;
+    background-image: url(/assets/img/ui/solution-4-bg.jpg);
+    background-repeat: no-repeat;
+
+}
+
+#care {
+    
+    background-size: contain;
+    background-position: center left;
+    background-image: url(/assets/img/ui/solution-3-bg.jpg);
+    background-repeat: no-repeat;
+ 
+}
