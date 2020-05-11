@@ -2193,10 +2193,20 @@ footer .side-nav .side-nav-list li .side-nav-item:hover{
     background: transparent;
 }
 
-#customer-support {
+.solution-section .how-to-block {
+    margin:auto;
+    text-align:center;
+    margin-top: 30px;
+}
+
+.solution-section .how-to-block a {
+    font-family: GothamRounded-Medium;
+}
+
+#customer-support .jumbotron{
     
-    background-size: contain;
-    background-position: center right;
+    background-size: contain; 
+    background-position: 0% 0%;
     background-image: url(/assets/img/ui/solution-1-bg.jpg);
     background-repeat: no-repeat;
  
@@ -2206,7 +2216,7 @@ footer .side-nav .side-nav-list li .side-nav-item:hover{
 #office-admin {
     
     background-size: contain;
-    background-position: center left;
+    background-position: 0% 50%;
     background-image: url(/assets/img/ui/solution-2-bg.jpg);
     background-repeat: no-repeat;
  
@@ -2215,7 +2225,7 @@ footer .side-nav .side-nav-list li .side-nav-item:hover{
 #interviewer {
     
     background-size: contain;
-    background-position: center right;
+    background-position: 100% 50%;
     background-image: url(/assets/img/ui/solution-4-bg.jpg);
     background-repeat: no-repeat;
 
@@ -2224,7 +2234,7 @@ footer .side-nav .side-nav-list li .side-nav-item:hover{
 #care {
     
     background-size: contain;
-    background-position: center left;
+    background-position: 0% 50%;
     background-image: url(/assets/img/ui/solution-3-bg.jpg);
     background-repeat: no-repeat;
  
