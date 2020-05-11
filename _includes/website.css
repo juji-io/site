@@ -1010,9 +1010,16 @@ footer .logo {
 
 @media (min-width: 1024px){
 
-    .intro-section  {
+    .why-section.intro-section  {
     /*background-image:url("/assets/img/ui/product-banner-side.png");*/
 	background-image:url("/assets/img/ui/out-of-box-ai-1.gif");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+    .gallery.intro-section  {
+    background-image:url("/assets/img/ui/product-banner-side.png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1986,7 +1993,7 @@ About Page
 }
 
 .jumbotron p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .jumbotron .dropdown {
@@ -2098,31 +2105,20 @@ About Page
 
 
 footer .side-nav {
-    position:relative;
-    z-index:800
-}
-
-
-footer .side-nav {
-    position: fixed;
+    /* The following will make the buttons sticky to the bottom*/
+    /*position: fixed;
     left: 2%;
     bottom: 0%;
+    z-index:800;	
+   */
+    margin-left: 0;
+    padding-left: 0;
 }
-
-
-footer .side-nav .side-nav-list {
-    text-align:center;
-    margin:0;
-    padding:0;
-    padding:35px 0;
-    background:#282c37;
-}
-
 
 footer .side-nav .side-nav-list{
-    margin-top:0;
-    background: transparent;
+    margin:0;
     padding: 0;
+    background: transparent;
 }
 
 /*.side-nav .side-nav-list .tooltip-inner{background:#282c37}
@@ -2135,15 +2131,17 @@ footer .side-nav .side-nav-list{
 
 
 footer  .side-nav .side-nav-list li{
-    display:block;
+    /*display:block;*/
+    display: inline;
     margin:0;
     padding:0;
-    margin-bottom:15px
+    /*margin-bottom:15px;*/
+    margin-right: 5px;
 }
 
 
 footer .side-nav .side-nav-list li .side-nav-item{
-    display:block;
+    /*display:block;*/
     padding: 0.3rem;
     width: 30px;
     height: 30px;
@@ -2191,51 +2189,54 @@ footer .side-nav .side-nav-list li .side-nav-item:hover{
 
 .solution-section .jumbotron {
     background: transparent;
+    margin: auto;
+    width: 90%;
 }
 
 .solution-section .how-to-block {
     margin:auto;
     text-align:center;
     margin-top: 30px;
+    width: 90%;
 }
 
 .solution-section .how-to-block a {
     font-family: GothamRounded-Medium;
 }
 
-#customer-support .jumbotron{
+#customer-support .jumbotron-holder{
     
     background-size: contain; 
-    background-position: 0% 0%;
+    background-position: 2% 0%;
     background-image: url(/assets/img/ui/solution-1-bg.jpg);
     background-repeat: no-repeat;
  
 }
 
 
-#office-admin {
+#office-admin .jumbotron-holder{
     
     background-size: contain;
-    background-position: 0% 50%;
+    background-position: 98% 50%;
     background-image: url(/assets/img/ui/solution-2-bg.jpg);
     background-repeat: no-repeat;
  
 }
 
-#interviewer {
+#interviewer .jumbotron-holder{
     
     background-size: contain;
-    background-position: 100% 50%;
-    background-image: url(/assets/img/ui/solution-4-bg.jpg);
+    background-position: 2% 0%;
+    background-image: url(/assets/img/ui/solution-3-bg.jpg);
     background-repeat: no-repeat;
 
 }
 
-#care {
+#care .jumbotron-holder{
     
     background-size: contain;
-    background-position: 0% 50%;
-    background-image: url(/assets/img/ui/solution-3-bg.jpg);
+    background-position: 98% 50%;
+    background-image: url(/assets/img/ui/solution-4-bg.jpg);
     background-repeat: no-repeat;
  
 }
