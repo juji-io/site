@@ -1,11 +1,11 @@
 {
-  "title": "AI chatbot", 
-  "description": "Juji is the easiest way to DIY AI chatbot - easiler than making PPT and 20X faster than any other tools",
+  "title": "", 
+  "description": "Juji is the easiest way to DIY powerful AI chatbots - easiler than making PowerPoint and 20X faster than any other tools",
   "url": "https://juji.io",
   "author": "Juji Team",
   "twitter": "juji.io",
   "image": "https://juji.io/assets/img/ui/ui--logo.png",
   "options": {
-    "titleDivider": "|"
+    "titleDivider": ""
   }
 }
