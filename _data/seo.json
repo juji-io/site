@@ -6,6 +6,7 @@
   "twitter": "juji.io",
   "image": "https://juji.io/assets/img/ui/ui--logo.png",
   "options": {
-    "titleDivider": ""
+    "titleStyle": "minimalistic",
+    "titleDivider": "|"
   }
 }
