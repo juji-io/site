@@ -12,30 +12,76 @@ tags:
 image: /assets/uploads/questions-answers-signage-208494.jpg
 credit: Pixabay
 ---
-Conversation can be arbitrarily complex, though most of time it's rather simple. If you are creating an AI chatbot that answers questions, chances are you can get away with [importing your Q&As into Juji's AI chatbot](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/). 
+If you are creating a chatbot to automate customer support and handle customer requests, you could do so easily on Juji by [preparing a question-answer (Q&A) list and uploading the list to enable free-text Q&A](https://juji.io/docs/design/#handle-free-text-qas) instantly. 
 
-However, there are use cases the chatbot needs to obtain more information from the user before it can produce a satisfactory answer. For example, when the user asks "Where are you located?" The chatbot can respond with the only location. But if you operates in multiple branches, a smart chatbot would first ask where the user locates and then respond with the nearest branch's location.
+While the majority of customer questions can be handled in such a way, there are  cases that a chatbot needs to obtain additional information from users before producing a satisfactory answer. Assume that a user asks "Where is the nearest branch?" and your business has multiple branches. A smart chatbot should first ask where the user is located and then respond with the location of the nearest branch. 
 
----
+- - -
 
-Luckily, this can be easily done in the Q&A Board in Juji Studio.  
+Next I will show you how this can be easily done using the Q&A Board in Juji Studio.  
 
 ![Click on extended reply button to initiate your Q&A flow](/assets/uploads/screen-shot-2020-05-12-at-11.19.35-pm.png "Click on the extended reply button to create a flow to handle the question")
 
-Instead of putting in the quick response directly in the answer textbox, click on the extended reply button will open a slider for you to create more complex flow as the answer. The editor works just like the [main chat flow editor](https://docs.juji.io/design/#customize-main-chat-flow) in Juji Studio. So you can create topics with all kinds of customization.
+In addition to defining a simple answer to a user's free-text question, you can use Juji to add an ***extended*** or ***multi-step*** answer to a user question.  As shown above, just click on the extended reply button in the answer column. It will then open up a panel for you to create a new chat flow as the answer. 
+
+As shown below, the flow editor works just like the [main chat flow editor](https://docs.juji.io/design/#customize-main-chat-flow) in Juji Studio, where you can [create custom topics](https://juji.io/docs/design/#edit-a-topic) or reuse already created topics in the main chat flow. 
 
 ![Creating a topic to handle the question](/assets/uploads/screen-shot-2020-05-12-at-11.39.03-pm.png "Creating a topic to handle the question")
 
-In this example, I create a topic that asks which city the user lives. Then, I use the customized actions to tell them about different locations nearest to them. Once you are done with your topics, you can click back to the Q&A Board to submit your changes.
+Using the example I mentioned above, I first create a topic that asks which city a user lives. Then, I customize the chatbot actions based on user answers to respond with different locations nearest to them. Once I am done with the flow, I go back to the Q&A Board to submit the changes.
 
----
+- - -
 
 It's that simple. Let's see the effects.
 
 ![The chatbot first checks the user's location, then provides the nearest branch's location](/assets/uploads/screen-shot-2020-05-12-at-11.54.45-pm.png "The chatbot first checks the user's location, then provides the nearest branch's location")
 
-As shown in the screenshots above, the chatbot not only provided the nearest branch's location according to user's neighborhood, it also resumed its original flow.
+As shown in the screenshot above, not only can the chatbot provide the nearest branch's location according to a user's response, but it can also remember and resume the original conversation flow after it finishes the side Q&A flow. In fact, a Juji chatbot always ***automatically*** handles such side Q&A flow anywhere during a conversation and gracefully resumes to its original task flow (e.g., the workflow of making a reservation). 
 
-Although we have made it looks really easy, the extended reply is very powerful. A doctor can use it to answer patients' questions base on their symptoms; whereas, an online store can use it to make recommendation when an user asks about its products. Since the extended reply works just like the main chat flow, designer can also record attributes, create followups and all kinds of powerful topics.
+Such an extended Q&A flow is very powerful. As shown below, a patient is requesting a doctor's appointment.  A smart healthcare chatbot then asks the patient about his/her symptoms before giving a proper response.  
+
+<Wenxi, Put a screenshot of chat
+
+User: Can you help me see a doc?
+
+Chatbot: Sure. Let me ask you a couple of questions first.
+
+Chatbot: Are you having a fever now?
+
+User: Certainly.
+
+Chatbot: How long have you had it?
+
+User: for a few days now.
+
+Chatbot: Got it. Someone will be in touch today. 
+
+\>
+
+Similarly,  in e-commerce, when a user asks for a product recommendation, a smart retail chatbot asks the user his/her preferences before making a suggestion. 
+
+
+
+<Wenxi, put a screenshot of chat
+
+User: Could you recommend a book for me?
+
+Chatbot: Gladly. Let me ask you a couple of quick questions
+
+Chatbot: What's your favorite genre
+
+User: ...
+
+Chatbot: What do you like most of it...
+
+User:..
+
+Chatbot: here is a book... 
+
+
+
+\>
+
+Juji has made the handling of a multi-step Q&A flow really easy, very similar to defining a main chat flow. An extended Q&A flow also functions like the main chat flow, supporting all the powerful functions, such as [detecting user sentiment](https://youtu.be/HwrGulGsTUk) and [](https://youtu.be/lNv0Ud8V2Co)[personalizing messages](https://youtu.be/lNv0Ud8V2Co) based on user characteristics.  The only difference is that an extended Q&A flow can be activated ***anytime*** during a conversation to provide users with ***just-in-time*** help. 
 
 If you want to see more of such powerful Q&A response in action, checkout this [YouTube video](https://youtu.be/6kzST4vO_KU).
