@@ -34,8 +34,8 @@ It's that simple. Let's see the effects.
 
 ![The chatbot first checks the user's location, then provides the nearest branch's location](/assets/uploads/screen-shot-2020-05-12-at-11.54.45-pm.png "The chatbot first checks the user's location, then provides the nearest branch's location")
 
-This is exactly what we wanted. The chatbot not only provided the nearest branch's location according to user's neighborhood, it also resumed its original flow.
+As shown in the screenshots above, the chatbot not only provided the nearest branch's location according to user's neighborhood, it also resumed its original flow.
 
-Although we have made it looks really easy, the extended reply is very powerful. A doctor can use it to answer user's question on symptoms; whereas, an online store can use it to make recommendation when an user asks about its products. Since the extended reply works just like the main chat flow, designer can also record attributes, create followups and all kinds of powerful topics.
+Although we have made it looks really easy, the extended reply is very powerful. A doctor can use it to answer patients' questions base on their symptoms; whereas, an online store can use it to make recommendation when an user asks about its products. Since the extended reply works just like the main chat flow, designer can also record attributes, create followups and all kinds of powerful topics.
 
-If you want to see creation of such powerful Q&A response in action, checkout this [YouTube video](https://youtu.be/6kzST4vO_KU).
+If you want to see more of such powerful Q&A response in action, checkout this [YouTube video](https://youtu.be/6kzST4vO_KU).
