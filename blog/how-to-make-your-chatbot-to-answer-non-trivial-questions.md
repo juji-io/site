@@ -34,7 +34,9 @@ Using the example I mentioned above, I first create a topic that asks which city
 
 It's that simple. Let's see the effects.
 
-![The chatbot first checks the user's location, then provides the nearest branch's location](/assets/uploads/screen-shot-2020-05-12-at-11.54.45-pm.png "The chatbot first checks the user's location, then provides the nearest branch's location")
+![The chatbot first checks the user's location, then provides the nearest branch's location](/assets/uploads/screen-shot-2020-05-12-at-11.50.17-pm.png "The chatbot first checks the user's location, then provides the nearest branch's location")
+
+![Another example of the chatbot providing the nearest branch's location with respect to the user's location](/assets/uploads/screen-shot-2020-05-12-at-11.51.09-pm.png "Another example of the chatbot providing the nearest branch's location with respect to the user's location")
 
 As shown in the screenshot above, not only can the chatbot provide the nearest branch's location according to a user's response, but it can also remember and resume the original conversation flow after it finishes the side Q&A flow. In fact, a Juji chatbot always ***automatically*** handles such side Q&A flow anywhere during a conversation and gracefully resumes to its original task flow (e.g., the workflow of making a reservation). 
 
@@ -58,27 +60,9 @@ Assume that a chatbot is helping a customer book a table at a restaurant. During
 
 Similarly,  in e-commerce, when a user asks for a product recommendation, a smart retail chatbot asks the user his/her preferences before making a suggestion. 
 
+![An online book store chatbot use the extended Q&A flow to make book recommendation](/assets/uploads/screen-shot-2020-05-15-at-3.09.13-pm.png "An online book store chatbot use the extended Q&A flow to make book recommendation")
 
-
-<Wenxi, put a screenshot of chat
-
-User: Could you recommend a book for me?
-
-Chatbot: Gladly. Let me ask you a couple of quick questions
-
-Chatbot: What's your favorite genre
-
-User: ...
-
-Chatbot: What do you like most of it...
-
-User:..
-
-Chatbot: here is a book... 
-
-
-
-\>
+- - -
 
 Juji has made the handling of a multi-step Q&A flow really easy, very similar to defining a main chat flow. An extended Q&A flow also functions like the main chat flow, supporting all the powerful functions, such as [detecting user sentiment](https://youtu.be/HwrGulGsTUk) and [](https://youtu.be/lNv0Ud8V2Co)[personalizing messages](https://youtu.be/lNv0Ud8V2Co) based on user characteristics.  The only difference is that an extended Q&A flow can be activated ***anytime*** during a conversation to provide users with ***just-in-time*** help. 
 
