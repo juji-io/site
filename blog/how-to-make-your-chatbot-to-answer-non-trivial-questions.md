@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: false
-title: How to make your chatbot to answer non-trivial questions
+title: How to teach your chatbot to answer non-trivial questions
 date: 2020-05-11T01:07:45.510Z
 author: Wenxi Chen
 category: Guides
