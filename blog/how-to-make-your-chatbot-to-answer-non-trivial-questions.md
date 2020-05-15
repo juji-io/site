@@ -18,7 +18,7 @@ While the majority of customer questions can be handled in such a way, there are
 
 - - -
 
-Next I will show you how this can be easily done using the Q&A Board in Juji Studio.  
+I will now show you how this can be easily done using the Q&A Board in Juji Studio.  
 
 ![Click on extended reply button to initiate your Q&A flow](/assets/uploads/screen-shot-2020-05-12-at-11.19.35-pm.png "Click on the extended reply button to create a flow to handle the question")
 
