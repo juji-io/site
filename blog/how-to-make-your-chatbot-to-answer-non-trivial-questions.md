@@ -38,7 +38,7 @@ It's that simple. Let's see the effects.
 
 ![Another example of the chatbot providing the nearest branch's location with respect to the user's location](/assets/uploads/screen-shot-2020-05-12-at-11.51.09-pm.png "Another example of the chatbot providing the nearest branch's location with respect to the user's location")
 
-As shown in the screenshot above, not only can the chatbot provide the nearest branch's location according to a user's response, but it can also remember and resume the original conversation flow after it finishes the side Q&A flow. In fact, a Juji chatbot always ***automatically*** handles such side Q&A flow anywhere during a conversation and gracefully resumes to its original task flow (e.g., the workflow of making a reservation). 
+As shown in the screenshots above, not only can the chatbot provide the nearest branch's location according to a user's response, but it can also remember and resume the original conversation flow after it finishes the side Q&A flow. In fact, a Juji chatbot always ***automatically*** handles such side Q&A flow anywhere during a conversation and gracefully resumes to its original task flow (e.g., the workflow of making a reservation). 
 
 Such an extended Q&A flow is very powerful and can be used in many applications and domains. Below I share several example uses.
 
