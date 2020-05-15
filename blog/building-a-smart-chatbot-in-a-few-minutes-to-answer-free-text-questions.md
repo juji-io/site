@@ -32,7 +32,7 @@ First, click on the “Download” button to download the CSV template. All you 
 
 ![Sample Q&A csv content](/assets/uploads/qa5.png "Sample Q&A csv content")
 
-The ID column is useful for you to group the alternative expressions of a question so they can share the same answer(s), although the chatbot can also automatically detect many matched question expressions. A comment is optional. You can learn more about the [format here](https://docs.juji.io/design/#customize-qa-and-fallback).
+The ID column is useful for you to group the alternative expressions of a question so they can share the same answer(s), although the chatbot can also automatically detect many matched question expressions. A comment is optional. You can learn more about the [format here](/docs/design/#customize-qa-and-fallback).
 
 Once you are done, save it into a csv file (simply choose to “Save As…” a .csv in Excel) and then upload it.
 
@@ -42,7 +42,7 @@ Now the moment of truth! You can always **PREVIEW** your chatbot before publishi
 
 ![AI Chatbot understands question worded a bit different from the ones in the csv file](/assets/uploads/qa7.png "AI Chatbot understands question worded a bit different from the ones in the csv file")
 
-Once you are ready to publish, click on **DEPLOY** to publish your chatbot to a Facebook Messenger or on a website. More [details](https://docs.juji.io/release/) here.
+Once you are ready to publish, click on **DEPLOY** to publish your chatbot to a Facebook Messenger or on a website. More [details](/docs/release/) here.
 
 ![Deploy a chatbot to Facebook messenger](/assets/uploads/qa8.png "Deploy a chatbot to Facebook messenger")
 

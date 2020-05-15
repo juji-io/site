@@ -33,7 +33,7 @@
 
 @font-face {
     font-family:GothamRounded-Medium;
-    src:url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('opentype'),url(/assets/fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('truetype'),url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.svg#GothamRounded-Medium) format('svg');
+    src:url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('opentype'),url(/assets/fonts/GothamRounded-Book/GothamRounded-Book.woff) format('woff'),url(/assets/fonts/GothamRounded-Medium/GothamRounded-Medium.otf) format('truetype');
     font-weight:400;
     font-style:normal;
     font-display: swap;
@@ -303,7 +303,7 @@ button:select {
 .popup-window-w-background {
 
     background-size: cover;
-    background-image: url(/assets/img/ui/grey-bg.png);
+    /*background-image: url(/assets/img/ui/grey-bg.png);*/
     background-repeat: no-repeat;
 }
 

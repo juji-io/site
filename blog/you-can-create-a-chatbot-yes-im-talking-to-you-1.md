@@ -40,7 +40,7 @@ Juji provides a set of chatbot templates. For our purposes, let's choose the bla
 
 ## **Customize Chatbot Welcome and Wrap-up Messages**
 
-The blank template comes with two conversation topics, one is a "***Welcome***" topic that greets users at the beginning of a chat, while the "***Wrap-up***" topic lets users know if the chatbot will hang around or greet a user goodbye. As shown in the screenshots below, you can easily customize both the welcome and wrap-up messages to suit your audience. If you prefer, you can also [customize the ending options](https://docs.juji.io/design/), such as looping back to the beginning of the chat. 
+The blank template comes with two conversation topics, one is a "***Welcome***" topic that greets users at the beginning of a chat, while the "***Wrap-up***" topic lets users know if the chatbot will hang around or greet a user goodbye. As shown in the screenshots below, you can easily customize both the welcome and wrap-up messages to suit your audience. If you prefer, you can also [customize the ending options](/docs/design/), such as looping back to the beginning of the chat. 
 
 ![Welcome and Wrap-up messages shown on the starting page.](/assets/uploads/startingscreen.png "Blank Template Starting Page")
 
@@ -60,7 +60,7 @@ As shown below, the CSV template contains four columns:
 
 *ID*  | *Question* | *Answer* | *Comment*
 
-You can give a meaningful ID to index your Q&A pair and also use it to group alternative question or answer expressions. With the same ID, you can have multiple question variations and one answer for all those questions. Every chatbot template automatically comes with a default Q&A list, which you can customize. Pay attention to the answers in the CSV ended with "#", indicating a default system reply to be modified. Here is [more information](https://docs.juji.io/design/#customize-qa-and-fallback) on customizing Q&As. 
+You can give a meaningful ID to index your Q&A pair and also use it to group alternative question or answer expressions. With the same ID, you can have multiple question variations and one answer for all those questions. Every chatbot template automatically comes with a default Q&A list, which you can customize. Pay attention to the answers in the CSV ended with "#", indicating a default system reply to be modified. Here is [more information](/docs/design/#customize-qa-and-fallback) on customizing Q&As. 
 
 ![A closer look at the formatting of the CSV file.](/assets/uploads/jujicsv.png "Example of a CSV Template Downloaded from the Q&A Board")
 
@@ -70,7 +70,7 @@ Juji uses machine learning to match a user-inquiry with the questions you entere
 
 ![Chatbot recommends a list of questions based on a user's question for the user to choose from.](/assets/uploads/questionrecommendation2.png "Question Recommendation")
 
-Once you are satisfied with your chatbot, you can then [deploy it ](https://docs.juji.io/release/)to meet your audience, either on your Facebook page or your website.  
+Once you are satisfied with your chatbot, you can then [deploy it ](/docs/release/)to meet your audience, either on your Facebook page or your website.  
 
 This [Youtube video](https://www.youtube.com/watch?v=XkI9c4iBwl8) recaps what we covered in the blog post. As you can see, creating an AI chatbot is easy and fast, perhaps easier than making PowerPoint slides. 
 
