@@ -38,25 +38,23 @@ It's that simple. Let's see the effects.
 
 As shown in the screenshot above, not only can the chatbot provide the nearest branch's location according to a user's response, but it can also remember and resume the original conversation flow after it finishes the side Q&A flow. In fact, a Juji chatbot always ***automatically*** handles such side Q&A flow anywhere during a conversation and gracefully resumes to its original task flow (e.g., the workflow of making a reservation). 
 
-Such an extended Q&A flow is very powerful. As shown below, a patient is requesting a doctor's appointment.  A smart healthcare chatbot then asks the patient about his/her symptoms before giving a proper response.  
+Such an extended Q&A flow is very powerful and can be used in many applications and domains. Below I share several example uses.
 
-<Wenxi, Put a screenshot of chat
+### Healthcare
 
-User: Can you help me see a doc?
+In patient engagement, as shown below, a patient is requesting a doctor's appointment.  A smart healthcare chatbot can ask the patient about his/her symptoms before giving a proper response.  
 
-Chatbot: Sure. Let me ask you a couple of questions first.
+![An extended Q&A flow between a user and a healthcare chatbot](/assets/uploads/healthcare-chatbot-extended-q-a.png "An extended Q&A flow between a user and a healthcare chatbot")
 
-Chatbot: Are you having a fever now?
+### Office Administration: Restaurant Reservation
 
-User: Certainly.
+Assume that a chatbot is helping a customer book a table at a restaurant. During the booking flow, a customer may interrupt the flow with a question about the validation of a coupon, as shown below. To respond properly, the chatbot activates an extended Q&A flow before returning to the table reservation flow. As you can imagine, such a Q&A flow can be used in any similar tasks, such as booking a reservation with a travel chatbot and booking an appointment with a real-estate chatbot. 
 
-Chatbot: How long have you had it?
+![An extended Q&A flow between a user and a chatbot in the middle of restaurant reservation](/assets/uploads/screen-shot-2020-05-15-at-2.26.45-pm.png "An extended Q&A flow between a user and a chatbot in the middle of restaurant reservation")
 
-User: for a few days now.
+![Continued from the above: an extended Q&A flow in the middle of restaurant reservation](/assets/uploads/screen-shot-2020-05-15-at-2.27.24-pm.png "Continued from the above: an extended Q&A flow in the middle of restaurant reservation")
 
-Chatbot: Got it. Someone will be in touch today. 
-
-\>
+### E-Commerce
 
 Similarly,  in e-commerce, when a user asks for a product recommendation, a smart retail chatbot asks the user his/her preferences before making a suggestion. 
 
