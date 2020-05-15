@@ -60,7 +60,7 @@ Assume that a chatbot is helping a customer book a table at a restaurant. During
 
 Similarly,  in e-commerce, when a user asks for a product recommendation, a smart retail chatbot asks the user his/her preferences before making a suggestion. 
 
-![An online book store chatbot use the extended Q&A flow to make book recommendation](/assets/uploads/screen-shot-2020-05-15-at-3.09.13-pm.png "An online book store chatbot use the extended Q&A flow to make book recommendation")
+![An online book store chatbot use the extended Q&A flow to make book recommendation](/assets/uploads/screen-shot-2020-05-15-at-3.35.51-pm.png "An online book store chatbot use the extended Q&A flow to make book recommendation")
 
 - - -
 
