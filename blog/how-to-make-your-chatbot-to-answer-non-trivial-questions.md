@@ -41,7 +41,7 @@ It's that simple. Let's see the effects.
 
 ![Another example of the chatbot providing the nearest branch's location with respect to the user's location](/assets/uploads/screen-shot-2020-05-12-at-11.51.09-pm.png "Another example of the chatbot providing the nearest branch's location with respect to the user's location")
 
-As shown in the screenshot above, not only can such an AI chatbot provide the nearest branch's location according to a user's response, but it can also remember and resume the original conversation flow after it finishes the Q&A flow. In fact, the best AI chatbots should always ***automatically*** handle such a side Q&A flow anywhere during a conversation and gracefully resume to its original task flow (e.g., the workflow of making a reservation). 
+As shown in the screenshot above, not only can such an AI chatbot provide the nearest branch's location according to a user's response, but it can also remember and resume the original conversation flow after it finishes the Q&A flow. In fact, Juji chatbots ***automatically*** handle such a side Q&A flow anytime during a conversation and gracefully resume to their original task flow (e.g., the workflow of making a reservation). 
 
 Such an extended Q&A flow is very powerful and can be used in many applications and domains. Below I share several more use cases.
 
@@ -69,6 +69,6 @@ Similarly,  in e-commerce, when a user asks for a product recommendation, a smar
 
 - - -
 
-Juji has made the handling of a multi-step Q&A flow really easy, very similar to defining a main chat flow. An extended Q&A flow also functions like the main chat flow, supporting all the powerful functions, such as [detecting user sentiment](https://youtu.be/HwrGulGsTUk) and [](https://youtu.be/lNv0Ud8V2Co)[personalizing messages](https://youtu.be/lNv0Ud8V2Co) based on user characteristics.  The only difference is that an extended Q&A flow can be activated ***anytime*** during a conversation to provide users with ***just-in-time*** help. 
+To help chatbot designers and developers build the best AI chatbots, Juji has made the handling of complex user questions super easy. One just needs to define a multi-step Q&A flow,  similar to defining a main chat flow. A Q&A flow also functions like the main chat flow, supporting all the powerful functions, such as [detecting user sentiment](https://youtu.be/HwrGulGsTUk) and [](https://youtu.be/lNv0Ud8V2Co)[personalizing messages](https://youtu.be/lNv0Ud8V2Co) based on user characteristics.  The only difference is that a multi-step Q&A flow can be activated ***anytime*** during a conversation to provide users with ***just-in-time*** help. 
 
 If you want to see more of such powerful Q&A response in action, checkout this [YouTube video](https://youtu.be/6kzST4vO_KU).
