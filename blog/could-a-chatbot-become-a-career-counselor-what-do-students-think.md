@@ -16,7 +16,7 @@ credit: Photo by Dominik Scythe on Unsplash
 ---
 Students have difficulty receiving career support due to the low advisor-to-student ratio. It is possible to create a chatbot that could act as a career counselor. Currrently, research on chatbots acting as a career counselor is understudied. The implications could be significant, it could reduce the impacted schedules of counselors by augmenting their work or answer student inquiries 24/7.
 
-An experimental survey implemented into a chatbot was created with Juji Inc.'s platform, which asked 350 students in a business department at a large university on their thoughts of how chatbots could become a counselor. Students were very creative and gave very interesting insights on chatbots as career counselors. The following paragraphs cover the students' ideas and their required needs in a career counseling bot. 
+An experimental survey implemented into a chatbot was created with Juji Inc.'s platform, which asked 350 students in a business department at a large university on their thoughts of how chatbots could become a counselor. Students were very creative and gave interesting insights on chatbots as career counselors. The following paragraphs cover the students' ideas and their required needs in a career counseling bot. 
 
 Students' ideas were summed up into 4 major themes:
 
@@ -33,4 +33,4 @@ Another major theme was augmenting counselors' work. By this, students meant tha
 
 The final theme was providing career counseling. In other words, students wanted the chatbot to become the counselor by providing career advice and giving guidance on the necessary courses for graduation. 
 
-The four themes derived from the study are very important to consider. It would be helpful to refer to the research paper and implement students' suggestions in chatbots related to counseling. For now, research and an application of chatbots as counselors is still ongoing.
+The four themes derived from the study are very important to consider. It would be helpful to refer to the research paper and implement students' suggestions in chatbots related to counseling. For now, research and an application of chatbots as counselors is still ongoing. It may be helpful to consider the paper not only for its use case in counseling, but reflect on users' needs in other possibilities.
