@@ -29,4 +29,4 @@ First, students would like a career counseling bot that can offer information an
 
 Next, providing intervention on career development was another theme commonly mentioned by students. Interestingly enough, students wanted varying degrees of intervention in their career development. The first intervention method they suggested was reminders for upcoming career events, such as career fairs or career workshops, like resume building or LinkedIn profile workshops. The next intervention method was goal tracking. Students wanted to be able to set personal goals and deadlines for themselves through conversation with the chatbot and receive reminders on their progress towards those goals, such as receiving an internship. The final intervention method was assistance in career development through mock interviews and resume scanning. Notice that the degree of intervention increases.
 
-Another major theme was augmenting counselors' work. By this
+Another major theme was augmenting counselors' work. By this, students meant that the chatbot could act as a medium between advisors and students connecting the two parties together. They suggested
