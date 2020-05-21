@@ -25,4 +25,8 @@ Students' ideas were summed up into 4 major themes:
 3. Augmenting counselors' work
 4. Providing career counseling
 
-First, students would like a career counseling bot that can offer information and recommendations. More specifically, they would like information related to the university, such as answers to questions about financial aid, school holidays, and ca
+First, students would like a career counseling bot that can offer information and recommendations. More specifically, they would like to be connected to information related to the university, such as answers to questions about financial aid deadlines, school holidays, and career advice. They also have high hopes for the chatbot and would like it to recommend career choices based on their conversation with the chatbot. In other words, be able to capture students' personality. 
+
+Next, providing intervention on career development was another theme commonly mentioned by students. Interestingly enough, students wanted varying degrees of intervention in their career development. The first intervention method they suggested was reminders for upcoming career events, such as career fairs or career workshops, like resume building or LinkedIn profile workshops. The next intervention method was goal tracking. Students wanted to be able to set personal goals and deadlines for themselves through conversation with the chatbot and receive reminders on their progress towards those goals, such as receiving an internship. The final intervention method was assistance in career development through mock interviews and resume scanning. Notice that the degree of intervention increases.
+
+Another major theme was augmenting counselors' work. By this
