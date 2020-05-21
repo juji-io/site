@@ -14,4 +14,9 @@ tags:
 image: /assets/uploads/dominik-scythe-sot0f3hqq4y-unsplash.jpg
 credit: Photo by Dominik Scythe on Unsplash
 ---
-S
+* Introduce need for the study
+* Talk about main findings
+
+
+
+Currrently, research on chatbots acting as a career counselor is understudied. With the research paper
