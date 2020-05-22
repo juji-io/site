@@ -8,9 +8,6 @@ author: Terri Lee
 category: Guides
 tags:
   - DIY AI Chatbot
-  - Best AI Chatbot
-  - AI Chatbot
-  - Chatbot
 image: /assets/uploads/alphabet-word-images-1292931_1280.png
 credit: Image by OpenClipart-Vectors from Pixabay
 ---
