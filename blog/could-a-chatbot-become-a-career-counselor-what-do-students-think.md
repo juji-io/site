@@ -6,13 +6,8 @@ date: 2020-05-04T02:50:05.880Z
 author: Terri Lee
 category: Study
 tags:
-  - Chatbot
-  - AI chatbot
-  - best AI chatbot
-  - facebook messenger bot
-  - chatbot use case
+  - Use case
   - DIY AI chatbot
-  - AI
 image: /assets/uploads/dominik-scythe-sot0f3hqq4y-unsplash.jpg
 credit: Photo by Dominik Scythe on Unsplash
 ---
