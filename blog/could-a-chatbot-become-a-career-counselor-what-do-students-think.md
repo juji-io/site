@@ -4,7 +4,7 @@ featured: false
 title: Chatbot as a Career Counselor? What do Students Think?
 date: 2020-05-04T02:50:05.880Z
 author: Terri Lee
-category: Viewpoints
+category: Study
 tags:
   - Chatbot
   - AI chatbot
