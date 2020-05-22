@@ -7,6 +7,7 @@ author: Terri Lee
 category: Study
 tags:
   - Use Cases
+  - Education
 image: /assets/uploads/dominik-scythe-sot0f3hqq4y-unsplash.jpg
 credit: Photo by Dominik Scythe on Unsplash
 ---
