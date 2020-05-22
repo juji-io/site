@@ -6,8 +6,7 @@ date: 2020-05-04T02:50:05.880Z
 author: Terri Lee
 category: Study
 tags:
-  - Use case
-  - DIY AI chatbot
+  - Use Cases
 image: /assets/uploads/dominik-scythe-sot0f3hqq4y-unsplash.jpg
 credit: Photo by Dominik Scythe on Unsplash
 ---
