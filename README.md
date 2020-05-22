@@ -29,4 +29,4 @@ Edit `_data/authors.json`
 
 ## Add Category to Blog
 
-Edit `_data/categories.json`
+Edit `_data/categories.json`, then edit `_includes/blog/partials/nav.njk`
