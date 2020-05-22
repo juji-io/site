@@ -11,7 +11,7 @@ tags:
 image: /assets/uploads/changbok-ko-f8t2vgni47i-unsplash.jpg
 credit: Photo by Changbok Ko on Unsplash
 ---
-Students have difficulty receiving career advice due to the low advisor-to-student ratio. I know that's true for me. Sometimes I would forgot to make an appointment with a counselor, dropped-in, and waited an hour to see one. Other times I avoided the office entirely because I knew appointments were full. How could such issues be solved? Maybe it's possible to create a chatbot that could act as a career counselor. 
+Students have difficulty receiving career advice due to the low advisor-to-student ratio. I know that's true for me. Sometimes I would forgot to make an appointment with a counselor, dropped-in, and waited an hour to see one. Other times I avoided the office entirely because I knew appointments were full. How could such issues be solved? Maybe it's possible to create a chatbot that could act as a career counselor.
 
 The implications of a career counseling bot could be significant, it could reduce the impacted schedules of counselors by augmenting their work and answering student inquiries 24/7. However, understanding whether chatbots could act as a career counselor is still under studied. 
 
