@@ -7,6 +7,7 @@ date: 2020-04-15T23:18:27.464Z
 author: Terri Lee
 category: Guides
 tags:
+  - Juji Studio
   - DIY AI Chatbot
 image: /assets/uploads/alphabet-word-images-1292931_1280.png
 credit: Image by OpenClipart-Vectors from Pixabay
