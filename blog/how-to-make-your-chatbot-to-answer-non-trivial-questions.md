@@ -9,7 +9,6 @@ tags:
   - Juji Studio
   - Question Answering
   - AI Chatbot
-  - Chatbot
   - Customer Support Chatbot
   - Healthcare Chatbot
 image: /assets/uploads/questions-answers-signage-208494.jpg
