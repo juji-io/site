@@ -8,9 +8,9 @@ category: Guides
 tags:
   - Juji Studio
   - Question Answering
-  - AI Chatbot
-  - Customer Support Chatbot
-  - Healthcare Chatbot
+  - DIY AI Chatbot
+  - Customer Support
+  - Healthcare
 image: /assets/uploads/questions-answers-signage-208494.jpg
 credit: Pixabay
 ---
