@@ -33,6 +33,4 @@ Another major theme was augmenting counselors' work. By this, students meant tha
 
 The final theme was providing career counseling. In other words, students wanted the chatbot to become the counselor by providing career advice and giving guidance on the necessary courses for graduation. 
 
-The four themes derived from the study are very important to consider. It would be helpful to refer to the research paper and implement students' suggestions in chatbots related to counseling. For now, research and an application of chatbots as counselors is still ongoing. 
-
-Besides the paper's focus on the use case in counseling, it may be helpful to reflect on the users' needs and suggestions in other applications of chatbots.
+The four themes derived from the study are very important to consider. It would be helpful to refer to the research paper and implement students' suggestions in chatbots related to counseling. Besides the paper's focus on the use case in counseling, it may be helpful to reflect on the users' needs derived from the study in other applications of chatbots.
