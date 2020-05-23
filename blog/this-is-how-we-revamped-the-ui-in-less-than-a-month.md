@@ -14,7 +14,7 @@ credit: Photo by Michał Parzuchowski on Unsplash
 ---
 We all know that user interface (UI) development is an iterative process. It is important that we can iterate quickly based on user feedbacks. At Juji, we have been constantly searching for solutions that enable faster iterations for our Juji Studio product. Around the end of last year, we did a major revamp of Juji Studio UI. By all accounts, this change made a huge difference in term of usability of Juji Studio. More importantly, we can now iterate much faster than previously possible. What's more, we did the wholesale changes in less than one month! Here is how we did it.
 
-One of the main innovations that we came up with is a new way to handle the client-server communication for a single page application (SPA). Instead of sending resource oriented API calls, the client sends the diffs of its data model back to the server, and server applies the diffs to its own copy of the data model for persistence.
+One of the main innovations that we came up with is a new way to handle the client-server communication for a single page application (SPA). Instead of sending resource oriented API calls, the client sends the changes of its data model back to the server, and server applies the changes to its own copy of the data model for persistence. We developed the necessary [diffing library](https://github.com/juji-io/editscript) and open-sourced it on github.
 
 For some background, we have long adopted GraphQL as the API language, with which the server side and the Web client speak to each other. GraphQL has been a good choice, as it is fairly flexible and there are a slew of tools to make it convenient to use. As our product grew in features, we started to feel that changes became harder to make, and iterations slowed down to a crawl. 
 
@@ -38,3 +38,4 @@ With this scheme, to change the functionality of the UI, all that is necessary i
 Because the frontend developers had complete control of the data model and did not need to be concerned with the server side, they could quickly revamp the entire UI of Juji Studio. It took less than a month to go from the design conception to the end of implementation. And the resulting product is nothing short of stunning. 
 
 Obviously, I have glossed over many implementation details of this data diff driven architecture. For example, issues about data validation, dealing with errors, dealing with multiple browser tabs and multiple browsers, and so on, are too numerous for the space of an article. The gist of this post, however, is to introduce this idea of data diff oriented software architecture, and to outline its benefits of increasing modularity and decoupling, and thereby decreasing the friction for change and the time to market.  
+
