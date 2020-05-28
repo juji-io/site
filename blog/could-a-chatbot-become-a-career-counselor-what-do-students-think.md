@@ -19,7 +19,7 @@ The implications of a career counseling bot could be significant, it could reduc
 
 To gain a better understanding of the possibility, I designed and conducted a research study where a chatbot made on the [Juji platform](https://juji.io/docs/juji-studio/) was used to survey students. The bot asked 350 students in the Lucas College of Business at San Jose State University on their thoughts of how it could serve as a counselor.
 
-![](/assets/uploads/screen-shot-2020-05-22-at-10.09.00-am.png "Sample chat of the survey used in the study")
+![](/assets/uploads/career_chat.png "Sample chat of the survey used in the study")
 
 ## Findings
 
