@@ -40,6 +40,6 @@ Another major theme was augmenting counselors' work. By this, students meant tha
 
 The final theme was providing career counseling. In other words, students wanted the chatbot to become the counselor by providing career advice and giving guidance on the necessary courses for graduation. 
 
-The four themes derived from the study can be used to guide the implementation of a chatbot as a career counselor for students. For more detailed information on this study, please refer to our [full paper](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1264&context=amcis2019).
+The four themes derived from the study can be used to guide the implementation of a chatbot as a career counselor for students. For more detailed information on this study, please refer to our [full paper](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1264&context=amcis2019) published in [The Americas Conference on Information Systems 2019](https://amcis2019.aisconferences.org/about/about-amcis/) (AMCIS 2019). 
 
 A chatbot as a counselor could be helpful for both students and counselors. For students, they could receive advice and/or answers to burning questions, 24x7. For counselors, the repetitive tasks, such as answering frequently asked questions could be done by the chatbot, leaving them more time for more important work, such as giving advice. Overall, I think this use case could be extremely valuable for chatbot designers or developers who focus on education applications.
