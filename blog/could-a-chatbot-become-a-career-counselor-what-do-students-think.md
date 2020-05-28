@@ -2,7 +2,7 @@
 layout: blog/article.njk
 featured: true
 title: Chatbot as a Career Counselor? What do Students Think?
-date: 2020-05-04T02:50:05.880Z
+date: 2020-05-28T16:54:43.910Z
 author: Terri Lee
 category: Study
 tags:
