@@ -13,9 +13,14 @@ In an ideal world, the AI Chatbot you build would answer all user questions. How
 
 Say you add a question "Where do I log in?" Juji Chatbot would then use a machine learning model to expand the question so the Chatbot not only recognizes the exact question but also its innumerous variations (e.g., "where can I log in?") in chat. However, if the user asks "where do I sign up?", the machine learning model realizes it is likely not covered in the Q&A provided by the designer. In this case, a good AI chatbot would acknowledge the answer is not provided by its creator and may also suggests other ways for the user to look for the information (e.g., email the support). 
 
+![](/assets/uploads/screen-shot-2020-06-07-at-12.29.49-pm.png)
+
 Juji Chatbot goes one step further by suggesting user to check answers of closely related questions, because we recognize that even though the answer might not be directly provided, some answers to other questions may contain information to help the user. From the user's point of view, it will not cost him/her much to read some extrac potentially related information (especially when they are given the choice to select what they would like to read). On the other hand, it would save the business some time if the user's questions is resolved by those extra information. So this is really an win-win solution.
 
-So how does this get achieved? Given the Chatbot already possesses some Q&As the creator has provided, Juji builds another machine learning model that compares the existing Q&As and the question user asks. The model then suggests questions that are closely related to the user, the user can then select the one that s/he is interested or None of above. 
+So how does this get achieved? Given the Chatbot already possesses some Q&As the creator has provided, Juji builds another machine learning model that compares the existing Q&As and the question user asks. The model then suggests questions that are closely related to the user, the user can then select the one that s/he is interested or None of above.
 
-  
 
+
+![](/assets/uploads/screen-shot-2020-06-07-at-12.40.39-pm.png)
+
+![](/assets/uploads/screen-shot-2020-06-07-at-12.41.49-pm.png)
