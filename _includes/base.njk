@@ -160,15 +160,14 @@
     </header>
 
     <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <!-- Your customer chat code -->
-    <div class="fb-customerchat"
-         attribution=setup_tool
-         page_id="802085396544971"
-         theme_color="#28BD8B"
-         logged_in_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!"
-         logged_out_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!">
-    </div>
+    <!--<div id="fb-root"></div>-->
+    <!--<div class="fb-customerchat"-->
+         <!--attribution=setup_tool-->
+         <!--page_id="802085396544971"-->
+         <!--theme_color="#28BD8B"-->
+         <!--logged_in_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!"-->
+         <!--logged_out_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!">-->
+    <!--</div>-->
 
     {% block content %}
     {% endblock %}
@@ -261,7 +260,7 @@
 		    <button type="button" class="side-nav-item">
 		      <a href="https://twitter.com/juji_io?ref_src=twsrc%5Etfw" data-show-count="false">
 			<img class="lazyload social-icon" alt="twitter icon" data-src="/assets/img/ui/twitter-icon.png"> </a>
-		      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+					<!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">-->
 		      </script>
 		    </button>
 		  </li>
@@ -409,21 +408,21 @@
         false, false);
       ga('send', 'pageview');
     </script>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v6.0'
-        });
-      };
+    <!--<script>-->
+      <!--window.fbAsyncInit = function() {-->
+        <!--FB.init({-->
+          <!--xfbml            : true,-->
+          <!--version          : 'v6.0'-->
+        <!--});-->
+      <!--};-->
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+      <!--(function(d, s, id) {-->
+        <!--var js, fjs = d.getElementsByTagName(s)[0];-->
+        <!--if (d.getElementById(id)) return;-->
+        <!--js = d.createElement(s); js.id = id;-->
+        <!--js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';-->
+        <!--fjs.parentNode.insertBefore(js, fjs);-->
+      <!--}(document, 'script', 'facebook-jssdk'));</script>-->
 
     {% endblock %}
   </body>
