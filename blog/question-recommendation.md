@@ -27,7 +27,7 @@ So how about the third case? What happens when your chatbot doesn't understand t
 
 Traditionally there's nothing a chatbot can do if it does not understand the question. Fortunately, it's no longer the case. At Juji, we introduced a question answer recommendation mechanism to help dealing with just that.
 
-A while ago, my friend Sarah created a Juji chatbot as a receptionist on her website, where she hosted a lot of fun educational tasks for visitors. However, the visitor could only accumulate the task rewards if they were logged in. So she added a Q&A to handle question such as "Where do I log in?" 
+A while ago, my friend Sarah created a Juji chatbot as a receptionist on her website, where she hosted a lot of fun educational tasks for visitors. However, the visitor could only accumulate the task rewards if they were logged in. So she added a Q&A to handle questions such as "Where do I log in?" 
 
 ![Juji AI chatbot uses machine learning model to answer a user question](/assets/uploads/screen-shot-2020-06-07-at-12.29.49-pm.png "Juji AI chatbot uses machine learning model to answer a user question")
 
