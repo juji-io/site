@@ -25,7 +25,7 @@ If it is the first reason, there's pretty much nothing the chatbot can do. On th
 
 So how about the third case? What happens when your chatbot doesn't understand the user's question?
 
-Traditionally there's nothing a chatbot can do if it does not understand the question. Fortunately, it's no longer the case. At Juji, we introduced a question answer recommendation mechanism to help dealing with this situation specifically.
+Traditionally there's nothing a chatbot can do if it does not understand the question. Fortunately, it's no longer the case. At Juji, we introduced a question answer recommendation mechanism to help dealing with just that.
 
 A while ago, my friend Sarah created a Juji chatbot as a receptionist on her website, where she hosted a lot of fun educational tasks for visitors. However, the task rewards would only accumulate if the visitor was logged in. So she added a Q&A to handle question such as "Where do I log in?" 
 
