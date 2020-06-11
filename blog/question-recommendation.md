@@ -7,6 +7,11 @@ author: Wenxi Chen
 category: Guides
 tags:
   - Juji Studio
+  - DIY AI Chatbot
+  - Free-text Q&A
+  - Question Answering
+  - Chatbot Question Answering
+  - Customer Support
 image: /assets/uploads/question-mark-1872634_1280.jpg
 credit: qimono
 ---
@@ -34,8 +39,10 @@ What's better? My friend Sarah did not need to anything to enjoy this feature. T
 
 ![Juji AI chatbot use another machine learning model to suggest related question answers](/assets/uploads/screen-shot-2020-06-07-at-12.40.39-pm.png "Juji AI chatbot use another machine learning model to suggest related question answers")
 
-As we can see in the screenshot, Kate is given a choice to seek further. If there's no question related, Kate can simply select "None of above" as default.
+As we can see in the screenshot, Kate was given a choice to seek further. If there's no question related, Kate could simply select "None of above".
 
 ![Juji AI chatbot provides related information after user selected an related question](/assets/uploads/screen-shot-2020-06-07-at-12.41.49-pm.png "Juji AI chatbot provides related information after user selected an related question")
 
-In this case, Kate thinks "Where do I log in?" is close enough to her question, so she want to learn more about it. Once the option is selected, Juji chatbot provides the answer to that question. It turns out to be very helpful, because the login page has a button to create an account.
+In this case, Kate thought "Where do I log in?" was close enough to her question, so she wanted to learn more about it. Once the option was selected, Juji chatbot provided the answer to that question. It turned out to be very helpful to Kate, because the login page has a button to create an account.
+
+Now you see, Juji AI chatbots are as hard working as Juji's engineers in providing the best service for you and your users. Of course, with the question answer recomentation mechanism in place, there can still be questions the chatbot cannot answer. Luckly, we provide a solution just for that. Next, we will talk about the Q&A dashboard that allows chatbot creators monitor their unanswered user questions in real time!
