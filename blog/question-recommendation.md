@@ -19,9 +19,11 @@ If it is the first reason, there's pretty much nothing the chatbot can do. On th
 
 How about the third case? Traditionally there's nothing chatbot can do if it does not understand the question. Fortunately, it's no longer the case. At Juji, we introduced a question recommendation mechanism to help dealing with this situation specifically.
 
-Say you add a question "Where do I log in?" Juji Chatbot would then use a machine learning model to expand the question so the Chatbot not only recognizes the exact question but also its innumerous variations (e.g., "where can I log in?") in chat. However, if the user asks "where do I sign up?", the machine learning model realizes it is likely not covered in the Q&A provided by the designer. In this case, a good AI chatbot would acknowledge the answer is not provided by its creator and may also suggests other ways for the user to look for the information (e.g., email the support). 
+My friend Sarah created a Juji chatbot as a receptionist on her website. She has a lot of fun educational tasks for visitors. However, the rewards will only accumulate if the visitor is logged in. So she added a Q&A to handle question such as "Where do I log in?" 
 
-![](/assets/uploads/screen-shot-2020-06-07-at-12.29.49-pm.png)
+![Juji AI chatbot uses machine learning model to answer a user question](/assets/uploads/screen-shot-2020-06-07-at-12.29.49-pm.png "Juji AI chatbot uses machine learning model to answer a user question")
+
+As shown in the screenshot above, Juji chatbot uses a machine learning model to expand the question so the it not only recognizes the exact question but also its innumerous variations (e.g., "where can I log in?"). However, if the user asks "where do I sign up?", the machine learning model would indicate it is likely not covered by the Q&As provided by the designer. In this case, a good AI chatbot would acknowledge that its creator has not provided an answer. It might also recommend other ways for the user to look for the information (e.g., email the support). 
 
 Juji Chatbot goes one step further by suggesting user to check answers of closely related questions, because we recognize that even though the answer might not be directly provided, some answers to other questions may contain information to help the user. From the user's point of view, it will not cost him/her much to read some extrac potentially related information (especially when they are given the choice to select what they would like to read). On the other hand, it would save the business some time if the user's questions is resolved by those extra information. So this is really an win-win solution.
 
