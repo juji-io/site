@@ -21,7 +21,7 @@ Answering user question is an essential task of a chatbot. You would like your c
 2. the user has not given enough information for the chatbot to answer his/her question;
 3. the chatbot fails to understand the question. 
 
-If it is the first reason, there's pretty much nothing the chatbot can do. On the other hand, the second case can be resolved if the chatbot's creator anticipated this potential complication and add a mini flow to handle it. In Juji Studio, this can be easily done by [adding an multi-turn reply to the question in Q&A Board](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/). 
+If it is the first reason, there's pretty much nothing the chatbot can do. On the other hand, the second case can be resolved if the chatbot's creator anticipates this potential complication and adds a mini flow to handle it. In Juji Studio, this can be easily done by [adding an multi-turn reply to the question in Q&A Board](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/). 
 
 So how about the third case? What happens when your chatbot doesn't understand the user's question?
 
