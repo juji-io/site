@@ -35,7 +35,7 @@ Since Juji chatbots use a machine learning model to expand the Q&A questions, th
 
 In fact Juji AI chatbots go one step further. They will try to suggest the user to check the answers of closely related questions. Even though the answer to the user's question might not be immediately available, some answers to other questions may contain related information. From the user's point of view, it will not cost him/her much to read related information, especially when they are given the choices to select what they would like to read. In contrast, it would provide immediate value to both the user and the business if the suggestion provides useful information.
 
-What's better? My friend Sarah did not need to anything to enjoy this feature. The answer suggestion is automatically activated when the chatbot creator provides their Q&As.
+What's better? Sarah did not need to anything to enjoy this functionality. The question answer suggestion is automatically activated when the chatbot creator provides their Q&As.
 
 ![Juji AI chatbot use another machine learning model to suggest related question answers](/assets/uploads/screen-shot-2020-06-07-at-12.40.39-pm.png "Juji AI chatbot use another machine learning model to suggest related question answers")
 
