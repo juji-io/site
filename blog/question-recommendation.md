@@ -18,7 +18,7 @@ credit: qimono
 ---
 # Customer Service Chatbots
 
-One of the most popular chatbot applications is perhaps to automate customer support tasks, where a chatbot automatically answers user questions, 24x7. In fact, in almost every chatbot application, a chatbot's ability to answer user questions, especially free-text questions, is always desirable. Just imagine that a travel chatbot is used in a marketing campaign to introduce a new travel destination to a target audience on Facebook Messenger. Customers who are interested in the product may want to ask questions about the new destination, such as "Do you offer a family package?" or "What's kind of travel package do you offer?". If a chatbot can understand such user questions and respond to them immediately, it turns a traditional, static marketing campaign into a live conversation, helping convert the visitors into customers instantly. On the other hand, if a chatbot does not allow users to ask any questions, it loses the precious opportunity to engage with users "on the spot".
+One of the most popular chatbot applications is perhaps to automate customer support tasks, where a chatbot automatically answers user questions, 24x7. In fact, in almost every chatbot application, a chatbot's ability to answer user questions, especially free-text questions, is always desirable. Just imagine that a travel chatbot is used in a marketing campaign to introduce a new travel destination to a target audience on Facebook Messenger. Customers who are interested in the product may want to ask questions about the new destination, such as "Do you offer a family package?" or "What kind of travel package do you offer?". If a chatbot can understand such user questions and respond to them immediately, it turns a traditional, static marketing campaign into a live conversation, helping convert the visitors into customers instantly. On the other hand, if a chatbot does not allow users to ask any questions, it loses the precious opportunity to engage with users "on the spot".
 
 ![Smart travel chatbot for marketing with Q&A support](/assets/uploads/screen-shot-2020-06-13-at-10.56.15-pm.png "Conversational Marketing for Travel with Q&A chatbot")
 
@@ -38,7 +38,7 @@ However, no matter how smart your chatbot is, there will always be user question
 
 Based on the three reasons listed above, a chatbot designer can use different methods to "fix" a chatbot and improve its abilities to handle user free-text questions. 
 
-## Improve a chatbot with more knowledge 
+## Improve a chatbot with more knowledge
 
 If it is the first reason, a chatbot designer wants to be notified whenever a user question is unanswered so that s/he can teach the chatbot to address the unanswered user questions. This way a chatbot will become smarter and smarter as it gains more knowledge. In fact, this is the topic of my next blog on how to monitor unanswered user questions so a chatbot can learn and be improved over time.  if you are interested in this topic, follow Juji [Linkedin page](https://www.linkedin.com/company/juji), which will feature each of our blogs.  
 
@@ -46,11 +46,9 @@ If it is the first reason, a chatbot designer wants to be notified whenever a us
 
 If it's the second case,  a chatbot designer could ask users to supply missing information by [adding a multi-turn reply to the question](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/). As shown below, the travel chatbot in our example above asks the user to provide more information before it gives out an answer.
 
- 
-
 ![A Facebook Messenger travel chatbot uses a multi-turn reply to ask a user question before replying to the user](/assets/uploads/screen-shot-2020-06-13-at-11.19.31-pm.png "A Facebook Messenger travel chatbot answers a user's question about travel promotions. In this multi-turn Q&A, the chatbot asks the user a question before it replies.")
 
-## Improve a chatbot to handle unknown user questions 
+## Improve a chatbot to handle unknown user questions
 
 So how about the third case? What happens when your chatbot doesn't understand a user's question?
 
