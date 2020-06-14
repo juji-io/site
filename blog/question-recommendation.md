@@ -24,9 +24,9 @@ As shown below,  a travel chatbot is used in a marketing campaign to introduce n
 
 ![A travel chatbot powered by AI enables user free-text Q&A](/assets/uploads/screen-shot-2020-06-13-at-10.56.15-pm.png "Conversational Marketing Chatbot for Travel with Q&A support")
 
-If a chatbot can understand such user questions and respond to them immediately, it will turn a traditional, static marketing campaign into an instant live conversation, helping convert the visitors into customers. perhaps immediately. The screenshot below shows that the travel chatbot understands a user's free-text question and responds to it immediately.
+If a chatbot can understand such user questions and respond to them immediately, it will turn a traditional, static marketing campaign into an instant live conversation, helping convert the visitors into customers, perhaps immediately. The screenshot below shows that the travel chatbot understands a user's free-text question and responds to it immediately.
 
-![A travel chatbot answers a user's question about travel destinations on Facebook Messenger](/assets/uploads/screen-shot-2020-06-13-at-11.19.08-pm.png "A Facebook Messenger travel chatbot answers a user's question about travel packages.")
+![A travel chatbot answers a user's question about travel destinations on Facebook Messenger](/assets/uploads/screen-shot-2020-06-14-at-1.20.30-pm.png "A Facebook Messenger travel chatbot answers a user's question about travel packages.")
 
 Since [66% customers leave after waiting for 2 minutes](https://info.ada.support/forrester-drive-personalization-with-a-conversational-chatbot-0) to get an answer, a chatbot's always-on, immediate responses could really give a business the advantage of serving its customers. On the opposite,  if a chatbot does not allow users to ask any questions, it will lose the precious opportunity to engage with the users "on the spot".  
 
@@ -50,7 +50,7 @@ If it is the first reason, a chatbot designer wants to be notified whenever a us
 
 If it's the second case,  a chatbot designer could ask users to supply missing information by [adding a multi-turn reply to the question](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/). As shown below, the travel chatbot in our example asks the user to provide additional information before it gives out an answer.
 
-![A Facebook Messenger travel chatbot uses a multi-turn reply when answering a user question](/assets/uploads/screen-shot-2020-06-13-at-11.19.31-pm.png "A Facebook Messenger travel chatbot answers a user's question about travel promotions. In this multi-turn Q&A, the chatbot asks the user a question before it replies.")
+![A Facebook Messenger travel chatbot uses a multi-turn reply when answering a user question](/assets/uploads/screen-shot-2020-06-14-at-1.21.28-pm.png "A Facebook Messenger travel chatbot answers a user's question about travel promotions. In this multi-turn Q&A, the chatbot asks the user a question before it replies.")
 
 ## Improve a chatbot to handle unknown user questions
 
@@ -58,11 +58,15 @@ So how about the third case? What happens when your chatbot doesn't understand a
 
 One approach is that a chatbot simply acknowledges that it does not understand the question. If you have used any of the smart voice devices, such as [Amazon Alexa](https://en.wikipedia.org/wiki/Amazon_Alexa) or [Google Home](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), you might have already been used to hearing their apologetic responses when they don't understand your commands.  Similarly, a chatbot could respond with something like  "Sorry, I don't know how to respond to your question." 
 
+### Question recommendation 
+
 While this "I don't understand your question" approach is straightforward, it does not really help a user get his/her question answered. Alternatively, another approach is to  power a chatbot with a question recommendation engine, which will automatically suggest a set of similar questions to a user if a chatbot doesn't understand his/her question or does not have enough confidence to interpret such a question.  
 
 Let me use the following use cases to explain how such a mechanism works, more importantly, how it helps improve customer experience and better customer service. 
 
 - - -
+
+### Use Case
 
 My friend Sarah hosts an educational website, which includes many fun, online educational games. She created a chatbot on Juji as her **website assistant**, who can guide her site visitors to navigate the site as well as answer their questions about the company and the games. Following our [chatbot design tips](https://juji.io/docs/chatbot-design-tips/#prepare-qa-list-and-chitchats), Sarah added a list of Q&As, to handle visitor questions like "Where do I log in" (see below).
 
@@ -85,6 +89,8 @@ From Kate's point of view, she is given the choices to select a matched question
 Assume that Kate thought "Where do I log in?" was close enough to her question. She made her choice and was then led to the login page, where it also has a button for creating a new account. Kate's request was fulfilled. 
 
 - - -
+
+### Design considerations for question recommendation
 
 If you decide to power your chatbot with a question-recommendation engine yourself, here are several things to consider:
 
