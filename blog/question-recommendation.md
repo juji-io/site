@@ -29,6 +29,8 @@ Traditionally there's nothing a chatbot can do if it does not understand the que
 
 In contrast, Juji chatbots are built on a hybrid approach. We build it in such a way that the chatbots enjoy the advantages of both rule based system and machine learning system. One of the thing that enabled us to do is creating a question answer recommendation mechanism to help dealing with the case when chatbot doesn't understand the user's question.
 
+---
+
 A while ago, my friend Sarah created a Juji chatbot as a receptionist on her website, where she hosted a lot of fun educational tasks for visitors. However, the visitor could only accumulate the task rewards if they were logged in. So she added a Q&A to handle questions such as "Where do I log in?" 
 
 ![Juji AI chatbot uses machine learning model to answer a user question](/assets/uploads/screen-shot-2020-06-07-at-12.29.49-pm.png "Juji AI chatbot uses machine learning model to answer a user question")
