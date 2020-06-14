@@ -47,6 +47,6 @@ That's why when Kate, a first time visitor to Sarah's website, asked "where do I
 
 ![Juji AI chatbot provides related information after user selected an related question](/assets/uploads/screen-shot-2020-06-07-at-12.41.49-pm.png "Juji AI chatbot provides related information after user selected an related question")
 
-However Kate thought "Where do I log in?" was close enough to her question, so she wanted to learn more about it. Once the option was selected, Juji chatbot provided to Kate the answer of that question. It turned out to be very helpful, because the login page had a button to create an account.
+However Kate thought "Where do I log in?" was close enough to her question, so she wanted to learn more about it. Once the option was selected, Juji sent to Kate the answer of that question. It turned out to be very helpful, because the login page had a button to create an account.
 
 As you see, Juji AI chatbots work as hard as Juji's engineers in providing the best service for the charbot creators and their users. Of course, with the question answer recomentation mechanism in place, there are still questions the chatbot cannot answer. Luckily, we provide a solution just for that! Next, we will talk about the Q&A dashboard that allows chatbot creators to monitor their unanswered user questions in real time!
