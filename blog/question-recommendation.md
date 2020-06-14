@@ -72,7 +72,7 @@ As shown below, the Juji AI chatbots suggests a list of closely related question
 
 From a user's point of view, s/he is given the choices to select what might match his/her true intended ask and obtain an answer. Moreover, it also teaches the user about the capabilities of the chatbot and facilitates future user-chatbot communication.
 
-For example,  Kate, a first time visitor to Sarah's website, asked "where do I sign up". Since Juji could not find a matched question that it knows about, it replied with a list of potentially related questions. Not only does the suggested list provide Kate a potential answer to her question, but she also get a chance to learn what Juji can answer. 
+For example,  Kate, a first time visitor to Sarah's website, asked "where do I sign up". Since Juji could not find a matched question that it knows about, it replied with a list of potentially related questions. Not only does the suggested list provided Kate a potential answer to her question, but she also get a chance to learn what Juji can answer. 
 
 ![Juji AI chatbot provides related information after user selected an related question](/assets/uploads/screen-shot-2020-06-07-at-12.41.49-pm.png "Juji AI chatbot provides related information after user selected an related question")
 
