@@ -86,18 +86,24 @@ Assume that Kate thought "Where do I log in?" was close enough to her question. 
 
 - - -
 
-If you decide to support such question recommendation yourself and you have a set of candidate questions that the system will select among them three or four questions to suggest, here are several things to consider:
+If you decide to power your chatbot with a question-recommendation engine yourself, here are several things to consider:
 
-1. How semantically similar is the user question to the candidate questions?
-2. Does the high ranking candidate questions cover a diverse set of question semantically or they are asking the same thing?
-3. Which exact question wording should the chatbot recommend if the designer provides a set of variations for the same question?
+1. How often should a chatbot make question recommendations? What is the threshold or condition to trigger the recommendation?
+2. How to determine a list of "similar" questions to recommend? What other criteria beyond semantic similarity should be considered in ranking questions? 
+3. How to present the top-N matched questions? How many should be presented (what is the N)?
 
-Ideally, the questions the chat suggests covers a diverse topics and are closely related to the user asked question. In this way, you can maximize the probability that the user would find one of them useful.
+The first aspect is to consider ***how often*** a chatbot should make a suggestion. Ideally, a chatbot should only make question recommendations when it is necessary. If it recommends too often, a user will feel that a chatbot has little intelligence and the process is too burdensome. On the other hand, if a chatbot makes too few recommendations, it may annoy users with wrong or no answers to their questions. 
 
-As you can see, just like building any recommendation engine, supporting effective question recommendation is non-trivial. The good news is that if you don't wish to do this on your own, you can always utilize what's already built, like the question recommendation capabilities provided by [Juji](https://juji.io/).
+The second aspect is to consider ***what to recommend*** by balancing a set of criteria.  An "optimal" list of question suggestions should be closely related to a user question while covering diverse topics to avoid "tunnel vision".  
+
+The third aspect is to consider ***how many*** questions to suggest. If there are too few, a user may not find a matched question; if there are too many, a user may feel overwhelmed. 
+
+All these considerations above are to maximize the probability for a user to find the answer s/he seeks while minimizing the user's effort/burden in this process.  
+
+As you can see, just like building any recommendation engine, supporting effective question recommendation is non-trivial. The good news is that if you don't wish to do so on your own, you can always utilize what's already built, like the **built-in** question recommendation capabilities ***automatically*** provided by [Juji](https://juji.io/).
 
 - - -
 
-Although no chatbots are perfect, there are always ways to improve a chatbot and make it serve their customers better.  In case, users still don't find the suggested questions match theirs, what should a chatbot do or what should a chatbot designer do? In my next blog, I will talk about how to help chatbot designers track unanswered user questions in real time so they can improve their chatbots in real time! 
+Although no chatbots are perfect, there are always ways to improve a chatbot and make it serve their customers better.  In the worst case scenario, if users still don't find the suggested questions helpful, what should a chatbot do or what should a chatbot designer do? In my next blog, I will talk about how to help chatbot designers track unanswered user questions in real time so their chatbots can be improved in real time! 
 
-In the meantime, I'd like to invite you to [sign up](juji.io/signup) free and create your customer service chatbot that can answer your users' free-text questions and gracefully handle the unknown ones by suggesting the relevant questions.
+In the meantime, I'd like to invite you to [sign up](juji.io/signup) free and follow this [short tutorial](https://juji.io/docs/tutorial/#make-ai-chatbots-for-free-text-qa-and-deploy-to-facebook-messenger) to create your own customer service chatbot that can answer users' free-text questions and gracefully handle the unknown ones by suggesting relevant questions.
