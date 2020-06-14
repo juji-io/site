@@ -70,15 +70,15 @@ My friend Sarah hosts an educational website, which includes many fun, online ed
 
 Since an AI chatbot uses machine learning to interpret a user's free-text questions, it could recognize questions with similar meanings (semantics) even if the questions are expressed differently. For example, an AI chatbot can recognize that "how old are you" and "what's your age" mean the similar thing, although their expressions are very different. In other words, if an AI chatbot knows how to answer "what's your age", it can ***automatically*** answer the question "how old are you" because the two questions are considered semantically similar. 
 
-However, an AI chatbot must decide what it should automatically answer and what it should not. For example, if a user asks "where do I sign up", should Sarah's chatbot considers that it is the same question as "where do I log in"? Are these two questions close enough to share the same answer?  In many cases, an AI chatbot faces making a decision under uncertainty. Instead of simply making a decision on its own, the best AI chatbot often involves users in such a decision-making process. 
+However, an AI chatbot must decide what it should automatically answer and what it should not. Consider Kate, a first time visitor to Sarah's website. She asked "where do I sign up". Since Juji  (Sarah's chatbot) could not find a closely matched question that it could answer, should Juji considers that it is the same question as "where do I log in"? Are these two questions close enough to share the same answer?  In many cases like this, an AI chatbot faces making a decision under uncertainty. Instead of simply making a decision on its own, the best AI chatbot often involves users in such a decision-making process. 
 
-As shown below, the Juji AI chatbots suggests a list of closely related questions so that a user can help determine which might best match with her intention. 
+As shown below, the Juji AI chatbots suggests a list of closely related questions to Kate so that she can help determine which might best match with her intention. 
 
 ![An AI chatbot suggests a list of questions related to a user question](/assets/uploads/screen-shot-2020-06-07-at-12.40.39-pm.png "An AI chatbot suggests a list of questions related to a user question.")
 
-From a user's point of view, s/he is given the choices to select a matched question and obtain an answer. Through the suggested questions, even if there is not a good match, the user gets an opportunity to learn about the capabilities of the chatbot, which in turn facilitates future user-chatbot communication.
+From Kate's point of view, she is given the choices to select a matched question and obtain a potential answer to her question. Through the suggested questions, even if Kate could not find a good match, she still gets an opportunity to learn about the capabilities of the chatbot, which in turn facilitates future user-chatbot communication.
 
-Consider Kate, a first time visitor to Sarah's website. She asked "where do I sign up". Since Juji could not find a closely matched question that it could answer, it replied with a list of potentially related questions. Not only did the suggested list provide Kate a potential answer to her question, but she also got a chance to learn what Juji could answer. 
+
 
 ![Juji AI chatbot provides related information after user selected an related question](/assets/uploads/screen-shot-2020-06-07-at-12.41.49-pm.png "Juji AI chatbot provides related information after user selected an related question")
 
