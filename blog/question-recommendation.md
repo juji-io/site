@@ -40,7 +40,7 @@ Based on the three reasons listed above, a chatbot designer can use different me
 
 ## Improve a chatbot with more knowledge
 
-If it is the first reason, a chatbot designer wants to be notified whenever a user question is unanswered so that s/he can teach the chatbot to address the unanswered user questions. This way a chatbot will become smarter and smarter as it gains more knowledge. In fact, this is the topic of my next blog on how to monitor unanswered user questions so a chatbot can learn and be improved over time.  if you are interested in this topic, follow Juji [Linkedin page](https://www.linkedin.com/company/juji), which will feature each of our blogs.  
+If it is the first reason, a chatbot designer wants to be notified whenever a user question is unanswered so that s/he can teach the chatbot to address the unanswered user questions. This way a chatbot will become smarter and smarter as it gains more knowledge. In fact, this is the topic of my next blog on how to monitor unanswered user questions so a chatbot can learn and be improved over time.  if you are interested in this topic, follow Juji's [Linkedin page](https://www.linkedin.com/company/juji), which will feature each of our blogs.  
 
 ## Improve a chatbot with multi-turn replies
 
