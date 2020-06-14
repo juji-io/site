@@ -25,7 +25,9 @@ If it is the first reason, there's pretty much nothing the chatbot can do. On th
 
 So how about the third case? What happens when your chatbot doesn't understand the user's question?
 
-Traditionally there's nothing a chatbot can do if it does not understand the question. Fortunately, it's no longer the case. At Juji, we introduced a question answer recommendation mechanism to help dealing with just that.
+Traditionally there's nothing a chatbot can do if it does not understand the question. For a chatbot powered by an rule based expert system, not understanding the question would likely trigger its fallback (if it has one). In that case, the chatbot is likely to say something along the line of "Sorry, I don't know how to respond to that." What if the chatbot is powered by an end to end machine learning model? It could perform worse because an unrecognized input my trigger random chatbot response that does not make sense.
+
+At Juji, we utilizes a hybrid approach to power our chatbots. As a result, we have the benefits of both rule based system and machine learning system. And that allowed us to introduce a question answer recommendation mechanism to help dealing with the case when chatbot doesn't understand the user's question.
 
 A while ago, my friend Sarah created a Juji chatbot as a receptionist on her website, where she hosted a lot of fun educational tasks for visitors. However, the visitor could only accumulate the task rewards if they were logged in. So she added a Q&A to handle questions such as "Where do I log in?" 
 
