@@ -29,7 +29,7 @@ Traditionally there's nothing a chatbot can do if it does not understand the que
 
 In contrast, Juji chatbots are built on a hybrid approach. We build it in such a way that the chatbots enjoy the advantages of both rule based system and machine learning system. One of the thing that enabled us to do is creating a question answer recommendation mechanism to help dealing with the case when chatbot doesn't understand the user's question.
 
----
+- - -
 
 A while ago, my friend Sarah created a Juji chatbot as a receptionist on her website, where she hosted a lot of fun educational tasks for visitors. However, the visitor could only accumulate the task rewards if they were logged in. So she added a Q&A to handle questions such as "Where do I log in?" 
 
@@ -49,4 +49,4 @@ That's why when Kate, a first time visitor to Sarah's website, asked "where do I
 
 However Kate thought "Where do I log in?" was close enough to her question, so she wanted to learn more about it. Once the option was selected, Juji sent to Kate the answer of that question. It turned out to be very helpful, because the login page had a button to create an account.
 
-As you see, Juji AI chatbots work as hard as Juji's engineers in providing the best services for the charbot creators and their users. Of course, with the question answer recomentation mechanism in place, there are still questions the chatbot cannot answer. Luckily, we provide a solution just for that! Next, we will talk about the Q&A dashboard that allows chatbot creators to monitor their unanswered user questions in real time!
+As you see, Juji AI chatbots work as hard as Juji's engineers in providing the best services for the charbot creators and their users. Of course, with the question answer recomentation mechanism in place, there are still questions the chatbot cannot answer. Luckily, we provide a solution just for that! Next, we will talk about the [Q&A dashboard](https://juji.io/docs/design/#handle-free-text-qas) that allows chatbot creators to monitor their unanswered user questions in real time!
