@@ -78,6 +78,20 @@ For example,  Kate, a first time visitor to Sarah's website, asked "where do I s
 
 Assume that Kate thought "Where do I log in?" was close enough to her question. She made her choice and was then led to the login page, where it also has a button for creating a new account. Kate's request was fulfilled. 
 
+- - -
+
+If you decide to support such question recommendation yourself and you have a set of candidate questions that the system will select among them three or four questions to suggest, here are several things to consider:
+
+1. How semantically similar is the user question to the candidate questions?
+2. Does the high ranking candidate questions cover a diverse set of question semantically or they are asking the same thing?
+3. Which exact question wording should the chatbot recommend if the designer provides a set of variations for the same question?
+
+Ideally, the questions the chat suggests covers a diverse topics and are closely related to the user asked question. In this way, you can maximize the probability that the user would find one of them useful.
+
+As you can see, just like building any recommendation engine, supporting effective question recommendation is non-trivial. The good news is that if you don't wish to do this on your own, you can always utilize what's already built, like the question recommendation capabilities provided by [Juji](https://juji.io/).
+
+- - -
+
 Although no chatbots are perfect, there are always ways to improve a chatbot and make it serve their customers better.  In case, users still don't find the suggested questions match theirs, what should a chatbot do or what should a chatbot designer do? In my next blog, I will talk about how to help chatbot designers track unanswered user questions in real time so they can improve their chatbots in real time! 
 
 In the meantime, I'd like to invite you to [sign up](juji.io/signup) free and create your customer service chatbot that can answer your users' free-text questions and gracefully handle the unknown ones by suggesting the relevant questions.
