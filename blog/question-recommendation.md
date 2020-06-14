@@ -1,8 +1,8 @@
 ---
 layout: blog/article.njk
 featured: true
-title: "Chatbot Design Tip: How to Handle User Questions That Chatbots Don't
-  Understand"
+title: "How to Design Chatbots for Better Customer Service: : Handling Unknown
+  User Questions"
 date: 2020-06-11T04:57:17.697Z
 author: Wenxi Chen
 category: Guides
@@ -24,11 +24,9 @@ One of the most popular chatbot applications is perhaps to automate customer sup
 
 Using the above example, you want your chatbot to answer as many user questions as possible, especially [answering free-text questions](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/), as examples shown below.
 
-![A smart travel chatbot answers a user's question related to a marketing campaign](/assets/uploads/screen-shot-2020-06-13-at-11.19.08-pm.png "A travel chatbot answers a user's question about travel packages.")
+![A travel chatbot answers a user's question about travel destinations on Facebook Messenger](/assets/uploads/screen-shot-2020-06-13-at-11.19.08-pm.png "A Facebook Messenger travel chatbot answers a user's question about travel packages.")
 
-![A smart chatbot answers another user question related to a marketing campaign](/assets/uploads/screen-shot-2020-06-13-at-11.19.31-pm.png "A travel chatbot answers a user's question about travel promotions.")
-
-# Three Q&A Chatbot Challenges
+# Three Chatbot Challenges for Customer Service
 
 However, no matter how smart your chatbot is, there will always be user questions that it does not know how to answer. In general, there are three reasons why a chatbot cannot answer a question: 
 
@@ -36,37 +34,45 @@ However, no matter how smart your chatbot is, there will always be user question
 2. the user has not given enough information for the chatbot to answer his/her question;
 3. the chatbot fails to understand the user question. 
 
-# How to Fix a Q&A Chatbot
+# How to Design a Chatbot for Better Customer Service
 
 Based on the three reasons listed above, a chatbot designer can use different methods to "fix" a chatbot and improve its abilities to handle user free-text questions. 
 
-## Improve a Q&A chatbot with more knowledge 
+## Improve a chatbot with more knowledge 
 
 If it is the first reason, a chatbot designer wants to be notified whenever a user question is unanswered so that s/he can teach the chatbot to address the unanswered user questions. This way a chatbot will become smarter and smarter as it gains more knowledge. In fact, this is the topic of my next blog on how to monitor unanswered user questions so a chatbot can learn and be improved over time.  if you are interested in this topic, follow Juji [Linkedin page](https://www.linkedin.com/company/juji), which will feature each of our blogs.  
 
-## Improve a Q&A chatbot with multi-turn replies
+## Improve a chatbot with multi-turn replies
 
-If it's the second case,  a chatbot designer anticipates this potential complication and adds a mini flow to handle it. In Juji Studio, this can be easily done by [adding a multi-turn reply to the question in Q&A Board](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/). 
+If it's the second case,  a chatbot designer could ask users to supply missing information by [adding a multi-turn reply to the question](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/). As shown below, the travel chatbot in our example above asks the user to provide more information before it gives out an answer.
 
-So how about the third case? What happens when your chatbot doesn't understand the user's question?
+ 
 
-Traditionally there's nothing a chatbot can do if it does not understand the question. For a chatbot powered by an rule based expert system, not understanding the question would cause it to trigger its fallback (if it has one). In that case, the chatbot is likely to say something along the line of "Sorry, I don't know how to respond to that." What if the chatbot is powered by an end to end machine learning model? It could perform worse because an unrecognized input may trigger a random chatbot response that does not make sense.
+![A Facebook Messenger travel chatbot uses a multi-turn reply to ask a user question before replying to the user](/assets/uploads/screen-shot-2020-06-13-at-11.19.31-pm.png "A Facebook Messenger travel chatbot answers a user's question about travel promotions. In this multi-turn Q&A, the chatbot asks the user a question before it replies.")
 
-In contrast, Juji chatbots are built on a hybrid approach. We build it in such a way that the chatbots enjoy the advantages of both rule based system and machine learning system. One of the thing that enabled us to do is creating a question answer recommendation mechanism to help dealing with the case when chatbot doesn't understand the user's question.
+## Improve a chatbot to handle unknown user questions 
+
+So how about the third case? What happens when your chatbot doesn't understand a user's question?
+
+One approach is that a chatbot simply acknowledges that it does not understand the question. If you have used any of the smart voice devices, such as [Amazon Alexa](https://en.wikipedia.org/wiki/Amazon_Alexa) or [Google Home](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), you might have already been used to hearing their apologetic responses when they don't understand your commands.  Similarly, a chatbot could respond with something like  "Sorry, I don't know how to respond to your question." 
+
+While this "I don't understand your question" approach is straightforward, it does not really help a user get his/her question answered. Alternative, another approach is to  power a chatbot with a question recommendation mechanism, which will automatically suggest a set of similar questions to a user if a chatbot doesn't understand the user's question or does not have enough confidence to interpret a user's question.  Let me use the following use cases to explain how such a mechanism works, more importantly, improves customer experience and betters customer service. 
 
 - - -
 
-A while ago, my friend Sarah created a Juji chatbot as a receptionist on her website, where she hosted a lot of fun educational tasks for visitors. However, the visitor could only accumulate the task rewards if they were logged in. So she added a Q&A to handle questions such as "Where do I log in?" 
+My friend Sarah hosts a fun educational website, which includes many fun educational games. She created a chatbot on Juji as her website assistant, who can guide her website visitors to navigate the site as well as answer their questions about the site and the games. Following our [chatbot design tips](https://juji.io/docs/chatbot-design-tips/#prepare-qa-list-and-chitchats), Sarah also added a list of Q&As, to handle visitor questions like "Where do I log in?" 
 
-![Juji AI chatbot uses machine learning model to answer a user question](/assets/uploads/screen-shot-2020-06-07-at-12.29.49-pm.png "Juji AI chatbot uses machine learning model to answer a user question")
+![A website chatbot answers a user's free-text question for customer service](/assets/uploads/screen-shot-2020-06-07-at-12.29.49-pm.png "A website chatbot answers a user's free-text question for customer service")
 
-Since Juji chatbots use a machine learning model to expand the Q&A questions, they not only recognize the exact wording but also its numerous variations (e.g., "where can I log in?"). However, if the user asks "where do I sign up?" and Sarah has only given answers to "where do I log in?", the machine learning model would indicate the user question is not covered by the existing Q&As. In this case, a good AI chatbot would humbly acknowledge that. In addition, it might recommend other ways for the user to look for the information (e.g., email the support). 
+Since an AI chatbot uses machine learning to interpret a user's free-text question, it could recognize questions with similar meanings (semantics) even if the questions don't contain the exact same expressions. For example, an AI chatbot can recognize "how old are you" and "what's your age" means the same thing, although they are expressed very differently. 
+
+However, an AI chatbot must decide the user asks "where do I sign up?" and Sarah has only given answers to "where do I log in?", the machine learning model would indicate the user question is not covered by the existing Q&As. In this case, a good AI chatbot would humbly acknowledge that. In addition, it might recommend other ways for the user to look for the information (e.g., email the support). 
 
 In fact Juji AI chatbots go one step further. They will try to suggest the user to check the answers of closely related questions. Even though the answer to the user's question might not be immediately available, some answers to other questions may contain relevant information. From the user's point of view, it will not cost him/her much to read related information, especially when they are given the choices to select what they would like to read. In contrast, it would provide immediate value to both the user and the business if the suggestion provided is.
 
 What's better? Sarah did not need to do anything to enjoy this functionality. The question answer suggestion is automatically activated when the chatbot creator provides their Q&As. So in a conversation, when the chatbot realizes the user question is not directly answerd, another machine learning model would be triggered to identify closely related questions that may have useful information in their answers.
 
-![Juji AI chatbot use another machine learning model to suggest related question answers](/assets/uploads/screen-shot-2020-06-07-at-12.40.39-pm.png "Juji AI chatbot use another machine learning model to suggest related question answers")
+![An AI chatbot suggests a list of questions related to a user question](/assets/uploads/screen-shot-2020-06-07-at-12.40.39-pm.png "An AI chatbot suggests a list of questions related to a user question.")
 
 That's why when Kate, a first time visitor to Sarah's website, asked "where do I sign up", Juji replied with a list of choices of potentially related questions. If there's no question related, Kate could simply select "None of above".
 
