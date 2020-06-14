@@ -35,11 +35,11 @@ Since Juji chatbots use a machine learning model to expand the Q&A questions, th
 
 In fact Juji AI chatbots go one step further. They will try to suggest the user to check the answers of closely related questions. Even though the answer to the user's question might not be immediately available, some answers to other questions may contain related information. From the user's point of view, it will not cost him/her much to read related information, especially when they are given the choices to select what they would like to read. In contrast, it would provide immediate value to both the user and the business if the suggestion provides useful information.
 
-What's better? Sarah did not need to do anything to enjoy this functionality. The question answer suggestion is automatically activated when the chatbot creator provides their Q&As.
+What's better? Sarah did not need to do anything to enjoy this functionality. The question answer suggestion is automatically activated when the chatbot creator provides their Q&As. So when the chatbot realizes the user question is not directly answerd, another machine learning model would be triggered to identify closely related questions that may have useful information in their answers.
 
 ![Juji AI chatbot use another machine learning model to suggest related question answers](/assets/uploads/screen-shot-2020-06-07-at-12.40.39-pm.png "Juji AI chatbot use another machine learning model to suggest related question answers")
 
-As we can see in the screenshot above, Kate was given a choice to seek further. If there's no question related, Kate could simply select "None of above".
+That's why when Kate, a first time visitor to Sarah's website, asked "where do I sign up", Juji replied with a list of choices of potentially related questions. If there's no question related, Kate could simply select "None of above".
 
 ![Juji AI chatbot provides related information after user selected an related question](/assets/uploads/screen-shot-2020-06-07-at-12.41.49-pm.png "Juji AI chatbot provides related information after user selected an related question")
 
