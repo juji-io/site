@@ -80,4 +80,6 @@ For example,  Kate, a first time visitor to Sarah's website, asked "where do I s
 
 Assume that Kate thought "Where do I log in?" was close enough to her question. She made her choice and was then led to the login page, where it also has a button for creating a new account. Kate's request was fulfilled. 
 
-As you see, Juji AI chatbots work as hard as Juji's engineers in providing the best services for the charbot creators and their users. Of course, with the question answer recommendation mechanism in place, there are still questions the chatbot cannot answer. Luckily, we provide a solution just for that! Next, we will talk about the [Q&A dashboard](https://juji.io/docs/design/#handle-free-text-qas) that allows chatbot creators to monitor their unanswered user questions in real time!
+Although no chatbots are perfect, there are always ways to improve a chatbot and make it serve their customers better.  In case, users still don't find the suggested questions match theirs, what should a chatbot do or wha should a chatbot designer do? In my next blog, I will talk about how to help chatbot designers track unanswered user questions in real time so they can improve their chatbots in real time! 
+
+In the meantime, I'd like to invite you to [sign up](juji.io/signup) free and create your customer service chatbot that can answer user free-text questions and gracefully handle unknown user questions by suggesting relevant questions.
