@@ -3,7 +3,7 @@ layout: blog/article.njk
 featured: true
 title: "How to Design Chatbots for Better Customer Service: Handling Unknown
   User Questions"
-date: 2020-06-11T04:57:17.697Z
+date: 2020-06-15T01:27:17.559Z
 author: Wenxi Chen
 category: Guides
 tags:
