@@ -104,7 +104,7 @@ The second aspect is to consider ***what to recommend*** by balancing a set of c
 
 The third aspect is to consider ***how many*** questions to suggest. If there are too few, a user may not find a matched question; if there are too many, a user may feel overwhelmed. 
 
-All these considerations above are to maximize the probability for a user to find the answer s/he seeks while minimizing the user's effort/burden in this process.  
+All these considerations above are to maximize the probability for a user to find the information s/he seeks while minimizing the user's effort/burden in this process.  
 
 As you can see, just like building any recommendation engine, supporting effective question recommendation is non-trivial. The good news is that if you don't wish to do so on your own, you can always utilize what's already built, like the **built-in** question recommendation capabilities ***automatically*** provided by [Juji](https://juji.io/).
 
