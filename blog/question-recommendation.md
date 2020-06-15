@@ -106,7 +106,7 @@ The third aspect is to consider ***how many*** questions to suggest. If there ar
 
 All these considerations above are to maximize the probability for a user to find the information s/he seeks while minimizing the user's effort/burden in this process.  
 
-As you can see, just like building any recommendation engine, supporting effective question recommendation is non-trivial. The good news is that if you don't wish to do so on your own, you can always utilize what's already built, like the **built-in** question recommendation capabilities ***automatically*** provided by [Juji](https://juji.io/).
+As you can see, just like building any recommendation engine, supporting effective question recommendation is non-trivial. The good news is that if you don't wish to do it on your own, you can always utilize what's already built, like the **built-in** question recommendation capabilities ***automatically*** provided by [Juji](https://juji.io/).
 
 - - -
 
