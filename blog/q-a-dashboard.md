@@ -9,4 +9,4 @@ tags:
   - Chatbot
 image: /assets/uploads/alex-knight-2ejcsulrwc8-unsplash.jpg
 ---
-So you have setup a FAQ bot.
+So you have built a chatbot that answers FAQs using Juji Studio.
