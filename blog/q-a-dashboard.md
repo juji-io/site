@@ -16,3 +16,5 @@ The process to update an existing FAQ list can be divided into three steps:
 1. Monitor unanswered questions
 2. Write down some question variations and answers
 3. Update the FAQ list to the Chatbot
+
+Ideally your FAQ list is as complete as possible, however no one knows all the questions users might have asked. Thus, an effective monitoring mechanism for user questions is essential. Juji's Q&A Board does just that. The dashboard gives you real time notification of unanswered user questions.
