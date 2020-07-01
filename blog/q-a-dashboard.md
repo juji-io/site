@@ -28,3 +28,7 @@ As you can see, the notification is visible across the Design page. In the examp
 Alternatively, you can download your Q&As in a CSV file. The CSV file will not only list the existing FAQs, it will also show the unanswered questions and their stats. It arranges the unanswered questions in groups such that the similar ones are aggregated together. Beside each unanswered question, there is a number indicating the frequency of that question being asked. With this information, you can easily prioritize the unanswered questions to be handled especially when you have a lot of them.
 
 ![Downloaded Q&A CSV groups related unanswered questions together with stats on how many times each question has been asked](/assets/uploads/screen-shot-2020-06-30-at-10.01.17-pm.png "Downloaded Q&A CSV groups related unanswered questions together with stats on how many times each question has been asked")
+
+# Update the chatbot's FAQs
+
+After you
