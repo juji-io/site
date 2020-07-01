@@ -15,7 +15,7 @@ The process to update an existing FAQ list can be divided into three steps:
 
 1. Monitor unanswered questions
 2. Write down some question variations and answers
-3. Update the FAQ list to the Chatbot
+3. Update the FAQ list to the chatbot
 
 # Monitor Your User FAQs
 
@@ -23,8 +23,8 @@ Ideally your FAQ list is as complete as possible, however no one knows all the q
 
 \[dashboard screenshot here]
 
-As you can see, the notification is visible accross the Design page. Once you click into the Q&A Board, you will see a list of unanswered questions.
+As you can see, the notification is visible across the Design page. Once you click into the Q&A Board, you will see a list of unanswered questions.
 
-Moreover, you can download your Q&As in a CSV file. \[dashboard screenshot to download csv] The CSV file not only lists the existing FAQs and the unanswered questions, it also arranges the unanswered questions in groups such that unanswered user questions are similar to each other if they are in the same group. Besides each unanswered question, a number indicates the frequncy of that question being asked. With this information, you can easily prioritize the unanswered questions to handle when you have a lot of them.
+Moreover, you can download your Q&As in a CSV file. \[dashboard screenshot to download csv] The CSV file not only lists the existing FAQs and the unanswered questions, it also arranges the unanswered questions in groups such that unanswered user questions are similar to each other if they are in the same group. Besides each unanswered question, a number indicates the frequency of that question being asked. With this information, you can easily prioritize the unanswered questions to handle when you have a lot of them.
 
 \[CSV screenshot here]
