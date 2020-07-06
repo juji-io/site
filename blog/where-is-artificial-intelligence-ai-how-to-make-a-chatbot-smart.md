@@ -15,4 +15,6 @@ tags:
   - chatbot development
 image: /assets/uploads/robot.gif
 ---
-A while back, I wrote a blog mentioning "Chatbot Tsunami", where our world is inundated with chatbots, including both good ones that can help you accomplish a task and bad ones that can hardly understand or achieve anything.
+A while back, I wrote a blog mentioning ["Chatbot Tsunami"](https://juji.io/blog/chatbot-tsunami-the-good-bad/), where our world is inundated with chatbots, including both [good ones](https://www.newvoicesnasem.org/post/using-artificial-intelligence-to-combat-misinformation-about-covid-19) that can really help us fulfill our requests and bad ones that can hardly understand or achieve anything.
+
+Recently,
