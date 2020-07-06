@@ -15,7 +15,7 @@ tags:
   - chatbot development
 image: /assets/uploads/robot.gif
 ---
-A while back, I wrote a blog on ["Chatbot Tsunami"](https://juji.io/blog/chatbot-tsunami-the-good-bad/), mentioning that our world is inundated with chatbots, including both [good ones](https://www.newvoicesnasem.org/post/using-artificial-intelligence-to-combat-misinformation-about-covid-19) that can really help us fulfill our requests and bad ones that can hardly understand or achieve anything.
+A while back, I wrote a blog on ["Chatbot Tsunami"](https://juji.io/blog/chatbot-tsunami-the-good-bad/), mentioning that our world is inundated with chatbots, including both [good ones](https://www.newvoicesnasem.org/post/using-artificial-intelligence-to-combat-misinformation-about-covid-19) that can help us fulfill our requests and bad ones that can hardly understand or achieve anything.
 
 Since Juji always aims at powering all good chatbots with the smarts needed to help users, I took it for granted for two things
 
