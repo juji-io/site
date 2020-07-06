@@ -20,7 +20,6 @@ A while back, I wrote a blog on ["Chatbot Tsunami"](https://juji.io/blog/chatbot
 Since Juji always aims at powering all good chatbots with the smarts needed to help users, I took it for granted for two things
 
 * Everyone would know what these smarts are 
-
-  Everyone would know how hard it is to teach chatbots such smarts
+* Everyone would know how hard it is to teach chatbots such smarts
 
 when I was demoing our Conversational AI (AI chatbot) platform to a customer,
