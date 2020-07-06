@@ -13,13 +13,20 @@ tags:
   - how to make ai chatbot
   - guide to ai chatbot
   - chatbot development
+  - personal healthcare assistant
 image: /assets/uploads/robot.gif
 ---
 A while back, I wrote a blog on ["Chatbot Tsunami"](https://juji.io/blog/chatbot-tsunami-the-good-bad/), mentioning that our world is inundated with chatbots, including both [good ones](https://www.newvoicesnasem.org/post/using-artificial-intelligence-to-combat-misinformation-about-covid-19) that can help us fulfill our requests and bad ones that can hardly understand or achieve anything.
 
-Since Juji always aims at powering all good chatbots with the smarts needed to help users, I took it for granted for two things
+Since Juji always aims at powering all good chatbots with the smarts needed to help users, I had assumed two things:
 
 * Everyone would know what these smarts are 
 * Everyone would know how hard it is to teach chatbots such smarts
 
-when I was demoing our Conversational AI (AI chatbot) platform to a customer,
+Until recently, when I was demoing our [conversational AI (AI chatbot) platform](https://juji.io/juji-platform/) to a customer, I suddenly realized that something I took for granted (the two things listed above) is not common knowledge. 
+
+This was a usual customer meeting during which I showed how to build a chatbot as a personal healthcare assistant that can check in on a user on a daily basis (Figure 1) as well as provide just-in-time help as the user requests it (Figure 2). It took me literally 3 minutes to create the chatbot including adding a few Q&As. I then spent a few minutes to show the chatbot in action (try it yourself if you wish to).  
+
+Because the demo went so well and everything worked flawlessly, I was thinking to myself they ought to be impressed by our work. However, there was a dead silence after my demo. I then asked "do you have any questions about the demo?" One person asked: "I got it. But where is the AI?" 
+
+I was a bit taken back
