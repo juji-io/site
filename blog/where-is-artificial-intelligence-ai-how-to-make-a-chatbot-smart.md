@@ -54,17 +54,14 @@ Based on my definition of AI and the purpose of a chatbot to automate human inte
 As shown above, just like a human,  a chatbot should have four core human skills to interact with a human user effectively,:
 
 1. **[Natural Language Understanding ](https://en.wikipedia.org/wiki/Natural-language_understanding)(NLU)**. This is to interpret a user's expressions and understand the user's intent(s).
-
-2.   **[Dialog Management](https://en.wikipedia.org/wiki/Dialog_manager)**. Once a chatbot understands the intent of a user, it needs to figure out ***what to do*** and manage the flow of the conversation. For example, it may decide to directly respond to a user's request in the middle of the flow (Figure 2) or to ignore the request for now (Figure 3). 
-
+2. **[Dialog Management](https://en.wikipedia.org/wiki/Dialog_manager)**. Once a chatbot understands the intent of a user, it needs to figure out ***what to do*** and manage the flow of the conversation. For example, it may decide to directly respond to a user's request in the middle of the flow (Figure 2) or to ignore the request for now (Figure 3). 
 3. **[Natural Language Generation](https://en.wikipedia.org/wiki/Natural-language_generation) (NLG)**. After a chatbots decides what to do, it then composes its response to the user. 
-
 4. **[Reading between the Lines to Understand Users Deeply](https://en.wikipedia.org/wiki/Psycholinguistics) (Personal Insights Modeling)**. A good human conversationalist not only can grasp the intent of his/her conversation partner, but s/he can also read between the lines to infer the partner's true needs and wants, as well as the partner's characteristics (e.g., cautious vs. easy going). If a chatbot can obtain such insights about its users, it can then [personalize a conversation with each user](https://dl.acm.org/doi/fullHtml/10.1145/3232077). 
+
+![A chat between a Juji chatbot as an interviewer and a job candidate. The Juji chatbot decided to ignore a job candidate's question during an interview and asked the candidate to ask her question later.]( "Figure 3. Screenshot showing that a Juji chatbot as an interviewer decided to ignore a user's question during an interview")
 
 Just like a person, a chatbot can take one of many plausible actions and manage the flow of a conversation.
 
 asked him why he wanted a chatbot.  He replied that he just want a chatbot to gather some information from his
-
-
 
 Now thinking back, I probably should not be surprised by the "Where is the AI" question because
