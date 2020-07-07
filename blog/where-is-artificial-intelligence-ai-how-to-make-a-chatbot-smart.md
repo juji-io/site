@@ -51,7 +51,7 @@ Based on my definition of AI and the purpose of a chatbot to automate human inte
 
 ![A diagram shows four core human skills a chatbot should have]( "Four smarts (Artificial Intelligence) that every chatbot should have.  Here assumes that a chatbot only interacts with a human user via text messages. ")
 
-As shown above, just like a human,  a chatbot should have four core human skills to interact with a human user effectively,:
+As outlined above, a chatbot should have four core **human skills** (smarts) to interact with a human user effectively:
 
 1. **[Natural Language Understanding ](https://en.wikipedia.org/wiki/Natural-language_understanding)(NLU)**. This is to interpret a user's expressions and understand the user's intent(s).
 2. **[Dialog Management](https://en.wikipedia.org/wiki/Dialog_manager)**. Once a chatbot understands the intent of a user, it needs to figure out ***what to do*** and manage the flow of the conversation. For example, it may decide to directly respond to a user's request in the middle of the flow (Figure 2) or to ignore the request for now (Figure 3). 
@@ -60,8 +60,16 @@ As shown above, just like a human,  a chatbot should have four core human skills
 
 ![A chat between a Juji chatbot as an interviewer and a job candidate. The Juji chatbot decided to ignore a job candidate's question during an interview and asked the candidate to ask her question later.]( "Figure 3. Screenshot showing that a Juji chatbot as an interviewer decided to ignore a user's question during an interview")
 
+Since there is much work on NLU and NLG especially with the recent advances in machine learning, below I will talk more about "dialog management" and "reading between the lines" because fewer people are aware of their importance and there are greater challenges for us to teach chatbots with these two smarts. 
+
 Just like a person, a chatbot can take one of many plausible actions and manage the flow of a conversation.
 
 asked him why he wanted a chatbot.  He replied that he just want a chatbot to gather some information from his
 
+## Reading between the lines
+
 Now thinking back, I probably should not be surprised by the "Where is the AI" question because
+
+
+
+## Detection of Chatbot Smarts (AI)
