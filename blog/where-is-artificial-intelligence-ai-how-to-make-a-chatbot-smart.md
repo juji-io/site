@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: true
-title: Where is Artificial Intelligence (AI)? Invisible AI That Makes Chatbot Smart
+title: Where is Artificial Intelligence (AI)? Invisible AI That Makes a Chatbot Smart
 date: 2020-07-06T18:52:02.003Z
 author: Michelle Zhou
 category: Guides
