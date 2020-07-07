@@ -29,4 +29,8 @@ This was a usual customer meeting during which I showed how to build a chatbot a
 
 Because the demo went so well and everything worked flawlessly, I was thinking to myself they ought to be impressed by our work. However, there was a dead silence after my demo. I then asked "do you have any questions about the demo?" One person asked: "I got it. But where is the AI?" 
 
-I was a bit taken back
+I was surprised by the question and also disappointed at myself that I failed to demonstrate the smarts of the chatbot -  the hallmark of Juji, something that we believe differentiates Juji from all other chatbot platforms! 
+
+
+
+This client's question now reminded me of other comments I heard before. One interested customer read our [documentation](https://juji.io/docs/) on the topic of "[why AI chatbots](https://juji.io/docs/why-ai-chatbots/)" and then called me "by reading your documentation, it seems I don't need an AI chatbot." I then asked him why he wanted a chatbot.  He replied that he just want a chatbot to gather some information from his
