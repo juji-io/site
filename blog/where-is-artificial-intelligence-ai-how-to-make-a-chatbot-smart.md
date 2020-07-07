@@ -10,8 +10,8 @@ tags:
   - conversational ai
   - ai chatbot
   - ai chat
-  - how to make ai chatbot
-  - guide to ai chatbot
+  - smart chatbot
+  - why ai chatbot
   - chatbot development
   - personal healthcare assistant
 image: /assets/uploads/robot.gif
