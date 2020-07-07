@@ -27,9 +27,9 @@ Until recently, when I was demoing our [conversational AI (AI chatbot) platform]
 
 This was a usual customer meeting during which I showed how to build a chatbot as a personal healthcare assistant that can check in on a user on a daily basis (Figure 1) as well as provide just-in-time help as the user requests it (Figure 2). It took me literally 3 minutes to create the chatbot including adding a few Q&As. I then spent a few minutes to show the chatbot in action (try it yourself if you wish to).  
 
-Because the demo went so well and everything worked flawlessly, I was thinking to myself they ought to be impressed by our work. However, there was a dead silence after my demo. I then asked "do you have any questions about the demo?" One person asked: "I got it. But where is the AI?" 
+Because the demo went so well and everything worked flawlessly, I was thinking to myself they ought to be impressed by our work. However, there was a dead silence after my demo. I then asked "do you have any questions about the demo?" One person asked: "I got it. But where is the AI?" Coincidently (or not so), in a separate meeting, another customer commented that "I tried Juji. While it is very easy to use. I'm not sure where the AI is."  
 
-I was surprised by the question and also disappointed at myself that I failed to demonstrate the smarts of the chatbot -  the hallmark of Juji, something that we believe differentiates Juji from all other chatbot platforms! 
+I was surprised by the questions and also quite disappointed at myself that I failed to demonstrate the smarts of the chatbot -  the hallmark of Juji, something that we have worked hard to differentiate Juji from all other chatbot platforms! 
 
 
 
