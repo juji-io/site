@@ -27,6 +27,10 @@ Until recently, I realized that something I took for granted (the two things lis
 
 Just a few weeks ago, I was demoing our [conversational AI (AI chatbot) platform](https://juji.io/juji-platform/) to a customer. In this demo, I showed how to build a chatbot as a personal healthcare assistant that can check in on a user on a daily basis (Figure 1) as well as provide just-in-time help as the user requests it (Figure 2). It took me literally 3 minutes to create the chatbot. I then spent a few minutes to show the chatbot in action (try it yourself if you wish to).  
 
+![A chat between a chatbot and a user where a chatbot asks how the user is feeling.]( "Figure 1. A screenshot showing a Juji chatbot as a personal healthcare assistant to greet a user daily.")
+
+![A chat between the Juji chatbot and the user when the user interrupts the flow by making a request to see a doctor. ]( "Figure 2. A screenshot showing how the uji chatbot handles a user interruption in the middle of a chat flow, fulfills the user’s request, and then resumes the original flow.")
+
 Because everything worked flawlessly, I was thinking to myself they ought to be impressed by our work. However, there was a dead silence after my demo. I then asked "do you have any questions about the demo?" One person asked: "I got it. But where is the AI?" Coincidently (or not so), in a separate meeting after this demo, another customer commented that "I tried Juji. While it is very easy to use and create a chatbot, I'm not sure where the AI is."  
 
 I was certainly taken aback by the questions and also felt quite disappointed at myself that I failed to demonstrate the smarts of Juji chatbot -  the hallmark of Juji, something that we have worked so hard to differentiate Juji from all other chatbot platforms! 
