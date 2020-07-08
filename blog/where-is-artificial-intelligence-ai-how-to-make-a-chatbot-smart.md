@@ -62,7 +62,9 @@ As outlined above, a chatbot should have four core **human skills** (smarts) to 
 
 While NLU is still imperfect and most of chatbots has limited or none NLU capabilities (Figure 4), there is much progress made on NLU especially with the recent advances in machine learning. For example, Juji chatbots are able to [understand highly diverse and complex natural language expressions](https://dl.acm.org/doi/abs/10.1145/3313831.3376131) using mixed pattern-based and machine learning methods.  In contrast to the two chatbots shown in Figure 4, Figure 5 shows a Juji chatbot grasps a user input correctly.
 
-![]()
+![](/assets/uploads/chatbots-with-little-smarts.png "Figure 4. ")
+
+![]( "Figure 5. ")
 
 Since there is much work on NLU and NLG especially with the recent advances in machine learning, below I will talk more about another two smarts: "dialog management" and "reading between the lines" because fewer people are aware of their importance and there are also greater challenges for us to teach chatbots with these two smarts. 
 
