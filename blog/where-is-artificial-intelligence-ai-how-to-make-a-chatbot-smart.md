@@ -60,11 +60,13 @@ As outlined above, a chatbot should have four core **human skills** (smarts) to 
 
 ![A chat between a Juji chatbot as an interviewer and a job candidate. The Juji chatbot decided to ignore a job candidate's question during an interview and asked the candidate to ask her question later.]( "Figure 3. Screenshot showing that a Juji chatbot as an interviewer decided to ignore a user's question during an interview")
 
-Since there is much work on NLU and NLG especially with the recent advances in machine learning, below I will talk more about "dialog management" and "reading between the lines" because fewer people are aware of their importance and there are greater challenges for us to teach chatbots with these two smarts. 
+Since there is much work on NLU and NLG especially with the recent advances in machine learning, below I will talk more about another two smarts: "dialog management" and "reading between the lines" because fewer people are aware of their importance and there are also greater challenges for us to teach chatbots with these two smarts. 
 
 ## Managing a conversation flow 
 
-Just like a person, a chatbot can take one of many plausible actions and manage the flow of a conversation.
+Even if a chatbot understands a user's input, it still needs to decide how to best respond to the user's input.  Just like a person, a chatbot can carry on a conversation in many different directions depending on a user's input and the goals of a conversation. For example, if a goal of a conversation is to help users no matter what, a chatbot would respond to a user's request any time in their dialog. If a goal of a conversation is to [elicit information from a user](https://dl.acm.org/doi/10.1145/3381804), a chatbot may ask the user to hold on his/her questions until the interview is finished. 
+
+Because 
 
 asked him why he wanted a chatbot.  He replied that he just want a chatbot to gather some information from his
 
