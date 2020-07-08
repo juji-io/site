@@ -62,6 +62,8 @@ As outlined above, a chatbot should have four core **human skills** (smarts) to 
 
 Since there is much work on NLU and NLG especially with the recent advances in machine learning, below I will talk more about "dialog management" and "reading between the lines" because fewer people are aware of their importance and there are greater challenges for us to teach chatbots with these two smarts. 
 
+## Managing a conversation flow 
+
 Just like a person, a chatbot can take one of many plausible actions and manage the flow of a conversation.
 
 asked him why he wanted a chatbot.  He replied that he just want a chatbot to gather some information from his
