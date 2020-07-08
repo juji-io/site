@@ -49,12 +49,12 @@ Although you could look up the [definition of AI on wikipedia](https://en.wikipe
 
 Based on my definition of AI and the purpose of a chatbot to automate human interactions, I use the following diagram to outline the human skills that a chatbot should be taught:
 
-![A diagram shows four core human skills a chatbot should have]( "Four smarts (Artificial Intelligence) that every chatbot should have.  Here assumes that a chatbot only interacts with a human user via text messages. ")
+![A diagram shows four core human skills a chatbot should have]( "Four smarts (AI) that every chatbot should have.  Here assumes that a chatbot only interacts with a human user via text messages. ")
 
 As outlined above, a chatbot should have four core **human skills** (smarts) to interact with a human user effectively:
 
-1. **[Natural Language Understanding ](https://en.wikipedia.org/wiki/Natural-language_understanding)(NLU)**. This is to interpret a user's expressions and understand the user's intent(s).
-2. **[Dialog Management](https://en.wikipedia.org/wiki/Dialog_manager)**. Once a chatbot understands the intent of a user, it needs to figure out ***what to do*** and manage the flow of the conversation. For example, it may decide to directly respond to a user's request in the middle of the flow (Figure 2) or to ignore the request for now (Figure 3). 
+1. **[Natural Language Understanding ](https://en.wikipedia.org/wiki/Natural-language_understanding)(NLU)**. This refers to a chatbot's abilities to interpret a user's natural language expressions and understand the user's intent(s).
+2. **[Dialog Management](https://en.wikipedia.org/wiki/Dialog_manager)**. Once a chatbot understands the intent of a user, it needs to figure out ***what to do.*** For example, it may decide to directly respond to a user's request in the middle of the flow (Figure 2) or to ignore the request for now (Figure 3). Since it is highly likely that a user may not follow a chatbot's flow, a chatbot  This smart refers to a chatbot's abilities to manage a 
 3. **[Natural Language Generation](https://en.wikipedia.org/wiki/Natural-language_generation) (NLG)**. After a chatbots decides what to do, it then composes its response to the user. 
 4. **[Reading between the Lines to Understand Users Deeply](https://en.wikipedia.org/wiki/Psycholinguistics) (Personal Insights Modeling)**. A good human conversationalist not only can grasp the intent of his/her conversation partner, but s/he can also read between the lines to infer the partner's true needs and wants, as well as the partner's characteristics (e.g., cautious vs. easy going). If a chatbot can obtain such insights about its users, it can then [personalize a conversation with each user](https://dl.acm.org/doi/fullHtml/10.1145/3232077). 
 
