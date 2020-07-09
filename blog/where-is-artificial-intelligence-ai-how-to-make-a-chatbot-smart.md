@@ -83,9 +83,9 @@ Figure 2 shows an example where the user didn't follow the chatbot's asking ("re
 
 ![The screenshot shows a dialog between a chatbot and a user where the chatbot takes a pizza order. The chatbot answers the user's questions during the ordering process to ensure the completion of task.]( "Figure 6. A chatbot handles user interruption while helping the user order a pizza.")
 
-In all the examples above (Figure 2, Figures 5-6), the chatbots were able to handle user interruptions properly while moving the conversation forward.  In contrast, the chatbot shown on the left of Figure 4 was not able to handle a user's interruption ("what's yours"), which also hurt the task completion (i.e., in this case, the chatbot failed to get the user's name).  
+In all the examples above (Figure 2, Figures 5-6), the chatbots were able to handle user interruptions properly while moving the conversation forward--the invisible AI in these chatbots drove them to do so naturally. In contrast, the chatbot shown on the left of Figure 4 was not able to handle a user's interruption ("what's yours"), which also hurt the task completion (i.e., in this case, the chatbot failed to get the user's name).  
 
-Even if a chatbot is made for a seemly simple task, it needs the smart of handling user digressions to ensure task completion. Recalling the person who told me that he did not need an AI chatbot, I asked him what he wants his chatbot to do. He said "I just want a simple chatbot to gather some data from my study participants". I then asked him whether he'd care about the quality of data gathered and asked him to picture the following scenario:
+Even if a chatbot is made for a seemly simple task, it needs the smart to ensure task completion. Recalling the person who told me that he did not need an AI chatbot, I asked him what he wants his chatbot to do. He said "*I just want a simple chatbot to gather some data from my study participants*". I then asked him whether he'd care about the quality of data gathered in the following scenario:
 
 Chatbot: How did you like our product?
 
