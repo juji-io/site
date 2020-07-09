@@ -60,11 +60,13 @@ As outlined above, a chatbot should have four core **human skills** (smarts) to 
 
 ![A chat between a Juji chatbot as an interviewer and a job candidate. The Juji chatbot decided to ignore a job candidate's question during an interview and asked the candidate to ask her question later.]( "Figure 3. Screenshot showing that a Juji chatbot as an interviewer decided to ignore a user's question during an interview")
 
-While NLU is still imperfect and most of chatbots has limited or none NLU capabilities (Figure 4), there is much progress made on NLU especially with the recent advances in machine learning. For example, Juji chatbots are able to [understand highly diverse and complex natural language expressions](https://dl.acm.org/doi/abs/10.1145/3313831.3376131) using mixed pattern-based and machine learning methods.  In contrast to the two chatbots shown in Figure 4, Figure 5 shows a Juji chatbot grasps a user input correctly.
+While NLU is still imperfect and most of chatbots have very limited NLU capabilities (Figure 4), there is much progress made on NLU especially with the recent advances in machine learning. 
 
-![It shows two chatbots that don't understand a user's natural language input. The chatbot on the left asks "What's your name?". The user replied "My name is chatbot". And the chatbot thought the user's name is "My name is chatbot". On the right, the chatbot asks "What's your name?", the user responds "What's yours?". The chatbot thanked the user and moved on (and perhaps thought the user's name is "What's yours". ](/assets/uploads/screen-shot-2020-07-08-at-5.32.26-pm.png "Figure 4. Two chatbots asked for a user's name and both failed to understand the user's input.")
+![It shows two chatbots that don't understand a user's natural language input. The chatbot on the left asks "What's your name?". The user replied "My name is chatbot". And the chatbot thought the user's name is "My name is chatbot". On the right, the chatbot asks "What's your name?", the user responds "What's yours?". The chatbot thanked the user and moved on (and perhaps thought the user's name is "What's yours". ](/assets/uploads/screen-shot-2020-07-08-at-5.32.26-pm.png "Figure 4. Two chatbots ask for a user's name and both fail to understand the user's input")
 
-![]( "Figure 5. ")
+For example, Juji chatbots are able to [understand highly diverse and complex natural language expressions](https://dl.acm.org/doi/abs/10.1145/3313831.3376131) using mixed pattern-based and data-driven machine learning methods.  In contrast to the two chatbots shown in Figure 4, Figure 5 shows a Juji chatbot is able to grasp a user's input correctly.
+
+![]( "Figure 5. A Juji chatbot ask")
 
 Since there is much work on NLU and NLG especially with the recent advances in machine learning, below I will talk more about another two smarts: "dialog management" and "reading between the lines" because fewer people are aware of their importance and there are also greater challenges for us to teach chatbots with these two smarts. 
 
