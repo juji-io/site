@@ -74,7 +74,7 @@ While NLU is still imperfect and most of chatbots have very limited NLU capabili
 
 For example, Juji chatbots are able to [understand highly diverse and complex natural language expressions](https://dl.acm.org/doi/abs/10.1145/3313831.3376131) using mixed pattern-based and data-driven machine learning methods.  In contrast to the two chatbots shown in Figure 4, Figure 5 shows a Juji chatbot is able to grasp a user's input correctly.
 
-![](/assets/uploads/fig5.png "Figure 5. A Juji chatbot asks for a user's name and correctly interprets the user's input.")
+![A screenshot showing that a chatbot asks a user's name and the user doesn't answer, instead asking back "What's yours?" The chatbot handled the user question and resumed the chat flow to catch the user's name eventually. ](/assets/uploads/fig5.png "Figure 5. A Juji chatbot asks for a user's name and correctly interprets the user's input.")
 
 Similar to NLU, NLG has made great advances as summarized by Professor Kathy McKeown in her recent [ACL 2020 keynote](https://acl2020.org/program/keynotes/). On the other hand, another two smarts ***dialog management*** and ***reading between the lines*** are less understood because fewer people are aware of their importance and there are also greater challenges for chatbots to gain these two smarts.  
 
