@@ -97,8 +97,12 @@ As you can imagine, user behavior is highly diverse and unpredictable, which can
 
 ## Reading between the lines
 
-Now thinking back, I probably should not be surprised by the "Where is the AI" question because
+Although many chatbot or conversational AI platforms mention that their chatbots can personalize a user experience, few of them actually do so. For example, if a pizza-ordering chatbot asks a user to make a series of choices and then orders a pizza based on the choices, the conversation is not personalized because if another user who would make the same set of choices, the user will get the same kind of pizza.  
 
+In contrast, if a user asks a chatbot to recommend a pizza to order, the chatbot makes a recommendation based on a user's likes and needs, that is a personalized experience. This is because if another user makes the exactly same request, she may get a totally different pizza based on her likes and needs! 
 
+Numerous studies in [Psycholinguistics](https://en.wikipedia.org/wiki/Psycholinguistics) including [our own](https://dl.acm.org/doi/fullHtml/10.1145/3232077) (Section 4) have shown that a person's text communications reveal one's characteristics, such as motivations and preferences, a smart chatbot should be able to infer a user's characteristics based on the chat. The chatbot can then use the inferred insights to personalize each conversation. 
+
+For example, a chatbot can interact with a gamer to infer his gaming preferences, a social gamer vs. an action-oriented gamer, and recommend suitable games. Similarly, a chatbot can chat with a reader to infer her reading preferences, cerebral vs. artistic,  and [recommend suitable books](https://www.messenger.com/t/109315067094969). Note that such recommendations are based on user characteristics, different from other behavior-based recommendation (e.g., [collaborative filtering](https://en.wikipedia.org/wiki/Collaborative_filtering) as seen on Amazon), which often requires large amounts of user behavior data. 
 
 # How to Tell if a Chatbot has AI
