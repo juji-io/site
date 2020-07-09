@@ -109,7 +109,7 @@ With the smart to know a user deeply, a chatbot can be truly personal to each us
 
 # How to Tell if a Chatbot has AI
 
-Based on the four must-have smarts described above, it is easy for us to tell if a chatbot actually has any AI. We can do so by interacting with a chatbot and answering four questions.
+Based on the four must-have smarts described above, it is easy for us to tell if a chatbot actually has any AI. We can do so by interacting with a chatbot and answering four questions. Here we skip the step of evaluating a chatbot's NLG smart because a chatbot will always produce an output and it is harder to know how such an output is generated (e.g., template-based or auto-synthesized).
 
 ## Can the chatbot understand your natural language expressions?
 
@@ -130,3 +130,7 @@ Assuming that a chatbot can understand your natural language expressions, the ne
 The examples shown in Figure 2, Figure 5, and Figure 6 are good test cases to detect a chatbot's smart in dialog management. For really smart chabots, you could even test how a chatbot handles multi-level interruptions (Figure 7).
 
 ![This shows how a chatbot handles multiple, nested user interruptions. The user interrupted the chatbot's flow by asking the chatbot a question. While the chatbot is answering the user's question, the user interrupted the flow by asking another question.]( "Figure 7. An example showing that a chatbot handles multi-level user interruptions as indicated.")
+
+## Can the chatbot be personal?
+
+We suggest two ways to test whether a chatbot has the smart to personalize a conversation. One is to directly ask the chatbot "How much do you know about me?" or ask for a recommendation if appropriate. The second is to
