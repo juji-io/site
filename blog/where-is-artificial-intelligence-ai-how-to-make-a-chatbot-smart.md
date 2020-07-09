@@ -18,16 +18,16 @@ tags:
 image: /assets/uploads/robot.gif
 credit: adopted from https://giphy.com/
 ---
-A while back, I wrote a blog on ["Chatbot Tsunami"](https://juji.io/blog/chatbot-tsunami-the-good-bad/), mentioning that our world is inundated with chatbots, including both [good ones](https://www.newvoicesnasem.org/post/using-artificial-intelligence-to-combat-misinformation-about-covid-19) that can help us fulfill our requests and bad ones that can hardly understand or achieve anything.
+A while back, I wrote a blog on ["Chatbot Tsunami"](https://juji.io/blog/chatbot-tsunami-the-good-bad/), mentioning that our world is now inundated with chatbots, including both [good ones](https://www.newvoicesnasem.org/post/using-artificial-intelligence-to-combat-misinformation-about-covid-19) that can help us fulfill our requests and bad ones that can hardly understand or achieve anything.
 
 Since Juji always aims at powering all good chatbots with the smarts needed to help users, I had assumed two things:
 
 * Everyone would know what these smarts are 
-* Everyone would know how hard it is to teach chatbots such smarts
+* Everyone could tell whether a chatbot has such smarts
 
-Until recently, I realized that something I took for granted (the two things listed above) is not common knowledge. 
+Until recently, I realized that my two assumptions are completely false. 
 
-Just a few weeks ago, I was demoing our [conversational AI (AI chatbot) platform](https://juji.io/juji-platform/) to a customer. In this demo, I showed how to build a chatbot as a personal healthcare assistant that can check in on a user on a daily basis (Figure 1). 
+A few weeks ago, I was demoing our [conversational AI (AI chatbot) platform](https://juji.io/juji-platform/) to a customer. In this demo, I showed how to build a chatbot as a personal healthcare assistant that can check in on a user on a daily basis (Figure 1). 
 
 ![A chat between a chatbot and a user where a chatbot asks how the user is feeling.](/assets/uploads/fig1.png "Figure 1. A screenshot showing a Juji chatbot as a personal healthcare assistant to greet a user daily.")
 
