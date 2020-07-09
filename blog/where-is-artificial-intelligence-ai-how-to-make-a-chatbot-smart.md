@@ -55,7 +55,7 @@ Based on my definition of AI and the purpose of a chatbot to automate human inte
 As outlined above, a chatbot should have four core **human skills** (smarts) to interact with a human user effectively:
 
 1. **[Natural Language Understanding ](https://en.wikipedia.org/wiki/Natural-language_understanding)(NLU)**. This smart refers to a chatbot's abilities to interpret a user's natural language expressions and understand the user's intent(s). 
-2. **[Dialog Management](https://en.wikipedia.org/wiki/Dialog_manager)**. Once a chatbot understands the intent of a user, it needs to figure out ***what to do**--*how to best respond to the user and move the conversation forward***.*** For example, it may decide to answer a user's question in the middle of the flow (Figure 2) or to ignore the question for now (Figure 3). Because a user often does ***not*** follow a pre-defined chat flow, this smart often refers to a chatbot's abilities to manage user digressions, keep track of the context of a conversation, and ensure the completion of a dialog (task). 
+2. **[Dialog Management](https://en.wikipedia.org/wiki/Dialog_manager)**. Once a chatbot understands the intent of a user, it needs to figure out **\*what to do**--*how to best respond to the user and move the conversation forward***.*** For example, it may decide to answer a user's question in the middle of the flow (Figure 2) or to ignore the question for now (Figure 3). Because a user often does ***not*** follow a pre-defined chat flow, this smart often refers to a chatbot's abilities to manage user digressions, keep track of the context of a conversation, and ensure the completion of a dialog (task). 
 3. **[Natural Language Generation](https://en.wikipedia.org/wiki/Natural-language_generation) (NLG)**. After a chatbots decides what to do, the chatbot then composes its response to the user. This smart refers to a chatbot's abilities to compose natural language responses in context. For example, a chatbot may compose different expressions to communicate the same content to different users. 
 4. **[Reading between the Lines to Understand Users Deeply](https://en.wikipedia.org/wiki/Psycholinguistics) (Personal Insights Modeling)**. A good human conversationalist not only can grasp the intent of his/her conversation partner, but s/he can also read between the lines to infer the partner's true needs and wants, as well as the partner's characteristics (e.g., cautious vs. easy going). If a chatbot can obtain such insights about its users, it can then [personalize a conversation with each user](https://dl.acm.org/doi/fullHtml/10.1145/3232077).  For example, [this chatbot recommends different books](https://www.messenger.com/t/109315067094969) to different users based on the reader DNA inferred for a chat. 
 
@@ -73,7 +73,7 @@ Similar to NLU, NLG has made great advances as summarized by Professor Kathy McK
 
 Next I will describe why it is important to power a chatbot with these two smarts. 
 
-## Managing a conversation flow 
+## Managing a conversation flow
 
 Assume that a chatbot can understand a user's input perfectly. In such a case,  the chatbot still needs to decide how to best respond to the user's input and move a conversation forward gracefully.  Just like a person, a chatbot can carry on a conversation in many different directions depending on a user's input and the goals of a conversation. For example, if the goal of a conversation is to help users no matter what, a chatbot would respond to a user's request whenever such a request is raised during their chat. However, if the goal of a conversation is to [elicit information from a user](https://dl.acm.org/doi/10.1145/3381804), a chatbot may ask the user to hold on his/her questions until the interview is finished. 
 
@@ -121,8 +121,12 @@ After several tries, you'll get a good idea as how smart a chatbot is in terms o
 
 ## Can the chatbot manage a conversation?
 
-Assuming that a chatbot can understand your natural language expressions, the next step is to test whether it can manage a conversation properly. You can test this smart by asking a chatbot questions at different points of a conversation and observe how a chatbot handles your interruptions: 
+Assuming that a chatbot can understand your natural language expressions, the next step is to check whether it can manage a conversation properly. You can test this smart by asking a chatbot questions at **different points** of a conversation and observe how a chatbot handles your interruptions: 
 
 * Does the chatbot ignore or answer your questions?   
 * Does the chatbot resume the conversation flow after answering your question?
-* Does the chatbot keep track of the conversation context (e.g., asking "where are we" or "what about you" whenever appropriate)
+* Does the chatbot keep track of the conversation context (e.g., asking the chatbot "where are we")
+
+The examples shown in Figure 2, Figure 5, and Figure 6 are good test cases to detect a chatbot's smart in dialog management. For really smart chabots, you could even test how a chatbot handles multi-level interruptions (Figure 7).
+
+![This shows how a chatbot handles multiple, nested user interruptions. The user interrupted the chatbot's flow by asking the chatbot a question. While the chatbot is answering the user's question, the user interrupted the flow by asking another question.]( "Figure 7. An example showing that a chatbot handles multi-level user interruptions as indicated.")
