@@ -138,7 +138,7 @@ Assuming that a chatbot can understand your natural language expressions, the ne
 * Does the chatbot resume the conversation flow after answering your question?
 * Does the chatbot keep track of the conversation context (e.g., asking the chatbot "where are we")
 
-The examples shown in Figure 2, Figure 5, and Figure 6 are good test cases to detect a chatbot's smart in dialog management. For really smart chabots, you could even test how a chatbot handles multi-level interruptions (Figure 7).
+The examples shown in Figure 2, Figure 5, and Figure 6 are good test cases to detect a chatbot's smart in dialog management. For the best chabots, you could even test how a chatbot handles multi-level interruptions (Figure 7).
 
 ![This shows how a chatbot handles multiple, nested user interruptions. The user interrupted the chatbot's flow by asking the chatbot a question. While the chatbot is answering the user's question, the user interrupted the flow by asking another question.]( "Figure 7. An example showing that a chatbot handles multi-level user interruptions as indicated.")
 
