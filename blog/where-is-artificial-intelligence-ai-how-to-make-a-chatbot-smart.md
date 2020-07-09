@@ -68,7 +68,9 @@ For example, Juji chatbots are able to [understand highly diverse and complex na
 
 ![]( "Figure 5. A Juji chatbot asks for a user's name and correctly interprets the user's input.")
 
-Similarly NLG has made great advances as summarized by Professor Kathy McKeown in her recent [ACL 2020 keynote](https://acl2020.org/program/keynotes/). On the other side, another two smarts ***dialog management*** and ***reading between the lines*** are less understood because fewer people are aware of their importance and there are also greater challenges for us humans to teach chatbots with these two smarts. 
+Similar to NLU, NLG has made great advances as summarized by Professor Kathy McKeown in her recent [ACL 2020 keynote](https://acl2020.org/program/keynotes/). On the other hand, another two smarts ***dialog management*** and ***reading between the lines*** are less understood because fewer people are aware of their importance and there are also greater challenges for chatbots to gain these two smarts.  
+
+Next I will describe more why it is important to have a chatbot possess these two smarts. 
 
 ## Managing a conversation flow 
 
