@@ -138,14 +138,12 @@ Assuming that a chatbot can understand your natural language expressions, the ne
 * Does the chatbot resume the conversation flow after answering your question?
 * Does the chatbot keep track of the conversation context (e.g., asking the chatbot "where are we")
 
-The examples shown in Figure 2, Figure 5, and Figure 6 are good test cases to detect a chatbot's smart in dialog management. For the best chabots, you could even test how a chatbot handles multi-level interruptions (Figure 7).
-
-![This shows how a chatbot handles multiple, nested user interruptions. The user interrupted the chatbot's flow by asking the chatbot a question. While the chatbot is answering the user's question, the user interrupted the flow by asking another question.]( "Figure 7. An example showing that a chatbot handles multi-level user interruptions as indicated.")
+The examples shown in Figure 2, Figure 5, and Figure 6 are good test cases to detect a chatbot's smart in dialog management. For the best chabots, you could even test how a chatbot handles multi-level interruptions as shown in Figure 2.
 
 ## Can the chatbot be personal?
 
-We suggest two ways to test whether a chatbot has the smart to personalize a conversation. One is to directly ask the chatbot "How much do you know about me?" and see how it responds (Figure 8). Second, if a chatbot makes recommendations or give advices, ask for a recommendation or advice. Then ask a friend of yours to do the same and see if you get the same results. 
+We suggest two ways to test whether a chatbot has the smart to personalize a conversation. One is to directly ask the chatbot "How much do you know about me?" and see how it responds (Figure 7). Second, if a chatbot makes recommendations or give advices, ask for a recommendation or advice. Then ask a friend of yours to do the same and see if you get the same results. 
 
-![This screenshot shows a user asks a chatbot "how much do you know about me" and the chatbot responds with its understanding of the user. ]( "Figure 8. Asking a chatbot how much it knows about you. ")
+![This screenshot shows a user asks a chatbot "how much do you know about me" and the chatbot responds with its understanding of the user. ]( "Figure 7. Asking a chatbot how much it knows about you. ")
 
 In short, I have described the four types of smarts (AI) every chatbot should have and how to tell if a chatbot has such smarts.  Since it is non-trivial to create a chatbot with all the smarts, I will share how to power a chatbot with these smarts in my next blog. In the meantime, if you wish to test out the smarts of Juji chatbots, [chat with Juji on Facebook ](https://www.facebook.com/juji.io/)(press the "Send Message" blue button) or [sign up](https://juji.io/signup) to create your own and experience such smarts.
