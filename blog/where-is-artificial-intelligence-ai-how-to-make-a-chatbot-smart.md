@@ -1,8 +1,8 @@
 ---
 layout: blog/article.njk
 featured: true
-title: Where is the Artificial Intelligence (AI)? Invisible AI That Makes a
-  Chatbot Smart
+title: Where is the Artificial Intelligence (AI)? Detecting the Invisible AI
+  that Makes a Chatbot Smart
 date: 2020-07-06T18:52:02.003Z
 author: Michelle Zhou
 category: Guides
@@ -16,6 +16,7 @@ tags:
   - chatbot development
   - personal healthcare assistant
 image: /assets/uploads/robot.gif
+credit: adopted from https://giphy.com/
 ---
 A while back, I wrote a blog on ["Chatbot Tsunami"](https://juji.io/blog/chatbot-tsunami-the-good-bad/), mentioning that our world is inundated with chatbots, including both [good ones](https://www.newvoicesnasem.org/post/using-artificial-intelligence-to-combat-misinformation-about-covid-19) that can help us fulfill our requests and bad ones that can hardly understand or achieve anything.
 
@@ -26,11 +27,17 @@ Since Juji always aims at powering all good chatbots with the smarts needed to h
 
 Until recently, I realized that something I took for granted (the two things listed above) is not common knowledge. 
 
-Just a few weeks ago, I was demoing our [conversational AI (AI chatbot) platform](https://juji.io/juji-platform/) to a customer. In this demo, I showed how to build a chatbot as a personal healthcare assistant that can check in on a user on a daily basis (Figure 1) as well as provide just-in-time help as the user requests it (Figure 2). It took me literally 3 minutes to create the chatbot. I then spent a few minutes to show the chatbot in action (try it yourself if you wish to).  
+Just a few weeks ago, I was demoing our [conversational AI (AI chatbot) platform](https://juji.io/juji-platform/) to a customer. In this demo, I showed how to build a chatbot as a personal healthcare assistant that can check in on a user on a daily basis (Figure 1). 
 
-![A chat between a chatbot and a user where a chatbot asks how the user is feeling.]( "Figure 1. A screenshot showing a Juji chatbot as a personal healthcare assistant to greet a user daily.")
+![A chat between a chatbot and a user where a chatbot asks how the user is feeling.](/assets/uploads/fig1.png "Figure 1. A screenshot showing a Juji chatbot as a personal healthcare assistant to greet a user daily.")
 
-![A chat between the Juji chatbot and the user when the user interrupts the flow by making a request to see a doctor. ]( "Figure 2. A screenshot showing how the uji chatbot handles a user interruption in the middle of a chat flow, fulfills the user’s request, and then resumes the original flow.")
+Upon receiving a user's request, the same chatbot can also provide just-in-time help (Figure 2).  
+
+![The screenshot showing a user interrupts a chat flow by making a request to see a doctor. The chatbot responds to the user's request by started taking information from the user to fulfill the request.](/assets/uploads/fig2-a.png)
+
+![The screenshot shows the user interrupts the chat flow again by asking an additional question while the chatbot is gathering information to fulfill the user's request.](/assets/uploads/fig2-b.png "Figure 2. A screenshot showing how the uji chatbot handles a user's multiple interruptions during a dialog and remembers the conversation context.")
+
+It took me literally 3 minutes to create the chatbot. I then spent a few minutes to show the chatbot in action (try it yourself if you wish to). 
 
 Because everything worked flawlessly, I was thinking to myself they ought to be impressed by our work. However, there was a dead silence after my demo. I then asked "do you have any questions about the demo?" One person asked: "I got it. But where is the AI?" Coincidently (or not so), in a separate meeting after this demo, another customer commented that "I tried Juji. While it is very easy to use and create a chatbot, I'm not sure where the AI is."  
 
@@ -50,7 +57,7 @@ Although you could look up the [definition of AI on wikipedia](https://en.wikipe
 
 Based on my definition of AI and the purpose of a chatbot to automate human interactions, I use the following diagram to outline the human skills that a chatbot should be taught:
 
-![A diagram shows four core human skills a chatbot should have]( "Four smarts (AI) that every chatbot should have.  Here assumes that a chatbot only interacts with a human user via text messages. ")
+![A diagram shows four core human skills a chatbot should have: natural language understanding (NLU), dialog management, natural language generation (NLG), and personal insights modeling.]( "Four smarts (AI) that every chatbot should have.  Here assumes that a chatbot only interacts with a human user via text messages. ")
 
 As outlined above, a chatbot should have four core **human skills** (smarts) to interact with a human user effectively:
 
