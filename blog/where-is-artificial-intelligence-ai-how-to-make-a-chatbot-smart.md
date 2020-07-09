@@ -100,4 +100,4 @@ Now thinking back, I probably should not be surprised by the "Where is the AI" q
 
 
 
-## Detection of Chatbot Smarts (AI)
+# How to Tell if a Chatbot has AI
