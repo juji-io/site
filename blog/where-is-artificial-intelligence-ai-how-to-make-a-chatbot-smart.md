@@ -92,7 +92,7 @@ Figure 2 shows an example where the user didn't follow the chatbot's asking ("re
 
 ![The conversation continues to ask the user to select toppings. But the user didn't do as asked. Instead the user asked the chatbot to check a coupon.](/assets/uploads/fig6-2.png)
 
-![The screenshot shows a dialog between a chatbot and a user where the chatbot takes a pizza order. The chatbot answers the user's questions during the ordering process to ensure the completion of task.](/assets/uploads/fig6-3.png "Figure 6. A chatbot handles user interruption while helping the user order a pizza.")
+![ The chat continues to ensure  the completion of task.](/assets/uploads/fig6-3.png "Figure 6. A chatbot handles user interruption while helping the user order a pizza.")
 
 In all the examples above (Figure 2, Figures 5-6), the chatbots were able to handle user interruptions properly while moving the conversation forward--the invisible AI in these chatbots did the work naturally. In contrast, the chatbot shown on the left of Figure 4 was not able to handle a user's interruption ("what's yours"), which also hurt the task completion (i.e., in this case, the chatbot failed to get the user's name).  
 
