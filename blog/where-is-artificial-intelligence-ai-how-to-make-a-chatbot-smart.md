@@ -72,7 +72,7 @@ Similarly NLG has made great advances as summarized by Professor Kathy McKeown i
 
 ## Managing a conversation flow 
 
-Assume what a chatbot can understand a user's input perfectly. In such a circumstance,  the chatbot still needs to decide how to best respond to the user's input and move a conversation forward gracefully.   a chatbot can carry on a conversation in many different directions depending on a user's input and the goals of a conversation. For example, if a goal of a conversation is to help users no matter what, a chatbot would respond to a user's request any time in their dialog. If a goal of a conversation is to [elicit information from a user](https://dl.acm.org/doi/10.1145/3381804), a chatbot may ask the user to hold on his/her questions until the interview is finished. 
+Assume what a chatbot can understand a user's input perfectly. In such a circumstance,  the chatbot still needs to decide how to best respond to the user's input and move a conversation forward gracefully.  Just like a person, a chatbot can carry on a conversation in many different directions depending on a user's input and the goals of a conversation. For example, if a goal of a conversation is to help users no matter what, a chatbot would respond to a user's request any time in their dialog. If a goal of a conversation is to [elicit information from a user](https://dl.acm.org/doi/10.1145/3381804), a chatbot may ask the user to hold on his/her questions until the interview is finished. 
 
 Because 
 
