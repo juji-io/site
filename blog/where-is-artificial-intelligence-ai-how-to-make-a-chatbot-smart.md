@@ -93,7 +93,7 @@ Participant: *I don't know*.
 
 Instead of taking the participant's input, a smart (AI) chatbot would recognize the user's input and respond by encouraging the participant to give some input. Now what if the participant responded with "What aspects do you like to hear"? How should the chatbot manage the conversation? 
 
-As you can imagine, user behavior could be highly diverse and unpredictable, which can drive a conversation into numerous directions. To balance the delivery of a great user experience and fulfillment of conversation goals, a chatbot must have the smart to manage a conversation flow properly.  On the other hand, a chatbot without the smart to manage a conversation will have a hard time to complete any tasks, let alone satisfy its users. 
+As you can imagine, user behavior is highly diverse and unpredictable, which can drive a conversation into numerous directions. To balance the delivery of a great user experience and fulfillment of conversation goals, a chatbot must have the smart to manage a conversation flow properly.  On the other hand, a chatbot without such smart will have a hard time to complete any tasks, let alone satisfy its users. 
 
 ## Reading between the lines
 
