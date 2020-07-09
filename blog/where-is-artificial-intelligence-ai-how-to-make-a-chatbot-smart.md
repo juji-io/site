@@ -124,7 +124,5 @@ After several tries, you'll get a good idea as how smart a chatbot is in terms o
 Assuming that a chatbot can understand your natural language expressions, the next step is to test whether it can manage a conversation properly. You can test this smart by asking a chatbot questions at different points of a conversation and observe how a chatbot handles your interruptions: 
 
 * Does the chatbot ignore or answer your questions?   
-
-  Does the chatbot resume the conversation flow after answering your question?
-
-  Does the chatbot know where it is in the conversation (e.g., asking "where are we")
+* Does the chatbot resume the conversation flow after answering your question?
+* Does the chatbot keep track of the conversation context (e.g., asking "where are we" or "what about you" whenever appropriate)
