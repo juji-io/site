@@ -108,3 +108,23 @@ For example, a chatbot can interact with a gamer to infer his gaming preferences
 With the smart to know a user deeply, a chatbot can be truly personal to each user.
 
 # How to Tell if a Chatbot has AI
+
+Based on the four must-have smarts described above, it is easy for us to tell if a chatbot actually has any AI. We can do so by interacting with a chatbot and answering four questions.
+
+## Can the chatbot understand your natural language expressions?
+
+No matter whether you are evaluating a particular chatbot or a chatbot platform, I strongly encourage you to chat with the chatbot or a chatbot made on that platform (see [more on platform evaluation](https://juji.io/docs/why-ai-chatbots/#which-ai-chatbot-platform-to-use)). To detect if a chatbot can  understand natural language expressions, try chat with it using different expressions and see how it behaves. 
+
+For example, if a chatbot asks you "What's your name?", try to answer it in different ways, e.g., "my name is Michelle",  "I go by Michelle", "Michelle is the name",  or "My name is not Mary but Michelle" to test its abilities to understand natural language expressions. If a chatbot does not give you a confirmation on its interpretation results, you should test it by asking a confirmation question, e.g.,  "What's my name" to confirm if the chatbot gets your name correctly.   
+
+After several tries, you'll get a good idea as how smart a chatbot is in terms of understanding natural language expressions.
+
+## Can the chatbot manage a conversation?
+
+Assuming that a chatbot can understand your natural language expressions, the next step is to test whether it can manage a conversation properly. You can test this smart by asking a chatbot questions at different points of a conversation and observe how a chatbot handles your interruptions: 
+
+* Does the chatbot ignore or answer your questions?   
+
+  Does the chatbot resume the conversation flow after answering your question?
+
+  Does the chatbot know where it is in the conversation (e.g., asking "where are we")
