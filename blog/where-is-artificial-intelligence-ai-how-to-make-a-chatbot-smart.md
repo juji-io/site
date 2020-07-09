@@ -22,10 +22,10 @@ A while back, I wrote a blog on ["Chatbot Tsunami"](https://juji.io/blog/chatbot
 
 Since Juji always aims at powering all good chatbots with the smarts needed to help users, I had assumed two things:
 
-* Everyone would know what these smarts are 
-* Everyone could tell whether a chatbot has such smarts
+* Everyone would know what these smarts are; and
+* Everyone could tell whether a chatbot has such or any smarts.
 
-Until recently, I realized that my two assumptions are completely false. 
+Until recently, I realized that my two assumptions were wrong. 
 
 A few weeks ago, I was demoing our [conversational AI (AI chatbot) platform](https://juji.io/juji-platform/) to a customer. In this demo, I showed how to build a chatbot as a personal healthcare assistant that can check in on a user on a daily basis (Figure 1). 
 
