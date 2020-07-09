@@ -144,6 +144,6 @@ The examples shown in Figure 2, Figure 5, and Figure 6 are good test cases to de
 
 We suggest two ways to test whether a chatbot has the smart to personalize a conversation. One is to directly ask the chatbot "How much do you know about me?" and see how it responds (Figure 7). Second, if a chatbot makes recommendations or give advices, ask for a recommendation or advice. Then ask a friend of yours to do the same and see if you get the same results. 
 
-![This screenshot shows a user asks a chatbot "how much do you know about me" and the chatbot responds with its understanding of the user. ]( "Figure 7. Asking a chatbot how much it knows about you. ")
+![This screenshot shows a user asks a chatbot "how much do you know about me" and the chatbot responds with its understanding of the user. ](/assets/uploads/fig7.png "Figure 7. Asking a chatbot how much it knows about you. ")
 
 In short, I have described the four types of smarts (AI) every chatbot should have and how to tell if a chatbot has such smarts.  Since it is non-trivial to create a chatbot with all the smarts, I will share how to power a chatbot with these smarts in my next blog. In the meantime, if you wish to test out the smarts of Juji chatbots, [chat with Juji on Facebook ](https://www.facebook.com/juji.io/)(press the "Send Message" blue button) or [sign up](https://juji.io/signup) to create your own and experience such smarts.
