@@ -78,11 +78,11 @@ Assume that a chatbot can understand a user's input perfectly. In such a case,  
 
 Since it is very difficult to anticipate how a user would behave in a conversation, it is not possible to plan a chatbot's every move in advance. Moreover, many factors including human spontaneity will most likely prompt a user to digress from a planned conversation flow. 
 
-Figure 2 shows such an example where the user didn't follow the chatbot's asking ("ready to get started?"). Instead, he asked the chatbot to help. Similarly, in Figure 5, instead of replying to the chatbot with her name, the user asked the chatbot its name.  Figure 6 shows another example where a chatbot helps a user order a pizza. Before the chatbot finishes gathering all the info, the user interrupts the flow by asking a question. 
+Figure 2 shows an example where the user didn't follow the chatbot's asking ("ready to get started?"). Instead, he asked the chatbot to help. Similarly, in Figure 5, instead of replying to the chatbot with her name, the user asked the chatbot its name.  Figure 6 shows another example where a chatbot helps a user order a pizza. Before the chatbot finishes gathering all the info, the user interrupts the flow by asking a question. 
 
 ![The screenshot shows a dialog between a chatbot and a user where the chatbot takes a pizza order. The chatbot answers the user's questions during the ordering process to ensure the completion of task.]( "Figure 6. A chatbot handles user interruption while helping the user order a pizza.")
 
-In all the examples above, the chatbots were able to handle user interruptions properly while moving the conversation forward.  In contrast, the chatbot shown on the left of Figure 4 was not able to handle a user's interruption ("what's yours"), which also hurt the task completion (i.e., in this case, the chatbot failed to get the user's name). 
+In all the examples above (Figure 2, Figures 5-6), the chatbots were able to handle user interruptions properly while moving the conversation forward.  In contrast, the chatbot shown on the left of Figure 4 was not able to handle a user's interruption ("what's yours"), which also hurt the task completion (i.e., in this case, the chatbot failed to get the user's name).  
 
 Even if a chatbot is made for a seemly simple task, it needs the smart of handling user digressions to ensure task completion. Recalling the person who told me that he did not need an AI chatbot, I asked him what he wants his chatbot to do. He said "I just want a simple chatbot to gather some data from my study participants". I then asked him whether he'd care about the quality of data gathered and asked him to picture the following scenario:
 
