@@ -66,13 +66,13 @@ While NLU is still imperfect and most of chatbots have very limited NLU capabili
 
 For example, Juji chatbots are able to [understand highly diverse and complex natural language expressions](https://dl.acm.org/doi/abs/10.1145/3313831.3376131) using mixed pattern-based and data-driven machine learning methods.  In contrast to the two chatbots shown in Figure 4, Figure 5 shows a Juji chatbot is able to grasp a user's input correctly.
 
-![]( "Figure 5. A Juji chatbot ask")
+![]( "Figure 5. A Juji chatbot asks for a user's name and correctly interprets the user's input.")
 
-Since there is much work on NLU and NLG especially with the recent advances in machine learning, below I will talk more about another two smarts: "dialog management" and "reading between the lines" because fewer people are aware of their importance and there are also greater challenges for us to teach chatbots with these two smarts. 
+Similarly NLG has made great advances as summarized by Professor Kathy McKeown in her recent [ACL 2020 keynote](https://acl2020.org/program/keynotes/). On the other side, another two smarts ***dialog management*** and ***reading between the lines*** are less understood because fewer people are aware of their importance and there are also greater challenges for us humans to teach chatbots with these two smarts. 
 
 ## Managing a conversation flow 
 
-Even if a chatbot understands a user's input, it still needs to decide how to best respond to the user's input.  Just like a person, a chatbot can carry on a conversation in many different directions depending on a user's input and the goals of a conversation. For example, if a goal of a conversation is to help users no matter what, a chatbot would respond to a user's request any time in their dialog. If a goal of a conversation is to [elicit information from a user](https://dl.acm.org/doi/10.1145/3381804), a chatbot may ask the user to hold on his/her questions until the interview is finished. 
+Assume what a chatbot can understand a user's input perfectly. In such a circumstance,  the chatbot still needs to decide how to best respond to the user's input and move a conversation forward gracefully.   a chatbot can carry on a conversation in many different directions depending on a user's input and the goals of a conversation. For example, if a goal of a conversation is to help users no matter what, a chatbot would respond to a user's request any time in their dialog. If a goal of a conversation is to [elicit information from a user](https://dl.acm.org/doi/10.1145/3381804), a chatbot may ask the user to hold on his/her questions until the interview is finished. 
 
 Because 
 
