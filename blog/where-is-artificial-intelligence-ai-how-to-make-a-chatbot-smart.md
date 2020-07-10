@@ -80,7 +80,7 @@ For example, Juji chatbots are able to [understand highly diverse and complex na
 
 ![A screenshot showing that a chatbot asks a user's name and the user doesn't answer, instead asking back "What's yours?" The chatbot handled the user question and resumed the chat flow to catch the user's name eventually. ](/assets/uploads/fig5.png "Figure 5. A Juji chatbot asks for a user's name and correctly interprets the user's input.")
 
-Similar to NLU, natural language generation (NLG) has also made great advances as summarized by Professor Kathy McKeown in her recent [ACL 2020 keynote](https://acl2020.org/program/keynotes/). 
+Similar to NLU, natural language generation (NLG) is another must-have chatbot smart because a chatbot must produce some sort of output in a chat. NLG has also made great advances as summarized by Professor Kathy McKeown in her recent [ACL 2020 keynote](https://acl2020.org/program/keynotes/). 
 
 On the other hand, another two smarts ***dialog management*** and ***reading between the lines*** are less understood because fewer people are aware of their importance and there are also greater challenges for chatbots to gain these two smarts.  
 
@@ -112,37 +112,45 @@ Participant: *I don't know*.
 
 Instead of taking the participant's input, a smart (AI) chatbot would recognize the inadequate input and respond by encouraging the participant to give more meaningful input. Alone the same line, what if the participant responded with one of the following expressions:
 
-  * What aspects do you like to hear? 
+* What aspects do you like to hear? 
+* I haven't used the product long enough to have an opinion
+* Why do you want to know?
 
-  * I haven't used the product long enough to have an opinion
-
-  * Why do you want to know?
-
-How should the chatbot manage the conversation? 
+*How should the chatbot manage the conversation?* 
 
 As you can imagine, user behavior is highly diverse and unpredictable, which can drive a conversation into numerous directions. To balance the delivery of a great user experience and fulfillment of conversation goals, a chatbot must have the smart to manage a conversation flow properly.  On the other hand, a chatbot without such smart will have a hard time to complete any tasks, let alone satisfy its users. 
 
 ## Reading between the lines
 
-Although many chatbot or conversational AI platforms mention that their chatbots can personalize a user experience, few of them actually do so. For example, if a pizza-ordering chatbot asks a user to make a series of choices and then orders a pizza based on the choices, the conversation is not personalized because if another user who would make the same set of choices, the user will get the same kind of pizza.  
+Although many chatbot or conversational AI platforms mention that their chatbots can personalize a user experience, few of them actually do so. For example, if a pizza-ordering chatbot asks a user to make a series of choices and then orders a pizza based on the choices made, the conversation is not personalized because if another user who would make the same set of choices, the user will get the same pizza.  
 
-In contrast, if a user asks a chatbot to recommend a pizza to order, the chatbot makes a recommendation based on a user's likes and needs, that is a personalized experience. This is because if another user makes the exactly same request, she may get a totally different pizza based on her likes and needs! 
+In contrast, if a user asks a chatbot to recommend a pizza to order, the chatbot makes a recommendation based on a user's likes and needs, that is a personalized experience. This is because if another user makes the *exactly same* request, she may get a totally different pizza based on her likes and needs.
 
-Numerous studies in [Psycholinguistics](https://en.wikipedia.org/wiki/Psycholinguistics) including [our own](https://dl.acm.org/doi/fullHtml/10.1145/3232077) (Section 4) have shown that a person's text communications reveal one's characteristics, such as motivations and preferences, a smart chatbot should be able to infer a user's characteristics based on the chat. The chatbot can then use the inferred insights to personalize each conversation. 
+Numerous studies in [Psycholinguistics](https://en.wikipedia.org/wiki/Psycholinguistics) including [our own](https://dl.acm.org/doi/fullHtml/10.1145/3232077) (Section 4) have shown that a person's text communications reveal one's characteristics, such as motivations and preferences. A smart chatbot should be able to infer a user's characteristics from the chat, and then use the inferred insights to personalize each conversation. 
 
-For example, a chatbot can interact with a gamer to infer his gaming preferences, a social gamer vs. an action-oriented gamer, and recommend suitable games. Similarly, a chatbot can chat with a reader to infer her reading preferences, cerebral vs. artistic,  and [recommend suitable books](https://www.messenger.com/t/109315067094969). Note that such recommendations are based on user characteristics, different from other behavior-based recommendation (e.g., [collaborative filtering](https://en.wikipedia.org/wiki/Collaborative_filtering) as seen on Amazon), which often requires large amounts of user behavior data. In contrast, characteristics-based recommendations can still be made even if a user has no demonstrated behavior. Assume that a user is looking for a game to play but has never bought a game before. Through a brief conversation, a chatbot infers that the user is very artistic and highly curious, it could recommend games that feature beautiful game worlds with intriguing plots.  
+For example, a chatbot can interact with a gamer to infer his gaming preferences, a social gamer vs. an action-oriented gamer, and recommend suitable games. Similarly, a chatbot can chat with a reader to infer her reading preferences, cerebral vs. artistic,  and then [recommend suitable books](https://www.messenger.com/t/109315067094969). Note that such recommendations are based on user characteristics, different from traditional behavior-based recommendation (e.g., [collaborative filtering](https://en.wikipedia.org/wiki/Collaborative_filtering) as seen on Amazon), which often requires large amounts of user behavior data. In contrast, characteristics-based recommendations can be made even if a user has no demonstrated behavior. Assume that a user is looking for a game to play but has never bought a game before. Through a brief conversation, a chatbot infers that the user is very artistic and highly curious. It could then recommend games that feature beautiful game worlds with intriguing plots.  
 
-With the smart to know a user deeply, a chatbot can be truly personal to each user.
+In short, this smart enables a chatbot to know a user deeply and become truly personal to each user. This short [Youtube video](https://juji.io/docs/tutorial/#send-personalized-messages-by-user-personas) shows how to personalize chat messages based on a user's characteristics. 
 
 # How to Tell if a Chatbot has AI
 
-Based on the four must-have smarts described above, it is easy for us to tell if a chatbot actually has any AI. We can do so by interacting with a chatbot and answering four questions. Here we skip the step of evaluating a chatbot's NLG smart because a chatbot will always produce an output and it is harder to know how such an output is generated (e.g., template-based or auto-synthesized).
+Based on the four must-have chatbot smarts described above, it is easy to detect if a chatbot has any AI. We can do so by interacting with a chatbot and answering four questions. 
 
 ## Can the chatbot understand your natural language expressions?
 
 No matter whether you are evaluating a particular chatbot or a chatbot platform, I strongly encourage you to chat with the chatbot or a chatbot made on that platform (see [more on platform evaluation](https://juji.io/docs/why-ai-chatbots/#which-ai-chatbot-platform-to-use)). To detect if a chatbot can  understand natural language expressions, try chat with it using different expressions and see how it behaves. 
 
-For example, if a chatbot asks you "What's your name?", try to answer it in different ways, e.g., "my name is Michelle",  "I go by Michelle", "Michelle is the name",  or "My name is not Mary but Michelle" to test its abilities to understand natural language expressions. If a chatbot does not give you a confirmation on its interpretation results, you should test it by asking a confirmation question, e.g.,  "What's my name" to confirm if the chatbot gets your name correctly.   
+For example, if a chatbot asks you "What's your name?", try to answer it in different ways, 
+
+\* *my name is Michelle*
+
+\* *I go by Michelle*
+
+\* *Michelle is the name*
+
+\* *My name is not Mary but Michelle* 
+
+This is to test its abilities to understand natural language expressions. If a chatbot does not give you a confirmation on its interpretation results, you should test it by asking a confirmation question, e.g.,  "What's my name" to confirm if the chatbot gets your name correctly.   
 
 After several tries, you'll get a good idea as how smart a chatbot is in terms of understanding natural language expressions.
 
