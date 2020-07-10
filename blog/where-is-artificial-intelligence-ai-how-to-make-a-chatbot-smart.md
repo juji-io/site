@@ -72,25 +72,27 @@ As outlined in the diagram above, the four core **human skills** (smarts) are:
 
 ![A chat between a Juji chatbot as an interviewer and a job candidate. The Juji chatbot decided to ignore a job candidate's question during an interview and asked the candidate to ask her question later.](/assets/uploads/fig3.png "Figure 3. Screenshot showing that a Juji chatbot as an interviewer decided to ignore a user's question during an interview")
 
-While NLU is still imperfect and most of chatbots have very limited NLU capabilities (Figure 4), there is much progress made on NLU especially with the recent advances in machine learning. 
+The nature of a conversation is to exchange information and ideas expressed in natural language. Thus, the basic smart of a chatbot is to understand natural language expressions (NLU).  Although sadly most chatbots have very limited NLU smart (Figure 4), there is much progress made on NLU especially with the recent advances in machine learning. 
 
 ![It shows two chatbots that don't understand a user's natural language input. The chatbot on the left asks "What's your name?". The user replied "My name is chatbot". And the chatbot thought the user's name is "My name is chatbot". On the right, the chatbot asks "What's your name?", the user responds "What's yours?". The chatbot thanked the user and moved on (and perhaps thought the user's name is "What's yours". ](/assets/uploads/screen-shot-2020-07-08-at-5.32.26-pm.png "Figure 4. Two chatbots ask for a user's name and both fail to understand the user's input")
 
-For example, Juji chatbots are able to [understand highly diverse and complex natural language expressions](https://dl.acm.org/doi/abs/10.1145/3313831.3376131) using mixed pattern-based and data-driven machine learning methods.  In contrast to the two chatbots shown in Figure 4, Figure 5 shows a Juji chatbot is able to grasp a user's input correctly.
+For example, Juji chatbots are able to [understand highly diverse and complex natural language expressions](https://dl.acm.org/doi/abs/10.1145/3313831.3376131) using the [hybrid pattern-based and data-driven machine learning methods](https://www.youtube.com/watch?v=phA4bMjKvCY&t=5s).  In contrast to the two chatbots shown in Figure 4, Figure 5 shows a Juji chatbot that is able to grasp a user's input correctly.
 
 ![A screenshot showing that a chatbot asks a user's name and the user doesn't answer, instead asking back "What's yours?" The chatbot handled the user question and resumed the chat flow to catch the user's name eventually. ](/assets/uploads/fig5.png "Figure 5. A Juji chatbot asks for a user's name and correctly interprets the user's input.")
 
-Similar to NLU, NLG has made great advances as summarized by Professor Kathy McKeown in her recent [ACL 2020 keynote](https://acl2020.org/program/keynotes/). On the other hand, another two smarts ***dialog management*** and ***reading between the lines*** are less understood because fewer people are aware of their importance and there are also greater challenges for chatbots to gain these two smarts.  
+Similar to NLU, natural language generation (NLG) has also made great advances as summarized by Professor Kathy McKeown in her recent [ACL 2020 keynote](https://acl2020.org/program/keynotes/). 
+
+On the other hand, another two smarts ***dialog management*** and ***reading between the lines*** are less understood because fewer people are aware of their importance and there are also greater challenges for chatbots to gain these two smarts.  
 
 Next I will describe why it is important to power a chatbot with these two smarts. 
 
 ## Managing a conversation flow
 
-Assume that a chatbot can understand a user's input perfectly. In such a case,  the chatbot still needs to decide how to best respond to the user's input and move a conversation forward gracefully.  Just like a person, a chatbot can carry on a conversation in many different directions depending on a user's input and the goals of a conversation. For example, if the goal of a conversation is to help users no matter what, a chatbot would respond to a user's request whenever such a request is raised during their chat. However, if the goal of a conversation is to [elicit information from a user](https://dl.acm.org/doi/10.1145/3381804), a chatbot may ask the user to hold on his/her questions until the interview is finished. 
+Assume that a chatbot can understand a user's input perfectly. In such a case,  the chatbot still needs to decide how to best respond to the user's input and move a conversation forward gracefully.  Just like a person, a chatbot can carry on a conversation in many different directions depending on a user's input and the goals of a conversation. For example, if the goal of a conversation is to help users no matter what, a chatbot would respond to a user's request whenever such a request is raised during their chat (Figure 2). However, if the goal of a conversation is to [elicit information from a user](https://dl.acm.org/doi/10.1145/3381804), a chatbot may ask the user to hold on his/her questions until the interview is finished (Figure 3). 
 
 Since it is very difficult to anticipate how a user would behave in a conversation, it is not possible to plan a chatbot's every move in advance. Moreover, many factors including human spontaneity will most likely prompt a user to digress from a planned conversation flow. 
 
-Figure 2 shows an example where the user didn't follow the chatbot's asking ("ready to get started?"). Instead, he asked the chatbot to help. Similarly, in Figure 5, instead of replying to the chatbot with her name, the user asked the chatbot its name.  Figure 6 shows another example where a chatbot helps a user order a pizza. Before the chatbot finishes gathering all the info, the user interrupts the flow by asking a question. 
+Figure 2 shows an example where the user (Joe) didn't follow the chatbot's asking ("ready to get started?"). Instead, Joe asked the chatbot to help. Similarly, in Figure 5, instead of replying to the chatbot with a name, the user asked the chatbot its name.  Figure 6 shows another example where a chatbot helps a user order a pizza. Before the chatbot finishes gathering all the info, the user interrupts the flow by asking a question about a coupon. 
 
 ![The screenshot showing a chatbot helps a user order a pizza. It starts by asking the user the size of the pizza to order.](/assets/uploads/fig6-1.png)
 
@@ -98,15 +100,25 @@ Figure 2 shows an example where the user didn't follow the chatbot's asking ("re
 
 ![ The chat continues to ensure  the completion of task.](/assets/uploads/fig6-3.png "Figure 6. A chatbot handles user interruption while helping the user order a pizza.")
 
-In all the examples above (Figure 2, Figures 5-6), the chatbots were able to handle user interruptions properly while moving the conversation forward--the invisible AI in these chatbots did the work naturally. In contrast, the chatbot shown on the left of Figure 4 was not able to handle a user's interruption ("what's yours"), which also hurt the task completion (i.e., in this case, the chatbot failed to get the user's name).  
+In all the examples above (Figure 2, Figures 5-6), the Juji chatbots were able to handle user interruptions properly while moving the conversation forward. Behind the scene, the AI in these chatbots worked in stealth to make the transitions and manage the flow changes. Because the conversation flowed so naturally, no wonder the customers didn't realize what's working behind the scene and asked "Where's the AI"!  
 
-Even if a chatbot is made for a seemly simple task, it needs the smart to ensure task completion. Recalling the person who told me that he did not need an AI chatbot, I asked him what he wants his chatbot to do. He said "*I just want a simple chatbot to gather some data from my study participants*". I then asked him whether he'd care about the quality of data gathered in the following scenario:
+In contrast, the chatbot shown on the left of Figure 4 was not able to handle a user's interruption ("what's yours"), which also hinders the task completion (i.e., in this case, the chatbot failed to get the user's name).  
+
+No matter how simple a task is, a chatbot often needs such smart to ensure task completion. Recall a person who told me that he did not need an AI chatbot. I asked him what he wants his chatbot to do. He said "*I just want a simple chatbot to gather some data from my study participants*". I then asked him whether he cares about the quality of data gathered. Just imagine this scenario:
 
 Chatbot: *How did you like our product?*
 
 Participant: *I don't know*.
 
-Instead of taking the participant's input, a smart (AI) chatbot would recognize the user's input and respond by encouraging the participant to give some input. Now what if the participant responded with "What aspects do you like to hear"? How should the chatbot manage the conversation? 
+Instead of taking the participant's input, a smart (AI) chatbot would recognize the inadequate input and respond by encouraging the participant to give more meaningful input. Alone the same line, what if the participant responded with one of the following expressions:
+
+  * What aspects do you like to hear? 
+
+  * I haven't used the product long enough to have an opinion
+
+  * Why do you want to know?
+
+How should the chatbot manage the conversation? 
 
 As you can imagine, user behavior is highly diverse and unpredictable, which can drive a conversation into numerous directions. To balance the delivery of a great user experience and fulfillment of conversation goals, a chatbot must have the smart to manage a conversation flow properly.  On the other hand, a chatbot without such smart will have a hard time to complete any tasks, let alone satisfy its users. 
 
