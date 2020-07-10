@@ -100,9 +100,9 @@ Figure 2 shows Joe's two digressions from a flow. Figure 5 shows another user di
 
 ![ The chat continues to ensure  the completion of task.](/assets/uploads/fig6-3.png "Figure 6. A chatbot handles user interruption while helping the user order a pizza.")
 
-In all the examples above (Figure 2, Figures 5-6), the Juji chatbots were able to handle user interruptions properly while moving the conversation forward. Behind the scene, the AI in these chatbots worked in stealth to make the transitions and manage the flow changes. Because the conversation flowed so naturally, no wonder the customers didn't realize what's working behind the scene and asked "Where's the AI"!  
+In all the examples above (Figure 2, Figures 5-6), it is important for a chatbot to handle user interruptions properly while moving the conversation forward. In all these examples, there is AI working behind the scene to drive the chatbots to manage the chat flow changes. In fact,  a chatbot needs to make a decision at every step, e.g., deciding to answer a question or continue the current flow. Humans are super smart and can make such decisions in a split second, while a chatbot must be taught with such smart. 
 
-In contrast, the chatbot shown on the left of Figure 4 was not able to handle a user's interruption ("what's yours"), which also hinders the task completion (i.e., in this case, the chatbot failed to get the user's name).  
+What would happen if a chatbot does not have such smart?  The chatbot shown on the left of Figure 4 is not able to handle a user's interruption ("what's yours"). This inability also hinders the task completion (i.e., in this case, the chatbot failed to get the user's name).  
 
 No matter how simple a task is, a chatbot often needs such smart to ensure task completion. Recall a person who told me that he did not need an AI chatbot. I asked him what he wants his chatbot to do. He said "*I just want a simple chatbot to gather some data from my study participants*". I then asked him whether he cares about the quality of data gathered. Just imagine this scenario:
 
