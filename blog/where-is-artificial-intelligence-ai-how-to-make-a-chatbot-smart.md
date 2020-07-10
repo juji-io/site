@@ -80,7 +80,7 @@ For example, Juji chatbots are able to [understand highly diverse and complex na
 
 ![A screenshot showing that a chatbot asks a user's name and the user doesn't answer, instead asking back "What's yours?" The chatbot handled the user question and resumed the chat flow to catch the user's name eventually. ](/assets/uploads/fig5.png "Figure 5. A Juji chatbot asks for a user's name and correctly interprets the user's input.")
 
-Similar to NLU, natural language generation (NLG) is another must-have chatbot smart because a chatbot must produce some sort of output in a chat. NLG has also made great advances as summarized by Professor Kathy McKeown in her recent [ACL 2020 keynote](https://acl2020.org/program/keynotes/). 
+Similar to NLU, natural language generation (NLG) is another must-have chatbot smart because a chatbot must produce responses in a chat. NLG has also made great advances as summarized by Professor Kathy McKeown in her recent [ACL 2020 keynote](https://acl2020.org/program/keynotes/). 
 
 On the other hand, another two smarts ***dialog management*** and ***reading between the lines*** are less understood because fewer people are aware of their importance and there are also greater challenges for chatbots to gain these two smarts.  
 
@@ -88,11 +88,11 @@ Next I will describe why it is important to power a chatbot with these two smart
 
 ## Managing a conversation flow
 
-Assume that a chatbot can understand a user's input perfectly. In such a case,  the chatbot still needs to decide how to best respond to the user's input and move a conversation forward gracefully.  Just like a person, a chatbot can carry on a conversation in many different directions depending on a user's input and the goals of a conversation. For example, if the goal of a conversation is to help users no matter what, a chatbot would respond to a user's request whenever such a request is raised during their chat (Figure 2). However, if the goal of a conversation is to [elicit information from a user](https://dl.acm.org/doi/10.1145/3381804), a chatbot may ask the user to hold on his/her questions until the interview is finished (Figure 3). 
+Assume that a chatbot can understand a user's input perfectly. In such a case,  the chatbot still needs to decide how to best respond to the user's input and move a conversation forward gracefully.  Just like a person, a chatbot can carry on a conversation in many different directions depending on a user's input and the goals of a conversation. For example, if the goal of a conversation is to help users no matter what, a chatbot would act so. Figure 2 shows that Clara the chatbot switches the context twice to help user Joe and then picks up the flow to move a conversation forward. However, if the goal of a conversation is to [elicit information from a user](https://dl.acm.org/doi/10.1145/3381804), a chatbot may ask the user to hold on his/her questions until the interview is finished (Figure 3). 
 
 Since it is very difficult to anticipate how a user would behave in a conversation, it is not possible to plan a chatbot's every move in advance. Moreover, many factors including human spontaneity will most likely prompt a user to digress from a planned conversation flow. 
 
-Figure 2 shows an example where the user (Joe) didn't follow the chatbot's asking ("ready to get started?"). Instead, Joe asked the chatbot to help. Similarly, in Figure 5, instead of replying to the chatbot with a name, the user asked the chatbot its name.  Figure 6 shows another example where a chatbot helps a user order a pizza. Before the chatbot finishes gathering all the info, the user interrupts the flow by asking a question about a coupon. 
+Figure 2 shows Joe's two digressions from a flow. Figure 5 shows another user digression: instead of replying to the chatbot with a name, the user asked the chatbot its name.  Figure 6 shows yet another example where a pizza-ordering chatbot gets interrupted by the user's question about a coupon. 
 
 ![The screenshot showing a chatbot helps a user order a pizza. It starts by asking the user the size of the pizza to order.](/assets/uploads/fig6-1.png)
 
