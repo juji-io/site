@@ -57,9 +57,9 @@ Before I outline the type of AI a chatbot should have, I briefly mention my defi
 
 Although the [definition of AI on wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) can provide more comprehensive information, my definition is pragmatic and short: *AI is any human skills that we intend to teach a machine to have*. 
 
-# Four Smarts (AI) Every Good Chatbot Should Have
+# Four Smarts (AI) Every Chatbot Should Have
 
-Since the purpose of a good chatbot is to automate human interactions and help a user as if the user is interacting with a person, a chatbot should have some  human communication skills to carry on an effective conversation. 
+Since the purpose of a chatbot is to automate human interactions and help a user as if the user is interacting with a person, a chatbot should have some  human communication skills to carry on an effective conversation. 
 
 ![A diagram shows four core human skills a chatbot should have: natural language understanding (NLU), dialog management, natural language generation (NLG), and personal insights modeling.](/assets/uploads/screen-shot-2020-07-09-at-2.45.55-pm.png "Four smarts (AI) that every chatbot should have.  Here assumes that a chatbot only interacts with a human user via text messages. ")
 
