@@ -59,11 +59,11 @@ Although the [definition of AI on wikipedia](https://en.wikipedia.org/wiki/Artif
 
 # Four Smarts (AI) Every Chatbot Should Have
 
-Based on my definition of AI and the purpose of a chatbot (automating human interactions), there are four human skills that a chatbot should have in order to carry on an effective conversation with a human user. The diagram below summarizes these four human skills.
+Based on my definition of AI and the purpose of a chatbot (automating human interactions), there are four human skills that a chatbot should have in order to carry on an effective conversation with a human user. 
 
 ![A diagram shows four core human skills a chatbot should have: natural language understanding (NLU), dialog management, natural language generation (NLG), and personal insights modeling.](/assets/uploads/screen-shot-2020-07-09-at-2.45.55-pm.png "Four smarts (AI) that every chatbot should have.  Here assumes that a chatbot only interacts with a human user via text messages. ")
 
-As outlined above, a chatbot should have four core **human skills** (smarts) to interact with a human user effectively:
+As outlined in the diagram above, a chatbot should have four core **human skills** (smarts) to interact with a human user effectively:
 
 1. **[Natural Language Understanding ](https://en.wikipedia.org/wiki/Natural-language_understanding)(NLU)**. This smart refers to a chatbot's abilities to interpret a user's natural language expressions and understand the user's intent(s). 
 2. **[Dialog Management](https://en.wikipedia.org/wiki/Dialog_manager)**. Once a chatbot understands the intent of a user, it needs to figure out **\*what to do**--*how to best respond to the user and move the conversation forward***.*** For example, it may decide to answer a user's question in the middle of the flow (Figure 2) or to ignore the question for now (Figure 3). Because a user often does ***not*** follow a pre-defined chat flow, this smart often refers to a chatbot's abilities to manage user digressions, keep track of the context of a conversation, and ensure the completion of a dialog (task). 
