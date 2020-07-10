@@ -31,13 +31,13 @@ A few weeks ago, I was demoing our [conversational AI (AI chatbot) platform](htt
 
 ![A chat between a chatbot and a user where a chatbot asks how the user is feeling.](/assets/uploads/fig1.png "Figure 1. A screenshot showing a Juji chatbot as a personal healthcare assistant to greet a user daily.")
 
-Upon receiving a user's request, the same chatbot can also provide just-in-time help (Figure 2).  
+During such a dialog, the chatbot can also respond to user requests and provide just-in-time help (Figure 2).  
 
 ![The screenshot showing a user interrupts a chat flow by making a request to see a doctor. The chatbot responds to the user's request by started taking information from the user to fulfill the request.](/assets/uploads/fig2-a.png)
 
 ![The screenshot shows the user interrupts the chat flow again by asking an additional question while the chatbot is gathering information to fulfill the user's request.](/assets/uploads/fig2-b.png "Figure 2. A screenshot showing how the uji chatbot handles a user's multiple interruptions during a dialog and remembers the conversation context.")
 
-It took me literally 3 minutes to create the chatbot. I then spent a few minutes to show the chatbot in action (try it yourself if you wish to). 
+It took me literally 3 minutes to create the chatbot. I then spent a few minutes to show the chatbot in action (Figures 1-2). 
 
 Because everything worked flawlessly, I was thinking to myself they ought to be impressed by our work. However, there was a dead silence after my demo. I then asked "do you have any questions about the demo?" One person asked: "I got it. But where is the AI?" Coincidently (or not so), in a separate meeting after this demo, another customer commented that "I tried Juji. While it is very easy to use and create a chatbot, I'm not sure where the AI is."  
 
