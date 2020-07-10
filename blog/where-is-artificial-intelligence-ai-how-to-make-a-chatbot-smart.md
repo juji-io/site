@@ -7,13 +7,8 @@ date: 2020-07-06T18:52:02.003Z
 author: Michelle Zhou
 category: Guides
 tags:
-  - chatbot
-  - conversational ai
   - ai chatbot
-  - ai chat
   - smart chatbot
-  - why ai chatbot
-  - chatbot development
   - personal healthcare assistant
 image: /assets/uploads/robot.gif
 credit: adopted from https://giphy.com/
