@@ -72,7 +72,7 @@ Let's imagine that a chatbot would behave like a person in a conversation. As ou
 
 ![A chat between a Juji chatbot as an interviewer and a job candidate. The Juji chatbot decided to ignore a job candidate's question during an interview and asked the candidate to ask her question later.](/assets/uploads/fig3.png "Figure 3. Screenshot showing that a Juji chatbot as an interviewer decided to ignore a user's question during an interview")
 
-The nature of a conversation is to exchange information and ideas expressed in natural language. Thus, the basic smart of a chatbot is to understand natural language expressions (NLU).  Although sadly most chatbots have very limited NLU smart (Figure 4), there is much progress made on NLU especially with the recent advances in machine learning. 
+The nature of a conversation is to exchange information and ideas expressed in natural language. Thus, understanding natural language expressions (NLU) is a basic smart that a chatbot should have.  Although most chatbots have very limited NLU smart (Figure 4), there is much progress made on NLU especially with the recent advances in machine learning. 
 
 ![It shows two chatbots that don't understand a user's natural language input. The chatbot on the left asks "What's your name?". The user replied "My name is chatbot". And the chatbot thought the user's name is "My name is chatbot". On the right, the chatbot asks "What's your name?", the user responds "What's yours?". The chatbot thanked the user and moved on (and perhaps thought the user's name is "What's yours". ](/assets/uploads/screen-shot-2020-07-08-at-5.32.26-pm.png "Figure 4. Two chatbots ask for a user's name and both fail to understand the user's input")
 
