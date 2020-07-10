@@ -18,7 +18,7 @@ tags:
 image: /assets/uploads/robot.gif
 credit: adopted from https://giphy.com/
 ---
-A while back, I wrote a blog on ["Chatbot Tsunami"](https://juji.io/blog/chatbot-tsunami-the-good-bad/), mentioning that our world is now inundated with chatbots, including both "[good ones](https://www.newvoicesnasem.org/post/using-artificial-intelligence-to-combat-misinformation-about-covid-19)" that can help us fulfill our requests and "bad ones" that can hardly understand or achieve anything.
+A while back, I wrote a blog on ["Chatbot Tsunami"](https://juji.io/blog/chatbot-tsunami-the-good-bad/), mentioning that our world is now inundated with chatbots, including both "[good ones](https://www.newvoicesnasem.org/post/using-artificial-intelligence-to-combat-misinformation-about-covid-19)" that can help us fulfill our requests and "bad ones" that can hardly understand users or achieve anything.
 
 Since Juji aims at powering "good" chatbots with the smarts needed to help users, I had assumed two things:
 
@@ -27,25 +27,25 @@ Since Juji aims at powering "good" chatbots with the smarts needed to help users
 
 Until recently, I realized that my two assumptions were wrong. 
 
-A few weeks ago, I was demoing our [conversational AI (AI chatbot) platform](https://juji.io/juji-platform/) in a customer meeting. In this meeting, I showed how to build a chatbot as a personal healthcare assistant that can check in on a user daily (Figure 1). 
+A few weeks ago, I was demoing our [conversational AI (AI chatbot) platform](https://juji.io/juji-platform/) in a customer meeting. In this meeting, I showed how to build a chatbot as a personal healthcare assistant that can check in on a user daily. As shown in Figure 1, the chatbot (Clara) greets the user (Jane) and asks how Jane is feeling. Jane responds to Clara's greeting in natural language and the conversation continues. 
 
 ![A chat between a chatbot and a user where a chatbot asks how the user is feeling.](/assets/uploads/fig1.png "Figure 1. A screenshot showing a Juji chatbot as a personal healthcare assistant to greet a user daily.")
 
-During such a conversation, the chatbot can also respond to user requests and provide just-in-time help (Figure 2).  
+Figure 2 shows another conversation between Clara, the chatbot, and a different user (Joe). Clara starts with the same greeting. However, Joe does not respond to Clara's greeting. Instead he asked Clara to help find a doctor. To help Joe, Clara starts to gather some basic information from Joe. Before Clara finishes gathering the info, she was interrupted again by Joe because Joe has a question about his insurance.  
 
 ![The screenshot showing a user interrupts a chat flow by making a request to see a doctor. The chatbot responds to the user's request by started taking information from the user to fulfill the request.](/assets/uploads/fig2-a.png)
 
 ![The screenshot shows the user interrupts the chat flow again by asking an additional question while the chatbot is gathering information to fulfill the user's request.](/assets/uploads/fig2-b.png "Figure 2. A screenshot showing how the uji chatbot handles a user's multiple interruptions during a dialog and remembers the conversation context.")
 
-It took me literally 3 minutes to create the chatbot. I then spent a few minutes to show the chatbot in action (Figures 1-2). 
+It took me just 3 minutes to create the chatbot Clara. I then spent a few minutes to show Clara in action (Figures 1-2). 
 
-Because everything worked flawlessly, I was thinking to myself they ought to be impressed by the smarts of our chatbot. However, there was a dead silence after my demo. I then asked "Do you have any questions about the demo?". One person asked: "I got it. But where is the AI?" 
+Because everything worked flawlessly, I was thinking to myself they ought to be impressed by the smarts of our chatbot. However, there was a dead silence after my demo. I then asked "Do you have any questions about the demo?". One person then asked: "I got it. But where is the AI in this?" 
 
 Coincidently (or not so), in a separate meeting after this demo, another potential customer told me that "I tried Juji. While it is very easy to create a chatbot, I'm not sure where the AI is."  
 
-I was certainly taken aback by the question and comment. In addition, I felt quite disappointed at myself that I failed to highlight the hallmark of Juji chatbot --  chatbot smarts (AI), something that we have worked so hard to differentiate Juji from other chatbot platforms! 
+I was certainly taken aback by the question and comment. In addition, I felt quite disappointed at myself that I failed to highlight the hallmark of a Juji chatbot --  the chatbot smarts (AI).
 
-The question and the comment then reminded me of some earlier comments I received. Some folks who read our [documentation](https://juji.io/docs/) on the topic of "[why AI chatbots](https://juji.io/docs/why-ai-chatbots/)"  told me "by reading your documentation, it seems I don't need an AI chatbot." I didn't think too much then, and simply thought hat they just need a "dumb bot" for simple tasks. Why bother to build a smart one? 
+The question and the comment then reminded me of some earlier comments I received. Some folks who read our [documentation](https://juji.io/docs/) on the topic of "[why AI chatbots](https://juji.io/docs/why-ai-chatbots/)"  told me "by reading your documentation, it seems I don't need an AI chatbot." I didn't think too much then, and simply thought that they just need a "dumb bot" for simple tasks. Why bother to build a smart one? 
 
 Now I realized that all these comments are in fact related -- not everyone is aware of the smarts needed by a chatbot (why AI), let alone telling whether a chatbot has any smarts (AI) in it. 
 
