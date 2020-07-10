@@ -138,9 +138,11 @@ Based on the four must-have chatbot smarts described above, it is easy to detect
 
 ## Can the chatbot understand your natural language expressions?
 
-No matter whether you are evaluating a particular chatbot or a chatbot platform, I strongly encourage you to chat with the chatbot or a chatbot made on that platform (see [more on platform evaluation](https://juji.io/docs/why-ai-chatbots/#which-ai-chatbot-platform-to-use)). To detect if a chatbot can  understand natural language expressions, try chat with it using different expressions and see how it behaves. 
+No matter whether you are evaluating a particular chatbot or a chatbot platform, I strongly encourage you to chat with the chatbot or a chatbot made on that platform (see [more on platform evaluation](https://juji.io/docs/why-ai-chatbots/#which-ai-chatbot-platform-to-use)). 
 
-For example, if a chatbot asks you "What's your name?", try to answer it in different ways, 
+**Test on varied expressions**. To detect if a chatbot can  understand natural language expressions, try chat with it using different expressions and see how it behaves. 
+
+For example, if a chatbot asks you "What's your name?", try to answer it in different ways:
 
 \* *my name is Michelle*
 
@@ -150,7 +152,11 @@ For example, if a chatbot asks you "What's your name?", try to answer it in diff
 
 \* *My name is not Mary but Michelle* 
 
-This is to test its abilities to understand natural language expressions. If a chatbot does not give you a confirmation on its interpretation results, you should test it by asking a confirmation question, e.g.,  "What's my name" to confirm if the chatbot gets your name correctly.   
+This is to test its abilities to understand natural language expressions because your chatbot users will sure come up with many different expressions. 
+
+**Ask a confirmation question.** If a chatbot does not confirm its interpretation results, you also should test it by asking a confirmation, e.g.,  "What's my name" to confirm if the chatbot gets your name correctly. 
+
+**Embed keywords into expressions with opposite meanings**. To test whether a chatbot does only keyword matches instead of semantic interpretation, you can also try to input expressions containing the same keywords but with completely different meanings to see if you'd still get the same response. For example, if a chatbot asks "How healthy are you?" try  "I'm not healthy" and "I'm very healthy" to see what chatbot responses you'd receive.  
 
 After several tries, you'll get a good idea as how smart a chatbot is in terms of understanding natural language expressions.
 
