@@ -55,11 +55,11 @@ I feel compelled to use this blog to highlight the types of smarts (AI) that eve
 
 Before I outline the type of AI a chatbot should have, I briefly mention my definition of AI because it is directly related to the definition of chatbot AI or AI chabot.  
 
-Although the [definition of AI on wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) can provide you with a more comprehensive definition, my answer is often pragmatic and short: *AI is any human skills that we intend to teach a machine to have*. 
+Although the [definition of AI on wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) can provide you with a more comprehensive definition, my answer is pragmatic and short: *AI is any human skills that we intend to teach a machine to have*. 
 
 # Four Smarts (AI) Every Chatbot Should Have
 
-Based on my definition of AI and the purpose of a chatbot to automate human interactions, I use the following diagram to outline the human skills that a chatbot should be taught:
+Based on my definition of AI and the purpose of a chatbot (automating human interactions), there are four human skills that a chatbot should have in order to carry on an effective conversation with a human user. The diagram below summarizes these four human skills.
 
 ![A diagram shows four core human skills a chatbot should have: natural language understanding (NLU), dialog management, natural language generation (NLG), and personal insights modeling.](/assets/uploads/screen-shot-2020-07-09-at-2.45.55-pm.png "Four smarts (AI) that every chatbot should have.  Here assumes that a chatbot only interacts with a human user via text messages. ")
 
