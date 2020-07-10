@@ -104,13 +104,13 @@ In all the examples above (Figure 2, Figures 5-6), it is important for a chatbot
 
 What would happen if a chatbot does not have such smart?  The chatbot shown on the left of Figure 4 is not able to handle a user's interruption ("what's yours"). This inability also hinders the task completion (i.e., in this case, the chatbot failed to get the user's name).  
 
-No matter how simple a task is, a chatbot often needs such smart to ensure task completion. Recall a person who told me that he did not need an AI chatbot. I asked him what he wants his chatbot to do. He said "*I just want a simple chatbot to gather some data from my study participants*". I then asked him whether he cares about the quality of data gathered. Just imagine this scenario:
+No matter how simple a task is, a chatbot often needs such smart to ensure task completion. Let's say we want a simple chatbot to gather product feedback from our users. If we care about the quality of data gathered, we would be concerned with the following chat: 
 
 Chatbot: *How did you like our product?*
 
 Participant: *I don't know*.
 
-Instead of taking the participant's input, a smart (AI) chatbot would recognize the inadequate input and respond by encouraging the participant to give more meaningful input. Alone the same line, what if the participant responded with one of the following expressions:
+Instead of taking the participant's input, a good (AI) chatbot would have the smart to recognize the inadequate input and respond by encouraging the participant to give more meaningful input. Alone the same line, what if the participant responded with one of the following expressions:
 
 * What aspects do you like to hear? 
 * I haven't used the product long enough to have an opinion
@@ -118,7 +118,7 @@ Instead of taking the participant's input, a smart (AI) chatbot would recognize 
 
 *How should the chatbot manage the conversation?* 
 
-As you can imagine, user behavior is highly diverse and unpredictable, which can drive a conversation into numerous directions. To balance the delivery of a great user experience and fulfillment of conversation goals, a chatbot must have the smart to manage a conversation flow properly.  On the other hand, a chatbot without such smart will have a hard time to complete any tasks, let alone satisfy its users. 
+As you can imagine, such "exceptional answers" could be many since user behavior is highly diverse and unpredictable, which can drive a conversation into numerous directions. To balance the delivery of a great user experience and fulfillment of conversation goals, a chatbot must have the smart to manage a conversation flow properly.  On the other hand, a chatbot without such smart will have a hard time to complete any tasks, let alone satisfy its users. 
 
 ## Reading between the lines
 
