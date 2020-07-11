@@ -35,4 +35,4 @@ If you just have a few unanswered questions, you may want to add their answers r
 
 ![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-06-30-at-10.17.20-pm.png "Add an answer to an unanswered question in Q&A Board")
 
-You can also add variations to both question and answers by clicking on the "+" sign on the right side of the textboxes. You might be wondering what are the other two buttons do on the right side of the answer's textbox.
+You can also add variations to both question and answers by clicking on the "+" sign on the right side of the textbox.
