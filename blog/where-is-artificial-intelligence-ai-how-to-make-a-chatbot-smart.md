@@ -7,9 +7,9 @@ date: 2020-07-06T18:52:02.003Z
 author: Michelle Zhou
 category: Guides
 tags:
-  - ai chatbot
-  - smart chatbot
-  - personal healthcare assistant
+  - chatbot ai
+  - ai
+  - chatbot
 image: /assets/uploads/robot.gif
 credit: adopted from https://giphy.com/
 ---
