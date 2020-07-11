@@ -14,12 +14,12 @@ So you have [built a chatbot that answers FAQs using Juji Studio](https://juji.i
 The process to update an existing FAQ list can be divided into three steps:
 
 1. Monitor unanswered questions
-2. Write down some question variations and answers
+2. Come up with question variations and answers
 3. Update the FAQ list to the chatbot
 
 # Monitor Your User FAQs
 
-Ideally your FAQ list is as complete as possible, however no one knows all the questions users might have asked. Thus, an effective monitoring mechanism for user questions is essential. Juji's Q&A Board does just that. The dashboard gives you real time notification of unanswered user questions. 
+Ideally your FAQ list is as complete as possible, however no one knows all the questions users are going to ask. Thus, an effective monitoring mechanism for user questions is essential. Juji's Q&A Board does just that. The dashboard gives you real time notification of unanswered user questions. 
 
 ![Q&A Board showing unanswered questions in real time](/assets/uploads/screen-shot-2020-06-30-at-9.51.42-pm.png "Q&A Board showing unanswered questions in real time")
 
