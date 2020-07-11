@@ -33,6 +33,12 @@ Alternatively, you can download your Q&As in a CSV file. The CSV file will not o
 
 If you just have a few unanswered questions, you may want to add their answers right away. This, you can accomplish using the Q&A Board. All you need to do is adding your answer inside the textbox and submit. 
 
-![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-06-30-at-10.17.20-pm.png "Add an answer to an unanswered question in Q&A Board")
+![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-06-30-at-10.17.20-pm-copy.png "Add an answer to an unanswered question in Q&A Board")
 
-You can also add variations to both question and answers by clicking on the "+" sign on the right side of the textbox.
+The Q&A Board provides multiple useful functionalities to help your customize your answer:
+
+* The "+" sign and the downward arrow allows you to add and select variations to both question and answer. Question variations helps your chatbot better recognize user questions; meanwhile, answer variations give your chatbot a set of answer to choose from, so it appears more natural to the users.
+* The "->A" button lets you merge the unanswered question as a variation to one of your existing answered questions. The button will open a modal where you can search and select the question you would like to merge to. This is helpful for people who have a lot of questions already.
+* The "\[+]" button on the right buttom of the answer textbox opens up Juji's powerful multi-turn answer flow editor which is just like the Main Chat Flow page. In there, you can define a mini chat flow to be carried out when the question is asked. We have [a blog post dedicated](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) to explain this powerful tool.
+
+Although the Q&A Board makes it very easy to update your FAQs, updating the FAQs inside the CSV file first maybe more convinient if you have a large number of unanswered questions or if there are multiple people involved in updating the FAQs.
