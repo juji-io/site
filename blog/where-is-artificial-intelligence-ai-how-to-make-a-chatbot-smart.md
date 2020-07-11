@@ -10,6 +10,7 @@ tags:
   - chatbot ai
   - ai
   - chatbot
+  - ai chatbot
 image: /assets/uploads/robot.gif
 credit: adopted from https://giphy.com/
 ---
