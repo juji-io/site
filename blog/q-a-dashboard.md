@@ -31,7 +31,7 @@ Alternatively, you can download your Q&As in a CSV file. The CSV file will not o
 
 # Update the chatbot's FAQs
 
-If you just have a few unanswered questions, you may just want to add answers to them and forget about it. This, you can accomplish using the Q&A Board. All you need to do is adding your answer inside the textbox and submit. 
+If you just have a few unanswered questions, you may want to add their answers right away. This, you can accomplish using the Q&A Board. All you need to do is adding your answer inside the textbox and submit. 
 
 ![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-06-30-at-10.17.20-pm.png "Add an answer to an unanswered question in Q&A Board")
 
