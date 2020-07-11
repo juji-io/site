@@ -105,7 +105,7 @@ Chatbot: *How did you like our product?*
 
 Participant: *I don't know*.
 
-Instead of taking the participant's input, a good (AI) chatbot would have the smart to recognize the inadequate input and respond by encouraging the participant to give more meaningful input. Alone the same line, what if the participant responded with one of the following expressions:
+Instead of taking the participant's input, a good (AI) chatbot would have the smart to recognize the inadequate input and respond by encouraging the participant to give more meaningful input. Along the same line, what if the participant responded with one of the following expressions:
 
 * What aspects do you like to hear? 
 * I haven't used the product long enough to have an opinion
