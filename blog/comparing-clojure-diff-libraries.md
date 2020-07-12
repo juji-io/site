@@ -11,7 +11,7 @@ tags:
 image: /assets/uploads/kolleen-gladden-ij5_qcbpivy-unsplash.jpg
 credit: Photo by Kolleen  Gladden on Unsplash
 ---
-In my [Clojure/north 2020](https://youtu.be/n-avEZHEHg8) talk on diffing-based software architecture patterns, I mentioned that Juji is using [Editscript](https://github.com/juji-io/editscript) for diffing Clojure data structures. During the Q&A session of the talk, someone brought up another Clojure diff library, called [deep-diff2](https://github.com/lambdaisland/deep-diff2), which I was not aware of. Then on Youtube, someone else left a comment asking the difference between Editscript and deep-diff2 again. This prompted me to do an investigation on Clojure data diff libraries. Given how the Clojure community places such an emphasis on data oriented programming, a comparison of the data diffing alternatives appears to be of interest.
+In my [Clojure/north 2020](https://youtu.be/n-avEZHEHg8) talk on "diffing-based software architecture patterns", I mentioned that Juji is using [Editscript](https://github.com/juji-io/editscript) to diff Clojure data structures. During the Q&A session of the talk, someone brought up another Clojure diff library, called [deep-diff2](https://github.com/lambdaisland/deep-diff2), which I was unaware of. Then on Youtube, someone else left a comment asking the difference between Editscript and deep-diff2 again. This prompted me to do an investigation on Clojure data diff libraries. Given how the Clojure community places such an emphasis on data oriented programming, a comparison of the data diffing alternatives appears to be of interest.
 
 My Google search with "Clojure diff" brought up these options: [clojure.data/diff](https://clojuredocs.org/clojure.data/diff), [differ](https://github.com/Skinney/differ), and aformentioned deep-diff2. Curiously, Editscript does not even show up on Google, despite the fact that it has the most number of github stars among all the options. Anyway, I would like to do a comparison among these options. Before going into the details of the differences, how about doing a benchmark first?
 
@@ -27,7 +27,7 @@ The shape of the data should be challenging for diff algorithms. The top level i
 
 ### Environment
 
-Since these alternatives are all Clojure libraries, I created a project to simply load and run them on the data set. The code is [here](https://github.com/juji-io/editscript/blob/master/bench/bench.clj). The timing benchmark uses [criterium](https://github.com/hugoduncan/criterium/) `quick-bench` function. 
+Since these alternatives are all Clojure libraries, I created a project to simply pull the latest versions from clojars and run them on the data set. The code is [here](https://github.com/juji-io/editscript/blob/master/bench/bench.clj). The timing benchmark uses [criterium](https://github.com/hugoduncan/criterium/) `quick-bench` function. 
 
 The test ran in a Clojure REPL on my laptop, an old 2014 2.8 GHz Core i5 16GB MacBook Pro, with this software environment:
 
