@@ -8,6 +8,7 @@ category: Guides
 tags:
   - Chatbot
 image: /assets/uploads/pulse-trace-163708_1280.jpg
+credit: Pixabay
 ---
 So you have [built a chatbot that answers FAQs using Juji Studio](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/). You know it is powerful because it uses machine learning model to understand user questions and [recommends related questions when the question's answer is not immediately availble](https://juji.io/blog/question-recommendation/). However, there are still cases when the chatbot does not know how to answer the user's question. While there are varies reasons this can happen, one of the most common causes is that the chatbot designer has not yet include such question in its FAQ list. In that case, the only way to solve this is to add the related FAQ. Though the task might sound very straightforward, it is not intuitively supported by many existing chatbot builders.
 
