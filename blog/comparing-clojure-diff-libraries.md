@@ -27,7 +27,7 @@ The shape of the data has a bit of challenge for diff algorithms. The top level 
 
 ### Environment
 
-Since these alternatives are all Clojure libraries, I created a project to simply pull the latest versions of them from \[clojars](https://clojars.org) and let them loose on the data set. The code is [here](https://github.com/juji-io/editscript/blob/master/bench/bench.clj). The timing benchmark uses [criterium](https://github.com/hugoduncan/criterium/) `quick-bench` function. 
+Since these alternatives are all Clojure libraries, I created a project to simply pull the latest versions of them from [clojars](https://clojars.org) and let them loose on the data set. The code is [here](https://github.com/juji-io/editscript/blob/master/bench/bench.clj). The timing benchmark uses [criterium](https://github.com/hugoduncan/criterium/) `quick-bench` function. 
 
 The test ran in a Clojure REPL on my laptop, an old 2014 2.8 GHz Core i5 16GB MacBook Pro, with this software environment:
 
@@ -155,7 +155,7 @@ This library seems to enjoy a lot of attention. Here's the tag line:
 
 So it seems to gear towards visualizing the data diff for human consumption. Here's what the results look like:
 
-```Clojure
+```clojure
 (deep/pretty-print (deep/diff data1 data2))
 ;; ==>
 [{:borderWidth 1,
@@ -260,7 +260,7 @@ For now, I am fine with the performance. The benchmark shows that although it is
 
 Here is what the diff produced looks like:
 
-```Clojure
+```clojure
 (editscript/diff data1 data2)
 ;;==>
 [[[2 :fill] :r "#0000ff"]]
@@ -273,7 +273,7 @@ Yeah, that's it. That's the true change.  The user apparently changed the fill c
 
 This simple change happens to be also detected by the quick algorithm. 
 
-```Clojure
+```clojure
 (editscript/diff data1 data2 {:algo :quick})
 ;;==>
 [[[2 :fill] :r "#0000ff"]]
@@ -305,11 +305,13 @@ The Clojure community seems to care about data diff, so we have quite a few opti
 
 * If you need to use the content of diffs in application logic, or you want to store the smallest possible diffs, and the necessary computing time is acceptable for you, use the default A* algorithm of Editscript. 
 
-* If your data changes are very frequent and consistently very small, for the same purpose above, the quick algorithm of Editscript can work. 
+* If your data changes are too frequent or data is too big to accept the time cost of computing optimal diffs, and you do not care if the diffs may be sometimes "wrong", the quick algorithm of Editscript may work well. 
 
 * I do not recommend clojure.data/diff, nor differ.
 
-But I am the author of Editscript, so please take my recommendations with a grain of salt :-). Regardless, test the libraries on your own data sets first. Until the next time.
+But I am the author of Editscript, so please take my recommendations with a grain of salt :-). Regardless, test the libraries on your own data sets first. 
+
+Until the next time.
 
 [1] Wu, S. et al., 1990, An O(NP) Sequence Comparison Algorithm, Information Processing Letters, 35:6, p317-23.
 
