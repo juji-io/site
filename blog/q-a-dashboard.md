@@ -46,7 +46,7 @@ The Q&A Board provides multiple useful functionalities to help your customize yo
 * The "->A" button lets you merge the unanswered question as a variation to one of your existing answered questions. The button will open a modal where you can search and select the question you would like to merge to. This is helpful for people who have a lot of questions already.
 * The "\[+]" button on the right bottom of the answer textbox opens up Juji's powerful multi-turn answer flow editor which is just like the Main Chat Flow page. In there, you can define a mini chat flow to be carried out when the question is asked. We have [a blog post dedicated](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) to explain this powerful tool.
 
-Moreover, the Q&A Board allows you to add brand new FAQs as well as editing existing ones. To add a new FAQ, simply click on the "+" sign at the top of the table. Then you can edit the question and answer just like the unanswered questions. If you click on the magnifying glasses next to the "+" sign, you will be able to search for and select an existing FAQ to be edited.
+Moreover, the Q&A Board allows you to add brand new FAQs as well as editing existing ones. To add a new FAQ, simply click on the "+" sign at the top of the table. Then you can edit the question and answer just like the unanswered questions. If you click on the magnifying glasses next to the "+" sign, you will be able to search for and select an existing FAQ to be edited. \[maybe a photo here]
 
 ## Update your FAQ CSV file and then upload
 
