@@ -10,7 +10,7 @@ tags:
 image: /assets/uploads/pulse-trace-163708_1280.jpg
 credit: Pixabay
 ---
-So you have [built a chatbot that answers FAQs](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/). You know it is powerful because it uses machine learning model to understand user questions and [recommends related questions when the answer is not immediately available](https://juji.io/blog/question-recommendation/). However, there cae still be cases when the chatbot does not know how to answer the user's question. While there are various reasons this can happen, one of the most common causes is that the chatbot designer has not yet include such question in its FAQ list. In that case, the only way to solve this is to add the related FAQ. Though the task might sound very straightforward, it is not intuitively supported by many existing chatbot builders.
+So you have [built a chatbot that answers FAQs](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/). You know it is powerful because it uses machine learning model to understand user questions and [recommends related questions when the answer is not immediately available](https://juji.io/blog/question-recommendation/). However, there cae still be cases when the chatbot does not know how to answer the user's question. While there are various reasons this can happen, one of the most common causes is that the chatbot designer has not yet include such question in its FAQ list. In that case, the only way to solve this is to add the right FAQs. Though the task might sound very straightforward, it is not intuitively supported by many existing chatbot builders.
 
 The process to update an existing FAQ list can be divided into three steps:
 
@@ -22,7 +22,7 @@ The process to update an existing FAQ list can be divided into three steps:
 
 Ideally your FAQ list is as complete as possible, however no one knows all the questions users are going to ask. Thus, an effective monitoring mechanism for user questions is essential. Juji's Q&A Board does just that. The dashboard gives you real time notification of unanswered user questions. 
 
-![Q&A Board showing unanswered questions in real time](/assets/uploads/screen-shot-2020-07-11-at-5.52.19-pm.png "Q&A Board showing unanswered questions in real time")
+![Juji Q&A Board showing unanswered questions in real time](/assets/uploads/screen-shot-2020-07-11-at-5.52.19-pm.png "Juji Q&A Board showing unanswered questions in real time")
 
 As you can see, the notification is visible across the Design page. In the example above, it indicates 5 unanswered questions from the users. Once you click into the Q&A Board, you will see a list of unanswered questions. And you can choose to answer them right away.
 
