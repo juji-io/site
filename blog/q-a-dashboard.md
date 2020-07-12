@@ -7,6 +7,9 @@ author: Wenxi Chen
 category: Guides
 tags:
   - Chatbot
+  - DIY AI Chatbot
+  - FAQ Chatbot
+  - Question Answering Chatbot
 image: /assets/uploads/pulse-trace-163708_1280.jpg
 credit: Pixabay
 ---
