@@ -22,7 +22,7 @@ The process to update an existing FAQ list can be divided into three steps:
 
 Ideally your FAQ list is as complete as possible, however no one knows all the questions users are going to ask. Thus, an effective monitoring mechanism for user questions is essential. Juji's Q&A Board does just that. The dashboard gives you real time notification of unanswered user questions. 
 
-![Q&A Board showing unanswered questions in real time](/assets/uploads/screen-shot-2020-06-30-at-9.51.42-pm.png "Q&A Board showing unanswered questions in real time")
+![Q&A Board showing unanswered questions in real time](/assets/uploads/screen-shot-2020-07-11-at-5.52.19-pm.png "Q&A Board showing unanswered questions in real time")
 
 As you can see, the notification is visible across the Design page. In the example above, it indicates 5 unanswered questions from the users. Once you click into the Q&A Board, you will see a list of unanswered questions. And you can choose to answer them right away.
 
@@ -38,7 +38,7 @@ There are two ways to update your chatbot's FAQs. You can update them directly i
 
 If you just have a few unanswered questions, you may want to add their answers right away. This, you can accomplish using the Q&A Board. All you need to do is adding your answer inside the textbox and submit. 
 
-![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-06-30-at-10.17.20-pm-copy.png "Add an answer to an unanswered question in Q&A Board")
+![Add an answer to an unanswered question in Q&A Board](/assets/uploads/annotated.png "Add an answer to an unanswered question in Q&A Board")
 
 The Q&A Board provides multiple useful functionalities to help your customize your answer:
 
