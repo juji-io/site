@@ -1,15 +1,14 @@
 ---
 layout: blog/article.njk
 featured: true
-title: How to Evolve Your Chatbot's FAQs with Realtime Monitoring
+title: How to Improve a QA chatbot with Real Time Monitoring
 date: 2020-07-12T03:34:55.758Z
 author: Wenxi Chen
 category: Guides
 tags:
   - Chatbot
-  - DIY AI Chatbot
   - FAQ Chatbot
-  - Question Answering Chatbot
+  - QA chatbot
 image: /assets/uploads/pulse-trace-163708_1280.jpg
 credit: Pixabay
 ---
