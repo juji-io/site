@@ -14,24 +14,26 @@ credit: Pixabay
 ---
 The ability for a chatbot to answer user questions is highly desirable. Previously, I talked about how to create a Q&A chatbot in a few minutes to [answer users' free-text questions](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) as well as [handle multi-turn Q&A](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/), all without coding. Because no chatbot is perfect, I also mentioned how to teach a chatbot better [handle unknown user questions](https://juji.io/blog/question-recommendation/) and improve customer satisfaction.  
 
-Now that you have built a very capable Q&A chatbot, you may have a set of questions you have about the chatbot:
+Now that you have built a very capable Q&A chatbot, you may want to know how your chatbot performs:
 
-* What questions has the chatbot answered?
-* What questions can the chatbot not answer?  How many?
-* Among the unanswered questions, how frequently are these questions asked? 
-* How are these unanswered questions related to each other? 
+1. What are the questions the chatbot has answered?
+2. What are the questions the chatbot cannot answer?  How many of them?
+3. Among the unanswered questions, how frequently do user ask these questions? 
+4. How are these unanswered questions related to each other? 
 
-The insights to  would be very useful to improve the chatbot and user experience. 
+Obviously, answers to the above questions can provide chatbot owners or admins valuable insights to improve a chatbot, e.g., improving a chatbot to answer the unanswered questions.  Unfortunately, few chatbot platforms provide such insights, which makes a chatbot owner/admin unaware of a chatbot's Q&A performance, let alone helps improving its Q&A capabilities.  
 
-How would you, as a chatbot owner or admin, know?   there can still be cases when the chatbot does not know how to answer the user's question. While there are various reasons this can happen, one of the most common causes is that the chatbot designer has not yet include such question in its FAQ list. In that case, the only way to solve this is to add the right FAQs. Though the task might sound very straightforward, it is not intuitively supported by many existing chatbot builders.
+To help chatbot owners improve a Q&A chatbot easily and quickly, the Juji platform provides built-in Q&A monitoring facility to inform chatbot owners of their chatbot Q&A performance. 
+
+# Monitor Q&A Chatbot Performance
+
+Specifically, we built a suite of Q&A chatbot monitoring tools to answer the questions above. Here I'll focus on how Juji provides insights to questions 2-4 because such insights can directly help improve a chatbot's Q&A capability.
 
 The process to update an existing FAQ list can be divided into three steps:
 
 1. Monitor unanswered questions
 2. Come up with question variations and answers
 3. Update the FAQ list to the chatbot
-
-# Monitor Your User FAQs
 
 Ideally your FAQ list is as complete as possible, however no one knows all the questions users are going to ask. Thus, an effective monitoring mechanism for user questions is essential. Juji's Q&A Board does just that. The dashboard gives you real time notification of unanswered user questions. 
 
