@@ -21,7 +21,7 @@ All these library implements a `diff` function, so we can measure how long it ta
 
 ### Data Set
 
-I happen to have a data set copied from a [JSON diff benchmark](https://github.com/justsml/json-diff-performance), which seems to include data models of a Javascript drawing program. I simply converted the JSON files into Clojure EDN format. There are four files, [data1](https://github.com/juji-io/editscript/blob/master/resources/drawing1.edn), [data2](https://github.com/juji-io/editscript/blob/master/resources/drawing2.edn), [data3](https://github.com/juji-io/editscript/blob/master/resources/drawing3.edn), and [data4](https://github.com/juji-io/editscript/blob/master/resources/drawing4.edn), with each a variation of another. After serialized into bytes with [nippy](https://github.com/ptaoussanis/nippy), the sizes of the data are 1004, 1004, 1016 and 555 bytes, respectively.
+I happen to have a data set copied from a [JSON diff benchmark](https://github.com/justsml/json-diff-performance), which seems to include data models of a Javascript drawing program. I simply converted the JSON files into Clojure EDN format. There are four files, [data1](https://github.com/juji-io/editscript/blob/master/resources/drawing1.edn), [data2](https://github.com/juji-io/editscript/blob/master/resources/drawing2.edn), [data3](https://github.com/juji-io/editscript/blob/master/resources/drawing3.edn), and [data4](https://github.com/juji-io/editscript/blob/master/resources/drawing4.edn), with each being a variation of another. After serialized into bytes with [nippy](https://github.com/ptaoussanis/nippy), the sizes of the data are 1004, 1004, 1016 and 555 bytes, respectively.
 
 The shape of the data has a bit of challenge for diff algorithms. The top level is a vector of nested maps. It is necessary to maintain the order of the vector elements, at the same time, the algorithms need to dig into each pair of nested maps to find the differences. However, the nesting is not deep.
 
@@ -43,7 +43,7 @@ The test ran in a Clojure REPL on my laptop, an old 2014 2.8 GHz Core i5 16GB Ma
 
 As you can see, the time for the libraries to run diff algorithm on the dataset varies greatly.  The same is true for the resulting diff sizes. 
 
-To choose a library, we need to look at each libraries to see if it fits one's use cases. In addition to the performance data, we also need to look at the output format of each library.
+To choose a library, we need to look at each library to see if it fits one's use cases. In addition to the performance data, we also need to look at the output format of each library.
 
 ## Analyses
 
@@ -51,7 +51,7 @@ Let's look at each option individually first, then do a summary.
 
 ### clojure.data/diff
 
-This is a built-in function of Clojure. The doc string says
+This is a built-in function of Clojure. The doc string says:
 
 > Recursively compares a and b, returning a tuple of
 > \[things-only-in-a things-only-in-b things-in-both]
@@ -234,7 +234,7 @@ So it seems to gear towards visualizing the data diff for human consumption. Her
   :style "Solid",
   :type
 ```
-Sorry that the code highlighter here does not do justice for the colorized output. But the thing to notice is the change `:fill -"#ffff00" +"#0000ff"`. 
+Sorry that the page here does not do justice for the colorized output. But the thing to notice is the change `:fill -"#ffff00" +"#0000ff"`. 
 
 So basically this library displays the data, then highlights the changes in color. Of course, the result size will be larger than the original data. When changes are significant, the size will be more than doubled, as shown in the chart.
 
