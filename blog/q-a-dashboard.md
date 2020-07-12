@@ -6,7 +6,9 @@ date: 2020-07-12T03:34:55.758Z
 author: Wenxi Chen
 category: Guides
 tags:
-  - Chatbot
+  - chatbot
+  - FAQ chatbot
+  - Q&A chatbot
 image: /assets/uploads/pulse-trace-163708_1280.jpg
 credit: Pixabay
 ---
