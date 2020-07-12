@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: true
-title: How to Improve a QA chatbot with Real Time Monitoring
+title: How to Improve QA chatbot with Real Time Dashboard
 date: 2020-07-12T03:34:55.758Z
 author: Wenxi Chen
 category: Guides
