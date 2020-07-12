@@ -37,10 +37,12 @@ The test ran in a Clojure REPL on my laptop, an old 2014 2.8 GHz Core i5 16GB Ma
 
 ### Results
 
-As you can see, the time for the libraries to run diff algorithm on the dataset varies greatly. 
+![Clojure diff libraries benchmark time chart](/assets/uploads/diff-time-bench.png "Diff time")
 
+![Clojure diff libraries benchmark time chart](/assets/uploads/diff-size-bench.png "Diff size")
 
+As you can see, the time for the libraries to run diff algorithm on the dataset varies greatly.  The same is true for the resulting diff sizes. 
 
-Compare the bytes after serialized with nippy.
+To choose a library, we need to look at each libraries to see if it fits one's use cases. In addition to the performance data, we also need to look at the output format of each library.
 
-## Recommendation
+## Analysis
