@@ -24,7 +24,7 @@ Ideally your FAQ list is as complete as possible, however no one knows all the q
 
 ![Juji Q&A Board showing unanswered questions in real time](/assets/uploads/screen-shot-2020-07-11-at-5.52.19-pm.png "Juji Q&A Board showing unanswered questions in real time")
 
-As you can see, the notification is visible across the Design page. In the example above, it indicates 5 unanswered questions from the users. Once you click into the Q&A Board, you will see a list of unanswered questions. And you can choose to answer them right away.
+As you can see, the notification is visible across the Design page. In the example above, it indicates 5 unanswered questions from the users. Once you click into the Q&A Board, you will see a list of unanswered questions. Then, you can choose to answer them right away.
 
 Alternatively, you can download your Q&As in a CSV file. The CSV file will not only list the existing FAQs, it will also show the unanswered questions and their stats. It arranges the unanswered questions in groups such that the similar ones are aggregated together. Beside each unanswered question, there is a number indicating the frequency of that question being asked. With this information, you can easily prioritize the unanswered questions to be handled especially when you have a lot of them.
 
