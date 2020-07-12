@@ -34,16 +34,16 @@ Alternatively, you can download your Q&As in a CSV file. The CSV file will not o
 
 There are two ways to update your chatbot's FAQs. You can update them directly inside the Q&A Board. Alternatively, you may update your FAQs first in your CSV file, then upload it to the chatbot.
 
-## Update on the Q&A Board directly
+## Update FAQs on the Q&A Board
 
-If you just have a few unanswered questions, you may want to add their answers right away. This, you can accomplish using the Q&A Board. All you need to do is adding your answer inside the textbox and submit. 
+If you just have a few unanswered questions, you may want to add their answers right away. All you need to do is adding your answer inside the textbox and submit on the Q&A Board. 
 
-![Add an answer to an unanswered question in Q&A Board](/assets/uploads/annotated.png "Add an answer to an unanswered question in Q&A Board")
+![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-07-11-at-7.52.30-pm.png "Add an answer to an unanswered question in Q&A Board")
 
-The Q&A Board provides multiple useful functionalities to help your customize your answer:
+However, the Q&A Board provides multiple useful functionalities to help your better customize your answers.
 
-* The "+" sign and the downward arrow allows you to add and select variations to both question and answer. Question variations helps your chatbot better recognize user questions; meanwhile, answer variations give your chatbot a set of answer to choose from, so it appears more natural to the users.
-* The "->A" button lets you merge the unanswered question as a variation to one of your existing answered questions. The button will open a modal where you can search and select the question you would like to merge to. This is helpful for people who have a lot of questions already.
+* The "+" sign and the downward arrow in a textbox allow you to add and select variations to question or answer. Question variations help your chatbot better recognize user questions; meanwhile, answer variations give your chatbot a set of answers to choose from, so it can appear more natural to the users.
+* The "->A" button on the top right corner of the answer textbox lets you merge the unanswered question as a variation with one of your existing answered questions. The button will open a modal where you can search and select the question you would like to merge with. This is helpful for people who have a lot of questions already.
 * The "\[+]" button on the right bottom of the answer textbox opens up Juji's powerful multi-turn answer flow editor which is just like the Main Chat Flow page. In there, you can define a mini chat flow to be carried out when the question is asked. We have [a blog post dedicated](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) to explain this powerful tool.
 
 Moreover, the Q&A Board allows you to add brand new FAQs as well as editing existing ones. To add a new FAQ, simply click on the "+" sign at the top of the table. Then you can edit the question and answer just like the unanswered questions. If you click on the magnifying glasses next to the "+" sign, you will be able to search for and select an existing FAQ to be edited. \[maybe a photo here]
