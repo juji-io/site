@@ -301,11 +301,11 @@ So if one throws arbitrary data at it, differ will fall. The benchmark file cont
 
 The Clojure community seems to care about data diff, so we have quite a few options. Based on what I have seen, if you are in the market to use a diff library, here are my recommendations: 
 
-* If you want to look at the diffs and do not care if the diffs are the smallest possible, deep-diff2 is great. 
+* If you want to look at the diffs and do not care if the diffs are always the smallest possible, deep-diff2 is great. 
 
 * If you need to use the content of diffs in application logic, or you want to store the smallest possible diffs, and the necessary computing time is acceptable for you, use the default A* algorithm of Editscript. 
 
-* If your data changes are too frequent or data is too big to accept the time cost of computing optimal diffs, and you do not care if the diffs may be sometimes "wrong", the quick algorithm of Editscript may work well. 
+* If your data changes are too frequent or data is too big to accept the time cost of computing optimal diffs, and you do not care if the diffs may be sometimes not the smallest possible, the quick algorithm of Editscript may work well. 
 
 * I do not recommend clojure.data/diff, nor differ.
 
