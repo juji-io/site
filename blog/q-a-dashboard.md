@@ -14,7 +14,7 @@ credit: Pixabay
 ---
 The ability for a chatbot to answer user questions is highly desirable. Previously, I talked about how to create a Q&A chatbot in a few minutes to [answer users' free-text questions](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) as well as [handle multi-turn Q&A](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/), all without coding. Because no chatbot is perfect, I also mentioned how to teach a chatbot better [handle unknown user questions](https://juji.io/blog/question-recommendation/) and improve customer satisfaction.  
 
-Now that you have built a very capable Q&A chatbot, you may want to know how your chatbot performs:
+Now that you have built a very capable Q&A chatbot, you may want to know how your chatbot performs by getting answers to the following questions:
 
 1. What are the questions the chatbot has answered?
 2. What are the questions the chatbot cannot answer?  How many of them?
@@ -25,52 +25,52 @@ Obviously, answers to the above questions can provide chatbot owners or admins v
 
 To help chatbot owners improve a Q&A chatbot easily and quickly, the Juji platform provides built-in Q&A monitoring facility to inform chatbot owners of their chatbot Q&A performance. 
 
-# Monitor Q&A Chatbot Performance
+# Monitor Q&A Chatbot Performance: Monitoring Unanswered User Questions
 
-Specifically, we built a suite of Q&A chatbot monitoring tools to answer the questions above. Here I'll focus on how Juji provides insights to questions 2-4 because such insights can directly help improve a chatbot's Q&A capability.
+Specifically, we have built several Q&A chatbot monitoring tools to answer the questions above. Here I'll focus on how Juji helps chatbot owners obtain answers to questions 2-4 and how such insights can help improve a chatbot's Q&A capability quickly.
 
-The process to update an existing FAQ list can be divided into three steps:
+Ideally, your FAQ list should be as complete as possible. However no one can anticipate all the questions users might ask. Thus, it is useful to know what user questions are ***not*** answered by a chatbot. Juji's Q&A Board does just that. As shown below, the Q&A dashboard provides you with real-time notifications of unanswered user questions as users are interacting with your chatbot. 
 
-1. Monitor unanswered questions
-2. Come up with question variations and answers
-3. Update the FAQ list to the chatbot
+![A real-time dashboard displaying a list of user questions that a chatbot cannot answer.](/assets/uploads/screen-shot-2020-07-11-at-5.52.19-pm.png "Juji Q&A Board is a real-time dashboard that displays a list of unanswered user questions. ")
 
-Ideally your FAQ list is as complete as possible, however no one knows all the questions users are going to ask. Thus, an effective monitoring mechanism for user questions is essential. Juji's Q&A Board does just that. The dashboard gives you real time notification of unanswered user questions. 
+In the example above, it indicates 5 unanswered user questions. One can then choose to answer them right away.
 
-![Juji Q&A Board showing unanswered questions in real time](/assets/uploads/screen-shot-2020-07-11-at-5.52.19-pm.png "Juji Q&A Board showing unanswered questions in real time")
+Alternatively, you can download all Q&As including the unanswered questions in a CSV file. The CSV file typically lists all the unanswered user questions and their stats at the end of the file. Juji also automatically analyzes all unanswered questions and arranges them in different groups such that the similar ones are listed next to each other. As shown in a sample CSV file below, there are five unanswered questions (rows 38-44), arranged into three groups: rows 38-39, rows 41-42, and row 44. 
 
-As you can see, the notification is visible across the Design page. In the example above, it indicates 5 unanswered questions from the users. Once you click into the Q&A Board, you will see a list of unanswered questions. Then, you can choose to answer them right away.
+Next to each unanswered question, there is also a number indicating how many times (frequency) that question was asked. In the example below, the question "*How do I log in*" (row 38) was asked once, while another similar question "*How do I sign in*" was asked twice (row 39). 
 
-Alternatively, you can download your Q&As in a CSV file. The CSV file will not only list the existing FAQs, it will also show the unanswered questions and their stats. It arranges the unanswered questions in groups such that the similar ones are aggregated together. Beside each unanswered question, there is a number indicating the frequency of that question being asked. With this information, you can easily prioritize the unanswered questions to be handled especially when you have a lot of them.
+Such information can then be used to easily prioritize the handling of unanswered questions especially if there are is a number of unanswered questions.  
 
 ![Downloaded Q&A CSV groups related unanswered questions together with stats on how many times each question has been asked](/assets/uploads/screen-shot-2020-06-30-at-10.01.17-pm.png "Downloaded Q&A CSV groups related unanswered questions together with stats on how many times each question has been asked")
 
-# Update the chatbot's FAQs
+# Update Chatbot FAQs
 
-There are two ways to update your chatbot's FAQs. You can update them directly inside the Q&A Board. Alternatively, you may update your FAQs first in your CSV file, then upload it to the chatbot.
+Once you know what questions are unanswered, there are two ways to update chatbot FAQs. You can update them directly on the Q&A Board. Alternatively, you can update the CSV file, then upload it to the chatbot.
 
 ## Update FAQs on the Q&A Board
 
-If you just have a few unanswered questions, you may want to add their answers right away. All you need to do is adding your answer inside the textbox and submit on the Q&A Board. 
+If you just have a few unanswered questions, you may want to add their answers right away. To do so, just add your answer in the corresponding text box and submit it using the "Submit" button. In most cases, an answer submission will take an immediate effect--a chatbot can answer the unanswered question *immediately* without the need of restarting. 
 
 ![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-07-11-at-7.52.30-pm.png "Add an answer to an unanswered question in Q&A Board")
 
-However, the Q&A Board provides multiple useful functionalities to help your better customize your answers.
+As shown above in a screenshot, the Q&A Board also provides several useful tools to help a chatbot owner customize answers:
 
-* The "+" sign and the downward arrow in a textbox allow you to add and select variations to question or answer. Question variations help your chatbot better recognize user questions; meanwhile, answer variations give your chatbot a set of answers to choose from, so it can appear more natural to the users.
-* The "->A" button on the top right corner of the answer textbox lets you merge the unanswered question as a variation of one of your existing answered questions. The button will open a modal where you can search and select the question you would like to merge with. This is helpful for people who have a lot of questions already.
-* The "\[+]" button on the bottom right of the answer textbox opens up Juji's powerful multi-turn answer editor which is similar to the Main Chat Flow page. In there, you can define a mini chat flow to be carried out when the question is asked. We have [a blog post dedicated](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) to explain this powerful tool.
+* The "+" sign in a text box allows you to enter alternative question/answer expressions, while the down arrow button allows you to view and select these varied expressions. Question variations help a chatbot better recognize user questions. On the other hand, answer variations give a chatbot a set of answers to choose from, so its response can appear more natural to users.
+* The "->A" button on the top right corner of the answer text box lets you search for the answer of a matched question, saving your time to enter an answer from scratch.  This is especially helpful if there is an extensive existing Q&A list.
+* The "\[+]" button on the bottom right of the answer text box lets you open up an editor to define or edit a multi-turn answer.  My [previous blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) explained this powerful tool.
 
-Moreover, the Q&A Board allows you to add brand new FAQs as well as editing existing ones. To add a new FAQ, simply click on the "+" sign at the top of the table. Then you can edit the question and its answer just like an unanswered question. If you click on the magnifying glass next to the "+" sign, you will be able to search for and select an existing FAQ to be edited.
+Moreover, the Q&A Board allows you to add new Q&A pairs. To add a new pair of Q&A, simply click on the "+" sign at the top of the table. You can then edit the question and answer as described above. You can also edit an existing Q&A pair by clicking on the magnifying glass next to the "+" sign, which allows you to search for and select an existing FAQ to edit .
 
 ![Search an existing FAQ to edit](/assets/uploads/screen-shot-2020-07-11-at-7.38.19-pm.png "Search an existing FAQ to edit")
 
-## Update your FAQ CSV file and then upload
+## Update and upload your FAQ CSV file 
 
-Although the Q&A Board makes it very easy to update your FAQs, updating the FAQs inside the CSV file first may be more convenient for you if you have a large number of unanswered questions or if there are multiple people involved in updating the FAQs. If that's the case, you simply upload your CSV after all the editing is done. In case you are not already familiar with updating the FAQs with a CSV file, you can checkout our [previous blog on this](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/).
+Although the Q&A Board makes it very easy to update your FAQs, updating the FAQs inside the CSV file may be more convenient if there is a large number of unanswered questions or if there are multiple people involved in updating the FAQs. 
+
+You can simply upload your CSV after all the editing is done. In case you are not already familiar with how to update the FAQs in a CSV file, you can check out my [previous blog on this](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/).
 
 - - -
 
-Creating a chatbot and publish it is not the end. It's just the beginning. A chatbot needs to be continuously evolved like a human, so it can stay updated with the world and become better at its job. Answering FAQs is an important task for most chatbots. Juji's Q&A Board is here to help the chatbot designers to keep their chatbots always stay ahead.
+Creating a chatbot and publishing it is not the end but the beginning of a journey, just like raising a kid, who needs to be taught and nurtured as s/he grows.  Similarly, a chatbot needs to be continuously taught, so it can be improved and become better and better at its job. Answering user questions is an important skill for almost all chatbots. That's why Juji Q&A dashboard exists to help chatbot designers and owners monitor their chatbots easily and improve their chatbots quickly.
 
-If you would like to learn more about what other amazing things Juji's AI chatbots can do, [this is a great article to start](https://juji.io/blog/where-is-artificial-intelligence-ai-how-to-make-a-chatbot-smart/). Or try it yourself by signup at [juji.io](https://juji.io/).
+If you would like to learn more about what other amazing things Juji's AI chatbots can do, [this is a great article to start](https://juji.io/blog/where-is-artificial-intelligence-ai-how-to-make-a-chatbot-smart/). Or sign up free to give it a shot at creating your own smart chatbots.
