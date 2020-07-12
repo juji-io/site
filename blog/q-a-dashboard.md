@@ -34,7 +34,7 @@ Alternatively, you can download your Q&As in a CSV file. The CSV file will not o
 
 There are two ways to update your chatbot's FAQs. You can update them directly inside the Q&A Board. Alternatively, you may update your FAQs first in your CSV file, then upload it to the chatbot.
 
-## Answer the unanswered questions on the Q&A Board
+## Update on the Q&A Board directly
 
 If you just have a few unanswered questions, you may want to add their answers right away. This, you can accomplish using the Q&A Board. All you need to do is adding your answer inside the textbox and submit. 
 
