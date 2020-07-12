@@ -7,8 +7,6 @@ author: Wenxi Chen
 category: Guides
 tags:
   - Chatbot
-  - FAQ Chatbot
-  - QA chatbot
 image: /assets/uploads/pulse-trace-163708_1280.jpg
 credit: Pixabay
 ---
