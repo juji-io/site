@@ -17,7 +17,7 @@ My Google search with "Clojure diff" brought up these options: [clojure.data/dif
 
 ## Benchmark
 
-All these library implements a `diff` function, so we can measure how long it takes for them to diff the same pair of data structures. We will also compare the size of the resulting diffs.
+All these library implements a `diff` function, so we can measure how long it takes for them to diff the same pair of data structures. We will also compare the sizes of the resulting diffs.
 
 ### Data Set
 
@@ -25,7 +25,7 @@ I happen to have a data set copied from a [JSON diff benchmark](https://github.c
 
 The shape of the data has a bit of challenge for diff algorithms. The top level is a vector of nested maps. It is necessary to maintain the order of the vector elements, at the same time, the algorithms need to dig into each pair of nested maps to find the differences. However, the nesting is not deep.
 
-### Environment
+### Test Environment
 
 Since these alternatives are all Clojure libraries, I created a project to simply pull the latest versions of them from [clojars](https://clojars.org) and let them loose on the data set. The code is [here](https://github.com/juji-io/editscript/blob/master/bench/bench.clj). The timing benchmark uses [criterium](https://github.com/hugoduncan/criterium/) `quick-bench` function. 
 
