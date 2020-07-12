@@ -54,7 +54,7 @@ Let's look at each option individually first, then do a summary.
 This is a built-in function of Clojure. The doc string says:
 
 > Recursively compares a and b, returning a tuple of
-> \[things-only-in-a things-only-in-b things-in-both]
+> [things-only-in-a things-only-in-b things-in-both]
 
 Obviously, this simple walking-through of two data structures is not meant to uncover the minimal differences between them. The resulting diff will always be larger than the original size of the data. The diff size chart above shows just that. Here's what the result looks like:
 
@@ -234,7 +234,7 @@ So it seems to gear towards visualizing the data diff for human consumption. Her
   :style "Solid",
   :type
 ```
-Sorry that the page here does not do justice for the colorized output. But the thing to notice is the change `:fill -"#ffff00" +"#0000ff"`. 
+Sorry that this page does not do justice for the colorized output. But the thing to notice is the change `:fill -"#ffff00" +"#0000ff"`. 
 
 So basically this library displays the data, then highlights the changes in color. Of course, the result size will be larger than the original data. When changes are significant, the size could be be more than doubled, as shown in the chart.
 
@@ -248,7 +248,7 @@ I am familiar with the algorithm [1] used in [clj-diff](https://github.com/brent
 
 Clojure data structures are trees, not simple sequences of elementary values. The above algorithm assumes that each edit operation has the same cost, which is false for tree editing. Adding a large sub-tree costs a lot more than adding a single value by putting a lot more things in the resulting diff, for example. Another problem with that algorithm, is that it does not have replacement operator, having only add and delete operators. In any case, if optimal diff is desired, a proper tree diff algorithm is necessary. 
 
-However, general tree diff is expensive. The optimal time complexity is recently proved to be O(n^3) [2]. Fortunately, Clojure immutable data structure diff does not need or want general tree diff, where everything can move around. We actually want to preserve our beloved immutable data structures. This is how Editscript's A* algorithm can achieve optimality with less than O(n^2) time complexity: our definition of optimality disallows certain operations, such as splitting or merging nodes.
+However, general tree diff is expensive. The optimal time complexity is proved to be O(n^3) [2]. Fortunately, Clojure immutable data structure diff does not need or want general tree diff, where everything can move around. We actually want to preserve our beloved immutable data structures. This is how Editscript's A* algorithm can achieve optimality with less than O(n^2) time complexity: our definition of optimality disallows certain operations, such as splitting or merging nodes.
 
 ### Editscript (A* algorithm)
 
@@ -267,7 +267,7 @@ Here is what the diff produced looks like:
 ```
 That's it? 
 
-Yeah, that's it. That's the true change.  The user apparently changed the fill color of some shape.
+Yeah, that's it. That's the true change.  The user apparently changed the fill color of the third shape.
 
 ### Editscript (Quick algorithm)
 
@@ -280,7 +280,7 @@ This simple change happens to be also detected by the quick algorithm.
 ```
 The benchmark shows that it is the fastest algorithm most of the time, only occasionally slightly behind the library that we will discuss in the next section.
 
-This algorithm mostly does a one-pass walking-through of two trees, and notes any differences found. As mentioned, when we see a sequence, however, we activate the sequence diff algorithm mentioned above to gain a little bit of optimality. So at least in this case, this quick algorithm produces diffs that are not catastrophically large, i.e. wrong. The kind of mistakes this kind of naive one-pass walking-through algorithms make, is that it would often delete a whole subtree, then add its slight variation back. Such edits are unlikely to be the true changes.    
+This algorithm mostly does a one-pass walking-through of two trees, and notes any differences found. As mentioned, when we see a sequence, however, we activate the sequence diff algorithm mentioned above to gain a little bit of optimality. So at least in this case, this quick algorithm does not produce catastrophically large diffs. The kind of mistakes this kind of naive one-pass walking-through algorithms make, is that it would often delete a whole subtree, then add its slight variation back. Such edits are unlikely to be the true changes.    
 
 Editscript produces something does look like a script. The corresponding `patch` function takes the script and runs it to restore the data. The patching process takes almost no time, so the benchmark is omitted here.
 
