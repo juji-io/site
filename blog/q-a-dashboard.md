@@ -63,7 +63,7 @@ Moreover, the Q&A Board allows you to add new Q&A pairs. To add a new pair of Q&
 
 ![Search an existing FAQ to edit](/assets/uploads/screen-shot-2020-07-11-at-7.38.19-pm.png "Search an existing FAQ to edit")
 
-## Update and upload your FAQ CSV file 
+## Update and upload your FAQ CSV file
 
 Although the Q&A Board makes it very easy to update your FAQs, updating the FAQs inside the CSV file may be more convenient if there is a large number of unanswered questions or if there are multiple people involved in updating the FAQs. 
 
@@ -73,4 +73,4 @@ You can simply upload your CSV after all the editing is done. In case you are no
 
 Creating a chatbot and publishing it is not the end but the beginning of a journey, just like raising a kid, who needs to be taught and nurtured as s/he grows.  Similarly, a chatbot needs to be continuously taught, so it can be improved and become better and better at its job. Answering user questions is an important skill for almost all chatbots. That's why Juji Q&A dashboard exists to help chatbot designers and owners monitor their chatbots easily and improve their chatbots quickly.
 
-If you would like to learn more about what other amazing things Juji's AI chatbots can do, [this is a great article to start](https://juji.io/blog/where-is-artificial-intelligence-ai-how-to-make-a-chatbot-smart/). Or sign up free to give it a shot at creating your own smart chatbots.
+If you would like to learn more about what kind of smarts Juji chatbots have, [this is a great article to start](https://juji.io/blog/where-is-artificial-intelligence-ai-how-to-make-a-chatbot-smart/). Or [sign up free](https://juji.io/signup) to have some fun of creating your own smart chatbots.
