@@ -46,3 +46,103 @@ As you can see, the time for the libraries to run diff algorithm on the dataset 
 To choose a library, we need to look at each libraries to see if it fits one's use cases. In addition to the performance data, we also need to look at the output format of each library.
 
 ## Analysis
+
+Let's look at each option individually first, then do a summary.
+
+### clojure.data/diff
+
+This is a built-in function of Clojure. The doc string says
+
+> Recursively compares a and b, returning a tuple of
+> \[things-only-in-a things-only-in-b things-in-both]
+
+Obviously, this simple walking-through of two data structures is not meant to uncover the minimal differences between them. The resulting diff will always be larger than the original size of the data. The diff size chart above shows just that. Here's what the result looks like:
+
+```clojure
+(pp/pprint (clj/diff data1 data2))
+;;==>
+[[nil nil {:fill "#ffff00"}]
+ [nil nil {:fill "#0000ff"}]
+ [{:y 27,
+   :r 0,
+   :color "#000000",
+   :fill "#CCCCCC",
+   :width 100,
+   :type "rect",
+   :cap "round",
+   :borderWidth 1,
+   :style "Solid",
+   :x 50,
+   :height 100}
+  {:y 30,
+   :family "sans-serif",
+   :color "#0000FF",
+   :fill {:r 256, :g 0, :b 0, :a 0.5},
+   :width 10,
+   :type "textBlock",
+   :cap "round",
+   :borderWidth 1,
+   :size "24px",
+   :style "Solid",
+   :pad 3,
+   :weight "bold",
+   :x 20,
+   :height 25.200000000000003,
+   :text "DojoX Drawing Rocks"}
+  {:rx 150,
+   :color "#0000FF",
+   :type "ellipse",
+   :cap "round",
+   :borderWidth 1,
+   :style "Solid",
+   :cx 150,
+   :cy 185,
+   :ry 100}
+  {:color "#000000",
+   :fill "#CCCCCC",
+   :y1 20,
+   :type "arrow",
+   :cap "round",
+   :borderWidth 3,
+   :style "Solid",
+   :label "My Arrow",
+   :x1 40,
+   :y2 120.00000000000003,
+   :x2 -133.20508075688772}
+  {:y 26,
+   :family "sans-serif",
+   :color "#000000",
+   :fill "#CCCCCC",
+   :width 200,
+   :type "text",
+   :cap "round",
+   :borderWidth 1,
+   :size "18px",
+   :style "Solid",
+   :pad 3,
+   :weight "normal",
+   :x 30,
+   :height 25.200000000000003,
+   :text "This is just text"}
+  {:color "#000000",
+   :style "Solid",
+   :cap "round",
+   :fill "#CCCCCC",
+   :borderWidth 1,
+   :points
+   [{:x 70, :y 20}
+    {:x 65, :y 15}
+    {:x 75, :y 15}
+    {:t "Z", :x 70, :y 20}
+    {:t "M", :x 70, :y 40}
+    {:x 68, :y 12}
+    {:x 72, :y 12}],
+   :type "path"}]]
+
+```
+
+In term of speed, this function is not the best. When diff is small, it is in the middle of the pack. When the diff is large, it is the second slowest, only beating the optimizing A* algorithm of Editscript, but that algorithm is doing much much more than simply walking two trees.
+
+This function does produce a lot of information about the changes. There may be cases when these are useful. For example, you can ignore "things-in-both". "things-only-in-b" tells you the new things added, and "things-only-in-a" tells you what is being deleted. However, if both are not empty, it would be hard to figure out what exactly happened. 
+
+Finally, there is no corresponding \`patch\` function for \`diff\`, so you cannot really use this to preserve and restore data.
