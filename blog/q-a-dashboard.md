@@ -2,7 +2,7 @@
 layout: blog/article.njk
 featured: true
 title: How to Evolve Your Chatbot's FAQs with Realtime Monitoring
-date: 2020-06-28T07:07:48.024Z
+date: 2020-07-12T03:34:55.758Z
 author: Wenxi Chen
 category: Guides
 tags:
