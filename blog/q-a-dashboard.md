@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: true
-title: Q&A Dashboard
+title: How to Evolve Your Chatbot's FAQs with Realtime Monitoring
 date: 2020-06-28T07:07:48.024Z
 author: Wenxi Chen
 category: Guides
