@@ -236,7 +236,7 @@ So it seems to gear towards visualizing the data diff for human consumption. Her
 ```
 Sorry that the page here does not do justice for the colorized output. But the thing to notice is the change `:fill -"#ffff00" +"#0000ff"`. 
 
-So basically this library displays the data, then highlights the changes in color. Of course, the result size will be larger than the original data. When changes are significant, the size will be more than doubled, as shown in the chart.
+So basically this library displays the data, then highlights the changes in color. Of course, the result size will be larger than the original data. When changes are significant, the size could be be more than doubled, as shown in the chart.
 
 Speed-wise, this library is also only consistently faster than the optimizing A* algorithm. It sometimes beats clojure.data/diff when the diffs are large.  This is remarkable, because what it does is a lot more than simply walking the trees. 
 
@@ -246,7 +246,7 @@ Its credits section cites:
 
 I am familiar with the algorithm [1] used in [clj-diff](https://github.com/brentonashworth/clj-diff). It is an O(np) algorithm for diffing strings, where p is the number of deletes. The way it works is by maintaining a moving window of approximate size p along the diagonal of the editing matrix (think data a as the row, data b as the column), so it avoids searching the whole matrix. This algorithm is also implemented (with slightly better performance) in both versions of Editscript's two algorithms, to handle the special cases when we know simple sequences are being compared. 
 
-Unfortunately, Clojure data structures are trees, not simple sequences of elementary values.  The above algorithm assumes that each edit operation has the same cost, which is false for tree editing. Adding a large sub-tree costs a lot more than adding a single value by putting a lot more things in the resulting diff, for example. Another problem with that algorithm, is that it does not have replacement operator, having only add and delete operators. In any case, if optimal diff is desired, a proper tree diff algorithm is necessary. 
+Clojure data structures are trees, not simple sequences of elementary values. The above algorithm assumes that each edit operation has the same cost, which is false for tree editing. Adding a large sub-tree costs a lot more than adding a single value by putting a lot more things in the resulting diff, for example. Another problem with that algorithm, is that it does not have replacement operator, having only add and delete operators. In any case, if optimal diff is desired, a proper tree diff algorithm is necessary. 
 
 However, general tree diff is expensive. The optimal time complexity is recently proved to be O(n^3) [2]. Fortunately, Clojure immutable data structure diff does not need or want general tree diff, where everything can move around. We actually want to preserve our beloved immutable data structures. This is how Editscript's A* algorithm can achieve optimality with less than O(n^2) time complexity: our definition of optimality disallows certain operations, such as splitting or merging nodes.
 
@@ -278,11 +278,11 @@ This simple change happens to be also detected by the quick algorithm.
 ;;==>
 [[[2 :fill] :r "#0000ff"]]
 ```
-The benchmark shows that it is the fastest algorithm most of the time, only occasionally slightly behind the library we will discuss in the next section.
+The benchmark shows that it is the fastest algorithm most of the time, only occasionally slightly behind the library that we will discuss in the next section.
 
-This algorithm mostly does a one-pass walking-through of two trees, and notes any differences found. As mentioned, when we see a sequence, however, we activate the sequence diff algorithm mentioned above to gain a little bit of optimality. So at least in this benchmark, this quick algorithm produces diffs that are not catastrophically large, i.e. wrong. The kind of mistakes this kind of naive one-pass walking-through algorithms make, is that it would often delete a whole subtree, and add its slight variation back. These edits are unlikely to be true changes.    
+This algorithm mostly does a one-pass walking-through of two trees, and notes any differences found. As mentioned, when we see a sequence, however, we activate the sequence diff algorithm mentioned above to gain a little bit of optimality. So at least in this case, this quick algorithm produces diffs that are not catastrophically large, i.e. wrong. The kind of mistakes this kind of naive one-pass walking-through algorithms make, is that it would often delete a whole subtree, then add its slight variation back. Such edits are unlikely to be the true changes.    
 
-Editscript produces something does look like a script. The corresponding `patch` function takes the script and runs it to restore the data. The patch process takes almost no time, so the benchmark is omitted here.
+Editscript produces something does look like a script. The corresponding `patch` function takes the script and runs it to restore the data. The patching process takes almost no time, so the benchmark is omitted here.
 
 The only other library that does `patch`, is differ.
 
@@ -299,19 +299,17 @@ So if one throws arbitrary data at it, differ will fall. The benchmark file cont
 
 ## Summary
 
-The Clojure community seems to care about data diff, so we have quite a few options. Based on what I have seen, if you are in the market to use a diff library, here are my recommendations: 
+The Clojure community seems to care about data diff, so we have a few options. Based on what I have seen, if you are in the market to use a diff library, here are my recommendations: 
 
 * If you want to look at the diffs and do not care if the diffs are always the smallest possible, deep-diff2 is great. 
 
 * If you need to use the content of diffs in application logic, or you want to store the smallest possible diffs, and the necessary computing time is acceptable for you, use the default A* algorithm of Editscript. 
 
-* If your data changes are too frequent or data is too big to accept the time cost of computing optimal diffs, and you do not care if the diffs may be sometimes not the smallest possible, the quick algorithm of Editscript may work well. 
+* If your data changes are too frequent or data is too big to accept the time cost of computing optimal diffs, and you do not care if the diffs may be sometimes not the smallest possible, the quick algorithm of Editscript may work for you. 
 
 * I do not recommend clojure.data/diff, nor differ.
 
-But I am the author of Editscript, so please take my recommendations with a grain of salt :-). Regardless, test the libraries on your own data sets first. 
-
-Until the next time.
+Regardless, test the libraries on your own data sets first. 
 
 [1] Wu, S. et al., 1990, An O(NP) Sequence Comparison Algorithm, Information Processing Letters, 35:6, p317-23.
 
