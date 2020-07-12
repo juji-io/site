@@ -58,4 +58,4 @@ Although the Q&A Board makes it very easy to update your FAQs, updating the FAQs
 
 Creating a chatbot and publish it is not the end. It's just the beginning. A chatbot needs to be continuously evolved like a human, so it can stay updated with the world and become better at its job. Answering FAQs is an important task for most chatbots. Juji's Q&A Board is here to help the chatbot designers to keep their chatbots always stay ahead.
 
-If you would like to learn more about what else Juji's AI chatbot can do, [this is a great article to start](https://juji.io/blog/where-is-artificial-intelligence-ai-how-to-make-a-chatbot-smart/).
+If you would like to learn more about what other amazhing things Juji's AI chatbots can do, [this is a great article to start](https://juji.io/blog/where-is-artificial-intelligence-ai-how-to-make-a-chatbot-smart/). Or try it yourself by signup at [juji.io](https://juji.io/).
