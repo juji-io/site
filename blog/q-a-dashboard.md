@@ -12,7 +12,18 @@ tags:
 image: /assets/uploads/pulse-trace-163708_1280.jpg
 credit: Pixabay
 ---
-So you have [built a chatbot that answers FAQs](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/). You know it is powerful because it uses machine learning model to understand user questions and [recommends related questions when the answer is not immediately available](https://juji.io/blog/question-recommendation/). However, there can still be cases when the chatbot does not know how to answer the user's question. While there are various reasons this can happen, one of the most common causes is that the chatbot designer has not yet include such question in its FAQ list. In that case, the only way to solve this is to add the right FAQs. Though the task might sound very straightforward, it is not intuitively supported by many existing chatbot builders.
+The ability for a chatbot to answer user questions is highly desirable. Previously, I talked about how to create a Q&A chatbot in a few minutes to [answer users' free-text questions](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) as well as [handle multi-turn Q&A](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/), all without coding. Because no chatbot is perfect, I also mentioned how to teach a chatbot better [handle unknown user questions](https://juji.io/blog/question-recommendation/) and improve customer satisfaction.  
+
+Now that you have built a very capable Q&A chatbot, you may have a set of questions you have about the chatbot:
+
+* What questions has the chatbot answered?
+* What questions can the chatbot not answer?  How many?
+* Among the unanswered questions, how frequently are these questions asked? 
+* How are these unanswered questions related to each other? 
+
+The insights to  would be very useful to improve the chatbot and user experience. 
+
+How would you, as a chatbot owner or admin, know?   there can still be cases when the chatbot does not know how to answer the user's question. While there are various reasons this can happen, one of the most common causes is that the chatbot designer has not yet include such question in its FAQ list. In that case, the only way to solve this is to add the right FAQs. Though the task might sound very straightforward, it is not intuitively supported by many existing chatbot builders.
 
 The process to update an existing FAQ list can be divided into three steps:
 
