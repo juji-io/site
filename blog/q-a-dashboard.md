@@ -59,7 +59,9 @@ As shown above in a screenshot, the Q&A Board also provides several useful tools
 * The "→A" button on the top right corner of the answer text box lets you search for the answer of a matched question, saving your time to enter an answer from scratch.  This is especially helpful if there is an extensive existing Q&A list.
 * The "\[+]" button on the bottom right of the answer text box lets you open up an editor to define or edit a multi-turn answer. My [previous blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) explained this powerful tool.
 
-Moreover, the Q&A Board allows you to add new Q&A pairs. To add a new pair of Q&A, simply click on the "+" sign at the top of the table. You can then edit the question and answer as described above. You can also edit an existing Q&A pair by clicking on the magnifying glass next to the "+" sign, which allows you to search for and select an existing FAQ to edit .
+Moreover, the Q&A Board allows you to add new Q&A pairs. To add a new pair of Q&A, simply click on the "+" sign at the top of the table. You can then edit the question and answer as described above. 
+
+Similarly, you can select an existing Q&A pair to edit by clicking on the magnifying glass next to the "+" sign. As shown below, it will open up a modal where you are able to search for an existing FAQ. In the modal, you can see the FAQ's question variations and answers. Once you select a FAQ, it will show up as a row in the Q&A table for you to update.
 
 ![Search an existing FAQ to edit](/assets/uploads/screen-shot-2020-07-11-at-7.38.19-pm.png "Search an existing FAQ to edit")
 
