@@ -61,7 +61,7 @@ As shown above in a screenshot, the Q&A Board also provides several useful tools
 
 Moreover, the Q&A Board allows you to add new Q&A pairs. To add a new pair of Q&A, simply click on the "+" sign at the top of the table. You can then edit the question and answer as described above. 
 
-Similarly, you can select an existing Q&A pair to edit by clicking on the magnifying glass next to the "+" sign. As shown below, it will open up a modal where you are able to search for an existing FAQ. In the modal, you can see the FAQ's question variations and answers. Once you select a FAQ, it will show up as a row in the Q&A table for you to update.
+Similarly, you can select an existing Q&A pair to edit by clicking on the magnifying glass next to the "+" sign. As shown below, it will open up a modal where you are able to search for an existing Q&A. In the modal, you can see the Q&A's question variations and answers. Once you select a Q&A, it will show up as a row in the Q&A table for you to update.
 
 ![Search an existing FAQ to edit](/assets/uploads/screen-shot-2020-07-11-at-7.38.19-pm.png "Search an existing FAQ to edit")
 
@@ -75,7 +75,7 @@ You can simply upload your CSV after all the editing is done. In case you are no
 
 ![Reports page shows question answer rate of the chatbot](/assets/uploads/screen-shot-2020-07-13-at-10.16.33-pm.png "Reports page shows question answer rate of the chatbot")
 
-Besides unanswered questions, you can also monitor your chatbot's overall FAQ performance on the Reports page under the CHAT STATS section. One of the metrics there is the answer rate. As shown above, you will have a visual view as well as the exact number of how many questions are asked by your users and how many are answered. While the numbers are straightforward, they are a good measurement of how well your chatbot has performed in answering questions. A low answer rate may be a strong indication that the FAQs need to be updated. Moreover, combining the number of total asked questions with your total number of participants, you also get a sense of whether your users like to ask questions or not.
+Besides unanswered questions, you can also monitor your chatbot's overall FAQ performance on the Reports page under the CHAT STATS section. One of the metrics there is the answer rate. As shown above, you will have a visual view as well as the exact number of how many questions are asked by your users and how many are answered. While the numbers are straightforward, they are a good measurement of how well your chatbot has performed in answering questions. A low answer rate may be a strong indicator that your FAQs need to be updated. Moreover, comparing the number of total asked questions with the chatbot's total number of participants, you see on average how many questions are asked by each user.
 
 ---
 Creating a chatbot and publishing it is not the end but the beginning of a journey, just like raising a kid, who needs to be taught and nurtured as s/he grows.  Similarly, a chatbot needs to be continuously taught, so it can be improved and become better and better at its tasks. Answering user questions is an important skill for almost all chatbots. That's why Juji Q&A dashboard exists to help chatbot designers and owners monitor their chatbots easily and improve their chatbots quickly.
