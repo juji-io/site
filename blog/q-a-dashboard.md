@@ -55,9 +55,9 @@ If you just have a few unanswered questions, you may want to add their answers r
 
 As shown above in a screenshot, the Q&A Board also provides several useful tools to help a chatbot owner customize answers:
 
-* The "+" sign in a text box allows you to enter alternative question/answer expressions, while the down arrow button allows you to view and select these varied expressions. Question variations help a chatbot better recognize user questions. On the other hand, answer variations give a chatbot a set of answers to choose from, so its response can appear more natural to users.
+* The "+" sign in a text box allows you to enter alternative question/answer expressions, while the downward arrow button allows you to view and select these varied expressions. Question variations help a chatbot better recognize user questions. On the other hand, answer variations give a chatbot a set of answers to choose from, so its response can appear more natural to users.
 * The "→A" button on the top right corner of the answer text box lets you search for the answer of a matched question, saving your time to enter an answer from scratch.  This is especially helpful if there is an extensive existing Q&A list.
-* The "\[+]" button on the bottom right of the answer text box lets you open up an editor to define or edit a multi-turn answer.  My [previous blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) explained this powerful tool.
+* The "\[+]" button on the bottom right of the answer text box lets you open up an editor to define or edit a multi-turn answer. My [previous blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) explained this powerful tool.
 
 Moreover, the Q&A Board allows you to add new Q&A pairs. To add a new pair of Q&A, simply click on the "+" sign at the top of the table. You can then edit the question and answer as described above. You can also edit an existing Q&A pair by clicking on the magnifying glass next to the "+" sign, which allows you to search for and select an existing FAQ to edit .
 
