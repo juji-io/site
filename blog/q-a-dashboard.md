@@ -51,7 +51,7 @@ Once you know what questions are unanswered, there are two ways to update chatbo
 
 If you just have a few unanswered questions, you may want to add their answers right away. To do so, just add your answer in the corresponding text box and submit it using the "Submit" button. In most cases, an answer submission will take an immediate effect--a chatbot can answer the unanswered question *immediately* without the need of restarting. 
 
-![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-07-11-at-7.52.30-pm.png "Add an answer to an unanswered question in Q&A Board")
+![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-07-13-at-9.04.45-pm-copy.png "Add an answer to an unanswered question in Q&A Board")
 
 As shown above in a screenshot, the Q&A Board also provides several useful tools to help a chatbot owner customize answers:
 
