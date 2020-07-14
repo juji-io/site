@@ -12,7 +12,7 @@ tags:
 image: /assets/uploads/pulse-trace-163708_1280.jpg
 credit: Pixabay
 ---
-The ability for a chatbot to answer user questions is highly desirable. Previously, I talked about how to create a Q&A chatbot in a few minutes to [answer users' free-text questions](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) as well as [handle multi-turn Q&A](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/), all without coding. Because no chatbot is perfect, I also mentioned how to teach a chatbot better [handle unknown user questions](https://juji.io/blog/question-recommendation/) and improve customer satisfaction.  
+The ability for a chatbot to answer user questions is highly desirable. Previously, I talked about how to create a Q&A chatbot in a few minutes to [answer users' free-text questions](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) as well as [handle multi-turn Q&As](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/), all without coding. Because no chatbot is perfect, I also mentioned how to teach a chatbot better [handle unknown user questions](https://juji.io/blog/question-recommendation/) and improve customer satisfaction.  
 
 Now that you have built a very capable Q&A chatbot, you may want to know how your chatbot performs by getting answers to the following questions:
 
@@ -33,7 +33,7 @@ Ideally, your FAQ list should be as complete as possible. However no one can ant
 
 ![A real-time dashboard displaying a list of user questions that a chatbot cannot answer.](/assets/uploads/screen-shot-2020-07-11-at-5.52.19-pm.png "Juji Q&A Board is a real-time dashboard that displays a list of unanswered user questions. ")
 
-The red square icon next to the "Q&A BOARD" tab indicates the number of unanswered questions the chatbot has encountered so far. The number gets updated in real-time. So you, as a chatbot designer, will notice it while working on other parts of the chatbot. In the example above, there are 5 unanswered user questions. Moreover, all the unanswered questions are listed inside the table where you can answer them right away.
+The red square icon next to the "Q&A BOARD" indicates the number of unanswered questions the chatbot has encountered so far. The number gets updated in real-time. So you, as a chatbot owner, will notice it while working on other parts of the chatbot. In the example above, there are 5 unanswered user questions. Moreover, all the unanswered questions are listed inside a Q&A table where you can answer them right away.
 
 Alternatively, you can download all Q&As including the unanswered questions in a CSV file. The CSV file typically lists all the unanswered user questions and their stats at the end of the file. Juji also automatically analyzes all unanswered questions and arranges them in different groups such that the similar ones are listed next to each other. As shown in a sample CSV file below, there are five unanswered questions (rows 38-44), arranged into three groups: rows 38-39, rows 41-42, and row 44. 
 
@@ -49,7 +49,7 @@ Once you know what questions are unanswered, there are two ways to update chatbo
 
 ## Update FAQs on the Q&A Board
 
-If you just have a few unanswered questions, you may want to add their answers right away. To do so, just add your answer in the corresponding text box and submit it using the "Submit" button. Unless you have edited a multi-turn answer, the submission will take an immediate effect. This can be very handy, because it updates your chatbot FAQs *immediately* without the need to restart it. Let's say you see an unanswered question pop up on your Q&A Board, and you answer it and submit right away. If the user who has asked this question asked again in the same chat, the chatbot will then magically answer the very same question it was not able to answer a minute ago. Beside the dramatic effect, the undisruptive update has proved to be very convinient to many of our clients that have large number of users.
+If you just have a few unanswered questions, you may want to add their answers right away. To do so, just add your answer in the corresponding text box and submit it using the "Submit" button. Unless you have edited a multi-turn answer, the submission will take an immediate effect. This is very handy, because it updates your chatbot FAQs *immediately* without the need to restart it. Let's say you see an unanswered question pop up on your Q&A Board, and you answer it and submit right away. If the user who has asked this question asked again in the same chat, the chatbot will then magically answer the very same question it was not able to answer a minute ago. Beside the dramatic effect, the undisruptive update has proved to be very convinient to many of our clients that have large number of users.
 
 ![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-07-13-at-9.04.45-pm-copy.png "Add an answer to an unanswered question in Q&A Board")
 
