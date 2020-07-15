@@ -46,7 +46,7 @@ Such information can then be used to easily prioritize the handling of unanswere
 
 # Update Chatbot FAQs
 
-Once you know what questions are unanswered, there are two ways to update chatbot FAQs. You can update them directly on the Q&A Board. Alternatively, you can update the CSV file, then upload it to the chatbot.
+To address unanswer user questions, there are two ways to improve a chatbot by updating its FAQ knowledge base. You can update them directly on the Q&A Board. Alternatively, you can update the CSV file, then upload it to the chatbot.
 
 ## Update FAQs on the Q&A Board
 
