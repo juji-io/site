@@ -50,19 +50,29 @@ To address unanswer user questions, there are two ways to improve a chatbot by u
 
 ## Update FAQs on the Q&A Board
 
-If you just have a few unanswered questions, you may want to add their answers right away. To do so, just add your answer in the corresponding text box and submit it using the "Submit" button. Unless you have edited a multi-turn answer, the submission will take an immediate effect. This is very handy, because it updates your chatbot Q&As *immediately* without the need to restart it. Let's say you see an unanswered question pop up on your Q&A Board, and you answer it and submit right away. If the user who has asked this question asked again in the same chat, the chatbot will then magically answer the very same question it was not able to answer a minute ago. Beside such dramatic effect, the nondisruptive nature of the update has proven to be very convenient to many of our clients that have large number of users.
+If there are just a few unanswered questions, the quickest way is to add the corresponding answers directly on the Q&A board. To do so, just add an answer in the corresponding text box (labeled as "Chatbot Responses") and submit it using the "Submit" button. 
+
+Unless this is a multi-turn answer, the submission will take effect immediately. This is very handy, because it improves a chatbot Q&As *immediately* without the need to restart it. 
+
+### Answer an unanswered user question
+
+Assume that an unanswered user question pops up on the Q&A Board. As a chatbot owner,  you can answer it and submit the answer right away. ALL the users including the one who asked the question originally can now ask the question and get a correct answer without restarting their chat. This nondisruptive nature of the updates has proven to be very valuable to many of our clients that have a large number of users.
 
 ![Add an answer to an unanswered question in Q&A Board](/assets/uploads/screen-shot-2020-07-13-at-9.04.45-pm-copy.png "Add an answer to an unanswered question in Q&A Board")
 
 As shown above in a screenshot, the Q&A Board also provides several useful tools to help a chatbot owner customize answers:
 
-* The "+" sign in a text box allows you to enter alternative question/answer expressions, while the downward arrow button allows you to view and select these varied expressions. Question variations help a chatbot better recognize user questions. On the other hand, answer variations give a chatbot a set of answers to choose from, so its response can appear more natural to users.
-* The "→A" button on the top right corner of the answer text box lets you search for the answer of a matched question, saving your time to enter an answer from scratch.  This is especially helpful if there is an extensive existing Q&A list.
-* The "\[+]" button on the bottom right of the answer text box lets you open up an editor to define or edit a multi-turn answer. My [previous blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) explained this powerful tool.
+* The "+" sign in a text box (either the "User Questions" or "Chatbot Responses" column) allows you to enter alternative question/answer expressions, while the downward arrow button allows you to view and select these varied expressions. Question variations help a chatbot better recognize user questions. On the other hand, answer variations give a chatbot a set of answers to choose from, so its response can appear more natural to users.
+* The "→A" button on the top right corner of the "Chatbot Responses" text box lets you search for an answer of a matched question, saving your time to enter an answer from scratch.  This is especially helpful if there is an extensive existing Q&A list.
+* The "\[+]" button on the bottom right of the "Chatbot Responses" text box lets you open up an editor to define or edit a multi-turn answer. My [previous blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) explained this powerful tool.
 
-Moreover, the Q&A Board allows you to add new Q&A pairs. To add a new pair of Q&A, simply click on the "+" sign at the top of the table. You can then edit the question and answer as described above. 
+### Add a new pair of Q&A 
 
-Similarly, you can select an existing Q&A pair to edit by clicking on the magnifying glass next to the "+" sign. As shown below, it will open up a modal where you are able to search for an existing Q&A. In the modal, you can see the Q&A's question variations and answers. Once you select a Q&A, it will show up as a row in the Q&A table for you to update.
+Moreover, the Q&A Board allows you to directly add new Q&A pairs. To add a new pair of Q&A, simply click on the "+" sign at the top of the table. You can then edit the question and its answer as described above. 
+
+### Edit an existing Q&A pair
+
+Similarly, you can select an existing Q&A pair to edit by clicking on the magnifying glass icon next to the "+" sign. As shown below, it will open up a pop-up window where you can search for an existing Q&A. In the pop-up window, you can see all Q&As including their question and answer variations. Once you select a Q&A, it will show up in a row in the Q&A table for you to update.
 
 ![Search an existing FAQ to edit](/assets/uploads/screen-shot-2020-07-11-at-7.38.19-pm.png "Search an existing FAQ to edit")
 
