@@ -9,19 +9,20 @@ tags:
   - chatbot
   - FAQ chatbot
   - Q&A chatbot
+  - chatbot performance
 image: /assets/uploads/pulse-trace-163708_1280.jpg
 credit: Pixabay
 ---
-The ability for a chatbot to answer user questions is highly desirable. Previously, I talked about how to create a Q&A chatbot in a few minutes to [answer users' free-text questions](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) as well as [handle multi-turn Q&As](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/), all without coding. Because no chatbot is perfect, I also mentioned how to teach a chatbot better [handle unknown user questions](https://juji.io/blog/question-recommendation/) and improve customer satisfaction.  
+Since one of the most popular chatbot uses is to **automate customer service**, a chatbot's abilities to answer user questions is directly related to brand image and customer satisfaction.  Previously, I talked about how to create a Q&A chatbot in a few minutes to [answer users' free-text questions](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) and [handle complex, multi-turn Q&As](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/), all without coding. Because no chatbot is perfect, I also mentioned how to teach a chatbot [handle unknown user questions](https://juji.io/blog/question-recommendation/) and further improve customer satisfaction.  
 
-Now that you have built a very capable Q&A chatbot, you may want to know how your chatbot performs by getting answers to the following questions:
+But how do we know the performance of a Q&A chatbot?  For example, we want to know the "goodness" of a chatbot by asking:
 
-1. What are the questions the chatbot has answered?
+1. What are the questions the chatbot has answered? How many of them?
 2. What are the questions the chatbot cannot answer?  How many of them?
-3. Among the unanswered questions, how frequently do user ask these questions? 
+3. Among the unanswered questions, how frequently do users ask these questions? 
 4. How are these unanswered questions related to each other? 
 
-Obviously, answers to the above questions can provide chatbot owners or admins valuable insights to improve a chatbot, e.g., improving a chatbot to answer the unanswered questions.  Unfortunately, few chatbot platforms provide such insights, which makes a chatbot owner/admin unaware of a chatbot's Q&A performance, let alone helps improving its Q&A capabilities.  
+Obviously, answers to the above questions can provide chatbot owners or admins valuable insights to improve a chatbot, e.g., improving a chatbot to address the most frequently asked, unanswered questions  Unfortunately, few chatbot platforms provide such insights, which makes a chatbot owner/admin unaware of a Q&A chatbot's performance, let alone helps improving its Q&A capabilities.  
 
 To help chatbot owners improve a Q&A chatbot easily and quickly, the Juji platform provides built-in Q&A monitoring facility to inform chatbot owners of their chatbot Q&A performance. 
 
@@ -77,7 +78,8 @@ You can simply upload your CSV after all the editing is done. In case you are no
 
 Besides unanswered questions, you can also monitor your chatbot's overall FAQ performance on the Reports page under the CHAT STATS section. One of the metrics there is the answer rate. As shown above, you will have a visual view as well as the exact number of how many questions are asked by your users and how many are answered. While the numbers are straightforward, they are a good measurement of how well your chatbot has performed in answering questions. A low answer rate may be a strong indicator that your FAQs need to be updated. Moreover, comparing the number of total asked questions with the chatbot's total number of participants, you see on average how many questions are asked by each user.
 
----
+- - -
+
 Creating a chatbot and publishing it is not the end but the beginning of a journey, just like raising a kid, who needs to be taught and nurtured as s/he grows.  Similarly, a chatbot needs to be continuously taught, so it can be improved and become better and better at its tasks. Answering user questions is an important skill for almost all chatbots. That's why Juji Q&A dashboard exists to help chatbot designers and owners monitor their chatbots easily and improve their chatbots quickly.
 
 If you would like to learn more about what kind of smarts Juji chatbots have, [this is a great article to start](https://juji.io/blog/where-is-artificial-intelligence-ai-how-to-make-a-chatbot-smart/). Or [sign up free](https://juji.io/signup) to have some fun of creating your own smart chatbots.
