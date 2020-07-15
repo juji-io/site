@@ -30,15 +30,15 @@ To help chatbot owners improve a Q&A chatbot easily and quickly, the Juji platfo
 
 Specifically, we have built several Q&A chatbot monitoring tools to answer the questions above. Here I'll focus on how Juji helps chatbot owners obtain answers to questions 2-4 and how such insights can help improve a chatbot's Q&A capability quickly.
 
-Ideally, your FAQ list should be as complete as possible. However no one can anticipate all the questions users might ask. Thus, it is useful to know what user questions are ***not*** answered by a chatbot. Juji's Q&A Board does just that. As shown below, the Q&A dashboard provides you with real-time notifications of unanswered user questions as users are interacting with your chatbot. 
+Ideally, your FAQ list should be as complete as possible. However, it is difficult to anticipate all the questions users might ask. Thus, it is useful to know what user questions are ***not*** answered by a chatbot. Juji's Q&A Board does just that. As shown below, the Q&A board provides you with real-time notifications of unanswered user questions as users are interacting with your chatbot. 
 
 ![A real-time dashboard displaying a list of user questions that a chatbot cannot answer.](/assets/uploads/screen-shot-2020-07-11-at-5.52.19-pm.png "Juji Q&A Board is a real-time dashboard that displays a list of unanswered user questions. ")
 
-The red square icon next to the "Q&A BOARD" indicates the number of unanswered questions the chatbot has encountered so far. The number gets updated in real-time. So you, as a chatbot owner, will notice it while working on other parts of the chatbot. In the example above, there are 5 unanswered user questions. Moreover, all the unanswered questions are listed inside a Q&A table where you can answer them right away.
+As shown in the screenshot above, the number shown in red next to the label "Q&A BOARD" indicates the number of unanswered user questions the chatbot has encountered The number gets updated in real-time. So a chatbot owner can easily know how many unanswered questions are there. In the example above, there are 5 unanswered user questions. Moreover, all the unanswered questions are listed inside a Q&A table where a chatbot owner or admin can answer them right away.
 
-Alternatively, you can download all Q&As including the unanswered questions in a CSV file. The CSV file typically lists all the unanswered user questions and their stats at the end of the file. Juji also automatically analyzes all unanswered questions and arranges them in different groups such that the similar ones are listed next to each other. As shown in a sample CSV file below, there are five unanswered questions (rows 38-44), arranged into three groups: rows 38-39, rows 41-42, and row 44. 
+Alternatively, you can download all Q&As including the unanswered questions in a CSV file. The CSV file typically lists all the unanswered user questions and their stats at the end of the file. Juji also automatically analyzes all unanswered questions and arranges them in different groups by their semantic similarity. 
 
-Next to each unanswered question, there is also a number indicating how many times (frequency) that question was asked. In the example below, the question "*How do I log in*" (row 38) was asked once, while another similar question "*How do I sign in*" was asked twice (row 39). 
+As shown in a sample CSV file below, there are five unanswered questions (rows 38-44), arranged into three groups: rows 38-39, rows 41-42, and row 44. Next to each unanswered question, there is also a number indicating how many times (frequency) that question was asked. In the example below, the question "*How do I log in*" (row 38) was asked once, while another similar question "*How do I sign in*" was asked twice (row 39). 
 
 Such information can then be used to easily prioritize the handling of unanswered questions especially if there are a number of unanswered questions.  
 
