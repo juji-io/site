@@ -70,7 +70,7 @@ As shown above in a screenshot, the Q&A Board also provides several useful tools
 
 Moreover, the Q&A Board allows you to directly add new Q&A pairs. To add a new pair of Q&A, simply click on the "+" sign at the top of the table. You can then edit the question and its answer as described above. 
 
-### Edit an existing Q&A pair
+### Update an existing Q&A pair
 
 Similarly, you can select an existing Q&A pair to edit by clicking on the magnifying glass icon next to the "+" sign. As shown below, it will open up a pop-up window where you can search for an existing Q&A. In the pop-up window, you can see all Q&As including their question and answer variations. Once you select a Q&A, it will show up in a row in the Q&A table for you to update.
 
@@ -82,14 +82,22 @@ Although the Q&A Board makes it very easy to update your FAQs, updating the FAQs
 
 You can simply upload your CSV after all the editing is done. In case you are not already familiar with how to update the FAQs in a CSV file, you can check out my [previous blog on this](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/).
 
-# Monitor Overall FAQ Performance
+# Monitor Overall Chatbot FAQ Performance
 
 ![Reports page shows question answer rate of the chatbot](/assets/uploads/screen-shot-2020-07-13-at-10.16.33-pm.png "Reports page shows question answer rate of the chatbot")
 
-Besides unanswered questions, you can also monitor your chatbot's overall FAQ performance on the Reports page under the CHAT STATS section. One of the metrics there is the answer rate. As shown above, you will have a visual view as well as the exact number of how many questions are asked by your users and how many are answered. While the numbers are straightforward, they are a good measurement of how well your chatbot has performed in answering questions. A low answer rate may be a strong indicator that your FAQs need to be updated. Moreover, comparing the number of total asked questions with the chatbot's total number of participants, you see on average how many questions are asked by each user.
+Besides monitoring unanswered questions, one can also monitor a chatbot's overall FAQ performance on the **Reports** page. One of the metrics is the answering rate. 
+
+As shown above,  the sample Reports page shows the number of questions are asked by users and how many are answered by the chatbot. This metric informs a chatbot owner or admin how well a chatbot has performed in answering questions. A low answering rate may be a strong indicator that a chatbot's FAQ abilities need to be updated by checking the Q&A dashboard and addressing the unanswered questions as much as possible. 
+
+Moreover, we can calculate the average number of questions asked per user by the following:
+
+AVG NUM QUESTIONS PER USER = NUM of QUESTIONS/NUM of USERS
 
 - - -
 
-Creating a chatbot and publishing it is not the end but the beginning of a journey, just like raising a kid, who needs to be taught and nurtured as s/he grows.  Similarly, a chatbot needs to be continuously taught, so it can be improved and become better and better at its tasks. Answering user questions is an important skill for almost all chatbots. That's why Juji Q&A dashboard exists to help chatbot designers and owners monitor their chatbots easily and improve their chatbots quickly.
+Answering user questions is an important skill for almost all chatbots. That's why Juji Q&A dashboard exists to help chatbot designers and owners monitor their chatbots in real time and improve their chatbots quickly.
+
+Creating a chatbot and publishing it is not the end but often the beginning of a journey. Just like raising a kid, who needs to be taught and nurtured as s/he grows, a chatbot designer or owner will need to keep a chatbot up to date and constantly teach it new knowledge and skills. Over time, a chatbot can become better and better at its tasks. 
 
 If you would like to learn more about what kind of smarts Juji chatbots have, [this is a great article to start](https://juji.io/blog/where-is-artificial-intelligence-ai-how-to-make-a-chatbot-smart/). Or [sign up free](https://juji.io/signup) to have some fun of creating your own smart chatbots.
