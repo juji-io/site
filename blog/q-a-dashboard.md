@@ -36,7 +36,7 @@ Ideally, your FAQ list should be as complete as possible. However, it is difficu
 
 As shown in the screenshot above, the number shown in red next to the label "Q&A BOARD" indicates the number of unanswered user questions the chatbot has encountered. The number gets updated in real-time. So a chatbot owner can easily know how many unanswered questions are there. In the example above, there are 5 unanswered user questions. Moreover, all the unanswered questions are listed inside a Q&A table where a chatbot owner or admin can answer them right away.
 
-Alternatively, you can download all Q&As including the unanswered questions in a CSV file. The CSV file typically lists all the unanswered user questions and their stats at the end of the file. Juji also automatically analyzes all unanswered questions and arranges them in different groups by their semantic similarity. 
+Alternatively, you can download all Q&As including the unanswered questions in a CSV file. The CSV file typically lists all the unanswered user questions and their stats at the end. Juji also automatically analyzes all unanswered questions and arranges them in different groups by their semantic similarity. 
 
 As shown in a sample CSV file below, there are five unanswered questions (rows 38-44), arranged into three groups: rows 38-39, rows 41-42, and row 44. Next to each unanswered question, there is also a number indicating how many times (frequency) that question was asked. In the example below, the question "*How do I log in*" (row 38) was asked once, while another similar question "*How do I sign in*" was asked twice (row 39). 
 
