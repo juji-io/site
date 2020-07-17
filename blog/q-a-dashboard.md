@@ -84,7 +84,7 @@ You can simply upload your CSV after all the editing is done. In case you are no
 
 # Monitor Overall Chatbot FAQ Performance
 
-![Reports page shows question answer rate of the chatbot](/assets/uploads/screen-shot-2020-07-13-at-10.16.33-pm.png "Reports page shows question answer rate of the chatbot")
+![Reports page shows question answering rate of the chatbot](/assets/uploads/screen-shot-2020-07-13-at-10.16.33-pm.png "Reports page shows question answering rate of the chatbot")
 
 Besides monitoring unanswered questions, one can also monitor a chatbot's overall FAQ performance on the **Reports** page. One of the metrics is the answering rate. 
 
