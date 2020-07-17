@@ -22,7 +22,7 @@ But how do we know the performance of a Q&A chatbot?  For example, we want to kn
 3. Among the unanswered questions, how frequently do users ask these questions? 
 4. How are these unanswered questions related to each other? 
 
-Obviously, answers to the above questions can provide chatbot owners or admins valuable insights to improve a chatbot, e.g., improving a chatbot to address the most frequently asked, unanswered questions  Unfortunately, few chatbot platforms provide such insights, which makes a chatbot owner/admin unaware of a Q&A chatbot's performance, let alone helps improving its Q&A capabilities.  
+Obviously, answers to the above questions can provide chatbot owners or admins valuable insights to improve a chatbot, e.g., improving a chatbot to address the most frequently asked, unanswered questions. Unfortunately, few chatbot platforms provide such insights, which makes a chatbot owner/admin unaware of a Q&A chatbot's performance, let alone helps improving its Q&A capabilities.  
 
 To help chatbot owners improve a Q&A chatbot easily and quickly, the Juji platform provides built-in Q&A monitoring facility to inform chatbot owners of their chatbot Q&A performance. 
 
