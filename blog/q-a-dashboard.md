@@ -46,7 +46,7 @@ Such information can then be used to easily prioritize the handling of unanswere
 
 # Update Chatbot FAQs
 
-To address unanswer user questions, there are two ways to improve a chatbot by updating its FAQ knowledge base. You can update them directly on the Q&A Board. Alternatively, you can update the CSV file, then upload it to the chatbot.
+To address unanswered user questions, there are two ways to improve a chatbot by updating its FAQ knowledge base. You can update them directly on the Q&A Board. Alternatively, you can update the CSV file, then upload it to the chatbot.
 
 ## Update FAQs on the Q&A Board
 
@@ -66,7 +66,7 @@ As shown above in a screenshot, the Q&A Board also provides several useful tools
 * The "→A" button on the top right corner of the "Chatbot Responses" text box lets you search for an answer of a matched question, saving your time to enter an answer from scratch.  This is especially helpful if there is an extensive existing Q&A list.
 * The "\[+]" button on the bottom right of the "Chatbot Responses" text box lets you open up an editor to define or edit a multi-turn answer. My [previous blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) explained this powerful tool.
 
-### Add a new pair of Q&A 
+### Add a new pair of Q&A
 
 Moreover, the Q&A Board allows you to directly add new Q&A pairs. To add a new pair of Q&A, simply click on the "+" sign at the top of the table. You can then edit the question and its answer as described above. 
 
@@ -84,7 +84,7 @@ You can simply upload your CSV after all the editing is done. In case you are no
 
 # Monitor Overall Chatbot FAQ Performance
 
-![Reports page shows question answer rate of the chatbot](/assets/uploads/screen-shot-2020-07-13-at-10.16.33-pm.png "Reports page shows question answer rate of the chatbot")
+![Reports page shows question answering rate of the chatbot](/assets/uploads/screen-shot-2020-07-13-at-10.16.33-pm.png "Reports page shows question answering rate of the chatbot")
 
 Besides monitoring unanswered questions, one can also monitor a chatbot's overall FAQ performance on the **Reports** page. One of the metrics is the answering rate. 
 
