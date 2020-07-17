@@ -24,11 +24,23 @@ But how do we know the performance of a Q&A chatbot?  For example, we want to kn
 
 Obviously, answers to the above questions can provide chatbot owners or admins valuable insights to improve a chatbot, e.g., improving a chatbot to address the most frequently asked, unanswered questions. Unfortunately, few chatbot platforms provide such insights, which makes a chatbot owner/admin unaware of a Q&A chatbot's performance, let alone helps improving its Q&A capabilities.  
 
-To help chatbot owners improve a Q&A chatbot easily and quickly, the Juji platform provides built-in Q&A monitoring facility to inform chatbot owners of their chatbot Q&A performance. 
+To help chatbot owners improve a Q&A chatbot easily and quickly, the Juji platform provides built-in Q&A monitoring facility to inform chatbot owners of their chatbot Q&A performance in real time.
+
+# Monitor Overall Chatbot FAQ Performance
+
+![Reports page shows question answering rate of the chatbot](/assets/uploads/screen-shot-2020-07-13-at-10.16.33-pm.png "Reports page shows question answering rate of the chatbot")
+
+Besides monitoring unanswered questions, one can also monitor a chatbot's overall FAQ performance on the **Reports** page. 
+
+As shown above, it lists the number of questions users asked, and the number of questions answered by the chatbot. It also calculates the answering rate. This metric informs a chatbot owner or admin how well a chatbot has performed in answering questions. A low answering rate may be a strong indicator that a chatbot's FAQ abilities need to be updated by checking the Q&A dashboard and addressing the unanswered questions as much as possible.
+
+Using the data, we can also calculate the average number of questions asked per user by the following:
+
+AVG NUM QUESTIONS PER USER = NUM of QUESTIONS/NUM of USERS
 
 # Monitor Q&A Chatbot Performance: Monitoring Unanswered User Questions
 
-Specifically, we have built several Q&A chatbot monitoring tools to answer the questions above. Here I'll focus on how Juji helps chatbot owners obtain answers to questions 2-4 and how such insights can help improve a chatbot's Q&A capability quickly.
+Additionally, we have built several Q&A chatbot monitoring tools to answer questions 2–4 listed above. Here I focus on how Juji helps chatbot owners obtain answers to these questions and how such insights can help improve a chatbot's Q&A capability quickly.
 
 Ideally, your FAQ list should be as complete as possible. However, it is difficult to anticipate all the questions users might ask. Thus, it is useful to know what user questions are ***not*** answered by a chatbot. Juji's Q&A Board does just that. As shown below, the Q&A board provides you with real-time notifications of unanswered user questions as users are interacting with your chatbot. 
 
@@ -81,18 +93,6 @@ Similarly, you can select an existing Q&A pair to edit by clicking on the magnif
 Although the Q&A Board makes it very easy to update your FAQs, updating the FAQs inside the CSV file may be more convenient if there is a large number of unanswered questions or if there are multiple people involved in updating the FAQs. 
 
 You can simply upload your CSV after all the editing is done. In case you are not already familiar with how to update the FAQs in a CSV file, you can check out my [previous blog on this](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/).
-
-# Monitor Overall Chatbot FAQ Performance
-
-![Reports page shows question answering rate of the chatbot](/assets/uploads/screen-shot-2020-07-13-at-10.16.33-pm.png "Reports page shows question answering rate of the chatbot")
-
-Besides monitoring unanswered questions, one can also monitor a chatbot's overall FAQ performance on the **Reports** page. One of the metrics is the answering rate. 
-
-As shown above,  the sample Reports page shows the number of questions are asked by users and how many are answered by the chatbot. This metric informs a chatbot owner or admin how well a chatbot has performed in answering questions. A low answering rate may be a strong indicator that a chatbot's FAQ abilities need to be updated by checking the Q&A dashboard and addressing the unanswered questions as much as possible. 
-
-Moreover, we can calculate the average number of questions asked per user by the following:
-
-AVG NUM QUESTIONS PER USER = NUM of QUESTIONS/NUM of USERS
 
 - - -
 
