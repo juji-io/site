@@ -34,7 +34,7 @@ Ideally, your FAQ list should be as complete as possible. However, it is difficu
 
 ![A real-time dashboard displaying a list of user questions that a chatbot cannot answer.](/assets/uploads/screen-shot-2020-07-11-at-5.52.19-pm.png "Juji Q&A Board is a real-time dashboard that displays a list of unanswered user questions. ")
 
-As shown in the screenshot above, the number shown in red next to the label "Q&A BOARD" indicates the number of unanswered user questions the chatbot has encountered The number gets updated in real-time. So a chatbot owner can easily know how many unanswered questions are there. In the example above, there are 5 unanswered user questions. Moreover, all the unanswered questions are listed inside a Q&A table where a chatbot owner or admin can answer them right away.
+As shown in the screenshot above, the number shown in red next to the label "Q&A BOARD" indicates the number of unanswered user questions the chatbot has encountered. The number gets updated in real-time. So a chatbot owner can easily know how many unanswered questions are there. In the example above, there are 5 unanswered user questions. Moreover, all the unanswered questions are listed inside a Q&A table where a chatbot owner or admin can answer them right away.
 
 Alternatively, you can download all Q&As including the unanswered questions in a CSV file. The CSV file typically lists all the unanswered user questions and their stats at the end of the file. Juji also automatically analyzes all unanswered questions and arranges them in different groups by their semantic similarity. 
 
