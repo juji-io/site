@@ -1,7 +1,8 @@
 ---
 layout: blog/article.njk
 featured: true
-title: How to Improve Q&A Chatbots with Real-Time Monitoring and Notification
+title: How to Improve Q&A Chatbots with Real-Time Monitoring, Notification, and
+  Enhancements
 date: 2020-07-12T03:34:55.758Z
 author: Wenxi Chen
 category: Guides
