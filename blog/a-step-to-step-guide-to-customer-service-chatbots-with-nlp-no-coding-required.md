@@ -11,8 +11,6 @@ tags:
 image: /assets/uploads/andy-kelly-0e_vhmvql9g-unsplash-1-.jpg
 credit: by Andy on https://unsplash.com/@askkell
 ---
-
-
 As indicated by [this Forbes article](https://www.forbes.com/sites/forbestechcouncil/2019/05/07/will-2019-be-the-breakout-year-for-conversational-commerce-in-the-u-s/#158b88e24ac9), 76% of customers contact businesses via messaging to make inquiries and get support. Now with the required social distancing during the pandemic, more and more people choose to interact with brands online.
 
 Our clients shared with us that it is now a norm for them to get hundreds or even thousands of customer inquiries daily. To cope with the increasing volume of customer interactions, businesses started to look for solutions to automate customer interactions. One solution is to use a chatbot to help answer repetitive questions, such as "How to reset my password", "What is your refund policy" and "Where can I download your mobile apps".
