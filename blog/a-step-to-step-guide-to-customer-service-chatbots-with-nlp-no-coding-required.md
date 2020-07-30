@@ -65,9 +65,9 @@ Second, if you have a long list of Q&A pairs already, you can download our CSV t
 
 ![An example CSV file showing three columns. From left to right, column 1 lists IDs, column 2 lists questions, and column 3 lists answers to the corresponding questions.](/assets/uploads/screen-shot-2020-07-30-at-2.12.43-pm.png)
 
-### Design HELP command
+### Design helpful HELP command
 
-Once you enable your chatbot to support free-text Q&A, it is always a good idea to write a helpful HELP command that can guide a user's interaction with the chatbot. 
+Once you enable your chatbot to support free-text Q&A, it is always a good idea to write a helpful HELP command that can guide your users' interaction with the chatbot. 
 
 Similar to a restaurant menu, a HELP command can help achieve two goals:
 
@@ -82,7 +82,9 @@ Here are 3 quick tips on writing a good HELP command for your chatbot:
 
 ![A chatbot conversation showing a user texts "help" twice, each time receives different help information.](/assets/uploads/screen-shot-2020-07-30-at-4.50.36-pm.png)
 
-Most importantly,  you want to make sure the following conversation won't happen to your chatbot:\
+Satisfying the last point above is most important, since it directly affects user experience. You want to make sure the following conversation won't ever happen to your chatbot:
+
+\
 User: help\
 Chatbot: I can help you transfer money.\
 User: transfer money\
@@ -95,6 +97,8 @@ To prevent such user frustrations, you want to (1) carefully word the HELP comma
 If you have a webpage that includes FAQs about your business, you can also contact us and check if we could help you automatically convert these FAQs into the entries in a CSV file.  
 
 For more information, here is [a short Youtube video](https://www.youtube.com/watch?v=U0tR04xQTio) showing the process of preparing your custom Q&As and [a blog post](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) describing the process in detail. 
+
+
 
 with the following four corresponding criteria in mind:The Juji platform is carefully designed and engineered to enable a non-technical professional to set up  a capable customer service chatbot ***rapidly***. 
 
