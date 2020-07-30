@@ -58,7 +58,7 @@ So how about the third case? What happens when your chatbot doesn't understand a
 
 One approach is that a chatbot simply acknowledges that it does not understand the question. If you have used any of the smart voice devices, such as [Amazon Alexa](https://en.wikipedia.org/wiki/Amazon_Alexa) or [Google Home](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), you might have already been used to hearing their apologetic responses when they don't understand your commands.  Similarly, a chatbot could respond with something like  "Sorry, I don't know how to respond to your question." 
 
-### Question recommendation 
+### Question recommendation
 
 While this "I don't understand your question" approach is straightforward, it does not really help a user get his/her question answered. Alternatively, another approach is to  power a chatbot with a question recommendation engine, which will automatically suggest a set of similar questions to a user if a chatbot doesn't understand his/her question or does not have enough confidence to interpret such a question.  
 
@@ -81,8 +81,6 @@ As shown below, the Juji AI chatbot suggests a list of closely related questions
 ![An AI chatbot suggests a list of questions related to a user question](/assets/uploads/screen-shot-2020-06-07-at-12.40.39-pm.png "An AI chatbot suggests a list of questions related to a user question.")
 
 From Kate's point of view, she is given the choices to select a matched question and obtain a potential answer to her question. Through the suggested questions, even if Kate could not find a good match, she still gets an opportunity to learn about the capabilities of the chatbot, which in turn facilitates her future communication with the chatbot.
-
-
 
 ![Juji AI chatbot provides related information after user selected an related question](/assets/uploads/screen-shot-2020-06-07-at-12.41.49-pm.png "Juji AI chatbot provides related information after user selected an related question")
 
@@ -110,6 +108,6 @@ As you can see, just like building any recommendation engine, supporting effecti
 
 - - -
 
-Although no chatbots are perfect, there are always ways to improve a chatbot and make it serve their customers better.  In the worst case scenario, if users still don't find the suggested questions helpful, what should a chatbot do or what should a chatbot designer do? In my next blog, I will talk about how to help chatbot designers track unanswered user questions in real time so their chatbots can be improved in real time! 
+Although no chatbots are perfect, there are always ways to improve a chatbot and make it serve their customers better.  In the worst case scenario, if users still don't find the suggested questions helpful, what should a chatbot do or what should a chatbot designer do? In my [next blog](https://juji.io/blog/q-a-dashboard/), I will talk about how to help chatbot designers track unanswered user questions in real time so their chatbots can be improved in real time! 
 
 In the meantime, I'd like to invite you to [sign up](juji.io/signup) free and follow this [short tutorial](https://juji.io/docs/tutorial/#make-ai-chatbots-for-free-text-qa-and-deploy-to-facebook-messenger) to create your own customer service chatbot that can answer users' free-text questions and gracefully handle the unknown ones by suggesting relevant questions.
