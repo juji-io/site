@@ -1,8 +1,8 @@
 ---
 layout: blog/article.njk
 featured: true
-title: "A Step to Step Guide to Customer Service Chatbots: AI Enabled, No Coding
-  Required"
+title: "A Step to Step Guide: How to Power Customer Service Chatbots with AI (No
+  Coding Required)"
 date: 2020-07-29T20:36:12.933Z
 author: Michelle Zhou
 category: Guides
