@@ -63,7 +63,7 @@ For example, with the above entered Q&A pair, the chatbot is able to answer a us
 
 Second, if you have a long list of Q&A pairs already, you can download our CSV template and put them into a CSV file as shown below. The  format of the CSV file is also explained in [our online documentation](https://juji.io/docs/design/#handle-free-text-qas). 
 
-![An example CSV file showing three columns,](/assets/uploads/screen-shot-2020-07-30-at-2.12.43-pm.png)
+![An example CSV file showing three columns. From left to right, column 1 lists IDs, column 2 lists questions, and column 3 lists answers to the corresponding questions.](/assets/uploads/screen-shot-2020-07-30-at-2.12.43-pm.png)
 
 ### Design HELP command
 
@@ -72,35 +72,33 @@ Once you enable your chatbot to support free-text Q&A, it is always a good idea 
 Similar to a restaurant menu, a HELP command can help achieve two goals:
 
 1. helps users get started especially if a user is new;
-2. teaches users the chatbot's capabilities and sets up the right user expectations.
+2. teaches users your chatbot's capabilities and sets up the right user expectations.
 
-Here are 3 quick tips on writing a good HELP command:
+Here are 3 quick tips on writing a good HELP command for your chatbot:
 
 * Write a response that gives an overview of your chatbot
-* [Paraphrase HELP responses](https://juji.io/docs/chatbot-design-tips/#paraphrase-messages-and-requests) to expose different but specific chatbot functions (see screenshot below)
+* [Paraphrase HELP responses](https://juji.io/docs/chatbot-design-tips/#paraphrase-messages-and-requests) to expose different but specific chatbot functions (see the screenshot below)
 * Make sure your chatbot does what it promises in its HELP command. 
 
-In other words, you want to make sure the following conversation won't happen to your chatbot:\
+![A chatbot conversation showing a user texts "help" twice, each time receives different help information.](/assets/uploads/screen-shot-2020-07-30-at-4.50.36-pm.png)
+
+Most importantly,  you want to make sure the following conversation won't happen to your chatbot:\
 User: help\
 Chatbot: I can help you transfer money.\
 User: transfer money\
 Chatbot: I am sorry I don't understand you.\
 \
-To prevent such user frustrations, you want to (1) carefully word the HELP command to anticipate and minimize possible user input variations; and (2) handle potential user input variations you can anticipate
+To prevent such user frustrations, you want to (1) carefully word the HELP command to anticipate and minimize possible user input variations; and (2) handle potential user input variations that you can anticipate.
 
-### Convert website FAQs to Q&A entries 
+### Convert website FAQs to Q&A entries
 
 If you have a webpage that includes FAQs about your business, you can also contact us and check if we could help you automatically convert these FAQs into the entries in a CSV file.  
 
 For more information, here is [a short Youtube video](https://www.youtube.com/watch?v=U0tR04xQTio) showing the process of preparing your custom Q&As and [a blog post](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) describing the process in detail. 
 
-
-
 with the following four corresponding criteria in mind:The Juji platform is carefully designed and engineered to enable a non-technical professional to set up  a capable customer service chatbot ***rapidly***. 
 
 # How to Evaluate Customer Service Chatbot Platforms
-
-
 
 **Speed.**  Compared other platforms that may require 3-6 months to set up a customer service chatbot with similar or even less capabilities, Juji enables you to set up a capable chatbot in a couple of hours, ***[no coding required](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/)***.
 
