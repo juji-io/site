@@ -61,9 +61,38 @@ For example, with the above entered Q&A pair, the chatbot is able to answer a us
 
 ![The chatbot was able to recognize a similar question but expressed differently](/assets/uploads/screen-shot-2020-07-30-at-1.53.51-pm.png)
 
-Second, if you have a long list of Q&A pairs, you can put them into a CSV file as shown below:
+Second, if you have a long list of Q&A pairs already, you can download our CSV template and put them into a CSV file as shown below. The  format of the CSV file is also explained in [our online documentation](https://juji.io/docs/design/#handle-free-text-qas). 
 
+![An example CSV file showing three columns,](/assets/uploads/screen-shot-2020-07-30-at-2.12.43-pm.png)
 
+### Design HELP command
+
+Once you enable your chatbot to support free-text Q&A, it is always a good idea to write a helpful HELP command that can guide a user's interaction with the chatbot. 
+
+Similar to a restaurant menu, a HELP command can help achieve two goals:
+
+1. helps users get started especially if a user is new;
+2. teaches users the chatbot's capabilities and sets up the right user expectations.
+
+Here are 3 quick tips on writing a good HELP command:
+
+* Write a response that gives an overview of your chatbot
+* [Paraphrase HELP responses](https://juji.io/docs/chatbot-design-tips/#paraphrase-messages-and-requests) to expose different but specific chatbot functions (see screenshot below)
+* Make sure your chatbot does what it promises in its HELP command. 
+
+In other words, you want to make sure the following conversation won't happen to your chatbot:\
+User: help\
+Chatbot: I can help you transfer money.\
+User: transfer money\
+Chatbot: I am sorry I don't understand you.\
+\
+To prevent such user frustrations, you want to (1) carefully word the HELP command to anticipate and minimize possible user input variations; and (2) handle potential user input variations you can anticipate
+
+### Convert website FAQs to Q&A entries 
+
+If you have a webpage that includes FAQs about your business, you can also contact us and check if we could help you automatically convert these FAQs into the entries in a CSV file.  
+
+For more information, here is [a short Youtube video](https://www.youtube.com/watch?v=U0tR04xQTio) showing the process of preparing your custom Q&As and [a blog post](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) describing the process in detail. 
 
 
 
