@@ -54,6 +54,6 @@ As shown above, there are two unanswered questions. One has a chatbot-suggested 
 
 The Juji platform is a one-stop-shop for building smart chatbots. It allows you to easily create a chatbot to answer questions anytime during a chat and still remember where the conversation is! (check out this[ YouTube video](https://youtu.be/U0tR04xQTio) and this [live gallery](https://juji.io/#gallery) of smart Juji chatbots). 
 
-Remember to check your **Q&A BOARD** regularly and update your chatbot with new answers. This way, your chatbot keeps learning and becomes smarter and smarter.
+Remember to [check your **Q&A BOARD** regularly and update your chatbot with new answers](https://juji.io/blog/q-a-dashboard/). This way, your chatbot keeps learning and becomes smarter and smarter.
 
 Have fun building chatbots and may the chatbot force be with you!
