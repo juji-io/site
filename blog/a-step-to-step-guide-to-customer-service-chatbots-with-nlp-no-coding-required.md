@@ -98,7 +98,7 @@ If you have a webpage that includes FAQs about your business, you can also conta
 
 For more information, here is [a short Youtube video](https://www.youtube.com/watch?v=U0tR04xQTio) showing the process of preparing your custom Q&As and [a blog post](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) describing the process in detail. 
 
-
+## Step 2. Handle complex questions with multi-turn conversation
 
 with the following four corresponding criteria in mind:The Juji platform is carefully designed and engineered to enable a non-technical professional to set up  a capable customer service chatbot ***rapidly***. 
 
