@@ -70,4 +70,4 @@ Similarly,  in e-commerce, when a user asks for a product recommendation, a smar
 
 To help chatbot designers and developers build the best AI chatbots, Juji has made the handling of complex user questions super easy. One just needs to define a multi-step Q&A flow,  similar to defining a main chat flow. A Q&A flow also functions like the main chat flow, supporting all the powerful functions, such as [detecting user sentiment](https://youtu.be/HwrGulGsTUk) and [](https://youtu.be/lNv0Ud8V2Co)[personalizing messages](https://youtu.be/lNv0Ud8V2Co) based on user characteristics.  The only difference is that a multi-step Q&A flow can be activated ***anytime*** during a conversation to provide users with ***just-in-time*** help. 
 
-If you want to see more of such powerful Q&A response in action, checkout this [YouTube video](https://youtu.be/6kzST4vO_KU).
+If you want to see more of such powerful Q&A response in action, check out this [YouTube video](https://youtu.be/6kzST4vO_KU). The Q&A Board also provides real-time notifications, see [how you can continue to evolve your powerful chatbot](https://juji.io/blog/q-a-dashboard/).
