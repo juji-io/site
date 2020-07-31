@@ -107,7 +107,7 @@ To prevent such user frustrations, you want to:
 
 ### Convert website FAQs to Q&A entries
 
-If you have a webpage that includes FAQs about your business, you can also contact us and check if we could help you automatically convert these FAQs into the entries in a CSV file.  
+If you already have a webpage that includes FAQs about your business, you can also contact us and check if we could help you automatically convert these FAQs into the entries in a CSV file.  
 
 For more information, here is [a short Youtube video](https://www.youtube.com/watch?v=U0tR04xQTio) showing the process of preparing your custom Q&As and [a blog post](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) describing the process in detail. 
 
