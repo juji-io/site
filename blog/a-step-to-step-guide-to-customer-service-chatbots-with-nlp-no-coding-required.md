@@ -145,7 +145,7 @@ There are always questions that a chatbot does not understand and cannot answer.
 
 ![A screenshot shows the Juji Q&A dashboard with one unanswered user question](/assets/uploads/screen-shot-2020-07-30-at-9.24.48-pm.png)
 
-Whenever Juji detects an unanswered user question during a chat session, it lists the question on the Q&A dashboard. Juji also automatically suggests a potentially matched answer (as highlighted in red above) if an unanswered user question is similar enough to an existing question in the knowledge base (e.g., exceeding a similarity threshold). 
+Whenever Juji detects an unanswered user question during a chat session, it lists the question on the Q&A dashboard. Juji also automatically suggests a potentially matched answer (as highlighted in red in the answer column above) if an unanswered user question is similar enough to an existing question in the knowledge base (e.g., exceeding a similarity threshold). 
 
 To keep a customer service chatbot up-to-date and improve the chatbot over time, we encourage a human agent or chatbot owner to check the Q&A dashboard periodically (e.g., once a day) and perform two actions:
 
