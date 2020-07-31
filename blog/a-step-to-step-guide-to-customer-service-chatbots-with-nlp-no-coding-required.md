@@ -8,8 +8,6 @@ author: Michelle Zhou
 category: Guides
 tags:
   - customer service
-  - free-text Q&A
-  - NLP
 image: /assets/uploads/andy-kelly-0e_vhmvql9g-unsplash-1-.jpg
 credit: by Andy on https://unsplash.com/@askkell
 ---
