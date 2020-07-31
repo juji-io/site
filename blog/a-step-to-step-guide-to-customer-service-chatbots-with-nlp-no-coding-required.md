@@ -149,7 +149,7 @@ Whenever Juji detects an unanswered user question during a chat session, it list
 
 To keep a customer service chatbot up-to-date and improve the chatbot over time, we encourage a human agent or chatbot owner to check the Q&A dashboard periodically (e.g., once a day) and perform two actions:
 
-* check the Q&A dashboard to verify the suggested answer or provide proper answer to each unanswered user question 
+* check the Q&A dashboard to verify the suggested answer or provide proper answer to each unanswered user question; and 
 * submit the Q&A pairs to update the chatbot
 
 Once the the Q&A pairs are submitted, the chatbot is updated immediately and can answer similar questions in any ongoing chats. Here is a blog post detailing [how the Juji Q&A dashboard works](https://juji.io/blog/q-a-dashboard/) and helps human agents improve a chatbot instantly.
