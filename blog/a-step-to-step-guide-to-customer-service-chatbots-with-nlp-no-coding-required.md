@@ -45,7 +45,9 @@ As a customer, you may have experienced such a frustration with an incapable cha
 
 ## **Lack of Abilities to Help Human Agents**
 
-No chatbot is perfect and it cannot answer every customer question. It thus is very important for a chatbot platform to have the abilities to **monitor a chatbot activities in real time**,  **know when a chatbot fails**, and **notify human agents of chatbot failures** **so they can help address the gap**. Ideally, a chatbot platform should also help a human agent better handle the handed-over, unresolved issues, such as suggesting potential answers or knowing the emotional state of the users involved. Many chatbot platforms support chatbot-human handoff, but few can truly aid human agents in resolving the issues efficiently let alone understanding the users involved.  
+No chatbot is perfect and it cannot answer every customer question. It thus is very important for a chatbot platform to have the abilities to **monitor a chatbot activities in real time**,  **know when a chatbot fails**, and **notify human agents of chatbot failures** **so they can help address the gap**. 
+
+Ideally, a chatbot platform should also help a human agent better handle the handed-over, unresolved issues, such as suggesting potential answers or knowing the emotional state of the users involved. Many chatbot platforms support chatbot-human handoff, but few can truly aid human agents in resolving the issues efficiently let alone understanding the users involved.  
 
 ## **Difficult to Setup and Update AI Chatbots**
 
