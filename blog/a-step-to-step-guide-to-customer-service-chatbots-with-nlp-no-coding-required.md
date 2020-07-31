@@ -179,6 +179,8 @@ Another criterion you may want to consider is how easy you can extend a customer
 
 Juji allows you to do so easily without coding by [adding a few conversation topics in the chatbot main flow](https://juji.io/docs/design/#customize-main-chat-flow). The added conversation can further improve the ROI of a customer service chatbot by automating more customer operations (e.g., product survey).
 
+\---------------------------------------------------------------------------
+
 # Further Readings
 
 If you are considering a customer service chatbot for your organization, we hope you find this post helpful in your decision making process. Additionally, we encourage you to follow the three steps listed above to build a customer service chatbot on [Juji](https://juji.io/signup) (choosing the customer service template) and experience it yourself firsthand.
@@ -186,9 +188,6 @@ If you are considering a customer service chatbot for your organization, we hope
 For further readings, here is a list you may be interested in checking out:
 
 * **How to set up a customer service chatbot.** Here is [A short Youtube video](https://www.youtube.com/watch?v=U0tR04xQTio) showing the process of preparing your custom Q&As and [a blog post](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) describing the process in detail. 
-
- * **How to set up multi-turn conversations to handle complex questions**. Here is a [short Youtube video](https://youtu.be/6kzST4vO_KU) on how to create multi-turn chat flows to handle complex questions and [a blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) on detailing the whole process. 
-
- * **How to monitor and update a customer service chatbot in real time**. Here is a blog post detailing [how the Juji Q&A dashboard works](https://juji.io/blog/q-a-dashboard/) and helps human agents improve a chatbot instantly.
-
-  * **How to learn unique characteristics including emotional signatures of a user from a chatbot conversation**. See this [article of ours](https://dl.acm.org/doi/10.1145/3232077). Such information can be used to help human agents best help each customer.
+* **How to set up multi-turn conversations to handle complex questions**. Here is a [short Youtube video](https://youtu.be/6kzST4vO_KU) on how to create multi-turn chat flows to handle complex questions and [a blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) on detailing the whole process. 
+* **How to monitor and update a customer service chatbot in real time**. Here is a blog post detailing [how the Juji Q&A dashboard works](https://juji.io/blog/q-a-dashboard/) and helps human agents improve a chatbot instantly.
+* **How to learn unique characteristics including emotional signatures of a user from a chatbot conversation**. See this [article of ours](https://dl.acm.org/doi/10.1145/3232077). Such information can be used to help human agents best help each customer.
