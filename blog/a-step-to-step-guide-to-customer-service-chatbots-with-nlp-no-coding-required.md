@@ -120,11 +120,7 @@ During such a multi-turn interaction flow, a user may interrupt the flow with ad
 
 ![A chat between a chatbot and a user where a user interrupts a flow with a question.](/assets/uploads/screen-shot-2020-07-30-at-6.08.05-pm.png)
 
- 
-
 ![Continue the above chat to show the chatbot is able to return its previous flow automatically after the interruption](/assets/uploads/screen-shot-2020-07-30-at-6.08.47-pm.png)
-
-
 
 As you can imagine, a user can interrupt an ongoing chat flow and activates a new one anywhere, anytime and one chat flow can be arbitrarily nested in another chat flow. Fortunately, Juji ***automatically*** manages all chat flows so you don't need to track the conversation context or wire different chat flows together manually.
 
@@ -132,7 +128,18 @@ Here is a [short Youtube video](https://youtu.be/6kzST4vO_KU) that shows how to 
 
 ## Step 3. Monitor and improve customer service chatbot periodically
 
+There are always questions that a chatbot does not understand and cannot answer. A good AI chatbot should be able to [handle unknown user questions](https://juji.io/blog/question-recommendation/) as well as notify human agents where a chatbot fails. To better help human agents, Juji provides a Q&A dashboard that lists unanswered user questions as shown below.
 
+![A screenshot shows the Juji Q&A dashboard with one unanswered user question](/assets/uploads/screen-shot-2020-07-30-at-9.24.48-pm.png)
+
+Whenever Juji detects an unanswered user question during a chatbot, it lists the question on the Q&A dashboard. Juji also automatically suggests a potentially matched answer (as highlighted in red above) if an unanswered user question is similar enough to an existing question in the knowledge base (e.g., exceeding a similarity threshold). 
+
+To keep a customer service chatbot up-to-date and improve the chatbot over time, we encourage a human agent or chatbot owner to check the Q&A dashboard periodically (e.g., once a day) and perform two actions:
+
+* check the Q&A dashboard to verify the suggested answer or provide proper answer to each unanswered user question 
+* submit the Q&A pairs to update the chatbot
+
+Once the the Q&A pairs are submitted, the chatbot is updated immediately and can answer similar questions in any ongoing chats. Here is a blog post detailing [how the Juji Q&A dashboard works](https://juji.io/blog/q-a-dashboard/) and helps human agents improve a chatbot instantly.
 
 # How to Evaluate Customer Service Chatbot Platforms
 
