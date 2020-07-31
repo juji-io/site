@@ -107,7 +107,7 @@ To prevent such user frustrations, you want to:
 
 ### Convert website FAQs to Q&A entries
 
-If you already have a webpage that includes FAQs about your business, you can also contact us and check if we could help you automatically convert these FAQs into the entries in a CSV file.  
+If you already have a webpage that includes FAQs about your business, you can also contact us and check if we could help you ***automatically*** convert these FAQs into the entries in a CSV file, saving your time and effort of preparing for the CSV file from scratch. 
 
 For more information, here is [a short Youtube video](https://www.youtube.com/watch?v=U0tR04xQTio) showing the process of preparing your custom Q&As and [a blog post](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) describing the process in detail. 
 
@@ -119,7 +119,7 @@ Sometimes, a chatbot must engage with a user in a multi-turn conversation in ord
 
 ![A chatbot conversation showing a user asks a question about seeing a doctor and the chatbot collects information from the user before telling user about the solution.](/assets/uploads/screen-shot-2020-07-30-at-5.42.47-pm.png)
 
-As shown above, the chatbot needs to collect some information from the user first before answering the question. 
+As shown above, the chatbot needs to collect basic information from the user first before answering the user's question. 
 
 To enable your chatbot to handle complex questions, Juji allows you to define a multi-turn conversation easily. In particular, you can define a mini chat flow that can elicit user information and use such information to decide how to best answer the user's question. 
 
