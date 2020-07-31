@@ -162,23 +162,31 @@ As described above, Juji supports an easy 3-step process for an organization to 
 
 **Customer Service Quality**. This is to measure how well a chatbot can serve your customers. Can the chatbot understand user questions in diverse natural language expressions on a wide range of topics?  Can the chatbot handle complex user questions that require a multi-turn conversation? Can the chatbot handle arbitrary user interruptions occurred during a chat while still ensuring task completion? **Ideally, you want your chatbot to automatically handle at least 40% customer inquiries from the very start and gradually improve to handle over +70% customer service requests over 1-2 months**.  This will present over 60% savings on your customer service cost and infinite amounts of customer happiness. 
 
-**Implementation Speed.**  This is to measure how fast you can set up a quality chatbot with AI capabilities as discussed above to deliver satisfactory customer services. Ideally, 
+**Implementation Speed.**  This is to measure how fast you can set up a quality chatbot with full AI capabilities as discussed above to deliver satisfactory customer services. Ideally, 
 
 * for a small business with thousands of customers, the setup time should be within 1-2 days, not for weeks; and 
 * for a medium business with hundreds of thousands even millions of customers, the setup time should not exceed 1-2 weeks, definitely not months.
 
-The speed to setup also reflects the effort required to upkeep your chatbot and eventually the ROI of your chatbot. If it would take months to set up an initial customer service chatbot, it is most likely that it will take weeks to make any changes in your chatbot. Another associated criterion is to know who needs to be involved in the chatbot setup and upkeeps. If everything requires the involvement of your IT team, it is a signal to a very costly solution with low ROI. If it is difficult to keep your chatbot up to date, which will lead to your customer abandoning the chatbot and your investment wasted.
+The speed to setup often reflects the effort required to upkeep your chatbot and eventually the ROI of your chatbot. If it would take months to set up an initial customer service chatbot, it is most likely that it will take weeks to make any changes in your chatbot. Another associated criterion is to know who needs to be involved in the chatbot setup and upkeeps. If everything requires the involvement of your IT team, it is a signal to a very costly solution with low ROI. If it is difficult to keep a chatbot up to date, customers will then eventually abandon the chatbot and the chatbot investment will go down the drain.
 
-**Service Robustness**. This is to measure how well a chatbot can handle uncertainties -- unknown user inquiries. No chatbot is perfect. You want a customer service chatbot to manage uncertainties effectively. For example, Juji chatbots [will recommend similar questions](https://juji.io/blog/question-recommendation/) when encountering unknown user questions so users can get a chance to find the answers they want. In contrast, many other chatbots may simply respond with "sorry, I don't understand your question."
+**Service Robustness and Handoff**. This is to measure how well a chatbot can handle exceptions -- unknown user inquiries. No chatbot is perfect. You want a customer service chatbot to be resilient even under uncertainties, which directly impacts customer satisfaction. 
 
-**Chatbot Learnability**. This is to measure how fast and easy a chatbot can be improved. Adopting a chatbot is like raising a child, you'll have to update the knowledge of a chatbot periodically to improve its performance. Selecting a platform that can help human agents to update a chatbot easily can greatly improve the ROI of a customer service chatbot. While other platforms may require weeks to improve a chatbot, Juji can [enable a human agent to do so in real time](https://juji.io/blog/q-a-dashboard/).
+For example, what does a chatbot do when it encounters unknown user questions or comments? Does it [recommend similar questions](https://juji.io/blog/question-recommendation/) and give users a chance to find the answers or simply reply with "sorry, I don't understand your question"? 
+
+Another consideration is how easy to support chatbot-human handoff. Human agents should be aware of chatbot failures, ideally all time and in real time so they can help resolve the issues promptly. To deliver exceptional customer experience, human agents should have sufficient information for the handoff, ideally understanding emotional state and unique characteristics of the customers involved beyond the issues to best serve the customers.     
+
+**Chatbot Learnability**. This is to measure how fast and easy a chatbot can be improved. Adopting a chatbot is like raising a child, you'll have to update the knowledge of a chatbot periodically to improve its performance. Selecting a platform that can help human agents to update a chatbot easily and quickly can greatly improve the ROI of a customer service chatbot. 
 
 ## From Customer Service to Customer Advocacy
 
-Another criterion you may want to consider is how easy you can extend a customer service chatbot to a customer advocacy chatbot. In addition to answering customer inquiries, a chatbot could also elicit customer reviews or gather user feedback about products and services in the same chat (see screenshots below). 
+Another criterion you may want to consider is how easy you can extend a customer service chatbot to becoming a customer advocacy chatbot. In addition to answering customer inquiries, a chatbot could also elicit customer reviews or gather user feedback about products and services in the same chat (see screenshots below). 
 
 ![A chat shows that a customer service chatbot elicits information from a user.](/assets/uploads/screen-shot-2020-07-30-at-10.37.15-pm.png)
 
 Juji allows you to do so easily without coding by [adding a few conversation topics in the chatbot main flow](https://juji.io/docs/design/#customize-main-chat-flow). The added conversation can further improve the ROI of a customer service chatbot by automating more customer operations (e.g., product survey).
 
 If you are considering a customer service chatbot for your organization, we hope you find this post helpful in your decision making process. Additionally, we encourage you to follow the three steps listed above to build a customer service chatbot on [Juji](https://juji.io/signup) (choosing the customer service template) and experience it yourself firsthand.
+
+More Reading
+
+While other platforms may require weeks to improve a chatbot, Juji can [enable a human agent to do so in real time](https://juji.io/blog/q-a-dashboard/).
