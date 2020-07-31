@@ -98,9 +98,41 @@ If you have a webpage that includes FAQs about your business, you can also conta
 
 For more information, here is [a short Youtube video](https://www.youtube.com/watch?v=U0tR04xQTio) showing the process of preparing your custom Q&As and [a blog post](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) describing the process in detail. 
 
-## Step 2. Handle complex questions with multi-turn conversation
+## Step 2. Define multi-turn conversation flows to handle  complex questions
 
-with the following four corresponding criteria in mind:The Juji platform is carefully designed and engineered to enable a non-technical professional to set up  a capable customer service chatbot ***rapidly***. 
+Sometimes, a chatbot must engage with a user in a multi-turn conversation in order to answer the user's question. Consider the following example:
+
+![A chatbot conversation showing a user asks a question about seeing a doctor and the chatbot collects information from the user.](/assets/uploads/screen-shot-2020-07-30-at-5.42.26-pm.png)
+
+![A chatbot conversation showing a user asks a question about seeing a doctor and the chatbot collects information from the user before telling user about the solution.](/assets/uploads/screen-shot-2020-07-30-at-5.42.47-pm.png)
+
+As shown above, the chatbot needs to collect some information from the user first before answering the question. 
+
+To enable your chatbot to handle complex questions, Juji allows you to define a multi-turn conversation easily. In particular, you can define a mini chat flow that can elicit user information and use such information to decide how to best answer the user's question. 
+
+The screenshot below shows a chat flow defined to handle the user's request of seeing a doctor. 
+
+![Screenshot shows a question and answer pair where a multi-turn interaction is defined](/assets/uploads/screen-shot-2020-07-30-at-5.56.10-pm.png)
+
+![The screenshot shows the defined multi-turn interaction for the question above.](/assets/uploads/screen-shot-2020-07-30-at-5.56.51-pm.png)
+
+During such a multi-turn interaction flow, a user may interrupt the flow with additional questions. For example, the chat flow below shows that the user asks a question about insurance before finishing up the thread on seeing a doctor.
+
+![A chat between a chatbot and a user where a user interrupts a flow with a question.](/assets/uploads/screen-shot-2020-07-30-at-6.08.05-pm.png)
+
+ 
+
+![Continue the above chat to show the chatbot is able to return its previous flow automatically after the interruption](/assets/uploads/screen-shot-2020-07-30-at-6.08.47-pm.png)
+
+
+
+As you can imagine, a user can interrupt an ongoing chat flow and activates a new one anywhere, anytime and one chat flow can be arbitrarily nested in another chat flow. Fortunately, Juji ***automatically*** manages all chat flows so you don't need to track the conversation context or wire different chat flows together manually.
+
+Here is a [short Youtube video](https://youtu.be/6kzST4vO_KU) that shows how to create multi-turn chat flows to handle complex questions and [a blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) on the whole process in more detail. 
+
+## Step 3. Monitor and improve customer service chatbot periodically
+
+
 
 # How to Evaluate Customer Service Chatbot Platforms
 
