@@ -135,7 +135,7 @@ During such a multi-turn interaction flow, **a user may interrupt the interactio
 
 ![Continue the above chat to show the chatbot is able to return its previous flow automatically after the interruption](/assets/uploads/screen-shot-2020-07-30-at-6.08.47-pm.png)
 
-As you can imagine, a user can interrupt an ongoing chat flow and activates a new one anywhere, anytime. In other words, **a chat flow can arbitrarily nest one or more other chat flows**. Fortunately, **Juji *automatically* manages all chat flows and keep track the conversation context** so you don't need to manually track the conversation context or wire different chat flows together.
+As you can imagine, a user can interrupt an ongoing chat flow and activates a new one anywhere, anytime. In other words, **a chat flow can arbitrarily nest one or more other chat flows**. Fortunately, **Juji *automatically* manages all chat flows and keep track of the conversation context** so you don't need to manually track the conversation context or wire different chat flows together.
 
 Here is a [short Youtube video](https://youtu.be/6kzST4vO_KU) that shows how to create multi-turn chat flows to handle complex questions and [a blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) on the whole process in more detail. 
 
