@@ -158,7 +158,7 @@ Here is a blog post detailing [how the Juji Q&A dashboard works](https://juji.io
 
 # How to Evaluate Customer Service Chatbot Platforms
 
-As described above, Juji supports an easy 3-step process for an organization to build and upkeep a customer service chatbot with powerful AI capabilities and no coding required. Since chatbot platforms are abundant, in case you wish to compare different chatbot platforms before deciding on which one to build your customer service chatbot, we suggest that you evaluate a platform from four aspects:
+As described above, Juji supports an easy 3-step process for an organization to build and upkeep a customer service chatbot with powerful AI capabilities and no coding required. Since chatbot platforms are abundant, in case you wish to compare different chatbot platforms before deciding on which one to use to build your customer service chatbot, we suggest that you evaluate a platform from four aspects:
 
 **Quality**. This is to measure how well a chatbot can serve your customers. Can the chatbot understand user questions in diverse natural language expressions?  Can the chatbot handle complex user questions that require a multi-turn conversation? Can the chatbot handle arbitrary user interruptions occurred anytime during a chat while still keeping the conversation context? If the answer is yes to all the above questions, you have a quality customer service chatbot. 
 
