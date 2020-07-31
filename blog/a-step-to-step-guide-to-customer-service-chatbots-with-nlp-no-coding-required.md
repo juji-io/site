@@ -102,9 +102,8 @@ Chatbot: I am sorry I don't understand you.\
 \
 To prevent such user frustrations, you want to: 
 
-* (a) carefully word the HELP command responses to anticipate and minimize possible user input variations; and 
-
-* (b) handle potential user input variations that you can anticipate.
+* carefully word the HELP command responses to anticipate and minimize possible user input variations; and 
+* handle potential user input variations that you can anticipate.
 
 ### Convert website FAQs to Q&A entries
 
