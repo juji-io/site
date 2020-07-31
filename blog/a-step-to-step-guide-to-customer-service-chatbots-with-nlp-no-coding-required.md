@@ -153,6 +153,10 @@ As described above, Juji supports an easy 3-step process for an organization to 
 
 **Learnability**. This is to measure how fast and easy a chatbot can be improved. Adopting a chatbot is like raising a child, you'll have to update the knowledge of a chatbot periodically to improve its performance. Selecting a platform that can help human agents to update a chatbot easily can greatly improve the ROI of a customer service chatbot. While other platforms may require weeks to improve a chatbot, Juji can [enable a human agent to do so in real time](https://juji.io/blog/q-a-dashboard/).
 
-# Turning Customer Service to Customer Advocacy
+## From Customer Service to Customer Advocacy
 
-Third, because of its powerful capabilities, Juji allows you to easily turn a customer service chatbot into a customer advocacy chatbot that it can elicit customer reviews or gather user feedback about relevant products and services in the same chat (see screenshots below)
+Another criterion you may want to consider is how easy you can extend a customer service chatbot to a customer advocacy chatbot. In addition to answering customer inquiries, a chatbot could also elicit customer reviews or gather user feedback about products and services in the same chat (see screenshots below). 
+
+![A chat shows that a customer service chatbot elicits information from a user.](/assets/uploads/screen-shot-2020-07-30-at-10.37.15-pm.png)
+
+Juji allows you to do so easily without coding by [adding a few conversation topics in the chatbot main flow](https://juji.io/docs/design/#customize-main-chat-flow). The added conversation can further improve the ROI of a customer service chatbot by automating more customer operations (e.g., product survey).
