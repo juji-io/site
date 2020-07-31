@@ -27,7 +27,7 @@ If a chatbot does not have any [Artificial Intelligence (AI) capabilities](https
 
 For example, on an e-learning website, I want to find out which SEO course would be suitable for a beginner like me. It would be hard to insert such an answer in a tree-based menu.  In another example, if I want to know whether I can get a free trial of a particular product, should I traverse the path to "Product" or "Price"? 
 
-It is worth mentioning an often used "NLP" technique supported by some chatbot platforms: keyword spotting, which retrieves potential answers based on certain keywords mentioned in a user's question.  Unfortunately,  **keyword-based processing is often inadequate for a customer service chatbot** because it cannot distinguish the semantic differences between customer questions containing the same keywords. Consider these two questions both containing the keyword "refund": 
+It is worth mentioning an often used "NLP" technique supported by some chatbot platforms is keyword spotting, which retrieves potential answers based on certain keywords mentioned in a user's question.  Unfortunately,  **keyword-based processing is often inadequate for a customer service chatbot** because it cannot distinguish the semantic differences between customer questions containing the same keywords. Consider these two questions both containing the keyword "refund": 
 
 "*Can I get a refund for the course I paid for*"
 
