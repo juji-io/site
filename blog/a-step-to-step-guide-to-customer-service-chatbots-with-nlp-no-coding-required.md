@@ -162,7 +162,11 @@ As described above, Juji supports an easy 3-step process for an organization to 
 
 **Customer Service Quality**. This is to measure how well a chatbot can serve your customers. Can the chatbot understand user questions in diverse natural language expressions on a wide range of topics?  Can the chatbot handle complex user questions that require a multi-turn conversation? Can the chatbot handle arbitrary user interruptions occurred during a chat while still ensuring task completion? **Ideally, you want your chatbot to automatically handle at least 40% customer inquiries from the very start and gradually improve to handle over +70% customer service requests over 1-2 months**.  This will present over 60% savings on your customer service cost and infinite amounts of customer happiness. 
 
-**Implementation Speed.**  This is to measure how fast you can set up a quality chatbot with AI capabilities as discussed above to deliver satisfactory customer services. Some platforms may require 3-6 months, while Juji enables you to build one in a couple of hours, and no coding required.
+**Implementation Speed.**  This is to measure how fast you can set up a quality chatbot with AI capabilities as discussed above to deliver satisfactory customer services. Ideally, 
+
+* for a small business with thousands of customers, the setup time should be within 1-2 days, not for weeks; and 
+
+* for a medium business with hundreds of thousands even millions of customers, the setup time should not exceed 1-2 weeks, definitely not months.
 
 **Service Robustness**. This is to measure how well a chatbot can handle uncertainties -- unknown user inquiries. No chatbot is perfect. You want a customer service chatbot to manage uncertainties effectively. For example, Juji chatbots [will recommend similar questions](https://juji.io/blog/question-recommendation/) when encountering unknown user questions so users can get a chance to find the answers they want. In contrast, many other chatbots may simply respond with "sorry, I don't understand your question."
 
