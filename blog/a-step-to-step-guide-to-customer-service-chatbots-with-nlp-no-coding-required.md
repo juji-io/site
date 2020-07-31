@@ -160,3 +160,5 @@ Another criterion you may want to consider is how easy you can extend a customer
 ![A chat shows that a customer service chatbot elicits information from a user.](/assets/uploads/screen-shot-2020-07-30-at-10.37.15-pm.png)
 
 Juji allows you to do so easily without coding by [adding a few conversation topics in the chatbot main flow](https://juji.io/docs/design/#customize-main-chat-flow). The added conversation can further improve the ROI of a customer service chatbot by automating more customer operations (e.g., product survey).
+
+If you are considering a customer service chatbot for your organization, we hope you find this post helpful in your decision making process. Additionally, we encourage you to follow the three steps listed above to build a customer service chatbot on [Juji](https://juji.io/signup) (choosing the customer service template) and experience it yourself firsthand.
