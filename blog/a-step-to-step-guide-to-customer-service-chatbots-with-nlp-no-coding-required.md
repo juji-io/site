@@ -165,8 +165,9 @@ As described above, Juji supports an easy 3-step process for an organization to 
 **Implementation Speed.**  This is to measure how fast you can set up a quality chatbot with AI capabilities as discussed above to deliver satisfactory customer services. Ideally, 
 
 * for a small business with thousands of customers, the setup time should be within 1-2 days, not for weeks; and 
-
 * for a medium business with hundreds of thousands even millions of customers, the setup time should not exceed 1-2 weeks, definitely not months.
+
+The speed to setup also reflects the effort required to upkeep your chatbot and eventually the ROI of your chatbot. If it would take months to set up an initial customer service chatbot, it is most likely that it will take weeks to make any changes in your chatbot. Another associated criterion is who needs to be involved in the setup and upkeeps. If everything requires the involvement of your IT team, it is a signal to a very costly solution with low ROI.
 
 **Service Robustness**. This is to measure how well a chatbot can handle uncertainties -- unknown user inquiries. No chatbot is perfect. You want a customer service chatbot to manage uncertainties effectively. For example, Juji chatbots [will recommend similar questions](https://juji.io/blog/question-recommendation/) when encountering unknown user questions so users can get a chance to find the answers they want. In contrast, many other chatbots may simply respond with "sorry, I don't understand your question."
 
