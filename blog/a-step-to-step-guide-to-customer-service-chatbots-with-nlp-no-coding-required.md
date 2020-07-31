@@ -65,9 +65,9 @@ To power a chatbot with free-text Q&A capabilities, Juji enables you to easily t
 
 ![Juji's graphical user interface shows a question and answer pair entered in a table. A "Submit" button is highlighted as the Q&A pair is selected for submission.](/assets/uploads/screen-shot-2020-07-30-at-1.52.28-pm.png)
 
-Once the entered Q&A pairs are submitted (using the "Submit" button), a chatbot is enabled for free Q&A. With true NLP capabilities, Juji chatbots can recognize semantically similar user questions in diverse expressions.  
+Once the entered Q&A pairs are submitted (using the "Submit" button), a chatbot is enabled for free Q&A. 
 
-For example, with the above entered Q&A pair, the chatbot is able to answer a user question expressed very differently ("*How long will take my refund to arrive*") as shown below. 
+With true NLP capabilities, **Juji chatbots can recognize semantically similar user questions in diverse expressions**. For example, with the above entered Q&A pair (e.g., "*When will I receive my refund*"), the chatbot is able to answer a user question expressed very differently ("*How long will take my refund to arrive*") as shown below. 
 
 ![The chatbot was able to recognize a similar question but expressed differently](/assets/uploads/screen-shot-2020-07-30-at-1.53.51-pm.png)
 
