@@ -181,7 +181,7 @@ Another criterion you may want to consider is how easy you can extend a customer
 
 Juji allows you to do so easily without coding by [adding a few conversation topics in the chatbot main flow](https://juji.io/docs/design/#customize-main-chat-flow). The added conversation can further improve the ROI of a customer service chatbot by automating more customer operations (e.g., product survey).
 
-\---------------------------------------------------------------------------
+\---
 
 # Further Readings
 
