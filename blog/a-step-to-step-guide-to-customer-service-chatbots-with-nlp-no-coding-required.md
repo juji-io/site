@@ -129,7 +129,7 @@ The screenshot below shows a chat flow defined to handle the user's request of s
 
 ![The screenshot shows the defined multi-turn interaction for the question above.](/assets/uploads/screen-shot-2020-07-30-at-5.56.51-pm.png)
 
-During such a multi-turn interaction flow, a user may interrupt the flow with additional questions. For example, the chat flow below shows that the user asks a question about insurance before finishing up the thread on seeing a doctor.
+During such a multi-turn interaction flow, **a user may interrupt the interaction flow with additional questions**. For example, the chat flow below shows that the user asks a question about insurance before finishing up the thread on seeing a doctor.
 
 ![A chat between a chatbot and a user where a user interrupts a flow with a question.](/assets/uploads/screen-shot-2020-07-30-at-6.08.05-pm.png)
 
