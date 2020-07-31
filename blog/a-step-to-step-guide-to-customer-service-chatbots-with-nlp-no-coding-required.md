@@ -152,14 +152,18 @@ Once the the Q&A pairs are submitted, the **chatbot is updated immediately and c
 
 As described above, Juji supports an easy 3-step process for an organization to build and upkeep a customer service chatbot with powerful AI capabilities and no coding required. Since chatbot platforms are abundant, in case you wish to compare different chatbot platforms before deciding on which one to use to build your customer service chatbot, we suggest that you evaluate a platform from four aspects to maximize your chatbot ROI:
 
-**Customer Service Quality**. This is to measure how well a chatbot can serve your customers. Can the chatbot understand user questions in diverse natural language expressions on a wide range of topics?  Can the chatbot handle complex user questions that require a multi-turn conversation? Can the chatbot handle arbitrary user interruptions occurred during a chat while still ensuring task completion? **Ideally, you want your chatbot to automatically handle at least 40% customer inquiries from the very start and gradually improve to handle over +70% customer service requests over 1-2 months**.  This will present over 60% savings on your customer service cost and infinite amounts of customer happiness. 
+**Customer Service Quality**. This is to measure how well a chatbot can serve your customers. Can the chatbot understand user questions in diverse natural language expressions on a wide range of topics?  Can the chatbot handle complex user questions that require a multi-turn conversation? Can the chatbot handle arbitrary user interruptions occurred during a chat while still ensuring task completion? 
+
+**Ideally, you want your chatbot to automatically handle at least 40% customer inquiries from the very start and gradually improve to handle over +70% customer service requests over 1-2 months**.  This will present over 60% savings on your customer service cost and infinite amounts of customer happiness. 
 
 **Implementation Speed.**  This is to measure how fast you can set up a quality chatbot with full AI capabilities as discussed above to deliver satisfactory customer services. Ideally, 
 
 * for a small business with thousands of customers, the setup time should be within 1-2 days, not for weeks; and 
 * for a medium business with hundreds of thousands even millions of customers, the setup time should not exceed 1-2 weeks, definitely not months.
 
-**The speed to setup often reflects the effort required to upkeep your chatbot and eventually the ROI of your chatbot**. If it would take months to set up an initial customer service chatbot, it is most likely that it will take weeks to make any changes in your chatbot. Another associated criterion is to know who needs to be involved in the chatbot setup and upkeeps. If everything requires the involvement of your IT team, it is a signal to a very costly solution with low ROI. If it is difficult to keep a chatbot up to date, customers will then eventually abandon the chatbot and the chatbot investment will go down the drain.
+**The speed to setup often reflects the effort required to upkeep your chatbot and eventually the ROI of your chatbot**. If it would take months to set up an initial customer service chatbot, it is most likely that it will take weeks to make any changes in your chatbot. Another associated criterion is to know who needs to be involved in the chatbot setup and upkeeps. If everything requires the involvement of your IT team, it is a signal to a very costly solution with low ROI. 
+
+If it is difficult to keep a chatbot up to date, customers will then eventually abandon the chatbot and the chatbot investment will go down the drain.
 
 **Service Robustness and Handoff**. This is to measure how well a chatbot can handle exceptions -- unknown user inquiries. No chatbot is perfect. You want a customer service chatbot to be resilient even under uncertainties, which directly impacts customer satisfaction. 
 
