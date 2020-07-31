@@ -92,7 +92,7 @@ Here are 3 quick tips on writing a good HELP command for your chatbot:
 
 ![A chatbot conversation showing a user texts "help" twice, each time receives different help information.](/assets/uploads/screen-shot-2020-07-30-at-4.50.36-pm.png)
 
-Satisfying the last point above is most important, since it directly affects user experience. You want to make sure the following conversation won't ever happen to your chatbot:
+Satisfying the last point mentioned above is especially important to meet user expectations and deliver satisfactory user experience. In particular, you want to make sure the following conversation won't ever happen to your chatbot:
 
 \
 User: help\
