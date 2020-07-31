@@ -29,11 +29,19 @@ If a chatbot does not have any [Artificial Intelligence (AI) capabilities](https
 
 For example, on an e-learning website, I want to find out which SEO course would be suitable for a beginner like me. It would be hard to insert such an answer in a tree-based menu.  In another example, if I want to know whether I can get a free trial, should I traverse the path to "Product" or "Price"? 
 
-It is worth mentioning an often used "NLP" technique supported by some chatbot platforms: **keyword spotting**, which retrieves potential answers based on certain keywords mentioned in a user's question.  Unfortunately,  **keyword-based processing is often inadequate for a customer service chatbot** because it cannot distinguish the semantic differences between customer questions containing the same keywords, such as "*Can I get a refund for the course I paid for*" vs. "*When will I receive my refund*". Users would not be happy if they ask the latter question but get the answer to the former question, or vice versa. Here is a [short Youtube video](https://youtu.be/gBWab3yOsco) showing the difference between understanding the keywords vs. the semantics of user input.
+It is worth mentioning an often used "NLP" technique supported by some chatbot platforms: **keyword spotting**, which retrieves potential answers based on certain keywords mentioned in a user's question.  Unfortunately,  **keyword-based processing is often inadequate for a customer service chatbot** because it cannot distinguish the semantic differences between customer questions containing the same keywords. Consider these two questions both containing the keyword "refund": 
+
+"*Can I get a refund for the course I paid for*"
+
+"*When will I receive my refund*" 
+
+Users would not be happy if they ask the latter question but get the answer to the former question, or vice versa. 
+
+Here is a [short Youtube video](https://youtu.be/gBWab3yOsco) showing the difference between understanding the keywords vs. the semantics of user input.
 
 ## **Lack of Abilities to Handle Interruptions**
 
-As a customer, you may have experienced such a frustration with an incapable chatbot: you asked for a service and you had followed a path for 5 steps. But you asked a question near the last step. Poof, all you had done so far was lost and you had to start over again. That is because such a chatbot does not know how to handle interruptions. Once it is interrupted, it could not resume its original flow but starts a process from scratch again. As you can imagine, how frustrated a customer could be when encountering such a situation! Again, the same [Forrester study](https://www.ada.support/learning-centre/analyst-report/forrester-personalization-conversational-chatbot) shows that 63% customers abandon a company after just one bad experience. 
+As a customer, you may have experienced such a frustration with an incapable chatbot: you asked for a service and you had followed a path down for 5 steps. But you asked a question near the last step. Poof, all you had done so far was lost and you had to start over again. That is because such a chatbot does not know how to handle interruptions. Once it is interrupted, it could not resume its original flow but starts a process from scratch again. As you can imagine, how frustrated a customer could be when encountering such a situation! Again, the same [Forrester study](https://www.ada.support/learning-centre/analyst-report/forrester-personalization-conversational-chatbot) shows that 63% customers abandon a company after just one bad experience. 
 
 ## **Lack of Abilities to Help Human Agents**
 
