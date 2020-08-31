@@ -845,7 +845,7 @@ footer .logo {
 .canned-demo-section {
     padding-top: 50px;
     background-image: url("/assets/img/ui/power-bg.png");
-    /*background-size: contain;*/
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
