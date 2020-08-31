@@ -85,6 +85,13 @@ a {
     
 }
 
+a.with-link-icon::after {
+
+    content: " »";
+    vertical-align: center;
+   
+}
+
 .pub-content-sec a {
     font-family: GothamRounded-Book;
 }
@@ -100,6 +107,44 @@ img {
     max-height: 100%
 }
 
+img.rounded-with-shadow {
+    
+    border-radius: 50%;
+    box-shadow: 5px 10px 10px grey;
+}
+
+img.with-shadow {
+   box-shadow: 5px 10px 10px grey;
+}
+
+
+.type-writer {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.red-text {
+    color: red;
+}
+
+video.centered {
+    display:block;
+    margin:auto;
+}
+
+video.with-shadow {
+    box-shadow: 5px 10px 10px grey;
+}
+
+.centered-text {
+    text-align:center;
+}
 
 /********************************************
 * a set of buttons that take text label
@@ -541,18 +586,13 @@ footer .logo {
 #submit-btn {
     border: none;
     color: black;
-    background:  #28BD8B;
+    background: #EEEEEE;
+    /*background:  #28BD8B;*/
     /*margin-left: -5px;*/
     height: 30px;
     width: 100%;
     font-family: GothamRounded-Medium;
     
-}
-
-.col-element {
-
-    margin-top: 20px;
-    margin-bottom:20px;
 }
 
 .action-btn {
@@ -589,6 +629,42 @@ footer .logo {
     padding-right: 0;
 }
 
+.content-section .sub-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content-section ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    font-size: 14px;
+    
+}
+
+.content-section ul.bigger-font-with-square {
+
+    list-style-type: square;
+    padding-top: 2rem;
+    font-size: 16px;
+}
+
+.content-section ul.with-square {
+
+    list-style-type: square;
+    padding-top: 2rem;
+}
+
+.content-section ul li.dash-bullet::before {
+    content: "— "
+}		
+
+.content-section ul li {
+    padding-bottom: 1.0rem;
+}
+
+			    
 .main-section {
     margin-top: 65px;
 }
@@ -665,6 +741,27 @@ footer .logo {
 /******************************************
 ** Index page
 ******************************************/
+
+.CTA-btn {
+
+    font-family: GothamRounded-Medium;
+    color: white;
+    /*background: #28BD8B;*/
+    background: #22A076;
+    /*background: #1B7E5D;*/
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+    white-space: normal;
+    width: 250px;
+}
+
+.CTA-btn a {
+    color: white!important;
+}
 
 .announcement-text
 {
@@ -747,10 +844,21 @@ footer .logo {
 
 .canned-demo-section {
     padding-top: 50px;
-    background-image: url("/assets/img/ui/power-bg.jpg");
-    background-size: cover;
+    background-image: url("/assets/img/ui/power-bg.png");
+    /*background-size: contain;*/
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.canned-demo-section h4 {
+
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.canned-demo-section a {
+
+    font-family: GothamRounded-Medium;
 }
 
 .canned-demo-section .text-block
@@ -765,9 +873,168 @@ footer .logo {
 
 }
 
-.use-case-section {
-    padding-top:50px;
+.customer-comments-section {
+    padding-top:100px;
     padding-bottom: 50px;
+    
+}
+
+.customer-comments-section img {
+    margin:auto;
+    width: 75%;
+}
+
+
+.customer-comments-section .carousel-indicators {
+
+    bottom: -50px;
+
+}
+
+
+.customer-comments-section .carousel-indicators li {
+
+    background-color: grey;
+}
+
+
+.juji-feature-section {
+
+    margin-top: 100px;
+    margin-bottom: 30px;
+    min-height: 600px;
+}
+
+.juji-feature-section.sub-section {
+
+    margin-top: 0px;
+}
+
+.content-section .title-area {
+
+    margin-bottom: 100px;
+}
+    
+.content-section .title-area h1 {
+
+    margin:auto;
+    text-align: center;
+}
+
+.content-section .card.with-shadow{
+
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.content-section .card.no-border {
+    border: none;
+}
+
+.content-section .card.transparent {
+    background: transparent;
+}
+
+.content-section .card-body .metric-num {
+    font-size: 36px;
+    text-align:center;
+    font-family: GothamRounded-Medium;
+    color:#28BD8B;
+    line-height: 4rem;
+}
+
+
+.content-section .card .card-title {
+    text-align:center;
+}
+
+.content-section .card .card-img-top.with-shadow {
+    box-shadow: 5px 10px 10px grey;
+}
+
+.content-section .card .card-body.more-space {
+    margin-top:30px;
+}
+
+.content-section .card .btn-primary {
+    font-family: GothamRounded-Book;
+    width: 100%;
+}
+
+.content-section .card ul {
+
+    list-style-type:square;
+    margin: auto;
+    width: 90%;
+}
+    
+
+.muted-heading {
+    padding-top: 2.5rem;
+    padding-bottom: 0;
+    font-size: 30px;
+    font-family: GothamRounded-Light;
+    color: grey;
+   
+    text-align:center;
+}
+    
+.content-section .title-area p {
+
+    margin: auto;
+    text-align: justify;
+    width: 70%;
+    max-width: 600px;
+    font-size: 16px;
+    padding-top: 50px;
+
+}
+
+h2.muted-heading + p {
+    padding-top: 10px!important;
+}
+
+.juji-smart-section {
+    
+    background-image: url(/assets/img/ui/juji-smart-bg-1.png);
+    background-repeat: no-repeat;
+    background-size: 65% 100%
+}
+
+
+.juji-smart-section-2 {
+    padding-top: 50px;
+}
+
+@media (min-width: 992px)
+
+{
+    .juji-smart-section-2 {
+
+	background-image: url(/assets/img/ui/red-lines-yellow-bubble-left-sm.png);
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+	background-size: contain;
+    }
+}
+    
+    
+.juji-fast-section {
+
+    background-image: url(/assets/img/ui/juji-fast-bg-3.png);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center right;
+}
+
+@media (min-width: 992px)
+
+{
+    .juji-fast-section-2 {
+
+    background-image: url(/assets/img/ui/teardrop-blue-right.png);
+    background-repeat: no-repeat;
+    background-position: 0% 30%;
+    }
 }
 
 .use-case-section.odd-section {
@@ -846,6 +1113,43 @@ footer .logo {
     border-top: 2px solid #F2F2F2;
 }
 
+.partner-sec .title {
+    
+    text-align:center;
+    width:60%;
+    margin:auto;
+    max-width: 650px;
+}
+
+.partner-sec .title h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.partner-sec .brand-icon-holder {
+
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: solid 1px #EEEEEE;
+    background: white;
+    text-align: center;
+    width: 125px;
+    height: 75px;
+    box-shadow: 0px 2px 2px #BBBBBB;
+    margin:auto;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.partner-sec .brand-icon-holder.line-icon {
+    line-height: 60px;
+}
+    
+.partner-sec .brand-row {
+
+    margin-top: 40px;
+}
+    
 #collaborator {
     text-align: center;
     /*background-size: cover;
@@ -980,6 +1284,12 @@ footer .logo {
 }
 
 
+.dropdown-menu .dropdown-menu-title {
+
+    font-family:GothamRounded-Medium;
+    text-align:center;
+}
+    
 .dropdown-menu a {
 
     color: black;
@@ -988,7 +1298,7 @@ footer .logo {
 .dropdown-menu a:hover {
 
     /*color:#28BD8B;*/
-    color: #357918;
+    /*color: #357918;*/
     text-decoration: none;
 }
 
@@ -1026,22 +1336,84 @@ footer .logo {
     margin-top: 30px;
 }
 
+
 @media (min-width: 1024px){
 
-    .why-section.intro-section  {
-    /*background-image:url("/assets/img/ui/product-banner-side.png");*/
-	background-image:url("/assets/img/ui/out-of-box-ai.gif");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
+    .intro-section .w-40{
+	width: 40%;
     }
 
+    .intro-section .w-35 {
+	width: 35%;
+    }
+    
+    #juji-studio
+    {
+	
+	background-image:url("/assets/img/ui/juji-studio-banner.png");
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	background-size: 70%;
+	background-position: 100% 50%;
+    }
+
+
+    #juji-ide
+    {
+	
+	background-image:url("/assets/img/ui/juji-ide-banner.jpg");
+	background-position: 95% 50%;
+	background-repeat: no-repeat;
+	background-size: 60%;
+    }
+
+    #juji-api
+    {
+	
+	background-image:url("/assets/img/ui/juji-api-banner.png");
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: 55%;
+    }
+    
     .gallery.intro-section  {
     background-image:url("/assets/img/ui/product-banner-side.png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
     }
+
+    #customer-service-chatbot {
+
+    background-image: url(/assets/img/ui/customer-service-chatbot.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 100% 50%;
+}
+
+#user-research-chatbot {
+
+    background-image: url(/assets/img/ui/survey-chatbot.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 100% 50%;
+}
+
+#healthcare-chatbot {
+
+    background-image: url(/assets/img/ui/healthcare-chatbot.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 100% 50%;
+}
+
+#education-chatbot {
+
+    background-image: url(/assets/img/ui/education-chatbot.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 100% 50%;
+}
 }
 
 .why-section.content-section
@@ -2102,13 +2474,30 @@ About Page
 }
 
 .one-half-line-text {
-    line-height: 1.5rem;
+    line-height: 1.5;
+}
+
+.two-line-text {
+    line-height: 2rem;
 }
 
 .right-align-text
 {
     text-align:right;
 }
+
+.right-align-block
+{
+    float:right;
+    clear:right;
+}
+
+.center-align-block
+{
+
+    vertical-align: center;
+
+}    
 
 .green-text
 
@@ -2154,47 +2543,51 @@ footer  .side-nav .side-nav-list li{
     margin:0;
     padding:0;
     /*margin-bottom:15px;*/
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 
 footer .side-nav .side-nav-list li .side-nav-item{
     /*display:block;*/
     padding: 0.3rem;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     border-radius: 25px;
+    
     /*box-shadow: 1px 3px 5px 0 rgba(0,0,0,.5);*/
-
-    /*background-color:#fb3039;*/
+    
     background-color: #666666;
 }
+
 
 footer .side-nav .side-nav-list li .side-nav-item:hover{
 
     /*border: 2px solid white;*/
+    cursor: pointer;
 }
 
+footer .social-icon {
 
-#step1 {
+}
 
-    background-position: center right;
-    /*background-size: contain;*/
+#build {
+
+    background-position: top right;
     background-image: url(/assets/img/ui/step1-bg.png);
     background-repeat: no-repeat;
 }
 
-#step2 {
+#launch {
 
     background-image: url(/assets/img/ui/step2-bg.png);
     background-repeat: no-repeat;
 }
 
 
-#step3 {
+#grow {
 
     background-size: contain;
-    background-image: url(/assets/img/ui/step3-bg.png);
+    background-image: url(/assets/img/ui/greenwave.png);
     background-repeat: no-repeat;
 }
 
@@ -2258,3 +2651,230 @@ footer .side-nav .side-nav-list li .side-nav-item:hover{
     background-repeat: no-repeat;
  
 }
+
+.responsive-column {
+    margin-bottom: 30px;
+}
+
+.single-text-column {
+    max-width:650px;
+    margin:auto;
+    width:90%;
+}
+
+.example-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.step-section {
+
+    margin-top: 50px;
+}
+
+.first-section {
+
+    margin-top: 100px;
+}
+	
+.super-script-title {
+    font-size: 18px;
+}
+
+.p-16 {
+    font-size: 16px!important;
+}
+
+#why-juji-better {
+
+    background-image: url(/assets/img/ui/studio_green1.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+
+#hc-why-juji-better {
+
+    background-image: url(/assets/img/ui/studio_green1.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+
+}
+    
+#real-time-ai-learning {
+
+    background-image: url(/assets/img/ui/green-drop-4.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+
+}
+
+
+#one-stop-shop-ai {
+
+    background-image: url(/assets/img/ui/green-drop-5.png);
+    background-repeat: no-repeat;
+    background-position: 100% 90%;
+
+
+}
+
+#why-chatbot-scripting {
+
+    background-image: url(/assets/img/ui/blue-triangle-right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+#how-chatbot-scripting-works {
+
+    background-image: url(/assets/img/ui/bluedrop-vertical-lines.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#slide-text {
+    color: #444444;
+   
+}
+
+#juji-studio-ide {
+
+    background-image: url(/assets/img/ui/blue-wave.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#why-chatbot-api {
+
+    background-image: url(/assets/img/ui/red-lines-orange-big.png);
+    background-repeat: no-repeat;
+   
+}
+
+#juji-api-advantage {
+
+ background-image: url(/assets/img/ui/red-lines-orange-sm.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#cs-why-juji-better {
+
+    background-image: url(/assets/img/ui/cs_purple1.png);
+    background-repeat: no-repeat;
+    background-size: top left;
+}
+
+#upgrade-existing-chatbot {
+
+    background-image: url(/assets/img/ui/orange-wave.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#jennifer-case-study {
+    background-image: url(/assets/img/ui/cs_purple4.png);
+    background-repeat: no-repeat;
+}
+    
+#cs-how-it-works {
+
+    background-image: url(/assets/img/ui/cs_purple2.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+
+}
+
+
+#ur-why-juji-better {
+
+    background-image: url(/assets/img/ui/ur_red1.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+
+
+}
+
+
+#ur-how-it-works {
+
+    background-image: url(/assets/img/ui/ur_red2.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#interpret-case-study{
+
+    background-image: url(/assets/img/ui/ur_red4.png);
+    background-repeat: no-repeat;
+}
+
+#hc-how-it-works {
+
+    background-image: url(/assets/img/ui/step1-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#triage-assistant {
+
+    background-image: url(/assets/img/ui/step3-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+}
+
+#superior-care-outcome {
+
+    background-image: url(/assets/img/ui/green-drop-3.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#edu-why-juji-better {
+
+    background-image: url(/assets/img/ui/red-lines-orange-big.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#superior-learning-outcome {
+
+    background-image: url(/assets/img/ui/yellow-orange-drops-3.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#edu-how-it-works {
+
+    background-image: url(/assets/img/ui/orange_05-red-lines.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#edu-use-cases {
+    background-image: url(/assets/img/ui/red-lines-orange-sm.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+
+#customer-service-chatbot-best-practice {
+
+    background-image: url(/assets/img/ui/cs_purple3.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+
+#survey-chatbot-best-practice {
+
+    background-image: url(/assets/img/ui/ur_red3.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+
