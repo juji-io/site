@@ -77,6 +77,11 @@ h4 {
     font-size: 16px;
 }
 
+b {
+    
+    font-family: GothamRounded-Medium;
+}
+
 a {
 
     text-decoration: none;
@@ -128,6 +133,8 @@ img.with-shadow {
     border-color: transparent;
   }
 }
+
+
 
 .red-text {
     color: red;
@@ -646,14 +653,14 @@ footer .logo {
 .content-section ul.bigger-font-with-square {
 
     list-style-type: square;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     font-size: 16px;
 }
 
 .content-section ul.with-square {
 
     list-style-type: square;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .content-section ul li.dash-bullet::before {
@@ -1361,7 +1368,7 @@ h2.muted-heading + p {
     #juji-ide
     {
 	
-	background-image:url("/assets/img/ui/juji-ide-banner.jpg");
+	background-image:url("/assets/img/ui/juji-ide-banner.png");
 	background-position: 95% 50%;
 	background-repeat: no-repeat;
 	background-size: 60%;
@@ -2760,7 +2767,7 @@ footer .social-icon {
     background-position: top right;
 }
 
-#cs-why-juji-better {
+#customer-service-why-juji-better {
 
     background-image: url(/assets/img/ui/cs_purple1.png);
     background-repeat: no-repeat;
@@ -2779,7 +2786,7 @@ footer .social-icon {
     background-repeat: no-repeat;
 }
     
-#cs-how-it-works {
+#customer-service-how-it-works {
 
     background-image: url(/assets/img/ui/cs_purple2.png);
     background-repeat: no-repeat;
@@ -2819,12 +2826,11 @@ footer .social-icon {
     background-position: top right;
 }
 
-#triage-assistant {
+#healthcare-use-cases {
 
     background-image: url(/assets/img/ui/step3-bg.png);
     background-repeat: no-repeat;
-    background-position: top right;
-    background-size: cover;
+    background-position: bottom right;
 }
 
 #superior-care-outcome {
@@ -2834,7 +2840,7 @@ footer .social-icon {
     background-position: bottom left;
 }
 
-#edu-why-juji-better {
+#education-why-juji-better {
 
     background-image: url(/assets/img/ui/red-lines-orange-big.png);
     background-repeat: no-repeat;
@@ -2848,14 +2854,14 @@ footer .social-icon {
     background-position: bottom left;
 }
 
-#edu-how-it-works {
+#education-how-it-works {
 
     background-image: url(/assets/img/ui/orange_05-red-lines.png);
     background-repeat: no-repeat;
     background-position: top right;
 }
 
-#edu-use-cases {
+#education-use-cases {
     background-image: url(/assets/img/ui/red-lines-orange-sm.png);
     background-repeat: no-repeat;
     background-position: top right;
