@@ -2837,7 +2837,7 @@ footer .social-icon {
     background-position: top right;
 }
 
-#healthcare-use-cases {
+#healthcare-chatbot-use-cases {
 
     background-image: url(/assets/img/ui/step3-bg.png);
     background-repeat: no-repeat;
@@ -2897,4 +2897,9 @@ footer .social-icon {
 
 #home-start-chat-btn:hover{
     cursor: pointer;
+}
+
+#index-banner {
+    margin-top:100px;
+    margin-bottom:50px;
 }
