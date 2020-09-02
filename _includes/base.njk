@@ -32,6 +32,28 @@
   </head>
   
   <body>
+
+    <!--Juji Welcome Chatbot-->
+<div id='jujibot-bubble'>
+  Chat with me
+</div>
+<div id='jujibot-icon'
+     background='#8BDFCD'
+        img_url='https://juji.ai/assets/img/content/juji-chat-profile-sm.png'>
+</div>
+<script>
+  (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://juji.ai/assets/js/webplugin.js';
+       fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'juji-webplugin'));
+</script>
+<div id='juji-chatbot'
+        chat_url='https://juji.ai/pre-chat/5f4d4a16-9471-4b84-a26a-94a286a38c63'>
+</div>
+
     <header>
       <div class="fixed-top" data-toggle="affix">
         {% block nav %}
@@ -47,9 +69,11 @@
             <img alt="Juji Logo" class="logo"
                                  src="/assets/img/ui/ui--logo.png">
           </a>
+	  
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
+	      
+              <!--li class="nav-item">
                 <a class=
                    {% if page.url == "/why-juji/" %}
                    "nav-link active-link"
@@ -59,18 +83,47 @@
                    href="/why-juji">
                   Why Juji
                 </a>
-              </li>
+              </li-->
 
-	      <li class="nav-item">
-                <a class=
-                   {% if page.url == "/juji-platform/" %}
-                   "nav-link active-link"
-                   {% else %}
-                   "nav-link"
-                   {% endif %}
-                   href="/juji-platform">
+		<li class="nav-item dropdown">
+		  
+                 <a aria-expanded="false"
+                   aria-haspopup="true"
+                   class="nav-link dropdown-toggle"
+                   data-toggle="dropdown"
+                   href="#"
+                   id= "productDropdown"
+                   role="button">
                   Product
-                </a>
+                 </a>
+		 
+		 <div class="dropdown-menu"
+                      aria-labelledby="productDropdow">
+
+		   <div>
+		      <a href="/no-coding-ai-chatbot-builder"
+			 class="dropdown-item"
+			 target="_blank">
+			  <b>Juji Studio</b><br>
+			  No-Coding AI Chatbot Builder
+                      </a>
+		   </div>
+		   
+		      <div class="dropdown-divider"></div>
+		      <a href="/ai-chatbot-scripting"
+			 class="dropdown-item"
+			 target="_blank">
+			<b>Juji IDE</b><br>Interactive AI Chatbot Scripting
+                      </a>
+
+		      <div class="dropdown-divider"></div>
+                      <a href="/ai-chatbot-api"
+			 class="dropdown-item"
+			 target="_blank">
+			<b>Juji API</b><br>Chatbot API to power AI apps
+                      </a>
+
+		 </div> <!--dropdown menu-->
               </li>
 
 	      <li class="nav-item dropdown">
@@ -83,38 +136,101 @@
                    role="button">
                   Solutions
                 </a>
-		 
+
                 <div class="dropdown-menu"
                      aria-labelledby="solutionsDropdown">
-                  <a href="/juji-solutions/#customer-support"
+		      
+                      <a href="/customer-service-chatbot"
+			 class="dropdown-item"
+			 target="_blank">
+			<b>Customer Service</b>
+			<br>Help Desk Automation
+                      </a>
+
+		      <!--a href="marketing-chatbot"
+			 class="dropdown-item"
+			 target="_blank">
+			Product Marketing
+                      </a-->
+
+		<div class="dropdown-divider"></div>
+                <a href="/user-research-chatbot"
+		   class="dropdown-item"
+		   target="_blank">
+		  <b>User Research</b><br>Conversational Survey
+                </a>
+
+		<div class="dropdown-divider"></div>
+		
+                <a href="/education-chatbot"
+		   class="dropdown-item"
+		   target="_blank">
+		  <b>Education</b><br>Personalize Online Education
+                </a>
+
+		<div class="dropdown-divider"></div>
+                <a href="/healthcare-chatbot"
+		   class="dropdown-item"
+		   target="_blank">
+		  <b>Healthcare</b><br>Personalize Telehealth
+                </a>
+		  
+		</div> <!--drowdown menu pane-->
+	      </li>
+
+	      <li class="nav-item dropdown">
+                <a aria-expanded="false"
+                   aria-haspopup="true"
+                   class="nav-link dropdown-toggle"
+                   data-toggle="dropdown"
+                   href="#"
+                   id= "resourcesDropdown"
+                   role="button">
+                  Resources
+                </a>
+                <div class="dropdown-menu"
+                     aria-labelledby="resourcesDropdown">
+
+		  <!--dropdown items-->
+		  <a href="/blog"
                      class="dropdown-item"
                      target="_blank">
-                    Customer Support Automation
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a href="/juji-solutions/#office-admin"
-                     class="dropdown-item"
-                     target="_blank">
-                    Office Admin Automation
+                    News & Blog
                   </a>
 
 		  <div class="dropdown-divider"></div>
-                  <a href="/juji-solutions/#interviewer"
+		  <a href="https://juji.io/docs/why-ai-chatbots/"
                      class="dropdown-item"
                      target="_blank">
-                    Conversational Survey
+                    Beginner's Guide
                   </a>
-               
-		<div class="dropdown-divider"></div>
-                  <a href="/juji-solutions/#care"
+		  
+                 
+                  <a href="https://juji.io/docs/tutorial/#"
                      class="dropdown-item"
                      target="_blank">
-                    Care Automation
+                    Video Tutorials
                   </a>
-		   </div>
+
+		  <a href="https://juji.io/publications/"
+                     class="dropdown-item"
+                     target="_blank">
+                    Publications & Talks
+                  </a>
+		  
+		  <div class="dropdown-divider"></div>
+                  <a href="https://juji.io/docs/"
+                     class="dropdown-item"
+                     target="_blank">
+                    Documentation
+                  </a>
+                  
+		</div>
 	      </li>
-		 
-              <li class="nav-item">
+
+	      
+		
+              <!--li class="nav-item">
                 <a class=
                    {% if "/blog/" in page.url %}
                    "nav-link active-link"
@@ -124,9 +240,9 @@
                    href="/blog">
                   News & Blog
                 </a>
-              </li>
+              </li-->
 
-              <li class="nav-item">
+              <!--li class="nav-item">
                 <a class=
                    {% if page.url == "/career/" %}
                    "nav-link active-link"
@@ -136,7 +252,7 @@
                    href="/career">
                   Careers
                 </a>
-              </li>
+              </li-->
 
               <li class="nav-item">
                 <a class=
@@ -159,15 +275,17 @@
       </div>
     </header>
 
+
     <!-- Load Facebook SDK for JavaScript -->
-    <!--<div id="fb-root"></div>-->
-    <!--<div class="fb-customerchat"-->
-         <!--attribution=setup_tool-->
-         <!--page_id="802085396544971"-->
-         <!--theme_color="#28BD8B"-->
-         <!--logged_in_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!"-->
-         <!--logged_out_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!">-->
-    <!--</div>-->
+    <!--div id="fb-root"></div-->
+    <!-- Your customer chat code -->
+    <!--div class="fb-customerchat"
+         attribution=setup_tool
+         page_id="802085396544971"
+         theme_color="#28BD8B"
+         logged_in_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!"
+         logged_out_greeting="Hey, I am Juji, your AI Helper. Cannot wait to chat!">
+    </div-->
 
     {% block content %}
     {% endblock %}
@@ -192,9 +310,7 @@
     <footer>
       <div class="container">
 
-	
-
-	<div class="row align-items-top justify-content-between"
+	<div class="row align-items-start justify-content-between"
 	     id="footer-row">
 	  
 	  <!--left panel for email subscription-->
@@ -225,6 +341,7 @@
                 </form>
               </div>
 
+	      <br>
 	      <br>
 	      <div class="footer-vertical-heading">Follow Us</div>
 	      <!-- sticky side nav to show social media following-->
@@ -258,32 +375,33 @@
 		  
 		  <li>
 		    <button type="button" class="side-nav-item">
-		      <a href="https://twitter.com/juji_io?ref_src=twsrc%5Etfw" data-show-count="false">
+		      <a href="https://twitter.com/juji_io?ref_src=twsrc%5Etfw" data-show-count="false" target="_blank">
 			<img class="lazyload social-icon" alt="twitter icon" data-src="/assets/img/ui/twitter-icon.png"> </a>
-					<!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">-->
+		      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
 		      </script>
 		    </button>
 		  </li>
 
 		  <li>
 		    <button type="button" class="side-nav-item">
-		      <a href="/feed.xml">
+		      <a href="https://juji.io/feed.xml">
 			<img class="lazyload social-icon" alt="feed icon" data-src="/assets/img/ui/feed.png" width="20" height="20"/>
 		      </a>
 		</ul>
 		
-	      </div> <!--side panel-->
-
+	      </div> <!--left side panel-->
 	      
             </div> <!--end of footer vertical-->
           </div> <!--end of 1st col-->
 
 	  <!--the right panel for the rest-->
 	  <div class="col-md-6 col-lg-8">
-	    <!-- first row-->
-	    <div class="row align-items-top justify-content-center">
-	      <!--Support-->
-              <div class="col-md-4">
+	    
+	    <!-- first row with three columns-->
+	    <div class="row align-items-start justify-content-center">
+	      
+	      <!--Support column-->
+              <div class="col-md-4" name="support" id="support">
 		<div  class="footer-vertical">
 		  <div class="footer-vertical-heading">Support</div>
 		  <ul class="navigation">
@@ -292,55 +410,33 @@
 			Forum</a>
 		    </li>
 		    <li class="main-navigation__link">
-		      <a href="/docs/faq/" target="_blank">Juji
+		      <a href="https://juji.io/docs/faq/" target="_blank">Juji
 			FAQ</a>
 		    </li>
 		  </ul>
 		  <p>support at(@) juji.io</p>
-		</div>
-              </div>
+		</div> <!--footer-vertical-->
+              </div> <!--col 1-->
 	 
-	    <!--Resources-->
-	      <div class="col-md-4" id="resources-block">
+	    <!--Career-->
+	      <div class="col-md-4" id="career" name="career">
 		<div  class="footer-vertical">
-		  <div class="footer-vertical-heading">Resources</div>
+		  <div class="footer-vertical-heading">Careers</div>
 		  <ul class="navigation">
 		    <li class="main-navigation__link">
-                      <a href="/docs/why-ai-chatbots/"
+                      <a href="/career"
 			 target="_blank">
-			Beginners' Guide to AI Chatbots
+			Learn More
                       </a>
 		    </li>
-		    
-                    <li class="main-navigation__link">
-                      <a href="/docs/tutorial/#"
-			 target="_blank">
-			Video Tutorials
-                      </a>
-		    </li>
-		
-                    <li class="main-navigation__link">
-                      <a href="/docs/"
-			 target="_blank">
-			Documentation
-                      </a>
-		    </li>
-
-		    <li class="main-navigation__link">
-                      <a href="/publications"
-			 target="_blank">
-			Publications & Talks
-                      </a>
-		    </li>
-
 		  </ul>
 		</div> <!--footer vertical-->
-	      </div> <!--col-->
+	      </div> <!--col 2-->
 
 	    </div> <!--end of first row-->
 
-
-	    <div class="row align-items-top justify-content-center">
+	    <!--beginning of second row-->
+	    <div class="row align-items-start justify-content-center">
 	      <!--contact block-->
               <div class="col-md-4" id="contact-block">
 		<div  class="footer-vertical">
@@ -408,21 +504,21 @@
         false, false);
       ga('send', 'pageview');
     </script>
-    <!--<script>-->
-      <!--window.fbAsyncInit = function() {-->
-        <!--FB.init({-->
-          <!--xfbml            : true,-->
-          <!--version          : 'v6.0'-->
-        <!--});-->
-      <!--};-->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v6.0'
+        });
+      };
 
-      <!--(function(d, s, id) {-->
-        <!--var js, fjs = d.getElementsByTagName(s)[0];-->
-        <!--if (d.getElementById(id)) return;-->
-        <!--js = d.createElement(s); js.id = id;-->
-        <!--js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';-->
-        <!--fjs.parentNode.insertBefore(js, fjs);-->
-      <!--}(document, 'script', 'facebook-jssdk'));</script>-->
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
     {% endblock %}
   </body>
