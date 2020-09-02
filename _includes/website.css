@@ -984,16 +984,23 @@ footer .logo {
    
     text-align:center;
 }
-    
+
+
 .content-section .title-area p {
 
     margin: auto;
-    text-align: justify;
     width: 70%;
     max-width: 600px;
     font-size: 16px;
     padding-top: 50px;
 
+}
+
+@media (min-width: 768px) {
+
+    .content-section .title-area p {
+	text-align: justify;
+    }
 }
 
 h2.muted-heading + p {
@@ -2577,6 +2584,10 @@ footer .social-icon {
 
 }
 
+
+@media (min-width: 992px)
+{
+
 #build {
 
     background-position: top right;
@@ -2589,7 +2600,7 @@ footer .social-icon {
     background-image: url(/assets/img/ui/step2-bg.png);
     background-repeat: no-repeat;
 }
-
+}
 
 #grow {
 
