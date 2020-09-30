@@ -15,13 +15,9 @@ You want to make a chatbot for an insurance company website to greet their visit
 
 ![An insurance website chatbot answering a user's question during the task of giving an insurance quote]( "A multi-purpose chatbot for an insurance website")
 
-
-
 You want to make a chatbot for a hospital website to greet their visitors, triage care situations, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer user questions or social chitchat **in the middle of** the task of performing a care triage without derailing the task flow?   
 
 ![A hospital website chatbot answering a user question during care triage]( "A multi-purpose chatbot for a hospital website")
-
-
 
 You want to make a chatbot for a bank website to greet their visitors, manage bank accounts, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer customer questions or social chitchat **in the middle of** the performing account management without derailing the task flow? 
 
@@ -35,8 +31,6 @@ You want to make a chatbot for a university website to introduce campus programs
 
 ![A university website chatbot answering student questions in the middle of introducing campus programs.]( "A multi-purpose chatbot for a university website")
 
-
-
 # Challenges of Supporting Multi-Purpose Chatbots
 
 All the above examples show that a chatbot often needs to serve multiple purposes. Moreover, such a chatbot must handle the interleaving of different tasks, such as answering a user's questions in the middle of performing a task.  The situation gets even more complex, if a user's question involves a multi-turn interaction, which could be interrupted and interleaves with additional questions including more multi-turn questions!
@@ -45,10 +39,10 @@ In general, there are three main challenges in support of multi-purpose chatbots
 
 Most chatbot platforms leave the challenges of handling task-switching or user digressions to chatbot developers, who must painstakingly hard wire all possible flows together. For example, using [Google Dialogflow](https://en.wikipedia.org/wiki/Dialogflow#:~:text=cloud.google.com%2Fdialogflow,response%20systems%2C%20and%20so%20on.), one must define context-specific "reprompts" themselves because default ones are often insufficient. For  example, the "reprompts" should be different for each user input when answering a chatbot's question "What 
 
-"I don't want to answer your question" 
+* "I don't want to answer your question" 
 
-"I don't know how to answer this" 
+* "I don't know how to answer this" 
 
-"Why do you want to know my input?"
+* "Why do you want to know my input?"
 
-"What do you think of it?"
+* "What do you think of it?"
