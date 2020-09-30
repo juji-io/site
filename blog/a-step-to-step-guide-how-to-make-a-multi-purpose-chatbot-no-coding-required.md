@@ -39,7 +39,9 @@ You want to make a chatbot for a university website to introduce campus programs
 
 # Challenges of Supporting Multi-Purpose Chatbots
 
-All the above examples show that a chatbot often needs to serve multiple purposes. Moreover, such a chatbot must handle the interleaving of different tasks, such as answering a user's questions in the middle of performing a task.  The situation gets even more complex, if a user's question requires a multi-turn interaction, which could be interrupted and interleaves with additional questions (could be other multi-turn questions too!). 
+All the above examples show that a chatbot often needs to serve multiple purposes. Moreover, such a chatbot must handle the interleaving of different tasks, such as answering a user's questions in the middle of performing a task.  The situation gets even more complex, if a user's question involves a multi-turn interaction, which could be interrupted and interleaves with additional questions including more multi-turn questions!
+
+In general, there are three main challenges in support of multi-purpose chatbots.  
 
 Most chatbot platforms leave the challenges of handling task-switching or user digressions to chatbot developers, who must painstakingly hard wire all possible flows together. For example, using [Google Dialogflow](https://en.wikipedia.org/wiki/Dialogflow#:~:text=cloud.google.com%2Fdialogflow,response%20systems%2C%20and%20so%20on.), one must define context-specific "reprompts" themselves because default ones are often insufficient. For  example, the "reprompts" should be different for each user input when answering a chatbot's question "What 
 
