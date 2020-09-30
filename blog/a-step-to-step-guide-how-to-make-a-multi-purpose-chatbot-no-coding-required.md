@@ -34,3 +34,19 @@ You want to make a chatbot for a job recruitment website to take job application
 You want to make a chatbot for a university website to introduce campus programs, and answer student questions, and survey students.  Your challenge is how to make a chatbot so it can answer student questions or social chitchat **in the middle of** introducing campus programs without derailing the task flow? 
 
 ![A university website chatbot answering student questions in the middle of introducing campus programs.]( "A multi-purpose chatbot for a university website")
+
+
+
+# Challenges of Supporting Multi-Purpose Chatbots
+
+All the above examples show that a chatbot often needs to serve multiple purposes. Moreover, such a chatbot must handle the interleaving of different tasks, such as answering a user's questions in the middle of performing a task.  The situation gets even more complex, if a user's question requires a multi-turn interaction, which could be interrupted and interleaves with additional questions (could be other multi-turn questions too!). 
+
+Most chatbot platforms leave the challenges of handling task-switching or user digressions to chatbot developers, who must painstakingly hard wire all possible flows together. For example, using [Google Dialogflow](https://en.wikipedia.org/wiki/Dialogflow#:~:text=cloud.google.com%2Fdialogflow,response%20systems%2C%20and%20so%20on.), one must define context-specific "reprompts" themselves because default ones are often insufficient. For  example, the "reprompts" should be different for each user input when answering a chatbot's question "What 
+
+"I don't want to answer your question" 
+
+"I don't know how to answer this" 
+
+"Why do you want to know my input?"
+
+"What do you think of it?"
