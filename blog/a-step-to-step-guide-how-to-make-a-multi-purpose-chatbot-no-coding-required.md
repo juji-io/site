@@ -19,13 +19,13 @@ You want to make a chatbot for an insurance company website to greet their visit
 
 You want to make a chatbot for a hospital website to greet their visitors, triage care situations, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer user questions or social chitchat **in the middle of** the task of performing a care triage without derailing the task flow?   
 
-![A hospital website chatbot answering a user question while performing care triage]( "A multi-purpose chatbot for a hospital website")
+![A hospital website chatbot answering a user question during care triage]( "A multi-purpose chatbot for a hospital website")
 
 
 
 You want to make a chatbot for a bank website to greet their visitors, manage bank accounts, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer customer questions or social chitchat **in the middle of** the performing account management without derailing the task flow? 
 
-![A bank website chatbot answering a user question while helping the user manage a bank account]( "A multi-purpose chatbot for a bank website")
+![A bank website chatbot answering a user question during account management]( "A multi-purpose chatbot for a bank website")
 
 You want to make a chatbot for a job recruitment website to take job applications, as well as answer applicant questions. Your challenge is how to make a chatbot so it can answer applicant questions or social chitchat **in the middle of** taking an application without derailing the application flow? 
 
