@@ -11,7 +11,7 @@ tags:
 image: /assets/uploads/owen-beard-k21dn4ovxnw-unsplash.jpg
 credit: https://unsplash.com/@owenbeard
 ---
-You want to make a chatbot for an insurance company website to greet their visitors, provide insurance quotes, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer user questions or social chitchat **in the middle of** the task of giving an insurance quote without derailing the task flow?   
+UnYou want to make a chatbot for an insurance company website to greet their visitors, provide insurance quotes, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer user questions or social chitchat **in the middle of** the task of giving an insurance quote without derailing the task flow?   
 
 ![An insurance website chatbot answering a user's question during the task of giving an insurance quote]( "A multi-purpose chatbot for an insurance website")
 
@@ -57,7 +57,7 @@ To relieve chatbot designers or developers from tracking and maintaining a conve
 
 ## A Practical Example
 
-Here we use a practical example to illustrate the solution. Our example is to make a simple but practical chatbot for an insurance company website. As shown below, this chatbot will accomplish two main goals: (1) helps site visitors obtain an insurance quote; and (2) answers visitor questions during a conversation but without derailing the main task flow if user questions happen to occur in the middle of the task flow . 
+Here we use a practical example to illustrate the solution. Our example is to make a simple but practical chatbot for an insurance company website. As shown below, this chatbot will accomplish two main goals: (1) helps site visitors obtain a car insurance quote; and (2) answers visitor questions during a conversation but without derailing the main task flow if user questions happen to occur in the middle of the task flow . 
 
 ![A chatbot design includes a 3-step task flow, 10 FAQs, 1 multi-turn FAQ.]( "The design of a multi-purpose chatbot for an insurance company website")
 
@@ -65,8 +65,8 @@ Before you read the solution below, I encourage you to first try to use a chatbo
 
 ##  Step 1: Define a Main Chat Flow
 
-While it may take you days if not weeks to make such a chatbot using a usual chatbot platform, every cloud has a silver lining. It will take just three key steps to build such a chatbot on Juji. No coding is required.
+While it may take you days if not weeks to make such a chatbot using a normal chatbot platform, every cloud has a silver lining. It will take just three key steps to build such a chatbot on Juji with no coding.
 
-The first step is to define a chatbot's main task flow. This includes the tasks \*\*your chatbot wants to accomplish\*\*. In our example, the task is to help a visitor obtain an insurance quote. Defining this flow is to create three conversation topics ("cards"), each of which asks a piece of information from a visitor. 
+The first step is to define a chatbot's main task flow. This includes all the tasks **your chatbot will initiate**. In our example, there is only one task that the chatbot will initiate: helping a visitor obtain a car insurance quote. Defining such a task flow in Juji is straightforward, similar to using any of the online survey software like SurveyMonkey. As displayed below, enter each of the three questions to elicit a visitor's information before providing a quote. 
 
-Unlike other chatbot platforms, Juji provides pre-built conversations behind each "topic" and automatically collects and stores the information a chatbot needs to collect. For example, the chatbot needs to collect
+, Juji provides pre-built conversations behind each "topic" and automatically collects and stores the information a chatbot needs to collect. For example, the chatbot needs to collect
