@@ -53,8 +53,16 @@ Again, most chatbot platforms leave the challenges of maintaining and resuming a
 
 # 3-Step Solution to Making Multi-Purpose Chatbots
 
-To relieve chatbot designers or developers from tracking and maintaining a conversation context, 
+To relieve chatbot designers or developers from tracking and maintaining a conversation context, Juji offers a solution that enables chatbot designers/developers to make a multi-purpose chatbots in three steps with no coding. 
 
-If you don't believe me how difficult it is to create a multi-purpose chatbot, try the following challenge. As shown below, design a chatbot for an insurance company website to accomplish the following: its main task is to help visitor obtain an insurance quote in a 3-step process. It also needs to answer 10 frequently asked questions. See how long it will take you to use any chatbot platform you are most familiar with to make this chatbot so that it can help users get an insurance quote AND answer user questions (among the 10 FAQs) anytime during the quoting process. Then extend the chatbot to support a multi-turn Q&A on checking insurance cancellation policy, which would require certain pieces of user information. Now see if you can ask this multi-turn Q&A during the quoting process and can this multi-turn be interrupted by other questions?
+## A Practical Example
+
+We use a practical example to illustrate the solution. Our example is to make a chatbot for an insurance company website. As shown in the figure below, this chatbot will accomplish two main goals: (1) help site visitors obtain an insurance quote; and (2) answers visitor questions any time during a conversation but without derailing any task flow. 
 
 ![A chatbot design includes a 3-step task flow, 10 FAQs, 1 multi-turn FAQ.]( "The design of a multi-purpose chatbot for an insurance company website")
+
+Before you read the solution below, I strongly encourage you to first use any chatbot platform you are familiar with to implement this chatbot and see how long it will take you to make a chatbot and accomplish both goals.
+
+##  Step 1: Define a Main Chat Flow
+
+While it may take days if not weeks to make such a chatbot,  building such a chatbot on Juji is straightforward. The first step is to define the chatbot's main task flow--helping a visitor obtain an insurance quote.
