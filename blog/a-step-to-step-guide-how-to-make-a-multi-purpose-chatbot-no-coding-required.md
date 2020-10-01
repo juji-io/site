@@ -57,12 +57,16 @@ To relieve chatbot designers or developers from tracking and maintaining a conve
 
 ## A Practical Example
 
-We use a practical example to illustrate the solution. Our example is to make a chatbot for an insurance company website. As shown in the figure below, this chatbot will accomplish two main goals: (1) help site visitors obtain an insurance quote; and (2) answers visitor questions any time during a conversation but without derailing any task flow. 
+Here we use a practical example to illustrate the solution. Our example is to make a simple but practical chatbot for an insurance company website. As shown below, this chatbot will accomplish two main goals: (1) helps site visitors obtain an insurance quote; and (2) answers visitor questions during a conversation but without derailing the main task flow if user questions happen to occur in the middle of the task flow . 
 
 ![A chatbot design includes a 3-step task flow, 10 FAQs, 1 multi-turn FAQ.]( "The design of a multi-purpose chatbot for an insurance company website")
 
-Before you read the solution below, I strongly encourage you to first use any chatbot platform you are familiar with to implement this chatbot and see how long it will take you to make a chatbot and accomplish both goals.
+Before you read the solution below, I encourage you to first try to use a chatbot platform that you are most familiar with to implement this chatbot and see how long it will take you to accomplish both goals described above.
 
 ##  Step 1: Define a Main Chat Flow
 
-While it may take days if not weeks to make such a chatbot,  building such a chatbot on Juji is straightforward. The first step is to define the chatbot's main task flow--helping a visitor obtain an insurance quote.
+While it may take you days if not weeks to make such a chatbot using a usual chatbot platform, every cloud has a silver lining. It will take just three key steps to build such a chatbot on Juji. No coding is required.
+
+The first step is to define a chatbot's main task flow. This includes the tasks \*\*your chatbot wants to accomplish\*\*. In our example, the task is to help a visitor obtain an insurance quote. Defining this flow is to create three conversation topics ("cards"), each of which asks a piece of information from a visitor. 
+
+Unlike other chatbot platforms, Juji provides pre-built conversations behind each "topic" and automatically collects and stores the information a chatbot needs to collect. For example, the chatbot needs to collect
