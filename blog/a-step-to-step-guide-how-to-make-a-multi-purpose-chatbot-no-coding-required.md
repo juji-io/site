@@ -41,23 +41,19 @@ In general, there are three main challenges in support of multi-purpose chatbots
 
 The first challenge is to keep track of a conversation context (task flows) and maintain such a context. As shown in the first example above,  before finishing gathering a user's information to make an insurance quote, the chatbot was interrupted by a user's question. In this case, a capable chatbot should answer the user's question and then resume the original chat flow to finish the quoting task. If the chatbot cannot track and maintain the context, the user would not be able to obtain the quote or must restart the whole process again. You can imagine the kind of frustrations the user might endure.  
 
-In practice, a multi-turn task flow can be interrupted \*\*arbitrarily\*\* at any step any time, in any depth \*\*recursively\*\* (e.g., by another multi-turn tasks, which could be interrupted again). Keeping track of such a dynamic context is non-trivial. Most chatbot platforms leave chatbot designers or developers to manually tracking  a conversation context, which is impractical or even infeasible given the complexity of the potential interruptions. 
+In practice, a multi-turn task flow can be interrupted \*\*arbitrarily\*\* at any step any time, in any depth \*\*recursively\*\* (e.g., by another multi-turn tasks, which could be interrupted again). Keeping track of such a dynamic context means remembering every conversation state, including task status and task progress, which is non-trivial. Most chatbot platforms leave chatbot designers or developers to manually tracking  a conversation context, which is impractical or even infeasible given the complexity of the potential interruptions. 
 
 ## Maintaining Conversation Context 
 
-In addition to tracking a conversation context and its interruptions, a capable chatbot must maintain the context properly so it resume it after each interruption. While resuming a context, a chatbot should also inform users where they are so the users are aware and can continue with the resumed flow. 
+In addition to tracking a conversation context and its interruptions, a capable chatbot must maintain the context properly so it can resume it after each interruption. To resume a context, a chatbot must inform users where they are so the users are aware and can continue with the resumed flow. 
 
-This is similar to defining different "reprompts" in [Google Dialogflow](https://en.wikipedia.org/wiki/Dialogflow#:~:text=cloud.google.com%2Fdialogflow,response%20systems%2C%20and%20so%20on.). The challenge is that it requires many context-specific "reprompts" because a default one is often insufficient. For  example, when answering a chatbot's question "*What is your main reason for visiting us*", the "reprompts" should be different for handling each type of user input: 
+Using the chat examples shown above, a chatbot must repeat what it was saying (e.g., re-asking its question) before it was interrupted. This is similar to defining "reprompts" using [Google Dialogflow](https://en.wikipedia.org/wiki/Dialogflow). The challenge however is that a chatbot designer must  remember to define "reprompts" for every possible interruption point in a conversation because interruptions can occur any time. 
 
-* "I don't know how to answer this" 
-* "Why do you want to know my input?"
-* "What would you recommend?"
+Again, most chatbot platforms leave the challenges of maintaining and resuming a conversation context to chatbot designers or developers, who must painstakingly recognize all potential interruptions and add "reprompts" to resume a conversation. This process is also impractical and infeasible as the number of tasks or intents grows.
 
-Similarly, even if a user asks a similar question or makes a similar comment at a different step of a task flow (e.g., at step 2 vs. step 3 in the figure below), the chatbot "reprompts" would be different when it resumes the flow after answering the user's question.
+# 3-Step Solution to Making Multi-Purpose Chatbots
 
-Again, most chatbot platforms leave the challenges of maintaining and resuming a conversation context to chatbot designers or developers, who must painstakingly recognize and add all potential "reprompts". This process is also impractical and infeasible as the number of tasks or intents grows.
-
-# Meeting a Practical Chatbot Challenge
+Instead of placing the burdens described above 
 
 If you don't believe me how difficult it is to create a multi-purpose chatbot, try the following challenge. As shown below, design a chatbot for an insurance company website to accomplish the following: its main task is to help visitor obtain an insurance quote in a 3-step process. It also needs to answer 10 frequently asked questions. See how long it will take you to use any chatbot platform you are most familiar with to make this chatbot so that it can help users get an insurance quote AND answer user questions (among the 10 FAQs) anytime during the quoting process. Then extend the chatbot to support a multi-turn Q&A on checking insurance cancellation policy, which would require certain pieces of user information. Now see if you can ask this multi-turn Q&A during the quoting process and can this multi-turn be interrupted by other questions?
 
