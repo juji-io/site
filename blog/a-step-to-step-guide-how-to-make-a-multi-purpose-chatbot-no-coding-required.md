@@ -47,11 +47,10 @@ Most chatbot platforms leave chatbot designers or developers to manually trackin
 
 ## Notifying Users about Context Switch
 
-In addition to tracking and maintaining a conversation context, a capable chatbot should also notify users about the context switch so the users know which context they are in. This is similar to defining "reprompts" in  [Google Dialogflow](https://en.wikipedia.org/wiki/Dialogflow#:~:text=cloud.google.com%2Fdialogflow,response%20systems%2C%20and%20so%20on.). The challenge is context-specific "reprompts" themselves because default ones are often insufficient. For  example, the "reprompts" should be different for each user input when answering a chatbot's question "What 
+In addition to tracking and maintaining a conversation context, a capable chatbot should also notify users about the context switch so the users know which context they are in. This is similar to defining "reprompts" in  [Google Dialogflow](https://en.wikipedia.org/wiki/Dialogflow#:~:text=cloud.google.com%2Fdialogflow,response%20systems%2C%20and%20so%20on.). The challenge is that one must define context-specific "reprompts" because default ones are often insufficient. For  example, the "reprompts" should be different for each type of user input when answering a chatbot's question "*What is your main reason for visiting us*"
 
-* "I don't want to answer your question" 
 * "I don't know how to answer this" 
 * "Why do you want to know my input?"
-* "What do you think of it?"
+* "What would you recommend?"
 
 Most chatbot platforms leave the challenges of handling task-switching or user digressions to chatbot developers, who must painstakingly hard wire all possible flows together.
