@@ -53,4 +53,12 @@ This is similar to defining different "reprompts" in [Google Dialogflow](https:/
 * "Why do you want to know my input?"
 * "What would you recommend?"
 
+Similarly, even if a user asks a similar question or makes a similar comment at a different step of a task flow (e.g., at step 2 vs. step 3 in the figure below), the chatbot "reprompts" would be different when it resumes the flow after answering the user's question.
+
 Again, most chatbot platforms leave the challenges of maintaining and resuming a conversation context to chatbot designers or developers, who must painstakingly recognize and add all potential "reprompts". This process is also impractical and infeasible as the number of tasks or intents grows.
+
+# Meeting a Practical Chatbot Challenge
+
+If you don't believe me how difficult it is to create a multi-purpose chatbot, try the following challenge. As shown below, design a chatbot for an insurance company website to accomplish the following: its main task is to help visitor obtain an insurance quote in a 3-step process. It also needs to answer 10 frequently asked questions. See how long it will take you to use any chatbot platform you are most familiar with to make this chatbot so that it can help users get an insurance quote AND answer user questions (among the 10 FAQs) anytime during the quoting process. Then extend the chatbot to support a multi-turn Q&A on checking insurance cancellation policy, which would require certain pieces of user information. Now see if you can ask this multi-turn Q&A during the quoting process and can this multi-turn be interrupted by other questions?
+
+![A chatbot design includes a 3-step task flow, 10 FAQs, 1 multi-turn FAQ.]( "The design of a multi-purpose chatbot for an insurance company website")
