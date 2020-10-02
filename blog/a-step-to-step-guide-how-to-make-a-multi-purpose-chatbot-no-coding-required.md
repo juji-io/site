@@ -82,9 +82,11 @@ After defining the main chat flow that includes the tasks that a chatbot will in
 
 ![A graphical user interface showing a multi-turn chatbot Q&A](/assets/uploads/screen-shot-2020-10-01-at-9.51.14-pm.png "An example design of chatbot Q&A (multi-turn)")
 
-Juji also supports the sharing of tasks between the main chat flow and multi-turn Q&A flow. For example, one can define a Q&A pair with a question like "*Could you give me a car insurance quote*". The answer of this question can be defined as a multi-turn interaction that reuses what's defined in the main flow. 
+Juji also supports the sharing of tasks between the main chat flow and multi-turn Q&A flow. For example, one can define a Q&A pair with a question like "*Could you give me a car insurance quote*". The answer of this question can be defined as a multi-turn interaction that reuses what's defined in the main flow (see below). 
 
-The difference between the main flow of providing an insurance quote and this multi-turn Q&A is that the multi-turn Q&A can be invoked by users ***any time*** during a conversation even after the main flow is completed. This is very useful. For example, initially when the chatbot starts the main flow, a user may not be ready to get a quote yet. However, the user might want to ask for a quote later during the conversation. This enables the user to do so whenever s/he is ready. 
+![Reuse of tasks defined in the main chat flow for a multi-turn Q&A](/assets/uploads/screen-shot-2020-10-01-at-11.04.51-pm.png "Defining a multi-turn Q&A by reusing tasks from the main chatbot flow")
+
+The difference between the main flow of providing an insurance quote and this multi-turn Q&A is that the multi-turn Q&A can be invoked by users ***any time*** during a conversation even after the main flow is completed. This is very useful. For example, initially when the chatbot starts the main flow, a user may not want to get a quote yet. However, the user might want to ask for a quote later during the conversation. This enables the user to do so whenever s/he is ready. 
 
 ## Step 3: Automatically Generate AI Chatbot
 
