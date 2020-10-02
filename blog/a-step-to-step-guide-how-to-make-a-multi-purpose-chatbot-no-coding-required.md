@@ -56,7 +56,7 @@ Again, most chatbot platforms leave the challenges of maintaining and resuming a
 
 To relieve chatbot designers or developers from manually tracking and maintaining a conversation context, Juji offers a solution that enables chatbot designers/developers to make a multi-purpose chatbots in three steps with no coding. 
 
-## A Practical Example
+## A Practical Chatbot Example
 
 Here we use a practical example to illustrate the solution. Our example is to make a simple but practical chatbot for an insurance company website. As shown below, this chatbot will accomplish two main goals: (1) helps site visitors obtain a car insurance quote; and (2) answers visitor questions during a conversation but without derailing the main task flow if user questions happen to occur in the middle of the task flow . 
 
