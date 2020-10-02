@@ -36,9 +36,7 @@ You want to make a chatbot for a job recruitment website. This chatbot will gree
 
 # Challenges of Supporting Multi-Purpose Chatbots
 
-All the above examples show that a chatbot often needs to serve multiple purposes. Moreover, such a chatbot must handle the interleaving of different tasks, such as answering a user's questions in the middle of performing a task.  To make the situation more complex, consider that a user's question involves a multi-turn interaction, which could be interrupted and interleaves with additional questions including more multi-turn questions!
-
-In general, there are three main challenges in support of multi-purpose chatbots.  
+All the above examples show that the best chatbots are the ones that can serve multiple purposes and handle the interleaving of different tasks, such as answering a user's questions in the middle of performing another task. However, building such a chatbot is non-trivial due to two main challenges described below. 
 
 ## Tracking Conversation Context
 
