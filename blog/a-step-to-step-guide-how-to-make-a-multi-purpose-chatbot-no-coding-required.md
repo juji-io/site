@@ -30,7 +30,7 @@ You want to make a chatbot for a bank website. This chatbot will greet their vis
 
 You want to make a chatbot for a job recruitment website to take job applications, as well as answer applicant questions. Your challenge is how to make a chatbot that can answer applicant questions **in the middle of** application process without derailing the application flow? 
 
-![An HR chatbot answering applicant questions during the process of taking the applicant application]( "A multi-purpose chatbot for HR recruitment")
+![An HR chatbot answering applicant questions during the process of taking the applicant application](/assets/uploads/screen-shot-2020-10-01-at-10.30.21-pm.png "A multi-purpose chatbot for HR recruitment")
 
 
 
