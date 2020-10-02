@@ -78,6 +78,10 @@ Unlike a plain question in a survey form, in a Juji chatbot, a [pre-built mini c
 
 After defining the main chat flow that includes the tasks that a chatbot will initiate, the second step is to define tasks that **users will initiate** during a conversation. This includes user questions and comments. On Juji, defining such a Q&A list is also quite straightforward. [This blog](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/) details the step-to-step process of defining the Q&A list, including defining multi-turn Q&As. As shown below, for example, defining the multi-turn Q&A of helping a user to cancel an existing insurance policy, is similar to defining the main flow. 
 
+
+
+![A graphical user interface showing a multi-turn chatbot Q&A](/assets/uploads/screen-shot-2020-10-01-at-9.51.14-pm.png "Defining a multi-turn Q&A chatbot")
+
 Juji also supports the sharing of tasks between the main chat flow and multi-turn Q&A flow. For example, one can define a Q&A pair with a question like "*Could you give me a car insurance quote*". The answer of this question can be defined as a multi-step interaction that reuses what's defined in the main flow. The difference between the main flow of providing a quote and this multi-turn Q&A is that this multi-turn Q&A can be invoked by users any time during a conversation even after the main flow is completed. This is very useful. For example, initially when the chatbot starts the main flow, a user may not be ready to get a quote yet. However, the user might want to ask for a quote later during the conversation. This enables the user to do so whenever s/he is ready. 
 
 ## Step 3: Automatically Generate AI Chatbot
