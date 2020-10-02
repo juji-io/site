@@ -63,7 +63,7 @@ Here we use a practical example to illustrate the solution. Our example is to ma
 
 Before you read the solution below, I encourage you to first try to use a chatbot platform that you are most familiar with to implement this chatbot and see how long it will take you to accomplish both goals described above.
 
-##  Step 1: Define a Main Chat Flow
+##  Step 1: Define a Main Chat Flow (Chatbot Initiated Tasks)
 
 While it may take you days if not weeks to make such a chatbot using a normal chatbot platform, every cloud has a silver lining. It will take just three key steps to build such a chatbot on Juji with no coding.
 
@@ -73,7 +73,7 @@ The first step is to define a chatbot's main task flow. This includes all the ta
 
 Unlike a plain question in a survey form, in a Juji chatbot, a [pre-built mini conversation](https://juji.io/docs/topics/) is behind each entered question. For example, behind the question, "*What's your age*", the mini-conversation is used to automatically handle diverse user age input ("*My age is 23*" or "*I'm 35 year old*") and potential digressions (e.g., "*Why do you need my age*") to gather an age input.  Because this pre-built mini conversation automatically handles diverse user intents and stores legit user answers, Juji relieves a chatbot designing from manually doing all the work. A chatbot designer can of course [customize a pre-built mini conversation](https://juji.io/docs/design/#customizing-chatbot-actions) if needed. 
 
-##  Step 2: Define Q&A List
+##  Step 2: Define Q&A List (User Initiated Tasks)
 
 After defining the main chat flow that includes the tasks that a chatbot will initiate, the second step is to define tasks that **users will initiate** during a conversation. This includes user questions and comments. On Juji, defining such a Q&A list is also quite straightforward. [This blog](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/) details the step-to-step process of defining the Q&A list, including defining multi-turn Q&As. As shown below, for example, defining the multi-turn Q&A of helping a user to cancel an existing insurance policy, is similar to defining the main flow. 
 
@@ -81,6 +81,4 @@ After defining the main chat flow that includes the tasks that a chatbot will in
 
 After both the main chat flow and Q&A list is defined, you can now proceed to step 3 to "Preview" your chatbot. This will **automatically generate** an AI chatbot. This chatbot will activate the main chat flow and anytime during the main chat flow, it can be interrupted to answer user questions that match with the Q&A list. After handling an interruption, it always automatically resumes the the interrupted flow (no matter it is the main flow or a multi-turn Q&A) to ensure task completion (e.g., giving an insurance quote or finishing a multi-turn Q&A). If a user question does not match with those on a Q&A list perfectly, the chatbot will [make recommendations](https://juji.io/blog/question-recommendation/), which informs users what it can do. 
 
-
-
-Overall, this auto-generation process relieves chatbot designers or developers from worrying about how a chatbot should be wired to manage different conversation threads and maintain a conversation context.
+In other words, this generated chatbot tracks and maintains a conversation context automatically,  relieving chatbot designers or developers from worrying about how a chatbot should be wired to manage different conversation threads and maintain a conversation context. In addition, updating or extending such a chatbot is very easy. For example, we can extend the chatbot main flow with more tasks or the Q&A list with more Q&A pairs without worrying about anything else (e.g., no need to define specific "reprompts" for added tasks or Q&As).
