@@ -58,7 +58,7 @@ To relieve chatbot designers or developers from manually tracking and maintainin
 
 ## A Practical Chatbot Example
 
-Here we use a practical example to illustrate the solution. Our example is to make a simple but practical chatbot for an insurance company website. As shown below, this chatbot will accomplish two main goals: (1) helping site visitors obtain a car insurance quote; and (2) answering visitor questions during a conversation. 
+Here we use a practical example to illustrate the solution. Our example is to make a simple but practical chatbot for an insurance company website. As shown below, this chatbot will accomplish two main goals: (1) helping site visitors obtain a car insurance quote in 4 steps; and (2) answering certain visitor questions during a conversation. 
 
 ![A chatbot design includes a 3-step task flow, 10 FAQs, 1 multi-turn FAQ.](/assets/uploads/screen-shot-2020-10-01-at-9.49.27-pm.png "Design of chatbot flow and Q&A")
 
@@ -90,7 +90,7 @@ The difference between the main flow of providing an insurance quote and this mu
 
 ## Step 3: Automatically Generate AI Chatbot
 
-After both the main chat flow and Q&A list is defined, you can now proceed to step 3 to "Preview" your chatbot. This will **automatically generate** an AI chatbot. This chatbot will activate the main chat flow and anytime during the main chat flow, it can be interrupted to answer user questions that match with the Q&A list. After handling an interruption, it always automatically resumes the the interrupted flow (no matter it is the main flow or a multi-turn Q&A) to ensure task completion (e.g., giving an insurance quote or finishing a multi-turn Q&A). If a user question does not match with those on a Q&A list perfectly, the chatbot will [make recommendations](https://juji.io/blog/question-recommendation/), which informs users what it can do. 
+After both the main chat flow and Q&A list is defined, you can now proceed to step 3 to "Preview" your chatbot. This will **automatically generate** an AI chatbot. This chatbot will activate the main chat flow first and anytime during the main chat flow, it can be interrupted to answer user questions that match with the Q&A list. After handling an interruption, it always automatically resumes the the interrupted flow (no matter it is the main flow or a multi-turn Q&A) to ensure task completion (e.g., giving an insurance quote or finishing a multi-turn Q&A). If a user question does not match with those on a Q&A list perfectly, the chatbot will [make recommendations](https://juji.io/blog/question-recommendation/), which informs users what it can do. 
 
 In other words, this generated chatbot tracks and maintains a conversation context automatically,  relieving chatbot designers or developers from worrying about how a chatbot should be wired to manage different conversation threads and maintain a conversation context. In addition, updating or extending such a chatbot is very easy. For example, we can update the chatbot main flow with different tasks or extend the Q&A list with more Q&A pairs without worrying about anything else (e.g., no need to define specific "reprompts" for added tasks or Q&As).  This is because a Juji chatbot uses algorithms to automatically detect and manage a conversation context, no matter how the main chat flow or the Q&A list changes.
 
