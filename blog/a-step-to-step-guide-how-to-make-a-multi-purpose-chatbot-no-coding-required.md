@@ -10,27 +10,27 @@ tags:
 image: /assets/uploads/owen-beard-k21dn4ovxnw-unsplash.jpg
 credit: https://unsplash.com/@owenbeard
 ---
-You want to make a chatbot for an insurance company website. This chatbot will greet site visitors, provide insurance quotes, and answer visitor questions. Your challenge is how to make a chatbot so it can answer user questions or social chitchat **in the middle of** the task of giving an insurance quote without derailing the task flow?   
+You want to make a chatbot for an insurance company website. This chatbot will greet site visitors, provide insurance quotes, and answer visitor questions. Your challenge is how to make a chatbot that can support all these tasks and their arbitrary interleaving. For example,  a chatbot should answer user questions **in the middle of** gathering user information for an insurance quote without derailing the quoting task:
 
-![An insurance website chatbot answering a user's question during the task of giving an insurance quote]( "A multi-purpose chatbot for an insurance website")
+![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-1.png "A multi-purpose chatbot for an insurance website")
 
-You want to make a chatbot for a hospital website to greet their visitors, triage care situations, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer user questions or social chitchat **in the middle of** the task of performing a care triage without derailing the task flow?   
+![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-2.png)
+
+You want to make a chatbot for a hospital website. This chatbot will greet site visitors, triage care situations, and answer visitor questions. Your challenge is how to make a chatbot that can support all the tasks and their arbitrary interleaving. For example, the chatbot should be able to answer user questions **in the middle of** performing a care triage but without derailing the triage task flow:   
 
 ![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-1.png)
 
 ![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-2.png "A multi-purpose chatbot for a hospital website")
 
-You want to make a chatbot for a bank website to greet their visitors, manage bank accounts, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer customer questions or social chitchat **in the middle of** the performing account management without derailing the task flow? 
+You want to make a chatbot for a bank website. This chatbot will greet their visitors, manage bank accounts, and answer visitor questions. Your challenge is how to make a chatbot that can perform all the tasks and support their arbitrary interleaving. For example, the chatbot should answer customer questions **in the middle of** the performing account management without derailing the account management flow? 
 
 ![A bank website chatbot answering a user question during account management]( "A multi-purpose chatbot for a bank website")
 
-You want to make a chatbot for a job recruitment website to take job applications, as well as answer applicant questions. Your challenge is how to make a chatbot so it can answer applicant questions or social chitchat **in the middle of** taking an application without derailing the application flow? 
+You want to make a chatbot for a job recruitment website to take job applications, as well as answer applicant questions. Your challenge is how to make a chatbot that can answer applicant questions **in the middle of** application process without derailing the application flow? 
 
 ![An HR chatbot answering applicant questions during the process of taking the applicant application]( "A multi-purpose chatbot for HR recruitment")
 
-You want to make a chatbot for a university website to introduce campus programs, and answer student questions, and survey students.  Your challenge is how to make a chatbot so it can answer student questions or social chitchat **in the middle of** introducing campus programs without derailing the task flow? 
 
-![A university website chatbot answering student questions in the middle of introducing campus programs.]( "A multi-purpose chatbot for a university website")
 
 # Challenges of Supporting Multi-Purpose Chatbots
 
