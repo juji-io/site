@@ -10,7 +10,7 @@ tags:
 image: /assets/uploads/owen-beard-k21dn4ovxnw-unsplash.jpg
 credit: https://unsplash.com/@owenbeard
 ---
-UnYou want to make a chatbot for an insurance company website to greet their visitors, provide insurance quotes, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer user questions or social chitchat **in the middle of** the task of giving an insurance quote without derailing the task flow?   
+You want to make a chatbot for an insurance company website. This chatbot will greet site visitors, provide insurance quotes, and answer visitor questions. Your challenge is how to make a chatbot so it can answer user questions or social chitchat **in the middle of** the task of giving an insurance quote without derailing the task flow?   
 
 ![An insurance website chatbot answering a user's question during the task of giving an insurance quote]( "A multi-purpose chatbot for an insurance website")
 
