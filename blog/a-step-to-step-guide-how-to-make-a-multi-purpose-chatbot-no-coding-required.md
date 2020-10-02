@@ -10,27 +10,27 @@ tags:
 image: /assets/uploads/owen-beard-k21dn4ovxnw-unsplash.jpg
 credit: https://unsplash.com/@owenbeard
 ---
-You want to make a chatbot for an insurance company website. This chatbot will greet site visitors, provide insurance quotes, and answer visitor questions. Your challenge is how to make a chatbot that can support all these tasks and their arbitrary interleaving. For example,  a chatbot should answer user questions **in the middle of** gathering user information for an insurance quote without derailing the quoting task:
+You want to make a chatbot for an insurance company website. This chatbot will greet site visitors, provide insurance quotes, and answer visitor questions. Your challenge is how to make a chatbot that can support all these tasks and the arbitrary interleaving of the tasks. For example,  a chatbot should answer user questions **in the middle of** gathering user information for an insurance quote without derailing the quoting task flow:
 
-![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-1.png "A multi-purpose chatbot for an insurance website")
+![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-1.png)
 
-![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-2.png)
+![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-2.png "The best AI chatbot should serve multi-purposes - insurance chatbot")
 
-You want to make a chatbot for a hospital website. This chatbot will greet site visitors, triage care situations, and answer visitor questions. Your challenge is how to make a chatbot that can support all the tasks and their arbitrary interleaving. For example, the chatbot should be able to answer user questions **in the middle of** performing a care triage but without derailing the triage task flow:   
+You want to make a chatbot for a hospital website. This chatbot will greet site visitors, triage care situations, and answer visitor questions. Your challenge is how to make a chatbot that can support all the tasks and the arbitrary interleaving of these tasks. For example, the chatbot should answer user questions **in the middle of** performing a care triage but without derailing the triage task flow:   
 
 ![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-1.png)
 
-![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-2.png "A multi-purpose chatbot for a hospital website")
+![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-2.png "The best AI chatbot should serve multi-purposes - healthcare chatbot")
 
-You want to make a chatbot for a bank website. This chatbot will greet their visitors, manage bank accounts, and answer visitor questions. Your challenge is how to make a chatbot that can perform all the tasks and support their arbitrary interleaving. For example, the chatbot should answer customer questions **in the middle of** the performing account management without derailing the account management flow? 
+You want to make a chatbot for a bank website. This chatbot will greet visitors, manage bank accounts, and answer visitor questions. Your challenge is how to make a chatbot that can perform all the tasks and support the arbitrary interleaving of these tasks. For example, the chatbot should answer customer questions **in the middle of** the performing account management without derailing the account management task flow:
 
-![A bank website chatbot answering a user question during account management](/assets/uploads/bank-1.png "A multi-purpose chatbot for a bank website")
+![A bank website chatbot answering a user question during account management](/assets/uploads/bank-1.png)
 
-![A bank website chatbot answering a user question during account management](/assets/uploads/bank-2.png)
+![A bank website chatbot answering a user question during account management](/assets/uploads/bank-2.png "The best AI chatbot should serve multi-purposes - bank chatbot")
 
 You want to make a chatbot for a job recruitment website to take job applications, as well as answer applicant questions. Your challenge is how to make a chatbot that can answer applicant questions **in the middle of** application process without derailing the application flow? 
 
-![An HR chatbot answering applicant questions during the process of taking the applicant application](/assets/uploads/screen-shot-2020-10-01-at-10.30.21-pm.png "A multi-purpose chatbot for HR recruitment")
+![An HR chatbot answering applicant questions during the process of taking the applicant application](/assets/uploads/screen-shot-2020-10-01-at-10.30.21-pm.png "The best AI chatbot should serve multi-purposes - HR chatbot")
 
 
 
@@ -62,7 +62,7 @@ To relieve chatbot designers or developers from manually tracking and maintainin
 
 Here we use a practical example to illustrate the solution. Our example is to make a simple but practical chatbot for an insurance company website. As shown below, this chatbot will accomplish two main goals: (1) helps site visitors obtain a car insurance quote; and (2) answers visitor questions during a conversation but without derailing the main task flow if user questions happen to occur in the middle of the task flow . 
 
-![A chatbot design includes a 3-step task flow, 10 FAQs, 1 multi-turn FAQ.](/assets/uploads/screen-shot-2020-10-01-at-9.49.27-pm.png "The design of a multi-purpose chatbot for an insurance company website")
+![A chatbot design includes a 3-step task flow, 10 FAQs, 1 multi-turn FAQ.](/assets/uploads/screen-shot-2020-10-01-at-9.49.27-pm.png "Design of chatbot flow and Q&A")
 
 Before you read the solution below, I encourage you to first try to use a chatbot platform that you are most familiar with to implement this chatbot and see how long it will take you to accomplish both goals described above.
 
@@ -72,7 +72,7 @@ While it may take you days if not weeks to make such a chatbot using a normal ch
 
 The first step is to define a chatbot's main task flow. This includes all the tasks **your chatbot will initiate**. In our example, there is only one task that the chatbot will initiate: helping a visitor obtain a car insurance quote. Defining such a task flow in Juji is rather straightforward, similar to using any of the online survey software like SurveyMonkey to enter survey questions. As displayed below, just enter each of the three questions.  
 
-![A chat flow defined for a chatbot to ask user questions](/assets/uploads/screen-shot-2020-10-01-at-9.00.53-pm.png "A graphical user interface of Juji no-coding AI chatbot builder for defining a chat flow")
+![A chat flow defined for a chatbot to ask user questions](/assets/uploads/screen-shot-2020-10-01-at-9.00.53-pm.png "An example design of chatbot flow with no coding")
 
 Unlike a plain question in a survey form, in a Juji chatbot, a [pre-built mini conversation](https://juji.io/docs/topics/) is behind each entered question. For example, behind the question, "*What's your age*", the mini-conversation is used to automatically handle diverse user age input ("*My age is 23*" or "*I'm 35 year old*") and potential digressions (e.g., "*Why do you need my age*") to gather an age input.  Because this pre-built mini conversation automatically handles diverse user intents and stores legit user answers, Juji relieves a chatbot designing from manually doing all the work. A chatbot designer can of course [customize a pre-built mini conversation](https://juji.io/docs/design/#customizing-chatbot-actions) if needed. 
 
@@ -82,7 +82,7 @@ After defining the main chat flow that includes the tasks that a chatbot will in
 
 
 
-![A graphical user interface showing a multi-turn chatbot Q&A](/assets/uploads/screen-shot-2020-10-01-at-9.51.14-pm.png "Defining a multi-turn Q&A chatbot")
+![A graphical user interface showing a multi-turn chatbot Q&A](/assets/uploads/screen-shot-2020-10-01-at-9.51.14-pm.png "An example design of chatbot Q&A (multi-turn)")
 
 Juji also supports the sharing of tasks between the main chat flow and multi-turn Q&A flow. For example, one can define a Q&A pair with a question like "*Could you give me a car insurance quote*". The answer of this question can be defined as a multi-step interaction that reuses what's defined in the main flow. The difference between the main flow of providing a quote and this multi-turn Q&A is that this multi-turn Q&A can be invoked by users any time during a conversation even after the main flow is completed. This is very useful. For example, initially when the chatbot starts the main flow, a user may not be ready to get a quote yet. However, the user might want to ask for a quote later during the conversation. This enables the user to do so whenever s/he is ready. 
 
