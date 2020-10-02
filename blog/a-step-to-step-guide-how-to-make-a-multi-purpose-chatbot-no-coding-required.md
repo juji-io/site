@@ -96,7 +96,7 @@ In other words, this generated chatbot tracks and maintains a conversation conte
 
 # Further Readings
 
-What I've shown so far is a quick 3-step process to create a powerful AI chatbot that can initiate its own tasks as well as take care of user-initiated tasks anytime, anywhere during a conversation. Although every chatbot is made for a purpose, users often expect a chatbot to act as a person who can handle multiple types of tasks and switch between the tasks without losing any task context. 
+What I've shown so far is a quick 3-step process to create a powerful AI chatbot that can initiate its own tasks as well as take care of user-initiated tasks anytime, anywhere during a conversation. Although a chatbot can be made to serve a single purpose, users often expect a chatbot to act as a person who can handle multiple types of tasks and switch between different tasks without losing any task context. Juji is designed to help chatbot designers make such chatbots easily and rapidly. 
 
 We encourage you to build multi-purpose chatbots as shown here to automate meaningful business communications as well as deliver superior user experience. 
 
