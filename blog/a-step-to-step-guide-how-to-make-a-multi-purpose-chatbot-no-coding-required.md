@@ -70,7 +70,7 @@ While it may take you days if not weeks to make such a chatbot using a normal ch
 
 The first step is to define a chatbot's main task flow. This includes all the tasks **your chatbot will initiate**. In our example, there is only one task that the chatbot will initiate: helping a visitor obtain a car insurance quote. Defining such a task flow in Juji is rather straightforward, similar to using any of the online survey software like SurveyMonkey to enter survey questions. As displayed below, just enter each of the three questions.  
 
-![A chat flow defined for a chatbot to ask user questions]( "A graphical user interface of Juji no-coding AI chatbot builder for defining a chat flow")
+![A chat flow defined for a chatbot to ask user questions](/assets/uploads/screen-shot-2020-10-01-at-9.00.53-pm.png "A graphical user interface of Juji no-coding AI chatbot builder for defining a chat flow")
 
 Unlike a plain question in a survey form, in a Juji chatbot, a [pre-built mini conversation](https://juji.io/docs/topics/) is behind each entered question. For example, behind the question, "*What's your age*", the mini-conversation is used to automatically handle diverse user age input ("*My age is 23*" or "*I'm 35 year old*") and potential digressions (e.g., "*Why do you need my age*") to gather an age input.  Because this pre-built mini conversation automatically handles diverse user intents and stores legit user answers, Juji relieves a chatbot designing from manually doing all the work. A chatbot designer can of course [customize a pre-built mini conversation](https://juji.io/docs/design/#customizing-chatbot-actions) if needed. 
 
