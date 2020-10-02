@@ -6,7 +6,7 @@ date: 2020-09-30T21:59:01.949Z
 author: Michelle Zhou
 category: Guides
 tags:
-  - interleaving tasks
+  - task interleaving
 image: /assets/uploads/owen-beard-k21dn4ovxnw-unsplash.jpg
 credit: https://unsplash.com/@owenbeard
 ---
