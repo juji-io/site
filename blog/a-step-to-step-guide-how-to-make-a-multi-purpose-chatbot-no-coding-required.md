@@ -16,7 +16,9 @@ UnYou want to make a chatbot for an insurance company website to greet their vis
 
 You want to make a chatbot for a hospital website to greet their visitors, triage care situations, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer user questions or social chitchat **in the middle of** the task of performing a care triage without derailing the task flow?   
 
-![A hospital website chatbot answering a user question during care triage]( "A multi-purpose chatbot for a hospital website")
+![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-1.png)
+
+![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-2.png "A multi-purpose chatbot for a hospital website")
 
 You want to make a chatbot for a bank website to greet their visitors, manage bank accounts, as well as answer visitor questions. Your challenge is how to make a chatbot so it can answer customer questions or social chitchat **in the middle of** the performing account management without derailing the task flow? 
 
@@ -42,7 +44,7 @@ The first challenge is to keep track of a conversation context (task flows) and 
 
 In practice, a multi-turn task flow can be interrupted \*\*arbitrarily\*\* at any step any time, in any depth \*\*recursively\*\* (e.g., by another multi-turn tasks, which could be interrupted again). Keeping track of such a dynamic context means remembering every conversation state, including task status and task progress, which is non-trivial. Most chatbot platforms leave chatbot designers or developers to manually tracking  a conversation context, which is impractical or even infeasible given the complexity of the potential interruptions. 
 
-## Maintaining Conversation Context 
+## Maintaining Conversation Context
 
 In addition to tracking a conversation context and its interruptions, a capable chatbot must maintain the context properly so it can resume it after each interruption. To resume a context, a chatbot must inform users where they are so the users are aware and can continue with the resumed flow. 
 
@@ -62,7 +64,7 @@ Here we use a practical example to illustrate the solution. Our example is to ma
 
 Before you read the solution below, I encourage you to first try to use a chatbot platform that you are most familiar with to implement this chatbot and see how long it will take you to accomplish both goals described above.
 
-##  Step 1: Define a Main Chat Flow (Chatbot Initiated Tasks)
+## Step 1: Define a Main Chat Flow (Chatbot Initiated Tasks)
 
 While it may take you days if not weeks to make such a chatbot using a normal chatbot platform, every cloud has a silver lining. It will take just three key steps to build such a chatbot on Juji with no coding.
 
@@ -72,7 +74,7 @@ The first step is to define a chatbot's main task flow. This includes all the ta
 
 Unlike a plain question in a survey form, in a Juji chatbot, a [pre-built mini conversation](https://juji.io/docs/topics/) is behind each entered question. For example, behind the question, "*What's your age*", the mini-conversation is used to automatically handle diverse user age input ("*My age is 23*" or "*I'm 35 year old*") and potential digressions (e.g., "*Why do you need my age*") to gather an age input.  Because this pre-built mini conversation automatically handles diverse user intents and stores legit user answers, Juji relieves a chatbot designing from manually doing all the work. A chatbot designer can of course [customize a pre-built mini conversation](https://juji.io/docs/design/#customizing-chatbot-actions) if needed. 
 
-##  Step 2: Define Q&A List (User Initiated Tasks)
+## Step 2: Define Q&A List (User Initiated Tasks)
 
 After defining the main chat flow that includes the tasks that a chatbot will initiate, the second step is to define tasks that **users will initiate** during a conversation. This includes user questions and comments. On Juji, defining such a Q&A list is also quite straightforward. [This blog](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/) details the step-to-step process of defining the Q&A list, including defining multi-turn Q&As. As shown below, for example, defining the multi-turn Q&A of helping a user to cancel an existing insurance policy, is similar to defining the main flow. 
 
@@ -93,7 +95,5 @@ We encourage you to build multi-purpose chatbots as shown here to automate meani
 Here is further information you may find useful:
 
 * [Best practice on building an AI chatbot ](https://juji.io/docs/chatbot-design-tips/#support-tasks-and-social-chitchat) 
-
 * [Tips on designing a custom main chat flow](https://juji.io/docs/chatbot-design-tips/#start-w-chat-flow-outline)
-
- * [Tips on defining a Q&A list](https://juji.io/docs/chatbot-design-tips/#prepare-qa-list-and-chitchats)
+* [Tips on defining a Q&A list](https://juji.io/docs/chatbot-design-tips/#prepare-qa-list-and-chitchats)
