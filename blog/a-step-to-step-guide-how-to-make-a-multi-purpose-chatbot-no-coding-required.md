@@ -93,8 +93,8 @@ We encourage you to build multi-purpose chatbots as shown here to automate meani
 
 Here is further information you may find useful:
 
-[Best practice on building an AI chatbot ](https://juji.io/docs/chatbot-design-tips/#support-tasks-and-social-chitchat) 
+* [Best practice on building an AI chatbot ](https://juji.io/docs/chatbot-design-tips/#support-tasks-and-social-chitchat) 
 
-[](https://juji.io/docs/chatbot-design-tips/#start-w-chat-flow-outline)[Tips on designing a custom main chat flow](https://juji.io/docs/chatbot-design-tips/#start-w-chat-flow-outline)
+* [Tips on designing a custom main chat flow](https://juji.io/docs/chatbot-design-tips/#start-w-chat-flow-outline)
 
-[](https://juji.io/docs/chatbot-design-tips/#start-w-chat-flow-outline)[Tips on defining a Q&A list](https://juji.io/docs/chatbot-design-tips/#prepare-qa-list-and-chitchats)
+ * [Tips on defining a Q&A list](https://juji.io/docs/chatbot-design-tips/#prepare-qa-list-and-chitchats)
