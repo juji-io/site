@@ -24,7 +24,9 @@ You want to make a chatbot for a hospital website. This chatbot will greet site 
 
 You want to make a chatbot for a bank website. This chatbot will greet their visitors, manage bank accounts, and answer visitor questions. Your challenge is how to make a chatbot that can perform all the tasks and support their arbitrary interleaving. For example, the chatbot should answer customer questions **in the middle of** the performing account management without derailing the account management flow? 
 
-![A bank website chatbot answering a user question during account management]( "A multi-purpose chatbot for a bank website")
+![A bank website chatbot answering a user question during account management](/assets/uploads/bank-1.png "A multi-purpose chatbot for a bank website")
+
+![A bank website chatbot answering a user question during account management](/assets/uploads/bank-2.png)
 
 You want to make a chatbot for a job recruitment website to take job applications, as well as answer applicant questions. Your challenge is how to make a chatbot that can answer applicant questions **in the middle of** application process without derailing the application flow? 
 
