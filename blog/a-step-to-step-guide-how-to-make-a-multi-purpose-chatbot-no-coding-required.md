@@ -60,7 +60,7 @@ To relieve chatbot designers or developers from manually tracking and maintainin
 
 Here we use a practical example to illustrate the solution. Our example is to make a simple but practical chatbot for an insurance company website. As shown below, this chatbot will accomplish two main goals: (1) helps site visitors obtain a car insurance quote; and (2) answers visitor questions during a conversation but without derailing the main task flow if user questions happen to occur in the middle of the task flow . 
 
-![A chatbot design includes a 3-step task flow, 10 FAQs, 1 multi-turn FAQ.]( "The design of a multi-purpose chatbot for an insurance company website")
+![A chatbot design includes a 3-step task flow, 10 FAQs, 1 multi-turn FAQ.](/assets/uploads/screen-shot-2020-10-01-at-9.49.27-pm.png "The design of a multi-purpose chatbot for an insurance company website")
 
 Before you read the solution below, I encourage you to first try to use a chatbot platform that you are most familiar with to implement this chatbot and see how long it will take you to accomplish both goals described above.
 
