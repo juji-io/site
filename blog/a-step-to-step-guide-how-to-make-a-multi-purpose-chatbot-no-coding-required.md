@@ -51,9 +51,9 @@ Using the chat examples shown above, a chatbot must repeat what it was saying (e
 
 Again, most chatbot platforms leave the challenges of maintaining and resuming a conversation context to chatbot designers or developers, who must painstakingly recognize all potential interruptions and add "reprompts" to resume a conversation. This process is also impractical and infeasible as the number of tasks or intents grows.
 
-# 3-Step Solution to Making Multi-Purpose Chatbots
+# 3-Step Solution to Multi-Purpose Chatbots
 
-To relieve chatbot designers or developers from tracking and maintaining a conversation context, Juji offers a solution that enables chatbot designers/developers to make a multi-purpose chatbots in three steps with no coding. 
+To relieve chatbot designers or developers from manually tracking and maintaining a conversation context, Juji offers a solution that enables chatbot designers/developers to make a multi-purpose chatbots in three steps with no coding. 
 
 ## A Practical Example
 
@@ -71,4 +71,12 @@ The first step is to define a chatbot's main task flow. This includes all the ta
 
 ![A chat flow defined for a chatbot to ask user questions]( "A graphical user interface of Juji no-coding AI chatbot builder for defining a chat flow")
 
-Unlike a plain question in a survey form, behind each entered question, it is in fact a [pre-built mini conversation](https://juji.io/docs/design/#customizing-chatbot-actions) that automatically handles user input in the question including assessing the input correctness (e.g., making sure the user enters a number when asked about year or miles driven) and addressing diverse user digressions (e.g., user input like "I don't know" or a user question) for
+Unlike a plain question in a survey form, in a Juji chatbot, a [pre-built mini conversation](https://juji.io/docs/topics/) is behind each entered question. For example, behind the question, "*What's your age*", the mini-conversation is used to automatically handle diverse user age input ("*My age is 23*" or "*I'm 35 year old*") and potential digressions (e.g., "*Why do you need my age*") to gather an age input.  Because this pre-built mini conversation automatically handles diverse user intents and stores legit user answers, Juji relieves a chatbot designing from manually doing all the work. A chatbot designer can of course [customize a pre-built mini conversation](https://juji.io/docs/design/#customizing-chatbot-actions) if needed. 
+
+##  Step 2: Define Q&A List
+
+After defining the main chat flow that includes the tasks that a chatbot will initiate, the second step is to define tasks that **users will initiate** during a conversation. This includes user questions and comments. On Juji, defining such a Q&A list is also quite straightforward. [This blog](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/) details the step-to-step process of defining the Q&A list, including defining multi-turn Q&As. As shown below, for example, defining the multi-turn Q&A of helping a user to cancel an existing insurance policy, is similar to defining the main flow. 
+
+## Step 3: Preview to Automatically Generate AI Chatbot
+
+After both the main chat flow and Q&A list is defined, now you can proceed to step 3 by pressing the "Preview" button. This will **automatically generate** an AI chatbot that can activate the main chat flow. Moreover, during the main chat flow, it can also answer user questions that match with the Q&A list and automatically resume
