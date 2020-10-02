@@ -1,8 +1,7 @@
 ---
 layout: blog/article.njk
 featured: true
-title: "A Step to Step Guide: How to Make a Multi-Purpose Chatbot (No Coding
-  Required)"
+title: "A Step to Step Guide: How to Make a Multi-Purpose Chatbot with No Coding"
 date: 2020-09-30T21:59:01.949Z
 author: Michelle Zhou
 category: Guides
