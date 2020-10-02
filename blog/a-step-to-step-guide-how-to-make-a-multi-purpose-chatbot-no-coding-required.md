@@ -48,7 +48,7 @@ In practice, any multi-turn task flow can be interrupted \*\*arbitrarily\*\*--at
 
 In addition to tracking a conversation context, a capable chatbot must maintain the context properly so it can resume a task flow after each interruption. To resume a context, a chatbot must inform users where they are (e.g., which task and where in the task) so the users are aware and can continue with the resumed task flow. 
 
-Using the chat examples shown above, each chatbot must ***repeat*** what it was saying (e.g., re-asking its question) before it was interrupted. This is similar to defining "reprompts" using [Google Dialogflow](https://en.wikipedia.org/wiki/Dialogflow). The challenge however is that a chatbot designer must  remember to define "reprompts" for every possible interruption point in a conversation because interruptions can occur any time. 
+Using the chat examples shown above, each chatbot must ***repeat*** what it was saying (e.g., re-asking its question) before it was interrupted. This is similar to defining "reprompts" using [Google Dialogflow](https://en.wikipedia.org/wiki/Dialogflow). The challenge however is that if a chatbot designer must  manually define "reprompts" for every possible interruption point in a conversation. 
 
 Again, most chatbot platforms leave the challenges of maintaining and resuming a conversation context to chatbot designers or developers, who must painstakingly recognize all potential interruptions and add "reprompts" to resume a conversation. This process is also impractical and infeasible as the number of tasks or intents grows.
 
