@@ -14,7 +14,7 @@ The [Chatbot Tsunami](https://juji.io/blog/chatbot-tsunami-the-good-bad/) has br
 
 Here are several examples.
 
-You want to make a chatbot for an insurance company website. Although this chatbot's main function is to provide site visitors with an insurance quote,  it must  also answer user questions during the process (see chat example as below).
+You want to make a chatbot for an insurance company website. Although this chatbot's main purpose is to provide site visitors with an insurance quote,  it must  also answer user questions during the process (see chat example as below).
 
 ![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-1.png)
 
