@@ -10,7 +10,9 @@ tags:
 image: /assets/uploads/owen-beard-k21dn4ovxnw-unsplash.jpg
 credit: https://unsplash.com/@owenbeard
 ---
-The [Chatbot Tsunami](https://juji.io/blog/chatbot-tsunami-the-good-bad/) has brought us a flood of chatbots to help automate various business functions, including [customer service chatbots](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/) that automate customer Q&A, [marketing research chatbots ](https://interpret.la/insights/)that automate customer interviews,  and [HR chatbots](https://dl.acm.org/doi/fullHtml/10.1145/3232077) that automate job interviews. Although a chatbot is often made to automate one type of business function, users expect the chatbot to perform  multiple related functions as if they are interacting with a person. Here are several examples.
+The [Chatbot Tsunami](https://juji.io/blog/chatbot-tsunami-the-good-bad/) has brought us a flood of chatbots to help automate various business functions, including [customer service chatbots](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/) that automate customer Q&A, [marketing research chatbots ](https://interpret.la/insights/)that automate customer interviews,  and [HR chatbots](https://dl.acm.org/doi/fullHtml/10.1145/3232077) that automate job interviews. Although a chatbot is often made to serve one purpose, users expect the chatbot to perform multiple related functions while serving the main purpose. 
+
+Here are several examples.
 
 You want to make a chatbot for an insurance company website. Although this chatbot's main function is to provide site visitors with an insurance quote,  it must  also answer user questions during the process (see chat example as below).
 
