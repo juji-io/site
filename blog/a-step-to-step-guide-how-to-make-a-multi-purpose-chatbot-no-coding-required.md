@@ -36,8 +36,6 @@ You want to make a chatbot for a job recruitment website. Although this chatbot'
 
 ![An HR chatbot answering applicant questions during the process of taking the applicant application](/assets/uploads/screen-shot-2020-10-01-at-10.30.21-pm.png "The best AI chatbot should serve multi-purposes - HR chatbot")
 
-
-
 # Challenges of Supporting Multi-Purpose Chatbots
 
 All the above examples show that the best chatbots are the ones that can serve multiple purposes and handle the **interleaving of different tasks**, such as answering a user's questions in the middle of performing another task. However, building such a chatbot is non-trivial due to two main challenges described below. 
@@ -80,9 +78,15 @@ Unlike a plain question in a survey form, in a Juji chatbot, a [pre-built mini c
 
 ## Step 2: Define Q&A List (User Initiated Tasks)
 
-After defining the main chat flow that includes the tasks that a chatbot will initiate, the second step is to define tasks that **users will initiate** during a conversation. This includes user questions and comments. On Juji, defining a chatbot Q&A list is also straightforward. [This blog](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/) details the step-to-step process of defining the Q&A list, including defining multi-turn Q&As. The example below shows a multi-turn Q&A that is defined to help a user subscribe to an email list. 
+After defining the main chat flow that includes the tasks that a chatbot will initiate, the second step is to define tasks that **users will initiate** during a conversation. This includes user questions and comments. On Juji, defining a chatbot Q&A list is also straightforward as one can simply upload a CSV file that contains Q&A pairs or directly enter Q&A pairs in a GUI table:
+
+![Defining chatbot Q&A list by uploading a CSV file or entering Q&A pairs in an online table](/assets/uploads/chatbot-qa-list.jpg)
+
+ 
 
 
+
+[This blog](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/) details the step-to-step process of defining the Q&A list, including defining multi-turn Q&As. The example below shows a multi-turn Q&A that is defined to help a user subscribe to an email list. 
 
 ![A graphical user interface showing a multi-turn chatbot Q&A](/assets/uploads/screen-shot-2020-10-01-at-9.51.14-pm.png "An example design of chatbot Q&A (multi-turn)")
 
