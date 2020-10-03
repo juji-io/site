@@ -14,7 +14,7 @@ The [Chatbot Tsunami](https://juji.io/blog/chatbot-tsunami-the-good-bad/) has br
 
 Here are several examples.
 
-### Chatbot for an Insurance Company Website
+### Chatbot for Insurance Company Website
 
 You want to make a chatbot for an insurance company website. Although this chatbot's main purpose is to provide site visitors with an insurance quote,  it must  also answer user questions during the process (see chat example as below).
 
@@ -22,7 +22,7 @@ You want to make a chatbot for an insurance company website. Although this chatb
 
 ![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-2.png "The best AI chatbot should serve multi-purposes - insurance chatbot")
 
-### Chatbot for a Hospital Website
+### Chatbot for Hospital Website
 
 You want to make a chatbot for a hospital website. Although this chatbot's main purpose is to triage care situations, it must also answer visitor questions during the triage process (see chat example below).
 
@@ -30,7 +30,7 @@ You want to make a chatbot for a hospital website. Although this chatbot's main 
 
 ![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-2.png "The best AI chatbot should serve multi-purposes - healthcare chatbot")
 
-### A Chatbot for a Bank Website
+### A Chatbot for Bank Website
 
 You want to make a chatbot for a bank website. Although this chatbot's main purpose is to help customers manage their accounts,  it must also answer customer questions during the account management process (see chat example below).
 
