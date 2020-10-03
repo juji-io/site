@@ -38,6 +38,8 @@ You want to make a chatbot for a bank website. Although this chatbot's main purp
 
 ![A bank website chatbot answering a user question during account management](/assets/uploads/bank-2.png "The best AI chatbot should serve multi-purposes - bank chatbot")
 
+### A Chatbot for HR Recruitment Website
+
 You want to make a chatbot for a job recruitment website. Although this chatbot's main purpose is to collect job applications, it must also answer applicant questions without derailing the application process (see the chat below).
 
 ![An HR chatbot answering applicant questions during the process of taking the applicant application](/assets/uploads/screen-shot-2020-10-01-at-10.30.21-pm.png "The best AI chatbot should serve multi-purposes - HR chatbot")
