@@ -20,19 +20,19 @@ You want to make a chatbot for an insurance company website. Although this chatb
 
 ![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-2.png "The best AI chatbot should serve multi-purposes - insurance chatbot")
 
-You want to make a chatbot for a hospital website. Although this chatbot's main function is to triage care situations, it must also answer visitor questions during the triage process (see chat example below).
+You want to make a chatbot for a hospital website. Although this chatbot's main purpose is to triage care situations, it must also answer visitor questions during the triage process (see chat example below).
 
 ![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-1.png)
 
 ![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-2.png "The best AI chatbot should serve multi-purposes - healthcare chatbot")
 
-You want to make a chatbot for a bank website. Although this chatbot's main function is to help customers manage their bank accounts,  it must also answer customer questions during the management process (see chat example below).
+You want to make a chatbot for a bank website. Although this chatbot's main purpose is to help customers manage their accounts,  it must also answer customer questions during the account management process (see chat example below).
 
 ![A bank website chatbot answering a user question during account management](/assets/uploads/bank-1.png)
 
 ![A bank website chatbot answering a user question during account management](/assets/uploads/bank-2.png "The best AI chatbot should serve multi-purposes - bank chatbot")
 
-You want to make a chatbot for a job recruitment website. Although this chatbot's main function is to collect job applications, it must also answer applicant questions without derailing the application process (see the chat below).
+You want to make a chatbot for a job recruitment website. Although this chatbot's main purpose is to collect job applications, it must also answer applicant questions without derailing the application process (see the chat below).
 
 ![An HR chatbot answering applicant questions during the process of taking the applicant application](/assets/uploads/screen-shot-2020-10-01-at-10.30.21-pm.png "The best AI chatbot should serve multi-purposes - HR chatbot")
 
