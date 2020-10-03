@@ -10,25 +10,27 @@ tags:
 image: /assets/uploads/owen-beard-k21dn4ovxnw-unsplash.jpg
 credit: https://unsplash.com/@owenbeard
 ---
-You want to make a chatbot for an insurance company website. This chatbot will greet site visitors, provide insurance quotes, and answer visitor questions. Your challenge is how to make a chatbot that can support all these tasks and the arbitrary interleaving of the tasks. For example,  a chatbot should answer user questions **in the middle of** gathering user information for an insurance quote without derailing the quoting task flow:
+The [Chatbot Tsunami](https://juji.io/blog/chatbot-tsunami-the-good-bad/) has brought us a flood of chatbots to help automate various business functions, including [customer service chatbots](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/) that automate customer Q&A, [marketing research chatbots ](https://interpret.la/insights/)that automate customer interviews,  and [HR chatbots](https://dl.acm.org/doi/fullHtml/10.1145/3232077) that automate job interviews. Although a chatbot is often made to automate one type of business function, users expect the chatbot to perform  multiple related functions as if they are interacting with a person. Here are several examples.
+
+You want to make a chatbot for an insurance company website. Although this chatbot's main function is to provide site visitors with an insurance quote,  it must  also answer user questions during the process (see chat example as below).
 
 ![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-1.png)
 
 ![An insurance website chatbot answering a user's question during the task of giving an insurance quote](/assets/uploads/insurance-2.png "The best AI chatbot should serve multi-purposes - insurance chatbot")
 
-You want to make a chatbot for a hospital website. This chatbot will greet site visitors, triage care situations, and answer visitor questions. Your challenge is how to make a chatbot that can support all the tasks and the arbitrary interleaving of these tasks. For example, the chatbot should answer user questions **in the middle of** performing a care triage but without derailing the triage task flow:   
+You want to make a chatbot for a hospital website. Although this chatbot's main function is to triage care situations, it must also answer visitor questions during the triage process (see chat example below).
 
 ![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-1.png)
 
 ![A hospital website chatbot answering a user question during care triage](/assets/uploads/healthcare-2.png "The best AI chatbot should serve multi-purposes - healthcare chatbot")
 
-You want to make a chatbot for a bank website. This chatbot will greet visitors, manage bank accounts, and answer visitor questions. Your challenge is how to make a chatbot that can perform all the tasks and support the arbitrary interleaving of these tasks. For example, the chatbot should answer customer questions **in the middle of** the performing account management without derailing the account management task flow:
+You want to make a chatbot for a bank website. Although this chatbot's main function is to help customers manage their bank accounts,  it must also answer customer questions during the management process (see chat example below).
 
 ![A bank website chatbot answering a user question during account management](/assets/uploads/bank-1.png)
 
 ![A bank website chatbot answering a user question during account management](/assets/uploads/bank-2.png "The best AI chatbot should serve multi-purposes - bank chatbot")
 
-You want to make a chatbot for a job recruitment website. This chatbot will greet visitors, take job applications, and answer applicant questions. Your challenge is how to make a chatbot that can perform all the tasks and support the arbitrary interleaving of the tasks. For example, the chatbot should answer applicant questions **in the middle of** application process without derailing the application flow? 
+You want to make a chatbot for a job recruitment website. Although this chatbot's main function is to collect job applications, it must also answer applicant questions without derailing the application process (see the chat below).
 
 ![An HR chatbot answering applicant questions during the process of taking the applicant application](/assets/uploads/screen-shot-2020-10-01-at-10.30.21-pm.png "The best AI chatbot should serve multi-purposes - HR chatbot")
 
