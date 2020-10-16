@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 pipeline {
-  agent { label 'web' }
+  agent { label 'site' }
   environment {
     GITHUB_ACCESS_TOKEN = credentials('GITHUB_ACCESS_TOKEN')
   }
