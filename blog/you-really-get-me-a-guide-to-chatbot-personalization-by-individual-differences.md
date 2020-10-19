@@ -1,8 +1,8 @@
 ---
 layout: blog/article.njk
 featured: true
-title: '"You really get me": A Guide to Chatbot Personalization by Individual
-  Differences'
+title: "Reading Between the Lines: A Guide to Chatbot Personalization by
+  Individual Differences"
 date: 2020-10-19T20:30:38.135Z
 author: Michelle Zhou
 category: Guides
@@ -16,4 +16,10 @@ As indicated by the numbers in [this post](https://www.forbes.com/sites/blakemor
 
 However, most personalization has been done in a "shallow" way by using explicit information collected from users, such as user past activities (e.g., purchasing history), and user explicit preferences (e.g., "I want a car under $5000"). While such information helps personalize a chatbot's interaction with a user, it is inadequate in many circumstances. Consider the following real-world examples.
 
-Sam is a new customer to a restaurant and has never ordered anything from the restaurant before. So the past activities of Sam is missing for this restaurant. What kind of dishes should a restaurant chatbot recommend to Sam?
+Sam is a new customer to a restaurant and has never ordered anything from the restaurant before. What kind of dishes should the restaurant's chatbot recommend to a new customer like Sam? 
+
+Emma is a user of a wellness app for anger management. Emma is supposed to interact with the app and document her emotional states on a daily basis. How should the app's chatbot encourage Emma to stay on course when Emma wants to give up?
+
+Phil is a senior in college. To prepare for upcoming job interviews, Phil practices interviews with [an interview chatbot](https://dl.acm.org/doi/10.1145/3232077). What kind of advices the chatbot should give Phil and help him succeed in his job interviews? 
+
+Amy has diabetes
