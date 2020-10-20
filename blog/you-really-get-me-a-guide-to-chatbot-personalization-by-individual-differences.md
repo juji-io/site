@@ -67,3 +67,9 @@ Likewise, a designer can personalize a healthcare chatbot's messages to differen
 # Make Responsible Chatbots
 
 With great power comes great responsibility. Now that a chatbot can deeply understand its users,  how can we ensure the responsibility of such a chatbot? For example, if a chatbot detects a shopper's impulsive buying behavior, how can we make sure that the chatbot does not indulge the shopper to buy more? Similarly, if a chatbot detects a gamer's addiction to violent games, how can we make sure that the chatbot does not encourage the gamer to become more addicted? We sincerely hope that organizations will adhere to ethical guidelines and develop responsible chatbots that can truly help their users instead of harm them.
+
+# Further Reading
+
+Here is a tutorial video showing how to personalize chatbot messages based on inferred individual differences with no coding.
+
+Here is a more in-depth talk on this topic.
