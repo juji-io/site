@@ -42,7 +42,7 @@ In the search of more efficient and objective computational approaches, Juji has
 
 Juji currently focuses on inferring the Big 5 personality traits as its base model, because numerous research studies show that these traits characterize individual differences and can [predict important life outcomes](https://experts.illinois.edu/en/publications/the-power-of-personality-the-comparative-validity-of-personality-). On top of these basic traits, Juji infers context-specific human characteristics, e.g., one's [reader DNA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2964424/), which can then be used to help users find products or services that match with their innate needs. For example, a chatbot would recommend self-enhancement or business books to cerebral readers, while recommend art-related books to aesthetic readers. 
 
-## Reliability 
+## Reliability
 
 To assess the quality of the trait inference results, it is important to measure the [reliability](https://en.wikipedia.org/wiki/Reliability_(statistics)) of the method. Reliability is to assess how stable the inferred scores are under consistent conditions. For example, if given a set of 100 randomly sampled words produced by a person, how do the inferred trait scores differ for each set of words? The image below shows the computed [Cronbach's alpha](https://en.wikipedia.org/wiki/Cronbach%27s_alpha) for the inferred scores of the six facets under the Extroversion dimension in the Big 5 personality model. 
 
@@ -50,7 +50,7 @@ To assess the quality of the trait inference results, it is important to measure
 
 The above graph shows that the model produced an acceptable reliability (> 0.8) for all the facets except for ***Cheerfulness***, if the number of words used in the inference was over 1000.  This means that the inference of those facets is reliable if it uses more than 1000 words. 
 
-## Validity 
+## Validity
 
 In addition to reliability, another important measure is [validity](https://en.wikipedia.org/wiki/Validity_(statistics)), which assesses whether the inferred trait scores correspond to real-world user behavior (e.g., predicting a user's behavior or preference). Since measuring validity is often context sensitive, experiments or studies need to be carried out in a particular context. For example, [Xiao et al.](https://dl.acm.org/doi/10.1145/3301275.3302264) show that personality trait scores inferred by a Juji chatbot can predict team performance. 
 
@@ -70,6 +70,7 @@ With great power comes great responsibility. Now that a chatbot can deeply under
 
 # Further Reading
 
-Here is a tutorial video showing how to personalize chatbot messages based on inferred individual differences with no coding.
+* Here is [a tutorial video](https://juji.io/docs/tutorial/#send-personalized-messages-by-user-personas) showing how to personalize chatbot messages based on inferred individual differences with no coding.
+* Here is a more [in-depth talk ](https://www.youtube.com/watch?v=V5xBqcMqT2o)on this topic.
 
-Here is a more in-depth talk on this topic.
+ * If you haven't done so, [sign up](https://juji.io/signup) on Juji to create your own chatbot and personalize its messages based on Juji inferred individual differences.
