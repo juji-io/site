@@ -70,11 +70,13 @@ To help chatbot designers easily personalize each conversation experience, Juji 
 
 ## How to Personalize Chatbot Messages
 
-One easy way is to customize a pre-made "message card" based on inferred individual differences. Currently Juji provides two pre-made message cards, one allowing you to customize chatbot messages to match inferred shopper personas, while the other allowing you to customize chatbot messages to match base personas. As shown in the screenshot below, a designer can personalize an e-commerce chatbot's messages by each shopper persona. In a conversation, a chatbot will send a custom message to a user based on the user's shopper persona inferred during the conversation. To ensure accuracy, currently a chatbot would not send out a custom message if it does not have enough information (e.g., few words) to infer a user's shopper persona. 
+One easy way on Juji to personalize chatbot messages by individual differences is to customize a pre-made "message card". Currently Juji provides two pre-made message cards: one allowing a chatbot designer to customize chatbot messages to match inferred shopper personas, while the other allowing a chatbot designer to customize chatbot messages to match a set of base personas. 
+
+As shown in the screenshot below, a chatbot designer can personalize an e-commerce chatbot's messages by different shopper personas. In a live conversation, a chatbot will send a custom message to a user based on the user's shopper persona inferred during the conversation. To ensure accuracy, currently a chatbot would not send out a custom message if it does not have enough information (e.g., few words) to infer a user's shopper persona. 
 
 ![personalize conversation messages to different shoppers based on shopper persona]()
 
-Likewise, a designer can personalize a healthcare chatbot's messages to different users based on their brand persona. 
+Likewise, a designer can personalize a healthcare chatbot's messages to different users based on their base personas. Again, such a chatbot just needs to carry on a natural conversation with a user, such as asking users how they are doing, and use such a conversation to infer the user's individual differences and then send custom messages based on the inference results (e.g., sending a custom message to one who is thoughtful and cautious versus someone who is warm-hearted and caring).   
 
 ![personalize conversation messages to different users in a healthcare application based on their brand persona]()
 
