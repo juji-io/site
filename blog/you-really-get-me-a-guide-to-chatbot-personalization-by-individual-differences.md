@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: true
-title: "Reading Between the Lines: A Guide to Chatbot Personalization by
+title: "Reading Between the Lines: A Guide to Chatbot Personalization by User
   Individual Differences"
 date: 2020-10-19T20:30:38.135Z
 author: Michelle Zhou
@@ -50,7 +50,7 @@ To overcome these challenges, computational approaches have been proposed. One p
 
 In the search of more efficient and objective approaches to measuring individual differences, Juji has invented [a new model ](https://dl.acm.org/doi/10.1145/3232077)that combines big data analytics with [Item Response Theory](https://en.wikipedia.org/wiki/Item_response_theory) (also known as latent trait theory) to automatically infer individual differences from user behavior. Currently, Juji uses this approach to infer [Big 5 personality scores](https://en.wikipedia.org/wiki/Big_Five_personality_traits), including all the 35 dimensions, from text. Specifically, with this model a chatbot can interact with users in a natural way ***without*** asking them to take a Big 5 personality test. It analyzes a user's conversation text on the fly to infer the user's individual differences. The chatbot can then use the insights to personalize each conversation as shown by the examples above. Because a user is likely to interact with such a chatbot continuously (e.g., asking the chatbot questions), the chatbot can automatically learn the changes in the user's individual differences in a natural way and use such information to better help the user (e.g., offering suitable career development advice). 
 
-Juji currently focuses on inferring the Big 5 personality traits as its base model, because numerous research studies show that these traits characterize individual differences and can [predict important life outcomes](https://experts.illinois.edu/en/publications/the-power-of-personality-the-comparative-validity-of-personality-). On top of these basic traits, Juji infers context-specific human characteristics, e.g., one's [reader DNA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2964424/), which can then be used to help users find products or services that match with their innate needs. For example, a chatbot would recommend self-enhancement or business books to cerebral readers, while recommend art-related books to aesthetic readers. 
+Juji currently focuses on inferring the Big 5 personality traits as its base model, because numerous research studies show that these traits characterize the fundamental individual differences in people and they can influence people's real-world behavior and [predict important life outcomes](https://experts.illinois.edu/en/publications/the-power-of-personality-the-comparative-validity-of-personality-). On top of these basic traits, Juji infers context-specific user characteristics, e.g., one's [reader DNA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2964424/), which can then be used to help users find products or services that match with their innate needs. For example, a chatbot would recommend self-enhancement or business books to cerebral readers, while recommend art-related books to aesthetic readers. 
 
 ## Reliability
 
@@ -64,7 +64,7 @@ The above graph shows that the model produced an acceptable reliability (> 0.8) 
 
 In addition to reliability, another important measure is [validity](https://en.wikipedia.org/wiki/Validity_(statistics)), which assesses whether the inferred trait scores correspond to real-world user behavior (e.g., predicting a user's behavior or preference). Since measuring validity is often context sensitive, experiments or studies need to be carried out in a particular context. For example, [Xiao et al.](https://dl.acm.org/doi/10.1145/3301275.3302264) show that personality trait scores inferred by a Juji chatbot can predict team performance. 
 
-# Personalize Conversations by Individual Differences with No Coding
+# Personalize Conversations by Individual Differences
 
 To help chatbot designers easily personalize each conversation experience, Juji provides a set of functions and "message cards", which allow a designer to personalize chatbot messages for each persona. As shown in the screenshot below, a designer can personalize an e-commerce chatbot's messages to different shoppers based on their shopper DNA. 
 
