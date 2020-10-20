@@ -66,7 +66,11 @@ In addition to reliability, another important measure is [validity](https://en.w
 
 # Personalize Conversations by Individual Differences
 
-To help chatbot designers easily personalize each conversation experience, Juji provides a set of functions and "message cards", which allow a designer to personalize chatbot messages for each persona. As shown in the screenshot below, a designer can personalize an e-commerce chatbot's messages to different shoppers based on their shopper DNA. 
+To help chatbot designers easily personalize each conversation experience, Juji provides a set of functions and "message cards", which allow a designer to personalize chatbot messages for each inferred user persona. 
+
+## How to Personalize Chatbot Messages
+
+One easy way is to customize a pre-made "message card" based on inferred individual differences. Currently Juji provides two pre-made message cards, one allowing you to customize chatbot messages to match inferred shopper personas, while the other allowing you to customize chatbot messages to match base personas. As shown in the screenshot below, a designer can personalize an e-commerce chatbot's messages by each shopper persona. In a conversation, a chatbot will send a custom message to a user based on the user's shopper persona inferred during the conversation. To ensure accuracy, currently a chatbot would not send out a custom message if it does not have enough information (e.g., few words) to infer a user's shopper persona. 
 
 ![personalize conversation messages to different shoppers based on shopper persona]()
 
