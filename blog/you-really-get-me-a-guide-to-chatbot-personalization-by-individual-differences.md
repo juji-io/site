@@ -71,6 +71,5 @@ With great power comes great responsibility. Now that a chatbot can deeply under
 # Further Reading
 
 * Here is [a tutorial video](https://juji.io/docs/tutorial/#send-personalized-messages-by-user-personas) showing how to personalize chatbot messages based on inferred individual differences with no coding.
-* Here is a more [in-depth talk ](https://www.youtube.com/watch?v=V5xBqcMqT2o)on this topic.
-
- * If you haven't done so, [sign up](https://juji.io/signup) on Juji to create your own chatbot and personalize its messages based on Juji inferred individual differences.
+* Here is a more [in-depth talk ](https://www.youtube.com/watch?v=V5xBqcMqT2o)given at the [RecSys 2020](https://recsys.acm.org/recsys20/) on this topic.
+* If you haven't done so, [sign up](https://juji.io/signup) on Juji to create your own chatbot and personalize its messages based on Juji inferred individual differences.
