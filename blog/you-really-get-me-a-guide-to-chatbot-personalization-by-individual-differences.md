@@ -80,9 +80,27 @@ Likewise, a designer can personalize a healthcare chatbot's messages to differen
 
 ![personalize conversation messages to different users in a healthcare application based on their brand persona]()
 
+In addition to using pre-made message cards as shown above, one can use system functions as preconditions to personalize chatbot messages by individual differences. For example, if you wish that a chatbot sends a message only to someone who is caring and warm-hearted (is-helper), you can then insert this function as a precondition of a chatbot message so the message will be sent to only users who possess such characteristics. See below the screenshot
+
+## When to Personalize Chatbot Messages
+
+The next question is when a chatbot designer should personalize chatbot messages by individual differences? 
+
+### Help Cold Start
+
+One effective use of personalization by individual differences is to help [cold start](https://en.wikipedia.org/wiki/Cold_start_(computing)), such as onboarding a new user or introducing a new product. In such situations, a chatbot often does not have other sources of information to personalize its messages. For example, a chatbot does not have the past activities of a new user or it does not have user purchasing history or reviews of a new product.  
+
+For a new user, using Juji's approach a chatbot can chat with a new user by asking the typical onboarding questions. In addition to gathering the basic onboarding information, this chatbot can also infer the user's individual differences from the conversation and now can make recommendations without the user past activities. 
+
+For a new product, a chatbot can describe the value of product that matches the individual differences of users even though the users have not experienced the product yet. For example, users who desire safety love safe, high-quality products, while users who are highly curious and open to new experiences would enjoy innovative products. 
+
+### Help Longitudinal Engagement
+
+Knowing users' individual differences also helps a chatbot engage with users longitudinally. For example, a chatbot serving as a personal wellness assistant will need to engage with a user on a daily basis. Knowing the likes and dislikes of the user, the chatbot could keep the user stay engaged as well as better persuade the user to fulfill the required tasks, such as adhere to a particular care treatment. Not only will such a chatbot improve user engagement, but it will also improve care outcomes.     
+
 # Make Responsible Chatbots
 
-With great power comes great responsibility. Now that a chatbot can deeply understand its users,  how can we ensure the responsibility of such a chatbot? For example, if a chatbot detects a shopper's impulsive buying behavior, how can we make sure that the chatbot does not indulge the shopper to buy more? Similarly, if a chatbot detects a gamer's addiction to violent games, how can we make sure that the chatbot does not encourage the gamer to become more addicted? We sincerely hope that organizations will adhere to ethical guidelines and develop responsible chatbots that can truly help their users instead of harm them.
+With great power comes great responsibility. Now that a chatbot can deeply understand its users,  how can we ensure the responsibility of such a chatbot? For example, if a chatbot detects a shopper's impulsive buying behavior, how can we make sure that the chatbot does not indulge the shopper to buy more? Similarly, if a chatbot detects a gamer's addiction to violent games, how can we make sure that the chatbot does not encourage the gamer to become more addicted? In my next blog, I will talk more about how to make responsible chatbots that can help people but not harm them. 
 
 # Further Readings
 
