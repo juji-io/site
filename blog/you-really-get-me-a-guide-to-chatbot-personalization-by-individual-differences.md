@@ -96,7 +96,7 @@ As shown in the screenshot below, a chatbot designer can personalize an e-commer
 
 ![personalize conversation messages to different shoppers based on shopper persona](/assets/uploads/screen-shot-2020-10-24-at-9.56.13-pm.png)
 
-Likewise, a designer can personalize a healthcare chatbot's messages to different users based on their base personas. Again, such a chatbot just needs to carry on a natural conversation with a user, such as asking users how they are doing, and use such a conversation to infer the user's individual differences and then send custom messages based on the inference results (e.g., sending a custom message to one who is thoughtful and cautious versus someone who is warm-hearted and caring).   
+Likewise, a designer can personalize a chatbot's messages to different users based on their base personas, such as giving career advices. Again, such a chatbot just needs to carry on a natural conversation with a user, such as asking users how they are doing, and use such a conversation to infer the user's individual differences and then send custom messages based on the inference results (e.g., sending a custom message to one who is thoughtful and cautious versus someone who is warm-hearted and caring).   
 
 ![Select a custom message card tailored to users based on their general personas](/assets/uploads/screen-shot-2020-10-24-at-9.56.37-pm.png)
 
