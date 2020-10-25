@@ -28,15 +28,23 @@ Sam is a new customer to a restaurant and has never ordered anything from the re
 
 Luna just got her driver's license and wants to buy her first car. Since Luna has never owned a car before, she could provide only a price constraint, e.g., under $15,000. With a number of cars that meet the price constraint, what kind of cars a chatbot on a website like [carmax](https://www.carmax.com/cars) should recommend to Luna ? If the chatbot knows that Luna has keen artistic interests and loves stylish things, it would recommend a stylish car like Mini Cooper or VW Beetle. 
 
+
+
 ## Personalized Nudging for Healthcare
 
 Emma uses a wellness mobile app for anger management. Emma is supposed to interact with the app, document her emotional states, and practice anger management on a daily basis. How should the app's chatbot encourage Emma to stay on course when Emma wants to quit? If the chatbot knows that Emma is ambitious and values self-empowerment, it can encourage Emma to stick to the program for the benefits that she cares about. 
 
+![A personal wellness chatbot encourages a user to continue wellness exercise](/assets/uploads/screen-shot-2020-10-24-at-9.02.28-pm.png)
+
 Amy has diabetes but loves sweets. How should a chatbot that serves as her personal wellness assistant can help persuade Amy to reduce her sweets intake? If the chatbot knows that Amy is intellectually curious and open to new experience, the chatbot may suggest that Amy solves a puzzle whenever she craves sweets. 
+
+![A personal wellness chatbot persuades a user who craves candy bars to reduce the intake](/assets/uploads/screen-shot-2020-10-24-at-8.51.12-pm.png)
 
 ## Personalized Career Advice
 
 Phil is a senior in college. To prepare for his upcoming job interviews, Phil practices interviews with [an interview chatbot](https://dl.acm.org/doi/10.1145/3232077). What kind of advices the chatbot should give Phil and help him succeed in his job interviews? Knowing that Phil is thoughtful and cautious but often unwilling to state his opinions, the chatbot can encourage Phil to be bolder and more decisive when expressing his thoughts during an interview.
+
+
 
 # Challenges in Learning Individual Differences
 
