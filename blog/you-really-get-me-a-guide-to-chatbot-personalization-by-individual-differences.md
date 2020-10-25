@@ -38,7 +38,7 @@ Phil is a senior in college. To prepare for his upcoming job interviews, Phil pr
 
 # Challenges in Learning Individual Differences
 
-![](/assets/uploads/screen-shot-2020-10-24-at-7.58.55-pm.png)
+![Individual differences characterizes each person from three broad aspects: what you like to do, what you are good at, and how you handle life's challenges.](/assets/uploads/screen-shot-2020-10-24-at-7.58.55-pm.png)
 
 All the examples above show that a chatbot would be able to offer personalized suggestions and advices if it knows the [individual differences](https://en.wikipedia.org/wiki/Personality_and_Individual_Differences)--the unique characteristics--of its users. Broadly speaking, individual differences are a set of characteristics that define a person as a unique individual. These characteristics describe a person from three broad aspects. First, they describe what a person likes to do, including the person's passions and interests. Second, they describe what a person is good at, such as the person's talents and skills. Third, they describe how a person deals with life's challenges, such as handling emotional and social challenges. 
 
