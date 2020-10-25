@@ -14,11 +14,11 @@ credit: "Image by Sylvie Charron: https://unsplash.com/@syl_charron66"
 ---
 As indicated by [this post](https://www.forbes.com/sites/blakemorgan/2020/02/18/50-stats-showing-the-power-of-personalization/#ca4ef6c2a942), 84% consumers want to be treated as a unique individual not just a number, while 95% of companies saw 3X ROI from their personalization efforts. Now with the rise of [conversational commerce](https://www.shopify.com/encyclopedia/conversational-commerce#:~:text=Conversational%20commerce%20is%20a%20term,WhatsApp%2C%20Talk%2C%20and%20WeChat.), chatbots become a natural and private channel for brands to engage with users and offer personalized services in one-on-one conversations. In such a conversation, a chatbot can naturally elicit users' needs and wants and then provide personalized help or guidance based on the gathered information. 
 
-However, most chatbot personalization has been done in a "shallow" way by using explicit information collected from users, such as user past activities (e.g., purchasing history), and user explicit preferences (e.g., "I want a car under $5000"). While such information can help personalize a chatbot's interaction with a user, it is often inadequate in many circumstances. 
+However, most chatbot personalization has been done based on users' explicit information, such as user past activities (e.g., purchasing history) and user explicit preferences (e.g., "I want a car under $5000"). While such information can help personalize a chatbot's interaction with a user, it is often inadequate in many circumstances. 
 
 # Chatbot Personalization Examples
 
-Consider the following real-world examples.
+Consider the following examples that cover a wide variety of domains, from e-commerce to healthcare. 
 
 ## Personalized Product Recommendation
 
