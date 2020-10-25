@@ -28,7 +28,11 @@ Sam is a new customer to a restaurant and has never ordered anything from the re
 
 Luna just got her driver's license and wants to buy her first car. Since Luna has never owned a car before, she could provide only a price constraint, e.g., under $15,000. With a number of cars that meet the price constraint, what kind of cars a chatbot on a website like [carmax](https://www.carmax.com/cars) should recommend to Luna ? If the chatbot knows that Luna has keen artistic interests and loves stylish things, it would recommend a stylish car like Mini Cooper or VW Beetle. 
 
+![A chatbot elicits a customer's car preferences.](/assets/uploads/luna-1.png)
 
+![A chatbot elicits a car buyer's price constraint](/assets/uploads/luna-2.png)
+
+![a chatbot recommends a car based on a car buyer's preferences and personality](/assets/uploads/screen-shot-2020-10-24-at-9.36.58-pm.png)
 
 ## Personalized Nudging for Healthcare
 
