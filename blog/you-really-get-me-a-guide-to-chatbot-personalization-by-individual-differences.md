@@ -44,7 +44,7 @@ Amy has diabetes but loves sweets. How should a chatbot that serves as her perso
 
 Phil is a senior in college. To prepare for his upcoming job interviews, Phil practices interviews with [an interview chatbot](https://dl.acm.org/doi/10.1145/3232077). What kind of advices the chatbot should give Phil and help him succeed in his job interviews? Knowing that Phil is thoughtful and cautious but often unwilling to state his opinions, the chatbot can encourage Phil to be bolder and more decisive when expressing his thoughts during an interview.
 
-
+![A chatbot advises a user how to best perform in a job interview]()
 
 # Challenges in Learning Individual Differences
 
