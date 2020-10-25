@@ -26,7 +26,7 @@ Sam is a new customer to a restaurant and has never ordered anything from the re
 
 Luna just got her driver's license and wants to buy her first car. Since Luna has never owned a car before, she could provide only a price constraint, e.g., under $15,000. With a number of cars that meet the price constraint, what kind of cars a chatbot on a website like [carmax](https://www.carmax.com/cars) should recommend to Luna ? If the chatbot knows that Luna has keen artistic interests and loves stylish things, it would recommend a stylish car like Mini Cooper or VW Beetle. 
 
-## Personalized Nudging for Healthcare 
+## Personalized Nudging for Healthcare
 
 Emma uses a wellness mobile app for anger management. Emma is supposed to interact with the app, document her emotional states, and practice anger management on a daily basis. How should the app's chatbot encourage Emma to stay on course when Emma wants to quit? If the chatbot knows that Emma is ambitious and values self-empowerment, it can encourage Emma to stick to the program for the benefits that she cares about. 
 
@@ -37,6 +37,8 @@ Amy has diabetes but loves sweets. How should a chatbot that serves as her perso
 Phil is a senior in college. To prepare for his upcoming job interviews, Phil practices interviews with [an interview chatbot](https://dl.acm.org/doi/10.1145/3232077). What kind of advices the chatbot should give Phil and help him succeed in his job interviews? Knowing that Phil is thoughtful and cautious but often unwilling to state his opinions, the chatbot can encourage Phil to be bolder and more decisive when expressing his thoughts during an interview.
 
 # Challenges in Learning Individual Differences
+
+![](/assets/uploads/screen-shot-2020-10-24-at-7.58.55-pm.png)
 
 All the examples above show that a chatbot would be able to offer personalized suggestions and advices if it knows the [individual differences](https://en.wikipedia.org/wiki/Personality_and_Individual_Differences)--the unique characteristics--of its users. Broadly speaking, individual differences are a set of characteristics that define a person as a unique individual. These characteristics describe a person from three broad aspects. First, they describe what a person likes to do, including the person's passions and interests. Second, they describe what a person is good at, such as the person's talents and skills. Third, they describe how a person deals with life's challenges, such as handling emotional and social challenges. 
 
