@@ -30,3 +30,13 @@ Edit `_data/authors.json`
 ## Add Category to Blog
 
 Edit `_data/categories.json`, then edit `_includes/blog/partials/nav.njk`
+
+## Upgrade Software
+
+`npm outdated` will show the outdated packages
+
+`npm update --save/--save-dev` update all dependencies to the latest, except eleventy itself.
+
+Manually change version of elventy in `package.json`, then `npm install`
+
+Verify eleventy is the latest version `npx @11ty/eleventy --version`
