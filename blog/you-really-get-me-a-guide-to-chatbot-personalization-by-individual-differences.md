@@ -22,9 +22,9 @@ Consider the following examples that cover a wide variety of domains, from e-com
 
 ## Personalized Product Recommendation
 
-Sam is a new customer to a restaurant and has never ordered anything from the restaurant before. Although Sam explicitly expressed that he prefers fish to red meat, there is still a wide range of selection. What kind of dishes should the restaurant's chatbot recommend to a new customer like Sam? Knowing that Sam is family oriented and enjoys down-to-earth food, the chatbot suggests the homestyle, fish set menu for an entire family. 
+Sam is a new customer to a restaurant and has never ordered anything from the restaurant before. Although Sam explicitly expressed that he prefers fish to red meat, there is still a wide range of selections. What kind of dishes should the restaurant's chatbot recommend to a new customer like Sam? However, if a chatbot knows that Sam is family-oriented and enjoys down-to-earth food, it can suggest the homestyle, fish set menu to Sam and his family. 
 
-Luna just got her driver's license and wants to buy her first car. Since Luna has never owned a car before, she can provide only a price constraint, e.g., under $15,000. With a number of cars that meet the price constraint, what kind of cars a chatbot on a website like [carmax](https://www.carmax.com/cars) should recommend to Luna ? If the chatbot knows that Luna has keen artistic interests, it would recommend a used but stylish Mini Cooper or VW Beetle. 
+Luna just got her driver's license and wants to buy her first car. Since Luna has never owned a car before, she could provide only a price constraint, e.g., under $15,000. With a number of cars that meet the price constraint, what kind of cars a chatbot on a website like [carmax](https://www.carmax.com/cars) should recommend to Luna ? If the chatbot knows that Luna has keen artistic interests and loves stylish things, it would recommend a stylish car like Mini Cooper or VW Beetle. 
 
 ## Personalized Nudging for Healthcare 
 
