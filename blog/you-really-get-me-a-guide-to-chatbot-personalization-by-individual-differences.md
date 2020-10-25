@@ -74,7 +74,7 @@ Juji currently focuses on inferring the Big 5 personality traits as its base mod
 
 To assess the quality of the trait inference results, it is important to measure the [reliability](https://en.wikipedia.org/wiki/Reliability_(statistics)) of the method. Reliability is to assess how stable the inferred scores are under consistent conditions. For example, if given a set of 100 randomly sampled words produced by a person, how do the inferred trait scores differ for each set of words? The image below shows the computed [Cronbach's alpha](https://en.wikipedia.org/wiki/Cronbach%27s_alpha) for the inferred scores of the six facets under the Extroversion dimension in the Big 5 personality model. 
 
-![Reliability of inferred "Extroversion" dimension in Big 5 Personality Model]()
+![Reliability of inferred "Extroversion" dimension in Big 5 Personality Model](/assets/uploads/reliability.png)
 
 The above graph shows that the model produced an acceptable reliability (> 0.8) for all the facets except for ***Cheerfulness***, if the number of words used in the inference was over 1000.  This means that the inference of those facets is reliable if it uses more than 1000 words. 
 
