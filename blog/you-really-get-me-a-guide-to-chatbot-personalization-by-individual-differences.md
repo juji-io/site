@@ -92,11 +92,15 @@ One easy way on Juji to personalize chatbot messages by individual differences i
 
 As shown in the screenshot below, a chatbot designer can personalize an e-commerce chatbot's messages by different shopper personas. In a live conversation, a chatbot will send a custom message to a user based on the user's shopper persona inferred during the conversation. To ensure accuracy, currently a chatbot would not send out a custom message if it does not have enough information (e.g., few words) to infer a user's shopper persona. 
 
-![personalize conversation messages to different shoppers based on shopper persona]()
+![personalize conversation messages to different shoppers based on shopper persona](/assets/uploads/screen-shot-2020-10-24-at-9.54.27-pm.png)
+
+![](/assets/uploads/screen-shot-2020-10-24-at-9.56.13-pm.png)
 
 Likewise, a designer can personalize a healthcare chatbot's messages to different users based on their base personas. Again, such a chatbot just needs to carry on a natural conversation with a user, such as asking users how they are doing, and use such a conversation to infer the user's individual differences and then send custom messages based on the inference results (e.g., sending a custom message to one who is thoughtful and cautious versus someone who is warm-hearted and caring).   
 
-![personalize conversation messages to different users in a healthcare application based on their brand persona]()
+![personalize conversation messages to different users in a healthcare application based on their brand persona](/assets/uploads/screen-shot-2020-10-24-at-9.56.37-pm.png)
+
+![](/assets/uploads/screen-shot-2020-10-24-at-9.58.12-pm.png)
 
 In addition to using pre-made message cards as shown above, one can use system functions as preconditions to personalize chatbot messages by individual differences. For example, if you wish that a chatbot sends a message only to someone who is caring and warm-hearted (is-helper), you can then insert this function as a precondition of a chatbot message so the message will be sent to only users who possess such characteristics. See below the screenshot
 
