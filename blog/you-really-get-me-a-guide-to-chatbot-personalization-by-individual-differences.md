@@ -46,6 +46,8 @@ Phil is a senior in college. To prepare for his upcoming job interviews, Phil pr
 
 ![A chatbot advises a user how to best perform in a job interview](/assets/uploads/screen-shot-2020-10-24-at-9.18.16-pm.png)
 
+![A chatbot gives a user interview advice to be bolder and decisive](/assets/uploads/screen-shot-2020-10-24-at-9.18.51-pm.png)
+
 # Challenges in Learning Individual Differences
 
 ![Individual differences characterizes each person from three broad aspects: what you like to do, what you are good at, and how you handle life's challenges.](/assets/uploads/screen-shot-2020-10-24-at-7.58.55-pm.png)
