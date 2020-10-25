@@ -33,7 +33,7 @@
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ article.date | rssDate }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ article.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content type="html">{{ article.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | utf8_xml }}</content>
   </entry>
   {%- endfor %}
   {%- for page in collections.pages %}
@@ -43,7 +43,7 @@
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ page.date | rssDate }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ page.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content type="html">{{ page.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | utf8_xml }}</content>
   </entry>
   {%- endfor %}
 </feed>
