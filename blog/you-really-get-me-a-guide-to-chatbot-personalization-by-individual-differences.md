@@ -18,7 +18,7 @@ However, most chatbot personalization has been done based on users' explicit inf
 
 # Chatbot Personalization Examples
 
-Consider the following examples that cover a wide variety of domains, from e-commerce to healthcare. 
+Consider the following examples in a wide variety of domains, from e-commerce to healthcare. As shown below, a chatbot must know a user's unique characteristics beyond his/her past activities or explicit preferences to serve the user as a unique individual.  
 
 ## Personalized Product Recommendation
 
@@ -28,9 +28,9 @@ Luna just got her driver's license and wants to buy her first car. Since Luna ha
 
 ## Personalized Nudging for Healthcare 
 
-Emma uses a wellness app for anger management. Emma is supposed to interact with the app and document her emotional states on a daily basis. How should the app's chatbot encourage Emma to stay on course when Emma wants to quit? Knowing that Emma is ambitious and values self-empowerment, the chatbot can encourage Emma to stick to the program for the benefits that she cares about. 
+Emma uses a wellness mobile app for anger management. Emma is supposed to interact with the app, document her emotional states, and practice anger management on a daily basis. How should the app's chatbot encourage Emma to stay on course when Emma wants to quit? If the chatbot knows that Emma is ambitious and values self-empowerment, it can encourage Emma to stick to the program for the benefits that she cares about. 
 
- Amy has diabetes but loves sweets. How should a chatbot that serves as her personal wellness assistant can help persuade Amy to reduce sweets intake? Knowing that Amy is intellectually curious and open to new experience, the chatbot may suggest that Amy solves a puzzle whenever she craves sweets. 
+Amy has diabetes but loves sweets. How should a chatbot that serves as her personal wellness assistant can help persuade Amy to reduce her sweets intake? If the chatbot knows that Amy is intellectually curious and open to new experience, the chatbot may suggest that Amy solves a puzzle whenever she craves sweets. 
 
 ## Personalized Career Advice
 
