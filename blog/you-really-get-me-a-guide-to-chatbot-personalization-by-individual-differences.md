@@ -87,7 +87,7 @@ The above graph shows that the model produced an acceptable reliability (> 0.8) 
 
 In addition to reliability, another important measure is [validity](https://en.wikipedia.org/wiki/Validity_(statistics)), which assesses whether the inferred trait scores correspond to real-world user behavior (e.g., predicting a user's behavior or preference). Since measuring validity is often context sensitive, experiments or studies need to be carried out in a particular context. For example, [Xiao et al.](https://dl.acm.org/doi/10.1145/3301275.3302264) show that personality trait scores inferred by a Juji chatbot can predict team performance. 
 
-# Personalize Chatbots by Personality
+# Chatbot Personalization by Personality
 
 To help chatbot designers easily personalize each conversation experience, Juji provides a set of functions and "message cards", which allow a designer to personalize chatbot messages for each inferred user persona. 
 
