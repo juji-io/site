@@ -2,7 +2,7 @@
 layout: blog/article.njk
 featured: true
 title: "Reading Between the Lines: A Guide to Chatbot Personalization based on
-  User Individual Differences"
+  User Personality"
 date: 2020-10-19T20:30:38.135Z
 author: Michelle Zhou
 category: Guides
