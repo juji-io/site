@@ -51,7 +51,7 @@ Phil is a senior in college. To prepare for his upcoming job interviews, Phil pr
 
 ![A chatbot gives a user interview advice to be bolder and decisive](/assets/uploads/screen-shot-2020-10-24-at-9.18.51-pm.png)
 
-# Challenges in Learning Individual Differences
+# Challenges in Learning Personality
 
 ![Individual differences characterizes each person from three broad aspects: what you like to do, what you are good at, and how you handle life's challenges.](/assets/uploads/screen-shot-2020-10-24-at-7.58.55-pm.png)
 
@@ -73,7 +73,7 @@ In the search of more efficient and objective approaches to measuring individual
 
 Juji currently focuses on inferring the Big 5 personality traits as its base model, because numerous research studies show that these traits characterize the fundamental individual differences in people and they can influence people's real-world behavior and [predict important life outcomes](https://experts.illinois.edu/en/publications/the-power-of-personality-the-comparative-validity-of-personality-). On top of these basic traits, Juji infers context-specific user characteristics, e.g., one's [reader DNA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2964424/), which can then be used to help users find products or services that match with their innate needs. For example, a chatbot would recommend self-enhancement or business books to cerebral readers, while recommend art-related books to aesthetic readers. 
 
-## Reliability
+## Reliability: How Stable Are the Inference Results
 
 To assess the quality of the trait inference results, it is important to measure the [reliability](https://en.wikipedia.org/wiki/Reliability_(statistics)) of the method. Reliability is to assess how stable the inferred scores are under consistent conditions. For example, if given a set of 100 randomly sampled words produced by a person, how do the inferred trait scores differ for each set of words? The image below shows the computed [Cronbach's alpha](https://en.wikipedia.org/wiki/Cronbach%27s_alpha) for the inferred scores of the six facets under the Extroversion dimension in the Big 5 personality model. 
 
@@ -81,11 +81,11 @@ To assess the quality of the trait inference results, it is important to measure
 
 The above graph shows that the model produced an acceptable reliability (> 0.8) for all the facets except for ***Cheerfulness***, if the number of words used in the inference was over 1000.  This means that the inference of those facets is reliable if it uses more than 1000 words. 
 
-## Validity
+## Validity: How Useful Are the Inference Results
 
 In addition to reliability, another important measure is [validity](https://en.wikipedia.org/wiki/Validity_(statistics)), which assesses whether the inferred trait scores correspond to real-world user behavior (e.g., predicting a user's behavior or preference). Since measuring validity is often context sensitive, experiments or studies need to be carried out in a particular context. For example, [Xiao et al.](https://dl.acm.org/doi/10.1145/3301275.3302264) show that personality trait scores inferred by a Juji chatbot can predict team performance. 
 
-# Personalize Conversations by Individual Differences
+# Personalize Conversations by Personality
 
 To help chatbot designers easily personalize each conversation experience, Juji provides a set of functions and "message cards", which allow a designer to personalize chatbot messages for each inferred user persona. 
 
