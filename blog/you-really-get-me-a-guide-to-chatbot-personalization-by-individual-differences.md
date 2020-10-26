@@ -125,7 +125,7 @@ One effective use of chatbot personalization by personality is to help [cold sta
 
 For a new user,  a Juji chatbot can chat with a new user by asking the typical on-boarding questions. In addition to gathering the basic on-boarding information, this chatbot will also automatically infer the user's individual differences from the conversation and now can make recommendations without the user past activities. 
 
-For a new product, a Juji chatbot can describe the value of product that matches the personality of users even though the users have not experienced the product yet. For example, users who desire safety would love safe, high-quality products, while users who are highly curious and open to new experiences would enjoy innovative products. 
+For a new product, a Juji chatbot can describe the value of the product that matches the personality of users even though the users have not experienced the product yet. For example, users who desire safety would love safe, high-quality products, while users who are highly curious and open to new experiences would enjoy innovative products. 
 
 ### Help Longitudinal Engagement
 
@@ -133,7 +133,7 @@ Knowing users' individual differences also helps a chatbot engage with users lon
 
 # Make Responsible Chatbots
 
-With great power comes great responsibility. Now that a chatbot can deeply understand its users,  how can we ensure the responsibility of such a chatbot? For example, if a chatbot detects a shopper's impulsive buying behavior, how can we make sure that the chatbot does not indulge the shopper to buy more? Similarly, if a chatbot detects a gamer's addiction to violent games, how can we make sure that the chatbot does not encourage the gamer to become more addicted? In my next blog, I will talk more about how to make responsible chatbots that can help people but not harm them. 
+With great power comes great responsibility. Now that a chatbot can deeply understand its users,  how can we ensure the responsibility of such a chatbot? For example, if a chatbot detects a shopper's impulsive buying behavior, how can we make sure that the chatbot does not indulge the shopper to buy more? Similarly, if a chatbot detects a gamer's addiction to violent games, how can we make sure that the chatbot does not encourage the gamer to become more addicted? In the near future, I will blog more about how to make responsible chatbots that can truly help people but not harm them. 
 
 # Further Readings
 
