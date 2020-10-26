@@ -95,15 +95,19 @@ To help chatbot designers easily personalize each conversation experience, Juji 
 
 One easy way on Juji to personalize chatbot messages by individual differences is to customize a pre-made "message card". Currently Juji provides two pre-made message cards: one allowing a chatbot designer to customize chatbot messages to match inferred shopper personas, while the other allowing a chatbot designer to customize chatbot messages to match a set of base personas. 
 
-As shown in the screenshot below, a chatbot designer can personalize an e-commerce chatbot's messages by different shopper personas. In a live conversation, a chatbot will send a custom message to a user based on the user's shopper persona inferred during the conversation. To ensure accuracy, currently a chatbot would not send out a custom message if it does not have enough information (e.g., few words) to infer a user's shopper persona. 
+As shown in the screenshot below, a chatbot designer can personalize an e-commerce chatbot's messages by different shopper personas. In a live conversation, a chatbot will send a custom message to a user based on the user's shopper persona inferred from the conversation. 
 
 ![Choose a custom message card directed to different shopper personas](/assets/uploads/screen-shot-2020-10-24-at-9.54.27-pm.png)
 
+The screenshot below lists all shopper personas that Juji automatically infers.  In other words, a chatbot can send different messages or recommend different products to users with different shopper personas. For example, a chatbot may recommend high-quality, brand-name products to users with an inferred "Achiever" persona, while suggest innovative, new products to users with an inferred "Explorer" persona. To ensure accuracy, currently a chatbot would not send out a custom message if it does not have enough information (e.g., few words) to infer a user's shopper persona. 
+
 ![personalize conversation messages to different shoppers based on shopper persona](/assets/uploads/screen-shot-2020-10-24-at-9.56.13-pm.png)
 
-Likewise, a designer can personalize a chatbot's messages to different users based on their base personas, such as giving career advices. Again, such a chatbot just needs to carry on a natural conversation with a user, such as asking users how they are doing, and use such a conversation to infer the user's individual differences and then send custom messages based on the inference results (e.g., sending a custom message to one who is thoughtful and cautious versus someone who is warm-hearted and caring).   
+Likewise, a designer can personalize a chatbot's messages to different users based on their base personas, such as giving career advices. Again, such a chatbot just needs to carry on a natural conversation with a user, such as asking users how they are doing, and use such a conversation to infer the user's individual differences and then send custom messages based on the inference results. As shown below, Juji also automatically infers a set of base personas.  
 
 ![Select a custom message card tailored to users based on their general personas](/assets/uploads/screen-shot-2020-10-24-at-9.56.37-pm.png)
+
+A chatbot designer can easily customize a chatbot's messages to users based on their inferred base personas. For example, a designer can customize a chatbot's message to one who has a "thinker" persona (thoughtful and cautious) versus to a user who has a "helper" persona (warm-hearted and caring).  
 
 ![personalize conversation messages to different users by their career DNA](/assets/uploads/screen-shot-2020-10-24-at-9.58.12-pm.png)
 
