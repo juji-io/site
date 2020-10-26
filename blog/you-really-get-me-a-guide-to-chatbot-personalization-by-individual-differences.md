@@ -39,7 +39,7 @@ Emma uses a wellness mobile app for anger management. Emma is supposed to intera
 
 ![A personal wellness chatbot encourages a user to continue wellness exercise](/assets/uploads/screen-shot-2020-10-24-at-9.02.28-pm.png)
 
-Amy has diabetes but loves sweets. How should a chatbot that serves as her personal wellness assistant can help persuade Amy to reduce her sweets intake? If the chatbot knows that Amy is intellectually curious and open to new experience, the chatbot may suggest that Amy solves a puzzle whenever she craves sweets. 
+Amy has diabetes but loves sweets. How should a chatbot that serves as her personal wellness assistant can help persuade Amy to reduce her sweets intake? If the chatbot knows that Amy is intellectually curious and like challenges and winning, the chatbot may suggest that Amy solves a puzzle whenever she craves sweets. 
 
 ![A personal wellness chatbot persuades a user who craves candy bars to reduce the intake](/assets/uploads/screen-shot-2020-10-24-at-8.51.12-pm.png)
 
@@ -55,7 +55,7 @@ Phil is a senior in college. To prepare for his upcoming job interviews, Phil pr
 
 ![Individual differences characterizes each person from three broad aspects: what you like to do, what you are good at, and how you handle life's challenges.](/assets/uploads/screen-shot-2020-10-24-at-7.58.55-pm.png)
 
-All the examples above show that a chatbot would be able to offer personalized suggestions and advices if it knows the ***[individual differences](https://en.wikipedia.org/wiki/Personality_and_Individual_Differences)***--the unique characteristics--of its users. Broadly speaking, individual differences are a set of characteristics that define a person as a unique individual, also known as one's ***personality***. One's personality describes a person from three broad aspects: 
+All the examples above show that a chatbot would be able to offer personalized suggestions and advices if it knows the personality of its users. Broadly speaking, ***personality*** includes a set of characteristics that define a person as a unique individual, also known as ***[individual differences](https://en.wikipedia.org/wiki/Personality_and_Individual_Differences)***. One's personality describes a person from three broad aspects: 
 
 1. **What a person likes to do**, including the person's passions and interests. 
 2. **What a person is good at**, such as the person's talents and skills. 
