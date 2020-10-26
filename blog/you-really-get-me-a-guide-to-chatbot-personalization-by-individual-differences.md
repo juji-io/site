@@ -125,7 +125,7 @@ One effective use of chatbot personalization by personality is to help [cold sta
 
 For a new user,  a Juji chatbot can chat with a new user by asking the typical on-boarding questions. In addition to gathering the basic on-boarding information, this chatbot will also automatically infer the user's individual differences from the conversation and now can make recommendations without the user past activities. 
 
-For a new product, a Juji chatbot can describe the value of product that matches the individual differences of users even though the users have not experienced the product yet. For example, users who desire safety love safe, high-quality products, while users who are highly curious and open to new experiences would enjoy innovative products. 
+For a new product, a Juji chatbot can describe the value of product that matches the personality of users even though the users have not experienced the product yet. For example, users who desire safety would love safe, high-quality products, while users who are highly curious and open to new experiences would enjoy innovative products. 
 
 ### Help Longitudinal Engagement
 
