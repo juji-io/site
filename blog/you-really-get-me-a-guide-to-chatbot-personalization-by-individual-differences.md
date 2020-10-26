@@ -111,7 +111,9 @@ A chatbot designer can easily customize a chatbot's messages to users based on t
 
 ![personalize conversation messages to different users by their career DNA](/assets/uploads/screen-shot-2020-10-24-at-9.58.12-pm.png)
 
-In addition to using pre-made message cards as shown above, one can use system functions as preconditions to personalize chatbot messages by individual differences. For example, if you wish that a chatbot sends a message only to someone who is caring and warm-hearted (is-helper), you can then insert this function as a precondition of a chatbot message so the message will be sent to only users who possess such characteristics. See below the screenshot
+In addition to using pre-made message cards as shown above, one can use system functions as preconditions to personalize chatbot messages by individual differences. For example, if you wish that a chatbot sends a message only to someone who is caring and warm-hearted (is-helper), you can then insert this function as a precondition of a remark so the message will be sent to only users who possess such characteristics. See below the screenshot.
+
+![Use an inferred persona (is-helper?) as a precondition so a chatbot can send a custom message to matched users](/assets/uploads/screen-shot-2020-10-26-at-11.53.17-am.png)
 
 ## When to Personalize Chatbot Messages
 
