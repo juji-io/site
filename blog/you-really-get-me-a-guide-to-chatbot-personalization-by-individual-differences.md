@@ -17,7 +17,7 @@ However, most chatbot personalization has been done based on users' explicit inf
 
 # Chatbot Personalization Examples
 
-Consider the following examples that cover a wide variety of chatbot applications, including e-commerce and healthcare. All the examples shown below, a chatbot must know a user's unique characteristics beyond his/her past activities or explicit preferences to serve the user as a unique individual.  
+Consider the following examples that cover a wide variety of chatbot applications, including e-commerce and healthcare. To serve a user as a unique individual, these examples show that a chatbot must know a user much more deeply beyond his/her past activities or explicit preferences.  
 
 ## Personalized Product Recommendation
 
