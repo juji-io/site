@@ -19,9 +19,9 @@ However, most chatbot personalization has been done based on users' explicit inf
 
 Consider the following examples that cover a wide variety of chatbot applications, including e-commerce and healthcare. To serve a user as a unique individual, these examples show that a chatbot must know a user much more deeply beyond his/her past activities or explicit preferences.  
 
-## Personalized Product Recommendation
+## Personalizing Product Recommendation
 
-Sam is a new customer to a restaurant and has never ordered anything from the restaurant before. Although Sam explicitly expressed that he prefers fish to red meat, there is still a wide range of selections. What kind of dishes should the restaurant's chatbot recommend to a new customer like Sam? However, if a chatbot knows that Sam is family-oriented and enjoys down-to-earth food, it can suggest the homestyle, fish banquet to Sam and his family. 
+Sam is a new customer to a restaurant and has never ordered anything from the restaurant before. Although Sam explicitly expressed that he prefers fish to red meat, there is still a wide range of selections. What kind of dishes should the restaurant's chatbot recommend to a new customer like Sam? If a chatbot knows that Sam is family-oriented and enjoys down-to-earth food, it can suggest the homestyle, fish banquet to Sam and his family. 
 
 ![A chatbot recommends a fish banquet to a family-oriented customer who likes fish and down-to-earth food](/assets/uploads/restaurant-recommendation.png)
 
