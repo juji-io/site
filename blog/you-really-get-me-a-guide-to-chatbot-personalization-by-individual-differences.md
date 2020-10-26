@@ -21,11 +21,11 @@ Consider the following examples that cover a wide variety of chatbot application
 
 ## Personalizing Product Recommendation
 
-Sam is a new customer to a restaurant and has never ordered anything from the restaurant before. Although Sam explicitly expressed that he prefers fish to red meat, there is still a wide range of selections. What kind of dishes should the restaurant's chatbot recommend to a new customer like Sam? If a chatbot knows that Sam is family-oriented and enjoys down-to-earth food, it can suggest the homestyle, fish banquet to Sam and his family. 
+Sam is a new customer to a restaurant and has never ordered anything from the restaurant before. Although Sam explicitly expressed that he prefers fish to red meat, there is still a wide range of selections. What kind of dishes should the restaurant's chatbot recommend to a new customer like Sam? If the chatbot knows that Sam is family-oriented and enjoys down-to-earth food, it could then suggest the homestyle, fish banquet to Sam and his family. 
 
 ![A chatbot recommends a fish banquet to a family-oriented customer who likes fish and down-to-earth food](/assets/uploads/restaurant-recommendation.png)
 
-Luna just got her driver's license and wants to buy her first car. Since Luna has never owned a car before, she could provide only a price constraint, e.g., under $15,000. With a number of cars that meet the price constraint, what kind of cars a chatbot on a website like [carmax](https://www.carmax.com/cars) should recommend to Luna ? If the chatbot knows that Luna has keen artistic interests and loves stylish things, it would recommend a stylish car like Mini Cooper or VW Beetle. 
+Luna just got her driver's license and wants to buy her first car. Since Luna has never owned a car before, she could provide only a price constraint, e.g., under $15,000. With a number of cars that meet the price constraint, what kind of cars a chatbot on a website like [carmax](https://www.carmax.com/cars) should recommend to Luna ? If the chatbot knows that Luna has keen artistic interests and loves stylish products, it would recommend a stylish car like Mini Cooper or VW Beetle. 
 
 ![A chatbot elicits a customer's car preferences.](/assets/uploads/luna-1.png)
 
@@ -33,9 +33,9 @@ Luna just got her driver's license and wants to buy her first car. Since Luna ha
 
 ![a chatbot recommends a car based on a car buyer's preferences and personality](/assets/uploads/screen-shot-2020-10-24-at-9.36.58-pm.png)
 
-## Personalized Nudging for Healthcare
+## Personalizing Wellness/Healthcare Nudging
 
-Emma uses a wellness mobile app for anger management. Emma is supposed to interact with the app, document her emotional states, and practice anger management on a daily basis. How should the app's chatbot encourage Emma to stay on course when Emma wants to quit? If the chatbot knows that Emma is ambitious and values self-empowerment, it can encourage Emma to stick to the program for the benefits that she cares about. 
+Emma uses a wellness mobile app for anger management. Emma is supposed to interact with the app, document her emotional states, and practice anger management on a daily basis. How should the app's chatbot encourage Emma to stay on course when Emma does not do what she is supposed to do? If the chatbot knows that Emma is ambitious and values self-empowerment, it can encourage Emma to stick to the program for the benefits that she cares about. 
 
 ![A personal wellness chatbot encourages a user to continue wellness exercise](/assets/uploads/screen-shot-2020-10-24-at-9.02.28-pm.png)
 
@@ -61,7 +61,7 @@ All the examples above show that a chatbot would be able to offer personalized s
 2. **What a person is good at**, such as the person's talents and skills. 
 3. **How a person deals with life's challenges**, such as handling emotional and social challenges. 
 
-Now comes the question: ***how could a chatbot learn each user's individual differences or personality***? Traditionally, psychologists learn individual differences by asking people to take item-based surveys, such as [a personality test](https://www.personalityassessor.com/ipip300/). In such a survey or test, people score themselves on a set of items. A chatbot can certainly use the same approach to learn its users' individual differences by asking each user to take an item-based test. 
+Now comes the question: ***how can a chatbot learn each user's individual differences or personality***? Traditionally, psychologists learn individual differences by asking people to take item-based surveys, such as [a personality test](https://www.personalityassessor.com/ipip300/). In such a survey or test, people score themselves on a set of items. A chatbot can certainly use the same approach to learn its users' individual differences by asking each user to take an item-based test. 
 
 However, such an approach has several drawbacks. First, it may be awkward to ask a user to take a test (e.g., "Welcome to Walmart, would you like to take a personality test?"). Second, users may not be always truthful in such a test due to social desirability biases especially in high-stakes situations (see [testers cheat on the item-based self assessment](https://uh.edu/~ttian/Fan_JAP.pdf)). Third, the items in a test are usually come up by Psychologists in a lab, and may be out of context for some users. For example, if a person has never watched ballet, the test item asking him/her how much s/he likes ballet is out of context. Fourth, it is difficult to assess the results objectively based on self scoring. For example,  on the item "I love ballet", one person's self-score of 5 might mean a different degree of love than that of another person. Additionally, people's [individual differences do change over time](https://www.dropbox.com/s/t9yym3mw7hc34fn/Caspi%20%26%20Roberts%202001.pdf?dl=0), it would be burdensome and impractical to ask users to take tests repeatedly and track their changes. 
 
