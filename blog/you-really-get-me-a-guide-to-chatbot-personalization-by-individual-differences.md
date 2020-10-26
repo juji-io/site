@@ -117,7 +117,7 @@ In addition to using pre-made message cards as shown above, one can use system f
 
 ## When to Personalize Chatbot Messages
 
-The next question is when a chatbot designer should personalize chatbot messages by individual differences? 
+Now I have explained how a chatbot designer can easily customize a Juji chatbot's messages by different inferred user personas, the next question is when a chatbot designer should do so to get the best value? 
 
 ### Help Cold Start
 
