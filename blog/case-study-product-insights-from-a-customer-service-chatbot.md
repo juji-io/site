@@ -10,4 +10,4 @@ tags:
 image: /assets/uploads/nordwood-themes-q8u1ygbarqk-unsplash.jpg
 credit: Image by https://unsplash.com/@nordwood
 ---
-JumpStart® produces high-quality educational games that provide positive, safe and fun experiences. Their games have earned the trust of millions of teachers, parents, and respected organizations such as Common Sense Media and The National Parenting Center.
+JumpStart® is the leader in creating interactive family experiences that enrich, entertain and educate. It produces high-quality educational games that provide positive, safe and fun experiences. Their games have earned the trust of millions of teachers, parents, and respected organizations such as Common Sense Media and The National Parenting Center.
