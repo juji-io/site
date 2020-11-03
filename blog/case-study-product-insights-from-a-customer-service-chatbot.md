@@ -12,12 +12,10 @@ credit: Image by https://unsplash.com/@nordwood
 ---
 JumpStart® is the leader in creating interactive family experiences that enrich, entertain and educate. It produces high-quality educational games that provide positive, safe and fun experiences. Their games have earned the trust of millions of teachers, parents, and respected organizations such as Common Sense Media and The National Parenting Center.
 
-The Challenge
+# The Challenge
 
+Since online learning becomes increasingly more important, the JumpStart team developed and launched a new online service called Activity Studio. This  service enables teachers to create, share, and assign fun, game-like learning materials to their students. In managing this new service, the team faced several challenges:  
 
+# Implementation
 
-Implementation
-
-
-
-The Outcomes
+# The Outcome
