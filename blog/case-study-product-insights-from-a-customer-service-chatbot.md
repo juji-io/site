@@ -71,4 +71,4 @@ Johnny is also a natural channel for the product team to introduce new or import
 
 # Summary
 
-In short, this case study describes the creation of an online learning chatbot
+In short, this case study describes the creation of an online learning chatbot that performs three functions in one: automating customer services (free-text Q&A), eliciting product insights, and introducing product features. It also demonstrated a successful use case where a customer service chatbot can multitask to serve the purposes of product development and product marketing.
