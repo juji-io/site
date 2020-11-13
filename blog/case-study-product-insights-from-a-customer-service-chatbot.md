@@ -6,7 +6,8 @@ date: 2020-10-27T04:06:02.717Z
 author: Michelle Zhou
 category: Study
 tags:
-  - customerservice
+  - customer service
+  - online learning
 image: /assets/uploads/nordwood-themes-q8u1ygbarqk-unsplash.jpg
 credit: Image by https://unsplash.com/@nordwood
 ---
@@ -56,10 +57,18 @@ Johnny has served over 50000 users during the last six months. It provides sever
 
 ## Automate Customer Support
 
-Johnny automated frequently asked customer questions, such as the use of certain service features (e.g., how to share a game) and certain operations (e.g., login). This relieves much human effort, which could be directed to more important tasks (e.g., content creation and feature improvements).
+Johnny automated frequently asked customer questions, such as the use of certain service features (e.g., how to share a game) and certain operations (e.g., login), 24x7. This relieves much human effort, which could be directed to more important tasks (e.g., content creation and feature improvements).
 
 ## Product Insights 
 
-Through the interaction, Johnny was also able to know what features users care about most as well as their needs and pain points. For example, teachers' questions, such as "*how can I view my students' results"* and "*how do I check my students' learning progress" ,* enabledthe product team to improve the reporting functions of Activity Studio and make the service truly customer centric. 
+Through the interaction, Johnny was also able to know what features users care about the most as well as their needs and pain points. For example, teachers' questions, such as "*how can I view my students' results"* and "*how do I check my students' learning progress" ,* enabledthe product team to improve the reporting functions of Activity Studio and make the service truly customer centric. 
 
-"Activity Studio has been evolving rapidly and has been improved constantly due to the fast customer feedback gathered by Johnny. Without the chatbot, I could not think of a better way for us to collect such precious user feedback so effectively and so quickly."  mentioned by Tracy Chi, who is the Senior Director in charge of the development of Activity Studio.
+"Activity Studio has been evolving rapidly and has been improved constantly due to the fast customer feedback gathered by Johnny. Without the chatbot, I could not think of a better way for us to collect such precious user feedback so effectively and so quickly."  mentioned by Tracy Chi, who is the Senior Director in charge of the development of Activity Studio. 
+
+## A Natural Channel for Introducing Product Features
+
+Johnny is also a natural channel for the product team to introduce new or important features to users. Not only does this help the product team learn about user needs (e.g., users care about one feature other the other), but it also enables users to learn about the service easily, saving users' time to search for needed features or services. 
+
+# Summary
+
+In short, this case study describes the creation of an online learning chatbot
