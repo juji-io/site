@@ -12,13 +12,13 @@ credit: Image by https://unsplash.com/@nordwood
 ---
 JumpStart® is the leader in creating interactive experiences that enrich, entertain and educate. It produces high-quality educational games that provide positive, safe and fun experiences. Their games have earned the trust of millions of teachers, parents, and respected organizations such as Common Sense Media and The National Parenting Center.
 
-# The Challenge
+# The Challenges
 
 As online learning has become increasingly more important, the JumpStart team developed and launched a new online service called [Activity Studio](https://activity.jumpstart.com/#/). This  service enables teachers to create, share, and use fun, game-based learning in their teaching activities. On the other hand, these online learning materials can help improve student engagements and boost students' learning interests. 
 
 Because it is a new service, the team faced several challenges. First, it was time consuming to manually respond to user questions because it did not have a comprehensive user manual or FAQs.  Second, it is unclear why certain users abandoned their activities and there was no easy way to engage with such users during their activities and collect their feedback so their feedback can be used to improve the service. 
 
-# Implementation
+# The Implementation
 
 To address the two challenges mentioned above, the service team designed and implemented a chatbot, called Johnny, which performs three tasks:
 
@@ -51,3 +51,15 @@ In addition to answering and asking user questions, the chatbot Johnny also serv
 ![The online education chatbot Johnny teaches users the key features of the new service]()
 
 # The Outcome
+
+Johnny has served over 50000 users during the last six months. It provides several key values as described below.
+
+## Automate Customer Support
+
+Johnny automated frequently asked customer questions, such as the use of certain service features (e.g., how to share a game) and certain operations (e.g., login). This relieves much human effort, which could be directed to more important tasks (e.g., content creation and feature improvements).
+
+## Product Insights 
+
+Through the interaction, Johnny was also able to know what features users care about most as well as their needs and pain points. For example, teachers' questions, such as "*how can I view my students' results"* and "*how do I check my students' learning progress" ,* enabledthe product team to improve the reporting functions of Activity Studio and make the service truly customer centric. 
+
+"Activity Studio has been evolving rapidly and has been improved constantly due to the fast customer feedback gathered by Johnny. Without the chatbot, I could not think of a better way for us to collect such precious user feedback so effectively and so quickly."  mentioned by Tracy Chi, who is the Senior Director in charge of the development of Activity Studio.
