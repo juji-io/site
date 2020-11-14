@@ -51,6 +51,12 @@ In addition to answering and asking user questions, the chatbot Johnny also serv
 
 ![The online education chatbot Johnny teaches users the key features of the new service]()
 
+## Use Juji Studio and Juji API
+
+To support all three functions described above, the JumpStart team uses [Juji Studio](https://juji.io/no-coding-ai-chatbot-builder/), a no-coding AI chatbot builder, to [build the main chatbot flow](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) of Johnny. The team also uploaded a small Q&A list, including the most common questions, such as "*What's Activity Studio*". Although the JumpStart team can directly embed the deployed Johnny into their website, the team decided to use [Juji API](https://juji.io/ai-chatbot-api/) to integrate Johnny into the Activity Studio web application. This enables Johnny to be an integral part of the website (e.g., Johnny could be activated based on user activities on the website) and makes its appearance consistent with the rest of the website. 
+
+After Johnny is deployed, the team also used the [Juji results dashboard](https://juji.io/blog/q-a-dashboard/) to monitor Johnny's status and improve Johnny progressively.  
+
 # The Outcome
 
 Johnny has served over 50000 users during the last six months. It provides several key values as described below.
@@ -71,4 +77,12 @@ Johnny is also a natural channel for the product team to introduce new or import
 
 # Summary
 
-In short, this case study describes the creation of an online learning chatbot that performs three functions in one: automating customer services (free-text Q&A), eliciting product insights, and introducing product features. It also demonstrated a successful use case where a customer service chatbot can multitask to serve the purposes of product development and product marketing.
+In short, this case study describes the creation of an online learning chatbot that performs three functions in one: automating customer services (free-text Q&A), eliciting product insights, and introducing product features. It also demonstrated a successful use case where a customer service chatbot can multitask to serve the purposes of product development and product marketing. 
+
+# Relevant Resources
+
+* [How to create a multipurpose chatbot ](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/)that can perform multiple tasks, including customer service and marketing in one chat.
+
+* [How to power a customer service chatbot that is versatile and robust](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
+
+[](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
