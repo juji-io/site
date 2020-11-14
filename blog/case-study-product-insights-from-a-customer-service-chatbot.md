@@ -29,7 +29,7 @@ To address the two challenges mentioned above, the service team designed and imp
 
 There are two versions of Johnny, [one serving teachers](https://activity.jumpstart.com/#/jsaactivity) while the [other serving students](https://activity.jumpstart.com/#/student). 
 
-## Anwer user questions about the service
+## Anwer free-text user questions about the service
 
 Like any new service deployed, initial users (i.e., teachers and students) normally have questions regarding the service. For example, the users want to know how the service can help them or a particular feature of the services. Since such user questions can be quite diverse, Jonny was designed to enable users to ask free-text questions instead of being forced to traverse a fixed tree-based menu and find help. 
 
@@ -65,7 +65,7 @@ Johnny has served over 50000 users during the last six months. It provides sever
 
 Johnny automated frequently asked customer questions, such as the use of certain service features (e.g., how to share a game) and certain operations (e.g., login), 24x7. This relieves much human effort, which could be directed to more important tasks (e.g., content creation and feature improvements).
 
-## Product Insights 
+## Product Insights
 
 Through the interaction, Johnny was also able to know what features users care about the most as well as their needs and pain points. For example, teachers' questions, such as "*how can I view my students' results"* and "*how do I check my students' learning progress" ,* enabledthe product team to improve the reporting functions of Activity Studio and make the service truly customer centric. 
 
@@ -82,7 +82,6 @@ In short, this case study describes the creation of an online learning chatbot t
 # Relevant Resources
 
 * [How to create a multipurpose chatbot ](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/)that can perform multiple tasks, including customer service and marketing in one chat.
-
 * [How to power a customer service chatbot that is versatile and robust](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
 
 [](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
