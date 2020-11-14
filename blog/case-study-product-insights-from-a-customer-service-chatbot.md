@@ -35,13 +35,17 @@ Like any new service deployed, initial users (i.e., teachers and students) norma
 
 As shown in the screenshot below, a user can ask free-text questions, including  questions that require multi-turn interactions. 
 
-![An online education chatbot answers users' questions about accessing online learning materials]()
+![An online education chatbot answers users' questions about accessing online learning materials](/assets/uploads/screen-shot-2020-11-14-at-12.16.08-pm.png)
+
+![An online education chatbot answers users' questions about accessing online learning materials](/assets/uploads/screen-shot-2020-11-14-at-12.16.38-pm.png)
 
 ## Elicit User Input
 
 While Jonny helps answer user questions and solve user issues, it was also designed to ask questions and elicit users' input. For example, Johnny asks teachers which grade and subject they are teaching and their NPS score about Activity Studio (see screenshot below).
 
-![The chatbot Johnny elicits user (teacher) input after answering user questions]()
+![The chatbot Johnny elicits user (teacher) input after answering user questions. Chatbot Johnny asks a user which school s/he teaches](/assets/uploads/screen-shot-2020-11-14-at-12.20.45-pm.png)
+
+![Johnny the chatbot asked a user which subject s/he teaches - chatbot for online education](/assets/uploads/screen-shot-2020-11-14-at-12.21.04-pm.png)
 
 This chatbot behavior is quite similar to human-driven call center services. When a customer calls a call center for support, the customer may be asked to fill in a survey to provide his/her feedback about the service received.  
 
@@ -49,7 +53,9 @@ This chatbot behavior is quite similar to human-driven call center services. Whe
 
 In addition to answering and asking user questions, the chatbot Johnny also serves as a "service guide" to teach users the key features of Activity Studio. As shown below, it informs teachers about the most frequently used service features and encourage the teachers to check them out. 
 
-![The online education chatbot Johnny teaches users the key features of the new service]()
+![The online education chatbot Johnny teaches users the key features of the new service](/assets/uploads/screen-shot-2020-11-14-at-12.25.22-pm.png)
+
+![Johnny the chatbot guides a user to create an activity (learning game)](/assets/uploads/screen-shot-2020-11-14-at-12.26.06-pm.png)
 
 ## Use Juji Studio and Juji API
 
@@ -67,7 +73,7 @@ Johnny automated frequently asked customer questions, such as the use of certain
 
 ## Product Insights
 
-Through the interaction, Johnny was also able to know what features users care about the most as well as their needs and pain points. For example, teachers' questions, such as "*how can I view my students' results"* and "*how do I check my students' learning progress" ,* enabledthe product team to improve the reporting functions of Activity Studio and make the service truly customer centric. 
+Through the interaction, Johnny was also able to know what features users care about the most as well as their needs and pain points. For example, teachers' questions, such as "*how can I view my students' results"* and "*how do I check my students' learning progress" ,* enabled the product team to improve the reporting functions of Activity Studio and make the service truly customer centric. 
 
 "Activity Studio has been evolving rapidly and has been improved constantly due to the fast customer feedback gathered by Johnny. Without the chatbot, I could not think of a better way for us to collect such precious user feedback so effectively and so quickly."  mentioned by Tracy Chi, who is the Senior Director in charge of the development of Activity Studio. 
 
