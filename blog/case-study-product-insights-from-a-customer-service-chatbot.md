@@ -69,7 +69,7 @@ Johnny has served over 50000 users during the last six months. It provides sever
 
 ## Automate Customer Support
 
-Johnny automated frequently asked customer questions, such as the use of certain service features (e.g., how to share a game) and certain operations (e.g., login), 24x7. This relieves much human effort, which could be directed to more important tasks (e.g., content creation and feature improvements).
+Johnny automated frequently asked customer questions (73% answering rate), such as the use of certain service features (e.g., how to share a game) and certain operations (e.g., login), 24x7. This relieves much human effort, which could be directed to more important tasks (e.g., content creation and feature improvements). In the meantime, this also improves user experience and satisfaction because they could get a direct answer they want anytime without waiting for a reply or searching for the website.  
 
 ## Product Insights
 
