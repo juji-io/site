@@ -17,7 +17,7 @@ JumpStart® is the leader in creating interactive experiences that enrich, enter
 
 As online learning has become increasingly more important, the JumpStart team developed and launched a new online service called [Activity Studio](https://activity.jumpstart.com/#/). This  service enables teachers to create, share, and use fun, game-based learning in their teaching activities. On the other hand, these online learning materials can help improve student engagements and boost students' learning interests. 
 
-Because it is a new service, the team faced several challenges. First, it was time consuming to manually respond to numerous user questions because users often prefer directly asking for help to wading through a comprehensive user manual or FAQ list.  Second, it is unclear why certain users abandoned their activities and there was no natural way to engage with such users during their activities and collect their feedback on the fly, which could then be used to improve the service. 
+Because it is a new service, the team faced several challenges. First, it was time consuming to manually respond to numerous user questions because users often prefer obtaining answers directly instead of wading through a website to search for potential answers.  Second, there was no natural way to engage with users during their activities to collect their feedback and help them on the fly (e.g., helping them when they abandoned certain activities). 
 
 # The Implementation
 
@@ -31,7 +31,7 @@ There are two versions of Johnny, [one serving teachers](https://activity.jumpst
 
 ## Anwer free-text user questions about the service
 
-Like any new service deployed, initial users (i.e., teachers and students) normally have questions regarding the service. For example, the users want to know how the service can help them or a particular feature of the services. Since such user questions can be quite diverse, Jonny was designed to enable users to ask free-text questions instead of being forced to traverse a fixed tree-based menu and find help. 
+Like any new service deployed, initial users (i.e., teachers and students) normally have questions regarding the service. For example, the users want to know how the service can help them or a particular feature of the services. Since such user questions can be quite diverse, Jonny was designed to enable users to obtain immediate help by asking free-text questions flexibly instead of finding answers by searching through a website/FAQ list or being forced to traverse down a fixed tree-based menu.
 
 As shown in the screenshot below, a user can ask free-text questions, including  questions that require multi-turn interactions. 
 
