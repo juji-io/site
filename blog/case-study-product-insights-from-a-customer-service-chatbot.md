@@ -75,7 +75,7 @@ Johnny automated frequently asked customer questions (73% answering rate), such 
 
 Through the interaction, Johnny was also able to learn what features users care about the most as well as their needs and pain points. For example, teachers' questions, such as "*how can I view my students' results"* and "*how do I check my students' learning progress" ,* enabled the product team to learn user feedback and improve the reporting functions of Activity Studio to make the service truly customer centric. 
 
-"*Activity Studio has been evolving rapidly and has been improved constantly due to the fast customer feedback gathered by Johnny. Without the chatbot, I could not think of a more natural and better way for us to engage with our users and collect their precious feedback to improve our service so quickly*."  stated by Tracy Chi, who is the Senior Director in charge of the development of Activity Studio. 
+"*Activity Studio has been evolving rapidly and improved constantly due to the fast customer feedback gathered by Johnny. Without the chatbot, I could not think of a more natural and better way for us to engage with our users and collect their feedback to improve our service so quickly*."  stated by Tracy Chi, who is the Senior Director in charge of the development of Activity Studio. 
 
 ## A Natural Channel for Introducing Product Features
 
