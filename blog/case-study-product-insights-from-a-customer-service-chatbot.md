@@ -17,7 +17,7 @@ JumpStart® is the leader in creating interactive experiences that enrich, enter
 
 As online learning has become increasingly more important, the JumpStart team developed and launched a new online service called [Activity Studio](https://activity.jumpstart.com/#/). This  service enables teachers to create, share, and incorporate fun, game-based learning in their teaching activities. Additionally, these online learning materials can help improve student engagements and boost students' learning interests. 
 
-When Activity Studio was launched several months ago as a new service, the team faced several challenges. First, it was time consuming to manually respond to numerous user questions because users often prefer obtaining direct answers instead of wading through a website to search for potential answers.  Second, there were no natural and easy ways to engage with users and help them out while they encounter difficulties (e.g., helping users when they abandoned certain activities), as well as gather their real-time feedback to glean product insights and use such insights to improve the service. 
+When Activity Studio was launched several months ago as a new service, the team faced two challenges. First, it was time consuming to manually respond to numerous user questions because users often prefer obtaining direct answers instead of wading through a website to search for potential answers.  Second, there were no natural and easy ways to engage with users and help them out while they encounter difficulties (e.g., helping users when they abandoned certain activities), as well as gather their real-time feedback to glean product insights and use such insights to improve the service. 
 
 # The Implementation
 
