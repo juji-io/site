@@ -91,7 +91,6 @@ In short, this case study describes the creation of an online learning chatbot t
 
 * [How to create a multipurpose chatbot ](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/)that can perform multiple tasks, including customer service and marketing in one chat.
 * [How to power a customer service chatbot that is versatile and robust](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
-
-* Sign up to create your own multitasking customer service chatbot and automate customer support as well as product marketing and product insights gathering.
+* [Sign up](https://juji.io/signup) to create your own multitasking customer service chatbot and automate customer support as well as product marketing and product insights gathering.
 
 [](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
