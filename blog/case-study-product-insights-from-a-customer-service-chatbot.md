@@ -35,9 +35,9 @@ Like any new service deployed, initial users (i.e., teachers and students) norma
 
 As shown in the screenshot below, a user can ask free-text questions, including  questions that require multi-turn interactions. 
 
-![An online education chatbot answers users' questions about accessing online learning materials](/assets/uploads/screen-shot-2020-11-14-at-12.16.08-pm.png)
+![An online education chatbot answers users' questions about accessing online learning materials](/assets/uploads/johnny-qa-1.png)
 
-![An online education chatbot answers users' questions about accessing online learning materials](/assets/uploads/screen-shot-2020-11-14-at-12.16.38-pm.png)
+![An online education chatbot answers users' questions about accessing online learning materials](/assets/uploads/johnny-qa-2.png)
 
 ## Elicit User Input
 
