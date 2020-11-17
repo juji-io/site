@@ -63,7 +63,7 @@ To support all three functions described above, the JumpStart team uses [Juji St
 
 Although the JumpStart team can directly embed Johnny into their website, the team decided to use [Juji API](https://juji.io/ai-chatbot-api/) to integrate Johnny into the Activity Studio web application. This enabled Johnny to be an integral part of the website (e.g., Johnny could be activated based on user activities on the website) and to appear in a look that is consistent with the rest of the website. 
 
-After Johnny is deployed, the team also used the [Juji results dashboard](https://juji.io/blog/q-a-dashboard/) to monitor Johnny's status and improve Johnny rapidly and progressively.  
+After Johnny is deployed, the team also used the [Juji results dashboard](https://juji.io/blog/q-a-dashboard/) to monitor Johnny's status and improve Johnny quickly.  
 
 # The Outcome
 
