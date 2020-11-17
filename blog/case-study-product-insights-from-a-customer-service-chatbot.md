@@ -67,11 +67,11 @@ After Johnny is deployed, the team also used the [Juji results dashboard](https:
 
 # The Outcome
 
-Johnny has served over 50000 users during the last six months. It provides several key values as described below.
+Johnny has served over 50,000 users during the last six months. It provides several key values as described below.
 
 ## Automate Customer Support
 
-Johnny automated frequently asked customer questions (73% answering rate), such as the use of certain service features (e.g., how to share a game) and certain operations (e.g., login), 24x7. This relieves much human effort, which could be directed to more important tasks (e.g., content creation and feature improvements). In the meantime, this also improves user experience and satisfaction because they could get a direct answer they want anytime without waiting for a reply or searching for the website.  
+Johnny automated frequently asked customer questions (e.g., answered thousands of user unique questions with 73% answering rate), such as the use of certain service features (e.g., how to share a game) and certain operations (e.g., login), 24x7. This relieves much human effort, which could be directed to more important tasks (e.g., content creation and feature improvements). In the meantime, this also improves user experience and satisfaction because they could get a direct answer they want anytime without waiting for a reply or searching for the website.  
 
 ## Product Insights
 
