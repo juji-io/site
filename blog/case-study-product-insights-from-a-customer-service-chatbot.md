@@ -31,7 +31,7 @@ There are two versions of Johnny, [one serving teachers](https://activity.jumpst
 
 ## Anwer free-text user questions about the service
 
-Like any new service deployed, initial users (i.e., teachers and students) normally have questions regarding the service. For example, the users want to know how the service can help them or a particular feature of the services. Since such user questions can be quite diverse, Jonny was designed to enable users to obtain immediate answers to their free-text questions flexibly instead of finding answers by searching through a website/FAQ list or being forced to traverse down a fixed tree-based menu.
+Like any new service deployed, initial users (i.e., teachers and students) normally have questions regarding the service. For example, the users want to know how the service can help them or a particular feature of the services. Since such user questions can be quite diverse, Jonny was designed to enable users to obtain immediate answers to their free-text questions instead of finding answers by searching through a website/FAQ list or being forced to traverse down a fixed tree-based menu.
 
 As shown in the screenshot below, a user can ask free-text questions, including  questions that require multi-turn interactions. 
 
