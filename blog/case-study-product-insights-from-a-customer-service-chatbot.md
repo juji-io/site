@@ -87,7 +87,7 @@ Johnny is also a natural channel for the product team to introduce new or import
 
 In short, this case study describes the creation of an online learning chatbot that performs three functions in one: automating customer services (free-text Q&A), eliciting product insights, and introducing product features. It also demonstrated a successful use of a customer service chatbot that can multitask to serve the purposes of product development and product marketing at the same time. 
 
-# Relevant Resource
+# Additional Resource
 
 * [How to create a multipurpose chatbot ](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/)that can perform multiple tasks, including customer service and marketing in one chat.
 * [How to power a customer service chatbot that is versatile and robust](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
