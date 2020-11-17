@@ -61,7 +61,7 @@ In addition to answering and asking user questions, the chatbot Johnny also serv
 
 To support all three functions described above, the JumpStart team uses [Juji Studio](https://juji.io/no-coding-ai-chatbot-builder/), a no-coding AI chatbot builder, to [build the main chat flow](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) of Johnny. The team also [defined and uploaded a small Q&A list](https://juji.io/docs/design/#customize-qa-and-fallback) to start with, including the most common questions, such as "*What's Activity Studio*".  This Q&A list has grown rapidly as [unanswered user questions were automatically captured and managed](https://juji.io/blog/q-a-dashboard/) after Johnny went live. 
 
-Although the JumpStart team can directly embed the deployed Johnny into their website, the team decided to use [Juji API](https://juji.io/ai-chatbot-api/) to integrate Johnny into the Activity Studio web application. This enables Johnny to be an integral part of the website (e.g., Johnny could be activated based on user activities on the website) and makes its appearance consistent with the rest of the website. 
+Although the JumpStart team can directly embed Johnny into their website, the team decided to use [Juji API](https://juji.io/ai-chatbot-api/) to integrate Johnny into the Activity Studio web application. This enabled Johnny to be an integral part of the website (e.g., Johnny could be activated based on user activities on the website) and to appear in a look that is consistent with the rest of the website. 
 
 After Johnny is deployed, the team also used the [Juji results dashboard](https://juji.io/blog/q-a-dashboard/) to monitor Johnny's status and improve Johnny progressively.  
 
