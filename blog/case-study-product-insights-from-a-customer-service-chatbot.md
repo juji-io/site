@@ -23,9 +23,9 @@ When Activity Studio was launched several months ago as a new service, the team 
 
 To address the two challenges mentioned above, the service team designed and implemented a chatbot, called Johnny, which performs three tasks:
 
-1. Anwer user questions about the service
-2. Elicit user input
-3. Teach user key service features
+1. Anwer users' questions about the service
+2. Elicit users' input
+3. Teach users key service features
 
 There are two versions of Johnny, [one serving teachers](https://activity.jumpstart.com/#/jsaactivity) while the [other serving students](https://activity.jumpstart.com/#/student). 
 
