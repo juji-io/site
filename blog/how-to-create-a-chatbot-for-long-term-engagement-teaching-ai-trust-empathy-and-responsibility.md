@@ -14,4 +14,6 @@ tags:
 image: /assets/uploads/nick-fewings-ka7reb1ajl4-unsplash.jpg
 credit: https://unsplash.com/@jannerboy62
 ---
-Although most of chatbots (conversational AI) today are used
+Today, most commercially available chatbots (conversational AI agents) are used for one-time and often very short engagements. For example, website visitors typically engage with a customer service chatbot on a website in a couple of minutes, asking questions and then leave.
+
+Nonetheless, research shows that
