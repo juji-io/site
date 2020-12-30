@@ -29,11 +29,7 @@ The shape of the data has a bit of challenge for diff algorithms. The top level 
 
 Since these alternatives are all Clojure libraries, I created a project to simply pull the latest versions of them from [clojars](https://clojars.org) and let them loose on the data set. The code is [here](https://github.com/juji-io/editscript/blob/master/bench/bench.clj). The timing benchmark uses [criterium](https://github.com/hugoduncan/criterium/) `quick-bench` function. 
 
-The test ran in a Clojure REPL on my laptop, an old 2014 2.8 GHz Core i5 16GB MacBook Pro, with this software environment:
-
-> x86_64 Mac OS X 10.15.5 4 cpu(s)
-> OpenJDK 64-Bit Server VM 25.222-b10
-> Runtime arguments: -Dfile.encoding=UTF-8 -XX:-OmitStackTraceInFastThrow -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dclojure.compile.path=/Users/huahaiy/workspace/editscript/bench/target/classes -Dbench.version=0.1.0 -Dclojure.debug=false
+The test ran in a Clojure REPL on a Ubuntu Linux 5.4.0-58-generic server with Intel(R) Core(TM) i7-6850K CPU @ 3.60GHz, and JVM is OpenJDK 64-Bit Server VM AdoptOpenJDK (build 15.0.1+9, mixed mode, sharing)
 
 ### Results
 
