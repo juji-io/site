@@ -1,6 +1,6 @@
 ---
 layout: blog/article.njk
-featured: false
+featured: true
 title: "Case Study:  Accelerated Product Insights from a Customer Service Chatbot"
 date: 2020-10-27T04:06:02.717Z
 author: Michelle Zhou
