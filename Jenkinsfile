@@ -3,7 +3,7 @@
 pipeline {
   agent { label 'site' }
   environment {
-    GITHUB_ACCESS_TOKEN = credentials('GITHUB_ACCESS_TOKEN')
+    GITHUB_ACCESS_TOKEN = credentials('GITHUB_CRED')
   }
   stages {
     stage('Build') {
