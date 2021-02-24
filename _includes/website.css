@@ -514,8 +514,11 @@ header .navbar-brand {
 
 header .navbar .logo {
 
-    width: 40px;
-    height: 39px;
+    /*width: 40px;
+    height: 39px;*/
+
+    width: 80px;
+    height: 78px;
 
 }
 
@@ -754,7 +757,7 @@ footer .logo {
     font-family: GothamRounded-Medium;
     color: white;
     /*background: #28BD8B;*/
-    background: #22A076;
+    background: green;
     /*background: #1B7E5D;*/
     font-size: 16px;
     text-align: center;
@@ -851,10 +854,11 @@ footer .logo {
 
 .canned-demo-section {
     padding-top: 50px;
-    background-image: url("/assets/img/ui/power-bg.png");
+    background-image: url("/assets/img/ui/banner-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    color: white;
 }
 
 .canned-demo-section h4 {
@@ -977,11 +981,10 @@ footer .logo {
 
 .muted-heading {
     padding-top: 2.5rem;
-    padding-bottom: 0;
-    font-size: 30px;
-    font-family: GothamRounded-Light;
-    color: grey;
-   
+    padding-bottom: 1.0rem;
+    font-size: 24px;
+    font-family: GothamRounded-BOOK;
+    color: #888888;
     text-align:center;
 }
 
@@ -1009,9 +1012,11 @@ h2.muted-heading + p {
 
 .juji-smart-section {
     
-    background-image: url(/assets/img/ui/juji-smart-bg-1.png);
+    /*background-image: url(/assets/img/ui/juji-smart-bg-1.png);*/
+    background-image: url(/assets/img/ui/blue-triangle-right.png);
     background-repeat: no-repeat;
-    background-size: 65% 100%
+    background-size: 50% 100%;
+    background-position: center left;
 }
 
 
@@ -1024,10 +1029,10 @@ h2.muted-heading + p {
 {
     .juji-smart-section-2 {
 
-	background-image: url(/assets/img/ui/red-lines-yellow-bubble-left-sm.png);
+	/*background-image: url(/assets/img/ui/bluedrop-vertical-lines.png);
 	background-repeat: no-repeat;
 	background-position: 100% 0%;
-	background-size: contain;
+	background-size: contain;*/
     }
 }
     
@@ -1903,6 +1908,12 @@ h2.muted-heading + p {
 
 }
 
+.url-w-arrow::after {
+    content: "⤻";
+    vertical-align: super;
+    font-size: 0.75rem;
+}
+    
 .pricing-item .pricing-features a::after {
     content: "⤻";
     vertical-align: super;
@@ -2753,8 +2764,7 @@ footer .social-icon {
 }
 
 #slide-text {
-    color: #444444;
-   
+    font-size: 20px;
 }
 
 #juji-studio-ide {
