@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: false
-title: Juji in EDSCOOP
+title: Juji and Juji AI Featured in EDSCOOP
 date: 2021-05-18T21:42:31.533Z
 author: Michelle Zhou
 category: News
