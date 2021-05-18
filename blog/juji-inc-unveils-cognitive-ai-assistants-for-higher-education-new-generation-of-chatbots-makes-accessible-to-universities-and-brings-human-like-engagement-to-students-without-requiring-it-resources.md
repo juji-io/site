@@ -1,9 +1,7 @@
 ---
 layout: blog/article.njk
 featured: false
-title: "Juji, Inc. Unveils Cognitive AI Assistants for Higher Education: New
-  Generation of Chatbots Makes Accessible to Universities and Brings Human-Like
-  Engagement to Students Without Requiring IT Resources"
+title: Juji, Inc. Unveils Cognitive AI Assistants for Higher Education
 date: 2021-04-21T21:01:17.270Z
 author: Michelle Zhou
 category: News
