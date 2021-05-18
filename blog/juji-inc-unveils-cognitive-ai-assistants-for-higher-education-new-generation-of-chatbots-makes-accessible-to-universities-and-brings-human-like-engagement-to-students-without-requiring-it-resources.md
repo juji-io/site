@@ -1,6 +1,6 @@
 ---
 layout: blog/article.njk
-featured: false
+featured: true
 title: Juji, Inc. Unveils Cognitive AI Assistants for Higher Education
 date: 2021-04-21T21:01:17.270Z
 author: Michelle Zhou
