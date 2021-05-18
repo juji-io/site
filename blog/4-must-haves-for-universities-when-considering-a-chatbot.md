@@ -32,6 +32,8 @@ Due to a lack of intelligence, a typical chatbot can hardly understand its users
 
 Below shows how a cognitive AI assistant personalizes its guidance to two different users based on its understanding of the users' different characteristics.
 
+![The image shows that a chatbot responds to different users differently. The chatbot proposes an information summary to a user who is impatient while propose to show a comparison for a user who is cautious and indecisive.](/assets/uploads/help-different-users.png "A cognitive AI assistant generates deeply personalized responses based on user unique characteristics.")
+
 **Real-Time AI Facilitating Human-Chatbot Collaboration**
 
 Since no AI is perfect and also needs improvements, when universities evaluate a chatbot solution, it is important to examine how such a chatbot would work with their human teams, which must monitor and update the chatbot from time to time.  This is also because universities not only want a chatbot to be an extension of their brand, but also a valued member of the team to elevate the overall work environment.
