@@ -10,11 +10,11 @@ tags:
 image: /assets/uploads/franki-chamaki-1k6iqsqbizi-unsplash-1-.jpg
 credit: https://unsplash.com/@franki
 ---
-EDSCOOP, the leading media featuring latest information technology for higher education, wrote [a story](https://edscoop.com/ai-chatbot-juji-higher-education/) about Juji and Juji's [cognitive AI assistants](https://juji.io/#juji-smarts) for the higher education sector. 
+EDSCOOP, the leading media featuring latest information technology for higher education, published [a story](https://edscoop.com/ai-chatbot-juji-higher-education/) about Juji and Juji's [cognitive AI assistants](https://juji.io/#juji-smarts) for the higher education sector. 
 
-In this story, it mentions "Juji’s stand-out feature is its conversational flexibility, a design approach rooted in decades of linguistic and AI [research](https://nlp.stanford.edu/acvogel/groszsidner.pdf). While it’s common for commercial chatbots to get stuck when confronted with an uncooperative or confused interlocutor, Juji employs human-centered design, ... politely responding to off-topic input, but not losing sight of the interaction’s purpose."
+The story mentioned "Juji’s stand-out feature is its conversational flexibility, a design approach rooted in decades of linguistic and AI [research](https://nlp.stanford.edu/acvogel/groszsidner.pdf). While it’s common for commercial chatbots to get stuck when confronted with an uncooperative or confused interlocutor, Juji employs human-centered design, ... politely responding to off-topic input, but not losing sight of the interaction’s purpose."
 
-The story also highlights a potential use case of applying Juji cognitive AI assistants to help university counselors, "Chatbots can collect patient (student) history before an appointment, saving valuable session time and providing the counselor with a “cheat sheet” of what’s bothering the student."
+The story also highlighted a potential use case of Juji cognitive AI assistants for helping university counselors, "Chatbots can collect patient (student) history before an appointment, saving valuable session time and providing the counselor with a “cheat sheet” of what’s bothering the student."
 
 **About EDSCOOP**
 
