@@ -6,7 +6,7 @@ date: 2021-05-13T23:24:11.434Z
 author: Michelle Zhou
 category: News
 tags:
-  - cognitiveai
+  - cognitive ai
 image: /assets/uploads/image0.jpeg
 ---
 Juji Co-Founder and CEO, Michelle Zhou, talked with Cheddar TV on Juji's work on cognitive intelligence and the state of AI chatbots. 
