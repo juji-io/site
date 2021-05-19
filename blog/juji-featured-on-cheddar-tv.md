@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: false
-title: Juji Featured on Cheddar TV
+title: "Juji Featured on Cheddar TV: Understanding Cognitive Intelligence"
 date: 2021-05-13T23:24:11.434Z
 author: Michelle Zhou
 category: News
