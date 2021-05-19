@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: false
-title: Juji Featured in EDSCOOP
+title: "Juji Featured in EDSCOOP: AI Chatbot Maker Juji Jumps into Higher Education"
 date: 2021-05-03T21:42:31.533Z
 author: Michelle Zhou
 category: News
