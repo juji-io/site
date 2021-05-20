@@ -7,7 +7,7 @@ date: 2021-04-14T23:53:43.015Z
 author: Michelle Zhou
 category: News
 tags:
-  - cognitiveai
+  - cognitive ai
 image: /assets/uploads/screen-shot-2021-05-19-at-4.55.46-pm.png
 credit: from Search Engine Journal
 ---
