@@ -15,6 +15,6 @@ In his podcast, [Brent Csutoras](https://www.brentcsutoras.com/) at Search Engin
 
 "We have heard for years that Chatbots are the future and although we have seen some significant progress in the concept and application, they are still impersonal and not as helpful as we had hoped they would be." 
 
-In response to Brent's question, Michelle talked about what "cognitive intelligence" means in the AI world and how it would enable chatbots to be much more effective--being both empathetic and responsible in their tasks to truly understand and help their users. 
+In response to Brent's question, Michelle talked about what "cognitive intelligence" means in the AI world and how it enables chatbots to be much more effective--being both empathetic and responsible in their tasks to truly understand and help their users. 
 
 Check out the [full podcast](https://www.searchenginejournal.com/how-cognitive-intelligence-will-reshape-chatbots-with-dr-michelle-zhou/401891/) for more details.
