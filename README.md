@@ -13,6 +13,7 @@ brew install node
 ## Running Server Locally
 
 ```
+rm -rf _site/*
 npm install 
 npx @11ty/eleventy --serve
 ```

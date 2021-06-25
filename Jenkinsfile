@@ -23,6 +23,7 @@ pipeline {
           }
         }
         sh '''
+          rm -rf _site/*
           npm install
           npx @11ty/eleventy
         '''
