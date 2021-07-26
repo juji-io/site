@@ -31,3 +31,27 @@ In contrast, conversational chatbots support two-way exchanges, delivering more 
 ![An AI chatbot asks a student what kind of financial aid she needs and then makes suitable recommendations](/assets/uploads/byline-may-picture1-1.png)
 
 ![An AI chatbot continues with its questions. As shown in this example, the chatbot starts the conversation by gathering the student's information, in order to recommend financial aid programs. During this process, the student is allowed to take initiatives by asking questions and receives instant responses. ](/assets/uploads/byline-may-picture1-2.png)
+
+## A Conversational Chatbot Understands and Maintains Conversation Context 
+
+Continuing our above example, a typical chatbot might not recognize and respond to the user's question, even if it did, it would get lost by the user interruption or take us back to the beginning of the conversation. Either way would derail the conversation and fail to complete the intended task (in this case, recommending financial aid programs). 
+
+Just like humans in a conversation, conversational chatbots are able to understand the focus of attention and remember the conversation context. As shown below, while a user diverts from the initial flow of the conversation, the chatbot answers the question, and then naturally resumes the flow where it was left off.  This conversation capability enables a chatbot to complete assigned tasks while helping users whenever possible. 
+
+![After a cognitive AI Conversational Chatbot Can Read People and Personalize Each Engagement itive AI assistant answers the user's question, the chatbot naturally tracks back to the original flow and carries on the conversation without losing the context.](/assets/uploads/byline-may-picture2.png)
+
+
+
+## A Conversational Chatbot Can Read People and Personalize Each Engagement 
+
+In addition to language abilities, great human conversationalists have high social-emotional intelligence, which enables them to deeply understand and empathize with their conversation partners and foster effective and pleasant conversations. 
+
+While a typical chatbot often offers one-size-fits-all responses and knows little about its users, a conversational chatbot can actively listen to its users, infer the users' unique needs and wants from a conversation, and personalize each conversation. Not only does this capability allow a conversational chatbot to behave more human-like, but also enables it to better help its users based on the users' needs and wants. The conversation example below shows that such a chatbot provides personalized career information to students based on the students' passions, interests, and personality.
+
+![A conversational chatbot (cognitive AI assistant) infers a user's unique characteristics from a conversation and provides personalized information based on the inferred characteristics.](/assets/uploads/byline-may-picture3.png)
+
+# Why Adopt a Conversational Chatbot Now?
+
+The demand for personalized, conversational interactions is [a growing expectation by today's university students](https://aisel.aisnet.org/pacis2019/213/). Multiple university studies show that [students are willing to and wish to interact with a chatbot](https://aisel.aisnet.org/amcis2019/human_computer_interact/human_computer_interact/14/) and can also [benefit from such interactions](https://dl.acm.org/doi/10.1145/3411764.3445270). Higher education needs to cut through the clutter and create a better connection with their audience, e.g., current and potential students and alumni.  Additionally, the university studies indicate that technologies already exist to support rapid, no-coding setup and adoption of cognitive AI assistants, which not only deliver a higher engagement rate, but also continually improve from users' interactions.
+
+In other words, conversational chatbot solutions are no longer a luxury item for only certain universities. Without requiring additional technical resources, every university can easily adopt cognitive AI technology and their human-like conversational capabilities to improve student/alumni engagements, reduce administrative burdens, and elevate workplace morale, as the university hopes to achieve.
