@@ -12,15 +12,15 @@ tags:
 image: /assets/uploads/jeshoots-com-2vd8lihdnw-unsplash.jpg
 credit: image by https://unsplash.com/@jeshoots
 ---
-At the first glance, you might think the title of this blog is somewhat redundant. How could a chatbot be not conversational? From the literal sense, it is perhaps difficult for most of people to grasp why a chatbot is not conversational. In reality, most chatbots out there cannot really converse with their users, hence are not conversational.
-
 What is "conversational"? By [the Merriam-Webster dictionary](https://www.merriam-webster.com/), conversation is defined as an "oral exchange of sentiments, observations, opinions, or ideas".  Because of the exchange, one-on-one conversations are often considered the most effective way for humans to engage with one another. 
 
 However, human-driven conversations don't scale. From our conversations with universities, we learn that it is not unusual for an admissions office to have only four to five staff members, who might need to handle over 30,000 to 40,0000 incoming student inquiries, not to mention that many such inquiries are repetitive on the similar topic , e.g., program requirements, financial aid options, and application process. Additionally, universities wish to learn more about prospective students who made such inquiries, such as their interest and expectations, which will enable university staff to better follow up with the students (e.g., inviting them to apply for a program or scheduling an interview). So what capabilities must a chatbot have in order to help universities automate such engagements but without losing a human touch? 
 
 # What is a Conversational Chatbot
 
-Powered by cognitive intelligence—an advanced, human-like Artificial Intelligence (AI), a conversational chatbot is also known as a cognitive AI assistant, trained with human conversation skills to possess three key conversation capabilities.
+To scale out human-driven conversations, more and more universities now are [enlisting the help of chatbots](https://onlinemba.illinois.edu/). Now you might be puzzled: how could a chatbot be not conversational? From the literal sense, it does not make much sense if a chatbot is not conversational. In reality,  most chatbots out there unfortunately cannot really converse with their users, hence are not conversational.
+
+How can chatbots become conversational? To possess human conversation skills, **c*onversational chatbots*** must be powered by cognitive intelligence—an advanced, human-like Artificial Intelligence (AI). Hence such a chatbot is also known as a cognitive AI assistant or a cognitive AI chatbot. In particular, such chatbots demonstrate three key conversation capabilities.
 
 ## A Conversational Chatbot That Supports Two-Way Communication
 
