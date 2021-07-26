@@ -8,7 +8,7 @@ author: Michelle Zhou
 category: Guides
 tags:
   - education
-  - conversation
+  - cognitive
 image: /assets/uploads/jeshoots-com-2vd8lihdnw-unsplash.jpg
 credit: image by https://unsplash.com/@jeshoots
 ---
@@ -18,9 +18,9 @@ However, human-driven conversations don't scale. From our conversations with uni
 
 # What is a Conversational Chatbot
 
-To scale out human-driven conversations, more and more universities now are [enlisting the help of chatbots](https://onlinemba.illinois.edu/). Now you might be puzzled: how could a chatbot be not conversational? From the literal sense, it does not make much sense if a chatbot is not conversational. In reality,  most chatbots out there unfortunately cannot really converse with their users, hence are not conversational.
+To scale out human-driven conversations while containing cost, more and more universities now are [enlisting the help of chatbots](https://onlinemba.illinois.edu/). Now you might be puzzled: how could a chatbot be not conversational? From the literal sense, it makes absolutely no sense if a chatbot is not conversational. In reality,  however most chatbots out there unfortunately cannot converse with their users, hence are not conversational.
 
-How can chatbots become conversational? To possess human conversation skills, **c*onversational chatbots*** must be powered by cognitive intelligence—an advanced, human-like Artificial Intelligence (AI). Hence such a chatbot is also known as a cognitive AI assistant or a cognitive AI chatbot. In particular, such chatbots demonstrate three key conversation capabilities.
+How can chatbots be made conversational? To possess human conversation skills, **c*onversational chatbots*** must be powered by cognitive intelligence—an advanced, human-like Artificial Intelligence (AI). Such a chatbot is also known as a *cognitive AI assistant* or a *cognitive AI chatbot*. In particular, such chatbots demonstrate three key conversation capabilities.
 
 ## A Conversational Chatbot That Supports Two-Way Communication
 
