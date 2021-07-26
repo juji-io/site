@@ -12,7 +12,7 @@ tags:
 image: /assets/uploads/jeshoots-com-2vd8lihdnw-unsplash.jpg
 credit: image by https://unsplash.com/@jeshoots
 ---
-A chatbot is not conversational? From the literal sense, it is perhaps difficult for most of people to grasp why a chatbot is not conversational. In reality, most chatbots out there cannot really converse with their users, hence are not conversational.
+At the first glance, you might think the title of this blog is somewhat redundant. How could a chatbot be not conversational? From the literal sense, it is perhaps difficult for most of people to grasp why a chatbot is not conversational. In reality, most chatbots out there cannot really converse with their users, hence are not conversational.
 
 What is "conversational"? By [the Merriam-Webster dictionary](https://www.merriam-webster.com/), conversation is defined as an "oral exchange of sentiments, observations, opinions, or ideas".  Because of the exchange, one-on-one conversations are often considered the most effective way for humans to engage with one another. 
 
