@@ -12,7 +12,9 @@ tags:
 image: /assets/uploads/jeshoots-com-2vd8lihdnw-unsplash.jpg
 credit: image by https://unsplash.com/@jeshoots
 ---
-By the Merriam-Webster dictionary, conversation is defined as an "oral exchange of sentiments, observations, opinions, or ideas".  Because of the exchange, one-on-one conversations are perhaps the most effective way for humans to engage with one another. 
+A chatbot is not conversational? From the literal sense, it is perhaps difficult for most of people to grasp why a chatbot is not conversational. In reality, most chatbots out there cannot really converse with their users, hence are not conversational.
+
+What is "conversational"? By [the Merriam-Webster dictionary](https://www.merriam-webster.com/), conversation is defined as an "oral exchange of sentiments, observations, opinions, or ideas".  Because of the exchange, one-on-one conversations are perhaps the most effective way for humans to engage with one another. 
 
 However, human-driven conversations cannot scale. From our conversations with universities, we learn that it is not unusual for an admissions office to have only four to five staff members, who might need to handle over 40,0000 incoming student inquiries, not to mention that many such inquiries are repetitive on the same topic , e.g., program requirements or application process. Additionally, universities wish to learn more about prospective students who made inquiries, such as their interest and expectations, so university staff can better follow up with the students (e.g., inviting them to apply for a program or scheduling an interview). So what capabilities must a chatbot have in order to help universities automate such engagements but without losing a human touch? 
 
