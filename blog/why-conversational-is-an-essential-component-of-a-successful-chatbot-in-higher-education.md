@@ -8,7 +8,6 @@ author: Michelle Zhou
 category: Guides
 tags:
   - education
-  - cognitive
 image: /assets/uploads/jeshoots-com-2vd8lihdnw-unsplash.jpg
 credit: image by https://unsplash.com/@jeshoots
 ---
