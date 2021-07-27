@@ -6,7 +6,7 @@ date: 2021-05-03T21:42:31.533Z
 author: Michelle Zhou
 category: News
 tags:
-  - higher ed
+  - Education
 image: /assets/uploads/franki-chamaki-1k6iqsqbizi-unsplash-1-.jpg
 credit: https://unsplash.com/@franki
 ---
