@@ -21,7 +21,7 @@ To scale out human-driven conversations while containing cost, more and more uni
 
 How can chatbots be made conversational? To possess human conversation skills, **c*onversational chatbots*** must be powered by cognitive intelligence—an advanced, human-like Artificial Intelligence (AI). Such a chatbot, also known as a *cognitive AI assistant* or a *cognitive AI chatbot,* should demonstrate three key conversation capabilities.
 
-## A Conversational Chatbot That Supports Two-Way Communication
+## A Conversational Chatbot Supports Two-Way Communication
 
 We’ve all had the experience with a chatbot where we are clicking buttons and being forced to follow a path that leads nowhere.  Frustrated, we give up and try to ask a question directly in the chat window.  The chatbot, however confused, responds that it does not understand our input. This is a typical one-way exchange, where a chatbot tries to dictate the whole conversation by following a rigid, pre-defined chat flow, which often leaves users frustrated and unhelped.
 
