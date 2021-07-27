@@ -19,7 +19,7 @@ However, human-driven conversations don't scale. From our conversations with uni
 
 To scale out human-driven conversations while containing cost, more and more universities now are [enlisting the help of chatbots](https://onlinemba.illinois.edu/). Now you might be puzzled: how could a chatbot be not conversational? From the literal sense, it makes absolutely no sense if a chatbot is not conversational. In reality,  however most chatbots out there unfortunately cannot converse with their users, hence are not conversational.
 
-How can chatbots be made conversational? To possess human conversation skills, **c*onversational chatbots*** must be powered by cognitive intelligence—an advanced, human-like Artificial Intelligence (AI). Such a chatbot, also known as a *cognitive AI assistant* or a *cognitive AI chatbot,* shoulddemonstrate three key conversation capabilities.
+How can chatbots be made conversational? To possess human conversation skills, **c*onversational chatbots*** must be powered by cognitive intelligence—an advanced, human-like Artificial Intelligence (AI). Such a chatbot, also known as a *cognitive AI assistant* or a *cognitive AI chatbot,* should demonstrate three key conversation capabilities.
 
 ## A Conversational Chatbot That Supports Two-Way Communication
 
@@ -33,7 +33,7 @@ In contrast, conversational chatbots support two-way exchanges, delivering more 
 
 ![An AI chatbot continues with its questions. As shown in this example, the chatbot starts the conversation by gathering the student's information, in order to recommend financial aid programs. During this process, the student is allowed to take initiatives by asking questions and receives instant responses. ](/assets/uploads/byline-may-picture1-2.png)
 
-## A Conversational Chatbot Understands and Maintains Conversation Context 
+## A Conversational Chatbot Understands and Maintains Conversation Context
 
 Continuing our above example, a typical chatbot might not recognize and respond to the user's question, even if it did, it would get lost by the user interruption or take us back to the beginning of the conversation. Either way would derail the conversation and fail to complete the intended task (in this case, recommending financial aid programs). 
 
@@ -41,9 +41,7 @@ Just like humans in a conversation, conversational chatbots are able to understa
 
 ![After a cognitive AI Conversational Chatbot Can Read People and Personalize Each Engagement itive AI assistant answers the user's question, the chatbot naturally tracks back to the original flow and carries on the conversation without losing the context.](/assets/uploads/byline-may-picture2.png)
 
-
-
-## A Conversational Chatbot Can Read People and Personalize Each Engagement 
+## A Conversational Chatbot Can Read People and Personalize Each Engagement
 
 In addition to language abilities, great human conversationalists have high social-emotional intelligence, which enables them to deeply understand and empathize with their conversation partners and foster effective and pleasant conversations. 
 
