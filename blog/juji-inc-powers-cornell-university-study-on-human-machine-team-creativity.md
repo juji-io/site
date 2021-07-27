@@ -24,3 +24,5 @@ The study found the following:
 Hwang and Stevenson Won utilized Juji to design the conversational flow, customized certain functionalities of the chatbot to follow the conversational script written for three studies and designed the language used in the conversation with specific emphasis on being polite and formal. 
 
 “*We are thrilled to provide the researchers at Cornell CALS with our Juji cognitive AI assistant platform for the study*,” said Michelle Zhou, CEO of Juji. “*The findings showed that not only do chatbots powered by cognitive intelligence, like Juji’s, encourage greater participation and comfort for users, but can take on a meaningful role in collaborative, team settings. This can have far-reaching implications for not only universities, but businesses across every industry*.”
+
+Read the [full announcement](https://www.businesswire.com/news/home/20210629005084/en/Juji-Inc.-Powers-Cornell-University-Study-on-Human-Machine-Team-Creativity).
