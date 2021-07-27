@@ -7,7 +7,6 @@ date: 2021-07-26T21:34:34.951Z
 author: Michelle Zhou
 category: Guides
 tags:
-  - education
 image: /assets/uploads/jeshoots-com-2vd8lihdnw-unsplash.jpg
 credit: image by https://unsplash.com/@jeshoots
 ---
