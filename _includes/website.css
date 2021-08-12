@@ -2465,6 +2465,16 @@ About Page
     background-size: cover;
 }
 
+.pub-banner-sec.open-source {
+
+    background-image: url("/assets/img/ui/open-source-banner.jpg");
+}
+
+.pub-banner-sec.tech-talks {
+
+    background-image: url("/assets/img/ui/tech-talks-banner.jpg");
+}
+
 .pub-title-sec
 {
     background:white;
