@@ -15,7 +15,7 @@ With the release of version 0.5.0, Datalevin gains the new mode of networked ser
 
 What is Datalevin. Versatile transactional database. Clojure native KV store and Datalog store.
 
-Core is a Clojure library, embedded mode.
+Core is a Clojure library, embedded mode, running on JVM.
 
 Native command line, Babashka pods, server and client are all in the same native binary. Run on Linux, MacOS and Windows.
 
@@ -29,9 +29,9 @@ Built-in role based access control (RBAC). State of art security.
 
 User defined functions run in sandboxed interpreter. Work locally as well as remotely.
 
-Event driven server architecture support large number of concurrent connections.
+Event driven server architecture support large number of concurrent connections. Fully utilize server resources.
 
-Client library with built-in connection pool.
+Simple to use client library with a built-in connection pool. Transparently work with both local or remote stores, having exactly the same API.
 
 Extensible wire protocol. Currently support both nippy (smaller payload) and transit (potential for client in other languages) encoding.
 
