@@ -27,12 +27,17 @@ Native command line, Babashka pods, server and client are all in the same native
 
 Hybrid of client/server and peer architecture
 
-Datalevin Server
+Datalevin Server/Client
 
 Our server mode is a unique hybrid mode, not a pure server/client architecture, nor a pure peer mode.
 
+Simple to use client library with a built-in connection pool. 
+
+Transparently work with both local or remote stores, having exactly the same API.
+
 Only storage access is remote. Much of high level transaction and query processing are done locally. All high level facilities, e.g. transactable 
 entities, work as before.
+
 
 Features
 
@@ -42,7 +47,6 @@ User defined functions run in sandboxed interpreter. Work locally as well as rem
 
 Event driven server architecture support large number of concurrent connections. Fully utilize server resources.
 
-Simple to use client library with a built-in connection pool. Transparently work with both local or remote stores, having exactly the same API.
 
 Extensible wire protocol. Currently support both nippy (smaller payload) and transit (potential for client in other languages) encoding.
 
