@@ -861,6 +861,39 @@ footer .logo {
     color: white;
 }
 
+.interview-study-banner-section {
+    padding-top: 50px;
+    background-image: url("/assets/img/ui/interview-study-banner-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    min-height: 350px;
+    text-align: center;
+}
+
+.image-credit {
+    margin:auto;
+    text-align:center;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.interview-study-banner-section .text-block
+{
+    margin:auto;
+    width: 80%;
+    margin-top: 100px;
+}
+
+
+.interview-study-banner-section h4 {
+
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+
 .canned-demo-section h4 {
 
     font-size: 20px;
@@ -872,6 +905,7 @@ footer .logo {
     font-family: GothamRounded-Medium;
 }
 
+    
 .canned-demo-section .text-block
 {
     margin:auto;
@@ -2061,6 +2095,24 @@ h2.muted-heading + p {
 *iPhone
 ****/
 
+.iphone-screen iframe {
+    
+  position: absolute;
+  height: 500px;
+  width: 325px;
+  top: 78px;
+  left: 250px;
+  background: #fff;
+  border: 1px #1D1F20 solid;
+  z-index: 500;
+  padding: 1px;
+}
+
+.iphone-screen iframe {
+    /*top: 90px;*/
+    top: 60px;
+    left: 20px;
+}
 
 .iphone {
   box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0,0,0,0.7);
@@ -2085,7 +2137,7 @@ h2.muted-heading + p {
     height: 6px;
     margin: 0 auto;
     border-radius: 6px;
-    background: #292728;
+    /*background: #292728;*/
   }
 
   .camera {
@@ -2095,7 +2147,7 @@ h2.muted-heading + p {
     width: 10px;
     border-radius: 50%;
     margin-bottom: 13px;
-    background: #333;
+    /*background: #333;*/
   }
 
   .sensor {
@@ -2103,7 +2155,7 @@ h2.muted-heading + p {
     width: 15px;
     height: 15px;
     float: left;
-    background: #333;
+    /*background: #333;*/
     margin-top: -5px;
     border-radius: 50%;
   }
@@ -2202,6 +2254,8 @@ h2.muted-heading + p {
     }
   }
 }
+
+
 
 /*
 About Page

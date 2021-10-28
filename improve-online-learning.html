@@ -1,0 +1,228 @@
+---
+layout: page.njk
+title: "Improve Online Learning Success with Cognitive AI"
+excerpt: "University leaders revealed insights on managing online programs, including main challenges and expectations. These findings inform the opportunities for developing and evaluating AI-powered education solutions (e.g., AI chatbot) to improve student recruitment and e-learning experiences.
+."
+date: 2020-03-31T05:24:53.929Z
+---
+
+<section class="content-section interview-study-banner-section" id="powerful">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-7 col-element">
+                        <div class="text-block">
+
+                          <h1>
+			    Challenges and Opportunities in Higher Education Online Programs:<br>Four Key Findings from University Decision Makers
+			  </h1>
+			  <br>
+			  <h4>Our interviews with 42 university leaders revealed the insights into managing online programs. Read <a href="#abstract" style="font-family:GothamRounded-Medium">the abstract</a> below or chat with our AI to access the report.
+			     </h4>
+
+			  <br>
+			  <br>
+			</div> <!--text-block-->
+
+                    </div> <!--col-5-->
+                </div> <!--row-->
+            </div>
+        </section>
+
+<!-- image credit-->
+<div class="image-credit">
+  <p>image by <a href="https://unsplash.com/@christinhumephoto" target="_blank">Christin Hume</a></p>
+</div>
+  
+<!--Report Abstract-->
+
+<section class="content-section juji-feature-section juji-smart-section"
+	 name="juji-smarts"
+	 id="juji-smarts">
+
+  <div class="container">
+
+     <div class="title-area">
+      <h1 name="abstract" id="abstract">Abstract</h1>
+      
+      <p>Our report outlines four key findings from interviews with 42 leaders of 33 online academic programs across 28 U.S. universities nationwide during the summer of 2021. The findings uncover the insights of building and managing online or e-learning programs at higher education institutions, including main challenges and expectations.</p>
+      <p>These findings inform education technology providers as well as university decision makers on developing and selecting suitable technologies especially AI-powered solutions that can improve student e-learning experience and success at scale.</p>
+     </div>
+     
+    <div class="row align-items-center justify-content-between"
+	 id="empathy" name="empathy">
+
+      <div class="col-md-6 responsive-column">
+	<h2 class="one-half-line-text">Challenges</h2>
+	<ul class="bigger-font-with-square">
+	  <li>participants voiced top-3 challenges in managing online programs: <i>keeping students engaged</i> (61%), <i>recruiting prospective students</i> (45%), and <i>developing quality online courses</i> (35%).</li>
+	<li>The top priorities for the participants to address are: <i>student engagement</i> (39%), <i>student recruitment</i> (23%), and <i>course development</i> (22%)</li>
+	  <li>The current solutions to the top priorities are mainly human-driven and difficult to scale, while technology-driven solutions are less than satisfactory.   </li>
+
+	</ul>
+	<br>
+	<br>
+	
+
+      </div> <!-- end of text column-->
+
+      <div class="col-md-5 responsive-column">
+
+	<img class="lazyload"
+	     alt="Top challenge in university online programs: engage students at scale w/ a human touch"
+	     src="/assets/img/ui/student-engagement-challenges.png"/>
+
+      </div>  <!-- end of image column-->
+    </div> <!-- end of row-->
+
+  </div> <!--container-->
+
+
+</section>
+
+
+<section class="content-section juji-feature-section sub-section juji-smart-section-2"
+	 name="responsible"
+	 id="responsible">
+
+  <div class="container">
+
+    <div class="row align-items-center justify-content-between">
+
+      <div class="col-md-5 responsive-column">
+	<img class="lazyload"
+	     alt="cognitive AI chatbot is a responsible AI and delivers best ai chat"
+	     src="/assets/img/ui/responsible.png"/>
+      </div>  <!-- end of image column-->
+
+      <div class="col-md-6 responsive-column">
+	<h2 class="one-half-line-text">Opportunities</h2>
+	<ul class="bigger-font-with-square">
+	  <li>University decision makers expect technology guidance and easy-to-adopt technologies that can better support online education success.</li>
+	  <li>Two AI solutions could help address universities’ top priorities: (a) AI assistants (chatbots) to personalize student engagement at scale, and (b) content-based AI technologies to personalize online teaching at scale. </li>
+	  <li>Three technology must-haves, <i>quality of services</i>, <i>integrability</i>, and <i>usability</i>,  can be used to guide the development, evaluation, and adoption of technologies for online programs.</li>
+	</ul>
+	
+
+      </div>
+
+    </div> <!--end of row-->
+
+  </div>
+
+</section>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function (event) {
+  // array with texts to type in typewriter
+    var dataText = ["Why should you hire one?", "What can it do for you?",
+		   "How easy to set one up?"];
+
+  var timeBetweenLetters = 100;
+  var timeBetweenWords = 500;
+  var timeToWaitBeforeDeleting = 2000;
+
+  var element = document.getElementById("slide-text");
+
+  // type one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriterForward(text, i, fnCallback) {
+    // check if text isn't finished yet
+    if (i < text.length) {
+      // add next character to h1
+      element.innerHTML =
+        text.substring(0, i + 1) +
+        '<span class="type-writer" aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      return setTimeout(function () {
+        typeWriterForward(text, i + 1, fnCallback);
+      }, timeBetweenLetters);
+    }
+    // text finished, call callback if there is a callback function
+
+    // call callback after timeout
+    //starts the removal of characters
+    setTimeout(function () {
+      typeWriterBackward(text, i, fnCallback);
+    }, timeToWaitBeforeDeleting);
+  }
+
+  // remove one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriterBackward(text, i, fnCallback) {
+    // check if text isn't finished yet
+    if (i >= 0) {
+      // remove next character from h1
+      element.innerHTML =
+        text.substring(0, i) +
+        '<span class="type-writer" aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      return setTimeout(function () {
+        typeWriterBackward(text, i - 1, fnCallback);
+      }, timeBetweenLetters);
+    }
+    // text finished, call callback if there is a callback function
+
+    // call callback after timeout
+    setTimeout(fnCallback, timeBetweenWords);
+  }
+  // start a typewriter animation for a text in the dataText array
+  function StartTextAnimation(i) {
+    typeWriterForward(dataText[i], 0, function () {
+      // after callback (and whole text has been animated), start next text
+      StartTextAnimation((i + 1) % dataText.length);
+    });
+  }
+
+    StartTextAnimation(0);
+
+
+    function openChatWindow() {
+
+      // console.log("click");
+      var chatWindow = document.getElementById("juji-chatbot");
+      var jujiIcon   = document.getElementById("jujibot-icon");
+      var bubble     = document.getElementById("jujibot-bubble");
+
+      jujiIcon.classList.remove("show-icon");
+      jujiIcon.classList.add("hide-icon");
+      chatWindow.classList.remove("hide-content");
+      chatWindow.classList.add("show-content");
+      bubble.style.display = "none";
+
+  }
+
+  function addListener (el, e, h) {
+    if (el.addEventListener) {
+        el.addEventListener(e, h, false);
+    }
+    else if (el.attachEvent) {
+        el.attachEvent('on' + e, h);
+    }
+    else {
+        el['on' + e] = h;
+    }
+  };
+
+  /*addListener(document.getElementById("home-start-chat-btn"), 'click', openChatWindow);*/
+
+
+});
+
+
+</script>
+
+<script async="" type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<script>
+    function trackOutgoingAndRedirect(el) {
+        var url = el.getAttribute('href');
+        ga('send', 'event', {eventCategory: 'outbound',
+                             eventAction: 'send',
+                             eventLabel: url,
+                             eventValue: 1,
+                             hitCallback: function() { document.location = url; }});
+    }
+</script>
