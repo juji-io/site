@@ -59,7 +59,7 @@ As shown above, this is a Q&A template that can be downloaded, filled in, and th
 
 Alma was designed to enable prospective students to obtain answers to their free-text questions instantly instead of searching through the program website/FAQ list to find answers. As shown in the screenshot below, a visitor can ask free-text questions and obtain direct answers to their questions.
 
-![](/assets/uploads/picture5.png)
+![](/assets/uploads/screen-shot-2022-02-11-at-2.23.15-pm.png)
 
 Although Alma could automatically match diverse incoming question expressions (e.g., "*What do you know about the online program*") with what the staff has taught it (e.g., "*Tell me about your program*"), Alma was not perfect especially when she was just launched. In the early days of Alma after it was launched, Myranda and her team checked Alma on a near daily basis, reviewing the questions that Alma was unable to answer and adding to Alma’s knowledge base instantly – without interrupting any ongoing conversations with prospective students. Their Q&A list has grown rapidly as [unanswered user questions were quickly captured and managed](https://juji.io/blog/q-a-dashboard/) by the team after Alma went live.
 
