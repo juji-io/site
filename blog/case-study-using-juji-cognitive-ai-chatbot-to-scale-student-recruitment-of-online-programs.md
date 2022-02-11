@@ -1,8 +1,8 @@
 ---
 layout: blog/article.njk
 featured: true
-title: "Case Study: Juji Cognitive AI Chatbot Aiding Student Recruitment of
-  Online Programs"
+title: "Case Study: Juji Cognitive AI Chatbot Helping Grow Student Recruitment
+  of Online Programs"
 date: 2022-02-11T21:17:08.841Z
 author: Michelle Zhou
 category: Study
