@@ -23,8 +23,6 @@ To address the challenges mentioned above, Professor Brooke Elliott, the Associa
 
 After watching a quick Juji demo that showed how easy and fast one could set up and maintain a chatbot with no code and no IT resources required, Elliott acknowledged “*this seems easy and our recruitment staff can definitely handle this on their own*”, and then decided to give Juji a try. The Assistant Director of the Admissions and Recruitment team, Myranda Crist, led the team in designing and implementing a chatbot, called Alma, which sits on the program's main web page and performs three tasks:
 
-
-
 1. Answer prospective students' questions about the iMBA program
 2. 2. Elicit prospective students' information, such as their program interest
 3. 3. Inform prospective students the key information about the program
@@ -33,6 +31,4 @@ The implementation included two parts, defining the main workflow of Alma as wel
 
 As shown in the screenshots below, for example, the first conversation topic (T0) after the welcome message (Welcome) is to invite a prospective student to ask questions and the second topic (T1) is to ask the student if s/he wishes to subscribe to an email list to receive periodical program updates or reminders (e.g., upcoming application deadline).   
 
-
-
-The screenshot above shows that after sending a welcome message, the AI assistant will invite a website visitor to ask questions (T0). This message also includes a function (help-message-faq) that will automatically generate help messages to inform a visitor what the AI knows. The screenshot below shows what this message looks like in a chat.
+![](/assets/uploads/picture1.png "The screenshot above shows that after sending a welcome message, the AI assistant will invite a website visitor to ask questions (T0). This message also includes a function (help-message-faq) that will automatically generate help messages to inform a visitor what the AI knows. The screenshot below shows what this message looks like in a chat.")
