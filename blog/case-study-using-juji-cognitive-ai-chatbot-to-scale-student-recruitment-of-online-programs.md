@@ -103,7 +103,7 @@ Alison Hodina, Alma's direct supervisor, also commented: 
 
 # **Summary**
 
-This case study describes the creation and application of [a cognitive AI assistant](https://juji.io/) in the form of a chatbot that can multi-task to aid in student recruitment: informing prospective students about the program, automating student free-text inquiries, and eliciting prospective student information.  
+This case study describes the creation and application of [a cognitive AI assistant](https://juji.io/) in the form of a chatbot that can [multi-task](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) to help grow student recruitment: informing prospective students about the program, automating student free-text inquiries, and eliciting prospective student information.  
 
 Adopting an AI chatbot is similar to having a human assistant, a responsible human supervisor should always check in on the chatbot from time to time, identifying mistakes it has made and teaching it new knowledge, especially right after its initial launch, to get the best value of the AI.  As the AI chatbot has grown, supervisions could be reduced accordingly (e.g., from daily check to weekly check). 
 
