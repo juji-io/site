@@ -33,7 +33,7 @@ The Assistant Director of the Admissions and Recruitment team, Myranda Crist, le
 
 1. Answer prospective students' questions about the iMBA program;
 2. Elicit prospective students' information, such as their email and program interest, for follow-up engagements; and
-3. Inform prospective students the key information about the program
+3. Inform prospective students the key information about the program.
 
 The implementation included two parts, defining the main workflow of Alma as well as teaching Alma how to answer frequently asked student questions.  Designing the main workflow of Alma was rather straightforward: the team used [Juji Studio](https://juji.io/no-coding-ai-chatbot-builder/), a no-coding AI chatbot design tool, to [build the main chat flow](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) of Alma based on a template called AI Program Assistant, which already includes a set of conversation topics related to the three tasks mentioned above and a set of program related FAQs. 
 
