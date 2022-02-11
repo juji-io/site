@@ -34,3 +34,73 @@ As shown in the screenshots below, for example, the first conversation topic (T0
 ![](/assets/uploads/picture1.png)
 
 The screenshot above shows that after sending a welcome message, the AI assistant will invite a website visitor to ask questions (T0). This message also includes a function (help-message-faq) that will automatically generate help messages to inform a visitor what the AI knows. The screenshot below shows what this message looks like in a chat.
+
+![](/assets/uploads/picture2.png)
+
+![](/assets/uploads/picture3.png)
+
+The screenshot above shows that if a visitor (prospective student) has done questioning, the AI assistant will ask the visitor whether s/he would like to receive periodical email notifications about the program.
+
+To teach Alma to answer prospective students' questions about the program, the team used the Q&A CSV template coming with the AI Program Assistant and prepared [a spreadsheet containing frequently asked questions and answers](https://juji.io/docs/design/), in a format similar to the one shown below.  The spreadsheet was saved to a CSV file format and uploaded into Alma. The screenshot below shows a template of such questions and answers. 
+
+![](/assets/uploads/picture4.png)
+
+This is a Q&A template that can be downloaded, filled in, and then uploaded to customize an AI assistant with specific program information. 
+
+Alma was designed to enable prospective students to obtain answers to their free-text questions instantly instead of searching through the program website/FAQ list to find answers. As shown in the screenshot below, a visitor can ask free-text questions and obtain direct answers to their questions.
+
+![](/assets/uploads/picture5.png)
+
+Although Alma could automatically match certain incoming question expressions (e.g., "*What do you know about the online program*") with what the staff has taught it (e.g., "*Tell me about your program*"), initially Alma was far from perfect. In the early days of Alma after it was launched, Myranda and her team checked Alma on a near daily basis, reviewing the questions that Alma was unable to answer and adding to Alma’s knowledge base instantly – without interrupting any ongoing conversations with prospective students. Their Q&A list has grown rapidly as [unanswered user questions were quickly captured and managed](https://juji.io/blog/q-a-dashboard/) by the team after Alma went live.
+
+![](/assets/uploads/picture6.png)
+
+This is a screenshot of a Q&A board that a chatbot supervisor can check to see what questions a chatbot has missed and can update the chatbot with a proper answer instantly without interrupting any ongoing conversations.
+
+After Alma was deployed, the team also connected Alma with the Google Analytics used to monitor the program website traffic so the team could learn how Alma's interactions with site visitors would impact their website behavior, for example, how many of those who chatted with Alma went on submitting an application. 
+
+![](/assets/uploads/picture7.png)
+
+This screenshot shows how to connect Google Analytics with a deployed AI chatbot to track how user chatbot behavior is related to other website behavior.
+
+The team also used the Juji Studio "Reports" dashboard similar to the one shown below to view user chat status and improve Alma as needed.
+
+![](/assets/uploads/picture8.png)
+
+![](/assets/uploads/picture9.png)
+
+
+
+# **The Outcome**
+
+Alma has interacted with thousands of visitors on the [Gies iMBA program website](https://onlinemba.illinois.edu/) and answered tens of thousands of visitor questions about the online program. From the data gathered, Alma provides several key values.
+
+## **Improved "conversion rate" by 72%**
+
+The key goals for the program website are to inform prospective students about the program, help them find needed information to make a decision, and encourage them to apply for the program. The Google Analytics data of the program website showed that 11.9% of visitors (prospective students) who interacted with Alma the chatbot applied for the program, while only 6.9% of the visitors who didn't chat with Alma applied for the program. This data implies that 72% increase if visitors (prospective students) had chatted with Alma. 
+
+## **Automated 99.5%** **question answering**
+
+Combining Myranda and team's teaching and Alma's continuous learning capabilities, Alma now answers over 99.5% website visitor's questions 24x7x365, covering a wide range of topics about the program, such as admission requirements, tuition and fees, and alumni network information.  This relieves much human effort, which could be directed to more important tasks (e.g., content creation and student advising). 
+
+Myranda, the leader of the Alma supervising team, mentioned: 
+
+"*We love Alma. It’s created another way for prospects to connect with us and receive quick answers. Alma has helped inform us of areas in our process that may not be as clear as we would like, and we’ve been able to address that. Another added benefit is that our current students also utilize Alma for answers, something we did not expect!*"
+
+Alison Hodina, Alma's direct supervisor, also commented: 
+
+"*Updating Alma is as simple as responding to an email. I love the ease of Q&A board and how easy it is to teach Alma to answer missed questions, including those with varied question expressions*". 
+
+# **Summary**
+
+This case study describes the creation and application of [a cognitive AI assistant](https://juji.io/) in the form of a chatbot that can multi-task to aid in student recruitment: informing prospective students about the program, automating student free-text inquiries, and eliciting prospective student information.  
+
+Adopting an AI chatbot is similar to having a human assistant, a responsible human supervisor should always check in on the chatbot from time to time, identifying mistakes it has made and teaching it new knowledge, especially right after its initial launch, to get the best value of the AI.  As the AI chatbot has grown, supervisions could be reduced accordingly (e.g., from daily check to weekly check). 
+
+Moreover, cognitive AI chatbots are still a novelty and many people are either unaware of their power or have had bad experiences with chatbots that can hardly perform any meaningful tasks. All these perceptions or experiences would deter people from engaging with an AI assistant. We thus strongly encourage organizations who adopt a cognitive AI chatbot to inform their website visitors explicitly what their chatbot can help with and encourage their visitors to engage with the chatbot, which not only will help improve visitor satisfaction but also offload the often unpleasant, repetitive work from human staff members. 
+
+## **Additional Resources**
+
+* [How to create a multipurpose chatbot](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) that can perform multiple tasks, including customer service and marketing in one chat.
+* [How to power a customer service chatbot that is versatile and robust](https://j)
+* A recorded webinar on how to create an AI chatbot to greet and guide website visitors (use code).
