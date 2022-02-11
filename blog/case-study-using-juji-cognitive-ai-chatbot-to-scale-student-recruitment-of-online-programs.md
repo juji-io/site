@@ -101,6 +101,6 @@ Moreover, cognitive AI chatbots are still a novelty and many people are either u
 
 ## **Additional Resources**
 
-* [How to create a multipurpose chatbot](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) that can perform multiple tasks, including customer service and marketing in one chat.
+* [](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/)[A quick video](https://youtu.be/5va3WNyB4LE) summarizes the two key steps to create a chatbot like Alma for student recruitment. 
 * [How to power a customer service chatbot that is versatile and robust](https://j)
-* A recorded webinar on how to create an AI chatbot to greet and guide website visitors (use code).
+* [A recorded webinar](https://us06web.zoom.us/rec/share/qxaOBNsg6yOSmAVJjca-kZf9Qu3qKwoZrnRy5u2F6EXrqnefohSB8QBswCakfBCq.VCHVa4ghhkixPmov) on how to create an AI chatbot to greet and guide website visitors (Passcode: 9%Z#K!Z1 to view the recording).
