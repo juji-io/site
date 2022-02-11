@@ -19,13 +19,21 @@ Just like any fast-growing enterprises, one of the main challenges for the iMBA 
 
 # **The Solution**
 
-To address the challenges mentioned above, Professor Brooke Elliott, the Associate Dean of the College, who oversees the school's online programs, decided to enlist the help of Artificial Intelligence (AI) to automate the repetitive work and reduce staff burdens. Professor Elliott stated “*We have a handful of recruitment staff members who need to answer tens of thousands of questions from prospective students in addition to their other responsibilities such as advising students. A chatbot solution could help us automate certain operations so we can meet increasing student demands while keeping our staff happy*." She wished to explore how AI could help scale out their fast-growing online programs, satisfying both students while making staff members happier at the same time. 
+To address the challenges mentioned above, Professor Brooke Elliott, the Associate Dean of the College, who oversees the school's online programs, decided to enlist the help of Artificial Intelligence (AI) to augment her team. Professor Elliott stated: 
 
-After watching a quick Juji demo that showed how easy and fast one could set up and maintain a chatbot with no code and no IT resources required, Elliott acknowledged “*this seems easy and our recruitment staff can definitely handle this on their own*”, and then decided to give Juji a try. The Assistant Director of the Admissions and Recruitment team, Myranda Crist, led the team in designing and implementing a chatbot, called Alma, which sits on the program's main web page and performs three tasks:
+“*We have a handful of recruitment staff members who need to answer tens of thousands of questions from prospective students in addition to their other responsibilities such as advising students. A chatbot solution could help us automate certain operations so we can meet increasing student demands while keeping our staff happy*." 
 
-1. Answer prospective students' questions about the iMBA program
-2. 2. Elicit prospective students' information, such as their program interest
-3. 3. Inform prospective students the key information about the program
+She wished to explore how AI could automate repetitive work to scale out their fast-growing online programs, satisfying increasing student demands while making staff members happier at the same time. 
+
+After watching a quick Juji demo that showed how easy and fast one could set up and maintain a chatbot with no code and no IT resources required, Elliott decided to give Juji a try as she acknowledged: 
+
+“*this seems easy and our recruitment staff can definitely handle this on their own*”.
+
+The Assistant Director of the Admissions and Recruitment team, Myranda Crist, led the team in designing and implementing a chatbot, called Alma, which sits on the program's main web page and performs three tasks:
+
+1. Answer prospective students' questions about the iMBA program;
+2. Elicit prospective students' information, such as their email and program interest, for follow-up engagements; and
+3. Inform prospective students the key information about the program
 
 The implementation included two parts, defining the main workflow of Alma as well as teaching Alma how to answer frequently asked student questions.  Designing the main workflow of Alma was rather straightforward: the team used [Juji Studio](https://juji.io/no-coding-ai-chatbot-builder/), a no-coding AI chatbot design tool, to [build the main chat flow](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) of Alma based on a template called AI Program Assistant, which already includes a set of conversation topics related to the three tasks mentioned above and a set of program related FAQs. 
 
@@ -37,25 +45,27 @@ The screenshot above shows that after sending a welcome message, the AI assistan
 
 ![](/assets/uploads/picture2.png)
 
+If a visitor (prospective student) has done questioning, the AI assistant will ask the visitor whether s/he would like to receive periodical email notifications about the program. As shown in the screenshot below, T1 is the action to ask a student whether s/he would opt-in for email subscription. 
+
 ![](/assets/uploads/picture3.png)
 
-The screenshot above shows that if a visitor (prospective student) has done questioning, the AI assistant will ask the visitor whether s/he would like to receive periodical email notifications about the program.
+
 
 To teach Alma to answer prospective students' questions about the program, the team used the Q&A CSV template coming with the AI Program Assistant and prepared [a spreadsheet containing frequently asked questions and answers](https://juji.io/docs/design/), in a format similar to the one shown below.  The spreadsheet was saved to a CSV file format and uploaded into Alma. The screenshot below shows a template of such questions and answers. 
 
 ![](/assets/uploads/picture4.png)
 
-This is a Q&A template that can be downloaded, filled in, and then uploaded to customize an AI assistant with specific program information. 
+As shown above, this is a Q&A template that can be downloaded, filled in, and then uploaded to customize an AI assistant with specific program information. 
 
 Alma was designed to enable prospective students to obtain answers to their free-text questions instantly instead of searching through the program website/FAQ list to find answers. As shown in the screenshot below, a visitor can ask free-text questions and obtain direct answers to their questions.
 
 ![](/assets/uploads/picture5.png)
 
-Although Alma could automatically match certain incoming question expressions (e.g., "*What do you know about the online program*") with what the staff has taught it (e.g., "*Tell me about your program*"), initially Alma was far from perfect. In the early days of Alma after it was launched, Myranda and her team checked Alma on a near daily basis, reviewing the questions that Alma was unable to answer and adding to Alma’s knowledge base instantly – without interrupting any ongoing conversations with prospective students. Their Q&A list has grown rapidly as [unanswered user questions were quickly captured and managed](https://juji.io/blog/q-a-dashboard/) by the team after Alma went live.
+Although Alma could automatically match diverse incoming question expressions (e.g., "*What do you know about the online program*") with what the staff has taught it (e.g., "*Tell me about your program*"), Alma was not perfect especially when she was just launched. In the early days of Alma after it was launched, Myranda and her team checked Alma on a near daily basis, reviewing the questions that Alma was unable to answer and adding to Alma’s knowledge base instantly – without interrupting any ongoing conversations with prospective students. Their Q&A list has grown rapidly as [unanswered user questions were quickly captured and managed](https://juji.io/blog/q-a-dashboard/) by the team after Alma went live.
 
 ![](/assets/uploads/picture6.png)
 
-This is a screenshot of a Q&A board that a chatbot supervisor can check to see what questions a chatbot has missed and can update the chatbot with a proper answer instantly without interrupting any ongoing conversations.
+Above screenshot is a Q&A board that a chatbot supervisor can check to see what questions a chatbot has missed and can update the chatbot with a proper answer instantly without interrupting any ongoing conversations.
 
 After Alma was deployed, the team also connected Alma with the Google Analytics used to monitor the program website traffic so the team could learn how Alma's interactions with site visitors would impact their website behavior, for example, how many of those who chatted with Alma went on submitting an application. 
 
@@ -63,7 +73,7 @@ After Alma was deployed, the team also connected Alma with the Google Analytics 
 
 This screenshot shows how to connect Google Analytics with a deployed AI chatbot to track how user chatbot behavior is related to other website behavior.
 
-The team also used the Juji Studio "Reports" dashboard similar to the one shown below to view user chat status and improve Alma as needed.
+The team also used Juji Studio "Reports" dashboard similar to the one shown below to view user chat status and improve Alma as needed.
 
 ![](/assets/uploads/picture8.png)
 
@@ -97,7 +107,7 @@ This case study describes the creation and application of [a cognitive AI assist
 
 Adopting an AI chatbot is similar to having a human assistant, a responsible human supervisor should always check in on the chatbot from time to time, identifying mistakes it has made and teaching it new knowledge, especially right after its initial launch, to get the best value of the AI.  As the AI chatbot has grown, supervisions could be reduced accordingly (e.g., from daily check to weekly check). 
 
-Moreover, cognitive AI chatbots are still a novelty and many people are either unaware of their power or have had bad experiences with chatbots that can hardly perform any meaningful tasks. All these perceptions or experiences would deter people from engaging with an AI assistant. We thus strongly encourage organizations who adopt a cognitive AI chatbot to inform their website visitors explicitly what their chatbot can help with and encourage their visitors to engage with the chatbot, which not only will help improve visitor satisfaction but also offload the often unpleasant, repetitive work from human staff members. 
+Moreover, cognitive AI chatbots are still a novelty and many people are unaware of their power or have had bad experiences with chatbots that can hardly perform any meaningful tasks. All these perceptions or experiences would deter people from engaging with a powerful, cognitive AI assistant like Alma. We thus strongly encourage organizations who adopt a cognitive AI chatbot to inform their website visitors explicitly what their chatbot can help with and encourage their visitors to engage with the chatbot, which not only will help improve visitor satisfaction but also offload the often unpleasant, repetitive work from human staff members. 
 
 ## **Additional Resources**
 
