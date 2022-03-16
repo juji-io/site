@@ -178,16 +178,54 @@
 		</div> <!--drowdown menu pane-->
 	      </li>
 
-              <li class="nav-item">
-                <a class=
-                   {% if page.url == "/blog" %}
-                   "nav-link active-link"
-                   {% else %}
-                   "nav-link"
-                   {% endif %}
-                   href="/blog">
-                  News & Blog
-                </a>
+              <li class="nav-item dropdown">
+                 <a aria-expanded="false"
+                   aria-haspopup="true"
+                   class="nav-link dropdown-toggle"
+                   data-toggle="dropdown"
+                   href="#"
+                   id= "resourcesDropdown"
+                   role="button">
+                  News & Blogs
+                 </a>
+		 <div class="dropdown-menu"
+                     aria-labelledby="resourcesDropdown">
+
+		  <!--dropdown items-->
+		  <a href="https://juji.io/blog/news"
+                     class="dropdown-item"
+                     target="_blank">
+                    News
+                  </a>
+
+		  
+		  <div class="dropdown-divider"></div>
+
+		   <a href="https://juji.io/blog/study"
+                     class="dropdown-item"
+                     target="_blank">
+                     Case Studies
+                   </a>
+		   
+		   <a href="https://juji.io/blog/guides"
+                     class="dropdown-item"
+                      target="_blank">
+                    Design Guides
+                   </a>
+
+		    <a href="https://juji.io/blog/engineering"
+                     class="dropdown-item"
+                     target="_blank">
+                     Engineering Tips
+                    </a>
+
+		   <a href="https://juji.io/blog/viewpoints"
+                     class="dropdown-item"
+                     target="_blank">
+                     Viewpoints
+                    </a>
+		   
+		 </div>
               </li>
 
 	      <li class="nav-item dropdown">
@@ -213,10 +251,16 @@
 
 		  <div class="dropdown-divider"></div>
 
-		  <a href="https://juji.io/docs/tutorial/#"
+		   <a href="https://www.eventbrite.com/cc/juji-webinars-on-no-code-reusable-ai-chatbots-143029"
                      class="dropdown-item"
                      target="_blank">
-                    Tutorials
+                    Live Webinars
+                   </a>
+		   
+		  <a href="https://www.youtube.com/hellojuji"
+                     class="dropdown-item"
+                     target="_blank">
+                    Video Tutorials
                   </a>
 
                   <a href="https://juji.io/docs/"
