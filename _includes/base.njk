@@ -581,9 +581,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
-    <script async="" src='https://www.google-analytics.com/analytics.js'></script>
-    <script async-"" src='/assets/js/autotrack.js'></script>
-    <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    <!-- <script async="" src='https://www.google-analytics.com/analytics.js'></script> -->
+    <script async="" src='/assets/js/autotrack.js'></script>
+<!--     <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-113933244-1', 'auto', {allowLinker: true});
       ga('require', 'linkid');
       ga('require', 'cleanUrlTracker');
@@ -598,6 +598,16 @@
       ga('linker:autoLink', ['juji.ai', 'forum.juji.io', 'docs.juji.io', 'juji.io'],
         false, false);
       ga('send', 'pageview');
+    </script> -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113933244-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113933244-1', {
+        'linker': {'domains': ['juji.ai', 'forum.juji.io', 'docs.juji.io', 'juji.io']}
+      });
     </script>
     <!--<script>-->
       <!--window.fbAsyncInit = function() {-->

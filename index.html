@@ -546,10 +546,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
 <script>
     function trackOutgoingAndRedirect(el) {
         var url = el.getAttribute('href');
-        ga('send', 'event', {eventCategory: 'outbound',
-                             eventAction: 'send',
-                             eventLabel: url,
-                             eventValue: 1,
-                             hitCallback: function() { document.location = url; }});
+        // ga('send', 'event', {eventCategory: 'outbound',
+        //                      eventAction: 'send',
+        //                      eventLabel: url,
+        //                      eventValue: 1,
+        //                      hitCallback: function() { document.location = url; }});
+        gtag('event', 'send', {
+          'event_category': 'outbound',
+          'event_label': url,
+          'value': 1,
+          'event_callback': function() { document.location = url; }
+        })
     }
 </script>
