@@ -35,23 +35,55 @@
 
     <!--Juji Welcome Chatbot-->
 <div id='jujibot-bubble'>
-  Chat with me
+    Click on me to chat with me
 </div>
 <div id='jujibot-icon'
-     background='#8BDFCD'
-        img_url='https://juji.ai/assets/img/content/juji-chat-profile-sm.png'>
+        background='#8BDFCD'
+        img_url='https://juji.ai/assets/img/content/juji-profile.png'
+        role='button'
+        tabIndex='0'
+        alt='Click to chat with Juji'
+        aria-label='Click to chat with Juji'>
 </div>
+<!-- GA SECTION: Update Google Analytics linker config -->
+<!-- If the page already has linker config set to the tracking ID, please remove this GA SECTION and add the domains to the existing linker. -->
+<!-- <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113933244-1'></script>
+<script>window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113933244-1',
+        {'linker': {'domains': ['juji.io', 'juji.ai']},
+         'send_page_view': false});
+</script> -->
+<!-- GA SECTION end -->
 <script>
-  (function(d, s, id){
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://juji.ai/assets/js/cookielessParent.js';
+    document.head.appendChild(script);
+    (function(d, s, id){
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = 'https://juji.ai/assets/js/webplugin.js';
+        if (js.readyState) {
+            js.onreadystatechange = function () {
+                if (js.readyState == 'loaded' || js.readyState == 'complete') {
+                    js.onreadystatechange = null;
+                    updateIframe('https://juji.ai', 'UA-113933244-1');
+                }
+            }
+        } else {
+            js.onload = function () {
+                updateIframe('https://juji.ai', 'UA-113933244-1');
+            }
+        }
+        js.src = 'https://juji.ai/assets/js/webplugin-2.0.0.js';
        fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'juji-webplugin'));
+    // setTimeout(() => {updateIframe('UA-113933244-1')}, 5000);
 </script>
 <div id='juji-chatbot'
-        chat_url='https://juji.ai/pre-chat/6197eb12-2a20-4164-be37-cf2240655ede'>
+        chat_url='https://juji.ai/pre-chat/6197eb12-2a20-4164-be37-cf2240655ede?start-chat=false'>
 </div>
 
     <header>
