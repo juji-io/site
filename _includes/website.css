@@ -872,6 +872,17 @@ footer .logo {
     text-align: center;
 }
 
+.ai-math-tutor-study-banner-section {
+    padding-top: 50px;
+    background-image: url("/assets/img/ui/math-study.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    min-height: 350px;
+    text-align: center;
+}
+
 .image-credit {
     margin:auto;
     text-align:center;
@@ -886,6 +897,12 @@ footer .logo {
     margin-top: 100px;
 }
 
+.ai-math-tutor-study-banner-section .text-block
+{
+    margin:auto;
+    width: 80%;
+    margin-top: 150px;
+}
 
 .interview-study-banner-section h4 {
 
@@ -1442,7 +1459,14 @@ h2.muted-heading + p {
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: 100% 50%;
-}
+    }
+
+    #hr-chatbot {
+
+    background-image: url(/assets/img/ui/hr-chatbot.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 100% 50%;
 
 #user-research-chatbot {
 
@@ -2985,4 +3009,20 @@ footer .social-icon {
     width: 20%;
     margin-top: 30px
 	   
+}
+
+.signup-CTA {
+    display:block;
+    margin:auto;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 50px
+	   
+}
+
+
+.study-abstract-section {
+
+    margin-top: 30px;
+    min-height: 600px;
 }
