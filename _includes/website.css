@@ -1468,29 +1468,31 @@ h2.muted-heading + p {
     background-size: 70%;
     background-position: 100% 50%;
 
-#user-research-chatbot {
+    }
+    
+    #user-research-chatbot {
 
-    background-image: url(/assets/img/ui/survey-chatbot.png);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: 100% 50%;
-}
+	background-image: url(/assets/img/ui/survey-chatbot.png);
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: 100% 50%;
+    }
 
-#healthcare-chatbot {
+    #healthcare-chatbot {
+	
+	background-image: url(/assets/img/ui/healthcare-chatbot.png);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: 100% 50%;
+    }
 
-    background-image: url(/assets/img/ui/healthcare-chatbot.png);
-    background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: 100% 50%;
-}
-
-#education-chatbot {
-
-    background-image: url(/assets/img/ui/education-chatbot.png);
-    background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: 100% 50%;
-}
+    #education-chatbot {
+	
+	background-image: url(/assets/img/ui/education-chatbot.png);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: 100% 50%;
+    }
 }
 
 .why-section.content-section
