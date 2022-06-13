@@ -43,8 +43,9 @@
         role='button'
         tabIndex='0'
         alt='Click to chat with Juji'
-        aria-label='Click to chat with Juji'>
+        aria-label='Click on this button to start the chat window. After you click, use tab key to navigate the chat window'>
 </div>
+<input id='juji-chat-status' type='hidden' value='not chatted'>
 <!-- GA SECTION: Update Google Analytics linker config -->
 <!-- If the page already has linker config set to the tracking ID, please remove this GA SECTION and add the domains to the existing linker. -->
 <!-- <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113933244-1'></script>
@@ -61,30 +62,32 @@
     script.type = 'text/javascript';
     script.src = 'https://juji.ai/assets/js/cookielessParent.js';
     document.head.appendChild(script);
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        if (js.readyState) {
-            js.onreadystatechange = function () {
-                if (js.readyState == 'loaded' || js.readyState == 'complete') {
-                    js.onreadystatechange = null;
+    script.onload = function(){
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            if (js.readyState) {
+                js.onreadystatechange = function () {
+                    if (js.readyState == 'loaded' || js.readyState == 'complete') {
+                        js.onreadystatechange = null;
+                        updateIframe('https://juji.ai', 'UA-113933244-1');
+                    }
+                }
+            } else {
+                js.onload = function () {
                     updateIframe('https://juji.ai', 'UA-113933244-1');
                 }
             }
-        } else {
-            js.onload = function () {
-                updateIframe('https://juji.ai', 'UA-113933244-1');
-            }
-        }
-        js.src = 'https://juji.ai/assets/js/webplugin-2.0.0.js';
+            js.src = 'https://juji.ai/assets/js/webplugin-2.0.0.js';
        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'juji-webplugin'));
-    // setTimeout(() => {updateIframe('UA-113933244-1')}, 5000);
+        }(document, 'script', 'juji-webplugin'));
+    }
 </script>
 <div id='juji-chatbot'
         chat_url='https://juji.ai/pre-chat/6197eb12-2a20-4164-be37-cf2240655ede?start-chat=false'>
 </div>
+
 
     <header>
       <div class="fixed-top" data-toggle="affix">
