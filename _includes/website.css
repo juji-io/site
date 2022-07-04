@@ -1013,7 +1013,7 @@ footer .logo {
     box-shadow: 5px 10px 10px grey;
 }
 
-.content-section .card .card-body.more-space {
+.more-space {
     margin-top:30px;
 }
 
@@ -1055,6 +1055,10 @@ footer .logo {
     .content-section .title-area p {
 	text-align: justify;
     }
+}
+
+.justified-text {
+    text-align:justify;
 }
 
 h2.muted-heading + p {
@@ -2781,6 +2785,14 @@ footer .social-icon {
     width:90%;
 }
 
+.single-text-column h3 {
+    text-align: center;
+}
+
+.single-text-column p {
+    text-align: justify;
+}
+
 .example-row {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -3027,4 +3039,36 @@ footer .social-icon {
 
     margin-top: 30px;
     min-height: 600px;
+}
+
+
+.line {
+    width: 100%;
+    border-bottom: 0.5px solid #888888;
+    height: 1em;		   
+}
+
+
+.line.left {
+    text-align: right;
+}
+
+.line.right {
+    text-align: left;
+}
+
+.mutted-label-w-line {
+    text-align:center;
+    color: #888;
+}
+
+.mutted-label-w-line.t18 {
+    font-family: GothamRounded-Book;
+    font-size: 18px;
+}
+
+
+.news-brand-holder {
+
+    text-align:center;
 }
