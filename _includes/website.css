@@ -1174,6 +1174,13 @@ h2.muted-heading + p {
     line-height: 1.4em;
 }
 
+.news-sec {
+
+    padding-bottom:50px;
+    background: rgb(250,250,250);
+
+}
+
 .partner-sec {
 
     background:white;
@@ -1198,6 +1205,28 @@ h2.muted-heading + p {
 .partner-sec .title h2 {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.news-sec p {
+    font-size: 20px;
+}
+
+.news-sec .news-brand-holder {
+    text-align:center;
+    margin:auto;
+    width: 65%;
+}
+
+.news-sec .news-brand-holder.s-100 {
+    width:100%;
+}
+
+.news-sec .news-brand-holder.s-80 {
+    width:80%;
+}
+
+.news-sec .news-brand-holder.s-50 {
+    width: 50%;
 }
 
 .partner-sec .brand-icon-holder {
