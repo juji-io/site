@@ -706,6 +706,18 @@ footer .logo {
     text-align:center;
 }
 
+.chat-demo-area {
+   margin: auto;
+   text-align:center;
+   
+}
+
+.chat-demo-area iframe {
+    width: 75%;
+    min-width: 450px;
+    min-height: 550px;
+}
+
 .bottom-action-area {
 
     /*background-color: #c2c2c2;*/
@@ -959,6 +971,12 @@ footer .logo {
     background-color: grey;
 }
 
+
+.juji-demo-section {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    min-height: 600px;
+}
 
 .juji-feature-section {
 
@@ -1290,7 +1308,7 @@ h2.muted-heading + p {
 
 .career-main iframe {
     width: 85%;
-    min-height: 700px;
+    min-height: 600px;
     min-width: 376px;
 }
 
