@@ -34,8 +34,16 @@
   <body>
 
     <!--Juji Welcome Chatbot-->
-<div id='jujibot-bubble'>
-    Click on me to chat with me
+<div id='jujibot-bubble'
+     aria-label='Chat pop-up text bubble.'
+     alt='Chat pop-up text bubble.'
+     tabIndex='0'>
+<button id='close-popup'
+        aria-label='Click on this button to minimize the chat pop-up.'
+        alt='Click on this button to minimize the chat pop-up.'
+        tabIndex='0'>
+</button>
+    Click on me to chat
 </div>
 <div id='jujibot-icon'
         background='#8BDFCD'
@@ -45,6 +53,14 @@
         alt='Click to chat with Juji'
         aria-label='Click on this button to start the chat window. After you click, use tab key to navigate the chat window'>
 </div>
+<button id='minimized-chat-icon'
+        aria-label='Click on this button to maximize the chat pop-up.'
+        alt='Click on this button to maximize the chat pop-up.'
+        tabIndex='0'>
+        <img id='minimized-chat-icon-image' src='https://juji.ai/assets/img/ui/user-input-icon.png'
+             aria-label='minimized chat icon image'
+             alt='minimized chat icon image'></img>
+</button>  
 <input id='juji-chat-status' type='hidden' value='not chatted'>
 <!-- GA SECTION: Update Google Analytics linker config -->
 <!-- If the page already has linker config set to the tracking ID, please remove this GA SECTION and add the domains to the existing linker. -->
@@ -59,6 +75,7 @@
 <!-- GA SECTION end -->
 <script>
     var script = document.createElement('script');
+    var minimizedIconWidthAndHeight = 50;
     script.type = 'text/javascript';
     script.src = 'https://juji.ai/assets/js/cookielessParent.js';
     document.head.appendChild(script);
@@ -71,12 +88,14 @@
                 js.onreadystatechange = function () {
                     if (js.readyState == 'loaded' || js.readyState == 'complete') {
                         js.onreadystatechange = null;
-                        updateIframe('https://juji.ai', 'UA-113933244-1');
+                        updateIframe('https://juji.ai', 'UA-113933244-1', 'https://juji.io');
+                        setMinimizedIconSize(minimizedIconWidthAndHeight);
                     }
                 }
             } else {
                 js.onload = function () {
-                    updateIframe('https://juji.ai', 'UA-113933244-1');
+                    updateIframe('https://juji.ai', 'UA-113933244-1', 'https://juji.io');
+                    setMinimizedIconSize(minimizedIconWidthAndHeight);
                 }
             }
             js.src = 'https://juji.ai/assets/js/webplugin-2.0.0.js';
