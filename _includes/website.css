@@ -1544,6 +1544,14 @@ h2.muted-heading + p {
 	background-size: 70%;
 	background-position: 100% 50%;
     }
+
+     #ai-chatbot {
+	
+	background-image: url(/assets/img/ui/survey-chatbot.png);
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: 100% 50%;
+    }
 }
 
 .why-section.content-section
