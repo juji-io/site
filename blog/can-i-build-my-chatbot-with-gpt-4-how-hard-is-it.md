@@ -8,10 +8,17 @@ category: Guides
 tags:
   - Conversational AI
   - Chatbots
-  - Chatbot development
+  - Chatbot Development
+  - AI
   - GPT-4
   - Chat-GPT
   - LLM
+  - DYI AI Chatbot
+  - Question Answering
+  - Customer Support
+  - Customer Service
+  - FAQ Chatbot
+  - Q&A Chatbot
 image: /assets/uploads/future-chatbot-stable-diffusion.jpeg
 credit: Generated using Stable Diffusion
 ---
