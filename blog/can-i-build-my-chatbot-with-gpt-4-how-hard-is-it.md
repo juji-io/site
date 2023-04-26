@@ -93,3 +93,25 @@ Another common use of chatbots is conducting interviews to gather information fr
 Below is an example of interview chat for a police officer position:
 
 ![Example interview chat for a police officer position](/assets/uploads/image3.png "Example interview chat for a police officer position")
+
+To build a useful and usable interview chatbot, you might want to consider a number of design decisions beside determining a list of interview questions for your chatbot to use:
+
+1. How would you like to control the interview process to ensure the quality of interviewee responses? Can users skip certain questions? Do you want your chatbot to ask follow-up questions or branch off to different sub-flows? Do you wish to reinforce certain constraints on user answers, e.g., the length of their answers? How to handle user irrelevant answers or gibberish input?
+2. What kind of interview report would you like to have? In what format (e.g., CSV vs. text file of dialog history)? Would you like to visualize user answers that might help you identify insights? How would you like to view users' free-text responses to open-ended chatbot questions? Should the text responses be summarized in a way that is easy and fast for human consumption?   
+3. How should the chatbot behave when it is interrupted? For example, should the chatbot answer user questions during the interview or just ignore them? What about user's clarification questions regarding an interview question?
+
+As shown below, the simplest implementation of a custom interview chatbot can be made with a system prompt to GPT-4.
+
+![Example of a simple custom interview chatbot based on GPT-4](/assets/uploads/image9.png "Example of a simple custom interview chatbot based on GPT-4")
+
+Since the main purpose of an interview chatbot is to gather information, it is important to ensure that respondents provide quality input during their interview. The simplest implementation does not allow you to customize how to handle a user's response in various situations. For example, what if a user wants to skip a question, would your chatbot allow it? As shown in the example below, I interrupted the flow with a question, the chatbot answered my question but skipped the current question.
+
+![Example of GPT-4 interview chatbot skipping an interview question due to user's interruption](/assets/uploads/image8.png "Example of GPT-4 interview chatbot skipping an interview question due to user's interruption")
+
+Don't be surprised that human users interrupt a chatbot or an interview flow all the time with diverse expressions. For example, users might give an irrelevant answer to a question, give an excuse to why they won't answer the question,  respond with "I don't know", or simply answer with gibberish input. To ensure the quality of user responses, you'd need to implement a full-fledged, configurable interview chatbot to support:
+
+* Question configuration (e.g., similar to what other survey platforms have supported the definition of survey questions but more)
+* Question routing (e.g., if an interview question is interrupted, how the chatbot behaves)
+* Question communication (e.g., when a chatbot needs to repeat a question, should it repeat the original question or a shorter alternative expression)
+
+It would require tremendous amounts of design and engineering efforts to just figure out how to manage a custom question routing flow intertwined with the GPT-4 chat flow!  Expect one full-time AI engineer to spend about 10-12 months to support the functions robustly.
