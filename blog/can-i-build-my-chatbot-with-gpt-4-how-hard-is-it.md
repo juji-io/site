@@ -15,7 +15,8 @@ tags:
 image: /assets/uploads/future-chatbot-stable-diffusion.jpeg
 credit: Generated using Stable Diffusion
 ---
-# Can I build my own chatbot using GPT-4? How hard is it?
+# Can I build my own chatbot using GPT-4? 
+# How hard is it?
 
 With the popularity of [ChatGPT](https://openai.com/blog/chatgpt) and more recently [AutoGPT](https://autogpt.net/), more and more organizations (or individuals) are considering the adoption of a chatbot for their website or proprietary applications (e.g., a learning program website or a mobile healthcare application). The pressing question is: should I build or buy one?
 
