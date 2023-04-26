@@ -136,3 +136,17 @@ In real-world applications, chatbots often [perform multiple tasks](https://juji
 ![Example conversation between a chatbot and visitor about education programs (part 3)](/assets/uploads/image4.png "Example conversation between a chatbot and visitor about education programs (part 3)")
 
 We can consider these chatbots a combination of the Q&A and interview chatbots mentioned above: they can ask as well as answer user questions during a conversation. Because these chatbots are a hybrid of both types of chatbot, many more decision points must be taken into consideration in addition to designing just one type of them:
+
+* Who should start the chat, the chatbot or the user, in this two-way conversation? Who should drive the conversation forward? Can each of them drive the conversation as needed? How to customize the configurations?
+* How to handle arbitrary tasks interleaving? As shown in the example above, a user is asking for a program recommendation. However, before the chatbot could provide the recommendation, the user asks about financial aid. 
+* For complex tasks like daily check-in on a patient or student, how to preserve the conversation context so that a chatbot can engage with a user continuously across a long period of time? 
+* What kind of reporting dashboard would you like to see since chatbots can perform multiple tasks?
+
+Unfortunately, LLMs including GPT-4 does NOT help you address any of the design decisions listed above. This means that you will have to build each part from the ground up. To build such a system, in addition to using LLM like GPT-4 to help chatbot interpret user input or generate certain messages, you'll also need the following: 
+
+1. A front-end system that allows the customization of chatbot tasks and Q&As
+2. Sophisticated algorithms that can handle arbitrary task interleaving
+3. Database management system to track conversation history and preserve context for continued engagements 
+4. Chatbot dashboard to display user interaction history or KPIs (e.g., what are the most frequently asked user questions in a given task? Which task has the highest completion rate?)
+
+In general, while GPT-4 could help provide NLU and NLG capabilities, it will take tremendous amounts of engineering efforts to build a practical two-way conversational chatbot that can achieve multiple tasks. Budget 3-5 full-time engineers for about 12-18 months ($2 to $2.5 million) to build a chatbot to support a set of specific tasks. If you wish to support a wide variety of types of tasks, it would require even more effort.
