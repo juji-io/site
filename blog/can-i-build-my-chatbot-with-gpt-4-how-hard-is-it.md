@@ -5,7 +5,15 @@ title: What does it take to build a chatbot using GPT-4?
 date: 2023-04-20T01:03:24.601Z
 author: Wenxi Chen
 category: Guides
+tags:
+  - Conversational AI
+  - Chatbots
+  - Chatbot development
+  - GPT-4
+  - Chat-GPT
+  - LLM
 image: /assets/uploads/future-chatbot-stable-diffusion.jpeg
+credit: Generated using Stable Diffusion
 ---
 # Can I build my own chatbot using GPT-4? How hard is it?
 
