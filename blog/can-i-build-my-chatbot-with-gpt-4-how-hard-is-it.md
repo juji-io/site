@@ -166,3 +166,25 @@ Each third-party integration will require additional engineering effort, includi
 Building a chatbot is NOT just an engineering project. For the past few years, I have helped many customers build their chatbots. Most of the time I work with subject matter experts (SMEs) who are none-IT specialists. They are marketing specialists, recruitment gurus, HR experts, and learning specialists. They are the supervisor of a chatbot—setting it up and taking care of the chatbot as it grows. They are also the source of chatbot content since they have the domain knowledge that a chatbot needs to function professionally. For example, a university recruitment chatbot takes content from recruitment specialists, while a healthcare chatbot takes content from healthcare coordinators.
 
 So what I really want to emphasize is the importance of involving and empowering SMEs in your chatbot creation process. This means that when you decide to create a chatbot solution on your own, it is like starting a company-wide project that requires the coordination of multiple departments, involving communications across multiple teams and overcoming organizational cultural barriers and politics. Additionally, such a coordinated effort will have to last forever as long as your chatbot exists because adopting a chatbot is like adopting a child, your chatbot needs continuous nurturing in its existence: to be monitored, maintained and updated. Even with so much effort in place, you might have created just one specific chatbot solution (e.g., aiding students in their learning), which may not be easily extended to handle another use case (e.g., assessing students learning outcomes).
+
+# Main Takeaways
+
+In summary, building a chatbot on your own with GPT-4 is possible but requires varied levels of development efforts depending on your goal. Though the simplest solution may be fast and easy to implement, it is often not meant for practical, real-world business applications.
+
+To the minimum, you'll have to
+
+1. Set up a web hosting platform;
+2. Write a computer program to make API calls to GPT-4 or an equivalent LLM accesses;
+3. Build an interface for your chatbot to chat with your users.
+
+If you want your chatbot to answer or ask questions using your proprietary information, you will then need to support the following minimal requirements:
+
+4. Integrate with a data storage to ingest proprietary interview questions or Q&A knowledge (simple Q&A only, no multi-turn Q&A as shown above);
+5. Develop algorithms to monitor and control chatbot behavior to handle unknown questions or uncooperative users;
+6. Store, monitor, and report chat results, including chatbot unanswered questions, user responses or feedback.
+
+If you would like to go to the next level with a chatbot that can ask and answer questions in a two-way conversation, the following also need to be supported to the minimum:
+
+7. Develop a system that can configure, track, and control your chatbot's conversation flow under diverse circumstances (e.g., interleaving of multiple tasks);
+8. Develop a system that can maintain the state of a conversation and handle arbitrary user interruptions properly to manage task completion;
+9. Develop a monitoring, analytics and reporting sub-system that can deliver user insights and chatbot stats for continuous improvement and maintenance.
