@@ -48,32 +48,6 @@ If you have access to a LLM like GPT-4, this kind of chatbot is relatively easy 
 
 Even though it's wrong about its own release status (GPT-4 is already released!), the main idea was rather straightforward: one can use the GPT-4 API to get input from a user,  pass on the user input to get the chatbot response, and then relay the chatbot response back to the user.
 
-```
-As of now, GPT-4 has not been released yet. However, the steps to create a chatbot using GPT-4 would likely be similar to those using GPT-3. Here are the steps to create a chatbot using a hypothetical GPT-4:
-
-1. Access GPT-4 API: Once GPT-4 is released, sign up for access to its API. You might need to request access and wait for approval, depending on the availability and terms provided by OpenAI.
-
-2. Familiarize yourself with the documentation: Go through the GPT-4 API documentation to understand how to interact with the model, set parameters, and send requests.
-
-3. Choose a programming language and library: Pick a programming language you're comfortable with and a library that supports GPT-4 API integration, such as Python with the OpenAI library.
-
-4. Set up the development environment: Install the required libraries and tools for your chosen language and set up a local development environment or use an online environment, such as Google Colab.
-
-5. Initialize GPT-4 API connection: Use your API key to establish a connection with the GPT-4 API, typically through an API client provided by the library or by setting up your own HTTP requests.
-
-6. Define the chatbot interaction: Determine how you want your chatbot to interact with users. This might include setting up a prompt system, parsing user input, and defining the chatbot's responses based on the context.
-
-7. Send requests to GPT-4: Create a function that sends user input to the GPT-4 API and retrieves generated responses. Adjust parameters such as temperature, max tokens, and top_p to control the output's creativity and length.
-
-8. Process and present responses: Parse the response from GPT-4 and extract the relevant information. Present the response to the user in a user-friendly format, such as a chat interface or a voice-based system.
-
-9. Optimize and iterate: Test your chatbot and gather feedback from users. Iterate on your design, improve context handling, and tweak GPT-4 parameters to enhance the chatbot's performance.
-
-10. Integrate with platforms: If desired, integrate your chatbot with messaging platforms, websites, or apps to reach a wider audience and provide a seamless user experience.
-
-Remember that the specific steps and implementation details might vary depending on the GPT-4's features and improvements over GPT-3.
-```
-
 > *As of now, GPT-4 has not been released yet. However, the steps to create a chatbot using GPT-4 would likely be similar to those using GPT-3. Here are the steps to create a chatbot using a hypothetical GPT-4:*
 >
 > 1. *Access GPT-4 API: Once GPT-4 is released, sign up for access to its API. You might need to request access and wait for approval, depending on the availability and terms provided by OpenAI.*
