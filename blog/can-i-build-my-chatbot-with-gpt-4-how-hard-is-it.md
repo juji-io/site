@@ -150,3 +150,13 @@ Unfortunately, LLMs including GPT-4 does NOT help you address any of the design 
 4. Chatbot dashboard to display user interaction history or KPIs (e.g., what are the most frequently asked user questions in a given task? Which task has the highest completion rate?)
 
 In general, while GPT-4 could help provide NLU and NLG capabilities, it will take tremendous amounts of engineering efforts to build a practical two-way conversational chatbot that can achieve multiple tasks. Budget 3-5 full-time engineers for about 12-18 months ($2 to $2.5 million) to build a chatbot to support a set of specific tasks. If you wish to support a wide variety of types of tasks, it would require even more effort.
+
+## Type V: Custom, Two-way conversational Chatbots with Third-Party Integration
+
+In an enterprise, chatbots often need to be integrated with other systems to fulfill their tasks. For example, AI is far from perfect, organizations may want to integrate AI chatbots with a live human chat system so users can be transitioned to human agents who can further help them whenever needed (see an example of AI-Human handoff below).
+
+![Example transition from chatbot to human agent](/assets/uploads/image11-copy-.png "Example transition from chatbot to human agent")
+
+To store and retrieve enterprise data during a chat, chatbots may also need to be integrated with an enterprise's backend data systems (e.g., a CRM system that stores prospect or customer information or a learning system that stores all learning materials).
+
+Each third-party integration will require additional engineering effort, including authentication, testing, system interfacing, and performance scalability. Unfortunately GPT-4 or AutoGPT cannot help you do the integration yet. If you use GPT-4 to build a real-world, two-way chatbot that supports a set of specific tasks and integrate with third-party systems from the ground up, budget 4-6 engineers for 10-12 months of effort ($2.5 to $3 million).
