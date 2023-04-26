@@ -41,23 +41,14 @@ Even though it's wrong about its own release status (GPT-4 is already released!)
 > As of now, GPT-4 has not been released yet. However, the steps to create a chatbot using GPT-4 would likely be similar to those using GPT-3. Here are the steps to create a chatbot using a hypothetical GPT-4:
 >
 > 1. Access GPT-4 API: Once GPT-4 is released, sign up for access to its API. You might need to request access and wait for approval, depending on the availability and terms provided by OpenAI.
->
 > 2. Familiarize yourself with the documentation: Go through the GPT-4 API documentation to understand how to interact with the model, set parameters, and send requests.
->
 > 3. Choose a programming language and library: Pick a programming language you're comfortable with and a library that supports GPT-4 API integration, such as Python with the OpenAI library.
->
 > 4. Set up the development environment: Install the required libraries and tools for your chosen language and set up a local development environment or use an online environment, such as Google Colab.
->
 > 5. Initialize GPT-4 API connection: Use your API key to establish a connection with the GPT-4 API, typically through an API client provided by the library or by setting up your own HTTP requests.
->
 > 6. Define the chatbot interaction: Determine how you want your chatbot to interact with users. This might include setting up a prompt system, parsing user input, and defining the chatbot's responses based on the context.
->
 > 7. Send requests to GPT-4: Create a function that sends user input to the GPT-4 API and retrieves generated responses. Adjust parameters such as temperature, max tokens, and top_p to control the output's creativity and length.
->
 > 8. Process and present responses: Parse the response from GPT-4 and extract the relevant information. Present the response to the user in a user-friendly format, such as a chat interface or a voice-based system.
->
 > 9. Optimize and iterate: Test your chatbot and gather feedback from users. Iterate on your design, improve context handling, and tweak GPT-4 parameters to enhance the chatbot's performance.
->
 > 10. Integrate with platforms: If desired, integrate your chatbot with messaging platforms, websites, or apps to reach a wider audience and provide a seamless user experience.
 >
 > Remember that the specific steps and implementation details might vary depending on the GPT-4's features and improvements over GPT-3.
@@ -69,3 +60,36 @@ Then what if someone tries to attack your chatbot maliciously? Or what if a huge
 ## Type II: Custom Q&A Chatbots
 
 After reading the above that directly using GPT-4's answers to user questions might not be a good idea for your brand or business, now you want to inject your own information into your chatbot so it can respond to users appropriately. In fact, one of the most common chatbot uses is a custom Q&A chatbot that uses proprietary information to answer user questions. For example, universities want a custom chatbot on their website to answer prospect or student questions about their learning programs (see below an example chat) or hospitals want a chatbot in their mobile app to answer patient questions about their medical services.
+
+![Example of an university custom Q&A chatbot](/assets/uploads/image1.png "Example of an university custom Q&A chatbot")
+
+Since GPT-4 does not have your proprietary information, you will need to inject the information into the chatbot yourself. While there are many ways to inject knowledge into your chatbot, you might have to make a number of design decisions about your chatbot:
+
+1. Do you want your chatbot to sound conversational or use the tone consistent with your brand personality when it answers your audiences' questions? Keep in mind, the proprietary data you have (e.g., your website information) may exist in a different form for a different purpose (e.g., long paragraphs or sentences for people to read) instead of in a natural conversational tone. If you care about having your chatbot deliver information in a natural conversational tone, you'll have to transform your data into a conversational one.
+2. What should your chatbot do if it cannot answer a user question? Would you rather have the chatbot acknowledge its ignorance or always provide an answer that might not be accurate? Or do you wish to let the chatbot acknowledge its ignorance for only certain cases but let GPT-4 handle the rest even if its answer might be wrong?
+3. What kind of report do you want to have about your chatbot's Q&A status? Do you want the chatbot to notify you in real time if it cannot answer a user's question? Do you want to use additional channels (e.g., emails or SMS) to notify users that their unanswered questions are now answered? How can you or a chatbot supervisor improve the chatbot quickly if it misses user questions? 
+4. Do you want your chatbot to gather user feedback on its answers? How do you want to handle user feedback, especially the negative ones so you can improve your chatbot?
+
+Based on your answers to these questions, you can then decide how to build your chatbot with GPT-4 to handle various situations as described above.
+
+As shown below, the simplest implementation of a custom Q&A chatbot is to include your FAQ list in the system prompt to GPT-4. It will use your FAQ to answer user questions if a user question happens to match one of your FAQs.
+
+![Example of a simple GPT-4 custom Q&A chat](/assets/uploads/image7.png "Example of a simple GPT-4 custom Q&A chat")
+
+However, there are several drawbacks. First, your chatbot may give wrong information to your users when it cannot find any match in your FAQ to the user question. As shown in the screenshot below, my FAQ does not include financial aid information but GPT-4 is not shy about coming up with an answer of its own with confidence, which may pose a liability for you or your business. Second, as the chatbot creator, there is no way for you to be aware of such a situation since this chatbot does not give notifications when it could not find a FAQ match. Of course it won't be able to gather any user feedback either for you to address.
+
+![Example of GPT-4 give out its own answer](/assets/uploads/image6.png "Example of GPT-4 give out its own answer")
+
+Another more serious limitation of this simple implementation is scalability. As your FAQ list grows, e.g., over a thousand Q&A pairs, you won't be able to upload all your Q&As to GPT-4 since it has a limit on taking in the maximum 8192 tokens (approximately 200 Q&A pairs) at a time.
+
+If you wish to build a custom Q&A chatbot that is scalable and delivers great user experience, things can get even more complex quickly.  For example, you'd want to build [a real-time chatbot Q&A monitoring system](https://juji.io/blog/q-a-dashboard/) to track when your chatbot fails at answering a user question and then instruct what the chatbot should do in this situation (e.g., routing it to a live agent or taking down a user's contact information for answer notification). To continuously improve your chatbot, you'd also need to [implement a system that lets you or other humans update your chatbot](https://juji.io/blog/question-recommendation/) with an improved FAQ list without interrupting ongoing conversations. For example, you don't wish to interrupt any ongoing conversations that your chatbot has with a student who is learning about a subject or a patient who is inquiring about medical procedures in order to update the knowledge of your chatbot.
+
+In general, assuming a mid-size simple FAQ list (i.e., a couple of thousands of Q&As with no multi-turn Q&As, see multi-turn Q&A below), plan to budget two full-time engineers (e.g., one working on the backend and one on the front-end), who might be able to build a decent custom Q&A chatbot with GPT-4 in 4-6 months.
+
+## Type III: Custom Interview Chatbots
+
+Another common use of chatbots is conducting interviews to gather information from an intended audience. [Studies](https://arxiv.org/abs/1905.10700) show that people are more willing to provide higher quality responses in a conversation than in a traditional form-based survey. In fact, organizations have used interview chatbots to conduct [social research studies](https://www.businesswire.com/news/home/20210629005084/en/Juji-Inc.-Powers-Cornell-University-Study-on-Human-Machine-Team-Creativity), [personality assessments](https://www.yahoo.com/now/juji-inc-powers-auburn-led-143000709.html), and [job interviews](https://dl.acm.org/doi/10.1145/3232077).
+
+Below is an example of interview chat for a police officer position:
+
+![Example interview chat for a police officer position](/assets/uploads/image3.png "Example interview chat for a police officer position")
