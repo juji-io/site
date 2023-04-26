@@ -188,3 +188,11 @@ If you would like to go to the next level with a chatbot that can ask and answer
 7. Develop a system that can configure, track, and control your chatbot's conversation flow under diverse circumstances (e.g., interleaving of multiple tasks);
 8. Develop a system that can maintain the state of a conversation and handle arbitrary user interruptions properly to manage task completion;
 9. Develop a monitoring, analytics and reporting sub-system that can deliver user insights and chatbot stats for continuous improvement and maintenance.
+
+Furthermore, integration with third-party systems would require another level of efforts:
+
+10. Develop connections to external third-party systems securely;
+11. Develop supports of customized API calls within conversation;
+12. Develop algorithms to handle complex chat flow management such as human-AI handoff.
+
+Last but not least, keep in mind to involve the content creators all the time, the real AI supervisor of your chatbot. Without them, your chatbot will not be able to get the job done.
