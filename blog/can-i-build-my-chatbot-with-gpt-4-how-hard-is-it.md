@@ -115,3 +115,24 @@ Don't be surprised that human users interrupt a chatbot or an interview flow all
 * Question communication (e.g., when a chatbot needs to repeat a question, should it repeat the original question or a shorter alternative expression)
 
 It would require tremendous amounts of design and engineering efforts to just figure out how to manage a custom question routing flow intertwined with the GPT-4 chat flow!  Expect one full-time AI engineer to spend about 10-12 months to support the functions robustly.
+
+Another important requirement of an interview chatbot is proper recording and reporting of user responses. For practical uses, interview reporting should include the following for the minimum:
+
+* Real time recording of interview results
+* Retrieve and display of interview status (how many ongoing and how many have completed)
+* Retrieve and display of quantitative responses and analyses
+* Retrieve and display of qualitative responses and analyses (e.g., qualitative responses require further text processing)
+
+In summary, significant engineering efforts will be required to support interview results recording and reporting, including database setup and management, data retrieval and analyses, and interactive visualization of data analysis results. Budget 1 backend engineer and 1 front-end engineer to implement a decent recording and reporting system in about 4-6 months.
+
+## Type IV: Custom, Two-way Conversational Chatbots
+
+In real-world applications, chatbots often [perform multiple tasks](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) at the same time. For example, a chatbot on a university website may ask visitor questions to get to know more about them while answering their questions about the university programs (see the screenshot below). Likewise, a chatbot inside a healthcare mobile app may ask patients questions to check in on them daily while answering patient questions.
+
+![Example conversation between a chatbot and visitor about education programs (part 1)](/assets/uploads/image2.png "Example conversation between a chatbot and visitor about education programs (part 1)")
+
+![Example conversation between a chatbot and visitor about education programs (part 2)](/assets/uploads/image5.png "Example conversation between a chatbot and visitor about education programs (part 2)")
+
+![Example conversation between a chatbot and visitor about education programs (part 3)](/assets/uploads/image4.png "Example conversation between a chatbot and visitor about education programs (part 3)")
+
+We can consider these chatbots a combination of the Q&A and interview chatbots mentioned above: they can ask as well as answer user questions during a conversation. Because these chatbots are a hybrid of both types of chatbot, many more decision points must be taken into consideration in addition to designing just one type of them:
