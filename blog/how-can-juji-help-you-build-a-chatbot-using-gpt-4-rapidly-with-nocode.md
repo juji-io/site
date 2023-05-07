@@ -61,7 +61,7 @@ In Juji Studio, you can teach your chatbot with proprietary data in multiple way
 
 ![Upload proprietary Q&As in a CSV file for Chatbot Q&As](/assets/uploads/how-easy-image23.png "Upload proprietary Q&As in a CSV file for Chatbot Q&As")
 
-You can leverage GPT-4 explicitly to auto-generate alternate question expressions so the chatbot can have a wider coverage for diverse user question expressions. Or you can leave this to Juji, which automatically leverage GPT-4 to capture wider varieties of the given questions. Below is an example of using GPT-4 to generate various question expressions of the question "When will I receive my refund". Again, you still have full control on whether to use the generated questions.
+You can leverage GPT-4 explicitly to auto-generate alternate question expressions so the chatbot can have a wider coverage for diverse user question expressions. Or you can leave this to Juji, which automatically leverages GPT-4 to capture wider varieties of the given questions. Below is an example of using GPT-4 to generate various question expressions of the question "When will I receive my refund". Again, you still have full control on whether to use the generated questions.
 
 ![Use GPT-4 to generate question variations on the Juji Platform (part 1)](/assets/uploads/how-easy-image25.png "Use GPT-4 to generate question variations on the Juji Platform (part 1)")
 
@@ -72,3 +72,13 @@ Yet another way to leverage GPT-4 is to simply provide a web page URL or upload 
 Since Juji will also host the Q&As for you, you don't need to worry about where to store the data and how to secure and maintain the data either, which again saves you great time and effort.
 
 ## Q&A Monitor, Report and Update
+
+In a real-world chatbot solution, you'll also need to monitor and update the chatbot so its information is always up to date and its function is improved (e.g., able to answer user questions that it could not answer before). To help you monitor and update your chatbot easily, Juji [automatically monitors your chatbot behavior and displays it on a dashboard in real time](https://juji.io/blog/q-a-dashboard/). By viewing the dashboard, you can learn about your chatbot behavior and update it as needed.
+
+For example, as shown below, you can view how many user questions are answered and how many are unanswered. You can also [view various user feedback](https://youtu.be/YwKKAABwsIM) expressing their thoughts of your chatbot responses. You can then answer the unanswered questions or address user feedback to improve your chatbot instantly without interrupting any existing conversations.
+
+![Example Juji chatbot Q&A behavior report dashboard](/assets/uploads/how-easy-image8.png "Example Juji chatbot Q&A behavior report dashboard")
+
+In short, creating a custom Q&A chatbot not only requires language capabilities (NLU+NLG), it also requires engineering efforts to handle the Q&A data, track Q&A status, and the abilities to improve your chatbot whenever needed. The good news is that Juji has already pre-built all such capabilities so you can just concentrate on teaching your chatbot the proprietary Q&A knowledge that it needs to function.
+
+# Type III: Custom Interview Chatbots
