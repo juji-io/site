@@ -50,3 +50,19 @@ Additionally, Juji automatically tracks chatbot behavior (e.g., how many users i
 ![Example Juji chatbot behavior report dashboard](/assets/uploads/how-easy-image20.png "Example Juji chatbot behavior report dashboard")
 
 # Type II: Custom Q&A Chatbots
+
+As mentioned in my last blog, Question & Answering (Q&A) is one of the most popular chatbot uses. Juji supports a rapid creation of a custom Q&A chatbot that uses proprietary information. As shown below, the UIUC chatbot uses the proprietary information to answer a user question.
+
+![UIUC Juji chatbot uses proprietary information to answer a user question](/assets/uploads/how-easy-image1.png "UIUC Juji chatbot uses proprietary information to answer a user question")
+
+## Inject Proprietary Data for Chatbot Q&A
+
+In Juji Studio, you can teach your chatbot with proprietary data in multiple ways. One way is to directly enter a Q&A pair inside a GUI. The other way is to [specify all proprietary Q&As in a CSV file](https://juji.io/docs/juji-studio/customize-qa/#upload-qas-csv) and upload the CSV file (training data)  into Juji (see below).
+
+![Upload proprietary Q&As in a CSV file for Chatbot Q&As](/assets/uploads/how-easy-image23.png "Upload proprietary Q&As in a CSV file for Chatbot Q&As")
+
+You can leverage GPT-4 explicitly to auto-generate alternate question expressions so the chatbot can have a wider coverage for diverse user question expressions. Or you can leave this to Juji, which automatically leverage GPT-4 to capture wider varieties of the given questions. Below is an example of using GPT-4 to generate various question expressions of the question "When will I receive my refund". Again, you still have full control on whether to use the generated questions.
+
+![Use GPT-4 to generate question variations on the Juji Platform (part 1)](/assets/uploads/how-easy-image25.png "Use GPT-4 to generate question variations on the Juji Platform (part 1)")
+
+![Use GPT-4 to generate question variations on the Juji Platform (part 2)](/assets/uploads/how-easy-image4.png "Use GPT-4 to generate question variations on the Juji Platform (part 2)")
