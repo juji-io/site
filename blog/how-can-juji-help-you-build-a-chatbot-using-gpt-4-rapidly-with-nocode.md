@@ -21,4 +21,32 @@ Although chitchat chatbots are not typical business solutions, you can build the
 
 ## Use GPT-4 to Generate Chatbot Messages
 
-Since GPT-4 is integrated with Juji Studio, it can be used to interpret user input and answer user questions whenever appropriate.  For example, you can use the basic Juji customer service template  (see screenshot below) to create a chitchat chatbot that will let GPT-4 handle user input.
+Since GPT-4 is integrated with Juji Studio, it can be used to interpret user input and answer user questions whenever appropriate. For example, you can use the basic Juji customer service template (see screenshot below) to create a chitchat chatbot that will let GPT-4 handle user input.
+
+![Use basic customer service chatbot template on the Juji Platform](/assets/uploads/how-easy-image3.png "Use basic customer service chatbot template on the Juji Platform")
+
+As shown in the example chat below, GPT-4 is used to interpret the user input (i.e., asking for a funny story) as well as produce the response.
+
+![Example of Juji chatbot using GPT-4 for message interpretation and response generation](/assets/uploads/how-easy-image2.png "Example of Juji chatbot using GPT-4 for message interpretation and response generation")
+
+In case you don't wish to use GPT-4 to handle user input directly, you can turn it off as shown below.
+
+![Place where you can turn off AI generated fallback messages](/assets/uploads/how-easy-image17.png "Place where you can turn off AI generated fallback messages")
+
+## Deploy Your Chatbot
+
+Once your chatbot is ready, you can quickly deploy it. Your deployed chatbot can be accessed via multiple ways, e.g., via a hyperlink in an email or a chat window installed on a website. Check out this short video to see all [three deployment options](https://youtu.be/blLSLhpjgOM).
+
+![Juji chatbot deployment options](/assets/uploads/how-easy-image7.png "Juji chatbot deployment options")
+
+In summary, you can take just 3 simple steps to create and deploy a chatbot on Juji without worrying about web hosting or calling the GPT-4 API. 
+
+* Select a chatbot template
+* Preview the chatbot
+* Deploy the chatbot
+
+Additionally, Juji automatically tracks chatbot behavior (e.g., how many users it has engaged and how long of each engagement) and displays all the information on a dashboard. Below is an example chatbot dashboard.
+
+![Example Juji chatbot behavior report dashboard](/assets/uploads/how-easy-image20.png "Example Juji chatbot behavior report dashboard")
+
+# Type II: Custom Q&A Chatbots
