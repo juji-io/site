@@ -96,3 +96,7 @@ Using the generated questions, Juji then auto-composes an interview chatbot, whi
 ## Fully Customizable Interview Flow
 
 The interview flow, in this case, which is also the main chat flow, is fully customizable. The screenshot below shows the auto-generated interview flow of a chatbot that is intended to collect user input about iPhone.
+
+![Example generated interview flow for collecting user opinion on iPhone](/assets/uploads/how-easy-image5.png "Example generated interview flow for collecting user opinion on iPhone")
+
+In this flow, you can customize EVERY interview question. For example, you can specify how an interview question should be phrased, whether an interview question is mandatory or optional, or how an interview question should handle a specific type of user response (e.g., negative opinion vs. positive opinion about iPhone). You can also indicate what kind of user input is desired (e.g., it won't accept gibberish input or the user input must contain a minimal number of words). Below are screenshots showing the editable text bubble of a question and how the question could be configured.
