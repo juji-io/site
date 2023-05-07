@@ -82,3 +82,17 @@ For example, as shown below, you can view how many user questions are answered a
 In short, creating a custom Q&A chatbot not only requires language capabilities (NLU+NLG), it also requires engineering efforts to handle the Q&A data, track Q&A status, and the abilities to improve your chatbot whenever needed. The good news is that Juji has already pre-built all such capabilities so you can just concentrate on teaching your chatbot the proprietary Q&A knowledge that it needs to function.
 
 # Type III: Custom Interview Chatbots
+
+With GPT-4, Juji enables you to create an interview chatbot easily and quickly. More importantly, Juji still gives you the full control to fine-tune the details of a generated interview chatbot to achieve your specific interview goals.
+
+## AI-Generated Interview Chatbots
+
+Just like in a human-driven interview, [interview questions may come in different shapes and forms](https://youtu.be/7aZB5154Qu0). Thanks to LLMs like GPT, Juji enables you to automatically generate a set of interview questions given an interview context (e.g., interviewing a police officer candidate, onboarding a new student, or gathering user opinions about a product). Below is a screenshot showing how one can specify the interview context.
+
+![Example of generating interview chatbot using AI given specific interview context](/assets/uploads/how-easy-image15.png "Example of generating interview chatbot using AI given specific interview context")
+
+Using the generated questions, Juji then auto-composes an interview chatbot, which is customizable.
+
+## Fully Customizable Interview Flow
+
+The interview flow, in this case, which is also the main chat flow, is fully customizable. The screenshot below shows the auto-generated interview flow of a chatbot that is intended to collect user input about iPhone.
