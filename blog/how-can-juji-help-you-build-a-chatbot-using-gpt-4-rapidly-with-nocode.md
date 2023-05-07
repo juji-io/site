@@ -66,3 +66,9 @@ You can leverage GPT-4 explicitly to auto-generate alternate question expression
 ![Use GPT-4 to generate question variations on the Juji Platform (part 1)](/assets/uploads/how-easy-image25.png "Use GPT-4 to generate question variations on the Juji Platform (part 1)")
 
 ![Use GPT-4 to generate question variations on the Juji Platform (part 2)](/assets/uploads/how-easy-image4.png "Use GPT-4 to generate question variations on the Juji Platform (part 2)")
+
+Yet another way to leverage GPT-4 is to simply provide a web page URL or upload other materials to [generate Q&As using AI](https://youtu.be/ycrK4b4EOOo). Once the Q&A pairs are generated, you can validate the generated Q&As and customize them as you see fit. This way, you have made sure that your chatbot will respond to users with the correct information without suffering the hallucinations exhibited by GPT-4 like LLMs.
+
+Since Juji will also host the Q&As for you, you don't need to worry about where to store the data and how to secure and maintain the data either, which again saves you great time and effort.
+
+## Q&A Monitor, Report and Update
