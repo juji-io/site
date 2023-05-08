@@ -42,7 +42,7 @@ Although chatbots can be used in a wide range of applications and industries, th
 
 As a student in computer science, this was what I had in mind: a chatbot that entertains you with its humorous sentences on a lonely night (see screenshot below).
 
-<img src="/assets/uploads/image10.png" alt="Example of a simple entertaining chatbot" title="Example of a simple entertaining chatbot" width="60%">
+<center><img src="/assets/uploads/image10.png" alt="Example of a simple entertaining chatbot" title="Example of a simple entertaining chatbot" width="60%"></center>
 
 If you have access to a LLM like GPT-4, this kind of chatbot is relatively easy to set up. Actually I just asked GPT-4 "What are the steps to create a chatbot using GPT-4?" Below is its answer.
 
@@ -58,7 +58,7 @@ Then what if someone tries to attack your chatbot maliciously? Or what if a huge
 
 After reading the above that directly using GPT-4's answers to user questions might not be a good idea for your brand or business, now you want to inject your own information into your chatbot so it can respond to users appropriately. In fact, one of the most common chatbot uses is a custom Q&A chatbot that uses proprietary information to answer user questions. For example, universities want a custom chatbot on their website to answer prospect or student questions about their learning programs (see below an example chat) or hospitals want a chatbot in their mobile app to answer patient questions about their medical services.
 
-<img src="/assets/uploads/image1.png" alt="Example of an university custom Q&A chatbot" title="Example of an university custom Q&A chatbot" width="60%">
+<center><img src="/assets/uploads/image1.png" alt="Example of an university custom Q&A chatbot" title="Example of an university custom Q&A chatbot" width="60%"></center>
 
 Since GPT-4 does not have your proprietary information, you will need to inject the information into the chatbot yourself. While there are many ways to inject knowledge into your chatbot, you might have to make a number of design decisions about your chatbot:
 
@@ -89,7 +89,7 @@ Another common use of chatbots is conducting interviews to gather information fr
 
 Below is an example of interview chat for a police officer position:
 
-<img src="/assets/uploads/image3.png" alt="Example interview chat for a police officer position" title="Example interview chat for a police officer position" width="60%">
+<center><img src="/assets/uploads/image3.png" alt="Example interview chat for a police officer position" title="Example interview chat for a police officer position" width="60%"></center>
 
 To build a useful and usable interview chatbot, you might want to consider a number of design decisions beside determining a list of interview questions for your chatbot to use:
 
@@ -126,11 +126,11 @@ In summary, significant engineering efforts will be required to support intervie
 
 In real-world applications, chatbots often [perform multiple tasks](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) at the same time. For example, a chatbot on a university website may ask visitor questions to get to know more about them while answering their questions about the university programs (see the screenshot below). Likewise, a chatbot inside a healthcare mobile app may ask patients questions to check in on them daily while answering patient questions.
 
-<img src="/assets/uploads/image2.png" alt="Example conversation between a chatbot and visitor about education programs (part 1)" title="Example conversation between a chatbot and visitor about education programs (part 1)" width="60%">
+<center><img src="/assets/uploads/image2.png" alt="Example conversation between a chatbot and visitor about education programs (part 1)" title="Example conversation between a chatbot and visitor about education programs (part 1)" width="60%"></center>
 
-<img src="/assets/uploads/image5.png" alt="Example conversation between a chatbot and visitor about education programs (part 2)" title="Example conversation between a chatbot and visitor about education programs (part 2)" width="60%">
+<center><img src="/assets/uploads/image5.png" alt="Example conversation between a chatbot and visitor about education programs (part 2)" title="Example conversation between a chatbot and visitor about education programs (part 2)" width="60%"></center>
 
-<img src="/assets/uploads/image4.png" alt="Example conversation between a chatbot and visitor about education programs (part 3)" title="Example conversation between a chatbot and visitor about education programs (part 3)" width="60%">
+<center><img src="/assets/uploads/image4.png" alt="Example conversation between a chatbot and visitor about education programs (part 3)" title="Example conversation between a chatbot and visitor about education programs (part 3)" width="60%"></center>
 
 We can consider these chatbots a combination of the Q&A and interview chatbots mentioned above: they can ask as well as answer user questions during a conversation. Because these chatbots are a hybrid of both types of chatbot, many more decision points must be taken into consideration in addition to designing just one type of them:
 
@@ -152,7 +152,7 @@ In general, while GPT-4 could help provide NLU and NLG capabilities, it will tak
 
 In an enterprise, chatbots often need to be integrated with other systems to fulfill their tasks. For example, AI is far from perfect, organizations may want to integrate AI chatbots with a live human chat system so users can be transitioned to human agents who can further help them whenever needed (see an example of AI-Human handoff below).
 
-<img src="/assets/uploads/image11-copy-.png" alt="Example transition from chatbot to human agent" title="Example transition from chatbot to human agent" width="60%">
+<center><img src="/assets/uploads/image11-copy-.png" alt="Example transition from chatbot to human agent" title="Example transition from chatbot to human agent" width="60%"></center>
 
 To store and retrieve enterprise data during a chat, chatbots may also need to be integrated with an enterprise's backend data systems (e.g., a CRM system that stores prospect or customer information or a learning system that stores all learning materials).
 
@@ -194,4 +194,6 @@ Furthermore, integration with third-party systems would require another level of
 
 Last but not least, keep in mind to involve the content creators all the time, the real AI supervisor of your chatbot. Without them, your chatbot will not be able to get the job done.
 
-See my newest post on [how you can use Juji to build a chatbot that uses GPT-4 rapidly with #NOCODE](https://juji.io/blog/how-can-juji-help-you-build-a-chatbot-using-gpt-4-rapidly-with-nocode/).
+## What's next?
+
+If you are looking for a better and more efficient way to build a chatbot for your business. Not to worry, help is on the way! See my blog post on [how you can use Juji to build a chatbot that uses GPT-4 rapidly with #NOCODE](https://juji.io/blog/how-can-juji-help-you-build-a-chatbot-using-gpt-4-rapidly-with-nocode/).

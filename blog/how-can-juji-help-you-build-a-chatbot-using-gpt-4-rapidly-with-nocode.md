@@ -36,7 +36,7 @@ Since GPT-4 is integrated with Juji Studio, it can be used to interpret user inp
 
 As shown in the example chat below, GPT-4 is used to interpret the user input (i.e., asking for a funny story) as well as produce the response.
 
-<img src="/assets/uploads/image10.png" alt="Example of Juji chatbot using GPT-4 for message interpretation and response generation" title="Example of Juji chatbot using GPT-4 for message interpretation and response generation" width="60%">
+<center><img src="/assets/uploads/image10.png" alt="Example of Juji chatbot using GPT-4 for message interpretation and response generation" title="Example of Juji chatbot using GPT-4 for message interpretation and response generation" width="60%"></center>
 
 In case you don't wish to use GPT-4 to handle user input directly, you can turn it off as shown below.
 
@@ -62,7 +62,7 @@ Additionally, Juji automatically tracks chatbot behavior (e.g., how many users i
 
 As mentioned in my last blog, Question & Answering (Q&A) is one of the most popular chatbot uses. Juji supports a rapid creation of a custom Q&A chatbot that uses proprietary information. As shown below, the UIUC chatbot uses the proprietary information to answer a user question.
 
-<img src="/assets/uploads/how-easy-image1.png" alt="UIUC Juji chatbot uses proprietary information to answer a user question" title="EUIUC Juji chatbot uses proprietary information to answer a user question" width="60%">
+<center><img src="/assets/uploads/how-easy-image1.png" alt="UIUC Juji chatbot uses proprietary information to answer a user question" title="EUIUC Juji chatbot uses proprietary information to answer a user question" width="60%"></center>
 
 ## Inject Proprietary Data for Chatbot Q&A
 
@@ -116,7 +116,7 @@ In this flow, you can customize EVERY interview question. For example, you can s
 
 Just like in a human-driven interview, interviewees may not always follow the interview flow. In that case, human interviewers must handle out-of-the-flow conversation. The good news is that Juji enables your chatbot to handle such "digressions" or "exceptions" automatically so you don't need to worry that the chatbot might be interrupted and fail at its task. The example conversation below shows how a chatbot handles a digression automatically and resumes the interview flow.
 
-<img src="/assets/uploads/how-easy-image19.png" alt="Example of Juji chatbot handling a digression automatically" title="Example of Juji chatbot handling a digression automatically" width="70%">
+<center><img src="/assets/uploads/how-easy-image19.png" alt="Example of Juji chatbot handling a digression automatically" title="Example of Juji chatbot handling a digression automatically" width="70%"></center>
 
 Also note how Ava changed its way of re-asking the same question the second time around. This is because Juji chatbots are powered to recognize a conversation context and always tries their best to make the conversation feel more natural so users are more willing to engage in such a conversation. Again, you don't need to worry about enabling such capabilities since Juji already handles them for you automatically.
 
@@ -146,11 +146,11 @@ Using the similar method outlined above, you can [define a mini chat flow](https
 
 As shown below, when the chatbot (Alicia) answers the user's financial aid question, it invokes a flow by guiding the user to navigate through various financial aid options.
 
-<img src="/assets/uploads/how-easy-image26.png" alt="Example multi-turn Q&A conversation by Juji chatbot Alicia" title="Example multi-turn Q&A conversation by Juji chatbot Alicia" width="60%">
+<center><img src="/assets/uploads/how-easy-image26.png" alt="Example multi-turn Q&A conversation by Juji chatbot Alicia" title="Example multi-turn Q&A conversation by Juji chatbot Alicia" width="60%"></center>
 
 In a real-world situation, however, such a question-answering flow may be interrupted. For example, the user may change his/her train of thought and interrupt the current flow by asking "Could you help me find a program first", which is another multi-turn Q&A during which the chatbot will gather certain information from the user before suggesting one or more programs (see screenshot below).
 
-<img src="/assets/uploads/how-easy-image29.png" alt="Example of nested multi-turn Q&A conversation by Juji chatbot Alicia" title="Example of nested multi-turn Q&A conversation by Juji chatbot Alicia" width="60%">
+<center><img src="/assets/uploads/how-easy-image29.png" alt="Example of nested multi-turn Q&A conversation by Juji chatbot Alicia" title="Example of nested multi-turn Q&A conversation by Juji chatbot Alicia" width="60%"></center>
 
 This is known as an interleaving of multi-turn Q&A, where a multi-turn Q&A is interrupted by another multi-turn Q&A. The chatbot must be smart enough to understand which mini-workflow it is in, keep track of each flow, and automatically switch to the active flow (e.g., resuming the last incomplete flow) to ensure its completion. Managing the interleaving of arbitrary multi-turn Q&A could be very tricky and requires sophisticated algorithms given the highly diverse and complex conversation situations. The good news is that Juji's Active Listening dialog engine automatically supports arbitrary interleaving of multi-turn Q&A. So you just need to define a mini-workflow for each specific multi-turn Q&A without worrying about how to manage their potentially intertwined execution.
 
@@ -170,7 +170,7 @@ In case you wish to integrate your chatbot with third-party systems, such as liv
 
 ## Integrate with Live Agent Chat
 
-<img src="/assets/uploads/how-easy-image24.png" alt="xample transition from Juji chatbot to human agent on Genesys" title="xample transition from Juji chatbot to human agent on Genesys" width="60%">
+<center><img src="/assets/uploads/how-easy-image24.png" alt="xample transition from Juji chatbot to human agent on Genesys" title="xample transition from Juji chatbot to human agent on Genesys" width="60%"></center>
 
 To facilitate AI-human handoffs, Juji has a built-in Genesys integration. Once you input your Genesys account information (see below screenshot), Juji will take care of the rest.
 
@@ -182,11 +182,11 @@ If desired, you can also customize the transition (e.g., who can terminate the h
 
 To personalize each user engagement, Juji chatbots are also powered by Juji's own unique [personality inferences](https://www.yahoo.com/now/juji-inc-powers-auburn-led-143000709.html). In other words, all Juji chatbots are able to analyze a user's conversation and infer their personality traits in real time. Below shows a user's Big 5 personality derived by the chatbot.
 
-<img src="/assets/uploads/how-easy-image27.png" alt="Example Big 5 personality derived by Juji chatbot" title="Example Big 5 personality derived by Juji chatbot" width="80%">
+<center><img src="/assets/uploads/how-easy-image27.png" alt="Example Big 5 personality derived by Juji chatbot" title="Example Big 5 personality derived by Juji chatbot" width="80%"></center>
 
 Within a conversation, the personality insights derived by Juji along with the conversation context can be fed to GPT-4 to generate truly personalized messages unique to each user based on their personality. Below shows different personalized messages that persuade someone to quit smoking per their Juji-derived personality.
 
-<img src="/assets/uploads/how-easy-image-left.png" alt="Example multi-turn Q&A conversation by Juji chatbot Alicia" title="Example multi-turn Q&A conversation by Juji chatbot Alicia" width="49%"> <img src="/assets/uploads/how-easy-image-right.png" alt="Example multi-turn Q&A conversation by Juji chatbot Alicia" title="Example multi-turn Q&A conversation by Juji chatbot Alicia" width="49%">
+<figure style="width:49%; display:inline-block"><img src="/assets/uploads/how-easy-image-left.png" alt="Generated chatbot message to persuade an action-oriented doer quit smoking" title="Generated chatbot message to persuade an action-oriented doer quit smoking"><figcaption style="font-size: 12px;text-align: center">generated chatbot message for an action-oriented doer</figcaption></figure><figure style="width:49%; display:inline-block"><img src="/assets/uploads/how-easy-image-right.png" alt="Generated chatbot message to persuade a creative and artistic person quit smoking" title="Generated chatbot message to persuade a creative and artistic person quit smoking"><figcaption style="font-size: 12px;text-align: center">generated chatbot message for a creative and artistic person</figcaption></figure>
 
 As a chatbot owner, you can also view the derived personality report. You can even define a "custom" personality profile that might help you discover your ideal audience (e.g., prospective students who are an ideal match to your program or potential customers who are an ideal match to your service). Below is an example of a derived Big 5 Personality report.
 
