@@ -146,3 +146,27 @@ In a real-world situation, however, such a question-answering flow may be interr
 This is known as an interleaving of multi-turn Q&A, where a multi-turn Q&A is interrupted by another multi-turn Q&A. The chatbot must be smart enough to understand which mini-workflow it is in, keep track of each flow, and automatically switch to the active flow (e.g., resuming the last incomplete flow) to ensure its completion. Managing the interleaving of arbitrary multi-turn Q&A could be very tricky and requires sophisticated algorithms given the highly diverse and complex conversation situations. The good news is that Juji's Active Listening dialog engine automatically supports arbitrary interleaving of multi-turn Q&A. So you just need to define a mini-workflow for each specific multi-turn Q&A without worrying about how to manage their potentially intertwined execution.
 
 ## Multimedia Messages
+
+A lively conversation often contains multimedia messages. Juji enables you to easily create custom multimedia messages that contain [images](https://youtu.be/fdFiNoEmHAM) and [videos](https://youtu.be/iuY33FgbEvE), to be displayed individually or in a [carousel](https://youtu.be/X9vrcxIwLNU).
+
+![Example video carousel in Juji chat](/assets/uploads/how-easy-image9.png "Example video carousel in Juji chat")
+
+In summary, a chatbot that can engage users in a two-way conversation is often desired, especially in a business setting. Creating a two-way conversational chatbot is non-trivial as many factors must be considered (e.g., handling the interleaving of chatbot or user initiatives). Nonetheless, Juji has made the process of creating such a chatbot super simple, during which you just need to focus on defining the chatbot's content (e.g., the main to-do list) and let Juji handle the rest.
+
+# Type V: Custom, Two-way conversational Chatbots with Third-Party Integration
+
+## Third-Party Integration
+
+In case you wish to integrate your chatbot with third-party systems, such as live agent chat or a CRM system, Juji supports [third-party API calls within a conversation](https://youtu.be/LNY2S3PbSAY). Additionally, Juji has built-in integration with several systems, such as Genesys live chat, Facebook Messenger, [Google Analytics, FullStory or similar analytics platforms](https://youtu.be/lwKNgssGz_U).
+
+## Integrate with Live Agent Chat
+
+![Example transition from Juji chatbot to human agent on Genesys](/assets/uploads/how-easy-image24.png "Example transition from Juji chatbot to human agent on Genesys")
+
+To facilitate AI-human handoffs, Juji has a built-in Genesys integration. Once you input your Genesys account information (see below screenshot), Juji will take care of the rest.
+
+![Juji built-in Genesys integration configuration](/assets/uploads/how-easy-image11.png "Juji built-in Genesys integration configuration")
+
+If desired, you can also customize the transition (e.g., who can terminate the handoff and the transition messages).
+
+# Personality Inferences
