@@ -100,3 +100,25 @@ The interview flow, in this case, which is also the main chat flow, is fully cus
 ![Example generated interview flow for collecting user opinion on iPhone](/assets/uploads/how-easy-image5.png "Example generated interview flow for collecting user opinion on iPhone")
 
 In this flow, you can customize EVERY interview question. For example, you can specify how an interview question should be phrased, whether an interview question is mandatory or optional, or how an interview question should handle a specific type of user response (e.g., negative opinion vs. positive opinion about iPhone). You can also indicate what kind of user input is desired (e.g., it won't accept gibberish input or the user input must contain a minimal number of words). Below are screenshots showing the editable text bubble of a question and how the question could be configured.
+
+![Example editable text bubble of a question](/assets/uploads/how-easy-image6.png "Example editable text bubble of a question")
+
+![Example question configuration popup](/assets/uploads/how-easy-image21.png "Example question configuration popup")
+
+Just like in a human-driven interview, interviewees may not always follow the interview flow. In that case, human interviewers must handle out-of-the-flow conversation. The good news is that Juji enables your chatbot to handle such "digressions" or "exceptions" automatically so you don't need to worry that the chatbot might be interrupted and fail at its task. The example conversation below shows how a chatbot handles a digression automatically and resumes the interview flow.
+
+![Example of Juji chatbot handling a digression automatically](/assets/uploads/how-easy-image19.png "Example of Juji chatbot handling a digression automatically")
+
+Also note how Ava changed its way of re-asking the same question the second time around. This is because Juji chatbots are powered to recognize a conversation context and always tries their best to make the conversation feel more natural so users are more willing to engage in such a conversation. Again, you don't need to worry about enabling such capabilities since Juji already handles them for you automatically.
+
+## Reports and Analytics
+
+To evaluate how well a chatbot has done its interview task, Juji also provides you with a real-time dashboard that contains interview results, such as how many have finished their interview and response analytics on both qualitative and quantitative questions. A csv of organized interview results can also be downloaded for external processing.
+
+![Example Juji chatbot statistics dashboard](/assets/uploads/how-easy-image13.png "Example Juji chatbot statistics dashboard")
+
+![Example Juji chatbot Audience analytics dashboard](/assets/uploads/how-easy-image10.png "Example Juji chatbot Audience analytics dashboard")
+
+In short, creating a custom interview/conversational survey chatbot requires more than just having the chatbot ask user questions and respond to user answers. Such a chatbot must handle specific interview instructions including run-time user digressions. If you wish to create such a chatbot for real-world applications, check out this [short series of videos](https://youtu.be/k7gDp1uX3Jc), which will show you step-by-step how you can create a custom interview chatbot on your own with #NOCODE.
+
+# Type IV: Custom, Two-way Conversational Chatbots
