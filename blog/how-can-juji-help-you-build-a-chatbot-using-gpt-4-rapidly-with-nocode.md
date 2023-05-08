@@ -12,6 +12,8 @@ tags:
   - GPT-4
   - Chat-GPT
   - LLM
+  - Juji
+  - Juji Studio
 image: /assets/uploads/juji-studio.png
 credit: Juji, Inc.
 ---
