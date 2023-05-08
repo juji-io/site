@@ -182,7 +182,7 @@ If desired, you can also customize the transition (e.g., who can terminate the h
 
 To personalize each user engagement, Juji chatbots are also powered by Juji's own unique [personality inferences](https://www.yahoo.com/now/juji-inc-powers-auburn-led-143000709.html). In other words, all Juji chatbots are able to analyze a user's conversation and infer their personality traits in real time. Below shows a user's Big 5 personality derived by the chatbot.
 
-![Example Big 5 personality derived by Juji chatbot](/assets/uploads/how-easy-image27.png "Example Big 5 personality derived by Juji chatbot")
+<img src="/assets/uploads/how-easy-image27.png" alt="Example Big 5 personality derived by Juji chatbot" title="Example Big 5 personality derived by Juji chatbot" width="80%">
 
 Within a conversation, the personality insights derived by Juji along with the conversation context can be fed to GPT-4 to generate truly personalized messages unique to each user based on their personality. Below shows different personalized messages that persuade someone to quit smoking per their Juji-derived personality.
 

@@ -143,7 +143,7 @@ Unfortunately, LLMs including GPT-4 does NOT help you address any of the design 
 
 1. A front-end system that allows the customization of chatbot tasks and Q&As
 2. Sophisticated algorithms that can handle arbitrary task interleaving
-3. Database management system to track conversation history and preserve context for continued engagements 
+3. Database management system to track conversation history and preserve context for continued engagements
 4. Chatbot dashboard to display user interaction history or KPIs (e.g., what are the most frequently asked user questions in a given task? Which task has the highest completion rate?)
 
 In general, while GPT-4 could help provide NLU and NLG capabilities, it will take tremendous amounts of engineering efforts to build a practical two-way conversational chatbot that can achieve multiple tasks. Budget 3-5 full-time engineers for about 12-18 months ($2 to $2.5 million) to build a chatbot to support a set of specific tasks. If you wish to support a wide variety of types of tasks, it would require even more effort.
@@ -193,3 +193,5 @@ Furthermore, integration with third-party systems would require another level of
 12. Develop algorithms to handle complex chat flow management such as human-AI handoff.
 
 Last but not least, keep in mind to involve the content creators all the time, the real AI supervisor of your chatbot. Without them, your chatbot will not be able to get the job done.
+
+See my newest post on [how you can use Juji to build a chatbot that uses GPT-4 rapidly with #NOCODE](https://juji.io/blog/how-can-juji-help-you-build-a-chatbot-using-gpt-4-rapidly-with-nocode/).
