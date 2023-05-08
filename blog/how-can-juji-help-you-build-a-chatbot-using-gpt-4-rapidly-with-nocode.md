@@ -174,3 +174,28 @@ If desired, you can also customize the transition (e.g., who can terminate the h
 To personalize each user engagement, Juji chatbots are also powered by Juji's own unique [personality inferences](https://www.yahoo.com/now/juji-inc-powers-auburn-led-143000709.html). In other words, all Juji chatbots are able to analyze a user's conversation and infer their personality traits in real time. Below shows a user's Big 5 personality derived by the chatbot.
 
 ![Example Big 5 personality derived by Juji chatbot](/assets/uploads/how-easy-image27.png "Example Big 5 personality derived by Juji chatbot")
+
+Within a conversation, the personality insights derived by Juji along with the conversation context can be fed to GPT-4 to generate truly personalized messages unique to each user based on their personality. Below shows different personalized messages that persuade someone to quit smoking per their Juji-derived personality.
+
+As a chatbot owner, you can also view the derived personality report. You can even define a "custom" personality profile that might help you discover your ideal audience (e.g., prospective students who are an ideal match to your program or potential customers who are an ideal match to your service). Below is an example of a derived Big 5 Personality report.
+
+![an example of a Juji derived Big 5 Personality report](/assets/uploads/how-easy-image16.png "an example of a Juji derived Big 5 Personality report")
+
+# The Importance of NO CODE
+
+While NO CODE enables anyone to build their own custom chatbots, its real power lies in empowering the content owner to fully own the chatbot. Without requiring the IT team to create or manage the chatbot, the domain experts, the [marketing specialist](https://juji.io/user-research-chatbot/), [enrollment manager](https://juji.io/education-chatbot/), [HR expert](https://juji.io/hr-chatbot/) alike, can now build, monitor and maintain the chatbot on their own. Much of cross-organizational obstacles, such as time coordinations and communications, can be avoided. The process of creating AI is truly democratized and decentralized.
+
+# Start Building Your Chatbot Today
+
+Using Juji Studio, building a chatbot empowered with GPT-4 is no longer a million dollar project. Now you can create a usable and useful chatbot in a matter of hours or days. Additionally, all Juji functions are also accessible through [Juji's API](https://juji.io/ai-chatbot-api/) in case you wish to embed your chatbot into your existing application (e.g., a mobile app). So why not [try it today](https://juji.io/)?
+
+## Resources to Get You Started
+
+1. [Sign up on Juji](http://juji.io/signup) then follow the sign up process.
+2. Easy, no-coding [customization instructions.](https://youtu.be/5va3WNyB4LE)
+3. Simple steps for [editing Q&A](https://juji.io/docs/design/#customize-qa-and-fallback)
+4. [Step-by-step guide to handle customer Q&A](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
+5. [Juji video tutorials on youtube](https://www.youtube.com/hellojuji)
+6. [How to customize + upgrade Q&As](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/), including multi-step Q&As.
+7. [Conversational AI design tips](https://juji.io/docs/chatbot-design-tips/)
+8. [Why AI skills are important](https://readwrite.com/no-code-ai-beings-are-shaping-the-future-of-work/) to employees of the future workforce just like computer skills for today's workforce
