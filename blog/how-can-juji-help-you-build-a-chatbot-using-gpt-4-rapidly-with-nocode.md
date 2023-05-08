@@ -170,3 +170,7 @@ To facilitate AI-human handoffs, Juji has a built-in Genesys integration. Once y
 If desired, you can also customize the transition (e.g., who can terminate the handoff and the transition messages).
 
 # Personality Inferences
+
+To personalize each user engagement, Juji chatbots are also powered by Juji's own unique [personality inferences](https://www.yahoo.com/now/juji-inc-powers-auburn-led-143000709.html). In other words, all Juji chatbots are able to analyze a user's conversation and infer their personality traits in real time. Below shows a user's Big 5 personality derived by the chatbot.
+
+![Example Big 5 personality derived by Juji chatbot](/assets/uploads/how-easy-image27.png "Example Big 5 personality derived by Juji chatbot")
