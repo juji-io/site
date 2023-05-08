@@ -140,3 +140,9 @@ As shown below, when the chatbot (Alicia) answers the user's financial aid quest
 ![Example multi-turn Q&A conversation by Juji chatbot Alicia](/assets/uploads/how-easy-image26.png "Example multi-turn Q&A conversation by Juji chatbot Alicia")
 
 In a real-world situation, however, such a question-answering flow may be interrupted. For example, the user may change his/her train of thought and interrupt the current flow by asking "Could you help me find a program first", which is another multi-turn Q&A during which the chatbot will gather certain information from the user before suggesting one or more programs (see screenshot below).
+
+![Example of nested multi-turn Q&A conversation by Juji chatbot Alicia](/assets/uploads/how-easy-image29.png "Example of nested multi-turn Q&A conversation by Juji chatbot Alicia")
+
+This is known as an interleaving of multi-turn Q&A, where a multi-turn Q&A is interrupted by another multi-turn Q&A. The chatbot must be smart enough to understand which mini-workflow it is in, keep track of each flow, and automatically switch to the active flow (e.g., resuming the last incomplete flow) to ensure its completion. Managing the interleaving of arbitrary multi-turn Q&A could be very tricky and requires sophisticated algorithms given the highly diverse and complex conversation situations. The good news is that Juji's Active Listening dialog engine automatically supports arbitrary interleaving of multi-turn Q&A. So you just need to define a mini-workflow for each specific multi-turn Q&A without worrying about how to manage their potentially intertwined execution.
+
+## Multimedia Messages
