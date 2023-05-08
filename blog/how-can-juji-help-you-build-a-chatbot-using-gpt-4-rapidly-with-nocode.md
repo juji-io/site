@@ -122,3 +122,21 @@ To evaluate how well a chatbot has done its interview task, Juji also provides y
 In short, creating a custom interview/conversational survey chatbot requires more than just having the chatbot ask user questions and respond to user answers. Such a chatbot must handle specific interview instructions including run-time user digressions. If you wish to create such a chatbot for real-world applications, check out this [short series of videos](https://youtu.be/k7gDp1uX3Jc), which will show you step-by-step how you can create a custom interview chatbot on your own with #NOCODE.
 
 # Type IV: Custom, Two-way Conversational Chatbots
+
+In many practical business situations, [a two-way conversational chatbot is perhaps most useful](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/). Such a chatbot not only can ask questions but also answer user questions. Next, I will show you how to create a two-way conversational chatbot easily on Juji.
+
+## Define a Main Chat Flow and Q&A
+
+To enable a chatbot that can support two-way conversations, you only need to define a main chat flow and a Q&A list. Here, the main chat flow as shown above defines a to-do list for your chatbot to carry out, while Q&A list enables your chatbot to answer user questions just like a custom Q&A chatbot. Juji handles the rest automatically, including the interleaving of the chatbot-driven to-dos and the user-driven Q&A. As shown below, one can define a main chat flow and Q&A on the Juji Platform graphical user interface.
+
+![Example Juji chatbot design page for customize both chat flow and Q&A](/assets/uploads/how-easy-image18.png "Example Juji chatbot design page for customize both chat flow and Q&A")
+
+## Support Multi-turn Q&As
+
+Using the similar method outlined above, you can [define a mini chat flow](https://youtu.be/7YIaisZF_I4) for a chatbot to answer a user's question, which we call a multi-turn Q&A. Using multi-turn Q&As, when a user asks a complex question, the chatbot can break it down into multiple steps to address that question.
+
+As shown below, when the chatbot (Alicia) answers the user's financial aid question, it invokes a flow by guiding the user to navigate through various financial aid options.
+
+![Example multi-turn Q&A conversation by Juji chatbot Alicia](/assets/uploads/how-easy-image26.png "Example multi-turn Q&A conversation by Juji chatbot Alicia")
+
+In a real-world situation, however, such a question-answering flow may be interrupted. For example, the user may change his/her train of thought and interrupt the current flow by asking "Could you help me find a program first", which is another multi-turn Q&A during which the chatbot will gather certain information from the user before suggesting one or more programs (see screenshot below).
