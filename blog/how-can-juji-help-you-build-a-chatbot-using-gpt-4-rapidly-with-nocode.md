@@ -5,8 +5,17 @@ title: "How can Juji help you build a chatbot using GPT-4 rapidly with #NOCODE?"
 date: 2023-05-07T05:46:54.543Z
 author: Wenxi Chen
 category: Guides
+tags:
+  - Conversational AI
+  - Chatbots
+  - Chatbot Development
+  - GPT-4
+  - Chat-GPT
+  - LLM
 image: /assets/uploads/juji-studio.png
+credit: Juji, Inc.
 ---
+
 # How quickly can I build my own chatbot powered by GPT-4 on Juji? What does it take to build one?
 
 In my [previous blog](https://juji.io/blog/can-i-build-my-chatbot-with-gpt-4-how-hard-is-it/), I talked about what it takes to build a chatbot using GPT-4, including the engineering efforts required and a rough cost and time estimate. Although it is non-trivial to build a practical chatbot solution for real-world applications, with the right tools, one can build a custom chatbot solution quickly to take full advantage of the state-of-the-art large language models (LLMs) like GPT-4.
@@ -21,13 +30,13 @@ Although chitchat chatbots are not typical business solutions, you can build the
 
 ## Use GPT-4 to Generate Chatbot Messages
 
-Since GPT-4 is integrated with Juji Studio, it can be used to interpret user input and answer user questions whenever appropriate. For example, you can use the basic Juji customer service template (see screenshot below) to create a chitchat chatbot that will let GPT-4 handle user input.
+Since GPT-4 is integrated with Juji Studio, it can be used to interpret user input and answer user questions whenever appropriate. For example, you can use the basic Juji customer service template (see screenshot below) to create a chitchat chatbot that will let GPT-4 handle user input.
 
 ![Use basic customer service chatbot template on the Juji Platform](/assets/uploads/how-easy-image3.png "Use basic customer service chatbot template on the Juji Platform")
 
 As shown in the example chat below, GPT-4 is used to interpret the user input (i.e., asking for a funny story) as well as produce the response.
 
-![Example of Juji chatbot using GPT-4 for message interpretation and response generation](/assets/uploads/how-easy-image2.png "Example of Juji chatbot using GPT-4 for message interpretation and response generation")
+<img src="/assets/uploads/image10.png" alt="Example of Juji chatbot using GPT-4 for message interpretation and response generation" title="Example of Juji chatbot using GPT-4 for message interpretation and response generation" width="60%">
 
 In case you don't wish to use GPT-4 to handle user input directly, you can turn it off as shown below.
 
@@ -39,7 +48,7 @@ Once your chatbot is ready, you can quickly deploy it. Your deployed chatbot can
 
 ![Juji chatbot deployment options](/assets/uploads/how-easy-image7.png "Juji chatbot deployment options")
 
-In summary, you can take just 3 simple steps to create and deploy a chatbot on Juji without worrying about web hosting or calling the GPT-4 API. 
+In summary, you can take just 3 simple steps to create and deploy a chatbot on Juji without worrying about web hosting or calling the GPT-4 API.
 
 * Select a chatbot template
 * Preview the chatbot
@@ -53,11 +62,11 @@ Additionally, Juji automatically tracks chatbot behavior (e.g., how many users i
 
 As mentioned in my last blog, Question & Answering (Q&A) is one of the most popular chatbot uses. Juji supports a rapid creation of a custom Q&A chatbot that uses proprietary information. As shown below, the UIUC chatbot uses the proprietary information to answer a user question.
 
-![UIUC Juji chatbot uses proprietary information to answer a user question](/assets/uploads/how-easy-image1.png "UIUC Juji chatbot uses proprietary information to answer a user question")
+<img src="/assets/uploads/how-easy-image1.png" alt="UIUC Juji chatbot uses proprietary information to answer a user question" title="EUIUC Juji chatbot uses proprietary information to answer a user question" width="60%">
 
 ## Inject Proprietary Data for Chatbot Q&A
 
-In Juji Studio, you can teach your chatbot with proprietary data in multiple ways. One way is to directly enter a Q&A pair inside a GUI. The other way is to [specify all proprietary Q&As in a CSV file](https://juji.io/docs/juji-studio/customize-qa/#upload-qas-csv) and upload the CSV file (training data)  into Juji (see below).
+In Juji Studio, you can teach your chatbot with proprietary data in multiple ways. One way is to directly enter a Q&A pair inside a GUI. The other way is to [specify all proprietary Q&As in a CSV file](https://juji.io/docs/juji-studio/customize-qa/#upload-qas-csv) and upload the CSV file (training data) into Juji (see below).
 
 ![Upload proprietary Q&As in a CSV file for Chatbot Q&As](/assets/uploads/how-easy-image23.png "Upload proprietary Q&As in a CSV file for Chatbot Q&As")
 
@@ -97,7 +106,7 @@ Using the generated questions, Juji then auto-composes an interview chatbot, whi
 
 The interview flow, in this case, which is also the main chat flow, is fully customizable. The screenshot below shows the auto-generated interview flow of a chatbot that is intended to collect user input about iPhone.
 
-![Example generated interview flow for collecting user opinion on iPhone](/assets/uploads/how-easy-image5.png "Example generated interview flow for collecting user opinion on iPhone")
+<center><img src="/assets/uploads/how-easy-image5.png" alt="Example generated interview flow for collecting user opinion on iPhone" title="Example generated interview flow for collecting user opinion on iPhone" width="30%"></center>
 
 In this flow, you can customize EVERY interview question. For example, you can specify how an interview question should be phrased, whether an interview question is mandatory or optional, or how an interview question should handle a specific type of user response (e.g., negative opinion vs. positive opinion about iPhone). You can also indicate what kind of user input is desired (e.g., it won't accept gibberish input or the user input must contain a minimal number of words). Below are screenshots showing the editable text bubble of a question and how the question could be configured.
 
@@ -107,7 +116,7 @@ In this flow, you can customize EVERY interview question. For example, you can s
 
 Just like in a human-driven interview, interviewees may not always follow the interview flow. In that case, human interviewers must handle out-of-the-flow conversation. The good news is that Juji enables your chatbot to handle such "digressions" or "exceptions" automatically so you don't need to worry that the chatbot might be interrupted and fail at its task. The example conversation below shows how a chatbot handles a digression automatically and resumes the interview flow.
 
-![Example of Juji chatbot handling a digression automatically](/assets/uploads/how-easy-image19.png "Example of Juji chatbot handling a digression automatically")
+<img src="/assets/uploads/how-easy-image19.png" alt="Example of Juji chatbot handling a digression automatically" title="Example of Juji chatbot handling a digression automatically" width="70%">
 
 Also note how Ava changed its way of re-asking the same question the second time around. This is because Juji chatbots are powered to recognize a conversation context and always tries their best to make the conversation feel more natural so users are more willing to engage in such a conversation. Again, you don't need to worry about enabling such capabilities since Juji already handles them for you automatically.
 
@@ -137,11 +146,11 @@ Using the similar method outlined above, you can [define a mini chat flow](https
 
 As shown below, when the chatbot (Alicia) answers the user's financial aid question, it invokes a flow by guiding the user to navigate through various financial aid options.
 
-![Example multi-turn Q&A conversation by Juji chatbot Alicia](/assets/uploads/how-easy-image26.png "Example multi-turn Q&A conversation by Juji chatbot Alicia")
+<img src="/assets/uploads/how-easy-image26.png" alt="Example multi-turn Q&A conversation by Juji chatbot Alicia" title="Example multi-turn Q&A conversation by Juji chatbot Alicia" width="60%">
 
 In a real-world situation, however, such a question-answering flow may be interrupted. For example, the user may change his/her train of thought and interrupt the current flow by asking "Could you help me find a program first", which is another multi-turn Q&A during which the chatbot will gather certain information from the user before suggesting one or more programs (see screenshot below).
 
-![Example of nested multi-turn Q&A conversation by Juji chatbot Alicia](/assets/uploads/how-easy-image29.png "Example of nested multi-turn Q&A conversation by Juji chatbot Alicia")
+<img src="/assets/uploads/how-easy-image29.png" alt="Example of nested multi-turn Q&A conversation by Juji chatbot Alicia" title="Example of nested multi-turn Q&A conversation by Juji chatbot Alicia" width="60%">
 
 This is known as an interleaving of multi-turn Q&A, where a multi-turn Q&A is interrupted by another multi-turn Q&A. The chatbot must be smart enough to understand which mini-workflow it is in, keep track of each flow, and automatically switch to the active flow (e.g., resuming the last incomplete flow) to ensure its completion. Managing the interleaving of arbitrary multi-turn Q&A could be very tricky and requires sophisticated algorithms given the highly diverse and complex conversation situations. The good news is that Juji's Active Listening dialog engine automatically supports arbitrary interleaving of multi-turn Q&A. So you just need to define a mini-workflow for each specific multi-turn Q&A without worrying about how to manage their potentially intertwined execution.
 
@@ -161,7 +170,7 @@ In case you wish to integrate your chatbot with third-party systems, such as liv
 
 ## Integrate with Live Agent Chat
 
-![Example transition from Juji chatbot to human agent on Genesys](/assets/uploads/how-easy-image24.png "Example transition from Juji chatbot to human agent on Genesys")
+<img src="/assets/uploads/how-easy-image24.png" alt="xample transition from Juji chatbot to human agent on Genesys" title="xample transition from Juji chatbot to human agent on Genesys" width="60%">
 
 To facilitate AI-human handoffs, Juji has a built-in Genesys integration. Once you input your Genesys account information (see below screenshot), Juji will take care of the rest.
 
@@ -176,6 +185,8 @@ To personalize each user engagement, Juji chatbots are also powered by Juji's ow
 ![Example Big 5 personality derived by Juji chatbot](/assets/uploads/how-easy-image27.png "Example Big 5 personality derived by Juji chatbot")
 
 Within a conversation, the personality insights derived by Juji along with the conversation context can be fed to GPT-4 to generate truly personalized messages unique to each user based on their personality. Below shows different personalized messages that persuade someone to quit smoking per their Juji-derived personality.
+
+<img src="/assets/uploads/how-easy-image-left.png" alt="Example multi-turn Q&A conversation by Juji chatbot Alicia" title="Example multi-turn Q&A conversation by Juji chatbot Alicia" width="49%"> <img src="/assets/uploads/how-easy-image-right.png" alt="Example multi-turn Q&A conversation by Juji chatbot Alicia" title="Example multi-turn Q&A conversation by Juji chatbot Alicia" width="49%">
 
 As a chatbot owner, you can also view the derived personality report. You can even define a "custom" personality profile that might help you discover your ideal audience (e.g., prospective students who are an ideal match to your program or potential customers who are an ideal match to your service). Below is an example of a derived Big 5 Personality report.
 
