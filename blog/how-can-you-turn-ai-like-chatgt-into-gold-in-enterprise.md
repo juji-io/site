@@ -162,6 +162,11 @@ platform should be implemented.
   expertise. This empowers non-technical personnel to harness the power of AI,
   enabling a broader adoption of the technology within the organization.
 
+- ** Test and Evaluation **: Comprehensive testing and evaluation processes should be in place to ensure
+  that the AI system meets quality standards and business requirements. Regular
+  evaluations help to identify areas for improvement and drive the ongoing
+  development of the AI system. Tools such as dashboard visualization should be provided to facilitate the process.
+
 - **Live human integration**: In situations where the AI system is unable to
   provide a satisfactory response or solution, a smooth integration with live
   human agents is essential. This ensures that businesses can consistently
@@ -172,11 +177,6 @@ platform should be implemented.
 
 A robust infrastructure is the backbone of a successful AI deployment,
 supporting the system's performance, security, and scalability:
-
-- ** Test and Evaluation **: Comprehensive testing and evaluation processes should be in place to ensure
-  that the AI system meets quality standards and business requirements. Regular
-  evaluations help to identify areas for improvement and drive the ongoing
-  development of the AI system.
 
 - ** DevOps and Scaling **: A DevOps approach to AI deployment facilitates streamlined system maintenance, 
   updates, and scaling. By closely integrating development and operations teams,
