@@ -95,7 +95,7 @@ Samsung recently banned the use of ChatGPT [2].
 
 The experiences and lessons learned from past AI deployments are still
 applicable and valuable, as they faced similar challenges. Discarding the
-efforts to encode domain knowledge and the tools developed to handle complex
+past efforts to encode domain knowledge and the tools developed to handle complex
 business cases would be wasteful.
 
 The current wave of generative AI can be likened to a more powerful CPU. If you
