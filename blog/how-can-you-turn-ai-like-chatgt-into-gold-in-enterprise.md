@@ -212,6 +212,10 @@ way for success. By diligently evaluating potential partners and their
 capabilities, enterprises can make strategic decisions that unlock the power of
 generative AI and turn it into gold for their organization.
 
+
+
+## References
+
 [1] Good news: ChatGPT would probably fail a CFA exam. Financial Times, March
 20, 2023. https://www.ft.com/content/16342e5a-550e-46ae-a3d6-5244c140cb9b
 
@@ -220,5 +224,5 @@ May, 1, 2023. https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-ch
 
 [3] Sun et al. Principle-Driven Self-Alignment of Language Models
 from Scratch with Minimal Human Supervision.
-https://arxiv.org/pdf/2305.03047.pdf
-May 4, 2023, CMU, MIT-IBM AI lab, and UMass.
+May 4, 2023, CMU, MIT-IBM AI lab, and UMass. https://arxiv.org/pdf/2305.03047.pdf
+
