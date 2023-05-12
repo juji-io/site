@@ -37,17 +37,27 @@ managed one will still struggle, regardless of the emergence of generative AI or
 
 I﻿n general, a successful adoption of AI for business requires that AI MUST perform to deliver concrete business value as expected and the business must know how to manage AI just like managing any other business operations. 
 
+### D﻿isillusionment #1
+
 A common disillusionment is that generative AI technologies like GPT or generative AI tools like ChatGPT level the playing field: anyone can use generative AI and English becomes the new programming language. 
 
-While this may be true for certain content creation use cases (e.g., marketing copywriting and information summary),  generative AI is still incapable of solving complex business problems that requires deep domain knowledge.  For example, ChatGPT [generates a medical article with "significant inaccuracies"](https://healthimaging.com/topics/artificial-intelligence/chatgpts-medical-writing), and it also [failed a CFA exam](https://www.ft.com/content/16342e5a-550e-46ae-a3d6-5244c140cb9b).
+While this may be true for certain content creation use cases (e.g., marketing copywriting and information summary),  generative AI is still incapable of solving complex business problems that require deep domain knowledge.  For example, ChatGPT [generates a medical article with "significant inaccuracies"](https://healthimaging.com/topics/artificial-intelligence/chatgpts-medical-writing), and it also [failed a CFA exam](https://www.ft.com/content/16342e5a-550e-46ae-a3d6-5244c140cb9b). 
+
+W﻿hile domain experts have the in-depth domain knowledge, they may not be AI savvy or understand the inners of how generative AI works. For example, they may not know how to prompt ChatGPT effectively or refine their prompts to obtain the desired results. So the challenge is how to enable domain experts to train and supervise AI but without requiring them to become IT/AI experts. 
+
+### D﻿isillusionment #2
+
+Another common disillusionment related to generative AI is that any IT personnel can use generative AI technologies like GPT to create awesome  business solutions. 
+
+
 
 The analogy of a competition between a powered truck and a horse-drawn carriage
 is not applicable here. A horse-drawn carriage does not benefit from a powered
 truck, but a domain expert can indeed benefit from using GPT. It would be
 misguided to assume that a layperson with access to GPT could outperform a
-domain expert who also utilizes GPT in a specialized task. For example, a
-layperson may not know how to prompt GPT effectively, assess the quality of its
-output, or refine the prompt to obtain the desired results.
+domain expert who also utilizes GPT in a specialized task. 
+
+
 
 ## Valuable Lessons from AI Blunders
 
