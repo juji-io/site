@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: false
-title: How can I make more money out of GPT?
+title: How can GPT help my business make more money?
 date: 2023-05-11T21:42:31.533Z
 author: Huahai Yang
 category: Viewpoints
