@@ -54,21 +54,13 @@ output, or refine the prompt to obtain the desired results.
 
 ## Valuable Lessons from AI Blunders
 
-One reason to exercise caution when working with generative AI is that
-controlling this technology remains an active research area and is not yet
-user-friendly.
+The concept of AI has been around since 1960's and the adoption of AI has been through valleys and peaks. One thing agreed among AI experts is that AI is FAR from perfect, including generative AI. 
 
-A well-known and challenging issue with generative AI is hallucination, or the
-tendency to generate false or harmful output. Despite rapid improvements in the
-power and quality of generative AI, advancements in truthfulness have been
-incremental. While the debate over whether this is a fundamental weakness of
-generative AI continues among academics, a look at the current state reveals
-that even the latest state-of-the-art models, like Dromedary, which outperforms
-GPT-4, can only achieve less than 70% accuracy on the TruthfulQA benchmark \[3].
-This level of accuracy is not sufficient for most business settings.
+For example, a well-known and challenging issue with generative AI is "hallucination", with AI generating false or harmful output. 
 
-Additionally, there are concerns surrounding privacy and security. For instance,
-Samsung recently banned the use of ChatGPT \[2].
+Despite rapid improvements in the power and quality of generative AI, advancements in truthfulness have been incremental. While the debate over whether this is a fundamental weakness of generative AI continues among academics, a look at the current state reveals that even the latest state-of-the-art models, like Dromedary, which outperforms GPT-4, can only achieve less than 70% accuracy on the TruthfulQA benchmark \[3]. This level of accuracy is not sufficient for most business settings. In other words, no businesses would want to foot the bill for the liability of giving a false response to their customers or prospects 30% of time! 
+
+Additionally, there are concerns surrounding privacy and security. For instance, [Samsung recently banned the use of ChatGPT](https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak) due to data leak and [Italy also banned the use of ChatGPT](https://www.cnbc.com/2023/04/04/italy-has-banned-chatgpt-heres-what-other-countries-are-doing.html) due to data privacy. 
 
 The experiences and lessons learned from past AI deployments are still
 applicable and valuable, as they faced similar challenges. Discarding the
@@ -83,7 +75,7 @@ record of success. The decision essentially boils down to whether you trust
 someone who has never built a computer to utilize the new powerful CPU, or if
 you prefer someone with prior experience in building computers.
 
-## Technical Ingredients for Successful AI Deployment
+## Technical Ingredients for Successful AI Adoption
 
 As the CTO of an AI company, I have witnessed firsthand the challenges and
 rewards of deploying generative AI in real-world business settings. Based on my
