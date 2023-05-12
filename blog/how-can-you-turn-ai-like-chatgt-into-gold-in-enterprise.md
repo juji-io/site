@@ -52,7 +52,7 @@ domain expert who also utilizes GPT in a specialized task. For example, a
 layperson may not know how to prompt GPT effectively, assess the quality of its
 output, or refine the prompt to obtain the desired results.
 
-## Valuable Lessons from Past AI Deployments
+## Valuable Lessons from AI Blunders
 
 One reason to exercise caution when working with generative AI is that
 controlling this technology remains an active research area and is not yet
