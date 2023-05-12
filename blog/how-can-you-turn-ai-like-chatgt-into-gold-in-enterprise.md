@@ -37,19 +37,29 @@ managed one will still struggle, regardless of the emergence of generative AI or
 
 I﻿n general, a successful adoption of AI for business requires that AI MUST perform to deliver concrete business value as expected and the business must know how to manage AI just like managing any other business operations. 
 
+## Disillusionments of Generative AI
+
+While generative AI has certainly advanced the field of AI especially in natural language understanding (NLU) and natural language generation (NLG), it cannot solve every business problem. Nor will it do. To avoid investing in generative AI hypes, I'd like to first pinpoint out two common disillusionments about generative AI and recognize the associated practical challenges of adopting generative AI for business. 
+
 ### D﻿isillusionment #1
 
-A common disillusionment is that generative AI technologies like GPT or generative AI tools like ChatGPT level the playing field: anyone can use generative AI and English becomes the new programming language. 
+A common disillusionment is that generative AI technologies like GPT or generative AI tools like ChatGPT level the playing field for every business: anyone can use generative AI and English becomes the new programming language. 
 
-While this may be true for certain content creation use cases (e.g., marketing copywriting and information summary),  generative AI is still incapable of solving complex business problems that require deep domain knowledge.  For example, ChatGPT [generates a medical article with "significant inaccuracies"](https://healthimaging.com/topics/artificial-intelligence/chatgpts-medical-writing), and it also [failed a CFA exam](https://www.ft.com/content/16342e5a-550e-46ae-a3d6-5244c140cb9b). 
+While this may be true for certain content creation use cases (e.g., marketing copywriting and information summary),  generative AI is incapable of solving complex business problems that require deep domain knowledge.  For example, ChatGPT [generates a medical article with "significant inaccuracies"](https://healthimaging.com/topics/artificial-intelligence/chatgpts-medical-writing), and it also [failed a CFA exam](https://www.ft.com/content/16342e5a-550e-46ae-a3d6-5244c140cb9b). 
 
-W﻿hile domain experts have the in-depth domain knowledge, they may not be AI savvy or understand the inners of how generative AI works. For example, they may not know how to prompt ChatGPT effectively or refine their prompts to obtain the desired results. So the challenge is how to enable domain experts to train and supervise AI but without requiring them to become IT/AI experts. 
+W﻿hile domain experts have the in-depth domain knowledge, they may not be AI savvy or understand the inners of how generative AI works. For example, they may not know how to prompt ChatGPT effectively or refine their prompts to obtain the desired results. 
+
+So **the challenge** is how to enable business domain experts to train and supervise AI but without requiring them to become IT/AI experts. 
 
 ### D﻿isillusionment #2
 
-Another common disillusionment related to generative AI is that any IT personnel can use generative AI technologies like GPT to create awesome  business solutions. 
+Another common disillusionment related to generative AI is that any IT personnel can use generative AI technologies like GPT to build awesome business software solutions. While generative AI may help accelerate software development (e.g., writing sample code), all the nitty gritty software development requirements, such as user experience design, data security, system scaling and performance, still need to be met and generative AI's help is rather limited. 
 
+T﻿his reminds me of the emergence of [internal combustion engine](https://en.wikipedia.org/wiki/Internal_combustion_engine), which made car manufacturing possible. While all mechanical engineers or craftsman had access to the same engine, not everyone can become Ford and not every car maker could achieve the success of Ford Motors then. 
 
+T﻿his also reminds me of the emergence of [microprocessor](https://en.wikipedia.org/wiki/Microprocessor#:~:text=A%20microprocessor%20is%20a%20computer,central%20processing%20unit%20(CPU).) (CPU), which made the making of personal computers (PCs) possible. While virtually all computer engineers and craftsman had access to microprocessors, not everyone can become Steve Jobs and not every PC company could enjoy the same success of Apple. 
+
+L﻿ike internal combustion engine or microprocessor, generative AI offers tremendous opportunities but those with 
 
 The analogy of a competition between a powered truck and a horse-drawn carriage
 is not applicable here. A horse-drawn carriage does not benefit from a powered
