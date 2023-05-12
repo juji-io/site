@@ -20,29 +20,22 @@ GPT-4 to proofread this blog post.
 
 The pressing question now is: **how can businesses, small or large, aren't involved in the creation of these large language models capitalize on the power of generative AI to improve their bottom line?**  
 
-Unfortunately, there is a chasm between using LLMs for personal productivity gain and monetizing LLMs for business profit. Like developing any business solution, there is much more than meets the eye. Just using the example of creating a chatbot solution with GPT-4, it can easily [takes months and costs millions of dollars](https://juji.io/blog/can-i-build-my-chatbot-with-gpt-4-how-hard-is-it/). So organizations must decide whether they want to heavily invest in in-house development or collaborate with a vendor. 
+Unfortunately, there is a chasm between using LLMs for personal productivity gain and monetizing LLMs for business profit. Like developing any business solution, there is much more than meets the eye. Just using the example of creating a chatbot solution with GPT-4, it can easily [take months and cost millions of dollars](https://juji.io/blog/can-i-build-my-chatbot-with-gpt-4-how-hard-is-it/). So organizations must decide whether they want to heavily invest in in-house development or collaborate with a vendor. 
 
-With many businesses including many enterprises that have scarce IT and engineering resources, in-house development may not be an option (BTW, using English as a programming language is still a hype for creating business solutions). Their only option would be working with a vendor. But how to evaluate and choose the right one? 
+With many businesses including many enterprises having scarce IT and engineering resources, in-house development may not be an option (BTW, using English as a programming language is still a hype for creating business solutions). Their only option would be working with a vendor. But how to evaluate and choose the right one? 
 
-The rest of my article will outline the challenges and opportunities for businesses to leverage generative AI for business gains,  providing a roadmap for entrepreneurs, corporate executives, as well as investors  looking to unlock the value of generative AI in the business context. 
+The rest of my article will outline the challenges and opportunities to leverage generative AI for business gains,  unveiling the lay of the AI land for entrepreneurs, corporate executives, and investors alike looking to unlock the value of generative AI in the business context. 
 
-Before we delve into the specifics, let's first establish a clear understanding
-of the fundamental context surrounding generative AI.
+S﻿ince my focus is on generative AI for business gains, I will start with the business expectations of AI and the valuable lessons learned from AI blunders to better manage such expectations. 
 
-## Consistent Business Needs in the AI Era
+## Business Expectations of AI
 
-While the technology landscape is an integral part of the business environment,
-the core principles of an enterprise do not solely depend on technology.
-Business objectives remain constant, irrespective of generative AI advancements.
-In other words, a well-run business will continue to prosper, and a poorly
-managed one will still struggle, regardless of the emergence of tools like GPT.
+I﻿n the modern business landscape, technology is an integral part of business. When a business adopts a technology, it expects the technology to improve its operation efficiency and drive better business outcomes. Businesses expect of AI to do the same, no matter which type of AI is. 
 
-The expectation for AI to enhance efficiency and value capture in businesses
-remains unaltered, regardless of a specific AI technology's arrival. The concept
-of AI assistants in the business world has been around for decades. Throughout
-this time, there have been multiple highs and lows in terms of AI implementation
-in businesses. The current wave of AI technology should not be seen as a
-fundamental shift.
+M﻿oreover, the success of business does not solely depend on technology. A well-run business will continue to prosper, and a poorly
+managed one will still struggle, regardless of the emergence of generative AI or tools like ChatGPT. 
+
+I﻿n short, a successful adoption of AI for business requires that AI MUST work as expected and the business must be able to manage AI well just like managing any other business operations. 
 
 A common misconception is that generative AI technologies like GPT level the
 playing field, making domain expertise less critical or even irrelevant. While
