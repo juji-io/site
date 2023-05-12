@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: false
-title: How can you turn GPT into gold in the enterprises?
+title: How can I make more money out of GPT?
 date: 2023-05-11T21:42:31.533Z
 author: Huahai Yang
 category: Viewpoints
@@ -10,7 +10,7 @@ tags:
 image: /assets/uploads/d-koi-fc1gbkmv-dw-unsplash.jpg
 credit: https://unsplash.com/@dkoi
 ---
-## Generative AI: A Revolutionary Tool for Businesses?
+## Generative AI: A Magic Tool for Businesses?
 
 Lately, it's nearly impossible to go a day without encountering headlines about generative AI technologies and their applications like ChatGPT or AutoGPT. AI has become red hot again, and its hotness is astonishing: suddenly almost everyone wants to jump on the AI bandwagon.
 
@@ -142,7 +142,7 @@ platform should be implemented.
   interact with and manage the AI system without requiring programming
   expertise. This empowers non-technical personnel to harness the power of AI,
   enabling a broader adoption of the technology within the organization.
-*  **Test and Evaluation** : Comprehensive testing and evaluation processes should be in place to ensure
+* **Test and Evaluation** : Comprehensive testing and evaluation processes should be in place to ensure
   that the AI system meets quality standards and business requirements. Regular
   evaluations help to identify areas for improvement and drive the ongoing
   development of the AI system. Tools such as dashboard visualization should be provided to facilitate these processes.
@@ -157,7 +157,7 @@ platform should be implemented.
 A robust infrastructure is the backbone of a successful AI deployment,
 supporting the system's performance, security, and scalability:
 
-*  **DevOps and Scaling** : A DevOps approach to AI deployment facilitates streamlined system maintenance, 
+* **DevOps and Scaling** : A DevOps approach to AI deployment facilitates streamlined system maintenance, 
   updates, and scaling. By closely integrating development and operations teams,
   businesses can rapidly adapt to changing demands and ensure that their AI
   system remains agile and responsive.
@@ -188,8 +188,6 @@ AI, partnering with a vendor that excels in these three key areas will pave the
 way for success. By diligently evaluating potential partners and their
 capabilities, enterprises can make strategic decisions that unlock the power of
 generative AI and turn it into gold for their organization.
-
-
 
 For those who are unfamiliar with AI, they might be familiar with the history car making or personal computer making. 
 
