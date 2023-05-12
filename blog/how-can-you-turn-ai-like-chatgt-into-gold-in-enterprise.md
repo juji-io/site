@@ -39,11 +39,7 @@ I﻿n general, a successful adoption of AI for business requires that AI MUST pe
 
 A common disillusionment is that generative AI technologies like GPT or generative AI tools like ChatGPT level the playing field: anyone can use generative AI and English becomes the new programming language. 
 
-While this may be true for certain content creation use cases (e.g., marketing copywriting and information summary), using generative AI to solve complex business problems still requires deep domain knowledge and ta engineering efforts. 
-
- requiring in-depth
-domain knowledge. For instance, it is highly unlikely that ChatGPT could replace
-a CFA anytime soon \[1].
+While this may be true for certain content creation use cases (e.g., marketing copywriting and information summary),  generative AI is still incapable of solving complex business problems that requires deep domain knowledge.  For example, ChatGPT [generates a medical article with "significant inaccuracies"](https://healthimaging.com/topics/artificial-intelligence/chatgpts-medical-writing), and it also [failed a CFA exam](https://www.ft.com/content/16342e5a-550e-46ae-a3d6-5244c140cb9b).
 
 The analogy of a competition between a powered truck and a horse-drawn carriage
 is not applicable here. A horse-drawn carriage does not benefit from a powered
