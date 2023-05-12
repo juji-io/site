@@ -55,19 +55,15 @@ So **the challenge** is how to enable business domain experts to train and super
 
 Another common disillusionment related to generative AI is that any IT personnel can use generative AI technologies like GPT to build awesome business software solutions. While generative AI may help accelerate software development (e.g., writing sample code), all the nitty gritty software development requirements, such as user experience design, data security, system scaling and performance, still need to be met and generative AI's help is rather limited. 
 
-T﻿his reminds me of the emergence of [internal combustion engine](https://en.wikipedia.org/wiki/Internal_combustion_engine), which made car manufacturing possible. While all mechanical engineers or craftsman had access to the same engine, not everyone can become Ford and not every car maker could achieve the success of Ford Motors then. 
+T﻿his reminds me of the emergence of [internal combustion engine](https://en.wikipedia.org/wiki/Internal_combustion_engine), which made car manufacturing possible. While all mechanical engineers or craftsman had access to the engine, not everyone became, nor did every car maker have the success as Ford Motors did. 
 
-T﻿his also reminds me of the emergence of [microprocessor](https://en.wikipedia.org/wiki/Microprocessor#:~:text=A%20microprocessor%20is%20a%20computer,central%20processing%20unit%20(CPU).) (CPU), which made the making of personal computers (PCs) possible. While virtually all computer engineers and craftsman had access to microprocessors, not everyone can become Steve Jobs and not every PC company could enjoy the same success of Apple. 
+T﻿his also reminds me of the emergence of [microprocessor](https://en.wikipedia.org/wiki/Microprocessor#:~:text=A%20microprocessor%20is%20a%20computer,central%20processing%20unit%20(CPU).) (CPU), which made the making of personal computers (PCs) possible. While virtually all computer engineers and craftsman had access to microprocessors, not everyone became Steve Jobs, nor did every PC maker achieve the success of Apple. 
 
-L﻿ike internal combustion engine or microprocessor, generative AI offers tremendous opportunities but those with 
+H﻿istory teaches us while new technology inventions can generate great business opportunities, the opportunities always favor those with deep expertise and passion in the related field: Ford's expertise and passion for mechanics enabled him to capitalize the opportunity brought by internal combustion engine and Job's expertise and obsession with design and user experience enabled him to capitalize the opportunity brought by microprocessor. 
 
-The analogy of a competition between a powered truck and a horse-drawn carriage
-is not applicable here. A horse-drawn carriage does not benefit from a powered
-truck, but a domain expert can indeed benefit from using GPT. It would be
-misguided to assume that a layperson with access to GPT could outperform a
-domain expert who also utilizes GPT in a specialized task. 
+A﻿s a new technology, generative AI is no exception. Those with deep AI and IT expertise will benefit from generative AI the most and the fastest by capitalizing on the opportunities. 
 
-
+S﻿o **the challenge** is if your organization does not have the expertise to capitalize on the opportunities brought by generative AI, whom should you partner to harness its power? 
 
 ## Valuable Lessons from AI Blunders
 
