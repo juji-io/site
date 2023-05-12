@@ -12,7 +12,7 @@ tags:
   - GPT-4
   - Chat-GPT
   - LLM
-image: /assets/uploads/future-chatbot-stable-diffusion.jpeg
+image: https://juji.io/assets/uploads/future-chatbot-stable-diffusion.jpeg
 credit: Generated using Stable Diffusion
 ---
 # Can I build my own chatbot using GPT-4?
