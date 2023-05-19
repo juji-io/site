@@ -54,6 +54,11 @@ This sounds magical: now you could have a humorous chit-chat chatbot on your pla
 
 Then what if someone tries to attack your chatbot maliciously? Or what if a huge number of users suddenly appeared on your website and overwhelmed your chatbot? You will then need to think about system security and safety, as well as resource scaling just like building any other type of computer applications and systems.
 
+### Key Skills Required
+
+* Basic Programing
+* Web Development
+
 ## Type II: Custom Q&A Chatbots
 
 After reading the above that directly using GPT-4's answers to user questions might not be a good idea for your brand or business, now you want to inject your own information into your chatbot so it can respond to users appropriately. In fact, one of the most common chatbot uses is a custom Q&A chatbot that uses proprietary information to answer user questions. For example, universities want a custom chatbot on their website to answer prospect or student questions about their learning programs (see below an example chat) or hospitals want a chatbot in their mobile app to answer patient questions about their medical services.
