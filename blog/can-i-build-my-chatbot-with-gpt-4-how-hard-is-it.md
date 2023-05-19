@@ -134,6 +134,15 @@ Another important requirement of an interview chatbot is proper recording and re
 
 In summary, significant engineering efforts will be required to support interview results recording and reporting, including database setup and management, data retrieval and analyses, and interactive visualization of data analysis results. Budget 1 backend engineer and 1 front-end engineer to implement a decent recording and reporting system in about 4-6 months.
 
+### Key Expertise Required
+
+* NLP/ML
+* Data Analytics
+* Database
+* System Design
+* UI/UX
+* Web Development
+
 ## Type IV: Custom, Two-way Conversational Chatbots
 
 In real-world applications, chatbots often [perform multiple tasks](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) at the same time. For example, a chatbot on a university website may ask visitor questions to get to know more about them while answering their questions about the university programs (see the screenshot below). Likewise, a chatbot inside a healthcare mobile app may ask patients questions to check in on them daily while answering patient questions.
@@ -160,6 +169,18 @@ Unfortunately, LLMs including GPT-4 does NOT help you address any of the design 
 
 In general, while GPT-4 could help provide NLU and NLG capabilities, it will take tremendous amounts of engineering efforts to build a practical two-way conversational chatbot that can achieve multiple tasks. Budget 3-5 full-time engineers for about 12-18 months ($2 to $2.5 million) to build a chatbot to support a set of specific tasks. If you wish to support a wide variety of types of tasks, it would require even more effort.
 
+### Key Expertise Required
+
+In addition to the expertise required for building a Custom Q&A Chatbot and a Custom Interview Chatbot, building a Custom Two-way Conversational Chatbots also requires the following expertise:
+
+* System Architecture
+* ML Algorithm
+
+Furthermore, to ensure the performance of such system, the following expertise is also desired:
+
+* Operation
+* Distributed System
+
 ## Type V: Custom, Two-way conversational Chatbots with Third-Party Integration
 
 In an enterprise, chatbots often need to be integrated with other systems to fulfill their tasks. For example, AI is far from perfect, organizations may want to integrate AI chatbots with a live human chat system so users can be transitioned to human agents who can further help them whenever needed (see an example of AI-Human handoff below).
@@ -169,6 +190,14 @@ In an enterprise, chatbots often need to be integrated with other systems to ful
 To store and retrieve enterprise data during a chat, chatbots may also need to be integrated with an enterprise's backend data systems (e.g., a CRM system that stores prospect or customer information or a learning system that stores all learning materials).
 
 Each third-party integration will require additional engineering effort, including authentication, testing, system interfacing, and performance scalability. Unfortunately GPT-4 or AutoGPT cannot help you do the integration yet. If you use GPT-4 to build a real-world, two-way chatbot that supports a set of specific tasks and integrate with third-party systems from the ground up, budget 4-6 engineers for 10-12 months of effort ($2.5 to $3 million).
+
+### Key Expertise Required
+
+Each third-party integration will require collaboration between both the front-end and backend engineers. The following expertise will be important for integrating third-party systems:
+
+* System Design / System Architecture
+* UI/UX
+* Web Development
 
 # Who's involved in building a chatbot?
 
