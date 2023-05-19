@@ -88,6 +88,13 @@ If you wish to build a custom Q&A chatbot that is scalable and delivers great us
 
 In general, assuming a mid-size simple FAQ list (i.e., a couple of thousands of Q&As with no multi-turn Q&As, see multi-turn Q&A below), plan to budget two full-time engineers (e.g., one working on the backend and one on the front-end), who might be able to build a decent custom Q&A chatbot with GPT-4 in 4-6 months. Keep in mind, this implementation supports only simple, single-turn-based Q&A, excluding multi-turn Q&A that must be supported by the Type IV chatbots described below.
 
+### Key Expertise Required
+
+* Database
+* System Design
+* UI/UX
+* Web Development
+
 ## Type III: Custom Interview Chatbots
 
 Another common use of chatbots is conducting interviews to gather information from an intended audience. [Studies](https://arxiv.org/abs/1905.10700) show that people are more willing to provide higher quality responses in a conversation than in a traditional form-based survey. In fact, organizations have used interview chatbots to conduct [social research studies](https://www.businesswire.com/news/home/20210629005084/en/Juji-Inc.-Powers-Cornell-University-Study-on-Human-Machine-Team-Creativity), [personality assessments](https://www.yahoo.com/now/juji-inc-powers-auburn-led-143000709.html), and [job interviews](https://dl.acm.org/doi/10.1145/3232077).
