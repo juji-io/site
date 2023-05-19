@@ -54,6 +54,13 @@ This sounds magical: now you could have a humorous chit-chat chatbot on your pla
 
 Then what if someone tries to attack your chatbot maliciously? Or what if a huge number of users suddenly appeared on your website and overwhelmed your chatbot? You will then need to think about system security and safety, as well as resource scaling just like building any other type of computer applications and systems.
 
+### Key Skills Required
+
+The following skills are essential for building this type of chatbot:
+
+* Basic Programing
+* Web Development
+
 ## Type II: Custom Q&A Chatbots
 
 After reading the above that directly using GPT-4's answers to user questions might not be a good idea for your brand or business, now you want to inject your own information into your chatbot so it can respond to users appropriately. In fact, one of the most common chatbot uses is a custom Q&A chatbot that uses proprietary information to answer user questions. For example, universities want a custom chatbot on their website to answer prospect or student questions about their learning programs (see below an example chat) or hospitals want a chatbot in their mobile app to answer patient questions about their medical services.
@@ -82,6 +89,15 @@ Another more serious limitation of this simple implementation is scalability. As
 If you wish to build a custom Q&A chatbot that is scalable and delivers great user experience, things can get even more complex quickly. For example, you'd want to build [a real-time chatbot Q&A monitoring system](https://juji.io/blog/q-a-dashboard/) to track when your chatbot fails at answering a user question and then instruct what the chatbot should do in this situation (e.g., routing it to a live agent or taking down a user's contact information for answer notification). To continuously improve your chatbot, you'd also need to [implement a system that lets you or other humans update your chatbot](https://juji.io/blog/question-recommendation/) with an improved FAQ list without interrupting ongoing conversations. For example, you don't wish to interrupt any ongoing conversations that your chatbot has with a student who is learning about a subject or a patient who is inquiring about medical procedures in order to update the knowledge of your chatbot.
 
 In general, assuming a mid-size simple FAQ list (i.e., a couple of thousands of Q&As with no multi-turn Q&As, see multi-turn Q&A below), plan to budget two full-time engineers (e.g., one working on the backend and one on the front-end), who might be able to build a decent custom Q&A chatbot with GPT-4 in 4-6 months. Keep in mind, this implementation supports only simple, single-turn-based Q&A, excluding multi-turn Q&A that must be supported by the Type IV chatbots described below.
+
+### Key Expertise Required
+
+A Custom Q&A Chatbot requires more engineering expertise than a Chitchat Chatbot. The following expertise is especially important:
+
+* Database
+* System Design
+* UI/UX
+* Web Development
 
 ## Type III: Custom Interview Chatbots
 
@@ -122,6 +138,15 @@ Another important requirement of an interview chatbot is proper recording and re
 
 In summary, significant engineering efforts will be required to support interview results recording and reporting, including database setup and management, data retrieval and analyses, and interactive visualization of data analysis results. Budget 1 backend engineer and 1 front-end engineer to implement a decent recording and reporting system in about 4-6 months.
 
+### Key Expertise Required
+
+* NLP/ML
+* Data Analytics
+* Database
+* System Design
+* UI/UX
+* Web Development
+
 ## Type IV: Custom, Two-way Conversational Chatbots
 
 In real-world applications, chatbots often [perform multiple tasks](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) at the same time. For example, a chatbot on a university website may ask visitor questions to get to know more about them while answering their questions about the university programs (see the screenshot below). Likewise, a chatbot inside a healthcare mobile app may ask patients questions to check in on them daily while answering patient questions.
@@ -148,6 +173,19 @@ Unfortunately, LLMs including GPT-4 does NOT help you address any of the design 
 
 In general, while GPT-4 could help provide NLU and NLG capabilities, it will take tremendous amounts of engineering efforts to build a practical two-way conversational chatbot that can achieve multiple tasks. Budget 3-5 full-time engineers for about 12-18 months ($2 to $2.5 million) to build a chatbot to support a set of specific tasks. If you wish to support a wide variety of types of tasks, it would require even more effort.
 
+### Key Expertise Required
+
+In addition to the expertise required for building a Custom Q&A Chatbot and a Custom Interview Chatbot, building a Custom Two-way Conversational Chatbots also requires the following expertise:
+
+* System Architecture
+* ML Algorithm
+
+Furthermore, to ensure the performance of such system, the following expertise is also desirable:
+
+* Operation
+* Distributed System
+
+
 ## Type V: Custom, Two-way conversational Chatbots with Third-Party Integration
 
 In an enterprise, chatbots often need to be integrated with other systems to fulfill their tasks. For example, AI is far from perfect, organizations may want to integrate AI chatbots with a live human chat system so users can be transitioned to human agents who can further help them whenever needed (see an example of AI-Human handoff below).
@@ -157,6 +195,14 @@ In an enterprise, chatbots often need to be integrated with other systems to ful
 To store and retrieve enterprise data during a chat, chatbots may also need to be integrated with an enterprise's backend data systems (e.g., a CRM system that stores prospect or customer information or a learning system that stores all learning materials).
 
 Each third-party integration will require additional engineering effort, including authentication, testing, system interfacing, and performance scalability. Unfortunately GPT-4 or AutoGPT cannot help you do the integration yet. If you use GPT-4 to build a real-world, two-way chatbot that supports a set of specific tasks and integrate with third-party systems from the ground up, budget 4-6 engineers for 10-12 months of effort ($2.5 to $3 million).
+
+### Key Expertise Required
+
+Each third-party integration will require collaboration between both the front-end and backend engineers. The following expertise will be important for integrating third-party systems:
+
+* System Design / System Architecture
+* UI/UX
+* Web Development
 
 # Who's involved in building a chatbot?
 

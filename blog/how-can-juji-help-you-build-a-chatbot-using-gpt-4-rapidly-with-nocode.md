@@ -14,7 +14,7 @@ tags:
   - LLM
   - Juji
   - Juji Studio
-image: /assets/uploads/juji-studio.png
+image: https://juji.io/assets/uploads/juji-studio.png
 credit: Juji, Inc.
 ---
 
