@@ -196,7 +196,7 @@ To store and retrieve enterprise data during a chat, chatbots may also need to b
 
 Each third-party integration will require additional engineering effort, including authentication, testing, system interfacing, and performance scalability. Unfortunately GPT-4 or AutoGPT cannot help you do the integration yet. If you use GPT-4 to build a real-world, two-way chatbot that supports a set of specific tasks and integrate with third-party systems from the ground up, budget 4-6 engineers for 10-12 months of effort ($2.5 to $3 million).
 
-### Key Expertise Required
+<h3 id="whosinvolved">Key Expertise Required</h3>
 
 Each third-party integration will require collaboration between both the front-end and backend engineers. The following expertise will be important for integrating third-party systems:
 
@@ -204,7 +204,7 @@ Each third-party integration will require collaboration between both the front-e
 * UI/UX
 * Web Development
 
-# Who's involved in building a chatbot?
+<h1>Who's involved in building a chatbot?</h1>
 
 Building a chatbot is NOT just an engineering project. For the past few years, I have helped many customers build their chatbots. Most of the time I work with subject matter experts (SMEs) who are none-IT specialists. They are marketing specialists, recruitment gurus, HR experts, and learning specialists. They are the supervisor of a chatbot—setting it up and taking care of the chatbot as it grows. They are also the source of chatbot content since they have the domain knowledge that a chatbot needs to function professionally. For example, a university recruitment chatbot takes content from recruitment specialists, while a healthcare chatbot takes content from healthcare coordinators.
 
