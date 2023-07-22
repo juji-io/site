@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: false
-title: How can ChatGPT help my business make more money?
+title: How can AI like ChatGPT be turned into gold in enterprise?
 date: 2023-05-11T21:42:31.533Z
 author: Huahai Yang
 category: Viewpoints
@@ -191,12 +191,16 @@ For those who are unfamiliar with AI, they might be familiar with the history ca
 
 ## References
 
-\[1] Good news: ChatGPT would probably fail a CFA exam. Financial Times, March
-20, 2023. https://www.ft.com/content/16342e5a-550e-46ae-a3d6-5244c140cb9b
+[1] [Good news: ChatGPT would probably fail a CFA exam](https://www.ft.com/content/16342e5a-550e-46ae-a3d6-5244c140cb9b). Financial Times, March
+20, 2023. 
 
-\[2] Samsung Bans Staff’s AI Use After Spotting ChatGPT Data Leak. Bloomberg,
-May, 1, 2023. https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak
+[2] [Samsung Bans Staff’s AI Use After Spotting ChatGPT Data Leak](https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak). Bloomberg,
+May, 1, 2023. 
 
-\[3] Sun et al. Principle-Driven Self-Alignment of Language Models
-from Scratch with Minimal Human Supervision.
-May 4, 2023, CMU, MIT-IBM AI lab, and UMass. https://arxiv.org/pdf/2305.03047.pdf
+[3] Sun et al. [Principle-Driven Self-Alignment of Language Models
+from Scratch with Minimal Human Supervision](https://arxiv.org/pdf/2305.03047.pdf).
+May 4, 2023, CMU, MIT-IBM AI lab, and UMass. 
+
+## Notice
+
+E﻿xtensions of this post appear in two article on [VentureBeat](https://venturebeat.com/ai/how-chatgpt-can-help-your-business-make-more-money/) and [CXSCOOP](https://cxscoop.com/thought-leadership/how-to-harness-chatgpt-for-my-business-three-tech-must-haves/)
