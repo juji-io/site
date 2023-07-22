@@ -203,4 +203,4 @@ May 4, 2023, CMU, MIT-IBM AI lab, and UMass.
 
 ## Notice
 
-E﻿xtensions of this post appear in two article on [VentureBeat](https://venturebeat.com/ai/how-chatgpt-can-help-your-business-make-more-money/) and [CXSCOOP](https://cxscoop.com/thought-leadership/how-to-harness-chatgpt-for-my-business-three-tech-must-haves/)
+E﻿xtensions of this post appear in two articles on [VentureBeat](https://venturebeat.com/ai/how-chatgpt-can-help-your-business-make-more-money/) and [CXSCOOP](https://cxscoop.com/thought-leadership/how-to-harness-chatgpt-for-my-business-three-tech-must-haves/)
