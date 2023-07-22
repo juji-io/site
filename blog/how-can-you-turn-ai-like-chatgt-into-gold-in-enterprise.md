@@ -1,15 +1,16 @@
 ---
 layout: blog/article.njk
 featured: false
-title: How can AI like ChatGPT be turned into gold in enterprise?
+title: How can AI like ChatGPT be turned into gold in enterprises?
 date: 2023-05-11T21:42:31.533Z
 author: Huahai Yang
 category: Viewpoints
 tags:
+  - ChatGPT
   - GPT-4
   - Chatbots
 image: /assets/uploads/d-koi-fc1gbkmv-dw-unsplash.jpg
-credit: https://unsplash.com/@dkoi
+credit: Image by https://unsplash.com/@dkoi
 ---
 ## Generative AI: A Magic Tool for Businesses?
 
@@ -196,6 +197,6 @@ generative AI and turn it into gold for their organization.
 
 For those who are unfamiliar with AI, they might be familiar with the history car making or personal computer making.
 
-## Notice
+## Note
 
-E﻿xtensions of this post appear in two articles on [VentureBeat](https://venturebeat.com/ai/how-chatgpt-can-help-your-business-make-more-money/) and [CXSCOOP](https://cxscoop.com/thought-leadership/how-to-harness-chatgpt-for-my-business-three-tech-must-haves/)
+Extensions of this post appear in two articles on [VentureBeat](https://venturebeat.com/ai/how-chatgpt-can-help-your-business-make-more-money/) and [CXSCOOP](https://cxscoop.com/thought-leadership/how-to-harness-chatgpt-for-my-business-three-tech-must-haves/)
