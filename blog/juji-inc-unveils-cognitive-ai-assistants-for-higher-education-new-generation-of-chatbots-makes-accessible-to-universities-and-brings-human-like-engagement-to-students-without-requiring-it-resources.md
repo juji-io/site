@@ -6,7 +6,8 @@ date: 2021-04-21T21:01:17.270Z
 author: Michelle Zhou
 category: News
 tags:
-  - CognitiveAI
+  - Cognitive AI
+  - Education
 image: /assets/uploads/ai-for-hied.jpeg
 credit: image by https://stablediffusionweb.com
 ---

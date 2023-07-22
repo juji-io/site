@@ -7,8 +7,8 @@ author: Huahai Yang
 category: Viewpoints
 tags:
   - ChatGPT
-  - GPT-4
-  - Chatbots
+  - AI Chatbots
+  - Industry Trends
 image: /assets/uploads/d-koi-fc1gbkmv-dw-unsplash.jpg
 credit: Image by https://unsplash.com/@dkoi
 ---

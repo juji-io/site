@@ -7,7 +7,7 @@ author: Huahai Yang
 category: News
 tags:
   - No-Code AI
-  - Chatbots
+  - AI Chatbots
 image: /assets/uploads/15ai-nocode-jumbo.gif
 credit: Illustration by Juan Carlos Pagan. Animation by Xiaoyu Xue
 ---

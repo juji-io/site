@@ -7,7 +7,7 @@ author: Michelle Zhou
 category: Viewpoints
 tags:
   - Responsible Empathetic Persona
-  - Chatbots
+  - AI Chatbots
 image: /assets/uploads/GettyImages-1329694918-e1662650403888.webp
 credit: Image from Getty Images
 ---

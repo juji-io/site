@@ -6,7 +6,7 @@ date: 2023-03-17T21:42:31.533Z
 author: Huahai Yang
 category: News
 tags:
-  - Automation
+  - AI Chatbots
   - Customer Experience
 image: /assets/uploads/ai-tool.jpeg
 credit: image by https://stablediffusionweb.com/

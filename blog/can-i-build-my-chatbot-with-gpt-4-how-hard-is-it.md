@@ -6,11 +6,9 @@ date: 2023-04-20T01:03:24.601Z
 author: Wenxi Chen
 category: Guides
 tags:
-  - Conversational AI
-  - Chatbots
-  - Chatbot Development
-  - GPT-4
-  - Chat-GPT
+  - AI Chatbots
+  - Industry Trends
+  - ChatGPT
   - LLM
 image: https://juji.io/assets/uploads/future-chatbot-stable-diffusion.jpeg
 credit: Generated using Stable Diffusion

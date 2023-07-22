@@ -4,17 +4,17 @@
     "bgclass": "bg-danger"
   },
   "Guides": {
-    "description": "Become a leader of the business",
+    "description": "Become a master of AI",
     "bgclass": "bg-success"
-  }, 
+  },
   "Viewpoints": {
-    "description": "Stand on top of the mountain and look over the field",
+    "description": "Stand on top of the mountain and look over the fields",
     "bgclass": "bg-warning"
-  }, 
+  },
   "Study": {
     "description": "Enhance our understanding of the world",
     "bgclass": "bg-primary"
-  }, 
+  },
   "Engineering": {
     "description": "See how advanced technology is made simple",
     "bgclass": "bg-info"

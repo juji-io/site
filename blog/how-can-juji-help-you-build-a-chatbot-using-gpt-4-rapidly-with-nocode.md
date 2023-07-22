@@ -6,13 +6,10 @@ date: 2023-05-07T05:46:54.543Z
 author: Wenxi Chen
 category: Guides
 tags:
-  - Conversational AI
-  - Chatbots
-  - Chatbot Development
-  - GPT-4
-  - Chat-GPT
+  - AI Chatbots
+  - Chatbot Design Tip
+  - ChatGPT
   - LLM
-  - Juji
   - Juji Studio
 image: https://juji.io/assets/uploads/juji-studio.png
 credit: Juji, Inc.
