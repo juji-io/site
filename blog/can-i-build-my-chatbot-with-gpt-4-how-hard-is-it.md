@@ -56,8 +56,6 @@ Then what if someone tries to attack your chatbot maliciously? Or what if a huge
 
 ### Key Skills Required
 
-The following skills are essential for building this type of chatbot:
-
 * Basic Programing
 * Web Development
 
@@ -91,8 +89,6 @@ If you wish to build a custom Q&A chatbot that is scalable and delivers great us
 In general, assuming a mid-size simple FAQ list (i.e., a couple of thousands of Q&As with no multi-turn Q&As, see multi-turn Q&A below), plan to budget two full-time engineers (e.g., one working on the backend and one on the front-end), who might be able to build a decent custom Q&A chatbot with GPT-4 in 4-6 months. Keep in mind, this implementation supports only simple, single-turn-based Q&A, excluding multi-turn Q&A that must be supported by the Type IV chatbots described below.
 
 ### Key Expertise Required
-
-A Custom Q&A Chatbot requires more engineering expertise than a Chitchat Chatbot. The following expertise is especially important:
 
 * Database
 * System Design
@@ -180,11 +176,10 @@ In addition to the expertise required for building a Custom Q&A Chatbot and a Cu
 * System Architecture
 * ML Algorithm
 
-Furthermore, to ensure the performance of such system, the following expertise is also desirable:
+Furthermore, to ensure the performance of such system, the following expertise is also desired:
 
 * Operation
 * Distributed System
-
 
 ## Type V: Custom, Two-way conversational Chatbots with Third-Party Integration
 
@@ -196,7 +191,7 @@ To store and retrieve enterprise data during a chat, chatbots may also need to b
 
 Each third-party integration will require additional engineering effort, including authentication, testing, system interfacing, and performance scalability. Unfortunately GPT-4 or AutoGPT cannot help you do the integration yet. If you use GPT-4 to build a real-world, two-way chatbot that supports a set of specific tasks and integrate with third-party systems from the ground up, budget 4-6 engineers for 10-12 months of effort ($2.5 to $3 million).
 
-<h3 id="whosinvolved">Key Expertise Required</h3>
+### Key Expertise Required
 
 Each third-party integration will require collaboration between both the front-end and backend engineers. The following expertise will be important for integrating third-party systems:
 
@@ -204,7 +199,7 @@ Each third-party integration will require collaboration between both the front-e
 * UI/UX
 * Web Development
 
-<h1>Who's involved in building a chatbot?</h1>
+# Who's involved in building a chatbot?
 
 Building a chatbot is NOT just an engineering project. For the past few years, I have helped many customers build their chatbots. Most of the time I work with subject matter experts (SMEs) who are none-IT specialists. They are marketing specialists, recruitment gurus, HR experts, and learning specialists. They are the supervisor of a chatbot—setting it up and taking care of the chatbot as it grows. They are also the source of chatbot content since they have the domain knowledge that a chatbot needs to function professionally. For example, a university recruitment chatbot takes content from recruitment specialists, while a healthcare chatbot takes content from healthcare coordinators.
 
