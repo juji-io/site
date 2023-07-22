@@ -7,7 +7,7 @@ date: 2022-02-11T21:17:08.841Z
 author: Michelle Zhou
 category: Study
 tags:
-  - student-recruitment
+  - Student Recruitment
 image: /assets/uploads/avel-chuklanov-dumfltmeabq-unsplash.jpg
 credit: image by https://unsplash.com/@chuklanov
 ---
