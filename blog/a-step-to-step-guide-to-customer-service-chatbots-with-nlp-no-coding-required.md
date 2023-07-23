@@ -87,7 +87,7 @@ Similar to a restaurant menu, a HELP command can help achieve two goals:
 Here are 3 quick tips on writing a good HELP command for your chatbot:
 
 * Write a response that gives an overview of your chatbot
-* [Paraphrase HELP responses](https://juji.io/docs/chatbot-design-tips/#paraphrase-messages-and-requests) to expose different but specific chatbot functions (see the screenshot below)
+* [Paraphrase HELP responses](https://juji.io/docs/quality-chatbot-design-tips/#paraphrase-messages-and-requests) to expose different but specific chatbot functions (see the screenshot below)
 * Make sure your chatbot does what it promises in its HELP command.
 
 ![A chatbot conversation showing a user texts "help" twice, each time receives different help information.](/assets/uploads/screen-shot-2020-07-30-at-4.50.36-pm.png)

@@ -207,5 +207,5 @@ Using Juji Studio, building a chatbot empowered with GPT-4 is no longer a millio
 4. [Step-by-step guide to handle customer Q&A](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
 5. [Juji video tutorials on youtube](https://www.youtube.com/hellojuji)
 6. [How to customize + upgrade Q&As](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/), including multi-step Q&As.
-7. [Conversational AI design tips](https://juji.io/docs/chatbot-design-tips/)
+7. [Conversational AI design tips](https://juji.io/docs/quality-chatbot-design-tips/)
 8. [Why AI skills are important](https://readwrite.com/no-code-ai-beings-are-shaping-the-future-of-work/) to employees of the future workforce just like computer skills for today's workforce

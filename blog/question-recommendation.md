@@ -65,7 +65,7 @@ Let me use the following use cases to explain how such a mechanism works, more i
 
 ### Use Case
 
-My friend Sarah hosts an educational website, which includes many fun, online educational games. She created a chatbot on Juji as her **website assistant**, who can guide her site visitors to navigate the site as well as answer their questions about the company and the games. Following our [chatbot design tips](https://juji.io/docs/chatbot-design-tips/#prepare-qa-list-and-chitchats), Sarah added a list of Q&As, to handle visitor questions like "Where do I log in" (see below).
+My friend Sarah hosts an educational website, which includes many fun, online educational games. She created a chatbot on Juji as her **website assistant**, who can guide her site visitors to navigate the site as well as answer their questions about the company and the games. Following our [chatbot design tips](https://juji.io/docs/quality-chatbot-design-tips/#prepare-qa-list-and-chitchats), Sarah added a list of Q&As, to handle visitor questions like "Where do I log in" (see below).
 
 ![A website chatbot answers a user's free-text question to automate customer service](/assets/uploads/screen-shot-2020-06-07-at-12.29.49-pm.png "A website chatbot answers a user's free-text question to automate customer service")
 
