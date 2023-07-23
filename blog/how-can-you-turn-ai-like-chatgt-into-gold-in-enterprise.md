@@ -195,8 +195,6 @@ way for success. By diligently evaluating potential partners and their
 capabilities, enterprises can make strategic decisions that unlock the power of
 generative AI and turn it into gold for their organization.
 
-For those who are unfamiliar with AI, they might be familiar with the history car making or personal computer making.
-
 ## Note
 
 Extensions of this post appear in two articles on [VentureBeat](https://venturebeat.com/ai/how-chatgpt-can-help-your-business-make-more-money/) and [CXSCOOP](https://cxscoop.com/thought-leadership/how-to-harness-chatgpt-for-my-business-three-tech-must-haves/)
