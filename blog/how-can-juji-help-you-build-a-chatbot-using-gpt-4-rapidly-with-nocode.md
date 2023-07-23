@@ -179,7 +179,7 @@ If desired, you can also customize the transition (e.g., who can terminate the h
 
 # Personality Inferences
 
-To personalize each user engagement, Juji chatbots are also powered by Juji's own unique [personality inferences](https://www.yahoo.com/now/juji-inc-powers-auburn-led-143000709.html). In other words, all Juji chatbots are able to analyze a user's conversation and infer their personality traits in real time. Below shows a user's Big 5 personality derived by the chatbot.
+To personalize each user engagement, Juji chatbots are also powered by Juji's own unique [personality inferences](https://www.businesswire.com/news/home/20230124005074/en/Juji-Inc.-Powers-Auburn-Led-Five-University-Study-on-Validating-Personality-Scores-Inferred-by-an-AI-Chatbot). In other words, all Juji chatbots are able to analyze a user's conversation and infer their personality traits in real time. Below shows a user's Big 5 personality derived by the chatbot.
 
 <center><img src="/assets/uploads/how-easy-image27.png" alt="Example Big 5 personality derived by Juji chatbot" title="Example Big 5 personality derived by Juji chatbot" width="80%"></center>
 

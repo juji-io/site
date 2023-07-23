@@ -191,7 +191,7 @@ If you are considering a customer service chatbot for your organization, we hope
 
 I also list several pieces of information you may find useful:
 
-* **How to set up a customer service chatbot with AI enabled.** Here is [a short Youtube video](https://www.youtube.com/watch?v=U0tR04xQTio) showing how to prepare your custom Q&As with no coding and [a blog post](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) describing the process in detail.
+* **How to set up a customer service chatbot with AI enabled.** Here is [a short Youtube video](https://www.youtube.com/watch?v=XkI9c4iBwl8) showing how to prepare your custom Q&As with no coding and [a blog post](https://juji.io/blog/building-a-smart-chatbot-in-a-few-minutes-to-answer-free-text-questions/) describing the process in detail.
 * **How to set up multi-turn conversations to handle complex questions**. Here is a [short Youtube video](https://youtu.be/6kzST4vO_KU) on how to create multi-turn chat flows with no coding to handle complex questions and [a blog post](https://juji.io/blog/how-to-make-your-chatbot-to-answer-non-trivial-questions/) on detailing the process.
 * **How to monitor and update a customer service chatbot in real time**. Here is a blog post detailing [how the Juji Q&A dashboard works](https://juji.io/blog/q-a-dashboard/) and helps human agents improve a chatbot instantly.
 * **How to learn unique characteristics including emotional signatures of a user from a chatbot conversation**. See this [article of ours](https://dl.acm.org/doi/10.1145/3232077). Such information can be used to help human agents best help each customer.

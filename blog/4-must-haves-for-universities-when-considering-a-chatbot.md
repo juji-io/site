@@ -49,4 +49,4 @@ No university has unlimited resources and adopting an AI solution, especially a 
 
 Solutions that have rich, pre-built AI capabilities (e.g., AI templates or AI training tools) will cut the implementation time tremendously.  In turn, they allow universities to start taking advantage of a cognitive AI assistant faster and perform ongoing maintenance with little effort.
 
-[A shorter version of this guide](https://universitybusiness.com/4-must-haves-universities-use-chatbot-ai-artificial-intelligence/) was also published by [University Business](https://universitybusiness.com/), a media outlet that provides coverage of education news, technology, academics, facilities management, security, financial services, policy, profiles, and opinion.
+[A shorter version of this guide](https://universitybusiness.com/4-must-haves-for-universities-when-considering-a-chatbot/) was also published by [University Business](https://universitybusiness.com/), a media outlet that provides coverage of education news, technology, academics, facilities management, security, financial services, policy, profiles, and opinion.

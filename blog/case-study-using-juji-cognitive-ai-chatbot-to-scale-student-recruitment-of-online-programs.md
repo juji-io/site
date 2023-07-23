@@ -12,7 +12,7 @@ tags:
 image: /assets/uploads/avel-chuklanov-dumfltmeabq-unsplash.jpg
 credit: image by https://unsplash.com/@chuklanov
 ---
-[The Gies College of Business](https://giesbusiness.illinois.edu/) at University of Illinois is a leader in [shaping the business education landscape and democratizing business education](https://poetsandquants.com/2022/01/17/10-business-schools-to-watch-in-2022/10/) with a top-ranked, highly successful online MBA program, [the iMBA program](https://onl). The program was launched in 2016 starting with 116 students and has grown rapidly now with over 4600 students. The program has earned a 97% student satisfaction rating, a retention rate of 95%, and the graduates seeing pay raise by 21% on average.
+[The Gies College of Business](https://giesbusiness.illinois.edu/) at University of Illinois is a leader in [shaping the business education landscape and democratizing business education](https://poetsandquants.com/2022/01/17/10-business-schools-to-watch-in-2022/10/) with a top-ranked, highly successful online MBA program, [the iMBA program](https://onlinemba.illinois.edu/). The program was launched in 2016 starting with 116 students and has grown rapidly now with over 4600 students. The program has earned a 97% student satisfaction rating, a retention rate of 95%, and the graduates seeing pay raise by 21% on average.
 
 # **The Challenge**
 
@@ -113,5 +113,5 @@ Moreover, cognitive AI chatbots are still a novelty and many people are unaware 
 ## **Additional Resources**
 
 * [](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/)[A quick video](https://youtu.be/5va3WNyB4LE) summarizes the two key steps to create a chatbot like Alma for student recruitment.
-* [How to power a customer service chatbot that is versatile and robust](https://j)
+* [How to power a customer service chatbot that is versatile and robust](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
 * [A recorded webinar](https://us06web.zoom.us/rec/share/qxaOBNsg6yOSmAVJjca-kZf9Qu3qKwoZrnRy5u2F6EXrqnefohSB8QBswCakfBCq.VCHVa4ghhkixPmov) on how to create an AI chatbot to greet and guide website visitors (Passcode: 9%Z#K!Z1 to view the recording).
