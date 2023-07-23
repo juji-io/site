@@ -202,7 +202,7 @@ Using Juji Studio, building a chatbot empowered with GPT-4 is no longer a millio
 ## Resources to Get You Started
 
 1. [Sign up on Juji](http://juji.io/signup) then follow the sign up process.
-2. Easy, no-coding [customization instructions.](https://youtu.be/5va3WNyB4LE)
+2. Easy, no-code [customization instructions.](https://youtu.be/5va3WNyB4LE)
 3. Simple steps for [editing Q&A](https://juji.io/docs/juji-studio/design/#customize-qa-and-fallback)
 4. [Step-by-step guide to handle customer Q&A](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
 5. [Juji video tutorials on youtube](https://www.youtube.com/hellojuji)
