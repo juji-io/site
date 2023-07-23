@@ -27,7 +27,7 @@ To address the two challenges mentioned above, the service team designed and imp
 2. Elicit users' input
 3. Teach users key service features
 
-There are two versions of Johnny, [one serving teachers](https://activity.jumpstart.com/#/jsaactivity) while the [other serving students](https://activity.jumpstart.com/#/student).
+There are two versions of Johnny, one serving teachers while the other serving students.
 
 ## Anwer free-text user questions about the service
 
@@ -59,7 +59,7 @@ In addition to answering and asking user questions, the chatbot Johnny also serv
 
 ## Use Juji Studio and Juji API
 
-To support all three functions described above, the JumpStart team uses [Juji Studio](https://juji.io/no-coding-ai-chatbot-builder/), a no-coding AI chatbot builder, to [build the main chat flow](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) of Johnny. The team also [defined and uploaded a small Q&A list](https://juji.io/docs/juji-studio/design/#customize-qa-and-fallback) to start with, including the most common questions, such as "*What's Activity Studio*".  This Q&A list has grown rapidly as [unanswered user questions were automatically captured and managed](https://juji.io/blog/q-a-dashboard/) after Johnny went live.
+To support all three functions described above, the JumpStart team uses [Juji Studio](https://juji.io/no-code-ai-chatbot-builder/), a no-coding AI chatbot builder, to [build the main chat flow](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) of Johnny. The team also [defined and uploaded a small Q&A list](https://juji.io/docs/juji-studio/design/#customize-qa-and-fallback) to start with, including the most common questions, such as "*What's Activity Studio*".  This Q&A list has grown rapidly as [unanswered user questions were automatically captured and managed](https://juji.io/blog/q-a-dashboard/) after Johnny went live.
 
 Although the JumpStart team can directly embed Johnny into their website, the team decided to use [Juji API](https://juji.io/ai-chatbot-api/) to integrate Johnny into the Activity Studio web application. This enabled Johnny to be an integral part of the website (e.g., Johnny could be activated based on user activities on the website) and to appear in a look that is consistent with the rest of the website.
 
@@ -91,6 +91,4 @@ In short, this case study describes the creation of an online learning chatbot t
 
 * [How to create a multipurpose chatbot ](https://juji.io/blog/a-step-to-step-guide-how-to-make-a-multi-purpose-chatbot-no-coding-required/) that can perform multiple tasks, including customer service and marketing in one chat.
 * [How to power a customer service chatbot that is versatile and robust](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
-* [Sign up](https://juji.io/signup) to create your own multitasking customer service chatbot and automate customer support as well as product marketing and product insights gathering.
-
-[](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
+* [Sign up](https://juji.ai/signup) to create your own multitasking customer service chatbot and automate customer support as well as product marketing and product insights gathering.
