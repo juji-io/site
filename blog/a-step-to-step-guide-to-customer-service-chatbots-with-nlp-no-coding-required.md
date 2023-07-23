@@ -71,7 +71,7 @@ With true NLP capabilities, **Juji chatbots can recognize semantically similar u
 
 ![The chatbot was able to recognize a similar question but expressed differently](/assets/uploads/screen-shot-2020-07-30-at-1.53.51-pm.png)
 
-Second, if you have a long list of Q&A pairs already, you can download our CSV template and put them into a CSV file as shown below. The  format of the CSV file is also explained in [our online documentation](https://juji.io/docs/design/#handle-free-text-qas).
+Second, if you have a long list of Q&A pairs already, you can download our CSV template and put them into a CSV file as shown below. The  format of the CSV file is also explained in [our online documentation](https://juji.io/docs/juji-studio/design/#customize-qa-and-fallback).
 
 ![An example CSV file showing three columns. From left to right, column 1 lists IDs, column 2 lists questions, and column 3 lists answers to the corresponding questions.](/assets/uploads/screen-shot-2020-07-30-at-2.12.43-pm.png)
 
@@ -181,7 +181,7 @@ Another criterion you may want to consider is how easy you can extend a customer
 
 ![A chat shows that a customer service chatbot elicits information from a user.](/assets/uploads/screen-shot-2020-07-30-at-10.37.15-pm.png)
 
-Juji allows you to do so easily without coding by [adding a few conversation topics in the chatbot main flow](https://juji.io/docs/design/#customize-main-chat-flow). The added conversation can further improve the ROI of a customer service chatbot by automating more customer operations (e.g., product survey).
+Juji allows you to do so easily without coding by [adding a few conversation topics in the chatbot main flow](https://juji.io/docs/juji-studio/customize-main-chat-flow/). The added conversation can further improve the ROI of a customer service chatbot by automating more customer operations (e.g., product survey).
 
 ---
 

@@ -52,7 +52,7 @@ If a visitor (prospective student) has done questioning, the AI assistant will a
 
 
 
-To teach Alma to answer prospective students' questions about the program, the team used the Q&A CSV template coming with the AI Program Assistant and prepared [a spreadsheet containing frequently asked questions and answers](https://juji.io/docs/design/), in a format similar to the one shown below.  The spreadsheet was saved to a CSV file format and uploaded into Alma. The screenshot below shows a template of such questions and answers.
+To teach Alma to answer prospective students' questions about the program, the team used the Q&A CSV template coming with the AI Program Assistant and prepared [a spreadsheet containing frequently asked questions and answers](https://juji.io/docs/juji-studio/design/#customize-qa-and-fallback), in a format similar to the one shown below.  The spreadsheet was saved to a CSV file format and uploaded into Alma. The screenshot below shows a template of such questions and answers.
 
 ![](/assets/uploads/picture4.png)
 

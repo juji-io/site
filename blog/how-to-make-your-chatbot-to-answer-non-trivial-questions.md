@@ -13,7 +13,7 @@ tags:
 image: /assets/uploads/questions-answers-signage-208494.jpg
 credit: Pixabay
 ---
-If you are creating a chatbot to automate customer support and handle customer questions, you could do so easily on Juji by [preparing a question-answer (Q&A) list and uploading the list to enable free-text Q&A](https://juji.io/docs/design/#handle-free-text-qas) instantly.
+If you are creating a chatbot to automate customer support and handle customer questions, you could do so easily on Juji by [preparing a question-answer (Q&A) list and uploading the list to enable free-text Q&A](https://juji.io/docs/juji-studio/design/#customize-qa-and-fallback) instantly.
 
 While the majority of customer questions can be handled in such a way, there are  cases that a chatbot needs to obtain additional information from users before producing a satisfactory answer. Assume that a user asks "Where is the nearest branch?" and your business has multiple branches. A good AI chatbot should first ask where the user is located and then respond with the location of the nearest branch.
 
@@ -25,7 +25,7 @@ I will now show you how this can be easily done using the Q&A Board in Juji Stud
 
 In addition to providing a simple answer to a user's free-text question, I can use Juji to add an ***extended*** or ***multi-step*** answer to a user question.  As shown above, just click on the extended reply button in the answer column. It will open up a panel for me to create a new chat flow as the answer.
 
-As shown below, the flow editor works just like the [main chat flow editor](https://docs.juji.io/design/#customize-main-chat-flow) in Juji Studio, where I can [create custom topics](https://juji.io/docs/design/#edit-a-topic) or reuse already created topics in the main chat flow.
+As shown below, the flow editor works just like the [main chat flow editor](https://juji.io/docs/juji-studio/design/#customize-main-chat-flow) in Juji Studio, where I can [create custom topics](https://juji.io/docs/juji-studio/customize-main-chat-flow/) or reuse already created topics in the main chat flow.
 
 ![Creating a topic to handle the question](/assets/uploads/screen-shot-2020-05-12-at-11.39.03-pm.png "Creating a topic to handle the question")
 

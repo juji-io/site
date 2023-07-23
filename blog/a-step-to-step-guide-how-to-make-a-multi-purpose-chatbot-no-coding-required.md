@@ -84,7 +84,7 @@ The first step is to define a chatbot's main task flow. This includes all the ta
 
 ![A chat flow defined for a chatbot to ask user questions](/assets/uploads/screen-shot-2020-10-01-at-9.00.53-pm.png "An example design of chatbot flow with no coding")
 
-Unlike a plain question in a survey form, in a Juji chatbot, a [pre-built mini conversation](https://juji.io/docs/topics/) is behind each entered question. For example, behind the question, "*What's your age*", a mini-conversation is used to automatically handle diverse user age input ("*My age is 23*" or "*I'm 35 year old*") and potential digressions (e.g., "*Why do you need my age*").  Because this pre-built mini conversation automatically handles diverse user intents and stores legit user answers, Juji relieves a chatbot designer from manually doing all the work. A chatbot designer can of course [customize a pre-built mini conversation](https://juji.io/docs/design/#customizing-chatbot-actions) if needed.
+Unlike a plain question in a survey form, in a Juji chatbot, a [pre-built mini conversation](https://juji.io/docs/topics/) is behind each entered question. For example, behind the question, "*What's your age*", a mini-conversation is used to automatically handle diverse user age input ("*My age is 23*" or "*I'm 35 year old*") and potential digressions (e.g., "*Why do you need my age*").  Because this pre-built mini conversation automatically handles diverse user intents and stores legit user answers, Juji relieves a chatbot designer from manually doing all the work. A chatbot designer can of course [customize a pre-built mini conversation](https://juji.io/docs/juji-studio/design/#customize-ai-chatbot) if needed.
 
 ## Step 2: Define Q&A List (User Initiated Tasks)
 
