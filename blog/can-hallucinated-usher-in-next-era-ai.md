@@ -1,7 +1,7 @@
 ---
 layout: blog/article.njk
 featured: false
-title: AI Hallucinations could usher in the next era of AI: cognitive AI
+title: "AI Hallucinations could usher in the next era of AI: cognitive AI"
 date: 2023-09-01T10:30:00.000Z
 author: Michelle Zhou
 category: Viewpoints
