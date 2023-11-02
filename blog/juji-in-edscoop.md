@@ -7,10 +7,11 @@ author: Michelle Zhou
 category: News
 tags:
   - Education
+  - AI Chatbots
 image: /assets/uploads/franki-chamaki-1k6iqsqbizi-unsplash-1-.jpg
 credit: https://unsplash.com/@franki
 ---
-EDSCOOP, the leading media featuring latest information technology for higher education, published [a story](https://edscoop.com/ai-chatbot-juji-higher-education/) about Juji and Juji's [cognitive AI assistants](https://juji.io/#juji-smarts) for the higher education sector. 
+EDSCOOP, the leading media featuring latest information technology for higher education, published [a story](https://edscoop.com/ai-chatbot-juji-higher-education/) about Juji and Juji's [cognitive AI assistants](https://juji.io/#juji-smarts) for the higher education sector.
 
 The story mentioned "Juji’s stand-out feature is its conversational flexibility, a design approach rooted in decades of linguistic and AI [research](https://nlp.stanford.edu/acvogel/groszsidner.pdf). While it’s common for commercial chatbots to get stuck when confronted with an uncooperative or confused interlocutor, Juji employs human-centered design, ... politely responding to off-topic input, but not losing sight of the interaction’s purpose."
 

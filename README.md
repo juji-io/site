@@ -10,6 +10,8 @@ Install node.js
 brew install node
 ```
 
+Make sure the version of node is above v14
+
 ## Running Server Locally
 
 ```

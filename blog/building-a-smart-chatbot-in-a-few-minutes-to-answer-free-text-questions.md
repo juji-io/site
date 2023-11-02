@@ -7,8 +7,8 @@ author: Wenxi Chen
 category: Guides
 tags:
   - Juji Studio
-  - DIY AI Chatbot
-  - Free-text Q&A
+  - No-Code AI
+  - Question Answering
 image: /assets/uploads/alex-knight-2ejcsulrwc8-unsplash.jpg
 credit: Photo by Alex Knight on Unsplash
 ---
@@ -32,7 +32,7 @@ First, click on the “Download” button to download the CSV template. All you 
 
 ![Sample Q&A csv content](/assets/uploads/qa5.png "Sample Q&A csv content")
 
-The ID column is useful for you to group the alternative expressions of a question so they can share the same answer(s), although the chatbot can also automatically detect many matched question expressions. A comment is optional. You can learn more about the [format here](/docs/design/#customize-qa-and-fallback).
+The ID column is useful for you to group the alternative expressions of a question so they can share the same answer(s), although the chatbot can also automatically detect many matched question expressions. A comment is optional. You can learn more about the [format here](/docs/juji-studio/design/#customize-qa-and-fallback).
 
 Once you are done, save it into a csv file (simply choose to “Save As…” a .csv in Excel) and then upload it.
 
@@ -42,7 +42,7 @@ Now the moment of truth! You can always **PREVIEW** your chatbot before publishi
 
 ![AI Chatbot understands question worded a bit different from the ones in the csv file](/assets/uploads/qa7.png "AI Chatbot understands question worded a bit different from the ones in the csv file")
 
-Once you are ready to publish, click on **DEPLOY** to publish your chatbot to a Facebook Messenger or on a website. More [details](/docs/release/) here.
+Once you are ready to publish, click on **DEPLOY** to publish your chatbot to a Facebook Messenger or on a website. More [details](/docs/juji-studio/release/) here.
 
 ![Deploy a chatbot to Facebook messenger](/assets/uploads/qa8.png "Deploy a chatbot to Facebook messenger")
 
@@ -52,7 +52,7 @@ After your chatbot is published, it’s always good to go back to your **Q&A BOA
 
 As shown above, there are two unanswered questions. One has a chatbot-suggested answer highlighted in red. One requires an answer since a good match could not be found. I can enter or edit the answers and then **submit** them. Once the answers are submitted, the chatbot learns instantly and now can answer these questions.
 
-The Juji platform is a one-stop-shop for building smart chatbots. It allows you to easily create a chatbot to answer questions anytime during a chat and still remember where the conversation is! (check out this[ YouTube video](https://youtu.be/U0tR04xQTio) and this [live gallery](https://juji.io/#gallery) of smart Juji chatbots). 
+The Juji platform is a one-stop-shop for building smart chatbots. It allows you to easily create a chatbot to answer questions anytime during a chat and still remember where the conversation is! (check out this[ YouTube video](https://youtu.be/XkI9c4iBwl8) and this [live gallery](https://juji.io/#gallery) of smart Juji chatbots).
 
 Remember to [check your **Q&A BOARD** regularly and update your chatbot with new answers](https://juji.io/blog/q-a-dashboard/). This way, your chatbot keeps learning and becomes smarter and smarter.
 

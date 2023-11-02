@@ -15,7 +15,7 @@ credit: Photo by Changbok Ko on Unsplash
 
 Students have difficulty receiving career advice due to the low advisor-to-student ratio. I know that's true for me. Sometimes I would forgot to make an appointment with a counselor, dropped-in, and waited an hour to see one. Other times I avoided the office entirely because I knew appointments were full. How could such issues be solved? Maybe it's possible to create a chatbot that could act as a career counselor.
 
-The implications of a career counseling bot could be significant, it could reduce the impacted schedules of counselors by augmenting their work and answering student inquiries 24/7. However, understanding whether chatbots could act as a career counselor is still under studied. 
+The implications of a career counseling bot could be significant, it could reduce the impacted schedules of counselors by augmenting their work and answering student inquiries 24/7. However, understanding whether chatbots could act as a career counselor is still under studied.
 
 To gain a better understanding of the possibility, I assisted in designing and conducting a research study where a chatbot made on the [Juji platform](https://juji.io/docs/juji-studio/) was used to survey students. The bot asked 350 students in the Lucas College of Business at San Jose State University on their thoughts of how it could serve as a counselor.
 
@@ -38,8 +38,8 @@ Another major theme was augmenting counselors' work. By this, students meant tha
 
 ![](/assets/uploads/stil-flrm0z3meoa-unsplash.jpg "One aspect students suggested in career counseling bots is the ability to schedule appointments")
 
-The final theme was providing career counseling. In other words, students wanted the chatbot to become the counselor by providing career advice and giving guidance on the necessary courses for graduation. 
+The final theme was providing career counseling. In other words, students wanted the chatbot to become the counselor by providing career advice and giving guidance on the necessary courses for graduation.
 
-The four themes derived from the study can be used to guide the implementation of a chatbot as a career counselor for students. For more detailed information on this study, please refer to our [full paper](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1264&context=amcis2019) published in [The Americas Conference on Information Systems 2019](https://amcis2019.aisconferences.org/about/about-amcis/) (AMCIS 2019). 
+The four themes derived from the study can be used to guide the implementation of a chatbot as a career counselor for students. For more detailed information on this study, please refer to our [full paper](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1264&context=amcis2019) published in [The Americas Conference on Information Systems 2019](https://archives.aisconferences.org/amcis2019/) (AMCIS 2019).
 
 A chatbot as a counselor could be helpful for both students and counselors. For students, they could receive advice and/or answers to burning questions, 24x7. For counselors, the repetitive tasks, such as answering frequently asked questions could be done by the chatbot, leaving them more time for more important work, such as giving advice. Overall, I think this use case could be extremely valuable for chatbot designers or developers who focus on education applications.

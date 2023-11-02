@@ -6,13 +6,10 @@ date: 2023-05-07T05:46:54.543Z
 author: Wenxi Chen
 category: Guides
 tags:
-  - Conversational AI
-  - Chatbots
-  - Chatbot Development
-  - GPT-4
-  - Chat-GPT
+  - AI Chatbots
+  - Chatbot Design Tip
+  - ChatGPT
   - LLM
-  - Juji
   - Juji Studio
 image: https://juji.io/assets/uploads/juji-studio.png
 credit: Juji, Inc.
@@ -182,7 +179,7 @@ If desired, you can also customize the transition (e.g., who can terminate the h
 
 # Personality Inferences
 
-To personalize each user engagement, Juji chatbots are also powered by Juji's own unique [personality inferences](https://www.yahoo.com/now/juji-inc-powers-auburn-led-143000709.html). In other words, all Juji chatbots are able to analyze a user's conversation and infer their personality traits in real time. Below shows a user's Big 5 personality derived by the chatbot.
+To personalize each user engagement, Juji chatbots are also powered by Juji's own unique [personality inferences](https://www.businesswire.com/news/home/20230124005074/en/Juji-Inc.-Powers-Auburn-Led-Five-University-Study-on-Validating-Personality-Scores-Inferred-by-an-AI-Chatbot). In other words, all Juji chatbots are able to analyze a user's conversation and infer their personality traits in real time. Below shows a user's Big 5 personality derived by the chatbot.
 
 <center><img src="/assets/uploads/how-easy-image27.png" alt="Example Big 5 personality derived by Juji chatbot" title="Example Big 5 personality derived by Juji chatbot" width="80%"></center>
 
@@ -205,10 +202,10 @@ Using Juji Studio, building a chatbot empowered with GPT-4 is no longer a millio
 ## Resources to Get You Started
 
 1. [Sign up on Juji](http://juji.io/signup) then follow the sign up process.
-2. Easy, no-coding [customization instructions.](https://youtu.be/5va3WNyB4LE)
-3. Simple steps for [editing Q&A](https://juji.io/docs/design/#customize-qa-and-fallback)
+2. Easy, no-code [customization instructions.](https://youtu.be/5va3WNyB4LE)
+3. Simple steps for [editing Q&A](https://juji.io/docs/juji-studio/design/#customize-qa-and-fallback)
 4. [Step-by-step guide to handle customer Q&A](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/)
 5. [Juji video tutorials on youtube](https://www.youtube.com/hellojuji)
 6. [How to customize + upgrade Q&As](https://juji.io/blog/a-step-to-step-guide-to-customer-service-chatbots-with-nlp-no-coding-required/), including multi-step Q&As.
-7. [Conversational AI design tips](https://juji.io/docs/chatbot-design-tips/)
+7. [Conversational AI design tips](https://juji.io/docs/quality-chatbot-design-tips/)
 8. [Why AI skills are important](https://readwrite.com/no-code-ai-beings-are-shaping-the-future-of-work/) to employees of the future workforce just like computer skills for today's workforce

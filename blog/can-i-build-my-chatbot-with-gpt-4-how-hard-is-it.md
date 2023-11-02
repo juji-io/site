@@ -6,11 +6,9 @@ date: 2023-04-20T01:03:24.601Z
 author: Wenxi Chen
 category: Guides
 tags:
-  - Conversational AI
-  - Chatbots
-  - Chatbot Development
-  - GPT-4
-  - Chat-GPT
+  - AI Chatbots
+  - Industry Trends
+  - ChatGPT
   - LLM
 image: https://juji.io/assets/uploads/future-chatbot-stable-diffusion.jpeg
 credit: Generated using Stable Diffusion
@@ -56,8 +54,6 @@ Then what if someone tries to attack your chatbot maliciously? Or what if a huge
 
 ### Key Skills Required
 
-The following skills are essential for building this type of chatbot:
-
 * Basic Programing
 * Web Development
 
@@ -92,8 +88,6 @@ In general, assuming a mid-size simple FAQ list (i.e., a couple of thousands of 
 
 ### Key Expertise Required
 
-A Custom Q&A Chatbot requires more engineering expertise than a Chitchat Chatbot. The following expertise is especially important:
-
 * Database
 * System Design
 * UI/UX
@@ -101,7 +95,7 @@ A Custom Q&A Chatbot requires more engineering expertise than a Chitchat Chatbot
 
 ## Type III: Custom Interview Chatbots
 
-Another common use of chatbots is conducting interviews to gather information from an intended audience. [Studies](https://arxiv.org/abs/1905.10700) show that people are more willing to provide higher quality responses in a conversation than in a traditional form-based survey. In fact, organizations have used interview chatbots to conduct [social research studies](https://www.businesswire.com/news/home/20210629005084/en/Juji-Inc.-Powers-Cornell-University-Study-on-Human-Machine-Team-Creativity), [personality assessments](https://www.yahoo.com/now/juji-inc-powers-auburn-led-143000709.html), and [job interviews](https://dl.acm.org/doi/10.1145/3232077).
+Another common use of chatbots is conducting interviews to gather information from an intended audience. [Studies](https://arxiv.org/abs/1905.10700) show that people are more willing to provide higher quality responses in a conversation than in a traditional form-based survey. In fact, organizations have used interview chatbots to conduct [social research studies](https://www.businesswire.com/news/home/20210629005084/en/Juji-Inc.-Powers-Cornell-University-Study-on-Human-Machine-Team-Creativity), [personality assessments](https://www.businesswire.com/news/home/20230124005074/en/Juji-Inc.-Powers-Auburn-Led-Five-University-Study-on-Validating-Personality-Scores-Inferred-by-an-AI-Chatbot), and [job interviews](https://dl.acm.org/doi/10.1145/3232077).
 
 Below is an example of interview chat for a police officer position:
 
@@ -180,11 +174,10 @@ In addition to the expertise required for building a Custom Q&A Chatbot and a Cu
 * System Architecture
 * ML Algorithm
 
-Furthermore, to ensure the performance of such system, the following expertise is also desirable:
+Furthermore, to ensure the performance of such system, the following expertise is also desired:
 
 * Operation
 * Distributed System
-
 
 ## Type V: Custom, Two-way conversational Chatbots with Third-Party Integration
 
