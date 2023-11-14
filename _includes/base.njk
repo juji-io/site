@@ -34,7 +34,8 @@
   <body>
 
     <!--Juji Welcome Chatbot-->
-<!-- <div id='jujibot-bubble'
+
+    <div id='jujibot-bubble'
      aria-label='Chat pop-up text bubble.'
      alt='Chat pop-up text bubble.'
      tabIndex='0'
@@ -48,10 +49,10 @@
 </div>
 <div id='jujibot-icon'
         background='#8BDFCD'
-        img_url='https://juji.ai/assets/img/content/juji-profile.png'
+        img_url='https://juji.ai/assets/img/content/juji-profile-mini.webp'
         role='button'
         tabIndex='0'
-        alt='Click to chat'
+        alt='Click to chat with Juji'
         aria-label='Click on this button to start the chat window. After you click, use tab key to navigate the chat window'>
 </div>
 <button id='minimized-chat-icon'
@@ -63,20 +64,21 @@
              aria-label='minimized chat icon image'
              alt='minimized chat icon image'
              style='display:none;'></img>
-</button>  
+</button>
 <input id='juji-chat-status' type='hidden' value='not chatted'>
-// GA SECTION: Update Google Analytics linker config
-// If the page already has linker config set to the tracking ID, please remove this GA SECTION and add the domains to the existing linker.
-// <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113933244-1'></script>
-// <script>window.dataLayer = window.dataLayer || [];
-//    function gtag(){dataLayer.push(arguments);}
-//    gtag('js', new Date());
-//    gtag('config', 'UA-113933244-1',
-//        {'linker': {'domains': ['juji.io', 'juji.ai']},
-//         'send_page_view': false});
-// </script>
-//  GA SECTION end
+<!-- GA SECTION: Update Google Analytics linker config -->
+<!-- If the page already has linker config set to the tracking ID, please remove this GA SECTION and add the domains to the existing linker. -->
+<!-- <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113933244-1'></script>
+<script>window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113933244-1',
+        {'linker': {'domains': ['juji.io', 'juji.ai']},
+         'send_page_view': false});
+</script> -->
+<!-- GA SECTION end -->
 <script>
+ window.addEventListener("load", (event) => {
     var script = document.createElement('script');
     var minimizedIconWidthAndHeight = 50;
     script.type = 'text/javascript';
@@ -104,11 +106,12 @@
             js.src = 'https://juji.ai/assets/js/webplugin-2.0.0.js';
        fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'juji-webplugin'));
-    }
+    }});
 </script>
 <div id='juji-chatbot'
-        chat_url='https://juji.ai/pre-chat/6197eb12-2a20-4164-be37-cf2240655ede?start-chat=false'>
-</div> -->
+        chat_url='https://juji.ai/pre-chat/64b04635-0758-4f13-a652-a09399344597?start-chat=false'>
+</div>
+
 
     <header>
       <div class="fixed-top" data-toggle="affix">
