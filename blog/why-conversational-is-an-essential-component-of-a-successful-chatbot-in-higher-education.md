@@ -2,7 +2,7 @@
 layout: blog/article.njk
 featured: true
 title: Why Cognitive AI is Essential in Higher Education
-date: 2021-07-26T21:34:34.951Z
+date: 2023-11-14T21:34:34.951Z
 author: Michelle Zhou
 category: Guides
 tags:
