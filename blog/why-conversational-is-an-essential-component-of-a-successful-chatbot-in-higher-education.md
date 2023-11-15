@@ -1,8 +1,7 @@
 ---
 layout: blog/article.njk
 featured: true
-title: Why Conversational is an Essential Component of a Successful Chatbot in
-  Higher Education
+title: Why Cognitive AI is Essential in Higher Education
 date: 2021-07-26T21:34:34.951Z
 author: Michelle Zhou
 category: Guides
