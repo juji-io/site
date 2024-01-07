@@ -3,7 +3,7 @@ layout: blog/article.njk
 featured: false
 title: Juji Launches New Generative AI Tool for Automating Cognitive AI Chatbot
   Creation
-date: 2024-01-09T13:50:51.254Z
+date: 2024-01-16T13:50:51.254Z
 author: Michelle Zhou
 category: News
 image: /assets/uploads/jujilogo1024.png
