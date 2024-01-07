@@ -9,9 +9,15 @@ category: Study
 tags: []
 image: /assets/uploads/jujilogo1024.png
 ---
+[](https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fjuji.io%2F&esheet=53288143&newsitemid=20230124005074&lan=en-US&anchor=Juji%2C+Inc.&index=1&md5=a2feb4ff4d6d7180ff9bfa7aeba24657)
+
 [Juji, Inc.](https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fjuji.io%2F&esheet=53288143&newsitemid=20230124005074&lan=en-US&anchor=Juji%2C+Inc.&index=1&md5=a2feb4ff4d6d7180ff9bfa7aeba24657), an Artificial Intelligence (AI) company that enables auto-generation and operation of cognitive AI chatbots, announced the findings of a study, “[How Well Can an AI Chatbot Infer Personality? Examining Psychometric Properties of Machine-inferred Personality Scores](https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fpsyarxiv.com%2Fpk2b7%2F&esheet=53288143&newsitemid=20230124005074&lan=en-US&anchor=How+Well+Can+an+AI+Chatbot+Infer+Personality%3F+Examining+Psychometric+Properties+of+Machine-inferred+Personality+Scores&index=2&md5=a2885be49fd4de94566372461a0132c0).” The study examined the quality of AI-inferred personality scores. Instead of asking participants to take a traditional personality test, in this study, an AI chatbot built on the Juji platform engaged with 1,440 people in a one-on-one, two-way conversation and then derived each person's personality scores from the conversation in real time.
 
+
+
 > “I was initially skeptical about AI-inferred personality traits and their effectiveness. Now I'm excited about the findings and the process of how AI works”
+
+
 
 The study presents the most comprehensive validation of AI-inferred personality scores to date. "The study did an excellent job examining the psychometric properties of the AI-inferred personality scores—very comprehensive in scope," commented Professor Lillian Eby, editor-in-chief of the Journal of Applied Psychology where the study has been accepted to appear.
 
