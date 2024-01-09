@@ -1,12 +1,12 @@
 ---
 layout: blog/article.njk
 featured: false
-title: Juji Powers the University of Illinois No-Code AI Chatbot to Help Grow
-  Student Recruitment
+title: Juji Powers the University of Illinois No-Code AI Chatbot to Help Grow Student Recruitment
 date: 2024-01-22T13:55:09.278Z
-author: Michelle Zhou
+author: Benjamin Brown
 category: News
-image: /assets/uploads/jujilogo1024.png
+tags:
+  - Education
 ---
 
 
