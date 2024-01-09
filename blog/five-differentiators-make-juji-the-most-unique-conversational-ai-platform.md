@@ -11,7 +11,7 @@ it seems to me that they are trying everything they can read from papers that ne
 6:42
 slot, entity, rules, transformers, embedding, all disparate techniques that they just provide, the users are supposed to figure it out what to do with these
 6:43
-their problem is that they do not have a conherent, well thought-out system that package everything together into a user friendly package, i don’t think anyone can be successful using theirs to create something useful
+their problem is that they do not have a coherent, well thought-out system that package everything together into a user friendly package, i don’t think anyone can be successful using theirs to create something useful
 6:44
 it’s just a bunch of academic ideas, now, you have to configure your self, and set up all kinds of parameters, 0.3 here , 0.5 there, nobody can do these successfully.
 6:45
