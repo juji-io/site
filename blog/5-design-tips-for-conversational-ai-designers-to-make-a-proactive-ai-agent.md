@@ -13,7 +13,7 @@ Designing a proactive AI agent requires skills. In this article, we present 5 de
 
 ## Tip 1: Make an articulate AI agent
 
-A proactive agent doesn’t just passively respond to user questions. Rather, it actively engages with a user and guides the user toward an agenda (e.g., tutoring the user to learn a skill or coaching the user on coming up with an individualized career development). During such an engagement, just like a good human agent, a proactive agent should be articulate in expressing itself, no matter whether it asks or answers a question. Below are two situations where a proactive agent should be articulate in making a conversation more natural and fluent. 
+A proactive agent doesn’t just passively respond to user questions. Rather, it actively engages with a user and guides the user toward an agenda (e.g., tutoring the user to learn a skill or coaching the user on coming up with an individualized career development plan). During such an engagement, just like a good human agent, a proactive agent should be articulate in expressing itself, no matter whether it asks or answers a question. Below are two situations where a proactive agent should be articulate in making a conversation more natural and fluent. 
 
 (1) In many applications including interviewing and counseling, a proactive AI agent often needs to ask user questions to elicit necessary information before guiding the user toward a goal. Just like a human interviewer, an effective AI agent should be able to ask the SAME question in different ways depending on the context. Image 1.1 below shows a conversation where an AI agent must repeat its question when the user didn't answer the question. 
 
