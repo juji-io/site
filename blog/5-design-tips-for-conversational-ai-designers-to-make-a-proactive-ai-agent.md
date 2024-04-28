@@ -14,6 +14,25 @@ Designing a proactive AI agent requires skills. In this article, we present 5 de
 ## Tip 1: Make an articulate AI agent
 
 A proactive agent doesn’t just passively respond to user questions. Rather, it actively engages with a user and guides the user toward an agenda (e.g., tutoring the user to learn a skill or coaching the user on coming up with an individualized career development). During such an engagement, just like a good human agent, a proactive agent should be articulate in expressing itself, no matter whether it asks or answers a question. Below are two situations where a proactive agent should be articulate in making a conversation more natural and fluent. 
-(a) In many applications including interviewing and counseling, a proactive AI agent often needs to ask user questions to elicit necessary information before guiding the user toward a goal. Just like a human interviewer, an effective AI agent should be able to ask the SAME question in different ways depending on the context. Image 1.1 below shows a conversation where an AI agent must repeat its question when the user didn't answer the question. Humans will never re-ask the question using exactly the same expression. Neither should the AI agent. Image 1.2 shows that the AI agent re-asks the same question in an alternative expression, which makes the conversation much more natural. A conversational AI designer can use Juji Studio to customize an AI agent’s message, including paraphrasing a question either manually or automatically using generative AI (Image 1.3). Furthermore, for each expression, a conversational AI designer can indicate whether it is only used for re-asking, giving you fine-grained control to make an AI agent articulate (Image 1.4). 
+
+(1) In many applications including interviewing and counseling, a proactive AI agent often needs to ask user questions to elicit necessary information before guiding the user toward a goal. Just like a human interviewer, an effective AI agent should be able to ask the SAME question in different ways depending on the context. Image 1.1 below shows a conversation where an AI agent must repeat its question when the user didn't answer the question. 
 
 ![A conversation where an AI agent must repeat its question when the user didn't answer the question](/assets/uploads/design_tips_1.1.png "Image 1.1")
+
+Humans will never re-ask the question using exactly the same expression. Neither should the AI agent. Image 1.2 below shows that the AI agent re-asks the same question in an alternative expression, which makes the conversation much more natural. 
+
+![A conversation where an AI agent re-asks the same question in an alternative expression](/assets/uploads/design_tips_1.2.png "Image 1.2")
+
+A conversational AI designer can use Juji Studio to customize an AI agent’s message, including paraphrasing a question either manually or automatically using generative AI (Image 1.3 below).
+
+![Use Juji Studio to customize an AI agent’s message, including paraphrasing a question either manually or automatically using generative AI](/assets/uploads/design_tips_1.3.png "Image 1.3")
+
+Furthermore, for each expression, a conversational AI designer can indicate whether it is only used for re-asking, giving you fine-grained control to make an AI agent articulate (Image 1.4 below). 
+
+![A conversational AI designer can indicate whether it is only used for re-asking](/assets/uploads/design_tips_1.4.png "Image 1.4")
+
+(2) In a situation where a proactive AI agent must ask a series of questions to elicit information, the AI agent should also be able to ask these questions in a conversational tone and with smooth transitions from one question to the next, similar to what an articulate human interviewer would do. 
+
+In Juji Studio, conversational AI designers can use generative AI to auto-generate a conversation flow with multiple questions (Image 1.5 below), which you may edit with more human touch as needed. 
+
+The result is a fluent conversation flow that resembles those of human-human conversations (Image 1.6 below).
