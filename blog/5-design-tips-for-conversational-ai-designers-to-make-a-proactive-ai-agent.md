@@ -23,16 +23,24 @@ Humans will never re-ask the question using exactly the same expression. Neither
 
 ![A conversation where an AI agent re-asks the same question in an alternative expression](/assets/uploads/design_tips_1.2.png "Image 1.2")
 
-A conversational AI designer can use Juji Studio to customize an AI agent’s message, including paraphrasing a question either manually or automatically using generative AI (Image 1.3 below).
+A conversational AI designer can use Juji Studio to customize an AI agent’s message, including paraphrasing a question either manually or automatically using generative AI.
 
 ![Use Juji Studio to customize an AI agent’s message, including paraphrasing a question either manually or automatically using generative AI](/assets/uploads/design_tips_1.3.png "Image 1.3")
 
-Furthermore, for each expression, a conversational AI designer can indicate whether it is only used for re-asking, giving you fine-grained control to make an AI agent articulate (Image 1.4 below). 
+Furthermore, for each expression, a conversational AI designer can indicate whether it is only used for re-asking, giving you fine-grained control to make an AI agent articulate. 
 
 ![A conversational AI designer can indicate whether it is only used for re-asking](/assets/uploads/design_tips_1.4.png "Image 1.4")
 
 (2) In a situation where a proactive AI agent must ask a series of questions to elicit information, the AI agent should also be able to ask these questions in a conversational tone and with smooth transitions from one question to the next, similar to what an articulate human interviewer would do. 
 
-In Juji Studio, conversational AI designers can use generative AI to auto-generate a conversation flow with multiple questions (Image 1.5 below), which you may edit with more human touch as needed. 
+In Juji Studio, conversational AI designers can use generative AI to auto-generate a conversation flow with multiple questions, which you may edit with more human touch as needed. 
+
+![Use generative AI to auto-generate a conversation flow with multiple questions](/assets/uploads/design_tips_1.5.png "Image 1.5")
 
 The result is a fluent conversation flow that resembles those of human-human conversations (Image 1.6 below).
+
+![A fluent conversation flow](/assets/uploads/design_tips_1.6.png "Image 1.6")
+
+![]()
+
+## T﻿ip 2:
