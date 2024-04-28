@@ -15,11 +15,11 @@ Designing a proactive AI agent requires skills. In this article, we present 5 de
 
 A proactive agent doesn’t just passively respond to user questions. Rather, it actively engages with a user and guides the user toward an agenda (e.g., tutoring the user to learn a skill or coaching the user on coming up with an individualized career development plan). During such an engagement, just like a good human agent, a proactive agent should be articulate in expressing itself, no matter whether it asks or answers a question. Below are two situations where a proactive agent should be articulate in making a conversation more natural and fluent. 
 
-(1) In many applications including interviewing and counseling, a proactive AI agent often needs to ask user questions to elicit necessary information before guiding the user toward a goal. Just like a human interviewer, an effective AI agent should be able to ask the SAME question in different ways depending on the context. Image 1.1 below shows a conversation where an AI agent must repeat its question when the user didn't answer the question. 
+(1) In many applications including interviewing and counseling, a proactive AI agent often needs to ask user questions to elicit necessary information before guiding the user toward a goal. Just like a human interviewer, an effective AI agent should be able to ask the SAME question in different ways depending on the context. The image below shows a conversation where an AI agent must repeat its question when the user didn't answer the question. 
 
 ![A conversation where an AI agent must repeat its question when the user didn't answer the question](/assets/uploads/design_tips_1.1.png "Image 1.1")
 
-Humans will never re-ask the question using exactly the same expression. Neither should the AI agent. Image 1.2 below shows that the AI agent re-asks the same question in an alternative expression, which makes the conversation much more natural. 
+Humans will never re-ask the question using exactly the same expression. Neither should the AI agent. The image below shows that the AI agent re-asks the same question in an alternative expression, which makes the conversation much more natural. 
 
 ![A conversation where an AI agent re-asks the same question in an alternative expression](/assets/uploads/design_tips_1.2.png "Image 1.2")
 
@@ -37,10 +37,8 @@ In Juji Studio, conversational AI designers can use generative AI to auto-genera
 
 ![Use generative AI to auto-generate a conversation flow with multiple questions](/assets/uploads/design_tips_1.5.png "Image 1.5")
 
-The result is a fluent conversation flow that resembles those of human-human conversations (Image 1.6 below).
+The result is a fluent conversation flow that resembles those of human-human conversations.
 
 ![A fluent conversation flow](/assets/uploads/design_tips_1.6.png "Image 1.6")
 
-![]()
-
-## T﻿ip 2:
+## T﻿ip 2: Make a well-prepared AI agent
