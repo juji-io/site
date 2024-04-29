@@ -101,7 +101,7 @@ The image below shows how a conversational AI designer can easily customize the 
 
 (2) Enable an AI agent to read user personality. A perceptive AI agent should also read between the lines in a user engagement to deeply understand each user’s unique characteristics, including his/her motivations, interests, needs, and personality. The image beneath shows how an AI agent is able to infer a user's Big 5 personality traits from their conversation. Conversational AI designers can leverage Juji Studio to detect AI-inferred user personality and generate messages based on user personality.
 
-
+![Infer the user's Big 5 personality based on conversation text](/assets/uploads/design_tips_4.3.png "Image 4.3")
 
 ## T﻿ip 5: Make an adaptive AI agent
 
