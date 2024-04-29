@@ -109,14 +109,24 @@ A skilled human communicator adapts each conversation to their conversation part
 
 (1) Tailor AI agent explanations to suit an individual’s background, interests, and level of expertise to make the content more relatable and easier to understand. One of the important tasks for a proactive AI agent is to tutor students on complex concepts. If an AI agent can provide detailed explanations using terminology, analogies, and examples that each student is familiar with, it facilitates learning. The image below shows an example of an AI tutor that dynamically adapts blockchain tutorial content for a student who loves to cook. 
 
-
+![Personalize a blockchain tutorial for a chef](/assets/uploads/design_tips_5.1.png "Image 5.1")
 
 Conversational AI designers can leverage Juji Studio to auto-generate an interactive tutorial from proprietary data. 
 
+![Use AI to auto-generate tutorial steps from proprietary data](/assets/uploads/design_tips_5.2.png "Image 5.2")
+
 The designers can also review and revise the steps as needed. During runtime, Juji’s AI agent dynamically tailors the content in each step of the tutorial to suit the user’s background and interests. 
+
+![Auto-generated tutorial steps that can be reviewed and validated](/assets/uploads/design_tips_5.3.png "Image 5.3")
 
 (2) Adapt suggestions/persuasions/guidance based on a person’s personality traits. Everyone is unique. If an AI agent can provide suggestions or guidance that can better resonate with each user based on their unique motivations, needs, and interests, it is more likely the user will follow the suggestions or guidance. The following image shows an adaptive AI career assistant that suggests a suitable job opening along with the required skills based on the user's goal, personality, and available job roles. 
 
+![Match career DNA with job opportunity](/assets/uploads/design_tips_5.4.png "Image 5.4")
+
 The next image shows an adaptive AI care assistant that motivates and persuades a patient to adhere to care routines with stories generated based on the patient's personality so the patient can easily relate to and be motivated by. 
 
+![AI care assistant persuates the patient to keep up with the prescribed exercises](/assets/uploads/design_tips_5.5.png "Image 5.5")
+
 With Juji Studio, conversional AI designers can easily enable an AI agent to generate personalized messages based on Juji inferred user personality insights.
+
+![Use AI to generate personalized messages based on inferred user personality insights](/assets/uploads/design_tips_5.6.png "Image 5.6")
