@@ -28,5 +28,11 @@
     "bio": "A technologically-curious college student, who loves to learn more about upcoming innovations.",
     "pic": "/assets/img/content/tlee.jpg",
     "email": "tlee@juji-inc.com"
+  },
+  "Jie Lu": {
+    "name": "Jie Lu",
+    "bio": "A computer scientist specialized in applying cognitive AI, graph analytics, behavioral analytics, and machine learning to business applications.",
+    "pic": "/assets/img/content/jlu.jpg",
+    "email": "jlu@juji-inc.com "
   }
 }
