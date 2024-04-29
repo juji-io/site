@@ -88,3 +88,35 @@ Every AI agent is designed with a purpose. A proactive AI agent must act respons
 ![The AI agent flags unanswered questions in a to-do list](/assets/uploads/design_tips_3.4.png "Image 3.4")
 
 ## T﻿ip 4: Make a perceptive AI agent
+
+Effective human communicators have great social-emotional intelligence in addition to their language skills. In other words, they can read people during a conversation and use the reading to empathize with their conversation partners and foster effective and pleasant conversations. Similarly, a proactive AI agent should be perceptive and possess the ability to actively listen to its users, infer the users' unspoken needs and wants from a conversation, and personalize each interaction. Such capability enables AI agents to better help their users based on each user's unique needs and wants. Here are two conversational design tips to power a perceptive AI agent. 
+
+(1) Enable an AI agent to read user emotions. A perceptive AI agent should actively listen to its users, echo their sentiments and recognize their feelings. This makes users feel heard and understood. The following image gives an example of an AI agent detecting sentiment from the user’s input and responding empathetically. 
+
+![Detect sentiment from user input and respond empathetically](/assets/uploads/design_tips_4.1.png "Image 4.1")
+
+The image below shows how a conversational AI designer can easily customize the AI agent’s response in Juji Studio based on specific user sentiment detected during the conversation. 
+
+![Customize the AI agent’s response based on specific user sentiment](/assets/uploads/design_tips_4.2.png "Image 4.2")
+
+(2) Enable an AI agent to read user personality. A perceptive AI agent should also read between the lines in a user engagement to deeply understand each user’s unique characteristics, including his/her motivations, interests, needs, and personality. The image beneath shows how an AI agent is able to infer a user's Big 5 personality traits from their conversation. Conversational AI designers can leverage Juji Studio to detect AI-inferred user personality and generate messages based on user personality.
+
+
+
+## T﻿ip 5: Make an adaptive AI agent
+
+A skilled human communicator adapts each conversation to their conversation partners, making the engagements more effective. Likewise, a proactive AI agent should adapt its engagement to each of its users based on the user's backgrounds, interests, and personality. Below are two common types of adaptation that should be enabled to make an adaptive AI agent. 
+
+(1) Tailor AI agent explanations to suit an individual’s background, interests, and level of expertise to make the content more relatable and easier to understand. One of the important tasks for a proactive AI agent is to tutor students on complex concepts. If an AI agent can provide detailed explanations using terminology, analogies, and examples that each student is familiar with, it facilitates learning. The image below shows an example of an AI tutor that dynamically adapts blockchain tutorial content for a student who loves to cook. 
+
+
+
+Conversational AI designers can leverage Juji Studio to auto-generate an interactive tutorial from proprietary data. 
+
+The designers can also review and revise the steps as needed. During runtime, Juji’s AI agent dynamically tailors the content in each step of the tutorial to suit the user’s background and interests. 
+
+(2) Adapt suggestions/persuasions/guidance based on a person’s personality traits. Everyone is unique. If an AI agent can provide suggestions or guidance that can better resonate with each user based on their unique motivations, needs, and interests, it is more likely the user will follow the suggestions or guidance. The following image shows an adaptive AI career assistant that suggests a suitable job opening along with the required skills based on the user's goal, personality, and available job roles. 
+
+The next image shows an adaptive AI care assistant that motivates and persuades a patient to adhere to care routines with stories generated based on the patient's personality so the patient can easily relate to and be motivated by. 
+
+With Juji Studio, conversional AI designers can easily enable an AI agent to generate personalized messages based on Juji inferred user personality insights.
