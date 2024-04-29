@@ -17,7 +17,7 @@ A proactive agent doesn’t just passively respond to user questions. Rather, it
 
 ![A conversation where an AI agent must repeat its question when the user didn't answer the question](/assets/uploads/design_tips_1.1.png "Image 1.1")
 
-Humans will never re-ask the question using exactly the same expression. Neither should the AI agent. The image below shows that the AI agent re-asks the same question in an alternative expression, which makes the conversation much more natural. 
+Humans will never re-ask the question using exactly the same expression. Neither should the AI agent. The next image shows that the AI agent re-asks the same question in an alternative expression, which makes the conversation much more natural. 
 
 ![A conversation where an AI agent re-asks the same question in an alternative expression](/assets/uploads/design_tips_1.2.png "Image 1.2")
 
@@ -59,7 +59,7 @@ Human conversations are highly diverse and rarely single threaded, which require
 
 ![The user asks a related question](/assets/uploads/design_tips_2.4.png "Image 2.4")
 
-Feel overwhelmed that you have to handle all the above situations and don't know how? No worries, conversational AI designers can use Juji Studio to prepare an AI agent to handle all the situations mentioned effortlessly 100% #NOCODE. For example, A designer can easily toggle options to decide whether to accept a user's "I don't know" excuse or gibberish input in a specific conversation topic. 
+Feel overwhelmed that you have to handle all the above situations and don't know how? No worries, conversational AI designers can use Juji Studio to prepare an AI agent to handle all the situations mentioned effortlessly with 100% #NOCODE. For example, A designer can easily toggle options to decide whether to accept a user's "I don't know" excuse or gibberish input in a specific conversation topic. 
 
 ![Toggle options to decide whether to accept a user's "I don't know" excuse or gibberish input ](/assets/uploads/design_tips_2.5.png "Image 2.5")
 
