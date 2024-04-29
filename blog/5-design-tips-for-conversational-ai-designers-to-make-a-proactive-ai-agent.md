@@ -69,4 +69,12 @@ A designer can also upload one or more proprietary data and then ask Juji to gen
 
 ![Use AI to auto-generate a set of Q&As to handle user questions related to a topic](/assets/uploads/design_tips_2.6.png "Image 2.6")
 
-## T﻿ip 3:
+## T﻿ip 3: Make a responsible AI agent
+
+Every AI agent is designed with a purpose. A proactive AI agent must act responsibly to ensure task completion and goal fulfillment. So how can conversational AI designers instill a sense of responsibility into an AI agent? From our own experiences, we have found there are at least three types of responsibility that a proactive AI Agent should have. 
+
+(1) Ask follow-up questions to deepen a conversation and accomplish the goal. In many applications such as interviewing and counseling, a proactive AI agent typically asks open-ended questions to elicit richer information. However, users may not cooperate and instead provide overly general or vague information. In such a situation, a responsible AI agent should ask follow-up questions to deepen the conversation, ensuring that relevant details are gathered. The two images below show an example where the AI agent automatically generates follow-up questions to elicit must-have and nice-to-have information based on the user's responses.
+
+(2) Stick to an agenda for task completion. Every proactive AI agent should have an agenda (aka workflow) that drives the conversation toward task completion. However, most conversations often digress. A responsible AI agent should manage the digressions/distractions and stick to the agenda. The following image provides an example of a conversation where the AI agent handles a user digression gracefully and then goes back to the agenda. Conversational AI designers don't need to do anything but directly leverage Juji Studio's built-in capabilities for AI agents to stick to their agenda automatically.
+
+(3) Be a good human collaborator. AI is far from perfect. There will always be questions that an AI agent can’t answer or tasks it can’t complete. A responsible AI agent should collaborate with human teammates when necessary. For example, the image below shows the interface in Juji Studio where an AI agent flags unanswered questions or unfinished tasks in a to-do list for humans to review and to improve the AI agent's performance over time.
