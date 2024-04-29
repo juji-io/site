@@ -103,7 +103,7 @@ The image below shows how a conversational AI designer can easily customize the 
 
 ## T﻿ip 5: Make an adaptive AI agent
 
-A skilled human communicator adapts each conversation to their conversation partners, making the engagements more effective. Likewise, a proactive AI agent should adapt its engagement to each of its users based on the user's backgrounds, interests, and personality. Below are two common types of adaptation that should be enabled to make an adaptive AI agent. 
+A skilled human communicator adapts each conversation to their conversation partners, making the engagements more effective. Likewise, a proactive AI agent should adapt its engagement to each of its users based on the user's background, interests, and personality. Below are two common types of adaptation that should be enabled to make an adaptive AI agent. 
 
 (1) Tailor AI agent explanations to suit an individual’s background, interests, and level of expertise to make the content more relatable and easier to understand. One of the important tasks for a proactive AI agent is to tutor students on complex concepts. If an AI agent can provide detailed explanations using terminology, analogies, and examples that each student is familiar with, it facilitates learning. The image below shows an example of an AI tutor that dynamically adapts blockchain tutorial content for a student who loves to cook. 
 
