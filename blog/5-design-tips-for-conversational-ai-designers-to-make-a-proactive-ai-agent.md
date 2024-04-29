@@ -7,9 +7,7 @@ author: Michelle Zhou
 category: Guides
 image: /assets/uploads/chatbot_5.jpg
 ---
-Recently, we have heard more people, especially top technology experts, talk about creating "proactive" AI agents. In a recent [video](https://youtu.be/wM5837pVh1g?feature=shared), Andrew Ng discussed how “AI agentic workflows” will drive massive AI progress. He listed various agentic design patterns to achieve various purposes, such as reflection, planning, and tool use. No matter whether an agent is used in reflection or planning tasks, the shared pattern is that: the task to be accomplished always requires more than a single-turn of human-agent exchange (Andrew calls it zero-shot). There are always multi-turn Agent-Human interactions, during which both agent and humans can take initiatives and work together toward a common goal. Such an agentic workflow described by Andrew is also known as mixed-initiative systems, which Juji has been focusing on enabling to help organizations automate high-touch human engagements. Example high-touch engagements include academic advising, career development, and healthcare counseling, where both humans and AI agents must work proactively and collaboratively. 
-
-Designing a proactive AI agent requires skills. In this article, we present 5 design tips for conversational AI designers to make effective proactive AI agents. In each design tip, we use concrete examples to explain the desired AI agent behavior and show the corresponding Juji features you can use to enable such a behavior. 
+Recently, we have heard more people, especially top technology experts, talk about creating "proactive" AI agents (e.g. see a recent [video](https://youtu.be/wM5837pVh1g?feature=shared) by Andrew Ng). Designing a proactive AI agent requires skills. In this article, we present 5 design tips for conversational AI designers to make effective proactive AI agents. In each design tip, we use concrete examples to explain the desired AI agent behavior and show the corresponding Juji features you can use to enable such a behavior. 
 
 ## Tip 1: Make an articulate AI agent
 
@@ -131,4 +129,4 @@ With Juji Studio, conversional AI designers can easily enable an AI agent to gen
 
 ![Use AI to generate personalized messages based on inferred user personality insights](/assets/uploads/design_tips_5.6.png "Image 5.6")
 
-In summary, we present 5 design tips for conversational AI designers to make a proactive AI agent articulate, well-prepared, responsible, perceptive, and adaptive. Juji Studio makes it easy to create such an AI agent. [Sign up](https://juji.io/signup) to create your own and put those tips to use!
+In summary, we present 5 design tips for conversational AI designers to make proactive AI agents articulate, well-prepared, responsible, perceptive, and adaptive. Juji Studio makes it easy to create such an AI agent. [Sign up](https://juji.io/signup) to create your own and put those tips to use!
