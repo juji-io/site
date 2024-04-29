@@ -130,3 +130,5 @@ The next image shows an adaptive AI care assistant that motivates and persuades 
 With Juji Studio, conversional AI designers can easily enable an AI agent to generate personalized messages based on Juji inferred user personality insights.
 
 ![Use AI to generate personalized messages based on inferred user personality insights](/assets/uploads/design_tips_5.6.png "Image 5.6")
+
+In summary, we present 5 design tips for conversational AI designers to make a proactive AI agent articulate, well-prepared, responsible, perceptive, and adaptive. Juji Studio makes it easy to create such an AI agent. [Sign up](https://juji.io/signup) to create your own and put those tips to use!
