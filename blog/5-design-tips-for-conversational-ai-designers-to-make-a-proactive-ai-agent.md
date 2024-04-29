@@ -1,6 +1,6 @@
 ---
 layout: blog/article.njk
-featured: false
+featured: true
 title: 5 Design Tips for Conversational AI Designers to Make a Proactive AI Agent
 date: 2024-04-27T01:54:34.708Z
 author: Michelle Zhou
