@@ -42,3 +42,31 @@ The result is a fluent conversation flow that resembles those of human-human con
 ![A fluent conversation flow](/assets/uploads/design_tips_1.6.png "Image 1.6")
 
 ## T﻿ip 2: Make a well-prepared AI agent
+
+Human conversations are highly diverse and rarely single threaded, which require active listening, empathy, and negotiation skills to keep a conversation going and achieve the intended communication goals. Just like a good human conversationalist, a proactive AI agent should also be well-prepared to handle diverse conversation situations gracefully. Below we list several frequent conversation situations where a proactive agent should be well-prepared to handle them. 
+
+(1) Handle user reciprocal questions. In a human-human conversation, humans often ask reciprocal questions such as "What's yours" and "what about you". A well-prepared AI agent should also handle user reciprocal questions. 
+
+![The user asks a reciprocal question](/assets/uploads/design_tips_2.1.png "Image 2.1")
+
+(2) Handle user clarification questions. Different people have different background and knowledge. A perfectly clear question to one person may be difficult for another to understand. So prepare your AI agent to answer user clarification questions during a conversation. 
+
+![The user asks a clarification question](/assets/uploads/design_tips_2.2.png "Image 2.2")
+
+(3) Handle user excuses. Just like in human-human conversations, people may dodge a question by giving various excuses. A proactive AI agent should also be prepared to handle diverse user excuses to accomplish an agenda (e.g., eliciting quality information from a target audience).
+
+![The user makes an excuse](/assets/uploads/design_tips_2.3.png "Image 2.3")
+
+(4) Handle related user questions in context. During human-human conversations, people may ask relevant questions to a topic under discussion. A proactive AI agent should also anticipate relevant user questions and be prepared to answer the questions in a conversation. 
+
+![The user asks a related question](/assets/uploads/design_tips_2.4.png "Image 2.4")
+
+Feel overwhelmed that you have to handle all the above situations and don't know how? No worries, conversational AI designers can use Juji Studio to prepare an AI agent to handle all the situations mentioned effortlessly 100% #NOCODE. For example, A designer can easily toggle options to decide whether to accept a user's "I don't know" excuse or gibberish input in a specific conversation topic. 
+
+![Toggle options to decide whether to accept a user's "I don't know" excuse or gibberish input ](/assets/uploads/design_tips_2.5.png "Image 2.5")
+
+A designer can also upload one or more proprietary data and then ask Juji to generate a set of Q&As automatically to handle user questions related to a topic.
+
+![Use AI to auto-generate a set of Q&As to handle user questions related to a topic](/assets/uploads/design_tips_2.6.png "Image 2.6")
+
+## T﻿ip 3:
