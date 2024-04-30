@@ -7,7 +7,9 @@ date: 2024-01-16T09:14:43.910Z
 author: Benjamin Brown
 category: News
 tags:
-  - Education
+  - Juji Studio
+  - No-code AI
+image: /assets/uploads/studio.jpeg
 ---
 
 
