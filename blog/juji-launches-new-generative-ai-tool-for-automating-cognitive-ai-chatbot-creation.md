@@ -8,7 +8,7 @@ author: Benjamin Brown
 category: News
 tags:
   - Juji Studio
-  - No-code AI
+  - No-Code AI
 image: /assets/uploads/studio.jpeg
 ---
 
