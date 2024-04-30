@@ -8,6 +8,7 @@ author: Benjamin Brown
 category: News
 tags:
   - Education
+image: /assets/uploads/screen-shot-2024-04-30-at-10.03.36-am.png
 ---
 
 
