@@ -5,6 +5,8 @@ title: 5 Design Tips for Conversational AI Designers to Make a Proactive AI Agen
 date: 2024-04-27T01:54:34.708Z
 author: Jie Lu
 category: Guides
+tags:
+  - Design Tips
 image: /assets/uploads/chatbot_5.jpg
 ---
 Recently, we have heard more people, especially top technology experts, talk about creating "**proactive**" AI agents with agentic workflows (e.g. see a recent [video](https://youtu.be/wM5837pVh1g?feature=shared) by Andrew Ng). Designing a proactive AI agent requires skills. In this article, we present 5 design tips for conversational AI designers to make effective proactive AI agents. In each design tip, we use concrete examples to explain the desired AI agent behavior and show the corresponding Juji features you can use to enable such a behavior. 
