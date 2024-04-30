@@ -8,7 +8,6 @@ author: Benjamin Brown
 category: News
 tags:
   - Juji Studio
-  - No-Code AI
 image: /assets/uploads/studio.jpeg
 ---
 [Juji](https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fjuji.io&esheet=53362217&newsitemid=20230315005247&lan=en-US&anchor=Juji+Inc.&index=1&md5=b68315b6bec874fdf5d4d89c28964c5a) announced the launch of its new generative AI tool that enables any organization to rapidly generate custom AI chatbots with no code or additional IT resources. These AI chatbots are powered with cognitive intelligence—advanced human soft skills like active listening and reading between the lines, and can be used to scale human teams and automate high-touch, high-stakes engagements 24x7.
