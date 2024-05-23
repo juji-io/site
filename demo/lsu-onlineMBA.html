@@ -88,8 +88,8 @@ date: 2020-10-28T05:24:53.929Z
     Click to chat
 </div>
 <div id='jujibot-icon'
-        background=''
-        img_url='https://juji-user-uploads.s3.amazonaws.com/rep-images/cb80828b-f0d2-4c4d-b3e1-7e1dff7a5e8b.jpeg'
+        background='#8BDFCD'
+        img_url='https://juji.ai/assets/img/content/juji-profile-mini.webp'
         role='button'
         tabIndex='0'
         alt='Click to chat with Juji'
@@ -104,8 +104,19 @@ date: 2020-10-28T05:24:53.929Z
              aria-label='minimized chat icon image'
              alt='minimized chat icon image'
              style='display:none;'></img>
-</button>  
+</button>
 <input id='juji-chat-status' type='hidden' value='not chatted'>
+<!-- GA SECTION: Update Google Analytics linker config -->
+<!-- If the page already has linker config set to the tracking ID, please remove this GA SECTION and add the domains to the existing linker. -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-113933244-1'></script>
+<script>window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113933244-1',
+        {'linker': {'domains': ['juji.io', 'juji.ai']},
+         'send_page_view': false});
+</script>
+<!-- GA SECTION end -->
 <script>
  window.addEventListener("load", (event) => {
     var script = document.createElement('script');
@@ -122,13 +133,13 @@ date: 2020-10-28T05:24:53.929Z
                 js.onreadystatechange = function () {
                     if (js.readyState == 'loaded' || js.readyState == 'complete') {
                         js.onreadystatechange = null;
-                        updateIframe('https://juji.ai', null, '');
+                        updateIframe('https://juji.ai', 'UA-113933244-1', 'https://juji.io');
                         setMinimizedIconSize(minimizedIconWidthAndHeight);
                     }
                 }
             } else {
                 js.onload = function () {
-                    updateIframe('https://juji.ai', null, '');
+                    updateIframe('https://juji.ai', 'UA-113933244-1', 'https://juji.io');
                     setMinimizedIconSize(minimizedIconWidthAndHeight);
                 }
             }
@@ -138,7 +149,7 @@ date: 2020-10-28T05:24:53.929Z
     }});
 </script>
 <div id='juji-chatbot'
-        chat_url='https://juji.ai/pre-chat/63f8484b-2357-4423-96ce-35f636db90a3?start-chat=false'>
+        chat_url='https://juji.ai/pre-chat/6645bc5c-891d-4f5a-a2a8-2d9ef352067c?start-chat=false'>
 </div>
 
 <script>
