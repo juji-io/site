@@ -6,8 +6,9 @@ title: Juji Powers Five-University Study on Validating Personality Scores
 date: 2024-01-07T13:45:37.476Z
 author: Michelle Zhou
 category: Study
-tags: []
-image: /assets/uploads/jujilogo1024.png
+tags:
+  - Personalization
+image: /assets/uploads/personality-scores.jpeg
 ---
 [](https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fjuji.io%2F&esheet=53288143&newsitemid=20230124005074&lan=en-US&anchor=Juji%2C+Inc.&index=1&md5=a2feb4ff4d6d7180ff9bfa7aeba24657)
 
