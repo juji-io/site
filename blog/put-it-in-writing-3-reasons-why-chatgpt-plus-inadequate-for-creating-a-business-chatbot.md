@@ -7,7 +7,7 @@ date: 2024-05-28T22:15:22.206Z
 author: Michelle Zhou
 category: Viewpoints
 tags:
-  - CHATGPT
+  - ChatGPT
   - GenerativeAI
   - LLMs
 image: /assets/uploads/screen-shot-2024-05-28-at-3.19.49-pm.png
