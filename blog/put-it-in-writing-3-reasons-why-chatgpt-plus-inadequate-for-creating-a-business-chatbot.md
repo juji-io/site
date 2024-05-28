@@ -22,8 +22,7 @@ Unfortunately, a prompt-driven tool like ChatGPT Plus does not put an AI chatbot
 \
 In the rest of the blog, we outline 3 reasons why it is important to put AI chatbot behavior in writing, especially in a business context.
 
-## \
-Reason 1: Ensure the integrity of AI chatbot behavior
+## Reason 1: Ensure the integrity of AI chatbot behavior
 
 AI is far from perfect and makes mistakes from time to time. Let's assume that a health science researcher uses ChatGPT Plus to create an AI chatbot to interview patients and gather critical patient information. If such an AI chatbot is created and deployed solely based on the researcher's prompt describing the interview process, the AI chatbot will most likely behave differently with each interviewee since each conversation will be generated on the fly, and there is NO guarantee that the AI chatbot will even ask the same question in every conversation!\
 \
@@ -51,9 +50,7 @@ F﻿ig 4 shows the generated tutorial steps in writing. Again, the recorded step
 
 ![A graphical user interface displays a generated, multi-step tutorial](/assets/uploads/image4.jpg "Fig 4. The generated, multi-step tutorial for a human to review and edit.")
 
-
-
-## R﻿eason 2: Ensure the deep controls of your AI agent behavioral logic
+## R﻿eason 2: Ensure Deep Controls of AI Chatbot Behavior
 
 Above we mentioned that documenting an AI chatbot’s behavior should document its workflow. The workflow however is a static representation of a chatbot’s behavior and there is AI logic behind the scene to drive the chatbot to execute its workflow when the chatbot interacts with a user. In other words, there is much more than meets the eye when designing a chatbot’s workflow, especially in a business context. 
 
@@ -61,12 +58,12 @@ Let's use the same example of creating an AI chatbot to serve as a patient care 
 
 For example, does the existing AI behavioral logic handle the following situations:
 
-* \
-  How does the chatbot handle the situation if a user is unwilling to answer the question?\
-  How does the chatbot handle the situation if a user does not know the answer?\
-  How does the chatbot handle the situation if a user gives only very terse input?\
-  How does the chatbot handle the situation if a user expresses depressions or is in a bad mood?\
-  How does the chatbot handle the situation if a user asks for medical advice?
+\
+How does the chatbot handle the situation if a user is unwilling to answer the question?\
+How does the chatbot handle the situation if a user does not know the answer?\
+How does the chatbot handle the situation if a user gives only very terse input?\
+How does the chatbot handle the situation if a user expresses depressions or is in a bad mood?\
+How does the chatbot handle the situation if a user asks for medical advice?
 
 We can go on and on with such "if" statements. Just like that every organization has their logic of doing business or handling communications, which often are spelled out and written down, organizations should also demand to have their AI chatbot behavioral logic spelled out and written down. More importantly, organizations should customize the AI logic to suit their business needs or to fulfill their compliance requirements.\
 \
