@@ -38,4 +38,18 @@ F﻿ig 1 below shows an example prompt used to generate a chatbot's workflow aut
 
 ![A prompt used to generate a chatbot workflow automatically](/assets/uploads/image1.jpg "Fig 1. A prompt used to generate a chatbot workflow automatically")
 
-Fig 2 records the generated workflow, which allows a human designer to review and revise as needed. With the workflow in writing, the chatbot will follow the workflow consistently to interact with each user.
+Fig 2 records the generated workflow, which allows a human designer to review and revise as needed. With the workflow in writing, the chatbot will follow the workflow consistently to interact with each user. 
+
+![A graphical user interface displays the generated chatbot workflow.](/assets/uploads/image2.jpg "Fig 2. The graphical display of a generated chatbot workflow that a human can review and edit.")
+
+F﻿ig 3 shows another example prompt that is used to generate a multi-step, interactive tutorial based on given learning content, automatically. 
+
+![A graphical user interface shows a prompt for generating a tutorial](/assets/uploads/image3.jpg "Fig 3. An example prompt used to auto-generate an interactive tutorial.")
+
+F﻿ig 4 shows the generated tutorial steps in writing. Again, the recorded steps allow a human designer to review, revise, and approve the generated tutorials. 
+
+![A graphical user interface displays a generated, multi-step tutorial](/assets/uploads/image4.jpg "Fig 4. The generated, multi-step tutorial for a human to review and edit.")
+
+
+
+R﻿eason 2:
