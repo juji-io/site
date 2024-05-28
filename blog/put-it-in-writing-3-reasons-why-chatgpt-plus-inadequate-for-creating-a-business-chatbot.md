@@ -8,7 +8,7 @@ author: Michelle Zhou
 category: Viewpoints
 tags:
   - CHATGPT
-  - generativeai
+  - GenerativeAI
   - LLMs
 image: /assets/uploads/screen-shot-2024-05-28-at-3.19.49-pm.png
 ---
