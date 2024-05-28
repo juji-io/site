@@ -77,3 +77,7 @@ Image 2 shows part of configurable AI behavioral logic at a conversation topic l
 Image 3 shows part of configurable AI behavioral logic at a specific type of user intent level.\
 \
 In short, "put it in writing" also means spelling out the behavioral logic of an AI chatbots so one can view and deeply control how AI behaves if needed.
+
+
+
+## R﻿eason 3: Ensure the business provenance of an AI chatbot  (AI chatbot Provenance)
