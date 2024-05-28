@@ -53,4 +53,30 @@ F﻿ig 4 shows the generated tutorial steps in writing. Again, the recorded step
 
 
 
-## R﻿eason 2:
+## R﻿eason 2: Ensure the deep controls of your AI agent behavioral logic
+
+Above we mentioned that documenting an AI chatbot’s behavior should document its workflow. The workflow however is a static representation of a chatbot’s behavior and there is AI logic behind the scene to drive the chatbot to execute its workflow when the chatbot interacts with a user. In other words, there is much more than meets the eye when designing a chatbot’s workflow, especially in a business context. 
+
+Let's use the same example of creating an AI chatbot to serve as a patient care assistant, which will check-in on each patient daily and gather critical patient information. While tools like ChatGPT can easily generate a set of questions for such an AI chatbot to ask a patient and gather patient information, it is unclear what kind of behavioral logic drives the chatbot to conduct the check-in properly and successfully.
+
+For example, does the existing AI behavioral logic handle the following situations:
+
+* \
+  How does the chatbot handle the situation if a user is unwilling to answer the question?\
+  How does the chatbot handle the situation if a user does not know the answer?\
+  How does the chatbot handle the situation if a user gives only very terse input?\
+  How does the chatbot handle the situation if a user expresses depressions or is in a bad mood?\
+  How does the chatbot handle the situation if a user asks for medical advice?
+
+We can go on and on with such "if" statements. Just like that every organization has their logic of doing business or handling communications, which often are spelled out and written down, organizations should also demand to have their AI chatbot behavioral logic spelled out and written down. More importantly, organizations should customize the AI logic to suit their business needs or to fulfill their compliance requirements.\
+\
+Instead of requiring an organization to come up with the difficult-to-anticipate AI behavioral logic from scratch, Juji has distilled the most important set of AI behavioral logic, established optimal key configurations for a number of AI chatbot situations, and spelled out such a configuration for an organization to review and revise as needed.\
+\
+In other words, when you generate an AI chatbot in Juji Studio, you get the chatbot workflow (see our yesterday's post) with pre-built AI behavior logic, all spelled out and customizable. Truly more than meets the eye.\
+\
+Here are 3 examples:\
+Image 1 shows part of configurable AI behavioral logic at the chatbot level.\
+Image 2 shows part of configurable AI behavioral logic at a conversation topic level.\
+Image 3 shows part of configurable AI behavioral logic at a specific type of user intent level.\
+\
+In short, "put it in writing" also means spelling out the behavioral logic of an AI chatbots so one can view and deeply control how AI behaves if needed.
