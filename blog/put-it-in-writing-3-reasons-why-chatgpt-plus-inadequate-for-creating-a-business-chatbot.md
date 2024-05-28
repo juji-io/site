@@ -20,10 +20,11 @@ Why? The rationale is quite straightforward.  In a business context, when we ne
 
 Unfortunately, a prompt-driven tool like ChatGPT Plus does not put an AI chatbot’s behavior in writing, hence it is inadequate for building a chatbot for business use.\
 \
-In the rest of the blog, we outline 3 reasons why it is important to put AI chatbot behavior in writing, especially in a business context.\
-\
-#Reason 1 Ensure the integrity of AI chatbot behavior\
-\
+In the rest of the blog, we outline 3 reasons why it is important to put AI chatbot behavior in writing, especially in a business context.
+
+## \
+Reason 1: Ensure the integrity of AI chatbot behavior
+
 AI is far from perfect and makes mistakes from time to time. Let's assume that a health science researcher uses ChatGPT Plus to create an AI chatbot to interview patients and gather critical patient information. If such an AI chatbot is created and deployed solely based on the researcher's prompt describing the interview process, the AI chatbot will most likely behave differently with each interviewee since each conversation will be generated on the fly, and there is NO guarantee that the AI chatbot will even ask the same question in every conversation!\
 \
 Let's look at another example in education where an AI chatbot is created to give interactive tutorials on certain learning content. If an instructor just uses a prompt to instruct an AI chatbot to deliver such a tutorial, the AI chatbot may not even follow the same tutorial steps with each student.\
@@ -52,4 +53,4 @@ F﻿ig 4 shows the generated tutorial steps in writing. Again, the recorded step
 
 
 
-R﻿eason 2:
+## R﻿eason 2:
