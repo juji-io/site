@@ -68,11 +68,17 @@ Instead of requiring an organization to come up with the difficult-to-anticipate
 \
 In other words, when you generate an AI chatbot in Juji Studio, you get the chatbot workflow (see our yesterday's post) with pre-built AI behavior logic, all spelled out and customizable. Truly more than meets the eye.\
 \
-J﻿uji supports a human designer to control an AI chatbot's behavior at 3 levels: the chatbot level (Fig 5), the conversation topic level (Fig 6), and the specific user intent level (Fig 7). 
+J﻿uji supports a human designer to control an AI chatbot's behavior at 3 levels  below.
+
+Fig 5 below shows various chatbot controls that a human designer can use to control a chatbot's overall behavior and logic. 
 
 ![Example chatbot-level controls for a human to control a chatbot's behavior ](/assets/uploads/image5.jpg "Fig 5. Example chatbot controls that are configurable per chatbot.")
 
+Fig 6 shows various chatbot controls that human designers can configure to control the chatbot behavior and logic inside a particular conversation topic. 
+
 ![It displays various controls a human designer can use to control AI logic at a conversation topic level](/assets/uploads/image6.jpg "Fig 6. Example chatbot controls that are configurable based on a conversation topic.")
+
+F﻿ig. 7 below shows controls that human designers can use to control a chatbot's behavior based on a specific type of user input. 
 
 ![Example chatbot controls for a human to control AI logic based on a user's input](/assets/uploads/image7.jpg "Fig 7. Example chatbot controls that are configurable based on user input. ")
 
