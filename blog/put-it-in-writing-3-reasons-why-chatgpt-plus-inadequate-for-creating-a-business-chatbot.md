@@ -102,13 +102,13 @@ Fig 8 shows various configurations that non-IT SMEs can access and control.
 
  
 
-Moreover, such business data and processes can be easily shared within an enterprise for further scrutiny and validation (Fig 9).
+Moreover, such business data and processes can be easily shared within an enterprise for further scrutiny and validation. Fig 9 below shows that one can easily share an AI chatbot along with its assets with colleagues for added trust and transparency during the design and operation of the chatbot. 
 
 ![A graphical user interface showing how to share a chatbot with others](/assets/uploads/image9.jpg "Fig 9. One can share a chatbot with colleagues for added trust and transparence in chatbot design.")
 
 (b) Quality Control
 
-No AI chatbots are perfect. While a collaborative AI chatbot design/development process helps improve the quality of AI chatbot, continuously monitoring AI chatbot's behavior is another critical step to AI chatbot provenance. Juji helps businesses monitor AI chatbot behavior continuously and creates a to-do list to alert human custody to audit and improve their AI chatbots accordingly (Fig 10).
+No AI chatbots are perfect. While a collaborative AI chatbot design/development process helps improve the quality of AI chatbot, continuously monitoring AI chatbot's behavior is another critical step to AI chatbot provenance. Juji helps businesses monitor AI chatbot behavior continuously and creates a to-do list to alert human custody to audit and improve their AI chatbots accordingly (see Fig 10 below).
 
 ![Graphical user interface that shows a to-do list and content to be audited for chatbot quality control](/assets/uploads/image10.jpg "Fig 10. A to-do list or content audit list for human designers to improve chatbot quality.")
 
