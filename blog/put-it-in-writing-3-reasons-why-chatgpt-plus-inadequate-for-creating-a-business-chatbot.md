@@ -12,8 +12,6 @@ tags:
   - LLMs
 image: /assets/uploads/screen-shot-2024-05-28-at-3.19.49-pm.png
 ---
-Fig 2 records the generated workflow, which allows a human designer to review and revise as needed. With the workflow in writing, the chatbot will follow the workflow consistently to interact with each user. 
-
 W﻿ith the launch of ChatGPT plus, more and more organizations started to build their own chatbots. While ChatGPT Plus provides a natural language interface for almost anyone to build a chatbot, it is inadequate for building a chatbot in a business context.
 
 Why? The rationale is quite straightforward.  In a business context, when we negotiate a business contract or agreement, we often say "put it in writing" for the purpose of recording important terms and make them official. The same principle should also apply to regulating an AI chatbot's behavior especially when the chatbot is to act on behalf of an organization or business.
@@ -52,18 +50,17 @@ F﻿ig 4 shows the generated tutorial steps in writing. Again, the recorded step
 
 ## R﻿eason 2: Ensure Deep Controls of AI Chatbot Behavior
 
-Above we mentioned that documenting an AI chatbot’s behavior should document its workflow. The workflow however is a static representation of a chatbot’s behavior and there is AI logic behind the scene to drive the chatbot to execute its workflow when the chatbot interacts with a user. In other words, there is much more than meets the eye when designing a chatbot’s workflow, especially in a business context. 
+Above we mentioned that documenting an AI chatbot’s behavior should document its workflow. The workflow however is a static representation of a chatbot’s behavior and there is AI logic behind the scene to drive the chatbot to execute its workflow when it interacts with a user. In other words, there is much more than meets the eye when designing a chatbot’s workflow, especially in a business context. 
 
 Let's use the same example of creating an AI chatbot to serve as a patient care assistant, which will check-in on each patient daily and gather critical patient information. While tools like ChatGPT can easily generate a set of questions for such an AI chatbot to ask a patient and gather patient information, it is unclear what kind of behavioral logic drives the chatbot to conduct the check-in properly and successfully.
 
 For example, does the existing AI behavioral logic handle the following situations:
 
-\
-How does the chatbot handle the situation if a user is unwilling to answer the question?\
-How does the chatbot handle the situation if a user does not know the answer?\
-How does the chatbot handle the situation if a user gives only very terse input?\
-How does the chatbot handle the situation if a user expresses depressions or is in a bad mood?\
-How does the chatbot handle the situation if a user asks for medical advice?
+* How does the chatbot handle the situation if a user is unwilling to answer the question?
+* How does the chatbot handle the situation if a user does not know the answer?
+* How does the chatbot handle the situation if a user gives only very terse input?
+* How does the chatbot handle the situation if a user expresses depressions or is in a bad mood?
+* How does the chatbot handle the situation if a user asks for medical advice?
 
 We can go on and on with such "if" statements. Just like that every organization has their logic of doing business or handling communications, which often are spelled out and written down, organizations should also demand to have their AI chatbot behavioral logic spelled out and written down. More importantly, organizations should customize the AI logic to suit their business needs or to fulfill their compliance requirements.\
 \
@@ -71,58 +68,38 @@ Instead of requiring an organization to come up with the difficult-to-anticipate
 \
 In other words, when you generate an AI chatbot in Juji Studio, you get the chatbot workflow (see our yesterday's post) with pre-built AI behavior logic, all spelled out and customizable. Truly more than meets the eye.\
 \
-Here are 3 examples:\
-Image 1 shows part of configurable AI behavioral logic at the chatbot level.\
-Image 2 shows part of configurable AI behavioral logic at a conversation topic level.\
-Image 3 shows part of configurable AI behavioral logic at a specific type of user intent level.\
+J﻿uji supports a human designer to control an AI chatbot's behavior at 3 levels: the chatbot level (Fig 5), the conversation topic level (Fig 6), and the specific user intent level (Fig 7). 
+
+![]()
+
 \
 In short, "put it in writing" also means spelling out the behavioral logic of an AI chatbots so one can view and deeply control how AI behaves if needed.
-
-
 
 ## R﻿eason 3: Ensure the business provenance of an AI chatbot  (AI chatbot Provenance)
 
 Business provenance refers to the documentation and verification of the origin, history, and custody of business-related data, processes, and products. It is often required for various reasons (e.g., accountability and compliance). When an AI chatbot represents a business to engage with its customers, employees, and partners alike, this AI chatbot along with its associated assets, such as the avatar and the knowledge, all become business-related data, processes, and products, hence subjecting to business provenance.
 
-
-
 We use the term "AI chatbot Provenance" to refer to the process of documenting, verifying, and monitoring the origin, history, and custody of AI chatbots and assets.
 
-
-
 To facilitate AI chatbot provenance, Juji has provided an array of tools in the following 4 areas: 
-
-
 
 (a) Trust and Transparency
 
 In Juji, an AI chatbot's design, such as its general settings, workflows and knowledge used to answer user questions are explicitly written out and easily accessible and configurable by non-IT subject matter experts (SME). 
 
-
-
 Fig 11 shows various configurations that non-IT SMEs can access and control. 
 
-
-
 Moreover, such business data and processes can be easily shared within an enterprise for further scrutiny and validation (Fig 12).
-
-
 
 (b) Quality Control
 
 No AI chatbots are perfect. While a collaborative AI chatbot design/development process helps improve the quality of AI chatbot, continuously monitoring AI chatbot's behavior is another critical step to AI chatbot provenance. Juji helps businesses monitor AI chatbot behavior continuously and creates a to-do list to alert human custody to audit and improve their AI chatbots accordingly (Fig 08).
 
-
-
 (c) Regulatory Compliance
 
 Just like products and processes in established industries such as pharmaceutical and Finance, AI chatbots as a new, imperfect product will surely be subject to regulatory compliance such as President Biden's executive order on generative AI. Juji's collaborative AI chatbot platform facilitates regulatory compliance as it enables non-IT professionals such as legal professionals to be part of the AI chatbot design and development process. Juji's multi-level AI safety measures also aid regulatory compliance. 
 
-
-
 For example, Fig 10 below shows examples of AI responses labeled per their content origin. 
-
-
 
 (d) Risk Management
 
