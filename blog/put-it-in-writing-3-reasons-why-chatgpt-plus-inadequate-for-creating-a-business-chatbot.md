@@ -81,3 +81,49 @@ In short, "put it in writing" also means spelling out the behavioral logic of an
 
 
 ## R﻿eason 3: Ensure the business provenance of an AI chatbot  (AI chatbot Provenance)
+
+Business provenance refers to the documentation and verification of the origin, history, and custody of business-related data, processes, and products. It is often required for various reasons (e.g., accountability and compliance). When an AI chatbot represents a business to engage with its customers, employees, and partners alike, this AI chatbot along with its associated assets, such as the avatar and the knowledge, all become business-related data, processes, and products, hence subjecting to business provenance.
+
+
+
+We use the term "AI chatbot Provenance" to refer to the process of documenting, verifying, and monitoring the origin, history, and custody of AI chatbots and assets.
+
+
+
+To facilitate AI chatbot provenance, Juji has provided an array of tools in the following 4 areas: 
+
+
+
+(a) Trust and Transparency
+
+In Juji, an AI chatbot's design, such as its general settings, workflows and knowledge used to answer user questions are explicitly written out and easily accessible and configurable by non-IT subject matter experts (SME). 
+
+
+
+Fig 11 shows various configurations that non-IT SMEs can access and control. 
+
+
+
+Moreover, such business data and processes can be easily shared within an enterprise for further scrutiny and validation (Fig 12).
+
+
+
+(b) Quality Control
+
+No AI chatbots are perfect. While a collaborative AI chatbot design/development process helps improve the quality of AI chatbot, continuously monitoring AI chatbot's behavior is another critical step to AI chatbot provenance. Juji helps businesses monitor AI chatbot behavior continuously and creates a to-do list to alert human custody to audit and improve their AI chatbots accordingly (Fig 08).
+
+
+
+(c) Regulatory Compliance
+
+Just like products and processes in established industries such as pharmaceutical and Finance, AI chatbots as a new, imperfect product will surely be subject to regulatory compliance such as President Biden's executive order on generative AI. Juji's collaborative AI chatbot platform facilitates regulatory compliance as it enables non-IT professionals such as legal professionals to be part of the AI chatbot design and development process. Juji's multi-level AI safety measures also aid regulatory compliance. 
+
+
+
+For example, Fig 10 below shows examples of AI responses labeled per their content origin. 
+
+
+
+(d) Risk Management
+
+Juji's AI chatbot behavioral logs (e.g., workflows, chat transcripts, chat summaries, and to-do list) aid crisis management (e.g., detecting AI chatbot misbehavior timely) and prevent fraud (e.g., checking the history of saved or exported AI chatbot dossier to trace the history of an AI chatbot).
