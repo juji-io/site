@@ -6,9 +6,9 @@ date: 2024-06-04T18:10:01.787Z
 author: Jie Lu
 category: Viewpoints
 tags:
-  - AI Chatbot
-  - Generative AI
-  - Customer Service
+  - AIChatbot
+  - GenerativeAI
+  - CustomerService
   - Automation
   - Scalability
 image: /assets/uploads/blog_do_you_need_ai_chatbot.png
