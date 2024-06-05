@@ -81,3 +81,7 @@ Since handling diverse types of digressions requires considerable effort, look f
 ### Abilities to generate survey/interview summary reports and analytics
 
 It's time consuming to wade through hundreds or thousands of chat transcripts and distill interview insights. When looking for an AI platform to build interview/survey chatbots, you want a platform that can also generate interview insights for fast and easier consumption, e.g., graphs and charts to illustrate trends and patterns of quantitative responses and summary of free-text responses (Image 3.6). Additionally, an AI platform is much more desirable if it can automatically infer and analyze characteristics of survey/interview participants, which can deepen interview insights, such as reliability of the responses (see Images 3.7-3.8 for inferred characteristics of interview/survey participants).
+
+## B﻿uilding Proactive Chatbots
+
+Unlike Q&A-only or interview-only chatbots, proactive chatbots support two-way AI-human conversations, both asking and answering user questions during a chat. They typically are used to automate complex tasks that handle the interleaving of multiple, smaller tasks, such as answering a user's questions in the middle of interviewing the user. These chatbots are essential for automating and scaling services that involve high-touch, complex personal interactions (see the blog on this aspect at <https://juji.io/blog/do-you-really-need-an-ai-chatbot-use-these-3-questions-to-decide/>
