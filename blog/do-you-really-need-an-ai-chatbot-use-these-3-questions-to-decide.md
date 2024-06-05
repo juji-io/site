@@ -4,7 +4,7 @@ featured: true
 title: Do You Really Need an AI Chatbot? Use These 3 Questions to Decide
 date: 2024-06-04T18:10:01.787Z
 author: Jie Lu
-category: Viewpoints
+category: Guides
 tags:
   - AIChatbot
   - GenerativeAI
