@@ -100,4 +100,8 @@ Since proactive AI chatbots leverage generative AI, unavoidably, they face the s
 
 ### P﻿lug-n-play
 
-Building a proactive AI chatbot with interactional intelligence, personal intelligence, and prudence from scratch may require deep AI + IT expertise and cost millions of dollars and multiple years of efforts. When selecting an AI platform for building proactive AI chatbots, make sure to ask who would need to build, customize, operate, and maintain such a chatbot and typically how long it takes to do so.  Built-in AI chatbot templates/assets and fast, no-code customization are always desired (Image 4.4), which in turn significantly impact time-to-value and AI ROI.
+Building a proactive AI chatbot with interactional intelligence, personal intelligence, and prudence from scratch may require deep AI + IT expertise and cost millions of dollars and multiple years of efforts. When selecting an AI platform for building proactive AI chatbots, make sure to ask who would need to build, customize, operate, and maintain such a chatbot and typically how long it takes to do so.  Built-in AI chatbot templates/assets and fast, no-code customization are always desired (Image 4.4), which in turn significantly impact time-to-value and AI ROI. 
+
+## C﻿onclusion
+
+By identifying the right type of chatbots for your business needs and considering the relevant key factors outlined in this article, you should be able to select a conversational AI platform that enables the development of effective chatbots to enhance your service offerings.
