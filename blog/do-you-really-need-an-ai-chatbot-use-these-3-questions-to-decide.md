@@ -4,10 +4,11 @@ featured: true
 title: Do You Really Need an AI Chatbot? Use These 3 Questions to Decide
 date: 2024-06-04T18:10:01.787Z
 author: Jie Lu
-category: Viewpoints
+category: Guides
 tags:
   - AIChatbot
   - GenerativeAI
+  - AI Chatbots
 image: /assets/uploads/blog_do_you_need_ai_chatbot.png
 ---
 With generative AI becoming a hot topic (again), CXOs started adding AI projects, especially implementing an AI chatbot like ChatGPT for business, on their to-do list. While a chatbot powered by generative AI may be a game-changer for business, investing in a chatbot is not cheap nor trivial. So it is worth asking first: does your business really need an AI chatbot? We suggest that business leaders answer the 3 questions below to quickly determine whether it is worth investing in a chatbot for a line of business.
