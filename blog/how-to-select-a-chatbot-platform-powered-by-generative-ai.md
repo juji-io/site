@@ -58,4 +58,26 @@ Handling complex Q&A is a very difficult problem. So you want an AI platform tha
 
 ### Real-time chatbot Q&A monitoring and improvements
 
-AI is far from perfect. When evaluating an AI chatbot platform, you want built-in tools that can monitor your chatbot behavior in real time, alert you with missed  or problematic Q&As, and you can improve chatbot in real time without interrupting any ongoing conversations (read on this
+AI is far from perfect. When evaluating an AI chatbot platform, you want built-in tools that can monitor your chatbot behavior in real time, alert you with missed  or problematic Q&As, and you can improve chatbot in real time without interrupting any ongoing conversations (read more on this aspect at <https://juji.io/blog/q-a-dashboard/>
+
+## B﻿uilding Survey/Interview Chatbots
+
+Building an effective chatbot to ask questions and conduct surveys or interviews requires much more than just compiling a list of questions. Here are 3 critical factors to consider when selecting an AI platform to build a survey/interview chatbot:
+
+### Abilities to elicit quality user responses
+
+The main task of a survey/interview chatbot is to gather quality responses from target users.  When evaluating an AI platform, it is important to look for the following abilities:
+
+* Handling users' irrelevant, nonsense responses. An effective chatbot should recognize user responses that are off-topic or gibberish (Image 3.1), and prompt the user for a more relevant answer. 
+* Managing users' vague or brief responses with follow-up questions. To elicit quality responses, an interview chatbot should do what a human interviewer would: ask follow-up questions to drill-down to details if user responses are vague or brief (Images 3.2-3.3 show how to instruct follow-up question generation and examples of the follow-up questions generated).
+* Question configuration: Not all survey/interview questions are equal: some are to establish rapport, some are required, and some are not. Just like a good survey platform, a good AI platform should allow a chatbot designer to configure each chatbot question, e.g., whether a question is required (Image 3.4).
+
+### Abilities to handle user digressions
+
+Each person has their own unique way of thinking and conversing. Even when there's a set agenda, human-to-human conversations rarely follow it precisely. The same goes for AI-human interviews.  Therefore, your AI chatbot should be able to handle diverse digression situations (see a related link in comment), to bring the conversation back on track and successfully complete a survey/interview.  
+
+Since handling diverse types of digressions requires considerable effort, look for an AI platform that offers automatic, configurable digression handling (Image 3.5),  accelerating time-to-value and AI ROI. 
+
+### Abilities to generate survey/interview summary reports and analytics
+
+It's time consuming to wade through hundreds or thousands of chat transcripts and distill interview insights. When looking for an AI platform to build interview/survey chatbots, you want a platform that can also generate interview insights for fast and easier consumption, e.g., graphs and charts to illustrate trends and patterns of quantitative responses and summary of free-text responses (Image 3.6). Additionally, an AI platform is much more desirable if it can automatically infer and analyze characteristics of survey/interview participants, which can deepen interview insights, such as reliability of the responses (see Images 3.7-3.8 for inferred characteristics of interview/survey participants).
