@@ -74,7 +74,7 @@ The main task of a survey/interview chatbot is to gather quality responses from 
 
 ### Abilities to handle user digressions
 
-Each person has their own unique way of thinking and conversing. Even when there's a set agenda, human-to-human conversations rarely follow it precisely. The same goes for AI-human interviews.  Therefore, your AI chatbot should be able to handle diverse digression situations (see a related link in comment), to bring the conversation back on track and successfully complete a survey/interview.  
+Each person has their own unique way of thinking and conversing. Even when there's a set agenda, human-to-human conversations rarely follow it precisely. The same goes for AI-human interviews.  Therefore, your AI chatbot should be able to handle diverse digression situations, to bring the conversation back on track and successfully complete a survey/interview.  
 
 Since handling diverse types of digressions requires considerable effort, look for an AI platform that offers automatic, configurable digression handling (Image 3.5),  accelerating time-to-value and AI ROI. 
 
