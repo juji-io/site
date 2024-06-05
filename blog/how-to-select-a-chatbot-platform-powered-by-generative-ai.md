@@ -16,7 +16,7 @@ Are you considering an AI chatbot for your business? A simple Google search will
 
 In reality, not every chatbot platform is created equal or is a perfect fit for the tasks you have at hand. For example, many of our customers mentioned to us before they found Juji, they had explored 20+ chatbot platforms but failed to find the one that meets their needs. 
 
-To help you expedite your chatbot platform selection process, in this article we will first identify different types of chatbots for businesses. Then we will dive into each type of chatbot and list the relevant key technical and business factors you should consider when evaluating different AI chatbot platforms for supporting the specific type of chatbot.
+To help you expedite your chatbot platform selection process, in this article we will first identify different types of chatbots based on business needs, and then dive into each type of chatbot, listing the relevant key technical and business factors you should consider when evaluating different AI chatbot platforms for supporting that specific type of chatbot.
 
 ## I﻿dentify the type of chatbot based on your business needs
 
@@ -26,15 +26,15 @@ To select a chatbot platform, the very first step is to understand why you need 
 
 ### 1. Q﻿uestion-Answering Chatbots (QA Chatbots)
 
-The main task for these chatbots is to answer user questions based on public and/or proprietary information. For example, universities may use a chatbot on their website to answer student questions about learning programs (see Image 1.1 below), or hospitals may use a chatbot in their mobile app to answer patient questions on medical services. Very similar to the behavior of #ChatGPT, this type of chatbot is typically driven by user questions and assumes that all questions can be answered in a SINGLE response (see image 3 below for contrasting questions that cannot be answered in one response).
+The main task for these chatbots is to answer user questions based on public and/or proprietary information. For example, universities may use a chatbot on their website to answer student questions about learning programs (see Image 1.1 below), or hospitals may use a chatbot in their mobile app to answer patient questions on medical services. Very similar to the behavior of ChatGPT, this type of chatbot is typically driven by user questions and assumes that all questions can be answered in a SINGLE response,. which is not the case in many real-world applications.
 
 ### 2﻿. Question-Asking Chatbots (Survey/Interview Chatbots)
 
-The main task for these chatbots is to ask user questions and gather information from an intended audience. Very similar to an online survey, this type of chatbot has been used to gather information for research studies, personality assessments, and job interviews (Image 1.2 provides an example of this type of chatbot). Typically, this type of chatbot is NOT capable of answering user questions including clarification questions during the process.
+The main task for these chatbots is to ask user questions and gather information from an intended audience. Very similar to an online survey, this type of chatbot has been used to gather information for research studies, personality assessments, and job interviews (Image 1.2 provides an example of an interview chatbot). Typically, this type of chatbot is NOT capable of answering user questions including clarification questions during the process. 
 
 ### 3﻿. Proactive, Two-Way Conversational Chatbots (Proactive Chatbots)
 
-In real-world applications, chatbots often need to perform multiple tasks simultaneously to deliver desired user experience and accomplish the business objectives. For example, a QA only chatbot on a university website may be inadequate because the same chatbot must also ask visitor questions to gather necessary information before they can answer the visitor questions (see Image 1.3 below). Similarly, a survey only chatbot for job interviews may be unsatisfactory because it must also answer candidate questions regarding the positions and the organization during the interview. This third type of chatbot is a hybrid of the QA and survey chatbots, capable of both asking and answering questions during a conversation, known as Proactive Chatbots. 
+In real-world applications, chatbots often need to perform multiple tasks simultaneously to deliver desired user experience and accomplish the business objectives. For example, a QA only chatbot on a university website may be inadequate because the same chatbot must also ask questions to gather necessary information from the visitors before it can answer their questions (see Image 1.3 below). Similarly, a survey only chatbot for job interviews may be unsatisfactory because it must also answer candidate questions regarding the positions and the organization during the interview. This third type of chatbot is a hybrid of the QA and survey chatbots, capable of both asking and answering questions during a conversation, known as Proactive Chatbots. 
 
 ## B﻿uilding QA Chatbots
 
@@ -49,16 +49,16 @@ A QA chatbot's main job is to answer user questions. When evaluating an AI chatb
 
 ### H﻿andling complex Q&A
 
-Most AI chatbots powered by generative AI can answer simple questions—questions that can be answered with a single response. However, if a business requires a chatbot to handle complex user questions, it is important to evaluate how well an AI chatbot platform can support complex Q&A. In particular, ask the following questions during the evaluation: 
+Most AI chatbots powered by generative AI can answer simple questions—questions that can be answered with a single response. However, if your business requires a chatbot to handle complex user questions, it is important to evaluate how well an AI chatbot platform can support complex Q&A. In particular, ask the following questions during the evaluation: 
 
 * Can your AI platform handle complex Q&A, which involves multi-step interactions between a chatbot and a user (see Image 2.3 below for an example)?
-* Who will define and manage the complex Q&A and how? For example, during a complex Q&A, the user may ask another complex or simple Q&A, how will it be handled?
+* Who will define and manage the complex Q&A and how? For example, during a complex Q&A, the user may trigger another complex or simple Q&A, how will it be handled?
 
 Handling complex Q&A is a very difficult problem. So you want an AI platform that is capable of handling various complex Q&A flows automatically. 
 
 ### Real-time chatbot Q&A monitoring and improvements
 
-AI is far from perfect. When evaluating an AI chatbot platform, you want built-in tools that can monitor your chatbot behavior in real time, alert you with missed  or problematic Q&As, and you can improve chatbot in real time without interrupting any ongoing conversations (read more on this aspect at <https://juji.io/blog/q-a-dashboard/>
+AI is far from perfect. When evaluating an AI chatbot platform, you want built-in tools that can monitor your chatbot behavior in real time, alert you with missed  or problematic Q&As, and you can improve the chatbot in real time without interrupting any ongoing conversations (read more on this aspect at <https://juji.io/blog/q-a-dashboard/>
 
 ## B﻿uilding Survey/Interview Chatbots
 
@@ -84,7 +84,7 @@ It's time consuming to wade through hundreds or thousands of chat transcripts an
 
 ## B﻿uilding Proactive Chatbots
 
-Unlike Q&A-only or interview-only chatbots, proactive chatbots support two-way AI-human conversations, both asking and answering user questions during a chat. They typically are used to automate complex tasks that handle the interleaving of multiple, smaller tasks, such as answering a user's questions in the middle of interviewing the user. These chatbots are essential for automating and scaling services that involve high-touch, complex personal interactions (see the blog on this aspect at <https://juji.io/blog/do-you-really-need-an-ai-chatbot-use-these-3-questions-to-decide/>). Since proactive chatbots are a hybrid of QA chatbots and survey/interview chatbots, all the factors we discussed earlier in this article still apply. However, proactive chatbots are more than a simple combination of two types of chatbots, 4 additional factors should be considered when selecting a conversational AI platform to develop a proactive chatbot.
+Unlike QA-only and survey-only chatbots, proactive chatbots support two-way AI-human conversations, both asking and answering user questions during a chat. They typically are used to automate complex task flows that handle the interleaving of multiple, smaller tasks, such as answering a user's questions in the middle of interviewing the user. These chatbots are essential for automating and scaling services that involve high-touch, complex personal interactions (see the blog on this topic at <https://juji.io/blog/do-you-really-need-an-ai-chatbot-use-these-3-questions-to-decide/>). Since proactive chatbots are a hybrid of QA chatbots and survey/interview chatbots, all the factors we discussed earlier in this article still apply. However, proactive chatbots are more than a simple combination of two types of chatbots, 4 additional factors should be considered when selecting an AI chatbot platform to develop a proactive chatbot.
 
 ### I﻿nteractional intelligence
 
