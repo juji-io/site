@@ -53,3 +53,9 @@ Most AI chatbots powered by generative AI can answer simple questions—question
 
 * Can your AI platform handle complex Q&A, which involves multi-step interactions between a chatbot and a user (see Image 2.3 below for an example)?
 * Who will define and manage the complex Q&A and how? For example, during a complex Q&A, the user may ask another complex or simple Q&A, how will it be handled?
+
+Handling complex Q&A is a very difficult problem. So you want an AI platform that is capable of handling various complex Q&A flows automatically. 
+
+### Real-time chatbot Q&A monitoring and improvements
+
+AI is far from perfect. When evaluating an AI chatbot platform, you want built-in tools that can monitor your chatbot behavior in real time, alert you with missed  or problematic Q&As, and you can improve chatbot in real time without interrupting any ongoing conversations (read on this
