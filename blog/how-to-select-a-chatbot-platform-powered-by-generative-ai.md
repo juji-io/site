@@ -26,7 +26,7 @@ To select a chatbot platform, the very first step is to understand why you need 
 
 ### 1. Q﻿uestion-Answering Chatbots (QA Chatbots)
 
-The main task for these chatbots is to answer user questions based on public and/or proprietary information. For example, universities may use a chatbot on their website to answer student questions about learning programs (see Image 1.1 below), or hospitals may use a chatbot in their mobile app to answer patient questions on medical services. Very similar to the behavior of ChatGPT, this type of chatbot is typically driven by user questions and assumes that all questions can be answered in a SINGLE response,. which is not the case in many real-world applications.
+The main task for these chatbots is to answer user questions based on public and/or proprietary information. For example, universities may use a chatbot on their website to answer student questions about learning programs (see Image 1.1 below), or hospitals may use a chatbot in their mobile app to answer patient questions on medical services. Very similar to the behavior of ChatGPT, this type of chatbot is typically driven by user questions and assumes that all questions can be answered in a SINGLE response, which is not the case in many real-world applications.
 
 ![An example QA chatbot](/assets/uploads/choose_platform_1.1.png "Image 1.1")
 
