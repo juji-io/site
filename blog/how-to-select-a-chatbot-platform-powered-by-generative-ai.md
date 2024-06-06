@@ -122,19 +122,25 @@ Unlike QA-only and survey-only chatbots, proactive chatbots support two-way AI-h
 
 In addition to language skills powered by generative AI (LLMs), a proactive chatbot must also have interactional intelligence that enables it to concentrate on the task at hand while making users feel heard and delivering a pleasant and effective engagement. It actively engages with users, guiding and nudging them to accomplish complex tasks (e.g., tutoring a user to learn a skill or advising a user to come up with an individualized career development plan). It handles user interruptions gracefully and diligently maintains a conversation agenda to ensure task completion (Image 4.1). Most platforms require chatbot designers to manually track and maintain conversation flow in order to handle disruptions or exceptions, which is impractical given the number of potential interruptions that may occur anytime at any depth of a conversation. Thus, it's crucial that a chatbot platform is equipped with built-in interactional intelligence.
 
-
+![Interactional intelligence, handle interruption and stick to the agenda by re-asking the question](/assets/uploads/choose_platform_4.1.png "Image 4.1")
 
 ### P﻿ersonal intelligence
 
 Since a proactive chatbot is meant to automate high-touch services, it is also required to have personal intelligence: the abilities to read between the lines to infer the users' unspoken needs and wants from a conversation, and personalize each interaction accordingly to better guide/persuade the users to make complex decisions or take proper actions. For example, an AI care assistant can infer a patient's motivations and personality and persuade them to adhere to care routines with stories that they can easily relate to and be motivated by (Image 4.2). It is non-trivial to power AI chatbots with personal intelligence, so make sure to ask whether and how your chatbot can acquire personal intelligence when selecting an AI chatbot platform. 
 
+![Personal intelligence, persuade the user with personalized message](/assets/uploads/choose_platform_4.2.png "Image 4.2")
+
 ### P﻿rudence
 
 Since proactive AI chatbots leverage generative AI, unavoidably, they face the same AI safety challenges faced by any other generative AI application. Because of their complex nature and often sensitive use cases (e.g., aiding human essential services in education and healthcare), it is paramount that organizations looking to adopt proactive AI chatbots must have controls and governance tools in place for the safe use of such chatbots. When looking for AI chatbot platforms to build proactive AI chatbots, make sure to ask whether and what kind of AI safety control measures and configurations are in place to ensure safe applications of proactive AI chatbots (Image 4.3).
 
+![Prudence, control measures to ensure AI safety](/assets/uploads/choose_platform_4.3.png "Image 4.3")
+
 ### P﻿lug-n-play
 
 Building a proactive AI chatbot with interactional intelligence, personal intelligence, and prudence from scratch may require deep AI + IT expertise and cost millions of dollars and multiple years of efforts. When selecting an AI platform for building proactive AI chatbots, make sure to ask who would need to build, customize, operate, and maintain such a chatbot and typically how long it takes to do so.  Built-in AI chatbot templates/assets and fast, no-code customization are always desired (Image 4.4), which in turn significantly impact time-to-value and AI ROI. 
+
+![Plug-n-play, built-in templates and AI assistance](/assets/uploads/choose_platform_4.4.png "Image 4.4")
 
 ## C﻿onclusion
 
