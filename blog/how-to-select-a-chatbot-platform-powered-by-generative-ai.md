@@ -40,7 +40,7 @@ The main task for these chatbots is to ask user questions and gather information
 
 ### 3﻿. Proactive, Two-Way Conversational Chatbots (Proactive Chatbots)
 
-In real-world applications, chatbots often need to perform multiple tasks simultaneously to deliver desired user experience and accomplish the business objectives. For example, a QA only chatbot on a university website may be inadequate because the same chatbot must also ask questions to gather necessary information from the visitors before it can answer their questions (see Image 1.3 below). Similarly, a survey only chatbot for job interviews may be unsatisfactory because it must also answer candidate questions regarding the positions and the organization during the interview. This third type of chatbot is a hybrid of the QA and survey chatbots, capable of both asking and answering questions during a conversation, known as Proactive Chatbots. 
+In real-world applications, chatbots often need to perform multiple tasks simultaneously to deliver desired user experience and accomplish the business objectives. For example, a QA-only chatbot on a university website may be inadequate because the same chatbot must also ask questions to gather necessary information from the visitors before it can answer their questions (see Image 1.3 below). Similarly, a survey-only chatbot for job interviews may be unsatisfactory because it must also answer candidate questions regarding the positions and the organization during the interview. This third type of chatbot is a hybrid of the QA and survey chatbots, capable of both asking and answering questions during a conversation, known as Proactive Chatbots. 
 
 ![An example proactive chatbot](/assets/uploads/choose_platform_1.3.png "Image 1.3")
 
