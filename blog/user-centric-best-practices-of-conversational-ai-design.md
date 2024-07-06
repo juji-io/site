@@ -73,9 +73,7 @@ Like in any conversations between strangers, a chatbot should also begin by gree
 
 In human conversations, a good listener often echoes or paraphrases what their conversational partner says. This technique not only demonstrates that they are paying attention but also helps to build rapport and ensures mutual understanding. Similarly, in AI-human interactions, a chatbot should employ the same strategy to make the conversation feel more natural and engaging. 
 
-Juji Studio enables designers to instruct a chatbot to repeat what it hears in two ways:
-
-One way is to extract key information from user input and store it in a custom attribute, which can then be used in a chatbot response to acknowledge the received input or provide context for further conversations. Image 1.4 below demonstrates how to create a custom attribute from user input and use it to tailor a chatbot message. 
+Juji Studio enables designers to instruct a chatbot to repeat what it hears in two ways. One way is to extract key information from user input and store it in a custom attribute, which can then be used in a chatbot response to acknowledge the received input or provide context for further conversations. Image 1.4 below demonstrates how to create a custom attribute from user input and use it to tailor a chatbot message. 
 
 ![Define and use custom attribute to customize chatbot response](/assets/uploads/best_practices_1.4.png "Image 1.4")
 
