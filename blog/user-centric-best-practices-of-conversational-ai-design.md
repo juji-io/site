@@ -141,9 +141,7 @@ In Juji Studio, designers can easily configure a chatbot to detect and acknowled
 
 One of the guidelines to ensure transparency is that a chatbot should be upfront about its purpose and capabilities to set clear expectations and build trust with its users. 
 
-Juji Studio supports designers to do so in two ways:
-
-First, when a designer instructs Juji to generate an AI chatbot, they will be asked to explicitly state the following information: the organization that the chatbot is created for, the target audience of the chatbot, and the purpose of the chatbot (Image 3.1).
+Juji Studio supports designers to do so in two ways. First, when a designer instructs Juji to generate an AI chatbot, they will be asked to explicitly state the following information: the organization that the chatbot is created for, the target audience of the chatbot, and the purpose of the chatbot (Image 3.1).
 
 ![Instruct AI to auto-create the main chat flow including the welcome message by stating the chatbot's purpose and capabilities](/assets/uploads/best_practices_3.1.png "Image 3.1")
 
