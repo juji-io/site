@@ -47,4 +47,12 @@ A chatbot should be honest and clear about its capabilities to set the right use
 3. Suggesting conversation topics to keep the user on track of what the chatbot can do.
 4. Asking for clarification when it fails to understand user input.
 
-A chatbot should be honest and clear about its capabilities to set the right user expectations by:
+In the following sections, we will share design tips on how conversational AI designers can apply these best practices when creating AI chatbots.
+
+## Best Practice Design Tips to Ensure Naturalness
+
+One of the guidelines to ensure transparency is that a chatbot should be upfront about its purpose and capabilities to set clear expectations and build trust with its users. Juji Studio supports a conversational AI designer to do so in two ways:
+
+First, when a conversational AI designer instructs Juji to generate an AI chatbot, they will be asked to explicitly state the following information: the organization that the chatbot is created for, the target audience of the chatbot, and the purpose of the chatbot (Image 1.1). Given this information, Juji automatically generates an AI chatbot including its "Welcome" message (Image 1.2). As displayed in Image 1.2, the generated "Welcome" message, which the chatbot uses to start a conversation with a user, clearly explains the chatbot’s purpose and capabilities, setting the user's expectations. 
+
+Second, experienced conversational AI designers can either craft their own welcome messages or customize the AI-generated message (Image 1.3) to further enforce the AI design best practice of being transparent about the AI's purpose and capabilities.
