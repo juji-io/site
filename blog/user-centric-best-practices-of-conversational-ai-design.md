@@ -143,9 +143,9 @@ In Juji Studio, designers can easily configure a chatbot to detect and acknowled
 
 One of the guidelines to ensure transparency is that a chatbot should be upfront about its purpose and capabilities to set clear expectations and build trust with its users. 
 
-Juji Studio supports a conversational AI designer to do so in two ways:
+Juji Studio supports designers to do so in two ways:
 
-First, when a conversational AI designer instructs Juji to generate an AI chatbot, they will be asked to explicitly state the following information: the organization that the chatbot is created for, the target audience of the chatbot, and the purpose of the chatbot (Image 3.1).
+First, when a designer instructs Juji to generate an AI chatbot, they will be asked to explicitly state the following information: the organization that the chatbot is created for, the target audience of the chatbot, and the purpose of the chatbot (Image 3.1).
 
 ![Instruct AI to auto-create the main chat flow including the welcome message by stating the chatbot's purpose and capabilities](/assets/uploads/best_practices_3.1.png "Image 3.1")
 
@@ -153,14 +153,16 @@ Given this information, Juji automatically generates an AI chatbot including its
 
 ![The auto-generated welcome message describes the chatbot's purpose and capabilities](/assets/uploads/best_practices_3.2.png "Image 3.2")
 
-Second, experienced conversational AI designers can either craft their own welcome messages or customize the AI-generated message (Image 3.3) to further enforce the AI design best practice of being transparent about the AI's purpose and capabilities.
+Second, experienced designers can either craft their own welcome messages or customize the AI-generated message (Image 3.3) to further enforce the AI design best practice of being transparent about the AI's purpose and capabilities.
 
 ![Customize the AI-generated message to further enforce transparency](/assets/uploads/best_practices_3.3.png "Image 3.3")
+
+##  ﻿  
 
 Another guideline to ensure transparency is to keep users informed on what the chatbot can do. This is especially important for proactive chatbots, which are designed to actively guide users to achieve their goals. Here we discuss three scenarios:
 
 * **Suggest Starter Topics to Jump Start User-AI Chat**\
-  When a user meets with a chatbot for the first time, the user might not know what the chatbot can do. It's a good practice for conversational AI designers to teach the chatbot to suggest a hand-picked set of initial/popular topics (Image 3.4). Even better, the starter topics can be dynamically selected based on certain criteria, e.g., suggesting the most popular topics or the newest topics that the chatbot just learned (Image 3.5). Just like the road signs on a map, these starter topics enable users to start their exploration. 
+  When a user meets with a chatbot for the first time, the user might not know what the chatbot can do. It's a good practice for designers to teach the chatbot to suggest a hand-picked set of initial/popular topics (Image 3.4). Even better, the starter topics can be dynamically selected based on certain criteria, e.g., suggesting the most popular topics or the newest topics that the chatbot just learned (Image 3.5). Just like the road signs on a map, these starter topics enable users to start their exploration. 
 
 ![Designer controlled topic suggestions to aid user exploration](/assets/uploads/best_practices_3.4.png "Image 3.4")
 
@@ -178,6 +180,8 @@ Another guideline to ensure transparency is to keep users informed on what the c
 
 ![AI elicits additional user input to better understand user needs and suggest related topics](/assets/uploads/best_practices_3.8.png "Image 3.8")
 
-All the best practices mentioned above are already built into Juji Studio and configurable by conversational AI designers, who can then instill more transparency into their AI chatbots.
+All the best practices mentioned above are already built into Juji Studio and configurable by designers, who can then instill more transparency into their AI chatbots.
+
+#  ﻿  
 
 I﻿n summary, by ensuring naturalness, emotionality, and transparency in your chatbot design, you can create more engaging user experiences, making AI-human interactions more effective and enjoyable. Juji Studio simplifies the design process even for novice conversational AI designers, fostering user trust and satisfaction from the very start of an AI-human engagement.
