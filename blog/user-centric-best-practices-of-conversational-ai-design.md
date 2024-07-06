@@ -129,16 +129,37 @@ One of the guidelines to ensure transparency is that a chatbot should be upfront
 
 Juji Studio supports a conversational AI designer to do so in two ways:
 
-* First, when a conversational AI designer instructs Juji to generate an AI chatbot, they will be asked to explicitly state the following information: the organization that the chatbot is created for, the target audience of the chatbot, and the purpose of the chatbot (Image 3.1). Given this information, Juji automatically generates an AI chatbot including its "Welcome" message (Image 3.2). As displayed in Image 3.2, the generated "Welcome" message, which the chatbot uses to start a conversation with a user, clearly explains the chatbot’s purpose and capabilities, setting the user's expectations. 
-* Second, experienced conversational AI designers can either craft their own welcome messages or customize the AI-generated message (Image 3.3) to further enforce the AI design best practice of being transparent about the AI's purpose and capabilities.
+First, when a conversational AI designer instructs Juji to generate an AI chatbot, they will be asked to explicitly state the following information: the organization that the chatbot is created for, the target audience of the chatbot, and the purpose of the chatbot (Image 3.1).
+
+![Instruct AI to auto-create the main chat flow including the welcome message by stating the chatbot's purpose and capabilities](/assets/uploads/best_practices_3.1.png "Image 3.1")
+
+Given this information, Juji automatically generates an AI chatbot including its "Welcome" message (Image 3.2). As displayed in Image 3.2, the generated "Welcome" message, which the chatbot uses to start a conversation with a user, clearly explains the chatbot’s purpose and capabilities, setting the user's expectations. 
+
+![The auto-generated welcome message describes the chatbot's purpose and capabilities](/assets/uploads/best_practices_3.2.png "Image 3.2")
+
+Second, experienced conversational AI designers can either craft their own welcome messages or customize the AI-generated message (Image 3.3) to further enforce the AI design best practice of being transparent about the AI's purpose and capabilities.
+
+![Customize the AI-generated message to further enforce transparency](/assets/uploads/best_practices_3.3.png "Image 3.3")
 
 Another guideline to ensure transparency is to keep users informed on what the chatbot can do. This is especially important for proactive chatbots, which are designed to actively guide users to achieve their goals. Here we discuss three scenarios:
 
 * **Suggest Starter Topics to Jump Start User-AI Chat**\
   When a user meets with a chatbot for the first time, the user might not know what the chatbot can do. It's a good practice for conversational AI designers to teach the chatbot to suggest a hand-picked set of initial/popular topics (Image 3.4). Even better, the starter topics can be dynamically selected based on certain criteria, e.g., suggesting the most popular topics or the newest topics that the chatbot just learned (Image 3.5). Just like the road signs on a map, these starter topics enable users to start their exploration. 
+
+![Designer controlled topic suggestions to aid user exploration](/assets/uploads/best_practices_3.4.png "Image 3.4")
+
+![AI generated topic suggestions to aid user exploration](/assets/uploads/best_practices_3.5.png "Image 3.5")
+
 * **Suggest Relevant Topics to Enable Users to Learn More**\
   When a user asks a question and a chatbot answers, it is often the case that the user may want to know more about relevant topics. It would be helpful for a proactive AI chatbot to present a few relevant topics after answering the user's question. This enables the user to learn more (Image 3.6). In the case where a user's inquiry is vague and ambiguous, a proactive AI chatbot can suggest relevant topics for the user to clarify their intention (Image 3.7). This approach beats asking a user to rephrase their requests BLINDLY without guidance.
+
+![AI suggests relevant topics following QA](/assets/uploads/best_practices_3.6.png "Image 3.6")
+
+![AI suggests relevant topics to address ambiguous user query](/assets/uploads/best_practices_3.7.png "Image 3.7")
+
 * **Suggest Related Topics to Enable Users to Learn More Deeply**\
   Sometimes, a topic may be complex, involving several sub-topics. In such a case, a proactive AI chatbot could better guide a user to drill down on the specific information more effectively by eliciting additional user input to better understand their needs and then recommend related topics accordingly (Image 3.8).
+
+![AI elicits additional user input to better understand user needs and suggest related topics](/assets/uploads/best_practices_3.8.png "Image 3.8")
 
 All the best practices mentioned above are already built into Juji Studio and configurable by conversational AI designers, who can then instill more transparency into their AI chatbots.
