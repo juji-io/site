@@ -17,7 +17,7 @@ image: /assets/uploads/chatbot_7.jpg
 ---
 Although powerful large language models (LLMs) like GPT can power a chatbot with abilities to interpret and generate response to user input, they do not really teach the chatbot how to carry out an effective and pleasant dialog with a user. Additionally, AI is far from perfect and there are always cases where AI cannot handle or handles wrong. Hence the role of a conversational AI designer is critical as they put their wisdom and creativity into an AI chatbot and ensure effective dialogs between AI and its users.
 
-In the article “[Towards User-Centric Guidelines for Chatbot Conversational Design](https://www.tandfonline.com/doi/full/10.1080/10447318.2022.2118244),” published in the International Journal of Human-Computer Interaction, researchers Geovana Ramos and EDNA DIAS CANEDO at Universidade de Brasília conducted a systematic literature review to uncover best practices in conversational AI design around three areas: 
+In the article “[Towards User-Centric Guidelines for Chatbot Conversational Design](https://www.tandfonline.com/doi/full/10.1080/10447318.2022.2118244),” published in the International Journal of Human-Computer Interaction, researchers Geovana Ramos and Edna Dias Canedo at Universidade de Brasília conducted a systematic literature review to uncover best practices in conversational AI design around three areas: 
 
 ### **N﻿aturalness**
 
