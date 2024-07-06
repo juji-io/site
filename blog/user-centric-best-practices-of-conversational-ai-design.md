@@ -57,27 +57,37 @@ In Juji Studio, one can select from a variety of built-in avatars or upload thei
 
 ![Choose an avatar in chatbot settings and give your chatbot a personality](/assets/uploads/best_practices_1.1.png "Image 1.1")
 
+##  ﻿  
+
 To exhibit the intended personality, a chatbot can use AI to auto-generate its messages based on its personality (Image 1.2). As always, human designers can easily customize or fine-tune AI-generated messages as they see fit. 
 
 ![Auto-generate messages with chatbot personality](/assets/uploads/best_practices_1.2.png "Image 1.2")
+
+##  ﻿  
 
 Like in any conversations between strangers, a chatbot should also begin by greeting a user and introducing itself. As part of the introduction, it is always a good idea for the chatbot to explicitly address the user by their name as well as introduce its own name to kick off a conversation naturally (Image 1.3).
 
 ![Include the user's name and the chatbot's name in the message](/assets/uploads/best_practices_1.3.png "Image 1.3")
 
+##  ﻿  
+
 In human conversations, a good listener often echoes or paraphrases what their conversational partner says. This technique not only demonstrates that they are paying attention but also helps to build rapport and ensures mutual understanding. Similarly, in AI-human interactions, a chatbot should employ the same strategy to make the conversation feel more natural and engaging. 
 
 Juji Studio enables designers to instruct a chatbot to repeat what it hears in two ways:
 
-* One way is to extract key information from user input and store it in a custom attribute, which can then be used in a chatbot response to acknowledge the received input or provide context for further conversations. Image 1.4 below demonstrates how to create a custom attribute from user input and use it to tailor a chatbot message. Image 1.5 showcases this feature in action through an example conversation snippet. 
+One way is to extract key information from user input and store it in a custom attribute, which can then be used in a chatbot response to acknowledge the received input or provide context for further conversations. Image 1.4 below demonstrates how to create a custom attribute from user input and use it to tailor a chatbot message. 
 
 ![Define and use custom attribute to customize chatbot response](/assets/uploads/best_practices_1.4.png "Image 1.4")
 
+Image 1.5 showcases this feature in action through an example conversation snippet. 
+
 ![Echo user input in a customized message](/assets/uploads/best_practices_1.5.png "Image 1.5")
 
-* The second way is to simply enable a chatbot to acknowledge what a user says by auto-generating its response, where Juji built-in prompt instructs the chatbot to repeat what it hears (Image 1.6).
+The second way is to simply enable a chatbot to acknowledge what a user says by auto-generating its response, where Juji built-in prompt instructs the chatbot to repeat what it hears (Image 1.6).
 
 ![Echo user input in an auto-generated message](/assets/uploads/best_practices_1.6.png "Image 1.6")
+
+##  ﻿  
 
 In human conversations, when someone needs to repeat a message or question, they rarely use the exact same wording. Instead, they naturally vary their phrasing to keep the interaction dynamic and engaging, preventing it from sounding monotonous or robotic. Emulating this natural variability is crucial for AI chatbots to create more authentic and human-like interactions.
 
