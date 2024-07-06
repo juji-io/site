@@ -67,4 +67,20 @@ Juji Studio enables designers to instruct a chatbot to repeat what it hears in t
 
 In human conversations, when someone needs to repeat a message or question, they rarely use the exact same wording. Instead, they naturally vary their phrasing to keep the interaction dynamic and engaging, preventing it from sounding monotonous or robotic. Emulating this natural variability is crucial for AI chatbots to create more authentic and human-like interactions.
 
-Juji Studio enables designers to define "paraphrases" for any chatbot message or request, either manually or automatically using Gen AI (Image 1.7). A unique feature of Juji Studio is that it allows designers to use the "only for re-asking" checkbox to distinguish between longer paraphrases that provide context and rationale for a question, and shorter, de-contextualized paraphrases suitable for re-asking the question, ensuring the user isn’t confused by repeated information when the question is re-asked (Image 1.8). Image 1.9 shows how question paraphrases are used in a chat.
+Juji Studio enables designers to define "paraphrases" for any chatbot message or request, either manually or automatically using Gen AI (Image 1.7). A unique feature of Juji Studio is that it allows designers to use the "only for re-asking" checkbox to distinguish between longer paraphrases that provide context and rationale for a question, and shorter, de-contextualized paraphrases suitable for re-asking the question, ensuring the user isn’t confused by repeated information when the question is re-asked (Image 1.8). Image 1.9 shows how question paraphrases are used in a chat. 
+
+## B﻿est Practice Design Tips to Ensure Emotionality
+
+In human-human interactions, emojis convey subtle emotions and add depth to conversations. Similarly, AI can use emojis to express emotional nuances, making interactions feel more personal and relatable. Additionally, AI should interpret emojis in user input to recognize emotional cues and respond accordingly.
+
+In Juji Studio, designers can add emojis to a chatbot’s message by copying and pasting the corresponding Unicode emoji character, e.g., 😊 (Image 2.1). Juji AI can also automatically interpret emojis in user input and generate appropriate responses (Image 2.2). To recognize a specific user emoji and respond with a custom message, create a "trigger" under the “Customize Chatbot Response” section to enable keyword matching with a specific emoji and define a custom response when such an emoji appears (Image 2.3).
+
+Visual elements like images and videos make AI-human conversations more engaging and effective. They provide context, make explanations clearer, and add dynamism to interactions, keeping users engaged and improving their overall experience.
+
+In Juji Studio, designers can incorporate visual elements in two ways: inserting an inline visual element or an independent visual message card. Specifically, designers can insert an image as part of a chatbot message (Image 2.4) or create a “Web Media” card to display images or videos individually or in a carousel (Image 2.5).
+
+Empathy builds deeper connections in human interactions, making individuals feel understood and valued. Similarly, when AI recognizes and responds to user sentiment empathetically, it creates emotional connections, leading to more productive and positive exchanges.
+
+In Juji Studio, designers can easily configure a chatbot to detect and acknowledge user sentiment in a controlled, custom way (Image 2.6), demonstrating AI empathy.
+
+## B﻿est Practice Design Tips to Ensure Transparency
