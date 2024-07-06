@@ -111,13 +111,17 @@ In Juji Studio, designers can add emojis to a chatbot’s message by copying and
 
 ![Add emoji to a chatbot's message](/assets/uploads/best_practices_2.1.png "Image 2.1")
 
-Juji AI can also automatically interpret emojis in user input and generate appropriate responses (Image 2.2). 
+##  ﻿   
+
+Juji AI can automatically interpret emojis in user input and generate appropriate responses (Image 2.2). 
 
 ![Leverage AI to automatically interpret emoji in user input and generate a synthesized response](/assets/uploads/best_practices_2.2.png "Image 2.2")
 
 To recognize a specific user emoji and respond with a custom message, create a "trigger" under the “Customize Chatbot Response” section to enable keyword matching with a specific emoji and define a custom response when such an emoji appears (Image 2.3).
 
 ![Create a trigger to recognize a specific user emoji and generate a custom response](/assets/uploads/best_practices_2.3.png "Image 2.3")
+
+##  ﻿  
 
 Visual elements like images and videos make AI-human conversations more engaging and effective. They provide context, make explanations clearer, and add dynamism to interactions, keeping users engaged and improving their overall experience.
 
@@ -126,6 +130,8 @@ In Juji Studio, designers can incorporate visual elements in two ways: inserting
 ![Add image by uploading](/assets/uploads/best_practices_2.4.png "Image 2.4")
 
 ![Add image or video via URL](/assets/uploads/best_practices_2.5.png "Image 2.5")
+
+##  ﻿  
 
 Empathy builds deeper connections in human interactions, making individuals feel understood and valued. Similarly, when AI recognizes and responds to user sentiment empathetically, it creates emotional connections, leading to more productive and positive exchanges.
 
