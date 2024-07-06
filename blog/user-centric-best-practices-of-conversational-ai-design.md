@@ -19,7 +19,7 @@ Although powerful large language models (LLMs) like GPT can power a chatbot with
 
 In the article “Towards User-Centric Guidelines for Chatbot Conversational Design,” published in the International Journal of Human-Computer Interaction, researchers Geovana Ramos and EDNA DIAS CANEDO at Universidade de Brasília conducted a systematic literature review to uncover best practices in conversational AI design around three areas: 
 
-**N﻿aturalness**
+### **N﻿aturalness**
 
 A chatbot should engage in conversations naturally by:
 
@@ -30,7 +30,7 @@ A chatbot should engage in conversations naturally by:
 5. Conveying information in a conversational, casual tone.
 6. Using alternative ways of saying the same thing, avoiding repetitive messages.
 
-**E﻿motionality**
+### **E﻿motionality**
 
 A chatbot should express and understand emotions to build deeper connections with users by:
 
@@ -38,7 +38,7 @@ A chatbot should express and understand emotions to build deeper connections wit
 2. Showing empathy by adapting responses based on the user’s feelings.
 3. Incorporating humor appropriately.
 
-**Transparency**
+### **Transparency**
 
 A chatbot should be honest and clear about its capabilities to set the right user expectations by:
 
@@ -100,4 +100,4 @@ Another guideline to ensure transparency is to keep users informed on what the c
 * **Suggest Related Topics to Enable Users to Learn More Deeply**\
   Sometimes, a topic may be complex, involving several sub-topics. In such a case, a proactive AI chatbot could better guide a user to drill down on the specific information more effectively by eliciting additional user input to better understand their needs and then recommend related topics accordingly (Image 3.8).
 
-All the three best practices mentioned above are already built into Juji Studio and configurable by conversational AI designers, who can then instill more transparency into their AI chatbots.
+All the best practices mentioned above are already built into Juji Studio and configurable by conversational AI designers, who can then instill more transparency into their AI chatbots.
