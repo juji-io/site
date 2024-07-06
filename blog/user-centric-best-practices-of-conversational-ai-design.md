@@ -89,7 +89,7 @@ The second way is to simply enable a chatbot to acknowledge what a user says by 
 
 In human conversations, when someone needs to repeat a message or question, they rarely use the exact same wording. Instead, they naturally vary their phrasing to keep the interaction dynamic and engaging, preventing it from sounding monotonous or robotic. Emulating this natural variability is crucial for AI chatbots to create more authentic and human-like interactions.
 
-Juji Studio enables designers to define "paraphrases" for any chatbot message or request, either manually or automatically using Gen AI (Image 1.7). 
+Juji Studio enables designers to define "paraphrases" for any chatbot message or request, either manually or automatically using GenAI (Image 1.7). 
 
 ![Generate paraphrases manually or automatically](/assets/uploads/best_practices_1.7.png "Image 1.7")
 
