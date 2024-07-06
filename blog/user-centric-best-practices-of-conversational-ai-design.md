@@ -51,8 +51,20 @@ In the following sections, we will share design tips on how conversational AI de
 
 ## Best Practice Design Tips to Ensure Naturalness
 
-One of the guidelines to ensure transparency is that a chatbot should be upfront about its purpose and capabilities to set clear expectations and build trust with its users. Juji Studio supports a conversational AI designer to do so in two ways:
+One of the guidelines to ensure transparency is that a chatbot should be upfront about its purpose and capabilities to set clear expectations and build trust with its users. 
 
-First, when a conversational AI designer instructs Juji to generate an AI chatbot, they will be asked to explicitly state the following information: the organization that the chatbot is created for, the target audience of the chatbot, and the purpose of the chatbot (Image 1.1). Given this information, Juji automatically generates an AI chatbot including its "Welcome" message (Image 1.2). As displayed in Image 1.2, the generated "Welcome" message, which the chatbot uses to start a conversation with a user, clearly explains the chatbot’s purpose and capabilities, setting the user's expectations. 
+Juji Studio supports a conversational AI designer to do so in two ways:
 
-Second, experienced conversational AI designers can either craft their own welcome messages or customize the AI-generated message (Image 1.3) to further enforce the AI design best practice of being transparent about the AI's purpose and capabilities.
+* First, when a conversational AI designer instructs Juji to generate an AI chatbot, they will be asked to explicitly state the following information: the organization that the chatbot is created for, the target audience of the chatbot, and the purpose of the chatbot (Image 1.1). Given this information, Juji automatically generates an AI chatbot including its "Welcome" message (Image 1.2). As displayed in Image 1.2, the generated "Welcome" message, which the chatbot uses to start a conversation with a user, clearly explains the chatbot’s purpose and capabilities, setting the user's expectations. 
+* Second, experienced conversational AI designers can either craft their own welcome messages or customize the AI-generated message (Image 1.3) to further enforce the AI design best practice of being transparent about the AI's purpose and capabilities. 
+
+In human conversations, a good listener often echoes or paraphrases what their conversational partner says. This technique not only demonstrates that they are paying attention but also helps to build rapport and ensures mutual understanding. Similarly, in AI-human interactions, a chatbot should employ the same strategy to make the conversation feel more natural and engaging. 
+
+Juji Studio enables designers to instruct a chatbot to repeat what it hears in two ways:
+
+* One way is to extract key information from user input and store it in a custom attribute, which can then be used in a chatbot response to acknowledge the received input or provide context for further conversations. Image 1.4 below demonstrates how to create a custom attribute from user input and use it to tailor a chatbot message. Image 1.5 showcases this feature in action through an example conversation snippet.
+*  The second way is to simply enable a chatbot to acknowledge what a user says by auto-generating its response, where Juji built-in prompt instructs the chatbot to repeat what it hears (Image 1.6).
+
+In human conversations, when someone needs to repeat a message or question, they rarely use the exact same wording. Instead, they naturally vary their phrasing to keep the interaction dynamic and engaging, preventing it from sounding monotonous or robotic. Emulating this natural variability is crucial for AI chatbots to create more authentic and human-like interactions.
+
+Juji Studio enables designers to define "paraphrases" for any chatbot message or request, either manually or automatically using Gen AI (Image 1.7). A unique feature of Juji Studio is that it allows designers to use the "only for re-asking" checkbox to distinguish between longer paraphrases that provide context and rationale for a question, and shorter, de-contextualized paraphrases suitable for re-asking the question, ensuring the user isn’t confused by repeated information when the question is re-asked (Image 1.8). Image 1.9 shows how question paraphrases are used in a chat.
