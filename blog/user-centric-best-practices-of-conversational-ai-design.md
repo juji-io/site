@@ -17,7 +17,7 @@ image: /assets/uploads/chatbot_7.jpg
 ---
 Although powerful large language models (LLMs) like GPT can power a chatbot with abilities to interpret and generate response to user input, they do not really teach the chatbot how to carry out an effective and pleasant dialog with a user. Additionally, AI is far from perfect and there are always cases where AI cannot handle or handles wrong. Hence the role of a conversational AI designer is critical as they put their wisdom and creativity into an AI chatbot and ensure effective dialogs between AI and its users.
 
-In the article “[Towards User-Centric Guidelines for Chatbot Conversational Design](https://www.tandfonline.com/doi/full/10.1080/10447318.2022.2118244),” published in the International Journal of Human-Computer Interaction, researchers Geovana Ramos and Edna Dias Canedo at Universidade de Brasília conducted a systematic literature review to uncover best practices in conversational AI design around three areas: 
+In the article “[Towards User-Centric Guidelines for Chatbot Conversational Design](https://www.tandfonline.com/doi/full/10.1080/10447318.2022.2118244),” published in the International Journal of Human-Computer Interaction, researchers Geovana Ramos Sousa Silva and Edna Dias Canedo at Universidade de Brasília conducted a systematic literature review to uncover best practices in conversational AI design around three areas: 
 
 ### **N﻿aturalness**
 
@@ -57,19 +57,19 @@ In Juji Studio, one can select from a variety of built-in avatars or upload thei
 
 ![Choose an avatar in chatbot settings and give your chatbot a personality](/assets/uploads/best_practices_1.1.png "Image 1.1")
 
-##  ﻿  
+## ﻿
 
 To exhibit the intended personality, a chatbot can use AI to auto-generate its messages based on its personality (Image 1.2). As always, human designers can easily customize or fine-tune AI-generated messages as they see fit. 
 
 ![Auto-generate messages with chatbot personality](/assets/uploads/best_practices_1.2.png "Image 1.2")
 
-##  ﻿  
+## ﻿
 
 Like in any conversations between strangers, a chatbot should also begin by greeting a user and introducing itself. As part of the introduction, it is always a good idea for the chatbot to explicitly address the user by their name as well as introduce its own name to kick off a conversation naturally (Image 1.3).
 
 ![Include the user's name and the chatbot's name in the message](/assets/uploads/best_practices_1.3.png "Image 1.3")
 
-##  ﻿  
+## ﻿
 
 In human conversations, a good listener often echoes or paraphrases what their conversational partner says. This technique not only demonstrates that they are paying attention but also helps to build rapport and ensures mutual understanding. Similarly, in AI-human interactions, a chatbot should employ the same strategy to make the conversation feel more natural and engaging. 
 
@@ -85,7 +85,7 @@ The second way is to simply enable a chatbot to acknowledge what a user says by 
 
 ![Echo user input in an auto-generated message](/assets/uploads/best_practices_1.6.png "Image 1.6")
 
-##  ﻿  
+## ﻿
 
 In human conversations, when someone needs to repeat a message or question, they rarely use the exact same wording. Instead, they naturally vary their phrasing to keep the interaction dynamic and engaging, preventing it from sounding monotonous or robotic. Emulating this natural variability is crucial for AI chatbots to create more authentic and human-like interactions.
 
@@ -109,7 +109,7 @@ In Juji Studio, designers can add emojis to a chatbot’s message by copying and
 
 ![Add emoji to a chatbot's message](/assets/uploads/best_practices_2.1.png "Image 2.1")
 
-##  ﻿   
+## ﻿
 
 Juji AI can automatically interpret emojis in user input and generate appropriate responses (Image 2.2). 
 
@@ -119,7 +119,7 @@ To recognize a specific user emoji and respond with a custom message, create a "
 
 ![Create a trigger to recognize a specific user emoji and generate a custom response](/assets/uploads/best_practices_2.3.png "Image 2.3")
 
-##  ﻿  
+## ﻿
 
 Visual elements like images and videos make AI-human conversations more engaging and effective. They provide context, make explanations clearer, and add dynamism to interactions, keeping users engaged and improving their overall experience.
 
@@ -129,7 +129,7 @@ In Juji Studio, designers can incorporate visual elements in two ways: inserting
 
 ![Add image or video via URL](/assets/uploads/best_practices_2.5.png "Image 2.5")
 
-##  ﻿  
+## ﻿
 
 Empathy builds deeper connections in human interactions, making individuals feel understood and valued. Similarly, when AI recognizes and responds to user sentiment empathetically, it creates emotional connections, leading to more productive and positive exchanges.
 
@@ -153,7 +153,7 @@ Second, experienced designers can either craft their own welcome messages or cus
 
 ![Customize the AI-generated message to further enforce transparency](/assets/uploads/best_practices_3.3.png "Image 3.3")
 
-##  ﻿  
+## ﻿
 
 Another guideline to ensure transparency is to keep users informed on what the chatbot can do. This is especially important for proactive chatbots, which are designed to actively guide users to achieve their goals. Here we discuss three scenarios:
 
@@ -178,6 +178,6 @@ Another guideline to ensure transparency is to keep users informed on what the c
 
 All the best practices mentioned above are already built into Juji Studio and configurable by designers, who can then instill more transparency into their AI chatbots.
 
-#  ﻿  
+# ﻿
 
 I﻿n summary, by ensuring naturalness, emotionality, and transparency in your chatbot design, you can create more engaging user experiences, making AI-human interactions more effective and enjoyable. Juji Studio simplifies the design process even for novice conversational AI designers, fostering user trust and satisfaction from the very start of an AI-human engagement.
