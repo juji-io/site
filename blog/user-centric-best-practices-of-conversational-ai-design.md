@@ -2,7 +2,7 @@
 layout: blog/article.njk
 featured: true
 title: User-Centric Best Practices of Conversational AI Design
-date: 2024-07-06T16:12:37.124Z
+date: 2024-07-10T17:16:52.371Z
 author: Jie Lu
 category: Guides
 tags:
