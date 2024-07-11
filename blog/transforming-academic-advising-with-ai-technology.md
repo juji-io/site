@@ -44,7 +44,7 @@ AI can analyze student data to provide advisors with a "cheat sheet" and help th
 
 ## How to Apply NACADA Academic Advising Core Competencies Model to Building AI Advising Assistant
 
-[The National Academic Advising Association (NACADA)](https://nacada.ksu.edu/), the premier association for student success through academic advising in higher education, has developed the [Academic Advising Core Competencies Mode](https://nacada.ksu.edu/Resources/Pillars/CoreCompetencies.aspx)l, to help the professional development of academic advisors. As we look to the future of using AI to augment academic advising, the same framework can also be used to guide the design, implementation, and evaluation of AI Advising Assistants. 
+[The National Academic Advising Association (NACADA)](https://nacada.ksu.edu/), the premier association for student success through academic advising in higher education, has developed the [Academic Advising Core Competencies Model](https://nacada.ksu.edu/Resources/Pillars/CoreCompetencies.aspx), to help the professional development of academic advisors. As we look to the future of using AI to augment academic advising, the same framework can also be used to guide the design, implementation, and evaluation of AI Advising Assistants. 
 
 Below we highlight how to apply each component of this model to AI Advising Assistants.
 
@@ -60,7 +60,7 @@ The informational component encompasses the knowledge that human advisors must a
 
 The relational component lists the skills that human academic advisors must have to deliver effective advising per the above two models. It provides a blueprint for developing and evaluating the functions of an AI Advising Assistant. For example, an AI Advising Assistant should build good relationships with students, and facilitate problem-solving, planning, and decision-making.
 
-### A Reference AI Advising Assistant
+### A Reference AI Advising Assitant
 
 Juji Studio enables organizations like universities to build and operate custom proactive AI chatbots to automate high-touch human interactions like academic advising. Acting as assistants to human academic advisors, the chatbots help establish deeper and more meaningful connections between advisors and students. They reduce the workload of advisors by handling routine information requests, analyzing student data to understand individual strengths, needs, and preferences, and crafting personalized advice. Advisors can focus on developing more effective advising strategies, addressing complex situations, and guiding AI to ensure the quality of its content.
 
