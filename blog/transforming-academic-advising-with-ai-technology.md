@@ -58,7 +58,7 @@ The informational component encompasses the knowledge that human advisors must a
 
 ### 3. Relational Component to Guide Functionality Development and Evaluation
 
-The relational component lists the skills that human academic advisors must have to deliver effective advising per the above two models. It provides a blueprint for developing and evaluating the functions of an AI Advising Assistant. For example, an AI Advising Assistant should build good relationships with students, and facilitate problem-solving, planning, and decision-making.
+The relational component lists the skills that human advisors must have to deliver effective advising per the above two models. It provides a blueprint for developing and evaluating the functions of an AI Advising Assistant. For example, an AI Advising Assistant should build good relationships with students, and facilitate problem-solving, planning, and decision-making.
 
 ### A Reference AI Advising Assitant
 
