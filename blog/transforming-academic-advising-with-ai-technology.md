@@ -60,10 +60,12 @@ The informational component encompasses the knowledge that human advisors must a
 
 The relational component lists the skills that human academic advisors must have to deliver effective advising per the above two models. It provides a blueprint for developing and evaluating the functions of an AI Advising Assistant. For example, an AI Advising Assistant should build good relationships with students, and facilitate problem-solving, planning, and decision-making.
 
-### A Reference AI Advising Assitant
+### A Reference AI Advising Assistant
 
 Juji Studio enables organizations like universities to build and operate custom proactive AI chatbots to automate high-touch human interactions like academic advising. Acting as assistants to human academic advisors, the chatbots help establish deeper and more meaningful connections between advisors and students. They reduce the workload of advisors by handling routine information requests, analyzing student data to understand individual strengths, needs, and preferences, and crafting personalized advice. Advisors can focus on developing more effective advising strategies, addressing complex situations, and guiding AI to ensure the quality of its content.
 
 The images below illustrate a multi-turn conversation between an AI Advising Assistant built using Juji Studio and a student seeking help with their financial situation. Developed based on the Academic Advising Core Competencies Model, the AI Advising Assistant demonstrates its capability to build on previous interactions, actively listen to the student's concerns, and express empathy. The chat showcases how the AI Advising Assistant follows a structured conversation flow to present multiple options to address the problem, provide clear and accurate information, and offer encouragement and collaboration with the student to tackle the issue together.
+
+![Reference AI Advising Assistant](/assets/uploads/ai_advising_assistant.png "A Reference AI Advising Assistant")
 
 By aligning development with the NACADA Academic Advising Core Competencies Model, institutions can ensure that the AI can support advisors in achieving the advising objectives.
