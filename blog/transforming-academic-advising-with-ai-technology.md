@@ -2,7 +2,7 @@
 layout: blog/article.njk
 featured: true
 title: Transforming Academic Advising with AI Technology
-date: 2024-07-11T19:23:19.529Z
+date: 2024-07-15T14:30:56.747Z
 author: Jie Lu
 category: Guides
 tags:
@@ -42,7 +42,7 @@ Advisors often need to prioritize efficiency, focusing on quick solutions rather
 
 AI can analyze student data to provide advisors with a "cheat sheet" and help them identify areas where students need additional guidance, enabling more targeted, in-depth support.
 
-## How to Apply NACADA Academic Advising Core Competencies Model to Building AI Advising Assistant
+## How to Apply NACADA Academic Advising Core Competencies Model to Building AI Advising Assistants
 
 [The National Academic Advising Association (NACADA)](https://nacada.ksu.edu/), the premier association for student success through academic advising in higher education, has developed the [Academic Advising Core Competencies Model](https://nacada.ksu.edu/Resources/Pillars/CoreCompetencies.aspx) to help the professional development of academic advisors. As we look to the future of using AI to augment academic advising, the same framework can also be used to guide the design, implementation, and evaluation of AI Advising Assistants. 
 
@@ -58,7 +58,7 @@ The informational component encompasses the knowledge that human advisors must a
 
 ### 3. Relational Component to Guide Functionality Development and Evaluation
 
-The relational component lists the skills that human advisors must have to deliver effective advising per the above two models. It provides a blueprint for developing and evaluating the functions of an AI Advising Assistant. For example, an AI Advising Assistant should build good relationships with students, and facilitate problem-solving, planning, and decision-making.
+The relational component lists the skills that human advisors must have to deliver effective advising per the above two components. It provides a blueprint for developing and evaluating the functions of an AI Advising Assistant. For example, an AI Advising Assistant should build good relationships with students, and facilitate problem-solving, planning, and decision-making.
 
 ### A Reference AI Advising Assitant
 
