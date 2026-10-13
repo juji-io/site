@@ -11,10 +11,6 @@
     "description": "Stand on top of the mountain and look over the fields",
     "bgclass": "bg-warning"
   },
-  "Study": {
-    "description": "Enhance our understanding of the world",
-    "bgclass": "bg-primary"
-  },
   "Engineering": {
     "description": "See how advanced technology is made simple",
     "bgclass": "bg-info"

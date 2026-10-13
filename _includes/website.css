@@ -507,6 +507,12 @@ header .nav-item {
     padding-left: 40px;
 }
 
+@media (max-width: 991.98px) {
+    header .dropdown-menu[aria-labelledby="resourcesDropdown"] .dropdown-item {
+        white-space: normal;
+    }
+}
+
 header .navbar-brand {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -871,6 +877,48 @@ footer .logo {
     background-repeat: no-repeat;
     background-position: center center;
     color: white;
+}
+
+.acquisition-announcement {
+    margin-top: 94px;
+    min-width: 0;
+    padding: 100px 0;
+}
+
+.announcement-content {
+    max-width: 850px;
+}
+
+.announcement-content p {
+    margin: 24px 0 32px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.announcement-cta {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    padding: 16px 24px;
+    color: white;
+}
+
+.announcement-cta:hover,
+.announcement-cta:focus {
+    background: #006400;
+    color: white;
+    text-decoration: none;
+}
+
+.announcement-cta:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 4px;
+}
+
+@media (max-width: 575.98px) {
+    .acquisition-announcement {
+        padding: 60px 0;
+    }
 }
 
 .interview-study-banner-section {
@@ -2697,6 +2745,9 @@ footer .side-nav {
 }
 
 footer .side-nav .side-nav-list{
+    display: flex;
+    gap: 15px;
+    list-style: none;
     margin:0;
     padding: 0;
     background: transparent;
@@ -2713,17 +2764,18 @@ footer .side-nav .side-nav-list{
 
 footer  .side-nav .side-nav-list li{
     /*display:block;*/
-    display: inline;
+    display: block;
     margin:0;
     padding:0;
     /*margin-bottom:15px;*/
-    margin-right: 15px;
 }
 
 
 footer .side-nav .side-nav-list li .side-nav-item{
-    /*display:block;*/
-    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
     width: 28px;
     height: 28px;
     border-radius: 25px;
@@ -2738,10 +2790,19 @@ footer .side-nav .side-nav-list li .side-nav-item:hover{
 
     /*border: 2px solid white;*/
     cursor: pointer;
+    background-color: #888888;
+}
+
+footer .side-nav-item:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 3px;
 }
 
 footer .social-icon {
-
+    display: block;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 
 

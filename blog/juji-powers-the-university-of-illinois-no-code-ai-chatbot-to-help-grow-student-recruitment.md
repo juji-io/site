@@ -13,7 +13,7 @@ image: /assets/uploads/screen-shot-2024-04-30-at-10.03.36-am.png
 ---
 
 
-[Juji](https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fjuji.io%2F&esheet=52584205&newsitemid=20220224005107&lan=en-US&anchor=Juji+Inc.&index=1&md5=50762b9b87e2d11674a8db9bd2578709) an Artificial Intelligence (AI) company that specializes in powering cognitive AI assistants in the form of chatbots,released a [case study](https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fjuji.io%2Fblog%2Fcase-study-using-juji-cognitive-ai-chatbot-to-scale-student-recruitment-of-online-programs%2F%23article-start&esheet=52584205&newsitemid=20220224005107&lan=en-US&anchor=case+study&index=2&md5=51487fe1d933df592919b9dd33eb66e5), highlighting how a Juji AI chatbot helped the University of Illinois online MBA program (iMBA) to scale out student recruitment.
+[Juji](https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fjuji.io%2F&esheet=52584205&newsitemid=20220224005107&lan=en-US&anchor=Juji+Inc.&index=1&md5=50762b9b87e2d11674a8db9bd2578709) an Artificial Intelligence (AI) company that specializes in powering cognitive AI assistants in the form of chatbots,released a case study, highlighting how a Juji AI chatbot helped the University of Illinois online MBA program (iMBA) to scale out student recruitment.
 
 
 
