@@ -1,13 +1,16 @@
 export default function (request) {
   const url = new URL(request.url);
-  if (url.pathname === "/docs") {
-    url.pathname = "/docs/";
+  const path = url.pathname;
+  const isDocsPath = path === "/docs" || path.startsWith("/docs/");
+  const isPage = !path.endsWith("/") && !path.split("/").pop().includes(".");
+  if (isDocsPath && isPage) {
+    url.pathname += "/";
     return Response.redirect(url, 301);
   }
 }
 
-// Regular Netlify redirect rules match /docs and /docs/ identically.
-// Check the original request path to avoid redirecting /docs/ to itself.
+// Netlify proxies do not add trailing slashes to extensionless page requests.
+// Preserve the slash needed for MkDocs relative assets without redirecting files.
 export const config = {
-  path: ["/docs", "/docs/"],
+  path: ["/docs", "/docs/*"],
 };
