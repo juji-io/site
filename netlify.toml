@@ -1,17 +1,10 @@
 # Deploy juji-io/docs as juji-docs in this Netlify team before publishing.
 # If its project name differs, update the .netlify.app URL below.
 [[redirects]]
-  from = "/docs"
-  to = "/docs/"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/docs/*"
   to = "https://juji-docs.netlify.app/:splat"
   status = 200
   force = true
-
 
 [[headers]]
   for = "/*"
