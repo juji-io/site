@@ -5,6 +5,7 @@ const securityHeaders = {
   "Content-Security-Policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *",
   "X-Frame-Options": "SAMEORIGIN",
   "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": "strict-origin-when-cross-origin",
   "Permissions-Policy": "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
 };
 
