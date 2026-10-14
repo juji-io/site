@@ -1,13 +1,4 @@
-// Netlify's custom header rules do not apply to proxied content or edge responses.
-// Keep these values in sync with the /* header rule in netlify.toml.
-const securityHeaders = {
-  "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
-  "Content-Security-Policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *",
-  "X-Frame-Options": "SAMEORIGIN",
-  "X-Content-Type-Options": "nosniff",
-  "Referrer-Policy": "strict-origin-when-cross-origin",
-  "Permissions-Policy": "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
-};
+import { securityHeaders } from "../security-headers.mjs";
 
 export default async function (request, context) {
   const url = new URL(request.url);

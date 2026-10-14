@@ -37,7 +37,7 @@ date: 2020-10-28T05:24:53.929Z
        <div class="row justify-content-center">
 	 <div class="col-4">
 	   <div class="CTA-btn demo-CTA" id="home-start-chat-btn">
-	     <a href="https://calendly.com/davidjkim/juji-complementary-consult" onclick="trackOutgoingAndRedirect(this); return false;">BOOK A FREE CONSULTING CALL</a>
+	     <a href="https://calendly.com/davidjkim/juji-complementary-consult" data-track-outgoing>BOOK A FREE CONSULTING CALL</a>
 	   </div>
          </div>
        </div>
@@ -138,37 +138,7 @@ date: 2020-10-28T05:24:53.929Z
              style='display:none;'></img>
 </button>  
 <input id='juji-chat-status' type='hidden' value='not chatted'>
-<script>
- window.addEventListener("load", (event) => {
-    var script = document.createElement('script');
-    var minimizedIconWidthAndHeight = 50;
-    script.type = 'text/javascript';
-    script.src = 'https://juji.ai/assets/js/cookielessParent.js';
-    document.head.appendChild(script);
-    script.onload = function(){
-        (function(d, s, id){
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            if (js.readyState) {
-                js.onreadystatechange = function () {
-                    if (js.readyState == 'loaded' || js.readyState == 'complete') {
-                        js.onreadystatechange = null;
-                        updateIframe('https://juji.ai', null, '');
-                        setMinimizedIconSize(minimizedIconWidthAndHeight);
-                    }
-                }
-            } else {
-                js.onload = function () {
-                    updateIframe('https://juji.ai', null, '');
-                    setMinimizedIconSize(minimizedIconWidthAndHeight);
-                }
-            }
-            js.src = 'https://juji.ai/assets/js/webplugin-2.0.0.js';
-       fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'juji-webplugin'));
-    }});
-</script>
+<script src="/assets/js/demo-chatbot.js"></script>
 <div id='juji-chatbot'
         chat_url='https://juji.ai/pre-chat/64770473-3afd-44d2-aa46-456d792907a1?start-chat=false'>
 </div>
